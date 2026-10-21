@@ -1,0 +1,20 @@
+// Upstream: chen-006/meow-ai-arena @ b1893e19d1fe204bbba4e5c36af5b289f2b7b4ad
+// File: tank/bots/half2/gpt-6-astra.cpp, lines 186-201 (1-based)
+// License: MIT; see ../references/meow-ai-arena-LICENSE
+// Context fragment, not a standalone RMTC implementation.
+ int na=pa.a.size(),nb=pb.a.size();float mat[32][32];
+ for(int i=0;i<na;i++)for(int j=0;j<nb;j++)mat[i][j]=value(s,me,pa.a[i],pb.a[j]);
+ // Fictitious play gives a robust mixed policy for the simultaneous-action game.
+ float sa[32]={},sb[32]={};int ca[32]={},cb[32]={};int bi=0,bj=0;
+ for(int it=0;it<160;it++){
+  ca[bi]++;cb[bj]++;
+  for(int i=0;i<na;i++)sa[i]+=mat[i][bj];
+  for(int j=0;j<nb;j++)sb[j]+=mat[bi][j];
+  bi=0;bj=0;for(int i=1;i<na;i++)if(sa[i]>sa[bi])bi=i;for(int j=1;j<nb;j++)if(sb[j]<sb[bj])bj=j;
+ }
+ int sel=0;float bv=-1e20;
+ for(int i=0;i<na;i++){
+  float v=0,w=1e20;for(int j=0;j<nb;j++){v+=mat[i][j]*cb[j]/160.f;w=std::min(w,mat[i][j]);}
+  v=.85f*v+.15f*w;
+  if(v>bv){bv=v;sel=i;}
+ }

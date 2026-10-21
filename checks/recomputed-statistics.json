@@ -1,0 +1,33 @@
+{
+  "ctf": {
+    "rows": 32010,
+    "unique_ids": 32010,
+    "score_equals_captures": true,
+    "fault_counts": 33,
+    "rating_point_max_error": 0.0
+  },
+  "land": {
+    "modes": {
+      "duel": 26400,
+      "melee": 3600
+    }
+  },
+  "diplomacy1": {
+    "phases": 22,
+    "messages": 568,
+    "score_matches": true
+  },
+  "diplomacy2": {
+    "phases": 33,
+    "messages": 839,
+    "score_matches": true
+  },
+  "diplomacy3": {
+    "phases": 50,
+    "messages": 920,
+    "score_matches": true
+  },
+  "warehouse": {
+    "all_within_rounding": true
+  }
+}

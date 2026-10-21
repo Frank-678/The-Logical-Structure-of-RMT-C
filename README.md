@@ -1,17 +1,13 @@
-协作规范
+# RMTC · COMPARISON
 
-使用 AI 辅助开发
+外部项目的规则、实现、实验、可借鉴方法与否决理由。当前参考覆盖 meow-ai-arena 的全部六集和公共平台，不只截图中的夺旗。
 
-使用 AI 生成或修改的代码，应先提交到非 "main" 分支，再通过 Pull Request（PR）合并到 "main"。
+阅读顺序：[总索引](INDEX.md) → [六集总报告](reports/01-six-episodes.md) → [迁移与否决](decisions/reuse-register.md) → [代码摘录](snippets/README.md) → [数据核查](checks/README.md)。
 
-根据改动规模选择合并方式：
+上游以 submodule 固定在 b1893e19d1fe204bbba4e5c36af5b289f2b7b4ad；[版本锁定](sources.lock.json)、[全文件索引](indexes/upstream-inventory.json)、[阅读边界](indexes/reading-coverage.md)。克隆本分支后执行 git submodule update --init --recursive 即可取得完整上游；上游目录Gitlink与.gitmodules配对，不是源码缺失。
 
-- 较大的功能改动：使用 Create a merge commit，保留完整的提交历史。
-- 较小的功能改动：优先使用 Rebase and merge；若无法使用，再考虑 Squash and merge。
+六集入口：[圈地](episodes/01-land.md) · [炸弹人](episodes/02-bomberman.md) · [夺旗](episodes/03-ctf.md) · [外交](episodes/04-diplomacy.md) · [仓储](episodes/05-warehouse.md) · [坦克](episodes/06-tank.md)。
 
-独立开发
+RMTC原始材料与设计在 [ANALYSIS](https://github.com/Frank-678/RoboMaster-Turing-Competition-Beyond-Control/tree/ANALYSIS)。所有策略迁移均需在RMTC验证；当前没有宣称已实现参赛bot。没有另外研究的相近仓库，不列成已读来源。保留 [原协作规范](governance/original-collaboration-guidelines.md)，不改main。
 
-自行编写代码时，按改动的确定程度处理：
-
-- 方案尚未确定或效果有待验证：无论改动大小，都应先提交到非 "main" 分支，验证后再通过 PR 合并。
-- 内容明确且已验证的补丁：可以直接提交到 "main"。
+**私密预备资料：** 本分支不进入其他分支或公开导航；未来公开使用干净历史导出，见 [私密预备约定](governance/private-preparation.md)。

@@ -1,0 +1,232 @@
+{
+  "ctf": {
+    "rows": 32010,
+    "unique_ids": 32010,
+    "per_size": {
+      "2": 1320,
+      "3": 1320,
+      "4": 1320,
+      "5": 1650,
+      "6": 1320,
+      "7": 1540,
+      "8": 1760,
+      "9": 2970,
+      "10": 3300,
+      "11": 3630,
+      "12": 2640,
+      "13": 2860,
+      "14": 3080,
+      "15": 3300
+    },
+    "all_scores_match_captures": true,
+    "appearance_ranges": {
+      "2": [
+        220,
+        220
+      ],
+      "3": [
+        330,
+        330
+      ],
+      "4": [
+        440,
+        440
+      ],
+      "5": [
+        685,
+        690
+      ],
+      "6": [
+        660,
+        660
+      ],
+      "7": [
+        896,
+        903
+      ],
+      "8": [
+        1168,
+        1176
+      ],
+      "9": [
+        2214,
+        2232
+      ],
+      "10": [
+        2740,
+        2760
+      ],
+      "11": [
+        3322,
+        3344
+      ],
+      "12": [
+        2640,
+        2640
+      ],
+      "13": [
+        3094,
+        3107
+      ],
+      "14": [
+        3584,
+        3612
+      ],
+      "15": [
+        4110,
+        4140
+      ]
+    },
+    "max_seat_imbalance": 0,
+    "fault_examples": [
+      {
+        "豆包 Seed 2.1 Turbo#2": 1,
+        "Kimi K3#2": 1
+      },
+      {
+        "GLM 5.3#2": 1,
+        "GPT-6 Astra": 1
+      }
+    ],
+    "fault_game_count": 15,
+    "rating_point_max_error": 0.0,
+    "all_fault_counts": 33
+  },
+  "land": {
+    "rows": 30000,
+    "modes": {
+      "duel": 26400,
+      "melee": 3600
+    },
+    "timeouts": 0,
+    "errors": 0
+  },
+  "bomberman": {
+    "rows": 8930,
+    "per_size": {
+      "5": 1000,
+      "6": 1020,
+      "4": 1000,
+      "10": 1000,
+      "2": 990,
+      "8": 960,
+      "3": 990,
+      "9": 990,
+      "7": 980
+    },
+    "score_identity": true,
+    "last_survivor_not_sole_score_winner": 225
+  },
+  "tank": [
+    {
+      "stage": "halftime",
+      "rows": 10080,
+      "unique_ids": 10080,
+      "maps": 42,
+      "reasons": {
+        "base": 9370,
+        "hp": 266,
+        "kills": 154,
+        "draw": 103,
+        "stars": 128,
+        "both_kills": 47,
+        "both_stars": 9,
+        "both_draw": 1,
+        "fault": 2
+      },
+      "program_hash_mismatches": [],
+      "program_hashes_checked": 16
+    },
+    {
+      "stage": "final",
+      "rows": 14400,
+      "unique_ids": 14400,
+      "maps": 60,
+      "reasons": {
+        "base": 13676,
+        "kills": 184,
+        "both_kills": 88,
+        "draw": 40,
+        "hp": 316,
+        "stars": 62,
+        "both_draw": 13,
+        "both_stars": 21
+      },
+      "program_hash_mismatches": [],
+      "program_hashes_checked": 16
+    },
+    {
+      "stage": "progress",
+      "rows": 3360,
+      "unique_ids": 3360,
+      "maps": 8,
+      "reasons": {
+        "base": 3125,
+        "hp": 90,
+        "kills": 56,
+        "stars": 35,
+        "both_kills": 18,
+        "draw": 34,
+        "both_stars": 2
+      },
+      "program_hash_mismatches": [],
+      "program_hashes_checked": 29
+    }
+  ],
+  "diplomacy1": {
+    "phases": 22,
+    "messages": 568,
+    "reason": "agreed_draw",
+    "centers": {
+      "AUSTRIA": 0,
+      "ENGLAND": 9,
+      "FRANCE": 3,
+      "GERMANY": 7,
+      "ITALY": 6,
+      "RUSSIA": 3,
+      "TURKEY": 6
+    },
+    "score_matches": true
+  },
+  "diplomacy2": {
+    "phases": 33,
+    "messages": 839,
+    "reason": "agreed_draw",
+    "centers": {
+      "AUSTRIA": 0,
+      "ENGLAND": 13,
+      "FRANCE": 0,
+      "GERMANY": 0,
+      "ITALY": 8,
+      "RUSSIA": 9,
+      "TURKEY": 4
+    },
+    "score_matches": true
+  },
+  "diplomacy3": {
+    "phases": 50,
+    "messages": 920,
+    "reason": "victory",
+    "centers": {
+      "AUSTRIA": 0,
+      "ENGLAND": 2,
+      "FRANCE": 6,
+      "GERMANY": 0,
+      "ITALY": 18,
+      "RUSSIA": 8,
+      "TURKEY": 0
+    },
+    "score_matches": true
+  },
+  "warehouse": {
+    "scores_recomputed": {
+      "队A": 71.41,
+      "队B": 56.4,
+      "队C": 77.87,
+      "队D": 70.31,
+      "队E": 20.45,
+      "队F": 90.82
+    },
+    "all_within_rounding": true
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "upstreams": [
+    {
+      "id": "MEOW-01",
+      "url": "https://github.com/chen-006/meow-ai-arena",
+      "commit": "b1893e19d1fe204bbba4e5c36af5b289f2b7b4ad",
+      "submodule": "upstream/meow-ai-arena",
+      "tracked_files": 1078,
+      "bytes": 62793713,
+      "unique_contents": 991,
+      "license": "MIT with exceptions; read upstream README and diplomacy licensing notes"
+    }
+  ],
+  "analysis_branch": "https://github.com/Frank-678/RoboMaster-Turing-Competition-Beyond-Control/tree/ANALYSIS",
+  "review_date": "2026-10-21"
+}

@@ -1,0 +1,448 @@
+{
+  "files": 1078,
+  "bytes": 62793713,
+  "unique_contents": 991,
+  "read_modes": {
+    "complete_utf8_text": 303,
+    "complete_markdown_text": 148,
+    "complete_text_and_python_AST": 108,
+    "complete_gzip_decoded_and_json_parsed": 8,
+    "complete_json_parsed": 246,
+    "complete_text_and_symbol_index": 210,
+    "complete_html_scripts_scanned_embedded_JSON_parsed": 42,
+    "complete_csv_parsed": 2,
+    "complete_jsonl_parsed": 11
+  },
+  "parse_errors": [],
+  "archives": [
+    {
+      "path": "bomberman/appendix/original-2600/games.json.gz",
+      "bytes": 379843,
+      "data": {
+        "type": "array",
+        "items": 2600,
+        "first": {
+          "type": "object",
+          "keys": [
+            "match",
+            "size",
+            "result"
+          ],
+          "items": 3
+        }
+      }
+    },
+    {
+      "path": "bomberman/results/games.json.gz",
+      "bytes": 2135547,
+      "data": {
+        "type": "array",
+        "items": 8930,
+        "first": {
+          "type": "object",
+          "keys": [
+            "match",
+            "size",
+            "result"
+          ],
+          "items": 3
+        }
+      }
+    },
+    {
+      "path": "bomberman/tournament/schedule-2to10.json.gz",
+      "bytes": 137735,
+      "data": {
+        "type": "object",
+        "keys": [
+          "version",
+          "schedule_seed",
+          "baseline_slot",
+          "sizes",
+          "audit",
+          "entries"
+        ],
+        "items": 6
+      }
+    },
+    {
+      "path": "ctf/results/games.jsonl.gz",
+      "bytes": 4985731,
+      "data": {
+        "records": 32010,
+        "first": {
+          "type": "object",
+          "keys": [
+            "id",
+            "size",
+            "map_seed",
+            "seats",
+            "score",
+            "turns",
+            "faults",
+            "max_ms",
+            "stats"
+          ],
+          "items": 9
+        },
+        "last": {
+          "type": "object",
+          "keys": [
+            "id",
+            "size",
+            "map_seed",
+            "seats",
+            "score",
+            "turns",
+            "faults",
+            "max_ms",
+            "stats"
+          ],
+          "items": 9
+        },
+        "keys": {
+          "id": 32010,
+          "size": 32010,
+          "map_seed": 32010,
+          "seats": 32010,
+          "score": 32010,
+          "turns": 32010,
+          "faults": 32010,
+          "max_ms": 32010,
+          "stats": 32010
+        },
+        "status_counts": {}
+      }
+    },
+    {
+      "path": "land/results/games.jsonl.gz",
+      "bytes": 762388,
+      "data": {
+        "records": 30000,
+        "first": {
+          "type": "object",
+          "keys": [
+            "mode",
+            "seed",
+            "names",
+            "winner",
+            "ranks",
+            "areas",
+            "turns",
+            "forfeit",
+            "deaths",
+            "kills",
+            "timeouts",
+            "errors",
+            "max_ms",
+            "key",
+            "swap"
+          ],
+          "items": 15
+        },
+        "last": {
+          "type": "object",
+          "keys": [
+            "mode",
+            "seed",
+            "names",
+            "winner",
+            "ranks",
+            "areas",
+            "turns",
+            "forfeit",
+            "deaths",
+            "kills",
+            "timeouts",
+            "errors",
+            "max_ms",
+            "key"
+          ],
+          "items": 14
+        },
+        "keys": {
+          "mode": 30000,
+          "seed": 30000,
+          "names": 30000,
+          "winner": 30000,
+          "ranks": 30000,
+          "areas": 30000,
+          "turns": 30000,
+          "forfeit": 30000,
+          "deaths": 30000,
+          "kills": 30000,
+          "timeouts": 30000,
+          "errors": 30000,
+          "max_ms": 30000,
+          "key": 30000,
+          "swap": 26400
+        },
+        "status_counts": {}
+      }
+    },
+    {
+      "path": "tank/results/final/结果.jsonl.gz",
+      "bytes": 820068,
+      "data": {
+        "records": 14400,
+        "first": {
+          "type": "object",
+          "keys": [
+            "id",
+            "map",
+            "map_seed",
+            "style",
+            "seats",
+            "winner",
+            "score",
+            "turns",
+            "reason",
+            "sig",
+            "base_hp",
+            "kills",
+            "bots",
+            "seconds",
+            "batch",
+            "session",
+            "slot",
+            "cpus",
+            "time"
+          ],
+          "items": 19
+        },
+        "last": {
+          "type": "object",
+          "keys": [
+            "id",
+            "map",
+            "map_seed",
+            "style",
+            "seats",
+            "winner",
+            "score",
+            "turns",
+            "reason",
+            "sig",
+            "base_hp",
+            "kills",
+            "bots",
+            "seconds",
+            "batch",
+            "session",
+            "slot",
+            "cpus",
+            "time"
+          ],
+          "items": 19
+        },
+        "keys": {
+          "id": 14400,
+          "map": 14400,
+          "map_seed": 14400,
+          "style": 14400,
+          "seats": 14400,
+          "winner": 14400,
+          "score": 14400,
+          "turns": 14400,
+          "reason": 14400,
+          "sig": 14400,
+          "base_hp": 14400,
+          "kills": 14400,
+          "bots": 14400,
+          "seconds": 14400,
+          "batch": 14400,
+          "session": 14400,
+          "slot": 14400,
+          "cpus": 14400,
+          "time": 14400
+        },
+        "status_counts": {
+          "reason=base": 13676,
+          "reason=kills": 184,
+          "reason=both_kills": 88,
+          "reason=draw": 40,
+          "reason=hp": 316,
+          "reason=stars": 62,
+          "reason=both_draw": 13,
+          "reason=both_stars": 21
+        }
+      }
+    },
+    {
+      "path": "tank/results/halftime/结果.jsonl.gz",
+      "bytes": 587427,
+      "data": {
+        "records": 10080,
+        "first": {
+          "type": "object",
+          "keys": [
+            "id",
+            "map",
+            "map_seed",
+            "style",
+            "seats",
+            "winner",
+            "score",
+            "turns",
+            "reason",
+            "sig",
+            "base_hp",
+            "kills",
+            "bots",
+            "seconds",
+            "batch",
+            "session",
+            "slot",
+            "cpus",
+            "time"
+          ],
+          "items": 19
+        },
+        "last": {
+          "type": "object",
+          "keys": [
+            "id",
+            "map",
+            "map_seed",
+            "style",
+            "seats",
+            "winner",
+            "score",
+            "turns",
+            "reason",
+            "sig",
+            "base_hp",
+            "kills",
+            "bots",
+            "seconds",
+            "batch",
+            "session",
+            "slot",
+            "cpus",
+            "time"
+          ],
+          "items": 19
+        },
+        "keys": {
+          "id": 10080,
+          "map": 10080,
+          "map_seed": 10080,
+          "style": 10080,
+          "seats": 10080,
+          "winner": 10080,
+          "score": 10080,
+          "turns": 10080,
+          "reason": 10080,
+          "sig": 10080,
+          "base_hp": 10080,
+          "kills": 10080,
+          "bots": 10080,
+          "seconds": 10080,
+          "batch": 10080,
+          "session": 10080,
+          "slot": 10080,
+          "cpus": 10080,
+          "time": 10080
+        },
+        "status_counts": {
+          "reason=base": 9370,
+          "reason=hp": 266,
+          "reason=kills": 154,
+          "reason=draw": 103,
+          "reason=stars": 128,
+          "reason=both_kills": 47,
+          "reason=both_stars": 9,
+          "reason=both_draw": 1,
+          "reason=fault": 2
+        }
+      }
+    },
+    {
+      "path": "tank/results/progress/结果.jsonl.gz",
+      "bytes": 196374,
+      "data": {
+        "records": 3360,
+        "first": {
+          "type": "object",
+          "keys": [
+            "id",
+            "map",
+            "map_seed",
+            "style",
+            "seats",
+            "winner",
+            "score",
+            "turns",
+            "reason",
+            "sig",
+            "base_hp",
+            "kills",
+            "bots",
+            "seconds",
+            "batch",
+            "session",
+            "slot",
+            "cpus",
+            "time"
+          ],
+          "items": 19
+        },
+        "last": {
+          "type": "object",
+          "keys": [
+            "id",
+            "map",
+            "map_seed",
+            "style",
+            "seats",
+            "winner",
+            "score",
+            "turns",
+            "reason",
+            "sig",
+            "base_hp",
+            "kills",
+            "bots",
+            "seconds",
+            "batch",
+            "session",
+            "slot",
+            "cpus",
+            "time"
+          ],
+          "items": 19
+        },
+        "keys": {
+          "id": 3360,
+          "map": 3360,
+          "map_seed": 3360,
+          "style": 3360,
+          "seats": 3360,
+          "winner": 3360,
+          "score": 3360,
+          "turns": 3360,
+          "reason": 3360,
+          "sig": 3360,
+          "base_hp": 3360,
+          "kills": 3360,
+          "bots": 3360,
+          "seconds": 3360,
+          "batch": 3360,
+          "session": 3360,
+          "slot": 3360,
+          "cpus": 3360,
+          "time": 3360
+        },
+        "status_counts": {
+          "reason=base": 3125,
+          "reason=hp": 90,
+          "reason=kills": 56,
+          "reason=stars": 35,
+          "reason=both_kills": 18,
+          "reason=draw": 34,
+          "reason=both_stars": 2
+        }
+      }
+    }
+  ]
+}

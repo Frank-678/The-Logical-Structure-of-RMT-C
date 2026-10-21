@@ -1,0 +1,11 @@
+// Upstream: chen-006/meow-ai-arena @ b1893e19d1fe204bbba4e5c36af5b289f2b7b4ad
+// File: bomberman/bots/gpt-6-astra.cpp, lines 92-98 (1-based)
+// License: MIT; see ../references/meow-ai-arena-LICENSE
+// Context fragment, not a standalone RMTC implementation.
+ void rebuildGood(){
+  for(int k=0;k<h;k++)fill(good[k],good[k]+CMAX,0);
+  fill(good[h],good[h]+CMAX,1);
+  for(int k=h-1;k>=0;k--)for(int c=0;c<C;c++)if(open[k][c])for(int d=0;d<5;d++){
+   int z=dest(k,c,d);if(safe[k][z]&&good[k+1][z]){good[k][c]=1;break;}
+  }
+ }

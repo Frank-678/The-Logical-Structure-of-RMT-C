@@ -1,0 +1,74 @@
+// Upstream: chen-006/meow-ai-arena @ b1893e19d1fe204bbba4e5c36af5b289f2b7b4ad
+// File: warehouse/submissions/round3/mimo-v2.6-pro__gpt-6-astra/dist.cpp, lines 71-140 (1-based)
+// License: MIT; see ../references/meow-ai-arena-LICENSE
+// Context fragment, not a standalone RMTC implementation.
+    e.epoch=(int)changes.size();
+}
+
+// Remove exactly the old shortest-path DAG vertices whose last predecessor
+// vanished. Then a multi-source Dijkstra repairs their distances and propagates
+// improvements from newly opened cells. Large changes fall back to linear BFS.
+void repair(Entry& e) {
+    if(e.epoch==(int)changes.size()) return;
+    const int limit=max(32,W*H/6);
+    if((int)changes.size()-e.epoch>limit) {rebuild(e);return;}
+    changed.clear(); invalid.clear(); clearRepairQueue(); ++stamp;
+    for(int i=e.epoch;i<(int)changes.size();++i) {
+        int v=changes[i].cell;
+        if(marks[v]!=stamp) {marks[v]=stamp;changed.push_back(v);}
+    }
+    auto& d=e.d;
+    for(int v:changed) if(!walk[v] && v!=e.root && d[v]!=INF) {
+        invalid.emplace_back(d[v],v); d[v]=INF;
+    }
+    for(size_t h=0;h<invalid.size();++h) {
+        auto [old,u]=invalid[h];
+        for(int k=0;k<4;++k) {
+            int v=u+offsets[k];
+            if(!walk[v] || d[v]!=old+1) continue;
+            bool supported=false;
+            for(int j=0;j<4;++j) {
+                int p=v+offsets[j];
+                if((walk[p] || p==e.root) && d[p]==old) {supported=true;break;}
+            }
+            if(!supported) {invalid.emplace_back(d[v],v);d[v]=INF;}
+        }
+        if((int)invalid.size()>limit) {rebuild(e);return;}
+    }
+    auto seed=[&](int v) {
+        if(!walk[v] || v==e.root) return;
+        int best=(e.root<0 && MAP[v/W][v%W]=='C') ? 0 : INF;
+        for(int k=0;k<4;++k) {
+            int p=v+offsets[k];
+            if(walk[p] || p==e.root) best=min(best,d[p]+1);
+        }
+        if(best<d[v]) {
+            d[v]=best;enqueue(best,v);
+        }
+    };
+    for(auto [old,v]:invalid) seed(v);
+    for(int v:changed) seed(v);
+    int count=0;
+    while(minBucket<=maxBucket) {
+        int item=bucketHeads[minBucket];
+        if(item<0) {++minBucket;continue;}
+        int du=minBucket,u=repairQueue[item].vertex;
+        bucketHeads[minBucket]=repairQueue[item].next;
+        if(du!=d[u]) continue;
+        for(int k=0;k<4;++k) {
+            int v=u+offsets[k];
+            if(walk[v] && du+1<d[v]) {
+                d[v]=du+1;enqueue(du+1,v);
+            }
+        }
+        if(++count>limit) {clearRepairQueue();rebuild(e);return;}
+    }
+    e.epoch=(int)changes.size();
+}
+}
+
+void InitDistances() {init();}
+void DistInvalidate(int x,int y) {
+    init();
+    int u=y*W+x;
+    walk[u]=!BLOCKED[u] && MAP[y][x]!='#';

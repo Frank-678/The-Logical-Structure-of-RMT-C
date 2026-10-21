@@ -1,0 +1,221 @@
+{
+  "1a190beb38fbaa32ee26c6ee4d99935d37bd25e8116ab4ef03c4b0d9f69b68d8": [
+    "arena/clock.py",
+    "ctf/workspace/clock.py"
+  ],
+  "4903094c85f081d9e866e5deea03ef01cb2c4bfeea1b705ccc958616970e0b44": [
+    "arena/core.py",
+    "ctf/workspace/core.py"
+  ],
+  "c74ec8b6bd7bcf23e03c4e3c8d600d78574c6e82451b49e4ceefbcdcdc132db9": [
+    "arena/run.cmd",
+    "ctf/workspace/run.cmd"
+  ],
+  "ab06e50dd140890aff42248b49e0f1078458f8359bd7567a712a2056e30812ff": [
+    "arena/run.sh",
+    "ctf/workspace/run.sh"
+  ],
+  "85310277738d0fe16a88ce7e4559cbd139e6b0ca7d808790c5fda11ad08718d4": [
+    "bomberman/workspace/submission/README.md",
+    "land/workspace/submission/README.md"
+  ],
+  "f85bfcfcfa77ab154d76af625be5aab14bd064642ecc26e1404275fe7d7ae7ae": [
+    "community/_example/ctf/chen-006__stand-still/bot.cpp",
+    "ctf/workspace/submission/bot.cpp"
+  ],
+  "08715287f91f232a1ca48594666c2253a032ac9c89cf08f8b97b3d92a9aa31e4": [
+    "community/_example/tank/chen-006__starter/bot.cpp",
+    "tank/workspace/submission/bot.cpp"
+  ],
+  "7bf904e76ab47f445b63d25a5f71fc3d281a7e6812a102922101e784d87145c9": [
+    "community/_example/warehouse/chen-006__kimi-k3-round1/src/common.h",
+    "warehouse/submissions/round1/kimi-k3/common.h"
+  ],
+  "fc4f425356da8b2578ca266de99e772124de2eeabf388903e9a42c34b692c323": [
+    "community/_example/warehouse/chen-006__kimi-k3-round1/src/main.cpp",
+    "warehouse/submissions/round1/kimi-k3/main.cpp"
+  ],
+  "accf1d9a3d31df421081a583006c66d80f6ffc64b6efd44a1fe0db2fb78a8001": [
+    "community/_example/warehouse/chen-006__kimi-k3-round1/src/sim.cpp",
+    "warehouse/submissions/round1/kimi-k3/sim.cpp"
+  ],
+  "8353eabeb816ef8a715bd4f0bbe52081f0ee3e8a1afc3529197cc7f96b8f32b7": [
+    "community/_example/warehouse/chen-006__kimi-k3-round1/src/util.cpp",
+    "warehouse/submissions/round1/kimi-k3/util.cpp"
+  ],
+  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855": [
+    "community/bomberman/.gitkeep",
+    "community/ctf/.gitkeep",
+    "community/land/.gitkeep",
+    "community/tank/.gitkeep",
+    "community/warehouse/.gitkeep"
+  ],
+  "f46e8400e15608d020aa7b252f484557085044002f75e19cb3544040a3b9fe44": [
+    "ctf/appendix/deepseek-tool-comparison/dsh-standard.cpp",
+    "ctf/bots/deepseek-v4.1-flash.cpp"
+  ],
+  "69d22b86df4cd83df1103cf9fd61e52b9d502ba0520e08fe5f0887db72e802c0": [
+    "ctf/appendix/doubao-history/v20_191933_c49dd2cb.cpp",
+    "ctf/bots/doubao-seed-2.1-turbo.cpp"
+  ],
+  "3d4bf31166c15ce29b342be8f6b7bded12012c806b53a60132635fc0a2165ec9": [
+    "diplomacy/referee/RULES.md",
+    "diplomacy/workspace/RULES.md"
+  ],
+  "aa9fb1e90a07f3716b83d313c1096969ae92942e0cd4718aea1f3e588c00c879": [
+    "diplomacy/referee/client.py",
+    "diplomacy/workspace/game.py"
+  ],
+  "4dbe5c600659ee85d81c94e168c4a1b59fd429faad737e6a5065dc2967a4c138": [
+    "diplomacy/referee/simulate.py",
+    "diplomacy/workspace/simulate.py"
+  ],
+  "f7390b1af8f4decd7c454af648725203cc455aae8e391a52baf2b9ccba338f50": [
+    "diplomacy/referee/资料/地图索引.md",
+    "diplomacy/workspace/资料/地图索引.md"
+  ],
+  "48d01f40568902fc82d26964ce91869042bc7b7eb4fe98c0181f6cefbee127ec": [
+    "diplomacy/referee/资料/地图邻接.json",
+    "diplomacy/workspace/资料/地图邻接.json"
+  ],
+  "a36ee1855e3ce27e3d67f7343237936b3e7aa0047e53fc7bacb02b6dc644af36": [
+    "diplomacy/referee/选手操作.md",
+    "diplomacy/workspace/README.md"
+  ],
+  "54cd8653190543f3646b7fd4ba2f33a9a798295b7f90889cafbb4c7bd00e250a": [
+    "tank/bots/half1/haiku-5.5.cpp",
+    "tank/bots/half2/haiku-5.5.cpp"
+  ],
+  "dbc4e9969c5229fc3995215e9932539a11c109698c5b791cc08bb36137364b18": [
+    "tank/bots/half1/mimo-v2.6-pro.cpp",
+    "tank/bots/half2/mimo-v2.6-pro.cpp"
+  ],
+  "4a21366e94d1a00e4b88df5cc912aef88094bfffa93f061705fbfd0e797b84e3": [
+    "tank/bots/half1/muse-wonder-full.cpp",
+    "tank/bots/half2/muse-wonder-full.cpp"
+  ],
+  "c2f9cb7253ae7b08bdd02ef9c23d71e690b463fe4962ec665de1cf4bedd82e1f": [
+    "warehouse/packages/round2/review/SPEC.md",
+    "warehouse/workspace/SPEC.md"
+  ],
+  "365d1cc98eac7ba62508e919693bec1e67bd66e5217c4b0b5a1b8573a4c00a4b": [
+    "warehouse/packages/round2/review/tools/gen.py",
+    "warehouse/workspace/tools/gen.py"
+  ],
+  "3c60edfe447d0080d1d91f6088caef349574eac7f70189036e9a588e063a51e8": [
+    "warehouse/packages/round2/review/tools/measure.py",
+    "warehouse/workspace/tools/measure.py"
+  ],
+  "9653af012729cca104d9db5bdcb4a76339219b16308bf7fb8f8515af1ebcf326": [
+    "warehouse/packages/round3/regression/deepseek-v4.1-flash/slow_fromC_01_eager_unreachable_timeout.out",
+    "warehouse/packages/round3/regression/mimo-v2.6-pro/slow_fromC_01_eager_unreachable_timeout.out"
+  ],
+  "5dfcb756442c06a3ef8c55a9f9dcc9b4cf361ab3714455efcd7a07b003b141e6": [
+    "warehouse/referee/参考实现/v2/eventlog.h",
+    "warehouse/referee/参考实现/v2_变更/eventlog.h",
+    "warehouse/referee/可行性验证/独立实现_按CHANGE/eventlog.h"
+  ],
+  "c7007807c743a08e069a468dba7de7c92073ec5f85815b8fb7b803d9134c03e1": [
+    "warehouse/referee/参考实现/v2/grid.cpp",
+    "warehouse/referee/参考实现/v2_变更/grid.cpp",
+    "warehouse/referee/可行性验证/独立实现_按CHANGE/grid.cpp"
+  ],
+  "bdbd758b14f6ba151b14bfc47f1dc4476f64733511e1a710e9bb9dcd41c563fe": [
+    "warehouse/referee/参考实现/v2/grid.h",
+    "warehouse/referee/参考实现/v2_变更/grid.h",
+    "warehouse/referee/可行性验证/独立实现_按CHANGE/grid.h"
+  ],
+  "d02a878343c53e1585246f20a9550eb5c5a376bcab2022ad99dbe86b7d9cb5bc": [
+    "warehouse/referee/参考实现/v2/main.cpp",
+    "warehouse/referee/参考实现/v2_变更/main.cpp",
+    "warehouse/referee/可行性验证/独立实现_按CHANGE/main.cpp"
+  ],
+  "a5aaf501a85c7cd08272ca068b71a4f84647340d6542c15940840fd309f94e7e": [
+    "warehouse/referee/参考实现/v2/simulator.h",
+    "warehouse/referee/可行性验证/独立实现_按CHANGE/simulator.h"
+  ],
+  "24747a98a6c651213bf2d29df564da03a8fe158e89de416f2a3a2a9d7eff75e9": [
+    "warehouse/results/retest/gpt-6-astra/cases/final1/把用例放在这里.txt",
+    "warehouse/results/retest/gpt-6-astra/cases/final2/把用例放在这里.txt",
+    "warehouse/results/retest/gpt-6-astra/cases/final3/把用例放在这里.txt",
+    "warehouse/results/retest/gpt-6-astra/cases/final5/把用例放在这里.txt",
+    "warehouse/results/retest/gpt-6-astra/cases/final6/把用例放在这里.txt",
+    "warehouse/results/retest/opus-5.5/cases/final2/把用例放在这里.txt",
+    "warehouse/results/retest/opus-5.5/cases/final3/把用例放在这里.txt",
+    "warehouse/results/retest/opus-5.5/cases/final4/把用例放在这里.txt",
+    "warehouse/results/retest/opus-5.5/cases/final5/把用例放在这里.txt",
+    "warehouse/results/retest/opus-5.5/cases/final6/把用例放在这里.txt"
+  ],
+  "02d06027e0cb47ea44552fd82c149afff5727be32ddb94382fd1fae65cb03068": [
+    "warehouse/submissions/round1/gemini-3.8-flash/main.cpp",
+    "warehouse/submissions/round3/gemini-3.8-flash__gpt-6.1-sol/main.cpp"
+  ],
+  "324e5f933576df1f7e926ed280d1261c7917a8f2ecf9d31219e3afc2a721d827": [
+    "warehouse/submissions/round1/glm-5.3/common.h",
+    "warehouse/submissions/round3/glm-5.3__grok-4.7/common.h"
+  ],
+  "cfe8f0e37a0ea6873d9b309ed2960476a742dafb17fdaa44b1ed9fbf5d69d8c2": [
+    "warehouse/submissions/round1/glm-5.3/main.cpp",
+    "warehouse/submissions/round3/glm-5.3__grok-4.7/main.cpp"
+  ],
+  "8c197426dfc60dcba0d9f4eedf8935423565ceef61dc30f63530de8c997c52cd": [
+    "warehouse/submissions/round1/glm-5.3/sim.cpp",
+    "warehouse/submissions/round3/glm-5.3__grok-4.7/sim.cpp"
+  ],
+  "28235577d7e3524d7ee722c316248960687dee8aeded89f8b5aaf31c836ac44a": [
+    "warehouse/submissions/round1/glm-5.3/util.cpp",
+    "warehouse/submissions/round3/glm-5.3__grok-4.7/util.cpp"
+  ],
+  "58e01f9dd97fd170ae6c0ddab82889904253f2d9bbf7bbb79c61990017258b88": [
+    "warehouse/submissions/round2/fable-5.1/deepseek-v4.1-flash/把用例放在这里.txt",
+    "warehouse/submissions/round2/fable-5.1/gemini-3.8-flash/把用例放在这里.txt",
+    "warehouse/submissions/round2/fable-5.1/glm-5.3/把用例放在这里.txt",
+    "warehouse/submissions/round2/fable-5.1/kimi-k3/把用例放在这里.txt",
+    "warehouse/submissions/round2/fable-5.1/mimo-v2.6-pro/把用例放在这里.txt",
+    "warehouse/submissions/round2/gpt-6-astra/deepseek-v4.1-flash/把用例放在这里.txt",
+    "warehouse/submissions/round2/gpt-6-astra/doubao-seed-2.1-turbo/把用例放在这里.txt",
+    "warehouse/submissions/round2/gpt-6-astra/gemini-3.8-flash/把用例放在这里.txt",
+    "warehouse/submissions/round2/gpt-6-astra/glm-5.3/把用例放在这里.txt",
+    "warehouse/submissions/round2/gpt-6-astra/kimi-k3/把用例放在这里.txt",
+    "warehouse/submissions/round2/gpt-6.1-sol/deepseek-v4.1-flash/把用例放在这里.txt",
+    "warehouse/submissions/round2/gpt-6.1-sol/doubao-seed-2.1-turbo/把用例放在这里.txt",
+    "warehouse/submissions/round2/gpt-6.1-sol/glm-5.3/把用例放在这里.txt",
+    "warehouse/submissions/round2/gpt-6.1-sol/kimi-k3/把用例放在这里.txt",
+    "warehouse/submissions/round2/gpt-6.1-sol/mimo-v2.6-pro/把用例放在这里.txt",
+    "warehouse/submissions/round2/grok-4.7/deepseek-v4.1-flash/把用例放在这里.txt",
+    "warehouse/submissions/round2/grok-4.7/doubao-seed-2.1-turbo/把用例放在这里.txt",
+    "warehouse/submissions/round2/grok-4.7/gemini-3.8-flash/把用例放在这里.txt",
+    "warehouse/submissions/round2/grok-4.7/kimi-k3/把用例放在这里.txt",
+    "warehouse/submissions/round2/grok-4.7/mimo-v2.6-pro/把用例放在这里.txt",
+    "warehouse/submissions/round2/opus-5.5/doubao-seed-2.1-turbo/把用例放在这里.txt",
+    "warehouse/submissions/round2/opus-5.5/gemini-3.8-flash/把用例放在这里.txt",
+    "warehouse/submissions/round2/opus-5.5/glm-5.3/把用例放在这里.txt",
+    "warehouse/submissions/round2/opus-5.5/kimi-k3/把用例放在这里.txt",
+    "warehouse/submissions/round2/opus-5.5/mimo-v2.6-pro/把用例放在这里.txt",
+    "warehouse/submissions/round2/sonnet-5.5/deepseek-v4.1-flash/把用例放在这里.txt",
+    "warehouse/submissions/round2/sonnet-5.5/doubao-seed-2.1-turbo/把用例放在这里.txt",
+    "warehouse/submissions/round2/sonnet-5.5/gemini-3.8-flash/把用例放在这里.txt",
+    "warehouse/submissions/round2/sonnet-5.5/glm-5.3/把用例放在这里.txt",
+    "warehouse/submissions/round2/sonnet-5.5/mimo-v2.6-pro/把用例放在这里.txt"
+  ],
+  "a164755f27a01ef21bab0e447585e5c55f7c6fb6a4fff3cd2ebdceb80b1dbf1d": [
+    "warehouse/workspace/baseline/common.h",
+    "warehouse/workspace/src/common.h"
+  ],
+  "789c59e298dedf51895467e1c750ef5316c8a004de4f572c37df9b8beeba0a2b": [
+    "warehouse/workspace/baseline/main.cpp",
+    "warehouse/workspace/src/main.cpp"
+  ],
+  "bcb1ea945d52fb88e1927e87de7f3997a2f8ac154744d7ca762d8223625074fb": [
+    "warehouse/workspace/baseline/old_stuff.cpp",
+    "warehouse/workspace/src/old_stuff.cpp"
+  ],
+  "160fe330ddfd2b96cf110f309d059ac76c327ae0554659d31418dff95f803302": [
+    "warehouse/workspace/baseline/sim.cpp",
+    "warehouse/workspace/src/sim.cpp"
+  ],
+  "a936c0af21216563207053893b2982e5c0cea44eff6c73e04387920cb3278e6b": [
+    "warehouse/workspace/baseline/util.cpp",
+    "warehouse/workspace/src/util.cpp"
+  ]
+}

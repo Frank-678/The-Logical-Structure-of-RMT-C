@@ -1,0 +1,3 @@
+[submodule "upstream/meow-ai-arena"]
+    path = upstream/meow-ai-arena
+    url = https://github.com/chen-006/meow-ai-arena.git
