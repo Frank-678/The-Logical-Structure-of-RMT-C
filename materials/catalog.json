@@ -1,0 +1,110 @@
+[
+  {
+    "id": "PREP-01",
+    "original_filename": "第一次任务.pdf",
+    "path": "materials/original/preparation-01.pdf",
+    "bytes": 4613840,
+    "sha256": "5507e96f9ccdfeb8ca4e7b57bf77c694a2ab09c786d9f3abe9d9933bfa1884b3",
+    "pages": 10,
+    "description": "前三次学习准备：环境、Git",
+    "origin": "用户在本会话提供的附件",
+    "authority": "正式规则/协议优先；检查后续统一书面公告",
+    "extracted_text": "materials/extracted/preparation-01.txt"
+  },
+  {
+    "id": "PREP-02",
+    "original_filename": "第二次任务 · 哈工大威海创新平台.pdf",
+    "path": "materials/original/preparation-02.pdf",
+    "bytes": 1571295,
+    "sha256": "2264d10a224bcc0486b2f0131382c2a9b9bc9a9e08626c366d1154fd5ddb8401",
+    "pages": 8,
+    "description": "前三次学习准备：CMake、LLM 网关",
+    "origin": "用户在本会话提供的附件",
+    "authority": "正式规则/协议优先；检查后续统一书面公告",
+    "extracted_text": "materials/extracted/preparation-02.txt"
+  },
+  {
+    "id": "PREP-03",
+    "original_filename": "第三次任务(1).pdf",
+    "path": "materials/original/preparation-03.pdf",
+    "bytes": 2084707,
+    "sha256": "1bb4a75dd1eeac46ba63fc10fadfcf92d8be7b66f78a8789ff5786b88bc3e574",
+    "pages": 4,
+    "description": "前三次学习准备：ROS 2",
+    "origin": "用户在本会话提供的附件",
+    "authority": "正式规则/协议优先；检查后续统一书面公告",
+    "extracted_text": "materials/extracted/preparation-03.txt"
+  },
+  {
+    "id": "RULES-01",
+    "original_filename": "RMTC 机甲⼤师图灵对决赛赛事规则v1.0(1).pdf",
+    "path": "materials/original/competition-rules-v1.0.pdf",
+    "bytes": 2839040,
+    "sha256": "5390b3e30baa7a341aaff5d4893ac1c59b8edbb6f3c646674bd525d334d4775b",
+    "pages": 23,
+    "description": "本次比赛正式规则",
+    "origin": "用户在本会话提供的附件",
+    "authority": "正式规则/协议优先；检查后续统一书面公告",
+    "extracted_text": "materials/extracted/competition-rules-v1.0.txt"
+  },
+  {
+    "id": "PROTO-01",
+    "original_filename": "RMTC 机甲⼤师图灵对决赛通信协议(1).pdf",
+    "path": "materials/original/communication-protocol.pdf",
+    "bytes": 1664617,
+    "sha256": "b3282fc6274f07ad7024efef9b0322eee9b5d5a2a4b50d3ec5093579b898af5c",
+    "pages": 18,
+    "description": "本次比赛通信协议",
+    "origin": "用户在本会话提供的附件",
+    "authority": "正式规则/协议优先；检查后续统一书面公告",
+    "extracted_text": "materials/extracted/communication-protocol.txt"
+  },
+  {
+    "id": "TUTORIAL-01",
+    "original_filename": "裁判测试端使用教程 (2).pdf",
+    "path": "materials/original/referee-tutorial.pdf",
+    "bytes": 1022100,
+    "sha256": "a03a4bca20547f1fb95b11e4869388326c6cb126ae5f4bd942f0353b1694e1a3",
+    "pages": 9,
+    "description": "本次练习端教程",
+    "origin": "用户在本会话提供的附件",
+    "authority": "正式规则/协议优先；检查后续统一书面公告",
+    "extracted_text": "materials/extracted/referee-tutorial.txt"
+  },
+  {
+    "id": "TRANSCRIPT-ARCHIVE",
+    "original_filename": "2026年10月20日 18点52分等2个文件.zip",
+    "path": "materials/original/briefing-transcripts.zip",
+    "bytes": 26754,
+    "sha256": "c0d4970d697dee64777f749f351f70de94f410e69959bed9438cbe0fceadc42f",
+    "pages": null,
+    "description": "两份已转写 DOCX，没有原始音频",
+    "origin": "用户在本会话提供的附件",
+    "authority": "正式规则/协议优先；检查后续统一书面公告"
+  },
+  {
+    "id": "DIST-01",
+    "original_filename": "dist (1).zip",
+    "path": "materials/original/practice-dist.zip",
+    "bytes": 2086914,
+    "sha256": "7c3de4eec8f0d0c6f3d171cc0d91e1521620b716a818db4e6ba92aed375a4b87",
+    "pages": null,
+    "description": "练习程序发行包，含已编译裁判",
+    "origin": "用户在本会话提供的附件",
+    "authority": "正式规则/协议优先；检查后续统一书面公告"
+  },
+  {
+    "id": "TRANSCRIPT-01",
+    "path": "materials/transcripts/briefing-01.txt",
+    "original_filename": "2026年10月20日 18点52分.docx",
+    "description": "用户提供的现有转写；未回听原音频",
+    "parent": "TRANSCRIPT-ARCHIVE"
+  },
+  {
+    "id": "TRANSCRIPT-02",
+    "path": "materials/transcripts/briefing-02.txt",
+    "original_filename": "周二 19点05分.docx",
+    "description": "用户提供的现有转写；未回听原音频",
+    "parent": "TRANSCRIPT-ARCHIVE"
+  }
+]

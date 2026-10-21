@@ -1,0 +1,18 @@
+{
+  "CONTESTANT_PROTOCOL.md": true,
+  "README.md": true,
+  "bin/referee_node": true,
+  "bin/robot_node": true,
+  "bin/scoring_node": true,
+  "bin/simulator_node": true,
+  "bin/validate_config": true,
+  "config/stage1.json": true,
+  "config/stage2.json": true,
+  "index.html": true,
+  "internal_ros.py": true,
+  "practice.py": true,
+  "rules.txt": true,
+  "start_bot.sh": true,
+  "start_referee.sh": true,
+  "测试使用教程.md": true
+}
