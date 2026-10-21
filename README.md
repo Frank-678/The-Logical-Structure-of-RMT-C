@@ -8,6 +8,7 @@
 |---|---|
 | 原始 8 个附件、6 PDF 共 72 页 | [材料目录](materials/README.md)、[机器索引](materials/catalog.json) |
 | 正式规则与练习配置差异 | [规则基线](docs/02-rulebook.md)、[原始核读](docs/01-source-review.md) |
+| 新增群内答疑：复活选点、席位顺序、有线联调 | [澄清与实现影响](docs/10-rule-clarifications-2026-10-21.md)、[截图转录](materials/addenda/2026-10-21/chat-transcript.md) |
 | 已采纳、否决与待验证方案 | [决策记录](docs/07-decisions-and-open-questions.md) |
 | 对话中形成的结论与修正 | [讨论记录](docs/08-discussion-record.md) |
 | 联调、封存和提交 | [交付清单](docs/06-delivery-and-schedule.md) |

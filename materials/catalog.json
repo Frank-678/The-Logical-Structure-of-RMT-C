@@ -106,5 +106,35 @@
     "original_filename": "周二 19点05分.docx",
     "description": "用户提供的现有转写；未回听原音频",
     "parent": "TRANSCRIPT-ARCHIVE"
+  },
+  {
+    "id": "CHAT-01",
+    "original_filename": "1000136826.jpg",
+    "path": "materials/addenda/2026-10-21/respawn-selection.jpg",
+    "bytes": 157096,
+    "sha256": "a6d0f415960aba69c72e062838d951dd38c334b8a9e626c34a62aa4b3d840ca4",
+    "description": "群内最近合法复活格答疑：初始出生点、曼哈顿距离、方向与席位顺序",
+    "origin": "用户在本会话新增的群聊截图",
+    "received_date": "2026-10-21",
+    "received_timezone": "Asia/Shanghai",
+    "message_date": null,
+    "authority": "群内书面答疑截图；独立规则修订公告及裁判运行一致性尚待确认",
+    "transcript": "materials/addenda/2026-10-21/chat-transcript.md",
+    "analysis": "docs/10-rule-clarifications-2026-10-21.md"
+  },
+  {
+    "id": "CHAT-02",
+    "original_filename": "1000136827.jpg",
+    "path": "materials/addenda/2026-10-21/onsite-network-schedule.jpg",
+    "bytes": 100741,
+    "sha256": "c358914574096d98bf0eb69417562834bc14e81b5c31a2c8d5e0306bec90a49f",
+    "description": "群内全队虚拟机有线联调提醒与原赛程/阶段时长重发",
+    "origin": "用户在本会话新增的群聊截图",
+    "received_date": "2026-10-21",
+    "received_timezone": "Asia/Shanghai",
+    "message_date": null,
+    "authority": "群内书面答疑截图；独立规则修订公告及裁判运行一致性尚待确认",
+    "transcript": "materials/addenda/2026-10-21/chat-transcript.md",
+    "analysis": "docs/10-rule-clarifications-2026-10-21.md"
   }
 ]

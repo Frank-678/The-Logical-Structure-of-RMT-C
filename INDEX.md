@@ -1,6 +1,6 @@
 # 分支文件总索引
 
-全部文件由此跳转，原件哈希和类型见 checks/file-manifest.json。
+全部文件由此跳转，原件哈希和类型见 checks/file-manifest.json。新增群内答疑见[复活选点与现场联调](docs/10-rule-clarifications-2026-10-21.md)。
 
 | 文件 |
 |---|
@@ -26,9 +26,13 @@
 | [docs/07-decisions-and-open-questions.md](<docs/07-decisions-and-open-questions.md>) |
 | [docs/08-discussion-record.md](<docs/08-discussion-record.md>) |
 | [docs/09-implementation-checklist.md](<docs/09-implementation-checklist.md>) |
+| [docs/10-rule-clarifications-2026-10-21.md](<docs/10-rule-clarifications-2026-10-21.md>) |
 | [governance/original-collaboration-guidelines.md](<governance/original-collaboration-guidelines.md>) |
 | [governance/private-preparation.md](<governance/private-preparation.md>) |
 | [materials/README.md](<materials/README.md>) |
+| [materials/addenda/2026-10-21/chat-transcript.md](<materials/addenda/2026-10-21/chat-transcript.md>) |
+| [materials/addenda/2026-10-21/onsite-network-schedule.jpg](<materials/addenda/2026-10-21/onsite-network-schedule.jpg>) |
+| [materials/addenda/2026-10-21/respawn-selection.jpg](<materials/addenda/2026-10-21/respawn-selection.jpg>) |
 | [materials/catalog.json](<materials/catalog.json>) |
 | [materials/extracted/communication-protocol.txt](<materials/extracted/communication-protocol.txt>) |
 | [materials/extracted/competition-rules-v1.0.txt](<materials/extracted/competition-rules-v1.0.txt>) |

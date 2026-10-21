@@ -12,7 +12,11 @@
 | TUTORIAL-01 | [裁判测试教程](materials/original/referee-tutorial.pdf) | 9 页，部署、参考车、自有程序与检录 |
 | TRANSCRIPT-01/02 | [转写一](materials/transcripts/briefing-01.txt)、[转写二](materials/transcripts/briefing-02.txt) | 现有 DOCX 转写，只帮助解释，不覆盖书面规则 |
 | DIST-01 | [发行包](materials/original/practice-dist.zip) | 完整原件；展开版见 materials/practice/rmtc_practice/ |
+| CHAT-01 | [复活选点答疑截图](materials/addenda/2026-10-21/respawn-selection.jpg) | 用户2026-10-21新增；群内HERO-视觉-张庭玮答复；初始出生点、曼哈顿距离、逐层方向顺序、合法落点、席位顺序 |
+| CHAT-02 | [有线联调与赛程截图](materials/addenda/2026-10-21/onsite-network-schedule.jpg) | 同批新增；虚拟机网线提醒；规则赛程与阶段时长重发，未发现截止时间变更 |
+
+两张截图的可见文字见[转录](materials/addenda/2026-10-21/chat-transcript.md)，影响和未决项见[澄清记录](docs/10-rule-clarifications-2026-10-21.md)。收录日期不等于已证实的消息发布日期。
 
 引文约定：规则事实用“来源 ID + 节/页”；程序行为用相对路径和函数；战略推断标为“推论/待测试”。同一段中的计算推导注明所用规则，而不冒称主办方给出了该策略。
 
-正式适用顺序以 RULES-01 §15 为准：正式规则、配套通信协议、统一书面公告；口头讲解和私聊不单独改规则。后续公告未取得，暂列待确认，不自行补造。
+正式适用顺序以 RULES-01 §15 为准：正式规则、配套通信协议、统一书面公告；口头讲解和私聊不单独改规则。已取得上述群内书面答疑截图，但尚未取得独立的规则修订文件或裁判实现证据；其是否纳入统一公告和运行口径仍列待确认。

@@ -7,7 +7,8 @@ root=Path(__file__).resolve().parents[1]
 errors=[]; checked=0
 for p in root.rglob('*.md'):
     rel=p.relative_to(root)
-    if rel.parts[0] in ('materials','upstream'):continue
+    if rel.parts[0]=='upstream':continue
+    if rel.parts[0]=='materials' and rel.parts[1] not in ('addenda','README.md'):continue
     body=re.sub(r'```.*?```|~~~.*?~~~','',p.read_text(),flags=re.S)
     for match in re.finditer(r'!?\[[^\]]*\]\(([^\s]+?)(?:\s+"[^"]*")?\)',body):
         target=match[1].strip('<>');url=urlsplit(target)
