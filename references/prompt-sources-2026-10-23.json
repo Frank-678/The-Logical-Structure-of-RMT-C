@@ -1,0 +1,24 @@
+[
+  {
+    "id": "PROMPT-BLOG-01",
+    "url": "https://www.aneasystone.com/archives/2024/01/prompt-engineering-notes.html",
+    "published": "2024-01-26",
+    "accessed": "2026-10-23",
+    "scope": "正文已读；未复制全文"
+  },
+  {
+    "id": "PAPER-SC-01",
+    "url": "https://arxiv.org/abs/2203.11171v4",
+    "scope": "摘要级核对"
+  },
+  {
+    "id": "PAPER-TOT-01",
+    "url": "https://arxiv.org/abs/2305.10601v2",
+    "scope": "摘要级核对"
+  },
+  {
+    "id": "PAPER-REACT-01",
+    "url": "https://arxiv.org/abs/2210.03629v3",
+    "scope": "主动增加原论文摘要级对照"
+  }
+]

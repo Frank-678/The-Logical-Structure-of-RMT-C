@@ -24,9 +24,9 @@
     },
     {
       "path": "INDEX.md",
-      "bytes": 2804,
-      "sha256": "e885864d075114c7901eb75a3d591ccd5d561be637f6c0e46ddddc02a0240021",
-      "git_blob_sha": "29099050105d42056669c4901939acd8f0da7fe5",
+      "bytes": 3309,
+      "sha256": "0292b2dbadf36a3c9d4e7474fd4d8ff3d44e00ce73a8b1e6f6c18832a8000a9b",
+      "git_blob_sha": "c64bcc2d8f4d073590cb59ac32bbf3b0c0656461",
       "mode": "100644"
     },
     {
@@ -45,9 +45,9 @@
     },
     {
       "path": "README.md",
-      "bytes": 1543,
-      "sha256": "48fbd51389f89af4dbedfa35662ddd88eb9d3f9a5befb5df221b36646e789ba0",
-      "git_blob_sha": "04a786b79734c2137b753fa2b1871ab120563af9",
+      "bytes": 1730,
+      "sha256": "25069e65c99e3cf3ecdb1f9334897e11dce8486c356b41753991847c0634f73f",
+      "git_blob_sha": "210a66d7675f2aa081b7267c931214b1d4cd2565",
       "mode": "100644"
     },
     {
@@ -66,9 +66,9 @@
     },
     {
       "path": "checks/link-check.json",
-      "bytes": 51,
-      "sha256": "c47147826da65540eaecebcd19ce2a1621c27a66cc60f478b8f5f172594e22d8",
-      "git_blob_sha": "d43d10435979ee4115e51f9abb078e81773a563f",
+      "bytes": 166,
+      "sha256": "a82d8757d63ebd2791ee4289e805c3c6ac53d6ec69439f522e367e37899a83d3",
+      "git_blob_sha": "0c9bb01eb121e4f594931594041a85059819f7f7",
       "mode": "100644"
     },
     {
@@ -87,9 +87,9 @@
     },
     {
       "path": "decisions/reuse-register.md",
-      "bytes": 2511,
-      "sha256": "38d8978147633caeab0ed079a4977ff952f581b10c9882b3ac4de08fb6a3984c",
-      "git_blob_sha": "54b7f2e565e2822a4d84f6b1939e1babb3da43c4",
+      "bytes": 3614,
+      "sha256": "608836efd1e84a5654646e6da52ca03cf06add8dd910f7bec70a445f598ee45c",
+      "git_blob_sha": "d87709d965100f1e98d26435e711830caa36eca0",
       "mode": "100644"
     },
     {
@@ -192,9 +192,9 @@
     },
     {
       "path": "references/README.md",
-      "bytes": 1058,
-      "sha256": "69c07869782d039d4b65e18ed480a1b62e14247dbac0c497bd49af9758313d58",
-      "git_blob_sha": "0b65e75299ebe73aa2fc453ddf7004b884317734",
+      "bytes": 1332,
+      "sha256": "ce48b978c58b5ee74a7e90cc15445f511711b8cb584efc85ac992885596d7694",
+      "git_blob_sha": "e677b5e5dfb1ce0e1c6b00b15f8866d441b95492",
       "mode": "100644"
     },
     {
@@ -212,10 +212,24 @@
       "mode": "100644"
     },
     {
+      "path": "references/prompt-discussion-2026-10-23.jpg",
+      "bytes": 110510,
+      "sha256": "868a6687eba3c50ef1cdee384eccd97a7d3d462581379b223f151cf14ae10619",
+      "git_blob_sha": "68743f84845770a604641f1760fe326a19946677",
+      "mode": "100644"
+    },
+    {
+      "path": "references/prompt-sources-2026-10-23.json",
+      "bytes": 603,
+      "sha256": "56576f3efd23d5c04e8eb941e89ad670b6bc8ec7f1a855f9e48d37c312cdc76b",
+      "git_blob_sha": "01a9dcaf7ef3136052989ecab840e93be9712fb2",
+      "mode": "100644"
+    },
+    {
       "path": "reports/01-six-episodes.md",
-      "bytes": 27216,
-      "sha256": "07d078aafdac5258ed7452205df9b8d86a707dd79e107b2ca57f58b277652b2a",
-      "git_blob_sha": "123527fd83fd87e9496416aa0709a32f19bad9a8",
+      "bytes": 27371,
+      "sha256": "a65e85f3fa409481926277e313029e5a80bf1f6690949b96a24d351adfabdb1c",
+      "git_blob_sha": "305d5c0d86c0499d870776e6f423c387e4b2fefe",
       "mode": "100644"
     },
     {
@@ -230,6 +244,20 @@
       "bytes": 1079,
       "sha256": "2361f06b70951fd039442d67ab03be3dcca94e1235a34e8f6f08619013ffc430",
       "git_blob_sha": "3feec5b4ea70a2f2345ce2b98b784503a1e911b2",
+      "mode": "100644"
+    },
+    {
+      "path": "reports/04-v1.1-transfer-update.md",
+      "bytes": 1865,
+      "sha256": "582dcd0641958d3f4450007174c8d45d5076e0e3f2ca532b0413dd8dafe2bb3c",
+      "git_blob_sha": "a0fc935e59533482604e6312f93c0e339ff7deb2",
+      "mode": "100644"
+    },
+    {
+      "path": "reports/05-prompt-harness-review.md",
+      "bytes": 4503,
+      "sha256": "81c386a92588f57cdcde9edbf5060179542deb7e8a070ae9aaa41719e377fab8",
+      "git_blob_sha": "431a12f7cde9b189d73923a4a849a4b3551e7713",
       "mode": "100644"
     },
     {
@@ -269,9 +297,9 @@
     },
     {
       "path": "sources.lock.json",
-      "bytes": 557,
-      "sha256": "22bc4179009517ac0abd675270680a9cfb215c71e762661698a98986c80c778c",
-      "git_blob_sha": "e3e927eb6cfde0b94ed727d18c8521ca7b111dab",
+      "bytes": 1250,
+      "sha256": "a1e22889009fc285a16552c65b251407c9dfd8f8e706ca531fabade79338c4e9",
+      "git_blob_sha": "8883f43ad19f9d8288b85564303132e853c545b8",
       "mode": "100644"
     },
     {

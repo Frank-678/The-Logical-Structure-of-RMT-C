@@ -1,6 +1,6 @@
 # 分支文件总索引
 
-全部文件由此跳转，原件哈希和类型见 checks/file-manifest.json。
+[v1.1迁移影响](reports/04-v1.1-transfer-update.md) · [Prompt与harness](reports/05-prompt-harness-review.md)。全部归档文件如下，哈希见checks/file-manifest.json。
 
 | 文件 |
 |---|
@@ -35,9 +35,13 @@
 | [references/README.md](<references/README.md>) |
 | [references/bilibili-ctf-screenshot.jpg](<references/bilibili-ctf-screenshot.jpg>) |
 | [references/meow-ai-arena-LICENSE](<references/meow-ai-arena-LICENSE>) |
+| [references/prompt-discussion-2026-10-23.jpg](<references/prompt-discussion-2026-10-23.jpg>) |
+| [references/prompt-sources-2026-10-23.json](<references/prompt-sources-2026-10-23.json>) |
 | [reports/01-six-episodes.md](<reports/01-six-episodes.md>) |
 | [reports/02-experiments-and-risks.md](<reports/02-experiments-and-risks.md>) |
 | [reports/03-source-integrity-and-next-steps.md](<reports/03-source-integrity-and-next-steps.md>) |
+| [reports/04-v1.1-transfer-update.md](<reports/04-v1.1-transfer-update.md>) |
+| [reports/05-prompt-harness-review.md](<reports/05-prompt-harness-review.md>) |
 | [snippets/README.md](<snippets/README.md>) |
 | [snippets/bomberman-temporal-safety.cppfrag](<snippets/bomberman-temporal-safety.cppfrag>) |
 | [snippets/manifest.json](<snippets/manifest.json>) |
@@ -48,3 +52,4 @@
 | [tools/recompute_statistics.py](<tools/recompute_statistics.py>) |
 | [tools/scan_upstream.py](<tools/scan_upstream.py>) |
 | [tools/verify_upstream.py](<tools/verify_upstream.py>) |
+| [upstream/meow-ai-arena](<upstream/meow-ai-arena>) |
