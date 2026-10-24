@@ -1,0 +1,110 @@
+{
+  "outer_tar_sha256": "b2e92c20829258a1caf1f2224b8b22f2ca6ce6a2e41a20a6ca5752564ff747f1",
+  "outer_tar_sha_matches": true,
+  "manifest_files_checked": 16,
+  "errors": [],
+  "files": [
+    {
+      "path": "CONTESTANT_PROTOCOL.md",
+      "bytes": 30581,
+      "sha256": "c7f7d4d31faaae316a2722d45715acce38f52bb5de640ae43a18bd4d51b1f89a",
+      "status": "unchanged"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7621,
+      "sha256": "5fed94d60eef0a0f141645e3555340a45613105e1c667f1aeb7057e9be525555",
+      "status": "changed"
+    },
+    {
+      "path": "bin/referee_node",
+      "bytes": 2239624,
+      "sha256": "26850f21fdbb92a2063c49451fb5928e689bbe64cb0c90692a3e693534afcb6c",
+      "status": "changed"
+    },
+    {
+      "path": "bin/robot_node",
+      "bytes": 1769528,
+      "sha256": "09ba71673f0451d07ee4d62d9c5a43085478ae86b0892534cee7ca14bcb5f8aa",
+      "status": "unchanged"
+    },
+    {
+      "path": "bin/scoring_node",
+      "bytes": 1412048,
+      "sha256": "8643de36ec8ae1f071309f07324a334268b520ca169c86991dae784284df74b0",
+      "status": "changed"
+    },
+    {
+      "path": "bin/simulator_node",
+      "bytes": 2067456,
+      "sha256": "2f0157f77cabc5ea80128509913128ae6e26c38c8572dcd2c67ab8427bd5c3e0",
+      "status": "changed"
+    },
+    {
+      "path": "bin/validate_config",
+      "bytes": 1116496,
+      "sha256": "65880a3c77522c949ea005c69e0d7fd65f5ec49476a1e76202dbb86cd246e917",
+      "status": "changed"
+    },
+    {
+      "path": "config/stage1.json",
+      "bytes": 2700,
+      "sha256": "76cb931722c6faa49639288fa5a21704d3390bd52ad2f1d1d95c15acc6e1d285",
+      "status": "unchanged"
+    },
+    {
+      "path": "config/stage2.json",
+      "bytes": 12735,
+      "sha256": "35ef0e02ac17222f2e087845060a281476375564842f49aa3e0cdfbe70ca3f71",
+      "status": "unchanged"
+    },
+    {
+      "path": "index.html",
+      "bytes": 8680,
+      "sha256": "13d6522616056c7d0e4b7b05b655af2a815287ac13ef6c2ee777cd3eeaff70bd",
+      "status": "unchanged"
+    },
+    {
+      "path": "internal_ros.py",
+      "bytes": 1870,
+      "sha256": "fdb46717efda636e494f504856bb0995169328212428e6cf99eaf60dc8ae6e0a",
+      "status": "unchanged"
+    },
+    {
+      "path": "manifest.json",
+      "bytes": 1701,
+      "sha256": "779660cfd4bb000b4cb7e173e7ca5b9a8f0a46d2e62c8c0032a7cf423ece9058",
+      "status": "changed"
+    },
+    {
+      "path": "practice.py",
+      "bytes": 26360,
+      "sha256": "a72f6be6915a75c142298ff1b8f3d1ff2adbe3d763eaa35915747459c0b0d82a",
+      "status": "unchanged"
+    },
+    {
+      "path": "rules.txt",
+      "bytes": 42637,
+      "sha256": "78f26623fce84c5b886ba40bd8f8445ea6dd856154f8e3b031a403ad80c3be48",
+      "status": "unchanged"
+    },
+    {
+      "path": "start_bot.sh",
+      "bytes": 706,
+      "sha256": "ce72be9a7d77d4c0f4af931c8fe4cba78458cb0eeee7ea90b138d8dd3165954a",
+      "status": "unchanged"
+    },
+    {
+      "path": "start_referee.sh",
+      "bytes": 433,
+      "sha256": "25bf328c9e692efea85ba6d53c6b025e3227c1fc0467439e41c1d1b8a960369c",
+      "status": "unchanged"
+    },
+    {
+      "path": "测试使用教程.md",
+      "bytes": 15211,
+      "sha256": "c368307ae0ec7fcd131817c2d73c481b89c9de05b6e1c3c8ceb3076be8a0ff9a",
+      "status": "changed"
+    }
+  ]
+}

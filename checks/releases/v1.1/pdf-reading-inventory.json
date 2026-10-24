@@ -1,0 +1,82 @@
+[
+  {
+    "id": "RULES-02",
+    "pages": 24,
+    "page_characters": [
+      407,
+      518,
+      844,
+      466,
+      862,
+      824,
+      1164,
+      1103,
+      1307,
+      1042,
+      1266,
+      887,
+      1081,
+      1017,
+      883,
+      1102,
+      993,
+      1245,
+      1075,
+      1192,
+      1277,
+      1069,
+      1157,
+      686
+    ],
+    "text_sha256": "830269a8b96308f211f0ddded95232a03e8d3fddfb73a461b7f9261615fccb4d",
+    "reading": "全文文本核读；RULES-02第18页与PROTO-02第8页已渲染核对",
+    "referee_runtime_executed": false
+  },
+  {
+    "id": "PROTO-02",
+    "pages": 19,
+    "page_characters": [
+      479,
+      999,
+      1255,
+      1065,
+      533,
+      1976,
+      2029,
+      1419,
+      1113,
+      1182,
+      1137,
+      1498,
+      1154,
+      1512,
+      1387,
+      1389,
+      1000,
+      1303,
+      691
+    ],
+    "text_sha256": "2aefa14dfc29a60541806f2a64b031794a27127ac61b5ed000458b1d2edac024",
+    "reading": "全文文本核读；RULES-02第18页与PROTO-02第8页已渲染核对",
+    "referee_runtime_executed": false
+  },
+  {
+    "id": "TUTORIAL-02",
+    "pages": 10,
+    "page_characters": [
+      541,
+      945,
+      947,
+      1362,
+      1090,
+      1364,
+      930,
+      1332,
+      1458,
+      324
+    ],
+    "text_sha256": "98b6dc7e09eb5497d260f3113ff3e765b1d0a04847ef310f98c652ecd0384a3b",
+    "reading": "全文文本核读；RULES-02第18页与PROTO-02第8页已渲染核对",
+    "referee_runtime_executed": false
+  }
+]

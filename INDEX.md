@@ -1,6 +1,6 @@
 # 分支文件总索引
 
-全部文件由此跳转，原件哈希和类型见 checks/file-manifest.json。新增群内答疑见[复活选点与现场联调](docs/10-rule-clarifications-2026-10-21.md)。
+[当前v1.1规则迁移](docs/11-v1.1-rule-migration.md) · [发行包核对](docs/12-v1.1-package-audit.md)。全部归档文件如下，哈希见checks/file-manifest.json。
 
 | 文件 |
 |---|
@@ -17,6 +17,12 @@
 | [checks/materials-verification.json](<checks/materials-verification.json>) |
 | [checks/original-package-integrity.json](<checks/original-package-integrity.json>) |
 | [checks/pdf-extraction-inventory.json](<checks/pdf-extraction-inventory.json>) |
+| [checks/releases/v1.1/package-diff.json](<checks/releases/v1.1/package-diff.json>) |
+| [checks/releases/v1.1/pdf-reading-inventory.json](<checks/releases/v1.1/pdf-reading-inventory.json>) |
+| [checks/releases/v1.1/protocol.diff](<checks/releases/v1.1/protocol.diff>) |
+| [checks/releases/v1.1/rules.diff](<checks/releases/v1.1/rules.diff>) |
+| [checks/releases/v1.1/scoring-examples.json](<checks/releases/v1.1/scoring-examples.json>) |
+| [checks/releases/v1.1/tutorial.diff](<checks/releases/v1.1/tutorial.diff>) |
 | [docs/01-source-review.md](<docs/01-source-review.md>) |
 | [docs/02-rulebook.md](<docs/02-rulebook.md>) |
 | [docs/03-tradeoffs.md](<docs/03-tradeoffs.md>) |
@@ -27,12 +33,19 @@
 | [docs/08-discussion-record.md](<docs/08-discussion-record.md>) |
 | [docs/09-implementation-checklist.md](<docs/09-implementation-checklist.md>) |
 | [docs/10-rule-clarifications-2026-10-21.md](<docs/10-rule-clarifications-2026-10-21.md>) |
+| [docs/11-v1.1-rule-migration.md](<docs/11-v1.1-rule-migration.md>) |
+| [docs/12-v1.1-package-audit.md](<docs/12-v1.1-package-audit.md>) |
 | [governance/original-collaboration-guidelines.md](<governance/original-collaboration-guidelines.md>) |
 | [governance/private-preparation.md](<governance/private-preparation.md>) |
 | [materials/README.md](<materials/README.md>) |
 | [materials/addenda/2026-10-21/chat-transcript.md](<materials/addenda/2026-10-21/chat-transcript.md>) |
 | [materials/addenda/2026-10-21/onsite-network-schedule.jpg](<materials/addenda/2026-10-21/onsite-network-schedule.jpg>) |
 | [materials/addenda/2026-10-21/respawn-selection.jpg](<materials/addenda/2026-10-21/respawn-selection.jpg>) |
+| [materials/addenda/2026-10-23/chat-transcript.md](<materials/addenda/2026-10-23/chat-transcript.md>) |
+| [materials/addenda/2026-10-23/prompt-discussion.jpg](<materials/addenda/2026-10-23/prompt-discussion.jpg>) |
+| [materials/addenda/2026-10-23/qa-announcement.jpg](<materials/addenda/2026-10-23/qa-announcement.jpg>) |
+| [materials/addenda/2026-10-23/scoring-announcement.jpg](<materials/addenda/2026-10-23/scoring-announcement.jpg>) |
+| [materials/addenda/2026-10-23/source-access.json](<materials/addenda/2026-10-23/source-access.json>) |
 | [materials/catalog.json](<materials/catalog.json>) |
 | [materials/extracted/communication-protocol.txt](<materials/extracted/communication-protocol.txt>) |
 | [materials/extracted/competition-rules-v1.0.txt](<materials/extracted/competition-rules-v1.0.txt>) |
@@ -66,9 +79,37 @@
 | [materials/practice/rmtc_practice/start_bot.sh](<materials/practice/rmtc_practice/start_bot.sh>) |
 | [materials/practice/rmtc_practice/start_referee.sh](<materials/practice/rmtc_practice/start_referee.sh>) |
 | [materials/practice/rmtc_practice/测试使用教程.md](<materials/practice/rmtc_practice/测试使用教程.md>) |
+| [materials/releases/v1.1/README.md](<materials/releases/v1.1/README.md>) |
+| [materials/releases/v1.1/extracted/protocol.txt](<materials/releases/v1.1/extracted/protocol.txt>) |
+| [materials/releases/v1.1/extracted/rules.txt](<materials/releases/v1.1/extracted/rules.txt>) |
+| [materials/releases/v1.1/extracted/tutorial.txt](<materials/releases/v1.1/extracted/tutorial.txt>) |
+| [materials/releases/v1.1/original/communication-protocol-v1.1.pdf](<materials/releases/v1.1/original/communication-protocol-v1.1.pdf>) |
+| [materials/releases/v1.1/original/competition-rules-v1.1.pdf](<materials/releases/v1.1/original/competition-rules-v1.1.pdf>) |
+| [materials/releases/v1.1/original/practice-dist.zip](<materials/releases/v1.1/original/practice-dist.zip>) |
+| [materials/releases/v1.1/original/referee-tutorial-v1.1.pdf](<materials/releases/v1.1/original/referee-tutorial-v1.1.pdf>) |
+| [materials/releases/v1.1/practice/outer-test-tutorial.md](<materials/releases/v1.1/practice/outer-test-tutorial.md>) |
+| [materials/releases/v1.1/practice/rmtc_practice.sha256](<materials/releases/v1.1/practice/rmtc_practice.sha256>) |
+| [materials/releases/v1.1/practice/rmtc_practice/CONTESTANT_PROTOCOL.md](<materials/releases/v1.1/practice/rmtc_practice/CONTESTANT_PROTOCOL.md>) |
+| [materials/releases/v1.1/practice/rmtc_practice/README.md](<materials/releases/v1.1/practice/rmtc_practice/README.md>) |
+| [materials/releases/v1.1/practice/rmtc_practice/bin/referee_node](<materials/releases/v1.1/practice/rmtc_practice/bin/referee_node>) |
+| [materials/releases/v1.1/practice/rmtc_practice/bin/robot_node](<materials/releases/v1.1/practice/rmtc_practice/bin/robot_node>) |
+| [materials/releases/v1.1/practice/rmtc_practice/bin/scoring_node](<materials/releases/v1.1/practice/rmtc_practice/bin/scoring_node>) |
+| [materials/releases/v1.1/practice/rmtc_practice/bin/simulator_node](<materials/releases/v1.1/practice/rmtc_practice/bin/simulator_node>) |
+| [materials/releases/v1.1/practice/rmtc_practice/bin/validate_config](<materials/releases/v1.1/practice/rmtc_practice/bin/validate_config>) |
+| [materials/releases/v1.1/practice/rmtc_practice/config/stage1.json](<materials/releases/v1.1/practice/rmtc_practice/config/stage1.json>) |
+| [materials/releases/v1.1/practice/rmtc_practice/config/stage2.json](<materials/releases/v1.1/practice/rmtc_practice/config/stage2.json>) |
+| [materials/releases/v1.1/practice/rmtc_practice/index.html](<materials/releases/v1.1/practice/rmtc_practice/index.html>) |
+| [materials/releases/v1.1/practice/rmtc_practice/internal_ros.py](<materials/releases/v1.1/practice/rmtc_practice/internal_ros.py>) |
+| [materials/releases/v1.1/practice/rmtc_practice/manifest.json](<materials/releases/v1.1/practice/rmtc_practice/manifest.json>) |
+| [materials/releases/v1.1/practice/rmtc_practice/practice.py](<materials/releases/v1.1/practice/rmtc_practice/practice.py>) |
+| [materials/releases/v1.1/practice/rmtc_practice/rules.txt](<materials/releases/v1.1/practice/rmtc_practice/rules.txt>) |
+| [materials/releases/v1.1/practice/rmtc_practice/start_bot.sh](<materials/releases/v1.1/practice/rmtc_practice/start_bot.sh>) |
+| [materials/releases/v1.1/practice/rmtc_practice/start_referee.sh](<materials/releases/v1.1/practice/rmtc_practice/start_referee.sh>) |
+| [materials/releases/v1.1/practice/rmtc_practice/测试使用教程.md](<materials/releases/v1.1/practice/rmtc_practice/测试使用教程.md>) |
 | [materials/transcripts/briefing-01.txt](<materials/transcripts/briefing-01.txt>) |
 | [materials/transcripts/briefing-02.txt](<materials/transcripts/briefing-02.txt>) |
 | [materials/transcripts/original/briefing-01.docx](<materials/transcripts/original/briefing-01.docx>) |
 | [materials/transcripts/original/briefing-02.docx](<materials/transcripts/original/briefing-02.docx>) |
 | [scripts/check_links.py](<scripts/check_links.py>) |
+| [scripts/check_v11_scoring.py](<scripts/check_v11_scoring.py>) |
 | [scripts/verify_materials.py](<scripts/verify_materials.py>) |

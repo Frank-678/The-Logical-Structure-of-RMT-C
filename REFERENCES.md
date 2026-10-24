@@ -1,5 +1,7 @@
 # 来源和引用索引
 
+当前基线：[RULES-02规则v1.1](materials/releases/v1.1/original/competition-rules-v1.1.pdf)24页（§5.2第13页、§7第14页、§8第15–17页、§10第17–18页）；[PROTO-02协议](materials/releases/v1.1/original/communication-protocol-v1.1.pdf)19页（§3第8页、§3.1第11页、§4第12页）；[TUTORIAL-02教程](materials/releases/v1.1/original/referee-tutorial-v1.1.pdf)10页（计分第5页、真实AI第6页、提交第10页）；[DIST-02新包](materials/releases/v1.1/original/practice-dist.zip)。CHAT-03/04/05见[新转录](materials/addenda/2026-10-23/chat-transcript.md)。[QA-01](https://www.kdocs.cn/l/chvoGhq4hclu?f=301)要求登录，正文未读；Excel仅见文件名。旧01版保留为历史来源。
+
 材料清单的路径、原名与哈希是 materials/catalog.json。正文的 RULES-01、PROTO-01 等均指向该表。
 
 | 来源 ID | 文件 | 用途与定位 |
@@ -19,4 +21,4 @@
 
 引文约定：规则事实用“来源 ID + 节/页”；程序行为用相对路径和函数；战略推断标为“推论/待测试”。同一段中的计算推导注明所用规则，而不冒称主办方给出了该策略。
 
-正式适用顺序以 RULES-01 §15 为准：正式规则、配套通信协议、统一书面公告；口头讲解和私聊不单独改规则。已取得上述群内书面答疑截图，但尚未取得独立的规则修订文件或裁判实现证据；其是否纳入统一公告和运行口径仍列待确认。
+正式适用顺序以 RULES-02 §15 为准：正式规则、配套通信协议、统一书面公告；口头讲解和私聊不单独改规则。已取得上述群内书面答疑截图，但已取得v1.1正式PDF，但未取得Q&A正文和裁判运行一致性证据；其是否纳入统一公告和运行口径仍列待确认。

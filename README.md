@@ -1,5 +1,7 @@
 # RMTC · ANALYSIS
 
+**当前书面基线v1.1：** [规则迁移与策略重算](docs/11-v1.1-rule-migration.md) · [新包冲突核对](docs/12-v1.1-package-audit.md) · [原件/53页全文](materials/releases/v1.1/README.md) · [三截图转录](materials/addenda/2026-10-23/chat-transcript.md)。首批6 PDF72页保留历史，两版共9 PDF125页。当前入口以新规则为准，旧“D/300、死亡不扣伤害”不再适用。
+
 本分支保存我们对本次比赛的材料核读、规则理解、设计取舍与验证计划。前三次任务是学习准备，比赛以正式规则、通信协议和有效书面公告为准。
 
 **从这里开始：** [总索引](INDEX.md) → [来源与引用](REFERENCES.md) → [全部附件核读](docs/01-source-review.md) → [设计取舍](docs/03-tradeoffs.md) → [架构](docs/04-architecture.md) → [验证](docs/05-validation.md)。
@@ -13,7 +15,7 @@
 | 对话中形成的结论与修正 | [讨论记录](docs/08-discussion-record.md) |
 | 联调、封存和提交 | [交付清单](docs/06-delivery-and-schedule.md) |
 | 原件和程序完整性 | [校验说明](checks/README.md)、scripts/verify_materials.py |
-| 外部六集研究和摘录 | [COMPARISON 分支](https://github.com/Frank-678/RoboMaster-Turing-Competition-Beyond-Control/tree/COMPARISON) |
+| 外部六集研究和摘录 | [COMPARISON 分支](https://github.com/Frank-678/The-Logical-Structure-of-RMT-C/tree/COMPARISON) |
 
 当前阶段：完成材料整理、静态核对与方案设计；**尚未完成 ROS 2 Humble 对局联调和新策略胜率验证。** 不把设计文档当作已实现参赛程序。
 

@@ -136,5 +136,80 @@
     "authority": "群内书面答疑截图；独立规则修订公告及裁判运行一致性尚待确认",
     "transcript": "materials/addenda/2026-10-21/chat-transcript.md",
     "analysis": "docs/10-rule-clarifications-2026-10-21.md"
+  },
+  {
+    "id": "RULES-02",
+    "original_filename": "RMTC 机甲⼤师图灵对决赛赛事规则v1.1.pdf",
+    "path": "materials/releases/v1.1/original/competition-rules-v1.1.pdf",
+    "bytes": 2901418,
+    "sha256": "bfee4aae18af2e49e1d33514795004d86ec236011070d87ef1e04b4d4d928114",
+    "version": "1.1",
+    "pages": 24,
+    "received_date": "2026-10-23",
+    "extracted_text": "materials/releases/v1.1/extracted/rules.txt",
+    "authority": "同批正式v1.1书面材料；后续有效公告另行核对"
+  },
+  {
+    "id": "PROTO-02",
+    "original_filename": "RMTC 机甲⼤师图灵对决赛通信协议v1.1.pdf",
+    "path": "materials/releases/v1.1/original/communication-protocol-v1.1.pdf",
+    "bytes": 1731099,
+    "sha256": "635a7aa0152684537bd831f58eb78559223b1ed6822597f3a426c5751145895a",
+    "version": "1.1",
+    "pages": 19,
+    "received_date": "2026-10-23",
+    "extracted_text": "materials/releases/v1.1/extracted/protocol.txt",
+    "authority": "同批正式v1.1书面材料；后续有效公告另行核对"
+  },
+  {
+    "id": "TUTORIAL-02",
+    "original_filename": "裁判测试端使用教程v1.1.pdf",
+    "path": "materials/releases/v1.1/original/referee-tutorial-v1.1.pdf",
+    "bytes": 1067940,
+    "sha256": "03ba6a627ab0900dcf37b80b5eeae78eb63613f53ca42230a5ba4c2522e608ae",
+    "version": "1.1",
+    "pages": 10,
+    "received_date": "2026-10-23",
+    "extracted_text": "materials/releases/v1.1/extracted/tutorial.txt",
+    "authority": "同批正式v1.1书面材料；后续有效公告另行核对"
+  },
+  {
+    "id": "DIST-02",
+    "original_filename": "dist.zip",
+    "path": "materials/releases/v1.1/original/practice-dist.zip",
+    "bytes": 2123028,
+    "sha256": "4abe666edddd4d92f5a290ce8175e7f20c1e4bf44c2a83afa7c5b35297051f84",
+    "received_date": "2026-10-23",
+    "description": "随v1.1文档同批收到；包内规则与协议仍有旧文本"
+  },
+  {
+    "id": "CHAT-03",
+    "original_filename": "1000136965.jpg",
+    "path": "materials/addenda/2026-10-23/qa-announcement.jpg",
+    "bytes": 91433,
+    "sha256": "48d61fa2d927bcbdc346168890bf3847242f66305138909a2b205de13d212e29",
+    "received_date": "2026-10-23",
+    "message_date": null,
+    "transcript": "materials/addenda/2026-10-23/chat-transcript.md"
+  },
+  {
+    "id": "CHAT-04",
+    "original_filename": "1000136964.jpg",
+    "path": "materials/addenda/2026-10-23/scoring-announcement.jpg",
+    "bytes": 128073,
+    "sha256": "8b9a20bbab20e914c8d0a2036c1b442559833005acf7a8543e8a6cf5538b676c",
+    "received_date": "2026-10-23",
+    "message_date": null,
+    "transcript": "materials/addenda/2026-10-23/chat-transcript.md"
+  },
+  {
+    "id": "CHAT-05",
+    "original_filename": "1000136963.jpg",
+    "path": "materials/addenda/2026-10-23/prompt-discussion.jpg",
+    "bytes": 110510,
+    "sha256": "868a6687eba3c50ef1cdee384eccd97a7d3d462581379b223f151cf14ae10619",
+    "received_date": "2026-10-23",
+    "message_date": null,
+    "transcript": "materials/addenda/2026-10-23/chat-transcript.md"
   }
 ]

@@ -1,6 +1,7 @@
 {
-  "original_attachments": 8,
-  "catalog_entries": 12,
-  "practice_files_checked": 16,
+  "new_original_sources_checked": 7,
+  "new_practice_manifest_files_checked": 16,
+  "historical_sources_preserved_by_Git_blob_SHA": true,
+  "catalog_entries": 19,
   "errors": []
 }

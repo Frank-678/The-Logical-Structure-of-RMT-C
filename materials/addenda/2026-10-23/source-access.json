@@ -1,0 +1,18 @@
+{
+  "received_date": "2026-10-23",
+  "sources": [
+    {
+      "id": "QA-01",
+      "url": "https://www.kdocs.cn/l/chvoGhq4hclu?f=301",
+      "status": "sign_in_required",
+      "body_read": false,
+      "evidence": "浏览器显示Please sign in and access again."
+    },
+    {
+      "id": "TEAM-SHEET-01",
+      "filename": "组队信息.xlsx",
+      "status": "filename_only_in_screenshot",
+      "body_read": false
+    }
+  ]
+}

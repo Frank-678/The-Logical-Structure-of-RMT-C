@@ -1,0 +1,127 @@
+{
+  "scope": "RULES-02 arithmetic only; no ROS/referee execution",
+  "cases": 24,
+  "errors": [],
+  "results": [
+    {
+      "case": "protocol_80_plus_20_plus_60",
+      "result": "160",
+      "passed": true
+    },
+    {
+      "case": "following_death",
+      "result": "100",
+      "passed": true
+    },
+    {
+      "case": "mutual_kill_add_before_floor",
+      "result": "20",
+      "passed": true
+    },
+    {
+      "case": "floor_after_tick_sum",
+      "result": "0",
+      "passed": true
+    },
+    {
+      "case": "world_split_no_bonus",
+      "result": "0",
+      "passed": true
+    },
+    {
+      "case": "above_500_preserved",
+      "result": "540",
+      "passed": true
+    },
+    {
+      "case": "full_score_can_fall",
+      "result": "69/5",
+      "passed": true
+    },
+    {
+      "case": "ordinary_20_points",
+      "result": "3/5",
+      "passed": true
+    },
+    {
+      "case": "overkill_actual_split",
+      "result": "{'A': Fraction(5, 1), 'B': Fraction(5, 1)}",
+      "passed": true
+    },
+    {
+      "case": "overkill_equal_bonus",
+      "result": "{'B': Fraction(30, 1), 'A': Fraction(30, 1)}",
+      "passed": true
+    },
+    {
+      "case": "unequal_actual_proportional",
+      "result": "{'A': Fraction(4, 1), 'B': Fraction(10, 1)}",
+      "passed": true
+    },
+    {
+      "case": "unequal_damage_equal_bonus",
+      "result": "{'B': Fraction(30, 1), 'A': Fraction(30, 1)}",
+      "passed": true
+    },
+    {
+      "case": "reflection_not_ordinary",
+      "result": "{'B': Fraction(5, 1)}",
+      "passed": true
+    },
+    {
+      "case": "reflection_shared_bonus",
+      "result": "{'C': Fraction(30, 1), 'B': Fraction(30, 1)}",
+      "passed": true
+    },
+    {
+      "case": "pepper_not_ordinary",
+      "result": "{}",
+      "passed": true
+    },
+    {
+      "case": "pepper_shared_bonus",
+      "result": "{'B': Fraction(30, 1), 'A': Fraction(30, 1)}",
+      "passed": true
+    },
+    {
+      "case": "deduplicate_exclude_zero",
+      "result": "{'B': Fraction(30, 1), 'A': Fraction(30, 1)}",
+      "passed": true
+    },
+    {
+      "case": "exclude_previous_tick_C",
+      "result": "False",
+      "passed": true
+    },
+    {
+      "case": "fractional_attack_credit",
+      "result": "10/3",
+      "passed": true
+    },
+    {
+      "case": "three_teams_equal_bonus",
+      "result": "{'C': Fraction(20, 1), 'B': Fraction(20, 1), 'A': Fraction(20, 1)}",
+      "passed": true
+    },
+    {
+      "case": "environment_no_bonus",
+      "result": "{}",
+      "passed": true
+    },
+    {
+      "case": "dead_threshold_not_complete",
+      "result": "False",
+      "passed": true
+    },
+    {
+      "case": "alive_threshold_complete",
+      "result": "True",
+      "passed": true
+    },
+    {
+      "case": "completed_id_survives_drop",
+      "result": "True",
+      "passed": true
+    }
+  ]
+}

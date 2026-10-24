@@ -1,5 +1,7 @@
 # 材料总入口
 
+新增[同批v1.1三PDF53页与新dist完整展开](releases/v1.1/README.md)，以及[三张群消息原件/转录](addenda/2026-10-23/chat-transcript.md)。旧附件不覆盖；两版9 PDF共125页。
+
 原始文件统一使用稳定英文文件名，字节内容保持不变；原中文名、页数、SHA-256 和用途见 [catalog.json](catalog.json)。
 
 - original/：六份原 PDF、转写 ZIP、程序发行 ZIP，共八个附件。
