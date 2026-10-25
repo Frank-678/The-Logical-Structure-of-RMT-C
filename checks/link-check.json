@@ -1,5 +1,6 @@
 {
-  "relative_links_checked": 205,
+  "relative_links_checked": 228,
   "errors": [],
-  "scope": "authored/restored Markdown against complete target Git tree; original third-party material unchanged"
+  "scope": "authored local Markdown against complete intended Git file inventory; unchanged remote files retained",
+  "updated": "2026-10-25"
 }

@@ -1,5 +1,7 @@
 # 分支文件总索引
 
+2026-10-25更新：已读取QA-02副本（7问6答），补充世界分裂复活保护、堡垒坐标和提交要求；此前Q&A未读描述为历史状态。组队信息.xlsx仍未取得。[最新澄清](docs/13-qa-and-fortress-2026-10-25.md)。
+
 [当前v1.1规则迁移](docs/11-v1.1-rule-migration.md) · [发行包核对](docs/12-v1.1-package-audit.md)。全部归档文件如下，哈希见checks/file-manifest.json。
 
 | 文件 |
@@ -113,3 +115,9 @@
 | [scripts/check_links.py](<scripts/check_links.py>) |
 | [scripts/check_v11_scoring.py](<scripts/check_v11_scoring.py>) |
 | [scripts/verify_materials.py](<scripts/verify_materials.py>) |
+| [docs/13-qa-and-fortress-2026-10-25.md](<docs/13-qa-and-fortress-2026-10-25.md>) |
+| [materials/addenda/2026-10-25/chat-transcript.md](<materials/addenda/2026-10-25/chat-transcript.md>) |
+| [materials/addenda/2026-10-25/fortress-clarification.jpg](<materials/addenda/2026-10-25/fortress-clarification.jpg>) |
+| [materials/addenda/2026-10-25/qa-copy.xlsx](<materials/addenda/2026-10-25/qa-copy.xlsx>) |
+| [materials/addenda/2026-10-25/qa-extraction.json](<materials/addenda/2026-10-25/qa-extraction.json>) |
+| [materials/addenda/2026-10-25/qa-transcript.md](<materials/addenda/2026-10-25/qa-transcript.md>) |

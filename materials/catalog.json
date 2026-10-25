@@ -211,5 +211,25 @@
     "received_date": "2026-10-23",
     "message_date": null,
     "transcript": "materials/addenda/2026-10-23/chat-transcript.md"
+  },
+  {
+    "id": "QA-02",
+    "original_filename": "Q & A(副本).xlsx",
+    "path": "materials/addenda/2026-10-25/qa-copy.xlsx",
+    "bytes": 15674,
+    "sha256": "986abc5d14bb17157c08b49502c3702448e8c95f957b0eb977b64cab8f6581c0",
+    "description": "已读Q&A副本：7问6答，D10为空",
+    "origin": "用户2026-10-25提供的附件",
+    "authority": "群内书面答疑；正式适用以规则及后续统一公告为准"
+  },
+  {
+    "id": "CHAT-06",
+    "original_filename": "1000137234.jpg",
+    "path": "materials/addenda/2026-10-25/fortress-clarification.jpg",
+    "bytes": 95379,
+    "sha256": "a845ed1e64aa36f8f0646f4203e9ad1f3bc77ff4bb0abe96909a20c67d2e96cd",
+    "description": "堡垒[11,11]至[13,13]，含边界九格",
+    "origin": "用户2026-10-25提供的附件",
+    "authority": "群内书面答疑；正式适用以规则及后续统一公告为准"
   }
 ]

@@ -1,6 +1,8 @@
 # 来源和引用索引
 
-当前基线：[RULES-02规则v1.1](materials/releases/v1.1/original/competition-rules-v1.1.pdf)24页（§5.2第13页、§7第14页、§8第15–17页、§10第17–18页）；[PROTO-02协议](materials/releases/v1.1/original/communication-protocol-v1.1.pdf)19页（§3第8页、§3.1第11页、§4第12页）；[TUTORIAL-02教程](materials/releases/v1.1/original/referee-tutorial-v1.1.pdf)10页（计分第5页、真实AI第6页、提交第10页）；[DIST-02新包](materials/releases/v1.1/original/practice-dist.zip)。CHAT-03/04/05见[新转录](materials/addenda/2026-10-23/chat-transcript.md)。[QA-01](https://www.kdocs.cn/l/chvoGhq4hclu?f=301)要求登录，正文未读；Excel仅见文件名。旧01版保留为历史来源。
+2026-10-25更新：已读取QA-02副本（7问6答），补充世界分裂复活保护、堡垒坐标和提交要求；此前Q&A未读描述为历史状态。组队信息.xlsx仍未取得。[最新澄清](docs/13-qa-and-fortress-2026-10-25.md)。
+
+当前基线：[RULES-02规则v1.1](materials/releases/v1.1/original/competition-rules-v1.1.pdf)24页（§5.2第13页、§7第14页、§8第15–17页、§10第17–18页）；[PROTO-02协议](materials/releases/v1.1/original/communication-protocol-v1.1.pdf)19页（§3第8页、§3.1第11页、§4第12页）；[TUTORIAL-02教程](materials/releases/v1.1/original/referee-tutorial-v1.1.pdf)10页（计分第5页、真实AI第6页、提交第10页）；[DIST-02新包](materials/releases/v1.1/original/practice-dist.zip)。CHAT-03/04/05见[新转录](materials/addenda/2026-10-23/chat-transcript.md)。[QA-01在线入口](https://www.kdocs.cn/l/chvoGhq4hclu?f=301)此前要求登录；现已取得QA-02副本并完整提取，见下文。组队信息.xlsx仍仅见文件名。旧01版保留为历史来源。
 
 材料清单的路径、原名与哈希是 materials/catalog.json。正文的 RULES-01、PROTO-01 等均指向该表。
 
@@ -21,4 +23,6 @@
 
 引文约定：规则事实用“来源 ID + 节/页”；程序行为用相对路径和函数；战略推断标为“推论/待测试”。同一段中的计算推导注明所用规则，而不冒称主办方给出了该策略。
 
-正式适用顺序以 RULES-02 §15 为准：正式规则、配套通信协议、统一书面公告；口头讲解和私聊不单独改规则。已取得上述群内书面答疑截图，但已取得v1.1正式PDF，但未取得Q&A正文和裁判运行一致性证据；其是否纳入统一公告和运行口径仍列待确认。
+正式适用顺序以 RULES-02 §15 为准：正式规则、配套通信协议、统一书面公告；口头讲解和私聊不单独改规则。已取得v1.1正式PDF、群内书面答疑截图及QA-02问答副本；在线实时版本及裁判运行一致性尚未验证。
+
+QA-02：[Q&A副本](materials/addenda/2026-10-25/qa-copy.xlsx)，引用按工作表1的C/D单元格；[逐条转录](materials/addenda/2026-10-25/qa-transcript.md)。CHAT-06：[堡垒截图](materials/addenda/2026-10-25/fortress-clarification.jpg)。来源哈希见catalog。
