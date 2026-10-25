@@ -1,5 +1,7 @@
 # RMTC · ANALYSIS
 
+[战术与消息处理详解](docs/14-tactical-and-message-design.md)：汇总攻击/移动、辣椒、堡垒、计分及暂停恢复；验收用例均待执行。
+
 2026-10-25更新：已读取QA-02副本（7问6答），补充世界分裂复活保护、堡垒坐标和提交要求；此前Q&A未读描述为历史状态。组队信息.xlsx仍未取得。[最新澄清](docs/13-qa-and-fortress-2026-10-25.md)。
 
 **当前书面基线v1.1：** [规则迁移与策略重算](docs/11-v1.1-rule-migration.md) · [新包冲突核对](docs/12-v1.1-package-audit.md) · [原件/53页全文](materials/releases/v1.1/README.md) · [三截图转录](materials/addenda/2026-10-23/chat-transcript.md)。首批6 PDF72页保留历史，两版共9 PDF125页。当前入口以新规则为准，旧“D/300、死亡不扣伤害”不再适用。
