@@ -1,5 +1,7 @@
 # 分支文件总索引
 
+[新增地图编辑器与现场通知](docs/15-map-editor-and-onsite-addendum.md)：原件、导出兼容性、13项逻辑检查和配置验证；现场替补与切换仍按封存规则执行。
+
 [战术与消息处理详解](docs/14-tactical-and-message-design.md)：汇总攻击/移动、辣椒、堡垒、计分及暂停恢复；验收用例均待执行。
 
 2026-10-25更新：已读取QA-02副本（7问6答），补充世界分裂复活保护、堡垒坐标和提交要求；此前Q&A未读描述为历史状态。组队信息.xlsx仍未取得。[最新澄清](docs/13-qa-and-fortress-2026-10-25.md)。
@@ -124,3 +126,12 @@
 | [materials/addenda/2026-10-25/qa-extraction.json](<materials/addenda/2026-10-25/qa-extraction.json>) |
 | [materials/addenda/2026-10-25/qa-transcript.md](<materials/addenda/2026-10-25/qa-transcript.md>) |
 | [docs/14-tactical-and-message-design.md](<docs/14-tactical-and-message-design.md>) |
+| [checks/map-editor-fresh-practice.json](<checks/map-editor-fresh-practice.json>) |
+| [checks/map-editor-logic.json](<checks/map-editor-logic.json>) |
+| [checks/map-editor-validator.json](<checks/map-editor-validator.json>) |
+| [docs/15-map-editor-and-onsite-addendum.md](<docs/15-map-editor-and-onsite-addendum.md>) |
+| [materials/addenda/2026-10-25-map-editor/README.md](<materials/addenda/2026-10-25-map-editor/README.md>) |
+| [materials/addenda/2026-10-25-map-editor/map-editor-announcement.jpg](<materials/addenda/2026-10-25-map-editor/map-editor-announcement.jpg>) |
+| [materials/addenda/2026-10-25-map-editor/map-editor.html](<materials/addenda/2026-10-25-map-editor/map-editor.html>) |
+| [materials/addenda/2026-10-25-map-editor/onsite-operation.jpg](<materials/addenda/2026-10-25-map-editor/onsite-operation.jpg>) |
+| [scripts/check_map_editor.mjs](<scripts/check_map_editor.mjs>) |

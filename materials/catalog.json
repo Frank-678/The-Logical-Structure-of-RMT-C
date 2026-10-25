@@ -231,5 +231,35 @@
     "description": "堡垒[11,11]至[13,13]，含边界九格",
     "origin": "用户2026-10-25提供的附件",
     "authority": "群内书面答疑；正式适用以规则及后续统一公告为准"
+  },
+  {
+    "id": "EDITOR-01",
+    "original_filename": "地图编辑器.html",
+    "path": "materials/addenda/2026-10-25-map-editor/map-editor.html",
+    "bytes": 28159,
+    "sha256": "ed9b11485bca339933fb44325ca352e74ca674eeef1423e0f9647233948a4a41",
+    "description": "本地地图编辑器，内置geometry/practice输出，已读324行",
+    "origin": "用户2026-10-25提供的附件",
+    "authority": "群内分享/书面通知；正式规则及有效后续公告优先"
+  },
+  {
+    "id": "CHAT-07",
+    "original_filename": "1000137247.jpg",
+    "path": "materials/addenda/2026-10-25-map-editor/map-editor-announcement.jpg",
+    "bytes": 103368,
+    "sha256": "26baf07fad2afced360dfd0834c32cdcb9f27fc13b4deaa0fbc83460a9f73a51",
+    "description": "地图编辑器发布及事件任务需自行配置",
+    "origin": "用户2026-10-25提供的附件",
+    "authority": "群内分享/书面通知；正式规则及有效后续公告优先"
+  },
+  {
+    "id": "CHAT-08",
+    "original_filename": "1000137246.jpg",
+    "path": "materials/addenda/2026-10-25-map-editor/onsite-operation.jpg",
+    "bytes": 136102,
+    "sha256": "9c3461aa5c605599205d1ae8a790856eec2d75445e83b9a92659a73de0225ddb",
+    "description": "预计比赛时长、示例视频预告和替补操作",
+    "origin": "用户2026-10-25提供的附件",
+    "authority": "群内分享/书面通知；正式规则及有效后续公告优先"
   }
 ]

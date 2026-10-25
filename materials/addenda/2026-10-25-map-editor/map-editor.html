@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RMTC 栅格地图编辑器</title>
+  <style>
+:root{color-scheme:dark;--bg:#10161f;--panel:#19222f;--line:#303e50;--text:#e9eef5;--muted:#94a5b9;--green:#77dfbd;--gold:#f3c76c;--blue:#71baff}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:14px/1.55 system-ui,-apple-system,"Noto Sans CJK SC","Microsoft YaHei",sans-serif}header{max-width:1680px;margin:auto;padding:32px 36px 25px;display:flex;justify-content:space-between;align-items:center}.eyebrow{margin:0 0 7px;color:var(--green);letter-spacing:2px;font-size:11px;font-weight:700}h1{font-size:29px;letter-spacing:1px;margin:0}.sub{color:var(--muted);margin:6px 0 0}.local-badge{padding:7px 13px;border:1px solid #31483f;border-radius:20px;color:var(--green);font-size:12px}main{max-width:1680px;margin:auto;padding:0 36px 36px;display:grid;grid-template-columns:294px minmax(0,1fr);gap:22px}aside{display:flex;flex-direction:column;gap:14px}.card{background:var(--panel);border:1px solid var(--line);border-radius:13px;padding:18px}h2{font-size:14px;display:flex;align-items:center;justify-content:space-between;margin:0 0 14px}.dim{color:var(--muted);font-size:12px;font-weight:400}.dimensions{display:grid;grid-template-columns:1fr 18px 1fr;align-items:center;gap:8px}.dimensions>span{text-align:center;margin-top:20px;color:var(--muted)}label{display:block;font-size:12px;color:#b8c6d6}input[type=number],select,textarea{margin-top:7px;width:100%;padding:9px 10px;background:#101923;border:1px solid #3a4a60;border-radius:6px;font:inherit;color:var(--text)}input:focus,select:focus,textarea:focus{outline:2px solid var(--green);outline-offset:1px}button,.file-button{border:1px solid transparent;border-radius:6px;padding:9px 12px;font:inherit;cursor:pointer;transition:background .12s,color .12s}button:focus-visible,.file-button:focus-within{outline:2px solid var(--green);outline-offset:2px}button:disabled{opacity:.35;cursor:default}.secondary{background:#243345;border-color:#3b4d64;color:#dce7f4}.secondary:hover:not(:disabled){background:#304359}.full{width:100%;margin-top:11px}.primary{background:var(--green);color:#10281f;font-weight:700;display:flex;justify-content:space-between;align-items:center}.primary:hover{background:#99f4d6}.hint{font-size:11px;color:var(--muted);line-height:1.65;margin:9px 0 13px}.hint:last-child{margin-bottom:0}.brushes{display:flex;flex-direction:column;gap:7px}.brush{display:flex;align-items:center;gap:11px;background:#14202d;border-color:#2d3d50;text-align:left;color:var(--text)}.brush.active{background:#253c3b;border-color:#77dfbd}.brush span{flex:1}.brush small{color:var(--muted);margin-left:3px}.swatch{display:inline-block;width:17px;height:17px;border-radius:3px;flex-shrink:0}.wall{background:#6f8298}.normal{background:var(--gold)}.high{background:var(--blue)}.empty{border:1px dashed #8393a5}kbd{font:11px ui-monospace,monospace;border:1px solid #4c5a6a;border-radius:4px;padding:1px 5px;background:#15202c;color:#d0dceb}.row{display:flex;gap:8px;margin-top:12px}.row button{flex:1}.file-button{display:block;text-align:center;margin-top:10px}.file-button input{position:absolute;width:1px;height:1px;opacity:0}details{margin-top:14px}summary{color:#a9bbcf;font-size:12px;cursor:pointer}textarea{height:210px;resize:vertical;font:11px/1.5 ui-monospace,monospace}.workspace{min-width:0}.map-toolbar{display:flex;justify-content:space-between;align-items:center;gap:15px;background:var(--panel);border:1px solid var(--line);border-bottom:0;border-radius:13px 13px 0 0;padding:15px 18px}.map-toolbar strong{font-size:16px;margin-right:12px}.zoom-label{display:flex;align-items:center;gap:9px;white-space:nowrap;font-size:11px}.zoom-label input{width:100px;accent-color:var(--green)}#zoom-value{min-width:32px}.viewport{height:min(75vh,880px);min-height:400px;overflow:auto;border:1px solid var(--line);background:#0b121a;overscroll-behavior:contain}canvas{display:block;touch-action:none;outline:none}.map-footer{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;padding:12px 16px;background:var(--panel);border:1px solid var(--line);border-top:0;border-radius:0 0 13px 13px;font-size:12px;color:var(--muted)}#position{font-family:ui-monospace,monospace;color:var(--green)}.counts{display:flex;gap:14px}.counts b{color:var(--text);margin-left:3px}.normal-text{color:var(--gold)}.high-text{color:var(--blue)}.message{margin-top:15px;padding:12px 15px;border-radius:8px;background:#193329;color:#a6e8cd;border:1px solid #2a4f40;font-size:13px;overflow-wrap:anywhere}.message.error{background:#3c252b;border-color:#70353f;color:#ffbdc4}.compatibility{color:var(--muted);font-size:12px;line-height:1.75;margin:13px 3px} @media(max-width:900px){header{padding:24px 18px}.local-badge{display:none}main{padding:0 18px 25px;grid-template-columns:250px minmax(0,1fr);gap:12px}.card{padding:14px}.map-toolbar{align-items:start;flex-direction:column}}@media(max-width:650px){main{grid-template-columns:1fr}.workspace{grid-row:1}header{padding-bottom:18px}h1{font-size:24px}.viewport{height:55vh;min-height:300px}.map-toolbar{flex-direction:row;flex-wrap:wrap}.counts{gap:9px;flex-wrap:wrap}}
+
+#surface{position:relative;min-width:100%;min-height:100%}#map{position:sticky;top:0;left:0}
+
+</style>
+</head>
+<body>
+  <header>
+    <div><p class="eyebrow">RMTC · MAP STUDIO</p><h1>画一张赛场地图</h1><p class="sub">双击此 HTML 即可使用。鼠标指向格子，键盘落子；关闭前按 A 导出保存。</p></div>
+    <span class="local-badge">单文件 · 离线使用</span>
+  </header>
+  <main>
+    <aside>
+      <section class="card">
+        <h2>地图设置</h2>
+        <div class="dimensions">
+          <label>宽度 · X<input id="width" type="number" min="1" max="200" value="24"></label>
+          <span>×</span>
+          <label>高度 · Y<input id="height" type="number" min="1" max="200" value="24"></label>
+        </div>
+        <button id="resize" class="secondary full">应用尺寸</button>
+        <p class="hint">支持 1–200 格；改尺寸保留范围内内容，裁剪可撤销。</p>
+        <label>比赛阶段<select id="stage"><option value="1">第一阶段 · A 单车</option><option value="2" selected>第二阶段 · A / B / C / D</option></select></label>
+      </section>
+      <section class="card">
+        <h2>绘制工具 <span class="dim">快捷键</span></h2>
+        <div class="brushes">
+          <button class="brush active" data-brush="1"><i class="swatch wall"></i><span>障碍</span><kbd>1</kbd></button>
+          <button class="brush" data-brush="2"><i class="swatch normal"></i><span>低级资源 <small>10</small></span><kbd>2</kbd></button>
+          <button class="brush" data-brush="3"><i class="swatch high"></i><span>高级资源 <small>20</small></span><kbd>3</kbd></button>
+          <button class="brush" data-brush="0"><i class="swatch empty"></i><span>清空格子</span><kbd>D</kbd></button>
+        </div>
+        <p class="hint">悬停后按键即可落子；按住键移动可连续绘制。也可选工具后点击或拖动。</p>
+        <label>设置出生点<select id="spawn"><option value="">使用上面的绘制工具</option><option value="A">放置 A 出生点</option><option value="B">放置 B 出生点</option><option value="C">放置 C 出生点</option><option value="D">放置 D 出生点</option></select></label>
+        <p class="hint">选择席位后点击格子。出生点避开障碍和资源；D 清空内容时保留出生点。</p>
+        <div class="row"><button id="undo" class="secondary" disabled>撤销</button><button id="redo" class="secondary" disabled>重做</button></div>
+      </section>
+      <section class="card export-card">
+        <h2>导出地图 <kbd>A</kbd></h2>
+        <label>输出格式<select id="format"><option value="geometry">正式裁判地图 · map + robots</option><option value="practice">测试裁判完整配置</option></select></label>
+        <button id="export" class="primary full">下载 JSON <span>↗</span></button>
+        <p id="format-help" class="hint"></p>
+        <label class="file-button secondary">导入 JSON 继续编辑<input type="file" id="import" accept=".json,application/json"></label>
+        <details><summary>查看 / 复制 JSON</summary><textarea id="json-output" readonly spellcheck="false" aria-label="地图 JSON"></textarea><button id="copy" class="secondary full">复制 JSON</button></details>
+      </section>
+    </aside>
+    <div class="workspace">
+      <div class="map-toolbar"><div><strong id="map-size">24 × 24</strong><span class="dim">栅格赛场</span></div><label class="zoom-label">格子大小<input id="zoom" type="range" min="14" max="56" value="28"><span id="zoom-value">28 px</span></label></div>
+      <div id="viewport" class="viewport"><div id="surface"><canvas id="map" aria-label="比赛栅格地图，鼠标悬停后使用 1、2、3、D 编辑" tabindex="0"></canvas></div></div>
+      <div class="map-footer"><span id="position">将鼠标移到格子上</span><div class="counts"><span>障碍 <b id="wall-count">0</b></span><span class="normal-text">低级 <b id="normal-count">0</b></span><span class="high-text">高级 <b id="high-count">0</b></span><span>资源总值 <b id="total-value">0</b></span></div></div>
+      <div id="message" class="message" role="status" aria-live="polite">地图已就绪。悬停按 1 / 2 / 3 / D，按 A 导出。</div>
+      <p id="compatibility" class="compatibility"></p>
+    </div>
+  </main>
+  <script>
+'use strict';
+(() => {
+  const $ = id => document.getElementById(id);
+  const canvas = $('map'), ctx = canvas.getContext('2d'), viewport = $('viewport');
+  const axis = 34, maxSize = 200;
+  let state = {width:24, height:24, stage:2, cells:{}, spawns:{A:[1,1], B:[22,1], C:[1,22], D:[22,22]}, template:null};
+  let pointer = null, hover = null, brush = 1, held = null, dragging = false, stroke = null;
+  let past = [], future = [], frame = 0, lastExport = '';
+  const clone = value => JSON.parse(JSON.stringify(value));
+  const key = (x,y) => `${x},${y}`;
+  const same = (a,b) => a && b && a[0] === b[0] && a[1] === b[1];
+  const teams = () => state.stage === 1 ? ['A'] : ['A','B','C','D'];
+  const cellSize = () => Number($('zoom').value);
+  function report(message, error = false) { $('message').textContent = message; $('message').classList.toggle('error', error); }
+  function remember(before) {
+    if (JSON.stringify(before) === JSON.stringify(state)) return;
+    past.push(before); if (past.length > 60) past.shift(); future = [];
+    lastExport = ''; $('json-output').value = '';
+    refresh();
+  }
+  function beginStroke() { if (!stroke) stroke = clone(state); }
+  function endStroke() { if (stroke) { const before = stroke; stroke = null; remember(before); } }
+  function spawnAt(x,y) { return teams().find(t => same(state.spawns[t],[x,y])); }
+  function availableSpawns() {
+    const w=state.width, h=state.height;
+    const left=w>2?1:0, right=w>2?w-2:w-1, top=h>2?1:0, bottom=h>2?h-2:h-1;
+    const preferred=[[left,top],[right,top],[left,bottom],[right,bottom]], used=new Set();
+    for (const [index,team] of teams().entries()) {
+      const old=state.spawns[team];
+      const usable=p=>p && p[0]>=0 && p[0]<w && p[1]>=0 && p[1]<h && !used.has(key(...p)) && !state.cells[key(...p)];
+      let point=usable(old)?old:usable(preferred[index])?preferred[index]:null;
+      if (!point) outer: for(let y=0;y<h;y++) for(let x=0;x<w;x++) if(usable([x,y])) { point=[x,y]; break outer; }
+      state.spawns[team]=point; if(point) used.add(key(...point));
+    }
+  }
+  function paint(point, kind) {
+    if (!point) return;
+    const [x,y]=point, k=key(x,y), team=spawnAt(x,y);
+    if (team && kind!==0) return report(`[${x}, ${y}] 是 ${team} 出生点，请先移动出生点。`, true);
+    const next=kind===0?null:{kind};
+    if (JSON.stringify(state.cells[k]||null)===JSON.stringify(next)) return;
+    if(next) state.cells[k]=next; else delete state.cells[k];
+    updateCounts(); schedule();
+    report(`[${x}, ${y}]：${['已清空','障碍','低级资源 · 10','高级资源 · 20'][kind]}`);
+  }
+  function placeSpawn(point) {
+    const team=$('spawn').value;
+    if(!team || !point) return;
+    if(!teams().includes(team)) return report('第一阶段只使用 A 出生点。', true);
+    const existing=spawnAt(...point);
+    if(existing && existing!==team) return report('出生点不能重合。',true);
+    if(state.cells[key(...point)]) return report('先按 D 清空这个格子，再设置出生点。',true);
+    const before=clone(state); state.spawns[team]=point; remember(before);
+    report(`${team} 出生点已设为 [${point.join(', ')}]。`);
+  }
+  function pointAt(event) {
+    const r=canvas.getBoundingClientRect(), px=event.clientX-r.left, py=event.clientY-r.top;
+    if(px<axis || py<axis) return null;
+    const x=Math.floor((px+viewport.scrollLeft-axis)/cellSize()), y=Math.floor((py+viewport.scrollTop-axis)/cellSize());
+    return x>=0 && y>=0 && x<state.width && y<state.height ? [x,y]:null;
+  }
+  function updateHover() {
+    hover=pointer?pointAt(pointer):null;
+    $('position').textContent=hover?`坐标 [${hover.join(', ')}]${spawnAt(...hover)?' · '+spawnAt(...hover)+' 出生点':''}`:'将鼠标移到格子上';
+  }
+  function updateCounts() {
+    const counts=[0,0,0,0]; let value=0;
+    for(const cell of Object.values(state.cells)) { counts[cell.kind]++; if(cell.kind>1) value+=cell.value ?? (cell.kind===2?10:20); }
+    $('wall-count').textContent=counts[1]; $('normal-count').textContent=counts[2]; $('high-count').textContent=counts[3]; $('total-value').textContent=value;
+  }
+  function refresh() {
+    $('width').value=state.width; $('height').value=state.height; $('stage').value=state.stage;
+    $('map-size').textContent=`${state.width} × ${state.height}`;
+    $('undo').disabled=!past.length; $('redo').disabled=!future.length;
+    for(const o of $('spawn').options) if(o.value) o.disabled=!teams().includes(o.value);
+    if(!teams().includes($('spawn').value)) $('spawn').value='';
+    $('surface').style.width=`${axis+state.width*cellSize()}px`;
+    $('surface').style.height=`${axis+state.height*cellSize()}px`;
+    updateCounts(); help(); schedule();
+  }
+  function help() {
+    const practice=$('format').value==='practice';
+    $('format-help').textContent=practice?'用于测试裁判「导入配置」。新建地图的事件关闭、任务为空；导入完整配置后会保留原来的事件与任务。':'用于正式裁判「地图与本场随机事件配置 → 导入地图」。文件只含 map 和 robots。';
+    $('compatibility').textContent=practice?'测试配置不会自动套用正式地图的任务与随机事件；需要事件时，先导入测试端导出的完整配置，再编辑地图。':'当前正式第二阶段保留到达任务 [12, 12]，需宽高至少 13 且该格无障碍；部署前还须核对本场事件范围。正式地图导入上限为 100 KiB。';
+  }
+  function schedule() { if(!frame) frame=requestAnimationFrame(()=>{frame=0;draw();}); }
+  function draw() {
+    const size=cellSize(), sx=viewport.scrollLeft, sy=viewport.scrollTop;
+    const cw=Math.min(viewport.clientWidth,axis+state.width*size), ch=Math.min(viewport.clientHeight,axis+state.height*size);
+    const ratio=Math.min(window.devicePixelRatio||1,2);
+    if(canvas.width!==Math.round(cw*ratio)||canvas.height!==Math.round(ch*ratio)) {
+      canvas.width=Math.round(cw*ratio); canvas.height=Math.round(ch*ratio);
+      canvas.style.width=`${cw}px`; canvas.style.height=`${ch}px`;
+    }
+    ctx.setTransform(ratio,0,0,ratio,0,0);ctx.fillStyle='#0f1823';ctx.fillRect(0,0,cw,ch);
+    const x0=Math.max(0,Math.floor(sx/size)), x1=Math.min(state.width-1,Math.ceil((sx+cw-axis)/size));
+    const y0=Math.max(0,Math.floor(sy/size)), y1=Math.min(state.height-1,Math.ceil((sy+ch-axis)/size));
+    ctx.save();ctx.beginPath();ctx.rect(axis,axis,cw-axis,ch-axis);ctx.clip();
+    for(let y=y0;y<=y1;y++) for(let x=x0;x<=x1;x++) {
+      const px=axis+x*size-sx, py=axis+y*size-sy, cell=state.cells[key(x,y)];
+      ctx.fillStyle=(x+y)%2?'#17232f':'#192734';ctx.fillRect(px,py,size,size);
+      ctx.strokeStyle='#2a3949';ctx.lineWidth=1;ctx.strokeRect(px+.5,py+.5,size,size);
+      if(cell?.kind===1) {
+        ctx.fillStyle='#6f8298';ctx.fillRect(px+3,py+3,size-6,size-6);
+        ctx.strokeStyle='#a1afbd';ctx.beginPath();ctx.moveTo(px+5,py+5);ctx.lineTo(px+size-5,py+size-5);ctx.moveTo(px+size-5,py+5);ctx.lineTo(px+5,py+size-5);ctx.stroke();
+      } else if(cell) {
+        ctx.fillStyle=cell.kind===2?'#f3c76c':'#71baff';ctx.beginPath();
+        if(cell.kind===2) ctx.arc(px+size/2,py+size/2,size*.3,0,Math.PI*2);
+        else {ctx.moveTo(px+size/2,py+size*.15);ctx.lineTo(px+size*.85,py+size/2);ctx.lineTo(px+size/2,py+size*.85);ctx.lineTo(px+size*.15,py+size/2);ctx.closePath();}
+        ctx.fill();
+        if(size>=26) {ctx.fillStyle='#14212c';ctx.font=`bold ${size>=40?13:10}px system-ui`;ctx.textAlign='center';ctx.textBaseline='middle';ctx.fillText(cell.value??(cell.kind===2?10:20),px+size/2,py+size/2);}
+      }
+    }
+    for(const team of teams()) {
+      const p=state.spawns[team]; if(!p) continue;
+      const px=axis+p[0]*size-sx,py=axis+p[1]*size-sy;
+      ctx.fillStyle='#213d36';ctx.fillRect(px+2,py+2,size-4,size-4);ctx.strokeStyle='#77dfbd';ctx.lineWidth=1.5;ctx.strokeRect(px+2,py+2,size-4,size-4);
+      ctx.fillStyle='#a0f8d9';ctx.textAlign='center';ctx.textBaseline='middle';ctx.font=`bold ${Math.min(18,size*.55)}px system-ui`;ctx.fillText(team,px+size/2,py+size/2);
+    }
+    if(hover) {ctx.strokeStyle='#f2f7fc';ctx.lineWidth=2;ctx.strokeRect(axis+hover[0]*size-sx+1,axis+hover[1]*size-sy+1,size-2,size-2);}
+    ctx.restore();
+    ctx.fillStyle='#111c28';ctx.fillRect(0,0,cw,axis);ctx.fillRect(0,0,axis,ch);
+    ctx.font='10px ui-monospace,monospace';ctx.textAlign='center';ctx.textBaseline='middle';ctx.fillStyle='#93a9bf';
+    for(let x=x0;x<=x1;x++) ctx.fillText(x,axis+(x+.5)*size-sx,axis/2);
+    for(let y=y0;y<=y1;y++) ctx.fillText(y,axis/2,axis+(y+.5)*size-sy);
+    ctx.fillStyle='#77dfbd';ctx.fillText('Y / X',axis/2,axis/2);
+  }
+  function validate() {
+    const seen=new Set();
+    for(const t of teams()) {
+      const p=state.spawns[t];
+      if(!p) throw Error(`没有足够空格放置 ${t} 出生点，请扩大地图或清空格子后重新应用尺寸。`);
+      const k=key(...p);
+      if(seen.has(k)||state.cells[k]?.kind===1) throw Error('出生点不能重合或位于障碍上。');
+      seen.add(k);
+    }
+  }
+  function geometry() {
+    validate(); const obstacles=[], resources=[];
+    for(let y=0;y<state.height;y++) for(let x=0;x<state.width;x++) {
+      const c=state.cells[key(x,y)];if(!c)continue;
+      if(c.kind===1) obstacles.push([x,y]);
+      else resources.push({id:c.id||`${c.kind===2?'normal':'high'}_${x}_${y}`,position:[x,y],value:c.value??(c.kind===2?10:20)});
+    }
+    const used=new Set();
+    for(const r of resources) {let base=r.id,n=1;while(used.has(r.id)) r.id=`${base}_${n++}`;used.add(r.id);}
+    return {map:{width:state.width,height:state.height,obstacles,resources},robots:teams().map(team=>({team,spawn:[...state.spawns[team]]}))};
+  }
+  function buildOutput() {
+    const g=geometry();
+    if($('format').value==='geometry') return g;
+    const out=state.template?clone(state.template):{stage:state.stage,vision_radius:4,respawn_wait:3,spawn_protection:2,mission_text:state.stage===1?'自主收集资源。':'自主收集资源并进行对抗。',missions:[],events:{enabled:false}};
+    out.stage=state.stage;out.map=g.map;out.robots=g.robots;
+    if(out.event_params_file) throw Error('完整配置含外部 event_params_file。请导入测试端导出的、内嵌 events 的完整配置。');
+    if(!out.events) out.events={enabled:false};
+    for(const m of out.missions||[]) if(m.type==='reach') {
+      const p=m.position;
+      if(!Array.isArray(p)||p.length!==2||p[0]<0||p[0]>=state.width||p[1]<0||p[1]>=state.height||state.cells[key(...p)]?.kind===1)
+        throw Error(`任务 ${m.id} 的目标越界或与障碍重合。请在测试端调整任务后重新导入完整配置。`);
+    }
+    return out;
+  }
+  function exportMap() {
+    try {
+      endStroke(); const out=buildOutput(), geometryOnly=$('format').value==='geometry';
+      const text=JSON.stringify(out,null,2)+'\n';
+      const name=`stage${state.stage}-${geometryOnly?'map':'practice'}-${state.width}x${state.height}.json`;
+      $('json-output').value=text;lastExport=text;
+      const url=URL.createObjectURL(new Blob([text],{type:'application/json'}));
+      const link=document.createElement('a');link.href=url;link.download=name;link.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
+      let warning='';
+      if(geometryOnly && state.stage===2 && (state.width<13||state.height<13||state.cells['12,12']?.kind===1)) warning='当前正式第二阶段的任务 [12,12] 不兼容此图，请调整地图或裁判任务。';
+      if(geometryOnly && new Blob([text]).size>100*1024) warning+='文件超过正式导入上限 100 KiB，请减少格子内容。';
+      if(!geometryOnly && out.events.enabled!==false) warning='已保留导入配置的事件；地图尺寸改变后，请在测试裁判部署前校验事件范围。';
+      report(`已导出 ${name}。${warning}`,Boolean(warning));
+    } catch(e) { report(e.message,true); }
+  }
+  function parseImport(input) {
+    if(!input||typeof input!=='object'||Array.isArray(input)||!input.map||!Array.isArray(input.robots)) throw Error('须导入包含 map 和 robots 的地图或完整配置。');
+    const {width:w,height:h}=input.map;
+    if(!Number.isInteger(w)||!Number.isInteger(h)||w<1||h<1||w>maxSize||h>maxSize) throw Error('地图宽高须为 1–200 的整数。');
+    if(input.event_params_file) throw Error('请使用事件已内嵌的完整配置，不支持外部 event_params_file。');
+    const stage=input.stage??(input.robots.length===1?1:2);
+    if(stage!==1 && stage!==2) throw Error('仅支持第一阶段和第二阶段地图。');
+    const result={width:w,height:h,stage,cells:{},spawns:{},template:input.stage?clone(input):null};
+    const point=p=>Array.isArray(p)&&p.length===2&&p.every(Number.isInteger)&&p[0]>=0&&p[0]<w&&p[1]>=0&&p[1]<h;
+    const obstacles=input.map.obstacles??[], resources=input.map.resources??[];
+    if(!Array.isArray(obstacles)||!Array.isArray(resources)) throw Error('obstacles 和 resources 须为数组。');
+    for(const p of obstacles) {if(!point(p))throw Error('障碍坐标越界或格式无效。');result.cells[key(...p)]={kind:1};}
+    const ids=new Set();
+    for(const r of resources) {
+      if(!r||typeof r.id!=='string'||!r.id||ids.has(r.id)||!point(r.position)||!Number.isInteger(r.value)||r.value<0) throw Error('资源编号、坐标或数值无效，资源编号不能重复。');
+      const k=key(...r.position);if(result.cells[k])throw Error(`资源 ${r.id} 与障碍或其他资源重合。`);
+      result.cells[k]={kind:r.value>=20?3:2,value:r.value,id:r.id};ids.add(r.id);
+    }
+    const expected=stage===1?['A']:['A','B','C','D'], occupied=new Set();
+    for(const r of input.robots) {
+      if(!r||!expected.includes(r.team)||result.spawns[r.team]||!point(r.spawn)||occupied.has(key(...r.spawn))||result.cells[key(...r.spawn)]?.kind===1) throw Error('出生点席位、坐标或占位无效。');
+      result.spawns[r.team]=r.spawn;occupied.add(key(...r.spawn));
+    }
+    if(expected.some(t=>!result.spawns[t]))throw Error('第一阶段须有 A，第二阶段须有 A/B/C/D 出生点。');
+    return result;
+  }
+  for(const button of document.querySelectorAll('[data-brush]')) button.onclick=()=>{
+    brush=Number(button.dataset.brush);$('spawn').value='';
+    document.querySelectorAll('[data-brush]').forEach(b=>b.classList.toggle('active',Number(b.dataset.brush)===brush));
+  };
+  canvas.addEventListener('pointerenter',()=>canvas.focus({preventScroll:true}));
+  canvas.addEventListener('pointermove',e=>{pointer={clientX:e.clientX,clientY:e.clientY};updateHover();if(held!==null||dragging)paint(hover,held??brush);schedule();});
+  canvas.addEventListener('pointerleave',()=>{pointer=null;hover=null;$('position').textContent='将鼠标移到格子上';schedule();});
+  canvas.addEventListener('pointerdown',e=>{if(e.button!==0)return;e.preventDefault();canvas.focus();hover=pointAt(e);if($('spawn').value)return placeSpawn(hover);beginStroke();dragging=true;paint(hover,brush);});
+  window.addEventListener('pointerup',()=>{dragging=false;if(held===null)endStroke();});
+  window.addEventListener('blur',()=>{held=null;dragging=false;endStroke();});
+  document.addEventListener('keydown',e=>{
+    if(e.ctrlKey||e.metaKey||e.altKey||e.isComposing||['INPUT','TEXTAREA','SELECT','BUTTON'].includes(e.target.tagName)||e.target.isContentEditable)return;
+    const k=e.key.toLowerCase();
+    if(k==='a'){e.preventDefault();if(!e.repeat)exportMap();return;}
+    const kinds={'1':1,'2':2,'3':3,d:0};if(!(k in kinds))return;
+    e.preventDefault();held=kinds[k];beginStroke();paint(hover,held);
+  });
+  document.addEventListener('keyup',e=>{if(['1','2','3','d'].includes(e.key.toLowerCase())){held=null;if(!dragging)endStroke();}});
+  viewport.addEventListener('scroll',()=>{updateHover();schedule();});
+  new ResizeObserver(schedule).observe(viewport);
+  $('zoom').oninput=()=>{$('zoom-value').textContent=`${cellSize()} px`;hover=null;refresh();};
+  $('resize').onclick=()=>{
+    endStroke();const w=Number($('width').value),h=Number($('height').value);
+    if(!Number.isInteger(w)||!Number.isInteger(h)||w<1||h<1||w>maxSize||h>maxSize)return report('宽度和高度须为 1–200 的整数。',true);
+    const before=clone(state);state.width=w;state.height=h;
+    let removed=0;for(const k of Object.keys(state.cells)){const [x,y]=k.split(',').map(Number);if(x>=w||y>=h){delete state.cells[k];removed++;}}
+    availableSpawns();hover=null;remember(before);refresh();report(`尺寸已设为 ${w} × ${h}。${removed?'已裁剪 '+removed+' 个范围外格子，可撤销。':''}`);
+  };
+  $('stage').onchange=()=>{endStroke();const before=clone(state);state.stage=Number($('stage').value);availableSpawns();remember(before);report(`已切换到第${state.stage===1?'一':'二'}阶段。${state.template?'已保留导入配置的任务和事件，请在测试端核对。':''}`);};
+  $('format').onchange=()=>{lastExport='';$('json-output').value='';help();};
+  $('undo').onclick=()=>{endStroke();if(!past.length)return;future.push(clone(state));state=past.pop();hover=null;lastExport='';$('json-output').value='';refresh();report('已撤销。');};
+  $('redo').onclick=()=>{endStroke();if(!future.length)return;past.push(clone(state));state=future.pop();hover=null;lastExport='';$('json-output').value='';refresh();report('已重做。');};
+  $('export').onclick=exportMap;
+  $('copy').onclick=async()=>{
+    try {
+      const text=lastExport||JSON.stringify(buildOutput(),null,2)+'\n';
+      const output=$('json-output');output.value=text;
+      let copied=false;
+      if(navigator.clipboard?.writeText) {
+        try {await navigator.clipboard.writeText(text);copied=true;} catch {}
+      }
+      if(!copied) {
+        output.closest('details').open=true;output.focus();output.select();
+        try {copied=document.execCommand('copy');} catch {}
+      }
+      report(copied?'JSON 已复制。':'JSON 已选中，请按 Ctrl+C（Mac 使用 Command+C）复制。');
+    } catch(e) {report(e.message,true);}
+  };
+  $('import').onchange=async e=>{
+    const f=e.target.files[0];if(!f)return;
+    try{if(f.size>5*1024*1024)throw Error('导入文件不能超过 5 MiB。');const next=parseImport(JSON.parse(await f.text()));endStroke();const before=clone(state);state=next;hover=null;remember(before);if(state.template)$('format').value='practice';refresh();report(`已导入 ${f.name}。`);}
+    catch(err){report(`导入失败：${err.message}`,true);}finally{e.target.value='';}
+  };
+  refresh();
+})();
+
+</script>
+</body>
+</html>

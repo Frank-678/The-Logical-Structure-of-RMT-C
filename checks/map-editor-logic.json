@@ -1,0 +1,60 @@
+{
+  "source": "EDITOR-01",
+  "method": "Node vm执行原始内联JS；注入只读测试入口、最小DOM替身；未修改原件，非浏览器交互测试",
+  "results": [
+    {
+      "name": "默认geometry仅含map/robots",
+      "status": "pass"
+    },
+    {
+      "name": "默认24x24且四出生点",
+      "status": "pass"
+    },
+    {
+      "name": "新建practice默认无任务且关闭事件",
+      "status": "pass"
+    },
+    {
+      "name": "stage1导入导出语义保留，地图数组顺序归一后比较",
+      "status": "pass"
+    },
+    {
+      "name": "stage2导入导出语义保留，地图数组顺序归一后比较",
+      "status": "pass"
+    },
+    {
+      "name": "外部event_params_file拒绝",
+      "status": "pass"
+    },
+    {
+      "name": "重复资源ID拒绝",
+      "status": "pass"
+    },
+    {
+      "name": "越界资源拒绝",
+      "status": "pass"
+    },
+    {
+      "name": "第二阶段缺席位拒绝",
+      "status": "pass"
+    },
+    {
+      "name": "导入后缩图导致reach越界时导出拒绝",
+      "status": "pass"
+    },
+    {
+      "name": "重绘资源ID稳定且数值保持",
+      "status": "pass"
+    },
+    {
+      "name": "已知边界：导入允许资源和出生点重叠",
+      "status": "pass"
+    },
+    {
+      "name": "已知边界：事件定义坐标未校验",
+      "status": "pass"
+    }
+  ],
+  "passed": 13,
+  "failed": 0
+}

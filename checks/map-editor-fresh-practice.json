@@ -1,0 +1,47 @@
+{
+  "stage": 2,
+  "vision_radius": 4,
+  "respawn_wait": 3,
+  "spawn_protection": 2,
+  "mission_text": "自主收集资源并进行对抗。",
+  "missions": [],
+  "events": {
+    "enabled": false
+  },
+  "map": {
+    "width": 24,
+    "height": 24,
+    "obstacles": [],
+    "resources": []
+  },
+  "robots": [
+    {
+      "team": "A",
+      "spawn": [
+        1,
+        1
+      ]
+    },
+    {
+      "team": "B",
+      "spawn": [
+        22,
+        1
+      ]
+    },
+    {
+      "team": "C",
+      "spawn": [
+        1,
+        22
+      ]
+    },
+    {
+      "team": "D",
+      "spawn": [
+        22,
+        22
+      ]
+    }
+  ]
+}

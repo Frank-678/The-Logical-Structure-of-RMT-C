@@ -26,3 +26,5 @@
 正式适用顺序以 RULES-02 §15 为准：正式规则、配套通信协议、统一书面公告；口头讲解和私聊不单独改规则。已取得v1.1正式PDF、群内书面答疑截图及QA-02问答副本；在线实时版本及裁判运行一致性尚未验证。
 
 QA-02：[Q&A副本](materials/addenda/2026-10-25/qa-copy.xlsx)，引用按工作表1的C/D单元格；[逐条转录](materials/addenda/2026-10-25/qa-transcript.md)。CHAT-06：[堡垒截图](materials/addenda/2026-10-25/fortress-clarification.jpg)。来源哈希见catalog。
+
+EDITOR-01、CHAT-07/08：[地图编辑器及两截图](materials/addenda/2026-10-25-map-editor/README.md)，原件与转录；[导出与现场影响](docs/15-map-editor-and-onsite-addendum.md)。静态源码定位用函数名；13项Node逻辑检查与包内validate_config不代表ROS对局或浏览器交互验收。
