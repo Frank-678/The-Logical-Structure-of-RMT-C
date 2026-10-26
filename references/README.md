@@ -11,3 +11,5 @@ MEOW-01：https://github.com/chen-006/meow-ai-arena ，固定提交见 sources.l
 截图来源：[用户提供的原图](bilibili-ctf-screenshot.jpg)，对应原文件1000135368.jpg；仅作为repo发现线索。
 
 新增[Prompt群聊原图](prompt-discussion-2026-10-23.jpg)、[来源登记](prompt-sources-2026-10-23.json)、[采用/否决](../reports/05-prompt-harness-review.md)。博客正文已读，三篇原论文只核对摘要，未复制全文；submodule固定提交不变。
+
+RMTC当前规则为RULES-03 v1.2：[原件及迁移定位](../reports/06-v1.2-transfer-update.md)，源文件保存在ANALYSIS。未新增外部repo或代码摘录，不更改上游固定提交。

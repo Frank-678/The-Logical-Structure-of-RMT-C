@@ -1,5 +1,7 @@
 # RMTC · COMPARISON
 
+2026-10-27：[v1.2迁移补充](reports/06-v1.2-transfer-update.md)，堡垒动态区域、复活专用搜索及交付调整；上游代码与数据未变。
+
 2026-10-23新增：[v1.1迁移影响](reports/04-v1.1-transfer-update.md) · [Prompt与分层harness](reports/05-prompt-harness-review.md)。六集原游戏数据不变，RMTC计分依据已更新。
 
 外部项目的规则、实现、实验、可借鉴方法与否决理由。当前参考覆盖 meow-ai-arena 的全部六集和公共平台，不只截图中的夺旗。

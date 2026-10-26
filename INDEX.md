@@ -1,5 +1,7 @@
 # 分支文件总索引
 
+2026-10-27：[v1.2迁移补充](reports/06-v1.2-transfer-update.md)，堡垒动态区域、复活专用搜索及交付调整；上游代码与数据未变。
+
 [v1.1迁移影响](reports/04-v1.1-transfer-update.md) · [Prompt与harness](reports/05-prompt-harness-review.md)。全部归档文件如下，哈希见checks/file-manifest.json。
 
 | 文件 |
@@ -53,3 +55,4 @@
 | [tools/scan_upstream.py](<tools/scan_upstream.py>) |
 | [tools/verify_upstream.py](<tools/verify_upstream.py>) |
 | [upstream/meow-ai-arena](<upstream/meow-ai-arena>) |
+| [reports/06-v1.2-transfer-update.md](<reports/06-v1.2-transfer-update.md>) |

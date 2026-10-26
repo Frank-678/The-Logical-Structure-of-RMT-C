@@ -14,7 +14,7 @@
   ],
   "analysis_branch": "https://github.com/Frank-678/The-Logical-Structure-of-RMT-C/tree/ANALYSIS",
   "review_date": "2026-10-21",
-  "last_material_update": "2026-10-23",
+  "last_material_update": "2026-10-27",
   "web_sources": [
     {
       "id": "PROMPT-BLOG-01",
@@ -38,5 +38,13 @@
       "url": "https://arxiv.org/abs/2210.03629v3",
       "scope": "主动增加原论文摘要级对照"
     }
-  ]
+  ],
+  "rmtc_rules": {
+    "id": "RULES-03",
+    "version": "1.2",
+    "url": "https://github.com/Frank-678/The-Logical-Structure-of-RMT-C/blob/ANALYSIS/materials/releases/v1.2/original/competition-rules-v1.2.pdf",
+    "sha256": "d902e26381166aefe8dedc79a3655b583dc4ce863a3bb0024a8a2e9cad465c57",
+    "received": "2026-10-27",
+    "pages": 24
+  }
 }
