@@ -1,0 +1,109 @@
+{
+  "method": "按精确主章节标题切分15节，去独立页码、空白和BOM；不把章节内数字列表当主标题",
+  "sections": [
+    {
+      "section": "1",
+      "normalized_equal": false
+    },
+    {
+      "section": "2",
+      "normalized_equal": true
+    },
+    {
+      "section": "3",
+      "normalized_equal": true
+    },
+    {
+      "section": "4",
+      "normalized_equal": true
+    },
+    {
+      "section": "5",
+      "normalized_equal": true
+    },
+    {
+      "section": "6",
+      "normalized_equal": true
+    },
+    {
+      "section": "7",
+      "normalized_equal": false
+    },
+    {
+      "section": "8",
+      "normalized_equal": false
+    },
+    {
+      "section": "9",
+      "normalized_equal": true
+    },
+    {
+      "section": "10",
+      "normalized_equal": true
+    },
+    {
+      "section": "11",
+      "normalized_equal": true
+    },
+    {
+      "section": "12",
+      "normalized_equal": false
+    },
+    {
+      "section": "13",
+      "normalized_equal": true
+    },
+    {
+      "section": "14",
+      "normalized_equal": true
+    },
+    {
+      "section": "15",
+      "normalized_equal": false
+    }
+  ],
+  "required_phrase_checks": [
+    {
+      "phrase": "语言无限制",
+      "present": true
+    },
+    {
+      "phrase": "推荐使用C++17及以上",
+      "present": true
+    },
+    {
+      "phrase": "复活机制如下",
+      "present": true
+    },
+    {
+      "phrase": "障碍只排除落点，不阻断选点搜索",
+      "present": true
+    },
+    {
+      "phrase": "但是资源格可以复活",
+      "present": true
+    },
+    {
+      "phrase": "按席位A→B→C→D",
+      "present": true
+    },
+    {
+      "phrase": "生成区域多数为(11,11)-(13,13)",
+      "present": true
+    },
+    {
+      "phrase": "部分地图存在特殊变化",
+      "present": true
+    },
+    {
+      "phrase": "代码仓库、技术报告",
+      "present": true
+    },
+    {
+      "phrase": "如何ai协同开发",
+      "present": true
+    }
+  ],
+  "original_pdf_sha256_verified": true,
+  "limits": "第12节表格/示例排版、第15节尾文字另经人工复核；只做文档一致性检查，未验证裁判运行"
+}

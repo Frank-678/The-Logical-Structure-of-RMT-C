@@ -1,5 +1,9 @@
 # 分支文件总索引
 
+[同批新增三张群聊截图](docs/17-map-uncertainty-2026-10-27.md)：堡垒不能硬编码，地图对称性占比说法冲突，中心迷宫仍仅猜测。
+
+2026-10-27当前规则为RULES-03 v1.2：[迁移与行动](docs/16-v1.2-rule-migration.md)。堡垒范围以当场公告为准；复活选点已写入正式规则；语言不限，镜像不再必交。旧版本记录保留作历史依据。
+
 [新增地图编辑器与现场通知](docs/15-map-editor-and-onsite-addendum.md)：原件、导出兼容性、13项逻辑检查和配置验证；现场替补与切换仍按封存规则执行。
 
 [战术与消息处理详解](docs/14-tactical-and-message-design.md)：汇总攻击/移动、辣椒、堡垒、计分及暂停恢复；验收用例均待执行。
@@ -135,3 +139,17 @@
 | [materials/addenda/2026-10-25-map-editor/map-editor.html](<materials/addenda/2026-10-25-map-editor/map-editor.html>) |
 | [materials/addenda/2026-10-25-map-editor/onsite-operation.jpg](<materials/addenda/2026-10-25-map-editor/onsite-operation.jpg>) |
 | [scripts/check_map_editor.mjs](<scripts/check_map_editor.mjs>) |
+| [checks/releases/v1.2/normalized-differences.json](<checks/releases/v1.2/normalized-differences.json>) |
+| [checks/releases/v1.2/pdf-reading-inventory.json](<checks/releases/v1.2/pdf-reading-inventory.json>) |
+| [checks/releases/v1.2/rule-contract-checks.json](<checks/releases/v1.2/rule-contract-checks.json>) |
+| [checks/releases/v1.2/rules-v1.1-to-v1.2.diff](<checks/releases/v1.2/rules-v1.1-to-v1.2.diff>) |
+| [docs/16-v1.2-rule-migration.md](<docs/16-v1.2-rule-migration.md>) |
+| [materials/releases/v1.2/README.md](<materials/releases/v1.2/README.md>) |
+| [materials/releases/v1.2/extracted/rules.txt](<materials/releases/v1.2/extracted/rules.txt>) |
+| [materials/releases/v1.2/original/competition-rules-v1.2.pdf](<materials/releases/v1.2/original/competition-rules-v1.2.pdf>) |
+| [scripts/check_v12_rule_contract.py](<scripts/check_v12_rule_contract.py>) |
+| [docs/17-map-uncertainty-2026-10-27.md](<docs/17-map-uncertainty-2026-10-27.md>) |
+| [materials/addenda/2026-10-27/README.md](<materials/addenda/2026-10-27/README.md>) |
+| [materials/addenda/2026-10-27/fortress-and-llm.jpg](<materials/addenda/2026-10-27/fortress-and-llm.jpg>) |
+| [materials/addenda/2026-10-27/special-map-discussion.jpg](<materials/addenda/2026-10-27/special-map-discussion.jpg>) |
+| [materials/addenda/2026-10-27/symmetry-discussion.jpg](<materials/addenda/2026-10-27/symmetry-discussion.jpg>) |

@@ -1,0 +1,118 @@
+{
+  "source": "RULES-03",
+  "original_filename": "RMTC 机甲⼤师图灵对决赛赛事规则v1.2.pdf",
+  "path": "materials/releases/v1.2/original/competition-rules-v1.2.pdf",
+  "bytes": 3393676,
+  "sha256": "d902e26381166aefe8dedc79a3655b583dc4ce863a3bb0024a8a2e9cad465c57",
+  "pages": 24,
+  "extraction": "pdftotext -layout，完整原始分页保留",
+  "reading": "正文全文及两种差异比对已读；视觉核对PDF第3、5、6、15、16页",
+  "visual_review_pages": [
+    3,
+    5,
+    6,
+    15,
+    16
+  ],
+  "page_inventory": [
+    {
+      "pdf_page": 1,
+      "non_whitespace_characters": 255
+    },
+    {
+      "pdf_page": 2,
+      "non_whitespace_characters": 337
+    },
+    {
+      "pdf_page": 3,
+      "non_whitespace_characters": 749
+    },
+    {
+      "pdf_page": 4,
+      "non_whitespace_characters": 260
+    },
+    {
+      "pdf_page": 5,
+      "non_whitespace_characters": 389
+    },
+    {
+      "pdf_page": 6,
+      "non_whitespace_characters": 528
+    },
+    {
+      "pdf_page": 7,
+      "non_whitespace_characters": 944
+    },
+    {
+      "pdf_page": 8,
+      "non_whitespace_characters": 892
+    },
+    {
+      "pdf_page": 9,
+      "non_whitespace_characters": 640
+    },
+    {
+      "pdf_page": 10,
+      "non_whitespace_characters": 926
+    },
+    {
+      "pdf_page": 11,
+      "non_whitespace_characters": 1025
+    },
+    {
+      "pdf_page": 12,
+      "non_whitespace_characters": 487
+    },
+    {
+      "pdf_page": 13,
+      "non_whitespace_characters": 974
+    },
+    {
+      "pdf_page": 14,
+      "non_whitespace_characters": 801
+    },
+    {
+      "pdf_page": 15,
+      "non_whitespace_characters": 973
+    },
+    {
+      "pdf_page": 16,
+      "non_whitespace_characters": 847
+    },
+    {
+      "pdf_page": 17,
+      "non_whitespace_characters": 964
+    },
+    {
+      "pdf_page": 18,
+      "non_whitespace_characters": 866
+    },
+    {
+      "pdf_page": 19,
+      "non_whitespace_characters": 833
+    },
+    {
+      "pdf_page": 20,
+      "non_whitespace_characters": 787
+    },
+    {
+      "pdf_page": 21,
+      "non_whitespace_characters": 890
+    },
+    {
+      "pdf_page": 22,
+      "non_whitespace_characters": 698
+    },
+    {
+      "pdf_page": 23,
+      "non_whitespace_characters": 815
+    },
+    {
+      "pdf_page": 24,
+      "non_whitespace_characters": 771
+    }
+  ],
+  "creation_metadata_utc": "2026-10-26T13:28:40Z",
+  "received_date_Asia_Shanghai": "2026-10-27",
+  "date_note": "PDF创建元数据不等同已独立确认的规则正式发布时间"
+}

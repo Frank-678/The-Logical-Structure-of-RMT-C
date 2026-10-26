@@ -261,5 +261,47 @@
     "description": "预计比赛时长、示例视频预告和替补操作",
     "origin": "用户2026-10-25提供的附件",
     "authority": "群内分享/书面通知；正式规则及有效后续公告优先"
+  },
+  {
+    "id": "RULES-03",
+    "original_filename": "RMTC 机甲⼤师图灵对决赛赛事规则v1.2.pdf",
+    "path": "materials/releases/v1.2/original/competition-rules-v1.2.pdf",
+    "bytes": 3393676,
+    "sha256": "d902e26381166aefe8dedc79a3655b583dc4ce863a3bb0024a8a2e9cad465c57",
+    "pages": 24,
+    "description": "正式规则v1.2；语言不限、删除镜像必交、报告细化、复活明示、堡垒范围随场公告",
+    "origin": "用户2026-10-27提供的附件",
+    "authority": "当前已取得的最新正式规则；适用还应核对后续有效统一公告",
+    "extracted_text": "materials/releases/v1.2/extracted/rules.txt"
+  },
+  {
+    "id": "CHAT-09",
+    "original_filename": "1000137316.jpg",
+    "path": "materials/addenda/2026-10-27/fortress-and-llm.jpg",
+    "bytes": 103320,
+    "sha256": "4dd45bde1e7d95ce83791044ef8ae341ef51ea57c6e61eb4cbe2312d15538f17",
+    "description": "堡垒硬编码与LLM使用讨论",
+    "origin": "用户2026-10-27提供的附件",
+    "authority": "群内讨论不单独覆盖正式规则；矛盾/推测按原样记录"
+  },
+  {
+    "id": "CHAT-10",
+    "original_filename": "1000137317.jpg",
+    "path": "materials/addenda/2026-10-27/special-map-discussion.jpg",
+    "bytes": 107657,
+    "sha256": "4cd4661200e728c4708db8ecc2212b39d13d1a2e5f35fc6cf4c7218244187f5e",
+    "description": "特殊地图提醒与迷宫猜测",
+    "origin": "用户2026-10-27提供的附件",
+    "authority": "群内讨论不单独覆盖正式规则；矛盾/推测按原样记录"
+  },
+  {
+    "id": "CHAT-11",
+    "original_filename": "1000137318.jpg",
+    "path": "materials/addenda/2026-10-27/symmetry-discussion.jpg",
+    "bytes": 113798,
+    "sha256": "6aae998fba08d609587910094ffbebc4443f0870c282fa2bffbda6b902298150",
+    "description": "两位学长对地图对称性占比的相反表述",
+    "origin": "用户2026-10-27提供的附件",
+    "authority": "群内讨论不单独覆盖正式规则；矛盾/推测按原样记录"
   }
 ]

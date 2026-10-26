@@ -1,8 +1,10 @@
 # 来源和引用索引
 
+2026-10-27当前规则为RULES-03 v1.2：[迁移与行动](docs/16-v1.2-rule-migration.md)。堡垒范围以当场公告为准；复活选点已写入正式规则；语言不限，镜像不再必交。旧版本记录保留作历史依据。
+
 2026-10-25更新：已读取QA-02副本（7问6答），补充世界分裂复活保护、堡垒坐标和提交要求；此前Q&A未读描述为历史状态。组队信息.xlsx仍未取得。[最新澄清](docs/13-qa-and-fortress-2026-10-25.md)。
 
-当前基线：[RULES-02规则v1.1](materials/releases/v1.1/original/competition-rules-v1.1.pdf)24页（§5.2第13页、§7第14页、§8第15–17页、§10第17–18页）；[PROTO-02协议](materials/releases/v1.1/original/communication-protocol-v1.1.pdf)19页（§3第8页、§3.1第11页、§4第12页）；[TUTORIAL-02教程](materials/releases/v1.1/original/referee-tutorial-v1.1.pdf)10页（计分第5页、真实AI第6页、提交第10页）；[DIST-02新包](materials/releases/v1.1/original/practice-dist.zip)。CHAT-03/04/05见[新转录](materials/addenda/2026-10-23/chat-transcript.md)。[QA-01在线入口](https://www.kdocs.cn/l/chvoGhq4hclu?f=301)此前要求登录；现已取得QA-02副本并完整提取，见下文。组队信息.xlsx仍仅见文件名。旧01版保留为历史来源。
+v1.1历史基线：[RULES-02规则v1.1](materials/releases/v1.1/original/competition-rules-v1.1.pdf)24页（§5.2第13页、§7第14页、§8第15–17页、§10第17–18页）；[PROTO-02协议](materials/releases/v1.1/original/communication-protocol-v1.1.pdf)19页（§3第8页、§3.1第11页、§4第12页）；[TUTORIAL-02教程](materials/releases/v1.1/original/referee-tutorial-v1.1.pdf)10页（计分第5页、真实AI第6页、提交第10页）；[DIST-02新包](materials/releases/v1.1/original/practice-dist.zip)。CHAT-03/04/05见[新转录](materials/addenda/2026-10-23/chat-transcript.md)。[QA-01在线入口](https://www.kdocs.cn/l/chvoGhq4hclu?f=301)此前要求登录；现已取得QA-02副本并完整提取，见下文。组队信息.xlsx仍仅见文件名。旧01版保留为历史来源。
 
 材料清单的路径、原名与哈希是 materials/catalog.json。正文的 RULES-01、PROTO-01 等均指向该表。
 
@@ -28,3 +30,7 @@
 QA-02：[Q&A副本](materials/addenda/2026-10-25/qa-copy.xlsx)，引用按工作表1的C/D单元格；[逐条转录](materials/addenda/2026-10-25/qa-transcript.md)。CHAT-06：[堡垒截图](materials/addenda/2026-10-25/fortress-clarification.jpg)。来源哈希见catalog。
 
 EDITOR-01、CHAT-07/08：[地图编辑器及两截图](materials/addenda/2026-10-25-map-editor/README.md)，原件与转录；[导出与现场影响](docs/15-map-editor-and-onsite-addendum.md)。静态源码定位用函数名；13项Node逻辑检查与包内validate_config不代表ROS对局或浏览器交互验收。
+
+RULES-03：[规则v1.2原件](materials/releases/v1.2/original/competition-rules-v1.2.pdf)，24页；§1语言第3页、材料第5页、报告与版本一致第5–6页、§2.2检录第7页、§7复活第14–15页、§8.5堡垒第16页、§10计分第18–19页。全文/原始diff/逐页库存见[版本目录](materials/releases/v1.2/README.md)。未取得配套v1.2协议、教程或新dist，不虚构新版接口/引擎。
+
+CHAT-09/10/11：[2026-10-27三张群聊原件与转录](materials/addenda/2026-10-27/README.md)。堡垒/LLM、特殊地图与对称性争议分开记录；不推断多数地图结构，不把迷宫问题当事实。
