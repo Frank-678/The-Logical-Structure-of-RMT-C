@@ -1,0 +1,113 @@
+{
+  "repository": "Frank-678/RoboMaster-Turing-Competition-BeyondControl",
+  "pull_request": 1,
+  "verified_head": "57b331207f9ac1bcef059dd0707ae1696e8f4542",
+  "timezone": "Asia/Shanghai",
+  "commits": [
+    {
+      "sha": "fdb32788f36f889df7a05a2f74bf91927308fddd",
+      "message": "feat: add visible-resource BFS collection and local exploration",
+      "date": "2026-10-27T08:42:05Z"
+    },
+    {
+      "sha": "1c792b83aa3eaaa6a135cd78a0b8c5c818db2423",
+      "message": "feat: complete two-stage baseline, combat, missions and async AI events",
+      "date": "2026-10-27T09:34:45Z"
+    },
+    {
+      "sha": "28f5c53cb6beda049d82eb3f9c15987a4233ef2a",
+      "message": "fix(strategy): value capped gains from the current official score",
+      "date": "2026-10-27T10:14:39Z"
+    },
+    {
+      "sha": "c927038458e58756c2aef09d1a631b7f9c2f959c",
+      "message": "fix(ai): retain uncertainty and retry incomplete event interpretations",
+      "date": "2026-10-27T10:24:43Z"
+    },
+    {
+      "sha": "e4c21a15dc533106dd398ac6f5af74174c5c604a",
+      "message": "fix(strategy): reject escape steps with no safe near-term continuation\n\nCheck known traversable cells for eight ticks, including WAIT, before choosing the first move. Respect the official pre-movement explosion and split timing (rules v1.2 section 5.2). Keep the existing fallback when no continuation can be certified.\n\nRegress the split-sealed cul-de-sac and waiting before entering an already-exploded cell. Core/mock-HTTP regressions and ASan/UBSan pass; ROS and live-judge integration remain untested.",
+      "date": "2026-10-27T10:32:29Z"
+    },
+    {
+      "sha": "e401d913f44f6b2f9b19e8d231d60b58a5e8cc0c",
+      "message": "refactor(strategy): centralize fixed pre-match heuristic parameters\n\nKeep seven existing weights and thresholds in a documented constexpr configuration. Preserve default decisions and keep official rules outside tuning. Core and mock HTTP regressions pass; no automatic match tuning is claimed.",
+      "date": "2026-10-27T12:34:30Z"
+    },
+    {
+      "sha": "f157afe01ea45f0736b4973ae457b7ec41a2c619",
+      "message": "refactor(config): put explicit match settings in one header\n\nCompile seat, stage, ROS settings, AI gateway credentials/model/limits and strategy weights from match_config.hpp. Remove launch/environment fallbacks. Stage two rejects empty AI configuration instead of silently disabling calls. Core/mock HTTP regressions and shell syntax checks pass; ROS build remains unverified.",
+      "date": "2026-10-27T12:45:22Z"
+    },
+    {
+      "sha": "d7de6a082d1cb10cce09236993fa10028ccff8d8",
+      "message": "feat(strategy): defend on fallback and probe unknown neighboring cells\n\nUse DEFEND for living stage-two fallbacks. Suppress rather than send illegal fallback actions in stage one, on death, and before known forced-wait/death activations. When no known route exists, try an in-bounds unknown neighbor and rotate attempts without assuming movement succeeded.\n\nRegression first failed on the old WAIT fallback, then passed with protocol, duplicate-tick, failed-probe and event cases. Core and mock HTTP regressions pass.",
+      "date": "2026-10-27T12:48:41Z"
+    },
+    {
+      "sha": "54c45884113d6ba8cc8ae501200df16467c46937",
+      "message": "fix(ai): require a model and expose request failure diagnostics\n\nAlways send an explicit model. Track requests started/finished, completed HTTP successes, HTTP status, curl errors and known practice-mock replies per session. Reject known simulated event responses and stop pointless mock retries without claiming real LLM success.\n\nRegress empty model configuration, mock response rejection and timeout diagnostics. Existing async, quota, session, stage and strategy tests pass. No practice files are changed.",
+      "date": "2026-10-27T12:52:43Z"
+    },
+    {
+      "sha": "caf394c74cef6354fcfbe80b1310b3823b5e430e",
+      "message": "docs(strategy): explain the decision sequence and event timing in Chinese\n\nAnnotate coordinate parsing, map memory, eight-tick route checks, actual action receipts, fortress expiry, capped gains, attacks and probing. Verified the diff changes comments only.",
+      "date": "2026-10-27T12:57:01Z"
+    },
+    {
+      "sha": "c7dda32756a86bc2612ab17401505b999fa9de2c",
+      "message": "feat(network): document both gateway hops and launch unchanged practice\n\nKeep client gateway/proxy and practice upstream URL/key/proxy/port in match_config.hpp. The new launcher supplies original practice arguments/environment without changing practice files. Explicitly control client proxy routing instead of inheriting terminal proxy settings.\n\nREADME maps every address and credential to its process and explains ROS reception, HTTP responses, launch order and zero-success diagnostics. Core/mock HTTP tests pass with poisoned ambient proxies and an explicit forwarding proxy. Standalone launcher compile/configuration rejection and shell checks pass; ROS/live practice are unverified.",
+      "date": "2026-10-27T13:01:52Z"
+    },
+    {
+      "sha": "e051883e967572a647266175c4b970b4018a6d5e",
+      "message": "docs(types): annotate strategy state and public types in Chinese\n\nExplain files, functions, namespaces, types and variable meanings next to their use. C++ token comparison and Python AST comparison verify that these annotations preserve executable logic. Practice files remain untouched.",
+      "date": "2026-10-27T13:17:16Z"
+    },
+    {
+      "sha": "2913f6cadea96d6e28b91783f3d7120d10b7ec2e",
+      "message": "docs(flow): explain HTTP callbacks and per-tick control flow\n\nExplain files, functions, namespaces, types and variable meanings next to their use. C++ token comparison and Python AST comparison verify that these annotations preserve executable logic. Practice files remain untouched.",
+      "date": "2026-10-27T13:17:22Z"
+    },
+    {
+      "sha": "c8fb46e5b813a651b60ee9cac07c074b2c288588",
+      "message": "docs(tests): describe fixtures and build steps in place\n\nExplain files, functions, namespaces, types and variable meanings next to their use. C++ token comparison and Python AST comparison verify that these annotations preserve executable logic. Practice files remain untouched.",
+      "date": "2026-10-27T13:17:30Z"
+    },
+    {
+      "sha": "2df7c15a81e95fd8b823738f56061e4bf5fc5c33",
+      "message": "docs: add file, type and function reading guide\n\nExplain files, functions, namespaces, types and variable meanings next to their use. C++ token comparison and Python AST comparison verify that these annotations preserve executable logic. Practice files remain untouched.",
+      "date": "2026-10-27T13:17:37Z"
+    },
+    {
+      "sha": "040bc4a3a546eda27abfdc299a4ffb1df986b70e",
+      "message": "fix(practice): prevent bytecode writes in the original distribution\n\nDisable Python bytecode writes before exec so practice testing does not refresh the original tracked cache. Document that companion-bot logs do not replace the contestant process diagnostics. Standalone launcher build/configuration rejection and shell checks pass.",
+      "date": "2026-10-27T13:20:31Z"
+    },
+    {
+      "sha": "8fc7c654834c3e6794622b37469a7c24828d8dd2",
+      "message": "fix(ai): align asynchronous model requests with relay timing and final JSON output",
+      "date": "2026-10-27T14:20:06Z"
+    },
+    {
+      "sha": "74af9703dc057356c7b6743dea6b73f73a8584eb",
+      "message": "fix(startup): reject stale configuration and keep local practice traffic direct",
+      "date": "2026-10-27T14:20:38Z"
+    },
+    {
+      "sha": "14c24ef5eb911af62a2456e3d2bd662c9a64323e",
+      "message": "test: exercise the unchanged practice HTTP relay with the real C++ client",
+      "date": "2026-10-27T14:20:42Z"
+    },
+    {
+      "sha": "245fd82436741b4a7026374fac91c553297652dc",
+      "message": "docs: connect original tutorials and learning notes to setup and diagnostics",
+      "date": "2026-10-27T14:20:46Z"
+    },
+    {
+      "sha": "57b331207f9ac1bcef059dd0707ae1696e8f4542",
+      "message": "docs: distinguish the test runner from the robot launcher",
+      "date": "2026-10-27T14:23:07Z"
+    }
+  ]
+}

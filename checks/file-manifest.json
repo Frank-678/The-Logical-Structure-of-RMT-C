@@ -17,9 +17,9 @@
     },
     {
       "path": "INDEX.md",
-      "bytes": 14514,
-      "sha256": "5f90252e712628dff07773244fb45f1f0d6e5f6c656bfa357030443c25674bf8",
-      "git_blob_sha": "200fc37b5a4fa3a3ab76fc91e7aa4a7b2ae79900",
+      "bytes": 15042,
+      "sha256": "3bbba961c1f37d891ec9bafea18b56b3cfc9975ce60352fbf2de4935b57e28f6",
+      "git_blob_sha": "26d8d565030eb6cf214ee470b3eb6fcdda26472e",
       "mode": "100644"
     },
     {
@@ -38,9 +38,9 @@
     },
     {
       "path": "README.md",
-      "bytes": 3494,
-      "sha256": "bbe388a04aa106e344dfa3accd7e195546e4c1fe984147ce19025a473fa8465e",
-      "git_blob_sha": "6956f352f328f8d06ac3e46d9944958a320d4686",
+      "bytes": 3830,
+      "sha256": "45ba5aa46c2f09ec182dd6df78ab2a3789055766391c6dd4030c9c3c7a9f5779",
+      "git_blob_sha": "60d77c6aa6d5bc6cba800e2cf93f27bf9b223c4d",
       "mode": "100644"
     },
     {
@@ -52,9 +52,16 @@
     },
     {
       "path": "checks/README.md",
-      "bytes": 1203,
-      "sha256": "deea8292e9d7e1fd9e929ae99e033786cbe65af7069bc7bb005998db3068035c",
-      "git_blob_sha": "a3f2ef8b982c9646db954f56ef3f16823bdd11d7",
+      "bytes": 1553,
+      "sha256": "122d1f19eab684e0ab3379b4ee39c10c9660bb899327995759cdbcd037a68401",
+      "git_blob_sha": "1340d49bc9416f1ce90844a8200d975c288af975",
+      "mode": "100644"
+    },
+    {
+      "path": "checks/implementation-commits-2026-10-27.json",
+      "bytes": 8166,
+      "sha256": "7e70e27d7b4d1925104b79b4d29da4ca8f730f406c4d2de299e160e95b821340",
+      "git_blob_sha": "88f44564c2cd52fffdb9bac15b5548b2cb9aea4c",
       "mode": "100644"
     },
     {
@@ -293,6 +300,13 @@
       "bytes": 3609,
       "sha256": "7ff0e066df5357bff2767337dbfcd1680de63b56ec3a5bdcd0066b5964b3ca9f",
       "git_blob_sha": "d21bf19f967b61b5fb8ec7cec2d1b6d2474bbb2f",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/18-conversation-and-implementation.md",
+      "bytes": 21115,
+      "sha256": "343d12934cc99c8307cc772674e12bff6b2b2892801eae83147da772d49031d6",
+      "git_blob_sha": "b2074762f9717ecd7b066ba74fe458f627edb80e",
       "mode": "100644"
     },
     {

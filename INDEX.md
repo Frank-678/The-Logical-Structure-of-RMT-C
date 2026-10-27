@@ -1,5 +1,7 @@
 # 分支文件总索引
 
+[2026-10-27对话与实施全程记录](docs/18-conversation-and-implementation.md)：需求、依据、取舍、修正、21个代码提交及验证边界。选手主流程已有PR实现；完整Humble/DDS与真实模型联调仍未验收。原材料逐项复读继续记录，历史文档中的“尚未实现”保留当时含义。
+
 [同批新增三张群聊截图](docs/17-map-uncertainty-2026-10-27.md)：堡垒不能硬编码，地图对称性占比说法冲突，中心迷宫仍仅猜测。
 
 2026-10-27当前规则为RULES-03 v1.2：[迁移与行动](docs/16-v1.2-rule-migration.md)。堡垒范围以当场公告为准；复活选点已写入正式规则；语言不限，镜像不再必交。旧版本记录保留作历史依据。
@@ -153,3 +155,5 @@
 | [materials/addenda/2026-10-27/fortress-and-llm.jpg](<materials/addenda/2026-10-27/fortress-and-llm.jpg>) |
 | [materials/addenda/2026-10-27/special-map-discussion.jpg](<materials/addenda/2026-10-27/special-map-discussion.jpg>) |
 | [materials/addenda/2026-10-27/symmetry-discussion.jpg](<materials/addenda/2026-10-27/symmetry-discussion.jpg>) |
+| [docs/18-conversation-and-implementation.md](docs/18-conversation-and-implementation.md) |
+| [checks/implementation-commits-2026-10-27.json](checks/implementation-commits-2026-10-27.json) |
