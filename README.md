@@ -2,7 +2,7 @@
 
 本仓库用于**比赛规则整理、算法方案论证、实施和测试证据跟踪**；实际参赛 C++/ROS 2 工程另存放在 [RoboMaster-Turing-Competition-BeyondControl](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl)。这里的勾号只代表**已有对应证据的阶段**，不表示该方案已经提高胜率。
 
-**状态基线：2026-10-28。** 矩阵扩至R45；代码固定`826c4da5afa74d038b7ffad032da570e682d31a1`。规则v1.2、通信协议/教程v1.1；新增自建对手池与两轮参数搜索，失败结果保留。原版practice18文件未改；当前仍无完整原版裁判对标准车验收，真实HTTP与模拟资格分开。
+**状态基线：2026-10-28。** 矩阵扩至R46；代码固定`826c4da5afa74d038b7ffad032da570e682d31a1`。规则v1.2、通信协议/教程v1.1；新增自建对手池与两轮参数搜索，失败结果保留。原版practice18文件未改；当前补丁仍无本工具执行的完整原版裁判对标准车验收；用户新增整场日志另按R46核对，真实HTTP与模拟资格分开。
 
 ## 如何打勾：四道独立检查
 
@@ -66,6 +66,7 @@
 | R43 | 成功往返/争格的无进展检测与脱困 | ✅ | ✅ | ✅ | ◐ | [复现与日志](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl/blob/4ba9dcdaf2056248505ebd2479077b77cf68a7ef/NAVIGATION.md)：12可信帧窗口、目标暂缓/脱困期限；压力往返500→16Tick，正常绕路保留；另60局新地图均分37.37→38.16。未取得用户地图、未原版DDS验收，致命守卫仍可能停留 |
 | R44 | 假设火线保留唯一已知爆炸逃路 | ✅ | ✅ | ✅ | ◐ | [七份字幕的取舍与反例](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl/blob/826c4da5afa74d038b7ffad032da570e682d31a1/LESSONS.md)：每版32个席位/方向/敌动作变换，不踩点旧16死→新0死，实际踩点仍16死；另60局新地图分数未变，参数未重调。不是32独立地图或原版实战，保留风险 |
 | R45 | 自建裁判四席位观测隔离契约 | ✅ | ✅ | ✅ | ✅ | [规则回归](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl/blob/826c4da5afa74d038b7ffad032da570e682d31a1/tests/arena_test.cpp)：逐席位身份、坐标、R/D和自他区分断言通过ASan/UBSan；仅验收该观测契约，不代表完整裁判差分一致 |
+| R46 | 用户新增练习日志的场次与重复数据核验 | ✅ | — | ✅ | ◐ | [A审计](https://github.com/Frank-678/The-Logical-Structure-of-RMT-C/blob/7fb18759dc16d08b4947f88570a2997f59232166/practice-2a4edb203071443189635dfbc1b2037b/ai.jsonl)：25次real/200；同场500Tick原始分45。1000帧有500份完全重复，去重后才统计；27835目录score却属于2a4ed，拒绝串场归因。是用户上传证据，未精确绑定每场二进制，不冒充本工具新补丁实战 |
 
 > 本表“验收”必须对应具体范围：例如 R13 的 ✅ 仅表示重复公告回归通过，不表示 AI 模型在所有事件上正确；R14/R15 的 ❌ 是**测试执行失败**而非“算法已输给标准车”。R17/R18/R24及R26–R34的实现栏破折号表示外部研究或拒绝项；具体迁移单列R19–R21、R36。R29/R30的执行/验收只指上述函数反例。
 
