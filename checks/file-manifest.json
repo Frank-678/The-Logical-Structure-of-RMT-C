@@ -45,9 +45,9 @@
     },
     {
       "path": "README.md",
-      "bytes": 2865,
-      "sha256": "fa9174d2e4c71cf0a188b87bd0c697dc7e57637af2ed735dda567da07f4065d5",
-      "git_blob_sha": "e3972f9db2b95de842077048b5a451e7d21a6d86",
+      "bytes": 3113,
+      "sha256": "4491006674c14e2533f4c121260494bda0ee8cce101c593cf0d9eae13935bfdb",
+      "git_blob_sha": "eaf9abbaeabe7c2959deec70da715c96d8e5d887",
       "mode": "100644"
     },
     {
@@ -108,9 +108,9 @@
     },
     {
       "path": "decisions/reuse-register.md",
-      "bytes": 9917,
-      "sha256": "e017b15caab27f320ed9589ec879bc92b000d79f16b429f25ded5cd8e458d265",
-      "git_blob_sha": "bd3f37f5fa7013efe6c7a54d0ee52a79301b61a3",
+      "bytes": 11181,
+      "sha256": "4c638d5ad970967729874006ee19b7434953c0dd8cfa903ecf8542f6cd9f77cb",
+      "git_blob_sha": "588bcfd2bc349a46ae753e2f78295e156358b7d8",
       "mode": "100644"
     },
     {
@@ -307,6 +307,13 @@
       "bytes": 5699,
       "sha256": "bfce3fd49a2d54e9dc092f2b830fc738315d3fcb325f196625513c933e77593a",
       "git_blob_sha": "5397d406ce6ff77d70503a2e6707a7e2d47a01f4",
+      "mode": "100644"
+    },
+    {
+      "path": "reports/10-applied-search-and-arena-results-2026-10-28.md",
+      "bytes": 2503,
+      "sha256": "0ecca6e91bb182e9fc373259784df414cae40bb9b3116e67145099f4adc2f872",
+      "git_blob_sha": "883da48f16f1ad5a40f88527c45d00ff471aa930",
       "mode": "100644"
     },
     {
