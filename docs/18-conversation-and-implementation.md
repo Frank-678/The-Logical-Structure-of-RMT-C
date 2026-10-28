@@ -2,7 +2,7 @@
 
 更新日期：2026-10-28。本文按当前可见对话、已核对提交和测试记录，整理用户需求、证据、决策理由、实施与修正。它不是逐字聊天导出；上下文中缺失的原话、时间与中间操作不补写。
 
-当前代码位于[选手工程](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl)，通过[PR #1](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl/pull/1)交付。核对的最新代码头为`a7d2318fcce432878277686cbb2da65c87ca30fe`，PR尚未合并。用户2026-10-28新增授权只允许更新研究仓库main的README矩阵；已按此范围执行，代码main未改。
+当前代码位于[选手工程](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl)，通过[PR #1](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl/pull/1)交付。核对的最新代码头为`1682964a8a24dc348ce6fad223bbb6380a89516d`，PR尚未合并。用户2026-10-28新增授权只允许更新研究仓库main的README矩阵；已按此范围执行，代码main未改。
 
 本分支与COMPARISON保存赛前材料和研究；代码仓库用于实现。两条研究分支的名称、入口和历史不得回写到代码PR或公开渠道。本文可从研究区引用代码提交，反向引用不允许。前21项提交证据见[实施提交记录](../checks/implementation-commits-2026-10-27.json)；2026-10-28新增修复和实测记录见[补充证据](../checks/real-execution-2026-10-28.json)。
 
@@ -234,3 +234,15 @@ COMPARISON的[采用与否决记录](https://github.com/Frank-678/The-Logical-St
 ## 21 新增main矩阵授权与公开边界
 
 用户明确说“可以在main分支readme里面的矩阵里面扩充行以及打勾状态”。这覆盖此前禁止main的约定，但仅限README矩阵及相应总览说明。已单文件提交扩至R37；没有将研究分支历史合并到main，也没有在main/代码PR暴露两个保密区的名称、入口或历史。两支AGENTS同步记录此有限例外。各列继续区分读过、实现、执行、验收，不能将此前未完成的工作整体勾完。
+
+## 22 用户本机已执行移动，最新失败是HTTP502
+
+用户2026-10-28提供了新的终端TXT和截图，追问是否DeepSeek思考时间太长。文本含两场，三次完成请求为HTTP502/curl0，耗时6091/10109/10118ms；当前截图场连接本机8080为2ms，最后started2/finished1，第二次仍在途。该场从Tick4开始已见26个不同Tick成功移动，网页执行Tick29、moved=true。因此本机ROS链路已工作，不能把当前失败解释为选手根本不动，或把当前工具环境DDS权限问题转嫁给用户。
+
+启动为deepseek-flash、thinking disabled、35秒客户端等待，没有观察到客户端超时。原版practice把requests异常、重定向、非JSON回复等压成502，也会透传上游502；审计没有底层异常，不能从10秒直接断言模型思考慢。1/2ms是连接本机网关，不是上游连接耗时。用户没有提供gitSHA，暂停短局也不是完整比赛或胜率证据。
+
+新增小提交16ca045提供bash check_ai.sh：复用编译配置、只发一次最小上游请求，区分代理/TLS/连接/读取/HTTP问题，不启动裁判、不计本场资格。旧启动器可能忽略新参数，所以新构建摘要验证启动器/脚本/二进制，旧版拒绝执行。8个本机HTTP案例、6个注入异常、启动守卫通过；requests收到响应头后将正文超时包装成连接错误也有实际夹具覆盖。
+
+1682964独立提交README操作、变量用途和脱敏用户指标；practice18文件逐字节不变。没有在用户机器运行该命令，没有新增真实模型请求，没有猜测或自动切换代理。若practice_llm_proxy空，启动器会清空继承代理；终端其他程序能联网不证明练习代理也能。当前根因待用户本机一次诊断结果，不能直接定为网络、模型或密钥中的某一项。
+
+[用户运行指标](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl/blob/1682964a8a24dc348ce6fad223bbb6380a89516d/tests/results/user-ai-502-2026-10-28.json) · [诊断说明](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl/blob/1682964a8a24dc348ce6fad223bbb6380a89516d/README.md)。按已有有限授权，main矩阵扩至R38，并把R02/R12/R15改为对应新证据；提交ed402e5。代码PR保持开放，不合并main。

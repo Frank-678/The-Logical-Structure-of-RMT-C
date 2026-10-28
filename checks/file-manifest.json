@@ -38,9 +38,9 @@
     },
     {
       "path": "README.md",
-      "bytes": 5227,
-      "sha256": "a866e06d5913d992523b2945a74e5c2babaa537c5bc1e453f4c3dcc3bd222433",
-      "git_blob_sha": "855d74ed19d7efa160d6dfdea748846aeb3a07db",
+      "bytes": 5562,
+      "sha256": "71323514f3144f3d0d005d91e2a13ae7d5c83dd812744f360740ec43dfbe4623",
+      "git_blob_sha": "351d3d87e8af6f8e71d82752f31e340bea8ec402",
       "mode": "100644"
     },
     {
@@ -374,9 +374,9 @@
     },
     {
       "path": "docs/18-conversation-and-implementation.md",
-      "bytes": 28748,
-      "sha256": "1799d6200958d84bd82e3736ca7272fc9fba6562a063540220c4ac6d46db79a8",
-      "git_blob_sha": "c7f04d7e34a3a4bd5d8f383779e2fe8e65c4df53",
+      "bytes": 31078,
+      "sha256": "8fd1adc98426e85fb700287a43c009a47f25500fe8cae00afbf8202b27e84045",
+      "git_blob_sha": "eb6ebbe47fa51f4169426869aa417132e20648f3",
       "mode": "100644"
     },
     {

@@ -1,5 +1,7 @@
 # RMTC · ANALYSIS
 
+[用户本机502排查与独立出网检查](docs/18-conversation-and-implementation.md#22-用户本机已执行移动最新失败是http502)：本机ROS已实际执行移动，3次完成请求均HTTP502而非35秒客户端超时。新增诊断入口，旧启动器拒绝执行，原practice不变；上游根因仍待本机检查。
+
 [2026-10-28新增分析与实际规划](docs/23-incoming-analysis-and-planning-2026-10-28.md)：两份DOCX、云盘AHC/Gemini源、9仓库关键代码；3次功能提交+1次文档结果提交，7例采集配对。资源目标Beam/迟滞/信息探索已实现，完整攻防及标准车对局仍未验收。用户明确授权的main README矩阵已扩至R37。以下历史“Beam未实现”以本条为最新。
 
 [2026-10-28新增内容复核](docs/22-latest-branches-and-ahc-review-2026-10-28.md)：4分支、9次新提交；两步采集反例与R封顶检查，区分已有首步闭环和未实现Beam。
