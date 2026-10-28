@@ -1,5 +1,7 @@
 # RMTC · ANALYSIS
 
+[2026-10-28新增分析与实际规划](docs/23-incoming-analysis-and-planning-2026-10-28.md)：两份DOCX、云盘AHC/Gemini源、9仓库关键代码；3次功能提交+1次文档结果提交，7例采集配对。资源目标Beam/迟滞/信息探索已实现，完整攻防及标准车对局仍未验收。用户明确授权的main README矩阵已扩至R37。以下历史“Beam未实现”以本条为最新。
+
 [2026-10-28新增内容复核](docs/22-latest-branches-and-ahc-review-2026-10-28.md)：4分支、9次新提交；两步采集反例与R封顶检查，区分已有首步闭环和未实现Beam。
 
 [2026-10-28 AHC068→RMTC 策略迁移分析](docs/21-ahc068-to-rmtc-decision-study-2026-10-28.md)：记录 AHC 与本赛差异、已实现基线、短时域搜索设计、审查/执行边界与 P0–P4 验收；新算法尚未实战。

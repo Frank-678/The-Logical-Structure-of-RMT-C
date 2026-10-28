@@ -2,7 +2,7 @@
 
 更新日期：2026-10-28。本文按当前可见对话、已核对提交和测试记录，整理用户需求、证据、决策理由、实施与修正。它不是逐字聊天导出；上下文中缺失的原话、时间与中间操作不补写。
 
-当前代码位于[选手工程](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl)，通过[PR #1](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl/pull/1)交付。核对的最新代码头为`90af9851a40ed962c7fe24c855ecf3712487d146`，PR尚未合并。main不由本次记录修改。
+当前代码位于[选手工程](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl)，通过[PR #1](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl/pull/1)交付。核对的最新代码头为`a7d2318fcce432878277686cbb2da65c87ca30fe`，PR尚未合并。用户2026-10-28新增授权只允许更新研究仓库main的README矩阵；已按此范围执行，代码main未改。
 
 本分支与COMPARISON保存赛前材料和研究；代码仓库用于实现。两条研究分支的名称、入口和历史不得回写到代码PR或公开渠道。本文可从研究区引用代码提交，反向引用不允许。前21项提交证据见[实施提交记录](../checks/implementation-commits-2026-10-27.json)；2026-10-28新增修复和实测记录见[补充证据](../checks/real-execution-2026-10-28.json)。
 
@@ -220,3 +220,17 @@ COMPARISON的[采用与否决记录](https://github.com/Frank-678/The-Logical-St
 实际编译当前Strategy做两个两步夹具：R=0时基线兑现5资源分，对照路线7.5分；R=110时二者都是2.5分。这个反例仅说明当前短期评价的缺口，不是新算法效果或整场胜率。目标迟滞和Beam未实现，参赛PR与practice均不改。本轮没有再次请求真实模型或启动已受相同DDS权限阻塞的裁判。
 
 完整复核、采纳边界与下一处代码落点见[新增记录](22-latest-branches-and-ahc-review-2026-10-28.md)，新旧提交逐项证据见[分支快照](../checks/branch-update-review-2026-10-28.json)。
+
+## 19 新增DOCX、云盘原源码和9仓库建议
+
+用户先后补充两份分析、AHC高分源码的云盘文件名、Gemini的Rmtc Bot Node，以及9个外部仓库建议。两份DOCX已逐段读；AHC完整源取得但只重点审查关键路径、未运行；Gemini888行已全文读并做真实Humble头文件语法检查，未启动。9仓库固定版本、读9README/22代码文件，三个OP函数反例实际运行；纠正“通用DP”“已实现改进”“精确TSP”等过度概括。具体依据见[本轮材料与实施](23-incoming-analysis-and-planning-2026-10-28.md)。
+
+## 20 真正改变了哪些策略，哪些仍未完成
+
+按用户要求分成3次功能提交：有效目标迟滞/末Tick守卫；最多3资源目标的有界束搜索；信息增益探索和配对夹具。另一次提交补详细中文说明、变量用途和7例完整轨迹。两步资源20→30、四步40→50、密集200收集40步→36步，迷宫仍18步，全部无受阻MOVE。旧版反例和新版结果分开记录，不把局部采集收益说成完整比赛获胜。
+
+实际核心、固定HTTP、原Handler、启动、ASan/UBSan及真实ROS手动链接通过。getifaddrs仍EPERM，所以标准车整局、完整colcon/目标WSL、全部事件组合、留出对手消融、自动调参与正式封存仍未验收。本轮没有新增真实模型调用，旧两次成功不重复计作新证据。practice18原文件不改，PR仍开放。
+
+## 21 新增main矩阵授权与公开边界
+
+用户明确说“可以在main分支readme里面的矩阵里面扩充行以及打勾状态”。这覆盖此前禁止main的约定，但仅限README矩阵及相应总览说明。已单文件提交扩至R37；没有将研究分支历史合并到main，也没有在main/代码PR暴露两个保密区的名称、入口或历史。两支AGENTS同步记录此有限例外。各列继续区分读过、实现、执行、验收，不能将此前未完成的工作整体勾完。

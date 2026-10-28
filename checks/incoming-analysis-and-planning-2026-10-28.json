@@ -1,0 +1,169 @@
+{
+  "date": "2026-10-28",
+  "inputs": [
+    {
+      "title": "思考了57s.docx",
+      "original_bytes": 24444,
+      "sha256": "2b2aea8213530e2ab745738b47e60ea3e2fe72a60ab166874ee99f79d2a35d3a",
+      "nonempty_body_paragraphs": 298,
+      "extracted_chars": 12795,
+      "extracted_path": "materials/addenda/2026-10-28-analysis/01-57s.txt",
+      "scope": "All nonempty body paragraphs read; no image/table/comment/tracked-deletion/math object found. Rendering lacked CJK glyphs; no visual-reading claim."
+    },
+    {
+      "title": "Gemini的分析.docx",
+      "original_bytes": 22811,
+      "sha256": "9a8e43e09b41b7abb40b1c3de99f2cddd8dc63de9ca86e3dcb414835a1484b50",
+      "nonempty_body_paragraphs": 164,
+      "extracted_chars": 12574,
+      "extracted_path": "materials/addenda/2026-10-28-analysis/02-Gemini-.txt",
+      "scope": "All nonempty body paragraphs read; no image/table/comment/tracked-deletion/math object found. Rendering lacked CJK glyphs; no visual-reading claim."
+    }
+  ],
+  "code": {
+    "previous": "90af9851a40ed962c7fe24c855ecf3712487d146",
+    "commits": [
+      {
+        "sha": "361541e5a3e266d3a7a17dbd60253e189dd9acab",
+        "change": "goal hysteresis and remaining Tick guards"
+      },
+      {
+        "sha": "405023a2d88ede567cfd8512856bd2c708dc93b7",
+        "change": "bounded known-map resource sequences"
+      },
+      {
+        "sha": "a23edad856a663a469b6bccf9e605c1446928164",
+        "change": "information-gain exploration and paired fixtures"
+      },
+      {
+        "sha": "a7d2318fcce432878277686cbb2da65c87ca30fe",
+        "change": "documentation and seven full fixture traces"
+      }
+    ],
+    "practice_tree": "3c352b3f29be4a008f46642063ce527c4fb4756f",
+    "practice_modified": false
+  },
+  "research_heads_before": [
+    {
+      "name": "ANALYSIS",
+      "commit": {
+        "sha": "36d44665a2dbf12ad490ec15e9eacf9521d007fd",
+        "url": "https://api.github.com/repos/Frank-678/The-Logical-Structure-of-RMT-C/commits/36d44665a2dbf12ad490ec15e9eacf9521d007fd"
+      },
+      "protected": false
+    },
+    {
+      "name": "COMPARISON",
+      "commit": {
+        "sha": "8d0b176835150f6fd84dc35c21379fb27d0d02a6",
+        "url": "https://api.github.com/repos/Frank-678/The-Logical-Structure-of-RMT-C/commits/8d0b176835150f6fd84dc35c21379fb27d0d02a6"
+      },
+      "protected": false
+    },
+    {
+      "name": "log",
+      "commit": {
+        "sha": "2dac70f455186b38fffa23fbe7c5a08e9104073d",
+        "url": "https://api.github.com/repos/Frank-678/The-Logical-Structure-of-RMT-C/commits/2dac70f455186b38fffa23fbe7c5a08e9104073d"
+      },
+      "protected": false
+    },
+    {
+      "name": "main",
+      "commit": {
+        "sha": "bee5397f51525977f271cfcc35ac8669ebbd2ca8",
+        "url": "https://api.github.com/repos/Frank-678/The-Logical-Structure-of-RMT-C/commits/bee5397f51525977f271cfcc35ac8669ebbd2ca8"
+      },
+      "protected": false
+    }
+  ],
+  "main_readme": {
+    "authorization": "User explicitly requested expanding rows and checkmarks in main README; exception limited to this file.",
+    "before": "bee5397f51525977f271cfcc35ac8669ebbd2ca8",
+    "after": "beb91a8f39bd42e353fee4e385fc21654f5790cc",
+    "rows_before": 25,
+    "rows_after": 37,
+    "changed_paths": [
+      "README.md"
+    ]
+  },
+  "new_log": {
+    "path": "ros-logs/log.txt",
+    "commit": "2dac70f455186b38fffa23fbe7c5a08e9104073d",
+    "blob": "1ed9a75d54b1f65b0c1ddc653aa8d8879ba170a0",
+    "characters": 13,
+    "lines": 2,
+    "tick_range": null,
+    "models": [],
+    "max_http_success": null,
+    "curl_codes": [],
+    "moved_true": null,
+    "moved_false": null,
+    "secret_pattern_present": false,
+    "scope": "New file in old-date log commit; cannot attribute to current code without binary/commit evidence.",
+    "observed_runtime_records": false
+  },
+  "checks": {
+    "core_werror": "passed",
+    "mock_http": "passed fixed upstream; not real model",
+    "original_practice_handler": "passed canned upstream; ROS imports stubbed; not full referee",
+    "startup_guards": "passed",
+    "asan_ubsan": "passed; detect_leaks=0",
+    "real_ros_manual_link": "passed with genuine Humble headers/libraries; not colcon or target WSL acceptance",
+    "mermaid_parse": {
+      "diagrams": 6,
+      "passed": true,
+      "rendered_visual_qa": false
+    },
+    "getifaddrs": {
+      "result": -1,
+      "errno": 1,
+      "name": "EPERM"
+    },
+    "full_match": "not completed; same DDS blocker, no valid result",
+    "new_real_llm_calls": 0
+  },
+  "paired_collection": {
+    "result_url": "https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl/blob/a7d2318fcce432878277686cbb2da65c87ca30fe/tests/results/planning-2026-10-28.json",
+    "cases": 7,
+    "blocked_moves": 0,
+    "two_move_R": [
+      20,
+      30
+    ],
+    "four_move_R": [
+      40,
+      50
+    ],
+    "dense_R": [
+      200,
+      200
+    ],
+    "dense_ticks": [
+      40,
+      36
+    ],
+    "maze_ticks": [
+      18,
+      18
+    ],
+    "frontier_visible_cells": [
+      9,
+      12
+    ],
+    "max_observed_new_decide_ms": 2.281066,
+    "scope": "One execution per deterministic fixture and revision; no enemies/events/missions/AI; not held-out maps, full callback latency or win rate."
+  },
+  "external_review": {
+    "repositories": 9,
+    "readmes": 9,
+    "selected_code_files": 22,
+    "verified_blobs": 31,
+    "function_counterexamples": 3,
+    "ahc_source_lines_obtained": 2195,
+    "ahc_scope": "selected algorithm cores statically reviewed; not compiled/run",
+    "gemini_source_lines_read": 888,
+    "gemini_syntax_exit": 0,
+    "gemini_node_run": false
+  }
+}

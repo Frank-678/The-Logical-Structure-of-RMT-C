@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-28",
+  "files": [
+    {
+      "title": "思考了57s.docx",
+      "original_bytes": 24444,
+      "sha256": "2b2aea8213530e2ab745738b47e60ea3e2fe72a60ab166874ee99f79d2a35d3a",
+      "nonempty_body_paragraphs": 298,
+      "extracted_chars": 12795,
+      "extracted_path": "materials/addenda/2026-10-28-analysis/01-57s.txt",
+      "scope": "All nonempty body paragraphs read; no image/table/comment/tracked-deletion/math object found. Rendering lacked CJK glyphs; no visual-reading claim."
+    },
+    {
+      "title": "Gemini的分析.docx",
+      "original_bytes": 22811,
+      "sha256": "9a8e43e09b41b7abb40b1c3de99f2cddd8dc63de9ca86e3dcb414835a1484b50",
+      "nonempty_body_paragraphs": 164,
+      "extracted_chars": 12574,
+      "extracted_path": "materials/addenda/2026-10-28-analysis/02-Gemini-.txt",
+      "scope": "All nonempty body paragraphs read; no image/table/comment/tracked-deletion/math object found. Rendering lacked CJK glyphs; no visual-reading claim."
+    }
+  ],
+  "scope": "User-supplied DOCX text and original hashes, not new formal rules."
+}

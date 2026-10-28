@@ -179,3 +179,14 @@
 | [checks/ahc-two-tick-probe-2026-10-28.json](checks/ahc-two-tick-probe-2026-10-28.json) |
 | [checks/branch-update-review-2026-10-28.json](checks/branch-update-review-2026-10-28.json) |
 | [checks/ahc-review-links-2026-10-28.json](checks/ahc-review-links-2026-10-28.json) |
+
+## 2026-10-28后续材料与实施
+
+| 文件 |
+| --- |
+| [docs/23-incoming-analysis-and-planning-2026-10-28.md](docs/23-incoming-analysis-and-planning-2026-10-28.md) |
+| [checks/incoming-analysis-and-planning-2026-10-28.json](checks/incoming-analysis-and-planning-2026-10-28.json) |
+| [materials/addenda/2026-10-28-analysis/README.md](materials/addenda/2026-10-28-analysis/README.md) |
+| [materials/addenda/2026-10-28-analysis/manifest.json](materials/addenda/2026-10-28-analysis/manifest.json) |
+| [materials/addenda/2026-10-28-analysis/01-57s.txt](materials/addenda/2026-10-28-analysis/01-57s.txt) |
+| [materials/addenda/2026-10-28-analysis/02-Gemini-.txt](materials/addenda/2026-10-28-analysis/02-Gemini-.txt) |

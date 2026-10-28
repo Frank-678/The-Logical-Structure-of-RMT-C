@@ -10,16 +10,16 @@
     },
     {
       "path": "AGENTS.md",
-      "bytes": 1114,
-      "sha256": "5d9439a0c158d60eac879aba23fc23d30c60ca19d40f243d6a0fa35912ab67f4",
-      "git_blob_sha": "1b2f6bbe37b6eafee8a8238f8ba4d63c26baa470",
+      "bytes": 1318,
+      "sha256": "67e8677fbe431f90d080d56b0f3a8acf08da4938cdf9006be34fd1649e011a8f",
+      "git_blob_sha": "07f93c886dac101a614d6bc2af112cd586b60091",
       "mode": "100644"
     },
     {
       "path": "INDEX.md",
-      "bytes": 17203,
-      "sha256": "39d107c13fc0f73bfc1e749393d11cd601f1b41125c7be1b3c97c772899bf602",
-      "git_blob_sha": "f2081a31620ad03773ada1d046bff067cd4693ea",
+      "bytes": 17919,
+      "sha256": "8f243c591d890636a6a18fed25e45f89db8b2610338200d58785f78ef416589c",
+      "git_blob_sha": "f38b015ee84b75cc49297f80df6bb9ebbba4b968",
       "mode": "100644"
     },
     {
@@ -38,9 +38,9 @@
     },
     {
       "path": "README.md",
-      "bytes": 4813,
-      "sha256": "800977b2ca4c184daab40b5a369c83fb994f40bd7f50438939d332844c26452f",
-      "git_blob_sha": "43bea33686c24d5be081481a9de1675138de7765",
+      "bytes": 5227,
+      "sha256": "a866e06d5913d992523b2945a74e5c2babaa537c5bc1e453f4c3dcc3bd222433",
+      "git_blob_sha": "855d74ed19d7efa160d6dfdea748846aeb3a07db",
       "mode": "100644"
     },
     {
@@ -83,6 +83,20 @@
       "bytes": 8166,
       "sha256": "7e70e27d7b4d1925104b79b4d29da4ca8f730f406c4d2de299e160e95b821340",
       "git_blob_sha": "88f44564c2cd52fffdb9bac15b5548b2cb9aea4c",
+      "mode": "100644"
+    },
+    {
+      "path": "checks/incoming-analysis-and-planning-2026-10-28.json",
+      "bytes": 5619,
+      "sha256": "441f078280c2083141f0e1bc732f784f7139eba37b5b2a953e38d79783b1f4ee",
+      "git_blob_sha": "dba9b5f984406132b30a32f01e2c3cae2e8b0d24",
+      "mode": "100644"
+    },
+    {
+      "path": "checks/incoming-review-links-2026-10-28.json",
+      "bytes": 898,
+      "sha256": "0bfccee6c18a975bdb124c73c7c1c0e7a0b64719b4df94d0c3065f310191069b",
+      "git_blob_sha": "785ba6ef96cda245f6772755953553a2525e30fb",
       "mode": "100644"
     },
     {
@@ -360,9 +374,9 @@
     },
     {
       "path": "docs/18-conversation-and-implementation.md",
-      "bytes": 26691,
-      "sha256": "b4e68cdea39c604617c0aee1f4abd2e0ae3e7bacd420ad81f73a589960cb12a6",
-      "git_blob_sha": "8d65e5cb1ae919523d1743e268cc09da9d988e97",
+      "bytes": 28748,
+      "sha256": "1799d6200958d84bd82e3736ca7272fc9fba6562a063540220c4ac6d46db79a8",
+      "git_blob_sha": "c7f04d7e34a3a4bd5d8f383779e2fe8e65c4df53",
       "mode": "100644"
     },
     {
@@ -381,9 +395,9 @@
     },
     {
       "path": "docs/21-ahc068-to-rmtc-decision-study-2026-10-28.md",
-      "bytes": 8763,
-      "sha256": "e83365c2b31d31afac141d15caab5c486c19fe581251ddce4200c5ca63e4e8f1",
-      "git_blob_sha": "67be552b7d56b16470315f3b4988e04571ba1600",
+      "bytes": 9815,
+      "sha256": "fa56a283dca1b1606f33e11ab3273a25151793c1a216b98260cf8e55d7414d5e",
+      "git_blob_sha": "cadc80fb4e4b49f6986e40d657f0cff5364075c0",
       "mode": "100644"
     },
     {
@@ -391,6 +405,13 @@
       "bytes": 9444,
       "sha256": "a24aea219ffdf1b3d4c8571ed16c36bccea76fd0d9d09e3b78b14343ab4beb4e",
       "git_blob_sha": "7da429b4ef2e85af0cd78e0b48d919b06d64d1e2",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/23-incoming-analysis-and-planning-2026-10-28.md",
+      "bytes": 5934,
+      "sha256": "a9f6e4269d713ca40ffd91ab67053ffd7ba3f75a3862a895696cd883e8c07a68",
+      "git_blob_sha": "27408f7422d4d73be5f10c02f5c482f4c2772935",
       "mode": "100644"
     },
     {
@@ -559,6 +580,34 @@
       "bytes": 113798,
       "sha256": "6aae998fba08d609587910094ffbebc4443f0870c282fa2bffbda6b902298150",
       "git_blob_sha": "9f5f47d7314f93c2ef48a3c969500cae46828b5a",
+      "mode": "100644"
+    },
+    {
+      "path": "materials/addenda/2026-10-28-analysis/01-57s.txt",
+      "bytes": 23699,
+      "sha256": "0dc6bb5bb5b1db603daf58bfc83fa0d3d69d0df9acfa4a16d44c5809732ff7f5",
+      "git_blob_sha": "989a995d148aac9ac409f7d40b01e2c2b2b32455",
+      "mode": "100644"
+    },
+    {
+      "path": "materials/addenda/2026-10-28-analysis/02-Gemini-.txt",
+      "bytes": 25246,
+      "sha256": "e7d33b8072317a34d796d774e6fccc19d7f7198afde9441965f6b8c8ca50e2b3",
+      "git_blob_sha": "f50bd5e52ea2e6c1cd9c8d1b7656d093f00e923f",
+      "mode": "100644"
+    },
+    {
+      "path": "materials/addenda/2026-10-28-analysis/README.md",
+      "bytes": 749,
+      "sha256": "d76d18f33be4705be832189ca2c921b72083389479092b8a5f7dac82de7e2333",
+      "git_blob_sha": "52f27a4c74f227d60067a4437d771b1e1e6f0e0c",
+      "mode": "100644"
+    },
+    {
+      "path": "materials/addenda/2026-10-28-analysis/manifest.json",
+      "bytes": 1084,
+      "sha256": "7ab5ceb79ec9b57207b6563fb9265de9aa21df072a038de706efc77115a16c82",
+      "git_blob_sha": "9e9b0cd39f02a752e0618b089183c169538b5861",
       "mode": "100644"
     },
     {

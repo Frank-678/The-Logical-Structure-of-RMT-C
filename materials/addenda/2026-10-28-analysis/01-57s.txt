@@ -1,0 +1,595 @@
+思考了 57s
+
+思考了 19s
+
+思考了 1m 19s
+
+思考了 5m 13s
+
+已完成写入，并已回读 GitHub 文件确认。按照你最后确定的要求，在 `The-Logical-Structure-of-RMT-C` 仓库中使用现有 `ANALYSIS`、`COMPARISON` 和 `main`，没有再创建新的研究分支。
+
+### 一、提交结果
+
+[main · 项目总 README](https://github.com/Frank-678/The-Logical-Structure-of-RMT-C/blob/main/README.md?utm_source=chatgpt.com)
+
+现在是项目进度工作台，汇总 25 项关键工作。每项分别记录审查、实现、执行、验收状态，并附证据与后续任务。
+
+[ANALYSIS · 算法迁移与实施分析](https://github.com/Frank-678/The-Logical-Structure-of-RMT-C/blob/ANALYSIS/docs/21-ahc068-to-rmtc-decision-study-2026-10-28.md?utm_source=chatgpt.com)
+
+保存 RMTC 当前实现、官方计分、Beam Search、未来规划、规则约束、已知问题及分阶段验收建议。
+
+[COMPARISON · AHC 两份解法比较](https://github.com/Frank-678/The-Logical-Structure-of-RMT-C/blob/COMPARISON/reports/07-ahc068-rectangle-swap-transfer-2026-10-28.md?utm_source=chatgpt.com)
+
+保存你的 AHC 算法、冠军算法的差异，以及哪些思想能迁移到 RMTC、哪些不能。
+
+[COMPARISON · 采纳与否决登记](https://github.com/Frank-678/The-Logical-Structure-of-RMT-C/blob/COMPARISON/decisions/reuse-register.md?utm_source=chatgpt.com)
+
+在原有 C01–C29 基础上增加 C30–C41，逐项记录采纳、拒绝、部分实现和待验证状态。
+
+各研究分支的 README 和 INDEX 也已更新。没有修改选手策略源码，没有宣称新算法已经获得实战提升。
+
+### 二、以后怎样打勾
+
+| 标记  | 具体意义         |
+
+| --- | ------------ |
+
+| ✅   | 完成并有相应证据     |
+
+| ◐   | 部分实现或只通过局部验证 |
+
+| ⬜   | 未实施或无证据      |
+
+| ⛔   | 因环境或其他条件受阻   |
+
+| ❌   | 实际执行失败       |
+
+| —   | 明确拒绝或不适用     |
+
+尤其是“已经审查”和“已经测试通过”不能共用一个勾。例如，目前完整 DDS 裁判对局依然处于阻塞状态，而新增 Beam Search 仍处于待实现阶段。
+
+### 三、下次继续时的对接词
+
+请继续我们的 RoboMaster 图灵对决赛项目。
+
+首先完整阅读以下仓库和文档，继承已经形成的分析、取舍、代码状态及验证证据，不要重新从零设计：
+
+**研究仓库：**
+
+https://github.com/Frank-678/The-Logical-Structure-of-RMT-C
+
+1. 阅读 `main/README.md` 中的项目总览和 R01–R25 进度矩阵。
+
+2. 阅读 `ANALYSIS` 分支，重点是 `docs/21-ahc068-to-rmtc-decision-study-2026-10-28.md`，并结合既有规则、状态机和实测材料。
+
+3. 阅读 `COMPARISON` 分支，重点是 `reports/07-ahc068-rectangle-swap-transfer-2026-10-28.md` 和 `decisions/reuse-register.md` 中的 C30–C41。
+
+**代码仓库：**
+
+https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl
+
+检查现有 `strategy/visible-resource-bfs` 分支，结合实际源码判断哪些方案已经实现、哪些仅被讨论。
+
+工作规则：
+
+- 不擅自新建分支，不修改无关代码。
+
+- 区分“已审查、已实现、已执行、已验收”，不得混淆。
+
+- 每完成一个阶段，在主仓库 README 对应编号处更新状态；没有证据不得打 ✅。
+
+- 执行失败或受阻时记录原因、日志与下一步。
+
+- 严格遵守 RMTC 当前正式规则与信息权限。
+
+- 保留研究分支的私密性，不把内部研究入口写入公开交付材料。
+
+优先解决完整裁判对局和 AI 事件时效性验证，然后研究多目标收益、目标迟滞、短时域 Beam Search 和滚动规划。新算法必须经过同条件配对实验与消融验证，不能只凭理论判断效果更好。
+
+每次工作完成后，报告实际修改文件、提交 SHA、验证范围、剩余问题，并同步进度表。
+
+另外需要说明一次此前的操作失误：在你澄清仓库位置之前，我曾在代码仓库误创建 `STRATEGY` 分支。已核实它与 `strategy/visible-resource-bfs` 的提交完全相同（0 个新增提交），没有写入任何代码。当前 GitHub 连接不支持删除分支，因此它仍需清理；可以在代码仓库的 Branches 页面删除，或使用 `git push origin --delete STRATEGY`。
+
+本次要求的研究文档、分类索引及主 README 进度矩阵均已提交成功。思考了 1m 42s
+
+有帮助，而且对我们这次 RoboMaster 图灵对决赛的策略设计有直接启发。不过，不能照搬 AHC 冠军代码。
+
+我已经通过 GitHub 连接读取了两个仓库的非默认分支。一个重要的判断是：
+
+> AHC 冠军最值得借鉴的不是“矩形交换”，而是多候选搜索、全局收益评价、对未来状态的预测，以及对计划序列的持续优化。
+
+在 RMTC 中，这些思想可以分别用于资源争夺、战斗决策、路线规划和事件应对。
+
+但存在一个根本区别：AHC 允许先计算完整操作序列，再一次性提交；RMTC 则是每个 Tick 根据当前感知提交动作，裁判结算后环境还会变化。因此，AHC 的历史操作插入不能直接应用于 RMTC 已经执行过的动作，只能迁移为尚未执行的计划重排。
+
+### 一、已经核查的仓库分支
+
+| 仓库                                          | 分支                            | 核查结果                          |
+
+| ------------------------------------------- | ----------------------------- | ----------------------------- |
+
+| The-Logical-Structure-of-RMT-C              | ANALYSIS                      | 比赛规则、原始材料、战术推导、状态机、实测记录       |
+
+| 同上                                          | COMPARISON                    | 六类外部 AI Arena 案例、算法借鉴与取舍      |
+
+| 同上                                          | log                           | 裁判、通信、动作与计分日志                 |
+
+| 同上                                          | main                          | 简要项目介绍                        |
+
+| RoboMaster-Turing-Competition-BeyondControl | strategy/visible-resource-bfs | 实际 C++ 策略、ROS 2 通信、状态机和 AI 接口 |
+
+| 同上                                          | main                          | 早期基础实现，策略仍以 wait 为主           |
+
+这意味着，我们应该以 `ANALYSIS` 中的规则和材料为依据，以 `strategy/visible-resource-bfs` 中的实现为改进对象，而不是修改两个仓库的 `main`。
+
+尤其是 [ANALYSIS/materials/original](https://github.com/Frank-678/The-Logical-Structure-of-RMT-C/tree/ANALYSIS/materials/original?utm_source=chatgpt.com) 中的原始资料，必须优先于早期设计猜测。
+
+### 二、最值得迁移到 RMTC 的四种思想
+
+| AHC 冠军的技术              | RMTC 中的具体用途             | 优先级        |
+
+| ---------------------- | ----------------------- | ---------- |
+
+| 势函数与全局收益优化             | 在采资源、攻击、任务、占堡垒之间比较长期收益  | 高          |
+
+| Beam Search            | 同时考虑几条不同的行动路线，避免局部贪心    | 高，但须先有可靠基线 |
+
+| Retroactive Insertion  | 重排尚未执行的行动计划，避免目标变化时反复折返 | 中          |
+
+| Operation Local Search | 对候选路线做局部改进，降低无效移动和风险    | 中          |
+
+### 1\. 势函数：现有策略已经有基础，但比较得还不够远
+
+我检查了当前 [`strategy.cpp`](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl/blob/strategy/visible-resource-bfs/src/rmtc_bot/src/strategy.cpp?utm_source=chatgpt.com)。
+
+目前的资源评价大致是：
+
+```cpp
+
+consider(
+
+    node.first,
+
+    benefit * freshness / (node.distance + 1),
+
+    "collect_resource"
+
+);
+
+```
+
+这相当于：
+
+U=\\frac{\\text{资源的预期收益}\\times\\text{信息新鲜度}}
+
+{\\text{路径长度}+1}
+
+它已经比简单地寻找最近资源更合理，也考虑了资源得分封顶、任务奖励以及历史观测过时的问题。
+
+但是，它主要评价到达某个目标的价值，并未充分评价到达之后的局面。
+
+比如有两条路线：
+
+* 路线 A：3 Tick 后拿到价值 20 的高级资源，但随后陷入敌人包围。
+
+* 路线 B：4 Tick 后拿到价值 10 的普通资源，但下一步还可以取得另一个资源，并靠近任务目标。
+
+只看单个目标，A 很可能被选中；把未来行动一起考虑，B 则可能更好。
+
+我们应当考虑：
+
+\\boxed{
+
+U(s,a)=
+
+\\mathbb E\[\\Delta S\]
+
++\\lambda_I I(s,a)
+
++\\lambda_P P(s,a)
+
+-\\lambda_R R(s,a)
+
+}
+
+其中：
+
+* ：按正式计分规则计算的预期得分变化。
+
+* ：探索未知区域带来的信息价值。
+
+* ：到达更有利的后续战略位置的价值。
+
+* ：死亡、争格失败和失去行动机会的风险。
+
+这里的权重是需要赛前验证的设计参数，不能直接当作已经得到的最优值。
+
+更重要的是，应该尽量利用现有 `score_delta()` 的官方计分边际收益，而不是重新发明与规则不一致的分数体系。
+
+### 2\. Beam Search：最直接的算法升级
+
+现有 `Strategy::decide()` 使用 BFS 寻路，然后评估候选目标，选择效用最高的第一步。
+
+它没有在资源争夺和攻防决策上，系统地保留多条未来行动分支。
+
+这正是 Beam Search 可以补充的部分。
+
+RMTC 中三步前瞻的示意
+
+假设初步采用搜索深度 、束宽 。注意，这只是一个待测试的起点，不是冠军参数在 RMTC 中已被证明有效。
+
+每个 Tick：
+
+* 根据实际感知生成合法动作候选。
+
+* 用本地规则模型推演后续状态。
+
+* 对未知对手动作使用有限数量的情景假设，而不是当作确定事实。
+
+* 保留评价较好的候选状态。
+
+* 只执行最优计划的第一步；下一 Tick 收到真实感知后重新搜索。
+
+这就是滚动时域规划（Receding Horizon Planning）。
+
+它适合 RMTC，因为环境会不断变化，不应当像 AHC 那样预先生成一整局的固定操作序列。
+
+### 3\. 历史操作优化：只能优化未来，不能修改过去
+
+冠军的 Retroactive Insertion 可以回头修改尚未最终提交的 AHC 操作序列。
+
+RMTC 不能这样做，因为已结算的 Tick 无法撤销。
+
+但我们可以维护一个短期目标或行动计划，并在新信息出现时重新规划尚未执行的部分。
+
+例如，机器人原本打算沿一条路线前往堡垒，途中发现高级资源。新的计划应该比较“继续前往堡垒”“先取资源再前往堡垒”和“放弃堡垒转向其他目标”，而不是仅仅根据本 Tick 哪个格子最有吸引力来决定。
+
+这还能解决一种常见问题：目标振荡。如果两个目标评价接近，算法可能今天向左一步、下一 Tick 又向右一步。
+
+可以引入合理的目标切换成本（hysteresis），但遇到确定危险、目标失效或重大收益变化时仍立即重规划。
+
+### 4\. 已经存在的时间动态规划，不应重新实现一遍
+
+这是阅读多分支后发现的重要事实。
+
+你当前代码的 `safe_first_steps()` 已经使用了：
+
+* 未来 8 Tick 的检查窗口；
+
+* 最多约 145 个已知格子；
+
+* 倒序动态规划，判断第一步之后是否还有安全接续；
+
+* 对爆炸和世界分裂事件的时间约束。
+
+因此，我们不应把冠军的搜索技巧简单包装成“再加一个避险 BFS”。
+
+真正要补的是：在确定安全边界之外，对资源、敌车、堡垒和任务做跨多个 Tick 的联合收益评价。
+
+安全检查可以继续保留为硬约束；对手预测则属于软约束，因为我们无法知道对手下一步必然做什么。
+
+相关代码见 [`strategy.cpp` 的 `safe_first_steps()`](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl/blob/strategy/visible-resource-bfs/src/rmtc_bot/src/strategy.cpp?utm_source=chatgpt.com)。
+
+### 三、还有两个比搜索算法更紧迫的问题
+
+完整对局尚未形成可靠的成绩基线
+
+`REAL_TEST.md` 记录了真实 DeepSeek 调用成功，但完整裁判启动因 DDS 网络接口权限错误而失败。没有有效的 A 对 B/C/D 完整对局，也没有可以据此计算的真实胜率。
+
+事件理解存在明显的时效性问题
+
+已记录的两次真实模型请求耗时分别为 4,652 ms 和 5,977 ms。练习样例中，5 Tick 预告在默认每 Tick 500 ms 的节奏下只有 2.5 秒。即使模型最后正确理解事件，也可能已经错过避险时机。
+
+这说明，复杂搜索目前不是唯一瓶颈。
+
+按照正式规则 v1.2，第二阶段本场、本席位至少需要一次有效的统一 AI 成功调用，否则任务得分不计入成绩；但不要求模型每个 Tick 都生成动作。
+
+所以，正确架构依然是：本地 C++ 及时决策，官方 AI 异步处理公告，再由本地策略使用经过校验且尚未过期的结果。
+
+### 四、建议的实际实施顺序
+
+结合 [ANALYSIS 的规则和实测](https://github.com/Frank-678/The-Logical-Structure-of-RMT-C/tree/ANALYSIS/docs?utm_source=chatgpt.com)、[COMPARISON 的取舍记录](https://github.com/Frank-678/The-Logical-Structure-of-RMT-C/blob/COMPARISON/decisions/reuse-register.md?utm_source=chatgpt.com)，我建议按以下顺序：
+
+| 顺序  | 工作                       | 验收标准               |
+
+| --- | ------------------------ | ------------------ |
+
+| 1   | 在正常 Humble/DDS 环境中跑通完整对局 | 有真实动作回执、AI 记录和最终得分 |
+
+| 2   | 保留当前策略作为基线，建立同条件配对测试     | 能比较相同地图、席位与对手      |
+
+| 3   | 改进目标评价和目标切换逻辑            | 减少无效折返，提高实际资源与任务收益 |
+
+| 4   | 加入小规模滚动 Beam Search      | 在运行预算内，长期收益优于基线    |
+
+| 5   | 加入有限对手情景与计划重排            | 改善争格、堡垒和战斗决策       |
+
+| 6   | 消融实验、参数验证与赛前封存           | 能明确每个模块是否真正提升成绩    |
+
+当前代码已经有 `tests/`、规则状态机和配置集中管理，因此适合在现有策略分支继续迭代；研究推导仍应记录在 `ANALYSIS`，外部算法的采用或否决记录在 `COMPARISON`。没有必要为了引入 Beam Search 而重写 ROS 2 通信或 AI 网关。
+
+我这次只进行了仓库读取和静态分析，没有修改任何分支或运行新的对局。
+
+### 最终判断
+
+AHC 冠军最值得借鉴的，是从单步贪心提升到多步规划、从单一预测提升到多种候选、从固定路线提升到滚动重规划的整个思想体系。
+
+但 RMTC 的第一原则依然是规则正确、动作及时、信息合法。只有在可靠基线上，复杂搜索才能真正转化为成绩。
+
+我的建议是：把“目标持续性 + 短时域束搜索 + 官方计分边际收益”作为下一轮核心算法研究方向，同时优先完成 DDS 实战验收和 AI 公告时效性测试。思考了 2m 7s
+
+已经在你的 Google Drive 根目录中找到了这份文件，并成功提取了完整的 C++ 源码。
+
+[查看 Google Drive 中的 Submission #77562268](https://drive.google.com/file/d/1HGjc-E3MhZsadWlW8xUgUt6sMAwD6v1Y/view?utm_source=chatgpt.com)
+
+核对结果确认：它确实是 AHC 068 冠军 PrussianBlue 的提交，与你之前提供的 #77563950 属于同一道题。CLIST
+
+| 项目     | 冠军 PrussianBlue | 你的 Frank678 |
+
+| ------ | --------------- | ----------- |
+
+| 提交编号   | #77562268       | #77563950   |
+
+| 总分     | 1,046,659,885   | 933,505,846 |
+
+| 代码规模   | 83,457 字节       | 34,247 字节   |
+
+| 最大运行时间 | 1,922 ms        | 287 ms      |
+
+| 测试用例   | 150 个 AC        | 150 个通过     |
+
+冠军比你高 113,154,039 分，约高 12.1%（相对于你的得分）。
+
+更重要的是，两份代码的核心设计思路明显不同。
+
+### 一、两份程序的算法结构对比
+
+| 核心技术             | 你的程序      | 冠军程序     |
+
+| ---------------- | --------- | -------- |
+
+| 图建模与 BFS 最短路     | 有         | 有        |
+
+| BFS 逆层序逐点固定      | 有         | 有        |
+
+| 矩形扩张、同时移动多张卡片    | 有         | 有        |
+
+| 全局势函数贪心          | 有，独立预处理阶段 | 有，融入选路评价 |
+
+| 多个 BFS 根节点尝试     | 无         | 有        |
+
+| Beam Search（束搜索） | 无         | 有        |
+
+| 在历史操作序列中插入新操作    | 无         | 有        |
+
+| 基于排列代数的操作序列压缩    | 无         | 有        |
+
+| 最终局部搜索           | 无         | 有        |
+
+最值得注意的发现是：冠军和你的程序共享相当一部分基础构造思路。
+
+两者都使用图上的 BFS 分层，从最深层向中心固定卡片，并利用矩形扩张，让一次操作顺便改善其他卡片。
+
+区别在于：你的程序主要是构造一条较好的解；冠军则在构造过程中不断探索不同解，并且允许修改已经生成的历史操作序列。
+
+### 二、冠军最关键的三个改进
+
+### 1\. Beam Search：不再只保留一种选择
+
+你的程序每次挑出一个目标卡片，就立即决定固定它。
+
+冠军的 `solve_beam()` 不同。它维护多个候选棋盘状态，并尝试不同的目标选择。
+
+源码中的主要参数是：
+
+```cpp
+
+const int beam_width = 5;
+
+const int target_branch_count = 3;
+
+```
+
+也就是每层最多保留 5 个搜索状态，每个状态尝试最多 3 种后续选择。
+
+而且它使用 `prune_diverse_beam()` 保持候选多样性，避免所有搜索分支都集中到几乎相同的策略。
+
+### 2\. Retroactive Insertion：修改过去的操作
+
+这是整份冠军源码中最值得研究的部分。
+
+普通构造算法只能这样生成操作：
+
+A\\rightarrow B\\rightarrow C\\rightarrow D
+
+但冠军允许重新考虑以前的操作序列，在中间插入一个操作：
+
+A\\rightarrow B\\rightarrow \\boxed{X}\\rightarrow C\\rightarrow D
+
+这样做可能让某张卡片一步跨越多个原本需要的移动，也可能触发历史操作的抵消或合并。
+
+源码中有：
+
+```cpp
+
+static constexpr int RETRO_WINDOW = 500;
+
+```
+
+它会回看最近最多 500 次操作，寻找值得插入新操作的位置。
+
+这不仅是贪心，而是借助排列的复合运算与共轭变换，在保持操作合法性的同时重新安排历史动作。
+
+### 3\. Operation Local Search：对完整操作序列做代数优化
+
+冠军最终还有一个你没有的独立模块：
+
+`OperationLocalSearch`
+
+它会尝试消除冗余操作。
+
+例如，因为矩形交换是一个对合操作，执行两次完全相同的交换就会恢复原状：
+
+A^2=I
+
+因此：
+
+A\\circ A=I
+
+相邻的两个相同操作可以直接删除。
+
+而更复杂的 `conjugate_operation()` 可以通过合法的等价变换调整操作顺序，使原本不相邻的操作有机会合并或相互抵消。
+
+这里实际上已经涉及置换群与代数化简。
+
+### 三、成绩差距对应的实际操作次数
+
+因为题目采用对数计分：
+
+S=400+10^6\\log_2\\frac{100000}{T}
+
+在假定两份程序均完成全部 150 个用例的情况下，可以从总分反推操作次数的几何平均值。
+
+你的程序
+
+### 约 1,339 次
+
+冠军程序
+
+### 约 794 次
+
+按总分公式推算的操作数几何平均值，不是逐测试用例实测平均值。
+
+换句话说，若全部完成，冠军的算法大约只需要你 59% 的操作次数。这比单纯观察约 12% 的总分差距更能说明优化的实际效果。
+
+当然，不能仅凭最终分数确定是哪一个模块贡献最大；那需要做消融实验。
+
+### 四、我的初步判断
+
+你们两份程序最本质的区别，不在 BFS，也不在矩形扩张，而在于：
+
+你的算法优化的是下一步怎么走；冠军进一步优化的是已经走过的步骤能不能重新安排。
+
+建议研究冠军源码时，按以下顺序进行：
+
+* `solve_beam()`：理解为什么要同时保留多个候选解。
+
+* `search_retro_choices()`：理解为什么可以将新操作插入历史序列。
+
+* `conjugate_operation()`：理解数学上如何保持最终置换不变。
+
+* `OperationLocalSearch`：理解如何将较长的操作序列转化为更短的等价序列。
+
+尤其是第三项，它将这道题从普通的图搜索与启发式优化，推进到排列群上的操作序列优化问题。
+
+这也是我认为最值得你花时间深入学习的部分。思考了 15s
+
+这次上传的 Word 文件包含了完整的 C++ 解题程序，共 25 页、约 1100 行，包括之前截断的部分、`Solver` 类结尾和 `main()` 函数。
+
+我已经核对了此前缺失的代码，特别是 `runGuaranteedFinisher()` 的后半部分。
+
+### 一、此前缺失的关键算法，现在确认了
+
+你当时不仅使用了 BFS 分层排序，还设计了一个两级候选筛选机制。
+
+第一层：在同一 BFS 深度中，对尚未固定的目标格子进行排序。
+
+```cpp
+
+int leftEstimate = allPairsDistance[position[left]][left];
+
+int rightEstimate = allPairsDistance[position[right]][right];
+
+```
+
+优先考虑当前卡片距离目标较近的格子；如果距离相同，优先考虑图上度数较小的格子。
+
+然后只取前 10 个候选。
+
+第二层：分别计算这 10 个候选卡片在当前可操作区域中，真正需要的最少块交换次数。
+
+```cpp
+
+vector<int> moveDistance =
+
+    calculateBlockMoveDistances(vertex, activePrefix);
+
+```
+
+最终选择实际所需操作次数最少的卡片；如果相同，再比较普通图距离。
+
+这比我上次根据截断代码推断的排序方案更精细：你没有直接采用图距离最近的卡片，而是利用图距离初筛，再使用准确的块移动距离作最终决策。
+
+### 二、完整代码也确认了正确性保护机制
+
+每当一张卡片归位：
+
+```cpp
+
+routeTargetCard(vertex, activePrefix, chosenMoveDistance);
+
+assert(position[vertex] == vertex);
+
+active[vertex] = false;
+
+```
+
+程序就禁止后续交换触碰该位置。
+
+所有非根节点处理完毕后：
+
+```cpp
+
+assert(position[root] == root);
+
+```
+
+最后再执行：
+
+```cpp
+
+runBulkHeuristic();
+
+runGuaranteedFinisher();
+
+assert(isSolved());
+
+assert(answer.size() <= 100'000);
+
+```
+
+这确认了你的程序确实是先做全局贪心优化，再运行保证完成的构造阶段，而不是单独依靠启发式搜索。
+
+### 三、最终输出和程序入口也齐全
+
+文件末尾具有完整的 `readInput()`、`solve()`、`printAnswer()` 和 `main()`。
+
+```cpp
+
+int main()
+
+{
+
+    ios::sync_with_stdio(false);
+
+    cin.tie(nullptr);
+
+    Solver solver;
+
+    solver.readInput();
+
+    solver.solve();
+
+    solver.printAnswer();
+
+}
+
+```
+
+而且 `printAnswer()` 只输出操作行、没有输出操作总数 `T`，这是符合这道题实际输出格式的。
+
+现在可以完整还原你这份 933,505,846 分算法的设计逻辑了。
+
+我认为最值得深入研究的是三个问题：为什么 BFS 逆层序固定能够保证可解；为什么单卡最短块移动与全局势函数可以结合；以及你当时采用的“前 10 名候选 + 精确 BFS”究竟优化了什么、又牺牲了什么。
+
+有一点需要区分：源码结构完整，不等于已经完成编译和运行验证。 目前我的结论来自静态阅读；也尚未独立确认 Word 中的代码与 AtCoder 上的提交逐字一致。
