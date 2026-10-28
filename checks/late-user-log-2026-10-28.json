@@ -1,0 +1,184 @@
+{
+  "source_log_commit": "7fb18759dc16d08b4947f88570a2997f59232166",
+  "scope": "Late-arriving user-uploaded practice logs; read-only analysis, not a match executed by this tool host or proof of exact per-session code revision",
+  "rows": 1000,
+  "unique_session_tick": 500,
+  "identical_duplicates": 500,
+  "conflicting_duplicates": 0,
+  "tick_range": [
+    1,
+    500
+  ],
+  "final_teams": [
+    {
+      "team": "A",
+      "team_name": "Frank",
+      "score": 45,
+      "resource_value": 60,
+      "effective_damage": 1150,
+      "mission_completed": 3,
+      "invalid_actions": 0,
+      "hp": 100,
+      "alive": true
+    },
+    {
+      "team": "C",
+      "team_name": "练习陪练C",
+      "score": 42.5,
+      "resource_value": 50,
+      "effective_damage": 990,
+      "mission_completed": 3,
+      "invalid_actions": 0,
+      "hp": 40,
+      "alive": true
+    },
+    {
+      "team": "D",
+      "team_name": "练习陪练D",
+      "score": 38.18,
+      "resource_value": 50,
+      "effective_damage": 356,
+      "mission_completed": 3,
+      "invalid_actions": 0,
+      "hp": 100,
+      "alive": true
+    },
+    {
+      "team": "B",
+      "team_name": "练习陪练B",
+      "score": 26.8,
+      "resource_value": 40,
+      "effective_damage": 60,
+      "mission_completed": 3,
+      "invalid_actions": 0,
+      "hp": 20,
+      "alive": true
+    }
+  ],
+  "longest_scoreless_periodic_motion": {
+    "samples": 0,
+    "period": 0,
+    "start": 0,
+    "end": 0
+  },
+  "max_unchanged_position_transitions": 10,
+  "ai": [
+    {
+      "folder": "practice-2a4edb203071443189635dfbc1b2037b",
+      "score_session": "practice-2a4edb203071443189635dfbc1b2037b",
+      "score_tick": 500,
+      "score_matches_folder": true,
+      "counts": {
+        "A": {
+          "success": 25,
+          "failed": 0,
+          "statuses": {
+            "200": 25
+          }
+        },
+        "B": {
+          "success": 12,
+          "failed": 1,
+          "statuses": {
+            "200": 12,
+            "502": 1
+          }
+        },
+        "C": {
+          "success": 11,
+          "failed": 1,
+          "statuses": {
+            "200": 11,
+            "502": 1
+          }
+        },
+        "D": {
+          "success": 9,
+          "failed": 2,
+          "statuses": {
+            "200": 9,
+            "502": 2
+          }
+        }
+      }
+    },
+    {
+      "folder": "practice-27835f0b3e114d1c98c844534f7f7727",
+      "score_session": "practice-2a4edb203071443189635dfbc1b2037b",
+      "score_tick": 500,
+      "score_matches_folder": false,
+      "counts": {
+        "D": {
+          "success": 0,
+          "failed": 5,
+          "statuses": {
+            "502": 5
+          }
+        },
+        "C": {
+          "success": 0,
+          "failed": 5,
+          "statuses": {
+            "502": 5
+          }
+        },
+        "A": {
+          "success": 0,
+          "failed": 5,
+          "statuses": {
+            "502": 5
+          }
+        },
+        "B": {
+          "success": 0,
+          "failed": 5,
+          "statuses": {
+            "502": 5
+          }
+        }
+      }
+    }
+  ],
+  "source_blobs": [
+    {
+      "path": "practice-27835f0b3e114d1c98c844534f7f7727/ai.jsonl",
+      "sha": "2bcd15d702c08bf78af5d4bda7cef93f2eb6c229",
+      "size": 3240
+    },
+    {
+      "path": "practice-27835f0b3e114d1c98c844534f7f7727/frames.jsonl",
+      "sha": "da0064046ef1eb7d2f4d32c95dd5a6de42a3e66c",
+      "size": 164012
+    },
+    {
+      "path": "practice-27835f0b3e114d1c98c844534f7f7727/referee.log",
+      "sha": "1850a0cab0a62adbad5a24fc85574f6f7e3c3938",
+      "size": 724
+    },
+    {
+      "path": "practice-27835f0b3e114d1c98c844534f7f7727/score.json",
+      "sha": "f8c22b4aa8357835e1089318eddc0c812f952741",
+      "size": 20246
+    },
+    {
+      "path": "practice-2a4edb203071443189635dfbc1b2037b/ai.jsonl",
+      "sha": "eb49c54a802f101f4b407a63df1e28933e2ccb6b",
+      "size": 9871
+    },
+    {
+      "path": "practice-2a4edb203071443189635dfbc1b2037b/frames.jsonl",
+      "sha": "1f4168c58402064a40b4411ebfb273f0e11b4e93",
+      "size": 1250604
+    },
+    {
+      "path": "practice-2a4edb203071443189635dfbc1b2037b/referee.log",
+      "sha": "d29a513e641ee02c56abb6c09eb59743d4255d79",
+      "size": 649
+    },
+    {
+      "path": "practice-2a4edb203071443189635dfbc1b2037b/score.json",
+      "sha": "f8c22b4aa8357835e1089318eddc0c812f952741",
+      "size": 20246
+    }
+  ]
+}

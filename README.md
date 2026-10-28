@@ -1,5 +1,7 @@
 # RMTC · ANALYSIS
 
+[收尾新增用户日志复核](docs/27-late-practice-log-integrity-2026-10-28.md)：一场A25次真实网关成功，500份快照各重复一次；另一目录score场次不符，不能串场算成绩。用户实机记录不冒充本工具亲测。
+
 [七份字幕与假设风险逃路修复](docs/26-subtitle-counterexamples-and-risk-ordering-2026-10-28.md)：确认可能火线硬过滤缺陷并修复；32例对称变换/版与新地图验证，保留不可照搬规则和未解决项。
 
 [上沿往返与无进展脱困](docs/25-motion-loops-and-recovery-2026-10-28.md)：补足成功MOVE往返漏检；同类压力用例500→16Tick，争格任务Tick43完成，正常绕路保留。另60局新地图验证，不冒充用户原地图或原版裁判。

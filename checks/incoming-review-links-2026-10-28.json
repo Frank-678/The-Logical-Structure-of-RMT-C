@@ -1,6 +1,6 @@
 {
   "date": "2026-10-28",
-  "checked_relative_links": 335,
+  "checked_relative_links": 340,
   "markdown_files": [
     "ANALYSIS/AGENTS.md",
     "ANALYSIS/INDEX.md",
@@ -11,6 +11,7 @@
     "ANALYSIS/docs/24-multistyle-arena-tuning-and-gateway-2026-10-28.md",
     "ANALYSIS/docs/25-motion-loops-and-recovery-2026-10-28.md",
     "ANALYSIS/docs/26-subtitle-counterexamples-and-risk-ordering-2026-10-28.md",
+    "ANALYSIS/docs/27-late-practice-log-integrity-2026-10-28.md",
     "ANALYSIS/materials/addenda/2026-10-28-analysis/README.md",
     "ANALYSIS/materials/addenda/2026-10-28-gateway-notice.md",
     "COMPARISON/AGENTS.md",

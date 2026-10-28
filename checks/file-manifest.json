@@ -17,9 +17,9 @@
     },
     {
       "path": "INDEX.md",
-      "bytes": 18057,
-      "sha256": "f71db0ee27a6fc2bd72fa8b6e958555e92a599dbf19beb2d7d77bfa8cc0be52c",
-      "git_blob_sha": "f34be7b054fbf61f565b2054f1e1c9fa486315c1",
+      "bytes": 18246,
+      "sha256": "880b8f7d9d2eb9eb94cd399eaeab662b8adc114de0554772ed88bc1f8df6e00b",
+      "git_blob_sha": "ac60f0aeeb18244db972b0c000fcab4dbd085774",
       "mode": "100644"
     },
     {
@@ -38,9 +38,9 @@
     },
     {
       "path": "README.md",
-      "bytes": 6382,
-      "sha256": "2f5259d93eeb151f69a048e492eca7ee21978d6a4006869cee87f188c728417a",
-      "git_blob_sha": "4637e43e1ddf1f771d5cdea6182a10733e3b1d2d",
+      "bytes": 6634,
+      "sha256": "b6a76245a739f631e160751230c63a64e74766d6717df2a37ce69b81ada40b85",
+      "git_blob_sha": "ba0a992d8a1ec5d5ca91d5b11b349a2a1de251b6",
       "mode": "100644"
     },
     {
@@ -94,9 +94,16 @@
     },
     {
       "path": "checks/incoming-review-links-2026-10-28.json",
-      "bytes": 1339,
-      "sha256": "8e4d264ee43654cffa5da0f6059fa5645ae13c780ade6589c3f381f0d6d7b714",
-      "git_blob_sha": "80d345d0cf456dbb18a7cf69aa3b596675091df1",
+      "bytes": 1405,
+      "sha256": "b60e8896b5c245713ef12b9762ce340c32f49727a58baa25e4ee5b4296336782",
+      "git_blob_sha": "8661ad075899a8bd8ac07fb4af0ba8950e4415ec",
+      "mode": "100644"
+    },
+    {
+      "path": "checks/late-user-log-2026-10-28.json",
+      "bytes": 4400,
+      "sha256": "ee9b9ba7bb5dd219895806f7ba8650875f40bf9e1a6e1640a4fe65c8d96e445b",
+      "git_blob_sha": "7c59c78ce9af888cf5bdec68fd9d6e9d9ba1bde2",
       "mode": "100644"
     },
     {
@@ -374,9 +381,9 @@
     },
     {
       "path": "docs/18-conversation-and-implementation.md",
-      "bytes": 37187,
-      "sha256": "398aeea47c64bd4c7b733ff937036f8e92ab4148bbd49717b17c9ea9ff2ec3f1",
-      "git_blob_sha": "932d072f0dfe1e2c224fa6ca224d5737f4b15c95",
+      "bytes": 37582,
+      "sha256": "c9e977b36c31f9b9846858e48ca49012371662a54fd989a27ed5df5eed33aa6c",
+      "git_blob_sha": "268f29aece95317f2227b25686ea4cce31644d59",
       "mode": "100644"
     },
     {
@@ -433,6 +440,13 @@
       "bytes": 2493,
       "sha256": "3df15523817533821048aa618e85db32df679316c02a7266ac17a501ec87591a",
       "git_blob_sha": "d0c045d1df67ec83ca98d180dc80114fbdd53638",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/27-late-practice-log-integrity-2026-10-28.md",
+      "bytes": 2595,
+      "sha256": "e54c60288c88e1fc87dffe37f5d507318855fcecb39b2d4a546268d231031583",
+      "git_blob_sha": "583f7c743d88511ae8c920f119e847551e3ee259",
       "mode": "100644"
     },
     {

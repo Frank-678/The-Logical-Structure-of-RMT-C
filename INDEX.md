@@ -192,3 +192,6 @@
 | [materials/addenda/2026-10-28-analysis/02-Gemini-.txt](materials/addenda/2026-10-28-analysis/02-Gemini-.txt) |
 
 | [docs/26-subtitle-counterexamples-and-risk-ordering-2026-10-28.md](docs/26-subtitle-counterexamples-and-risk-ordering-2026-10-28.md) |
+
+| [docs/27-late-practice-log-integrity-2026-10-28.md](docs/27-late-practice-log-integrity-2026-10-28.md) |
+| [checks/late-user-log-2026-10-28.json](checks/late-user-log-2026-10-28.json) |

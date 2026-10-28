@@ -288,3 +288,7 @@ COMPARISON的[采用与否决记录](https://github.com/Frank-678/The-Logical-St
 先提交导航修复，再逐行读完七份TXT及输出遗漏段。逐条记录采纳/已有/暂缓/不适用；第七集观测复用假胜率促使增加四席位契约。炸弹人假设封路在当前4ba9dcd实际复现，最小局面旧防御次Tick必死；改为风险排序/收益折扣，确定规则不变。
 
 每版32个对称变换夹具：不踩点旧16死新0死，实际踩点仍各16死。另60局新地图固定NPC/同配置，未重调权重。Prompt补原公告时间锚/交叉火线。原件不改，不新增真实AI，不冒充官方裁判。保留长期致命防御/原地图/DDS未完成限制。[具体记录](26-subtitle-counterexamples-and-risk-ordering-2026-10-28.md)。
+
+## 30 收尾时发现新日志提交
+
+只读复核最新两场的AI/score及2a4ed整场frames/referee：A25次real成功，500Tick原始分45；1000行是500份完全重复。27835场AI全502而score引用2a4ed，不能混用。未改practice，也未把用户上传的一场当作本工具新补丁原版复测或正式胜率。[来源/限制](27-late-practice-log-integrity-2026-10-28.md)。
