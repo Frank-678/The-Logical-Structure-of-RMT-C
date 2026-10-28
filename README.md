@@ -2,7 +2,7 @@
 
 本仓库用于**比赛规则整理、算法方案论证、实施和测试证据跟踪**；实际参赛 C++/ROS 2 工程另存放在 [RoboMaster-Turing-Competition-BeyondControl](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl)。这里的勾号只代表**已有对应证据的阶段**，不表示该方案已经提高胜率。
 
-**状态基线：2026-10-28。** 矩阵现为R01–R38；规划基线为`a7d2318`（功能头`a23edad`），新增出网诊断与用户502证据为`1682964`，临时Key再次真实复测为`7e5af55`。原版practice未改。 当前正式规则 v1.2，配套最新已取得的通信协议/裁判教程 v1.1。当前选手策略已有代码与部分离线测试，但**完整原版裁判/标准车对战尚未完成**；不能把 HTTP 请求成功等同于本场官方 AI 资格。
+**状态基线：2026-10-28。** 矩阵扩至R42；代码固定`4c7676159be4b35dded9f41a473ca5a2e8530ad6`。规则v1.2、通信协议/教程v1.1；新增自建对手池与两轮参数搜索，失败结果保留。原版practice18文件未改；当前仍无完整原版裁判对标准车验收，真实HTTP与模拟资格分开。
 
 ## 如何打勾：四道独立检查
 
@@ -26,10 +26,10 @@
 | R03 | 地图局部感知、历史记忆、未知格与真实坐标区分 | ✅ | ✅ | ✅ | ◐ | [策略源码](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl/blob/strategy/visible-resource-bfs/src/rmtc_bot/src/strategy.cpp)；有局部回归，未证实实战最优 |
 | R04 | 已知地图 BFS 资源寻路与合法未知格试探 | ✅ | ✅ | ✅ | ◐ | 同上；尚需真实陪练的收集效率/撞墙率数据 |
 | R05 | 未来 8 Tick 安全接续动态规划 | ✅ | ✅ | ✅ | ◐ | [状态机](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl/blob/strategy/visible-resource-bfs/STATE_MACHINE.md)；仅对有限已知格有效 |
-| R06 | 攻击/防御/事件时序与八类事件状态 | ✅ | ◐ | ◐ | ⛔ | [既有测试说明](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl/blob/strategy/visible-resource-bfs/DEV.md)；无法把部分回归扩展为全事件对局验收 |
+| R06 | 攻击/防御/事件时序与八类事件状态 | ✅ | ◐ | ✅ | ◐ | [自建规则边界](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl/blob/4c7676159be4b35dded9f41a473ca5a2e8530ad6/ARENA.md)通过，含八事件与同时分奖；共享部分规则、未原版差分，不能扩为全部组合/实战验收 |
 | R07 | 官方计分边际函数、R/D 封顶与死亡扣 D | ✅ | ✅ | ✅ | ◐ | [scoring.hpp](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl/blob/strategy/visible-resource-bfs/src/rmtc_bot/include/rmtc_bot/scoring.hpp)；多人情景待整局核对 |
-| R08 | 堡垒动态区域、驻留、增益兑现 | ✅ | ◐ | ◐ | ⛔ | 规则 v1.2 说明及代码；需同场不同公告区域和占点回执 |
-| R09 | 辣椒入点、爆炸/分裂提前避险 | ✅ | ◐ | ◐ | ⛔ | 已有对应处理与测试设计；完整多车/多事件结算未验收 |
+| R08 | 堡垒动态区域、驻留、增益兑现 | ✅ | ◐ | ✅ | ◐ | [本地裁判边界](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl/blob/4c7676159be4b35dded9f41a473ca5a2e8530ad6/tests/arena_test.cpp)覆盖授予时序和跨死亡保留；隐藏敌方进度及原版对局仍待 |
+| R09 | 辣椒入点、爆炸/分裂提前避险 | ✅ | ◐ | ✅ | ◐ | [规则模型与局限](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl/blob/4c7676159be4b35dded9f41a473ca5a2e8530ad6/ARENA.md)：本地八事件/火线批次与激活顺序通过；罕见组合和独立裁判差分未验收 |
 | R10 | 对手连续轨迹的一步预测（只作软惩罚） | ✅ | ✅ | ✅ | ◐ | [状态机和回归记录](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl/blob/strategy/visible-resource-bfs/STATE_MACHINE.md)；没有经对手池校准准确率 |
 | R11 | LLM 公告理解与本地每 Tick 动作决策分离 | ✅ | ✅ | ✅ | ◐ | [真实链路记录](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl/blob/strategy/visible-resource-bfs/REAL_TEST.md)；HTTP 成功不等于正式资格 |
 | R12 | 真实 DeepSeek 上游及事件结构化解析 | ✅ | ✅ | ✅ | ◐ | [最新真实复测](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl/blob/7e5af551da20a1c17e40e0e14d1ce1ff072d7903/REAL_TEST.md)：当前C++经原Handler两项200且契约通过，4169/3772ms，上游走工具环境代理；另两次最小探测200但最终JSON未通过。用户本机direct仍读超时，不能跨环境判成功；短预告及时率待测 |
@@ -39,14 +39,13 @@
 | R16 | 每 Tick 动作真实回执、不同场次和同 Tick 幂等验证 | ✅ | ✅ | ◐ | ◐ | [代码导读](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl/blob/strategy/visible-resource-bfs/CODE_GUIDE.md)；还需目标环境回执串联 |
 | R17 | AHC068 自身提交的势函数 + BFS 逆层剥离分析 | ✅ | — | — | — | [用户提交 #77563950](https://atcoder.jp/contests/ahc068/submissions/77563950)；仅外部算法研究 |
 | R18 | AHC068 高分提交的 Beam/历史插入/序列局部优化比较 | ✅ | — | — | — | [提交 #77562268](https://atcoder.jp/contests/ahc068/submissions/77562268)的网页备份已取得2195行源码，核对Beam、Retro、局部优化与最终合法性检查；未运行原程序，未独立核实实时冠军排名 |
-| R19 | 多目标、跨 Tick 的边际收益估值 | ✅ | ◐ | ✅ | ◐ | [规划说明](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl/blob/a7d2318fcce432878277686cbb2da65c87ca30fe/PLANNING.md)：资源串用更新后的虚拟R逐次计算封顶收益；任务、死亡和多车联合推演仍未完成 |
-| R20 | 目标迟滞与未执行计划的局部重排 | ✅ | ◐ | ✅ | ◐ | [规划说明](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl/blob/a7d2318fcce432878277686cbb2da65c87ca30fe/PLANNING.md)：连续Tick的有效目标有10%排序余量；断帧、复活、失败MOVE与危险可打断。已有振荡回归；未实现通用2-opt/计划局部优化 |
-| R21 | 小束宽 Beam Search / 滚动规划 | ✅ | ◐ | ✅ | ◐ | [规划说明](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl/blob/a7d2318fcce432878277686cbb2da65c87ca30fe/PLANNING.md)：已实现最多3个资源目标、束宽5、候选8、10ms软预算，只执行首步；深度是目标数，不是3Tick；尚非完整攻防动作Beam |
-| R22 | 多对手情景预测与收益评估 | ✅ | ◐ | ◐ | ⬜ | 目前仅一步轨迹软惩罚，尚无多情景前瞻 |
-| R23 | 完整计分、死亡/争格/风险的配对消融实验 | ✅ | ◐ | ◐ | ◐ | [7例配对轨迹](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl/blob/a7d2318fcce432878277686cbb2da65c87ca30fe/tests/results/planning-2026-10-28.json)：同夹具分别链接旧/新版的采集比较已运行；无敌车、事件或AI，完整R/D/M与对手池消融仍未建立 |
+| R19 | 多目标、跨Tick的边际收益估值 | ✅ | ◐ | ✅ | ◐ | [规划](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl/blob/4c7676159be4b35dded9f41a473ca5a2e8530ad6/PLANNING.md)：资源虚拟R与可选3Tick R/D/任务/死亡估值；模型有隐藏状态误差，三Tick模块当前关闭 |
+| R20 | 目标迟滞与未执行计划的局部重排 | ✅ | ◐ | ✅ | ◐ | [资源重排](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl/blob/4c7676159be4b35dded9f41a473ca5a2e8530ad6/PLANNING.md)：旧串重评，12次反转/插入/删除，共享10ms；只资源目标，本批消融同分，不称成绩增益 |
+| R21 | 小束宽Beam Search与滚动规划 | ✅ | ◐ | ✅ | ◐ | [规划](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl/blob/4c7676159be4b35dded9f41a473ca5a2e8530ad6/PLANNING.md)：比赛资源深度4、束5、候选8；可选三Tick战斗已实现并测试但训练选择关闭；不是完整整场搜索 |
+| R22 | 多对手情景预测与收益评估 | ✅ | ◐ | ✅ | ◐ | [tactics](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl/blob/4c7676159be4b35dded9f41a473ca5a2e8530ad6/src/rmtc_bot/src/tactics.cpp)：五种情景与可能无双情景，公共续步只发首步；非校准概率/纳什解，当前关闭 |
+| R23 | R/D/M、死亡、争格与风险配对消融 | ✅ | ◐ | ✅ | ◐ | [结果](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl/blob/4c7676159be4b35dded9f41a473ca5a2e8530ad6/ARENA.md)：910局含训练/消融，首轮失败保留；新留出24对抗+6采集/组，具完整指标，仍是自建裁判与延迟oracle |
 | R24 | AHC 置换群共轭和已执行历史操作插入照搬 RMTC | ✅ | — | — | — | **明确拒绝**：RMTC 已结算 Tick 不能回滚 |
-| R25 | 赛前封存 Prompt、策略参数、构建 SHA 与现场一致性 | ✅ | ◐ | ◐ | ⬜ | [配置和构建说明](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl/blob/strategy/visible-resource-bfs/README.md)；正式赛上场仍待核验 |
-
+| R25 | 赛前封存Prompt、参数与构建一致性 | ✅ | ◐ | ✅ | ◐ | [固定选项](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl/blob/4c7676159be4b35dded9f41a473ca5a2e8530ad6/src/rmtc_bot/include/rmtc_bot/match_config.hpp)与[选择记录](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl/blob/4c7676159be4b35dded9f41a473ca5a2e8530ad6/tests/results/selected-parameters.json)；训练固定参数、无在线调参；正式赛封存/现场复核仍待 |
 | R26 | PacmanAI：手写收益/风险特征与模式切换选读 | ✅ | — | — | — | [README与heuristicTeam.py](https://github.com/jhammarstedt/PacmanAI/blob/2611a267b99c274516f889bba32852df083ad721/src/heuristicTeam.py)；实际获胜后备队是启发式，CNN/DQL训练不足。借鉴风险/记忆，不部署本地训练模型；未运行原游戏 |
 | R27 | pacman-mcts-agent-v2：有选择地分配搜索预算 | ✅ | — | — | — | [实际文件myTeam(1).py](https://github.com/neeilnandal/pacman-mcts-agent-v2/blob/4b48e73977bf5313a486acd39b4bccd22c8f1856/myTeam(1).py)；核对UCT与模式切换。默认0.82秒不适合直接放进100/500ms动作窗口；未运行原游戏 |
 | R28 | Pacman-Capture-the-Flag：设计与后续改进建议 | ✅ | — | — | — | [README](https://github.com/DXJ3X1/Pacman-Capture-the-Flag/blob/f2ed02de687e63ab4e2fd634fef5526dbb8314e1/README.md)；该仓库提供演示/设计材料，没有选手源码；提高单位步食物收益部分属于Further Improvements，不能当作已实现算法。PPT未读 |
@@ -59,16 +58,19 @@
 | R35 | 阶段结束与剩余动作数守卫 | ✅ | ✅ | ✅ | ✅ | [规划说明](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl/blob/a7d2318fcce432878277686cbb2da65c87ca30fe/PLANNING.md)：明确100/500动作Tick，最终状态不发布；末步/两阶段窗口核心回归通过。此勾仅验收守卫，不代表实战获胜 |
 | R36 | 已知可达观察点的信息增益探索 | ✅ | ✅ | ✅ | ◐ | [规划说明](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl/blob/a7d2318fcce432878277686cbb2da65c87ca30fe/PLANNING.md)：按实际视野计算新增未知格/路程，只走已知路径；边界与危险回归通过，局部下一帧覆盖9→12，未有整局覆盖率统计 |
 | R37 | 新旧采集策略的同条件夹具 | ✅ | ✅ | ✅ | ◐ | [7例配对轨迹](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl/blob/a7d2318fcce432878277686cbb2da65c87ca30fe/tests/results/planning-2026-10-28.json)：7例无受阻MOVE，两步新增R20→30、四步40→50、密集资源200的耗时40→36；迷宫均18步。单次决策最大观测2.28ms，仅一轮样本；不是标准车胜率或完整回调延迟 |
-
 | R38 | 练习代理的上游出网诊断 | ✅ | ✅ | ✅ | ◐ | [诊断与实测](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl/blob/7e5af551da20a1c17e40e0e14d1ce1ff072d7903/README.md)：8本机HTTP+6注入异常、旧启动器拦截通过；用户已运行并报direct/read_timeout/10065ms。TLS握手亦可能被标read_timeout，需继续区分DNS/TCP/TLS/响应，不计比赛资格 |
+| R39 | 六地图、六陪练的独立规则测试裁判 | ✅ | ✅ | ✅ | ◐ | [ARENA](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl/blob/4c7676159be4b35dded9f41a473ca5a2e8530ad6/ARENA.md)：公开局部观测/公告后延迟oracle；18地图边界、八事件测试；未原版差分或真实AI验收 |
+| R40 | 训练筛选、失败留存与新留出调参 | ✅ | ✅ | ✅ | ◐ | [910局记录](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl/blob/4c7676159be4b35dded9f41a473ca5a2e8530ad6/ARENA.md)：首轮退步未采纳，第二轮对抗均分33.54→34.72、获胜29.2%→37.5%；小样本非官方结果，死亡增加及对照胜率更高均保留 |
+| R41 | 新公告模型/顶层关闭思考与JSON透传 | ✅ | ✅ | ✅ | ◐ | [字段说明](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl/blob/4c7676159be4b35dded9f41a473ca5a2e8530ad6/README.md)：deepseek-flash、thinking disabled、json_object；实际C++与原Handler固定上游回归通过，未正式网关验收；512是示例 |
+| R42 | 连续两次移动失败后的安全改道 | ✅ | ✅ | ✅ | ◐ | [源码与回归](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl/blob/4c7676159be4b35dded9f41a473ca5a2e8530ad6/PLANNING.md)：只按真实回执，两次失败且有安全替代时重算首步；新留出受阻1178→282，原版实战仍待 |
 
 > 本表“验收”必须对应具体范围：例如 R13 的 ✅ 仅表示重复公告回归通过，不表示 AI 模型在所有事件上正确；R14/R15 的 ❌ 是**测试执行失败**而非“算法已输给标准车”。R17/R18/R24及R26–R34的实现栏破折号表示外部研究或拒绝项；具体迁移单列R19–R21、R36。R29/R30的执行/验收只指上述函数反例。
 
 ## 下一轮执行优先级
 
 1. **P0：完成完整对局和 AI 时效数据。** 在正常 Ubuntu 22.04 / ROS 2 Humble/DDS 环境获取 A 与标准 B/C/D 的真实回执、R/D/M、得分、死亡、无效动作、模型调用与事件可用时间；不要动裁判原件。
-2. **P1：实测新增目标规划。** 迟滞、资源串和信息增益已有代码及局部配对结果；在留出地图、不同席位和标准对手下检查收益与失效条件。
-3. **P2：补齐搜索模型，再决定是否扩展。** 现有束搜索只比较资源目标；完整多车攻防、任务、事件情景仍未完成。继续只执行首步，下一Tick依据裁判回执重算。
+2. **P1：实测新增目标规划。** 迟滞、资源串和信息增益已有代码及局部配对结果；自建留出和模块对照已运行；下一步在正常DDS原版裁判与标准对手下复核。
+3. **P2：补齐搜索模型，再决定是否扩展。** 已有可选三Tick局部多情景；隐藏状态与模型误差仍在，训练选中关闭，完整整场模型未完成。继续只执行首步，下一Tick依据裁判回执重算。
 4. **P3：多情景与消融。** 测试改动是否真实提升、什么地图/对手下失效；失败可回退基线。
 5. **P4：赛前封存与验收。** 确认版本、配置、协议、运行入口和规则权限，保持可追溯。
 
