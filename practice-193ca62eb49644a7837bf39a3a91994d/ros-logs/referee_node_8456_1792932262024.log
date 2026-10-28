@@ -1,0 +1,4 @@
+[INFO] [1792932306.070323834] [referee_public]: registered team A as 环境验证车
+[INFO] [1792932327.329238263] [referee_public]: match completed at tick 100
+[INFO] [1792935236.265108918] [referee_public]: registered team A as Frank
+[INFO] [1792935394.118974666] [rclcpp]: signal_handler(SIGINT/SIGTERM)

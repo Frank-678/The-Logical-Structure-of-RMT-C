@@ -1,0 +1,5 @@
+[INFO] [1793103863.900656139] [referee_public]: registered team A as Frank
+[INFO] [1793103863.906688172] [referee_public]: registered team D as 练习陪练D
+[INFO] [1793103863.906863595] [referee_public]: registered team B as 练习陪练B
+[INFO] [1793103864.612737468] [referee_public]: registered team A as 练习陪练A
+[INFO] [1793103907.524750611] [rclcpp]: signal_handler(SIGINT/SIGTERM)

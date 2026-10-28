@@ -1,0 +1,7 @@
+[INFO] [1793103863.044224155] [rmtc_test_robot]: test robot for team B (练习陪练B) ready
+[INFO] [1793103868.927239752] [rmtc_test_robot]: AI plan applied: {"goals":["resource_high","resource_normal","reach_target"],"summary":"模拟响应，仅验证通信，未理解事件"}
+[INFO] [1793103873.902185289] [rmtc_test_robot]: AI plan applied: {"event_plan":null,"goals":["resource_high","resource_normal","reach_target"],"summary":"模拟响应，仅验证通信，未理解事件"}
+[INFO] [1793103878.879736664] [rmtc_test_robot]: AI plan applied: {"event_plan":null,"goals":["resource_high","resource_normal","reach_target"],"summary":"模拟响应，仅验证通信，未理解事件"}
+[INFO] [1793103889.504182656] [rmtc_test_robot]: AI plan applied: {"event_plan":null,"goals":["resource_high","resource_normal","reach_target"],"summary":"模拟响应，仅验证通信，未理解事件"}
+[INFO] [1793103894.468134087] [rmtc_test_robot]: AI plan applied: {"event_plan":null,"goals":["resource_high","resource_normal","reach_target"],"summary":"模拟响应，仅验证通信，未理解事件"}
+[INFO] [1793103907.523784086] [rclcpp]: signal_handler(SIGINT/SIGTERM)

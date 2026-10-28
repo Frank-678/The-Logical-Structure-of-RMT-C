@@ -1,0 +1,4 @@
+[INFO] [1793102109.721466158] [referee_public]: registered team A as 练习车A
+[INFO] [1793102364.703584019] [referee_public]: match completed at tick 500
+[INFO] [1793103412.492977222] [referee_public]: registered team C as Frank678
+[INFO] [1793103459.247140077] [rclcpp]: signal_handler(SIGINT/SIGTERM)

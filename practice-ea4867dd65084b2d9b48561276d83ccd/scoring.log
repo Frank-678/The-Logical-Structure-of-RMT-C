@@ -1,0 +1,14 @@
+[INFO] [1793103993.474837257] [scoring_node]: tick 1 | A=2.500 B=0.000 C=0.000 D=0.000 
+[INFO] [1793103993.976071155] [scoring_node]: tick 2 | A=2.500 B=0.000 C=0.000 D=0.000 
+[INFO] [1793103994.476549372] [scoring_node]: tick 3 | A=2.500 B=0.000 C=0.000 D=0.000 
+[INFO] [1793103994.974756477] [scoring_node]: tick 4 | A=10.00 B=0.000 C=0.000 D=0.000 
+[INFO] [1793103995.472431388] [scoring_node]: tick 5 | A=10.00 B=0.000 C=0.000 D=0.000 
+[INFO] [1793103995.972016073] [scoring_node]: tick 6 | A=10.00 B=0.000 C=0.000 D=0.000 
+[INFO] [1793103996.468014385] [scoring_node]: tick 7 | A=10.00 B=0.000 C=0.000 D=0.000 
+[INFO] [1793103996.971240355] [scoring_node]: tick 8 | A=20.00 B=0.000 C=0.000 D=0.000 
+[INFO] [1793103997.461785107] [scoring_node]: tick 9 | A=20.00 B=0.000 C=0.000 D=0.000 
+[INFO] [1793103997.952167362] [scoring_node]: tick 10 | A=20.00 B=0.000 C=0.000 D=0.000 
+[INFO] [1793103998.447081184] [scoring_node]: tick 11 | A=20.00 B=0.000 C=0.000 D=0.000 
+[INFO] [1793103998.937033017] [scoring_node]: tick 12 | A=20.00 B=0.000 C=0.000 D=0.000 
+[INFO] [1793103999.430950950] [scoring_node]: tick 13 | A=20.00 B=0.000 C=0.000 D=0.000 
+[INFO] [1793105086.422613253] [rclcpp]: signal_handler(SIGINT/SIGTERM)

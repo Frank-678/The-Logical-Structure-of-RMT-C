@@ -1,0 +1,3 @@
+[INFO] [1792932301.065325206] [rmtc_test_robot]: test robot for team A (环境验证车) ready
+[INFO] [1792932317.134947294] [rmtc_test_robot]: AI plan applied: {"goals":["resource_high","resource_normal","reach_target"],"summary":"模拟响应，仅验证通信，未理解事件"}
+[INFO] [1792932777.073439116] [rclcpp]: signal_handler(SIGINT/SIGTERM)

@@ -1,0 +1,24 @@
+[INFO] [1793103580.617239022] [rmtc_test_robot]: test robot for team D (练习陪练D) ready
+[INFO] [1793103588.455640664] [rmtc_test_robot]: AI plan applied: {"goals":["resource_high","resource_normal","reach_target"],"summary":"模拟响应，仅验证通信，未理解事件"}
+[INFO] [1793103594.374785461] [rmtc_test_robot]: AI plan applied: {"event_plan":null,"goals":["resource_high","resource_normal","reach_target"],"summary":"模拟响应，仅验证通信，未理解事件"}
+[INFO] [1793103599.352480011] [rmtc_test_robot]: AI plan applied: {"event_plan":null,"goals":["resource_high","resource_normal","reach_target"],"summary":"模拟响应，仅验证通信，未理解事件"}
+[INFO] [1793103609.281849052] [rmtc_test_robot]: AI plan applied: {"event_plan":null,"goals":["resource_high","resource_normal","reach_target"],"summary":"模拟响应，仅验证通信，未理解事件"}
+[INFO] [1793103614.260119530] [rmtc_test_robot]: AI plan applied: {"event_plan":null,"goals":["resource_high","resource_normal","reach_target"],"summary":"模拟响应，仅验证通信，未理解事件"}
+[INFO] [1793103624.773424405] [rmtc_test_robot]: AI plan applied: {"event_plan":null,"goals":["resource_high","resource_normal","reach_target"],"summary":"模拟响应，仅验证通信，未理解事件"}
+[INFO] [1793103629.732244699] [rmtc_test_robot]: AI plan applied: {"event_plan":null,"goals":["resource_high","resource_normal","reach_target"],"summary":"模拟响应，仅验证通信，未理解事件"}
+[INFO] [1793103635.706287150] [rmtc_test_robot]: AI plan applied: {"event_plan":null,"goals":["resource_high","resource_normal","reach_target"],"summary":"模拟响应，仅验证通信，未理解事件"}
+[INFO] [1793103640.693170938] [rmtc_test_robot]: AI plan applied: {"event_plan":null,"goals":["resource_high","resource_normal","reach_target"],"summary":"模拟响应，仅验证通信，未理解事件"}
+[INFO] [1793103645.675182802] [rmtc_test_robot]: AI plan applied: {"event_plan":null,"goals":["resource_high","resource_normal","reach_target"],"summary":"模拟响应，仅验证通信，未理解事件"}
+[INFO] [1793103654.647684156] [rmtc_test_robot]: AI plan applied: {"event_plan":null,"goals":["resource_high","resource_normal","reach_target"],"summary":"模拟响应，仅验证通信，未理解事件"}
+[INFO] [1793103660.291242427] [rmtc_test_robot]: AI plan applied: {"event_plan":null,"goals":["resource_high","resource_normal","reach_target"],"summary":"模拟响应，仅验证通信，未理解事件"}
+[INFO] [1793103665.263992244] [rmtc_test_robot]: AI plan applied: {"event_plan":null,"goals":["resource_high","resource_normal","reach_target"],"summary":"模拟响应，仅验证通信，未理解事件"}
+[INFO] [1793103670.228154539] [rmtc_test_robot]: AI plan applied: {"event_plan":null,"goals":["resource_high","resource_normal","reach_target"],"summary":"模拟响应，仅验证通信，未理解事件"}
+[INFO] [1793103675.211694382] [rmtc_test_robot]: AI plan applied: {"event_plan":null,"goals":["resource_high","resource_normal","reach_target"],"summary":"模拟响应，仅验证通信，未理解事件"}
+[INFO] [1793103680.224879346] [rmtc_test_robot]: AI plan applied: {"event_plan":null,"goals":["resource_high","resource_normal","reach_target"],"summary":"模拟响应，仅验证通信，未理解事件"}
+[INFO] [1793103685.217212364] [rmtc_test_robot]: AI plan applied: {"event_plan":null,"goals":["resource_high","resource_normal","reach_target"],"summary":"模拟响应，仅验证通信，未理解事件"}
+[INFO] [1793103690.804179125] [rmtc_test_robot]: AI plan applied: {"event_plan":null,"goals":["resource_high","resource_normal","reach_target"],"summary":"模拟响应，仅验证通信，未理解事件"}
+[INFO] [1793103696.777933749] [rmtc_test_robot]: AI plan applied: {"event_plan":null,"goals":["resource_high","resource_normal","reach_target"],"summary":"模拟响应，仅验证通信，未理解事件"}
+[INFO] [1793103701.769066953] [rmtc_test_robot]: AI plan applied: {"event_plan":null,"goals":["resource_high","resource_normal","reach_target"],"summary":"模拟响应，仅验证通信，未理解事件"}
+[INFO] [1793103706.778099011] [rmtc_test_robot]: AI plan applied: {"event_plan":null,"goals":["resource_high","resource_normal","reach_target"],"summary":"模拟响应，仅验证通信，未理解事件"}
+[INFO] [1793103712.763351809] [rmtc_test_robot]: AI plan applied: {"event_plan":null,"goals":["resource_high","resource_normal","reach_target"],"summary":"模拟响应，仅验证通信，未理解事件"}
+[INFO] [1793103861.140833443] [rclcpp]: signal_handler(SIGINT/SIGTERM)

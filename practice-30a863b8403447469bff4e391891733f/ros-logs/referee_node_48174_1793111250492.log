@@ -1,0 +1,6 @@
+[INFO] [1793111254.009671954] [referee_public]: registered team D as 练习陪练D
+[INFO] [1793111254.015886600] [referee_public]: registered team B as 练习陪练B
+[INFO] [1793111254.019990568] [referee_public]: registered team C as 练习陪练C
+[INFO] [1793111255.349425783] [referee_public]: registered team A as Frank
+[INFO] [1793111515.357035395] [referee_public]: match completed at tick 500
+[INFO] [1793111522.436741177] [rclcpp]: signal_handler(SIGINT/SIGTERM)

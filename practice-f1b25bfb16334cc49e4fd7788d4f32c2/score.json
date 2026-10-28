@@ -1,0 +1,508 @@
+{
+  "action_tick": 29,
+  "actions": [
+    {
+      "action": "move",
+      "direction": "down",
+      "effective_direction": "down",
+      "from": [
+        4,
+        9
+      ],
+      "source": "submitted",
+      "status": "move_success",
+      "submitted": {
+        "_source": "submitted",
+        "action": "move",
+        "direction": "down",
+        "session_id": "practice-f1b25bfb16334cc49e4fd7788d4f32c2",
+        "tick": 29
+      },
+      "team": "A",
+      "team_name": "Frank",
+      "to": [
+        4,
+        10
+      ]
+    },
+    {
+      "action": "move",
+      "direction": "left",
+      "effective_direction": "left",
+      "from": [
+        14,
+        1
+      ],
+      "source": "submitted",
+      "status": "move_success",
+      "submitted": {
+        "_source": "submitted",
+        "action": "move",
+        "direction": "left",
+        "session_id": "practice-f1b25bfb16334cc49e4fd7788d4f32c2",
+        "tick": 29
+      },
+      "team": "B",
+      "team_name": "练习陪练B",
+      "to": [
+        13,
+        1
+      ]
+    },
+    {
+      "action": "move",
+      "direction": "down",
+      "effective_direction": "down",
+      "from": [
+        13,
+        12
+      ],
+      "source": "submitted",
+      "status": "move_success",
+      "submitted": {
+        "_source": "submitted",
+        "action": "move",
+        "direction": "down",
+        "session_id": "practice-f1b25bfb16334cc49e4fd7788d4f32c2",
+        "tick": 29
+      },
+      "team": "C",
+      "team_name": "练习陪练C",
+      "to": [
+        13,
+        13
+      ]
+    },
+    {
+      "action": "wait",
+      "direction": "",
+      "source": "submitted",
+      "status": "wait",
+      "submitted": {
+        "_source": "submitted",
+        "action": "wait",
+        "session_id": "practice-f1b25bfb16334cc49e4fd7788d4f32c2",
+        "tick": 29
+      },
+      "team": "D",
+      "team_name": "练习陪练D"
+    }
+  ],
+  "arena_events": {
+    "active": [],
+    "announcements": [
+      {
+        "end_tick": 16,
+        "event": "explosion",
+        "event_id": "practice_explosion",
+        "id": 1,
+        "kind": "announcement",
+        "start_tick": 15,
+        "text": "随机事件预告：5 Tick 后（Tick 15），左上角 [3,3]、右下角 [7,7] 的矩形区域将发生爆炸，范围内所有存活战车扣除 35 HP；出生保护免疫。",
+        "tick": 10
+      },
+      {
+        "end_tick": 16,
+        "event": "explosion",
+        "event_id": "practice_explosion",
+        "id": 2,
+        "kind": "event_started",
+        "text": "爆炸发生！矩形 [3,3] 至 [7,7] 内战车受到 35 HP 环境伤害。",
+        "tick": 15
+      },
+      {
+        "event": "explosion",
+        "event_id": "practice_explosion",
+        "id": 3,
+        "kind": "event_ended",
+        "text": "爆炸已结束。",
+        "tick": 16
+      }
+    ],
+    "enabled": true,
+    "fortress_stays": {},
+    "temporary_obstacles": [],
+    "upcoming": []
+  },
+  "events": [
+    {
+      "action": "move",
+      "direction": "down",
+      "team": "A",
+      "tick": 29,
+      "type": "action"
+    },
+    {
+      "action": "move",
+      "direction": "left",
+      "team": "B",
+      "tick": 29,
+      "type": "action"
+    },
+    {
+      "action": "move",
+      "direction": "down",
+      "team": "C",
+      "tick": 29,
+      "type": "action"
+    },
+    {
+      "action": "wait",
+      "direction": "",
+      "team": "D",
+      "tick": 29,
+      "type": "action"
+    },
+    {
+      "effective_direction": "down",
+      "from": [
+        4,
+        9
+      ],
+      "team": "A",
+      "tick": 29,
+      "to": [
+        4,
+        10
+      ],
+      "type": "move"
+    },
+    {
+      "effective_direction": "left",
+      "from": [
+        14,
+        1
+      ],
+      "team": "B",
+      "tick": 29,
+      "to": [
+        13,
+        1
+      ],
+      "type": "move"
+    },
+    {
+      "effective_direction": "down",
+      "from": [
+        13,
+        12
+      ],
+      "team": "C",
+      "tick": 29,
+      "to": [
+        13,
+        13
+      ],
+      "type": "move"
+    }
+  ],
+  "map_view": {
+    "map": {
+      "height": 18,
+      "width": 18
+    },
+    "obstacles": [
+      [
+        3,
+        11
+      ],
+      [
+        6,
+        3
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        11,
+        13
+      ],
+      [
+        11,
+        14
+      ],
+      [
+        14,
+        6
+      ]
+    ],
+    "resources": [
+      {
+        "id": "practice_7",
+        "position": [
+          15,
+          13
+        ],
+        "value": 10
+      }
+    ],
+    "robots": [
+      {
+        "alive": true,
+        "defending": false,
+        "effective_damage": 0.0,
+        "effects": [],
+        "high_resources": 1,
+        "hp": 100,
+        "invalid_actions": 0,
+        "last_action": {
+          "action": "move",
+          "effective_direction": "down",
+          "moved": true,
+          "tick": 29
+        },
+        "mission_completed": [
+          "collect_high_value",
+          "collect_two_normal",
+          "reach_target"
+        ],
+        "normal_resources": 4,
+        "position": [
+          4,
+          10
+        ],
+        "position_tick": 0,
+        "protected": false,
+        "protection_ticks": 0,
+        "resource_value": 60,
+        "respawn_in": 0,
+        "robot_id": "A",
+        "spawn": [
+          1,
+          1
+        ],
+        "team": "A"
+      },
+      {
+        "alive": true,
+        "defending": false,
+        "effective_damage": 0.0,
+        "effects": [],
+        "high_resources": 1,
+        "hp": 100,
+        "invalid_actions": 0,
+        "last_action": {
+          "action": "move",
+          "effective_direction": "left",
+          "moved": true,
+          "tick": 29
+        },
+        "mission_completed": [
+          "collect_high_value",
+          "collect_two_normal"
+        ],
+        "normal_resources": 2,
+        "position": [
+          13,
+          1
+        ],
+        "position_tick": 0,
+        "protected": false,
+        "protection_ticks": 0,
+        "resource_value": 40,
+        "respawn_in": 0,
+        "robot_id": "B",
+        "spawn": [
+          16,
+          1
+        ],
+        "team": "B"
+      },
+      {
+        "alive": true,
+        "defending": false,
+        "effective_damage": 160.0,
+        "effects": [],
+        "high_resources": 1,
+        "hp": 20,
+        "invalid_actions": 0,
+        "last_action": {
+          "action": "move",
+          "effective_direction": "down",
+          "moved": true,
+          "tick": 29
+        },
+        "mission_completed": [
+          "collect_high_value",
+          "collect_two_normal",
+          "reach_target"
+        ],
+        "normal_resources": 3,
+        "position": [
+          13,
+          13
+        ],
+        "position_tick": 0,
+        "protected": false,
+        "protection_ticks": 0,
+        "resource_value": 50,
+        "respawn_in": 0,
+        "robot_id": "C",
+        "spawn": [
+          1,
+          16
+        ],
+        "team": "C"
+      },
+      {
+        "alive": false,
+        "defending": false,
+        "effective_damage": 20.0,
+        "effects": [],
+        "high_resources": 1,
+        "hp": 0,
+        "invalid_actions": 0,
+        "last_action": {
+          "action": "wait",
+          "moved": false,
+          "tick": 29
+        },
+        "mission_completed": [
+          "collect_high_value",
+          "collect_two_normal"
+        ],
+        "normal_resources": 2,
+        "position": [
+          13,
+          13
+        ],
+        "position_tick": 0,
+        "protected": false,
+        "protection_ticks": 0,
+        "resource_value": 40,
+        "respawn_in": 1,
+        "robot_id": "D",
+        "spawn": [
+          16,
+          16
+        ],
+        "team": "D"
+      }
+    ],
+    "static_obstacles": [
+      [
+        3,
+        11
+      ],
+      [
+        6,
+        3
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        11,
+        13
+      ],
+      [
+        11,
+        14
+      ],
+      [
+        14,
+        6
+      ]
+    ]
+  },
+  "mission_text": "练习任务：收集两个普通资源、一个高价值资源，并到达 [9,9]。",
+  "session_id": "practice-f1b25bfb16334cc49e4fd7788d4f32c2",
+  "stage": 2,
+  "team_registry": [
+    {
+      "name": "Frank",
+      "team": "A"
+    },
+    {
+      "name": "练习陪练B",
+      "team": "B"
+    },
+    {
+      "name": "练习陪练C",
+      "team": "C"
+    },
+    {
+      "name": "练习陪练D",
+      "team": "D"
+    }
+  ],
+  "teams": [
+    {
+      "alive": true,
+      "effective_damage": 160.0,
+      "effects": [],
+      "hp": 20,
+      "invalid_actions": 0,
+      "mission_completed": 3,
+      "mission_completed_tasks": [
+        1,
+        2,
+        3
+      ],
+      "rank": 1,
+      "resource_value": 50.0,
+      "robot_id": "C",
+      "score": 32.3,
+      "team": "C",
+      "team_name": "练习陪练C"
+    },
+    {
+      "alive": true,
+      "effective_damage": 0.0,
+      "effects": [],
+      "hp": 100,
+      "invalid_actions": 0,
+      "mission_completed": 3,
+      "mission_completed_tasks": [
+        1,
+        2,
+        3
+      ],
+      "rank": 2,
+      "resource_value": 60.0,
+      "robot_id": "A",
+      "score": 30.0,
+      "team": "A",
+      "team_name": "Frank"
+    },
+    {
+      "alive": false,
+      "effective_damage": 20.0,
+      "effects": [],
+      "hp": 0,
+      "invalid_actions": 0,
+      "mission_completed": 2,
+      "mission_completed_tasks": [
+        1,
+        2
+      ],
+      "rank": 3,
+      "resource_value": 40.0,
+      "robot_id": "D",
+      "score": 20.6,
+      "team": "D",
+      "team_name": "练习陪练D"
+    },
+    {
+      "alive": true,
+      "effective_damage": 0.0,
+      "effects": [],
+      "hp": 100,
+      "invalid_actions": 0,
+      "mission_completed": 2,
+      "mission_completed_tasks": [
+        1,
+        2
+      ],
+      "rank": 4,
+      "resource_value": 40.0,
+      "robot_id": "B",
+      "score": 20.0,
+      "team": "B",
+      "team_name": "练习陪练B"
+    }
+  ],
+  "tick": 30
+}

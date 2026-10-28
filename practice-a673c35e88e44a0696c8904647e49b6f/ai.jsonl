@@ -1,0 +1,15 @@
+{"seat": "A", "session_id": "practice-a673c35e88e44a0696c8904647e49b6f", "mode": "mock", "success": true, "status": 200, "success_count": 1, "attempt_count": 1}
+{"seat": "B", "session_id": "practice-a673c35e88e44a0696c8904647e49b6f", "mode": "mock", "success": true, "status": 200, "success_count": 1, "attempt_count": 1}
+{"seat": "D", "session_id": "practice-a673c35e88e44a0696c8904647e49b6f", "mode": "mock", "success": true, "status": 200, "success_count": 1, "attempt_count": 1}
+{"seat": "B", "session_id": "practice-a673c35e88e44a0696c8904647e49b6f", "mode": "mock", "success": true, "status": 200, "success_count": 2, "attempt_count": 2}
+{"seat": "A", "session_id": "practice-a673c35e88e44a0696c8904647e49b6f", "mode": "mock", "success": true, "status": 200, "success_count": 2, "attempt_count": 2}
+{"seat": "D", "session_id": "practice-a673c35e88e44a0696c8904647e49b6f", "mode": "mock", "success": true, "status": 200, "success_count": 2, "attempt_count": 2}
+{"seat": "A", "session_id": "practice-a673c35e88e44a0696c8904647e49b6f", "mode": "mock", "success": true, "status": 200, "success_count": 3, "attempt_count": 3}
+{"seat": "D", "session_id": "practice-a673c35e88e44a0696c8904647e49b6f", "mode": "mock", "success": true, "status": 200, "success_count": 3, "attempt_count": 3}
+{"seat": "B", "session_id": "practice-a673c35e88e44a0696c8904647e49b6f", "mode": "mock", "success": true, "status": 200, "success_count": 3, "attempt_count": 3}
+{"seat": "B", "session_id": "practice-a673c35e88e44a0696c8904647e49b6f", "mode": "mock", "success": true, "status": 200, "success_count": 4, "attempt_count": 4}
+{"seat": "A", "session_id": "practice-a673c35e88e44a0696c8904647e49b6f", "mode": "mock", "success": true, "status": 200, "success_count": 4, "attempt_count": 4}
+{"seat": "D", "session_id": "practice-a673c35e88e44a0696c8904647e49b6f", "mode": "mock", "success": true, "status": 200, "success_count": 4, "attempt_count": 4}
+{"seat": "A", "session_id": "practice-a673c35e88e44a0696c8904647e49b6f", "mode": "mock", "success": true, "status": 200, "success_count": 5, "attempt_count": 5}
+{"seat": "D", "session_id": "practice-a673c35e88e44a0696c8904647e49b6f", "mode": "mock", "success": true, "status": 200, "success_count": 5, "attempt_count": 5}
+{"seat": "B", "session_id": "practice-a673c35e88e44a0696c8904647e49b6f", "mode": "mock", "success": true, "status": 200, "success_count": 5, "attempt_count": 5}

@@ -1,0 +1,543 @@
+{
+  "action_tick": 12,
+  "actions": [
+    {
+      "action": "move",
+      "direction": "down",
+      "effective_direction": "down",
+      "from": [
+        9,
+        5
+      ],
+      "source": "submitted",
+      "status": "move_success",
+      "submitted": {
+        "_source": "submitted",
+        "action": "move",
+        "direction": "down",
+        "session_id": "practice-ea4867dd65084b2d9b48561276d83ccd",
+        "tick": 12
+      },
+      "team": "A",
+      "team_name": "Frank",
+      "to": [
+        9,
+        6
+      ]
+    },
+    {
+      "action": "wait",
+      "direction": "",
+      "source": "default",
+      "status": "default_wait",
+      "submitted": {
+        "_source": "default",
+        "action": "wait",
+        "tick": 12
+      },
+      "team": "B",
+      "team_name": "B"
+    },
+    {
+      "action": "wait",
+      "direction": "",
+      "source": "default",
+      "status": "default_wait",
+      "submitted": {
+        "_source": "default",
+        "action": "wait",
+        "tick": 12
+      },
+      "team": "C",
+      "team_name": "C"
+    },
+    {
+      "action": "wait",
+      "direction": "",
+      "source": "default",
+      "status": "default_wait",
+      "submitted": {
+        "_source": "default",
+        "action": "wait",
+        "tick": 12
+      },
+      "team": "D",
+      "team_name": "D"
+    }
+  ],
+  "arena_events": {
+    "active": [],
+    "announcements": [
+      {
+        "end_tick": 16,
+        "event": "explosion",
+        "event_id": "practice_explosion",
+        "id": 1,
+        "kind": "announcement",
+        "start_tick": 15,
+        "text": "随机事件预告：5 Tick 后（Tick 15），左上角 [3,3]、右下角 [7,7] 的矩形区域将发生爆炸，范围内所有存活战车扣除 35 HP；出生保护免疫。",
+        "tick": 10
+      }
+    ],
+    "enabled": true,
+    "fortress_stays": {},
+    "temporary_obstacles": [],
+    "upcoming": [
+      {
+        "announce_tick": 10,
+        "end_tick": 16,
+        "event": "explosion",
+        "id": "practice_explosion",
+        "name": "爆炸",
+        "parameters": {
+          "damage": 35,
+          "duration_ticks": 1,
+          "name": "爆炸",
+          "rect": {
+            "bottom_right": [
+              7,
+              7
+            ],
+            "top_left": [
+              3,
+              3
+            ]
+          },
+          "respects_spawn_protection": true,
+          "text": {
+            "announce": "随机事件预告：{delay_ticks} Tick 后（Tick {start_tick}），左上角 {top_left}、右下角 {bottom_right} 的矩形区域将发生爆炸，范围内所有存活战车扣除 {damage} HP；出生保护免疫。",
+            "end": "爆炸已结束。",
+            "hit": "{robot_id} 号战车受到爆炸，实际损失 {actual_damage} HP，剩余 {hp} HP。",
+            "start": "爆炸发生！矩形 {top_left} 至 {bottom_right} 内战车受到 {damage} HP 环境伤害。"
+          }
+        },
+        "start_tick": 15
+      }
+    ]
+  },
+  "events": [
+    {
+      "action": "move",
+      "direction": "down",
+      "team": "A",
+      "tick": 12,
+      "type": "action"
+    },
+    {
+      "action": "wait",
+      "direction": "",
+      "team": "B",
+      "tick": 12,
+      "type": "action"
+    },
+    {
+      "action": "wait",
+      "direction": "",
+      "team": "C",
+      "tick": 12,
+      "type": "action"
+    },
+    {
+      "action": "wait",
+      "direction": "",
+      "team": "D",
+      "tick": 12,
+      "type": "action"
+    },
+    {
+      "effective_direction": "down",
+      "from": [
+        9,
+        5
+      ],
+      "team": "A",
+      "tick": 12,
+      "to": [
+        9,
+        6
+      ],
+      "type": "move"
+    }
+  ],
+  "map_view": {
+    "map": {
+      "height": 18,
+      "width": 18
+    },
+    "obstacles": [
+      [
+        3,
+        11
+      ],
+      [
+        6,
+        3
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        11,
+        13
+      ],
+      [
+        11,
+        14
+      ],
+      [
+        14,
+        6
+      ]
+    ],
+    "resources": [
+      {
+        "id": "practice_1",
+        "position": [
+          15,
+          1
+        ],
+        "value": 10
+      },
+      {
+        "id": "practice_10",
+        "position": [
+          8,
+          4
+        ],
+        "value": 10
+      },
+      {
+        "id": "practice_11",
+        "position": [
+          9,
+          13
+        ],
+        "value": 10
+      },
+      {
+        "id": "practice_13",
+        "position": [
+          12,
+          5
+        ],
+        "value": 20
+      },
+      {
+        "id": "practice_14",
+        "position": [
+          5,
+          12
+        ],
+        "value": 20
+      },
+      {
+        "id": "practice_15",
+        "position": [
+          12,
+          12
+        ],
+        "value": 20
+      },
+      {
+        "id": "practice_2",
+        "position": [
+          1,
+          15
+        ],
+        "value": 10
+      },
+      {
+        "id": "practice_3",
+        "position": [
+          16,
+          15
+        ],
+        "value": 10
+      },
+      {
+        "id": "practice_5",
+        "position": [
+          13,
+          2
+        ],
+        "value": 10
+      },
+      {
+        "id": "practice_6",
+        "position": [
+          2,
+          13
+        ],
+        "value": 10
+      },
+      {
+        "id": "practice_7",
+        "position": [
+          15,
+          13
+        ],
+        "value": 10
+      },
+      {
+        "id": "practice_8",
+        "position": [
+          4,
+          8
+        ],
+        "value": 10
+      },
+      {
+        "id": "practice_9",
+        "position": [
+          13,
+          9
+        ],
+        "value": 10
+      }
+    ],
+    "robots": [
+      {
+        "alive": true,
+        "defending": false,
+        "effective_damage": 0.0,
+        "effects": [],
+        "high_resources": 1,
+        "hp": 100,
+        "invalid_actions": 0,
+        "last_action": {
+          "action": "move",
+          "effective_direction": "down",
+          "moved": true,
+          "tick": 12
+        },
+        "mission_completed": [
+          "collect_high_value",
+          "collect_two_normal"
+        ],
+        "normal_resources": 2,
+        "position": [
+          9,
+          6
+        ],
+        "position_tick": 0,
+        "protected": false,
+        "protection_ticks": 0,
+        "resource_value": 40,
+        "respawn_in": 0,
+        "robot_id": "A",
+        "spawn": [
+          1,
+          1
+        ],
+        "team": "A"
+      },
+      {
+        "alive": true,
+        "defending": false,
+        "effective_damage": 0.0,
+        "effects": [],
+        "high_resources": 0,
+        "hp": 100,
+        "invalid_actions": 0,
+        "last_action": {
+          "action": "wait",
+          "moved": false,
+          "tick": 12
+        },
+        "mission_completed": [],
+        "normal_resources": 0,
+        "position": [
+          16,
+          1
+        ],
+        "position_tick": 0,
+        "protected": false,
+        "protection_ticks": 0,
+        "resource_value": 0,
+        "respawn_in": 0,
+        "robot_id": "B",
+        "spawn": [
+          16,
+          1
+        ],
+        "team": "B"
+      },
+      {
+        "alive": true,
+        "defending": false,
+        "effective_damage": 0.0,
+        "effects": [],
+        "high_resources": 0,
+        "hp": 100,
+        "invalid_actions": 0,
+        "last_action": {
+          "action": "wait",
+          "moved": false,
+          "tick": 12
+        },
+        "mission_completed": [],
+        "normal_resources": 0,
+        "position": [
+          1,
+          16
+        ],
+        "position_tick": 0,
+        "protected": false,
+        "protection_ticks": 0,
+        "resource_value": 0,
+        "respawn_in": 0,
+        "robot_id": "C",
+        "spawn": [
+          1,
+          16
+        ],
+        "team": "C"
+      },
+      {
+        "alive": true,
+        "defending": false,
+        "effective_damage": 0.0,
+        "effects": [],
+        "high_resources": 0,
+        "hp": 100,
+        "invalid_actions": 0,
+        "last_action": {
+          "action": "wait",
+          "moved": false,
+          "tick": 12
+        },
+        "mission_completed": [],
+        "normal_resources": 0,
+        "position": [
+          16,
+          16
+        ],
+        "position_tick": 0,
+        "protected": false,
+        "protection_ticks": 0,
+        "resource_value": 0,
+        "respawn_in": 0,
+        "robot_id": "D",
+        "spawn": [
+          16,
+          16
+        ],
+        "team": "D"
+      }
+    ],
+    "static_obstacles": [
+      [
+        3,
+        11
+      ],
+      [
+        6,
+        3
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        11,
+        13
+      ],
+      [
+        11,
+        14
+      ],
+      [
+        14,
+        6
+      ]
+    ]
+  },
+  "mission_text": "练习任务：收集两个普通资源、一个高价值资源，并到达 [9,9]。",
+  "session_id": "practice-ea4867dd65084b2d9b48561276d83ccd",
+  "stage": 2,
+  "team_registry": [
+    {
+      "name": "Frank",
+      "team": "A"
+    },
+    {
+      "name": "B",
+      "team": "B"
+    },
+    {
+      "name": "C",
+      "team": "C"
+    },
+    {
+      "name": "D",
+      "team": "D"
+    }
+  ],
+  "teams": [
+    {
+      "alive": true,
+      "effective_damage": 0.0,
+      "effects": [],
+      "hp": 100,
+      "invalid_actions": 0,
+      "mission_completed": 2,
+      "mission_completed_tasks": [
+        1,
+        2
+      ],
+      "rank": 1,
+      "resource_value": 40.0,
+      "robot_id": "A",
+      "score": 20.0,
+      "team": "A",
+      "team_name": "Frank"
+    },
+    {
+      "alive": true,
+      "effective_damage": 0.0,
+      "effects": [],
+      "hp": 100,
+      "invalid_actions": 0,
+      "mission_completed": 0,
+      "mission_completed_tasks": [],
+      "rank": 2,
+      "resource_value": 0.0,
+      "robot_id": "B",
+      "score": 0.0,
+      "team": "B",
+      "team_name": "B"
+    },
+    {
+      "alive": true,
+      "effective_damage": 0.0,
+      "effects": [],
+      "hp": 100,
+      "invalid_actions": 0,
+      "mission_completed": 0,
+      "mission_completed_tasks": [],
+      "rank": 3,
+      "resource_value": 0.0,
+      "robot_id": "C",
+      "score": 0.0,
+      "team": "C",
+      "team_name": "C"
+    },
+    {
+      "alive": true,
+      "effective_damage": 0.0,
+      "effects": [],
+      "hp": 100,
+      "invalid_actions": 0,
+      "mission_completed": 0,
+      "mission_completed_tasks": [],
+      "rank": 4,
+      "resource_value": 0.0,
+      "robot_id": "D",
+      "score": 0.0,
+      "team": "D",
+      "team_name": "D"
+    }
+  ],
+  "tick": 13
+}

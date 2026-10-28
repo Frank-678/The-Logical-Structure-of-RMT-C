@@ -1,0 +1,13 @@
+[INFO] [1793105184.121853722] [rmtc_test_robot]: test robot for team D (练习陪练D) ready
+[WARN] [1793105195.375706353] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793105196.367283611] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793105209.704663473] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793105210.699581704] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793105224.839502370] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793105225.829114826] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793105239.174924206] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793105240.162835830] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793105250.918468136] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793105264.203153342] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793105265.182327241] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[INFO] [1793105268.499081757] [rclcpp]: signal_handler(SIGINT/SIGTERM)
