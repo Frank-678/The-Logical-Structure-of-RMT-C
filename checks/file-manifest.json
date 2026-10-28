@@ -17,9 +17,9 @@
     },
     {
       "path": "INDEX.md",
-      "bytes": 15042,
-      "sha256": "3bbba961c1f37d891ec9bafea18b56b3cfc9975ce60352fbf2de4935b57e28f6",
-      "git_blob_sha": "26d8d565030eb6cf214ee470b3eb6fcdda26472e",
+      "bytes": 15810,
+      "sha256": "143efce26902e6b06c9ba5af03358a7d02c9416e8285799551307280d10fe37b",
+      "git_blob_sha": "ddbb7bbfbbf272b55e318c96ce6cf004c8aca6c1",
       "mode": "100644"
     },
     {
@@ -38,9 +38,9 @@
     },
     {
       "path": "README.md",
-      "bytes": 3830,
-      "sha256": "45ba5aa46c2f09ec182dd6df78ab2a3789055766391c6dd4030c9c3c7a9f5779",
-      "git_blob_sha": "60d77c6aa6d5bc6cba800e2cf93f27bf9b223c4d",
+      "bytes": 4117,
+      "sha256": "bf26272d031f26f2c33aa11131be3c1a1635491afc36c03b456e7669001c79df",
+      "git_blob_sha": "4acbf1c1a01e7c0cd0d03a082d73712acaa24433",
       "mode": "100644"
     },
     {
@@ -52,9 +52,9 @@
     },
     {
       "path": "checks/README.md",
-      "bytes": 1553,
-      "sha256": "122d1f19eab684e0ab3379b4ee39c10c9660bb899327995759cdbcd037a68401",
-      "git_blob_sha": "1340d49bc9416f1ce90844a8200d975c288af975",
+      "bytes": 2036,
+      "sha256": "35e620ad456cf90447a68629b2de6fc7a93afa71af383ddbc1c9bfe884837d3d",
+      "git_blob_sha": "ec4988f7c348058e0f6e62109824f0718c6c6ced",
       "mode": "100644"
     },
     {
@@ -100,6 +100,13 @@
       "mode": "100644"
     },
     {
+      "path": "checks/original-gateway-2026-10-28.json",
+      "bytes": 957,
+      "sha256": "ba15589c498f786b87c203738feab914a62b3d0520ee5ad2f8412bbbaf51e536",
+      "git_blob_sha": "5b6f083b9f0c30f354f01e0118e0533c427d363a",
+      "mode": "100644"
+    },
+    {
       "path": "checks/original-package-integrity.json",
       "bytes": 438,
       "sha256": "867a24c1bf198259eda274f4fd3ba69c0f9299bb778992b5657349584a15468f",
@@ -107,10 +114,24 @@
       "mode": "100644"
     },
     {
+      "path": "checks/original-reading-2026-10-28.json",
+      "bytes": 11510,
+      "sha256": "1b3c2aadb1fc2b351115ae75b7d621d154a934f785c6157f858aeeab364bdb05",
+      "git_blob_sha": "9d401c2caeda1816162322cacc38788c8ffbd219",
+      "mode": "100644"
+    },
+    {
       "path": "checks/pdf-extraction-inventory.json",
       "bytes": 594,
       "sha256": "b053612cc5be9d40e1b880c6c8c207b86c8ac12d13e1b666728d9f074dd97e5e",
       "git_blob_sha": "4cc30e49351b67fb0c9f524ffb45bfa1a41fa14c",
+      "mode": "100644"
+    },
+    {
+      "path": "checks/real-execution-2026-10-28.json",
+      "bytes": 6515,
+      "sha256": "b8204a5a237aef4b0aac5d8908cbc6639d4538c494907e2033b599ec20354e7d",
+      "git_blob_sha": "944b83fc8eb7ac28f23f5d2771365353e5a74f62",
       "mode": "100644"
     },
     {
@@ -181,6 +202,13 @@
       "bytes": 44781,
       "sha256": "a8f44ee15870990f2f60b003cfb5f2af2dfc3c1964676390bef3b85f78fc147a",
       "git_blob_sha": "7e4e51688342d5a196f4d1b21201745325fd4c7c",
+      "mode": "100644"
+    },
+    {
+      "path": "checks/review-links-2026-10-28.json",
+      "bytes": 390,
+      "sha256": "0ae0acbdd64f051897ca1bad65384dce285461207a887f931cd246701ca6cd98",
+      "git_blob_sha": "7dde1e744ae8e889b583b78871b2c44ca003a2d0",
       "mode": "100644"
     },
     {
@@ -304,9 +332,16 @@
     },
     {
       "path": "docs/18-conversation-and-implementation.md",
-      "bytes": 21115,
-      "sha256": "343d12934cc99c8307cc772674e12bff6b2b2892801eae83147da772d49031d6",
-      "git_blob_sha": "b2074762f9717ecd7b066ba74fe458f627edb80e",
+      "bytes": 23645,
+      "sha256": "82756c2dbb55397388e716a5f026389b25c3bb3034b2ab22b3d192bc45a5cecf",
+      "git_blob_sha": "500c57449f74a9cae3ebcfa80dbf9325f396e24d",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/19-original-materials-full-review.md",
+      "bytes": 16774,
+      "sha256": "fe02bd902273962babdd25e7fb15dd6685a1dbdb617352274122e7559b5032e5",
+      "git_blob_sha": "a804ccc14d2c080d6b93d144de31699b11982f6d",
       "mode": "100644"
     },
     {
@@ -958,6 +993,13 @@
       "bytes": 4661,
       "sha256": "51643285423e44ed381cb900112fc5835ed070b17f626f361929c153f2b3305c",
       "git_blob_sha": "c400ec0ff3f58f0f8df10d85ec19df95deb63e9e",
+      "mode": "100644"
+    },
+    {
+      "path": "scripts/check_original_gateway.py",
+      "bytes": 9102,
+      "sha256": "ee70d0e0297233ad281623f119221fdbd15169a9d2b3c5f206680047645093e3",
+      "git_blob_sha": "3731ba43ec7e64c78ece08b4a4f4e3a9e96e1336",
       "mode": "100644"
     },
     {

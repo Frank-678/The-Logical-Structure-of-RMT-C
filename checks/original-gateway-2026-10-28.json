@@ -1,0 +1,33 @@
+{
+  "practice_py_sha256": "a72f6be6915a75c142298ff1b8f3d1ff2adbe3d763eaa35915747459c0b0d82a",
+  "original_unchanged": true,
+  "transport": "real loopback HTTP to unmodified original Handler",
+  "upstream": "controlled in-process requests fixture; no real model",
+  "ros": "import names stubbed; no ROS or judge binary executed",
+  "cases": [
+    {
+      "case": "healthz_absent_and_missing_model_not_audited",
+      "passed": true
+    },
+    {
+      "case": "request_model_wins_and_upstream_credentials_replace_seat_token",
+      "passed": true
+    },
+    {
+      "case": "success_count_does_not_validate_event_json",
+      "passed": true
+    },
+    {
+      "case": "omitted_model_uses_practice_fallback",
+      "passed": true
+    },
+    {
+      "case": "client_disconnect_keeps_seat_busy_until_upstream_finishes",
+      "passed": true
+    },
+    {
+      "case": "old_session_response_can_be_200_without_new_session_audit",
+      "passed": true
+    }
+  ]
+}

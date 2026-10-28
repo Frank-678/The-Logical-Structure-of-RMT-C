@@ -1,0 +1,222 @@
+{
+  "date": "2026-10-28",
+  "source_review_parent": "ed4fa3a1ff87c36a7ddb53f5d88529e7ac2e10a8",
+  "code_repository": "Frank-678/RoboMaster-Turing-Competition-BeyondControl",
+  "code_head": "bc41b232263169c6f0f4d370e6fd88dcc1d74104",
+  "commits": [
+    {
+      "sha": "50b18b2b973a90ced4dd00346048300a21fdafa7",
+      "parent": [
+        "57b331207f9ac1bcef059dd0707ae1696e8f4542"
+      ],
+      "message": "fix: avoid repeating cumulative announcement batches in AI context",
+      "files": [
+        "src/rmtc_bot/src/ai_worker.cpp",
+        "tests/full_strategy_test.cpp",
+        "tests/mock_gateway.py"
+      ]
+    },
+    {
+      "sha": "bc41b232263169c6f0f4d370e6fd88dcc1d74104",
+      "parent": [
+        "50b18b2b973a90ced4dd00346048300a21fdafa7"
+      ],
+      "message": "docs: record real DeepSeek calls and the blocked DDS match attempt",
+      "files": [
+        "MATERIALS_CHECK.md",
+        "README.md",
+        "REAL_TEST.md",
+        "tests/results/real-ai-2026-10-28.json"
+      ]
+    }
+  ],
+  "practice_tree_unchanged": "3c352b3f29be4a008f46642063ce527c4fb4756f",
+  "practice_files_verified": [
+    {
+      "path": "CONTESTANT_PROTOCOL.md",
+      "git_blob": "504df5d3702e9df7cf80704c9127f5cf0fdde8dc"
+    },
+    {
+      "path": "README.md",
+      "git_blob": "5979244d87f5ef5e8c2bdbc1068849f5079b9be2"
+    },
+    {
+      "path": "__pycache__/internal_ros.cpython-310.pyc",
+      "git_blob": "073cf38ee8f0a2c2fc59a5dd8bb2d688e89cd0b8"
+    },
+    {
+      "path": "bin/referee_node",
+      "git_blob": "6bb7ad0265d4abd94a4a9fbb60f79fa90e05fe60"
+    },
+    {
+      "path": "bin/robot_node",
+      "git_blob": "3b574bd2454060bd28ff2c4dce91dafa52154d5c"
+    },
+    {
+      "path": "bin/scoring_node",
+      "git_blob": "31081c9f048c824468eae1dc3acdd97e9ba4da95"
+    },
+    {
+      "path": "bin/simulator_node",
+      "git_blob": "4a282c510b7926e35b38240cf27ead274448e72e"
+    },
+    {
+      "path": "bin/validate_config",
+      "git_blob": "be7c56d5f38ff55833e2610533d577c7a4f99d35"
+    },
+    {
+      "path": "config/stage1.json",
+      "git_blob": "2c964f830e195299d2d2e1b7a373eaea00a7a8aa"
+    },
+    {
+      "path": "config/stage2.json",
+      "git_blob": "02c55080edbb50473567d2b3877bf35a9e846b64"
+    },
+    {
+      "path": "index.html",
+      "git_blob": "922849472672854a97bfc74c9399413b523e8d90"
+    },
+    {
+      "path": "internal_ros.py",
+      "git_blob": "6e4cbf950c583fe6d0a2808d92f1a7301d2af54e"
+    },
+    {
+      "path": "manifest.json",
+      "git_blob": "9686987ab0e25e4d31b55bb76062baac6bcafad1"
+    },
+    {
+      "path": "practice.py",
+      "git_blob": "abd400db06ade29c548e4a7b34dfc0bc1acc013f"
+    },
+    {
+      "path": "rules.txt",
+      "git_blob": "8082b16681327797e46220f13a5f808451836233"
+    },
+    {
+      "path": "start_bot.sh",
+      "git_blob": "fee202ab5860c691009737c18fabe2c6b26643e6"
+    },
+    {
+      "path": "start_referee.sh",
+      "git_blob": "b85532db4ab42944528d9693839bd7ebea5bc8a9"
+    },
+    {
+      "path": "测试使用教程.md",
+      "git_blob": "9e1dd8c5567ca9a8af705907d05b883d74ad1075"
+    }
+  ],
+  "real_ai": {
+    "cpp_exit": 0,
+    "client": [
+      {
+        "case": "opening_empty",
+        "curl": 0,
+        "elapsed_ms": 4652,
+        "events": [],
+        "http": 200,
+        "reply_bytes": 52,
+        "status": "model_reply_received",
+        "unknown": [],
+        "validated": true
+      },
+      {
+        "case": "explosion_notice",
+        "curl": 0,
+        "elapsed_ms": 5977,
+        "events": [
+          {
+            "amount": 35.0,
+            "area": [
+              3,
+              3,
+              7,
+              7
+            ],
+            "capture_ticks": 0,
+            "defended_damage": 0.0,
+            "effect_ticks": 0,
+            "end": 16,
+            "kind": "explosion",
+            "multiplier": 1.0,
+            "points": [],
+            "source": "第 10 Tick：随机事件预告：5 Tick 后（Tick 15），左上角 [3,3]、右下角 [7,7] 的矩形区域将发生爆炸，范围内所有存活战车扣除 35 HP；出生保护免疫。",
+            "start": 15,
+            "trigger_end": 0
+          }
+        ],
+        "http": 200,
+        "reply_bytes": 324,
+        "status": "model_reply_received",
+        "unknown": [],
+        "validated": true
+      }
+    ],
+    "audit": [
+      {
+        "seat": "A",
+        "session_id": "real-probe",
+        "mode": "real",
+        "success": true,
+        "status": 200,
+        "success_count": 1,
+        "attempt_count": 1
+      },
+      {
+        "seat": "A",
+        "session_id": "real-probe",
+        "mode": "real",
+        "success": true,
+        "status": 200,
+        "success_count": 2,
+        "attempt_count": 2
+      }
+    ],
+    "stderr": "",
+    "real_model": true,
+    "ros_or_match": false,
+    "tested_code_commit": "57b331207f9ac1bcef059dd0707ae1696e8f4542",
+    "model": "deepseek-flash",
+    "thinking": "disabled",
+    "max_tokens": 2200,
+    "practice_py_git_blob": "abd400db06ade29c548e4a7b34dfc0bc1acc013f",
+    "date": "2026-10-28"
+  },
+  "regressions": {
+    "cumulative_announcements_old_implementation": "failed: mock gateway result missing after history cap suppressed follow-up request",
+    "cumulative_announcements_fixed": "passed; real HTTP body line counts [1,100]",
+    "latest_source_bytes": 21889,
+    "old_combined_source_bytes": 1104994,
+    "core_and_fixed_http": "passed",
+    "original_handler_canned_upstream": "passed",
+    "startup_guards": "passed"
+  },
+  "runtime": {
+    "host": "Ubuntu 24.04.3 LTS x86_64",
+    "runtime_dependencies": "Ubuntu Jammy ROS 2 Humble packages, downloaded with signed apt metadata to isolated directory",
+    "build": "actual bot/strategy/events/ai_worker/session C++ sources linked against real Humble headers and libraries; successful manual g++ build",
+    "colcon_build": false,
+    "bot_started": true,
+    "practice_packages_attempted": [
+      "original materials v1.0 archive",
+      "code repository practice, all 18 files match pinned Git blobs"
+    ],
+    "standard_bots_started": [
+      "B",
+      "C",
+      "D"
+    ],
+    "errors": [
+      "getifaddrs: Operation not permitted",
+      "All whitelist interfaces were filtered out",
+      "裁判启动超时，请检查 ROS 环境与日志"
+    ],
+    "complete_match": false,
+    "score_or_win_rate": null
+  },
+  "practice_default_notice_ticks": 5,
+  "credential_handling": {
+    "real_key_committed": false,
+    "temporary_local_copy_deleted": true,
+    "reasoning_content_saved": false
+  }
+}

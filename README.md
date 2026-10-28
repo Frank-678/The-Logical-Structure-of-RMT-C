@@ -1,6 +1,8 @@
 # RMTC · ANALYSIS
 
-[2026-10-27对话与实施全程记录](docs/18-conversation-and-implementation.md)：需求、依据、取舍、修正、21个代码提交及验证边界。选手主流程已有PR实现；完整Humble/DDS与真实模型联调仍未验收。原材料逐项复读继续记录，历史文档中的“尚未实现”保留当时含义。
+[2026-10-28原件逐项复读与实测](docs/19-original-materials-full-review.md)：8原件、72页全文、42页原页核对；真实DeepSeek两次成功，累积公告膨胀已修复。原版裁判与标准陪练因当前环境DDS权限未能开局，尚无胜率。
+
+[2026-10-27对话与实施全程记录](docs/18-conversation-and-implementation.md)：需求、依据、取舍、修正、21个代码提交及验证边界。选手主流程已有PR实现；完整Humble/DDS与真实模型联调仍未验收。原件复读和2026-10-28新增实测见上方入口；历史文档保留当时含义。
 
 [同批新增三张群聊截图](docs/17-map-uncertainty-2026-10-27.md)：堡垒不能硬编码，地图对称性占比说法冲突，中心迷宫仍仅猜测。
 
@@ -29,8 +31,9 @@
 | 原件和程序完整性 | [校验说明](checks/README.md)、scripts/verify_materials.py |
 | 外部六集研究和摘录 | [COMPARISON 分支](https://github.com/Frank-678/The-Logical-Structure-of-RMT-C/tree/COMPARISON) |
 
-当前阶段：完成材料整理、静态核对与方案设计；**尚未完成 ROS 2 Humble 对局联调和新策略胜率验证。** 不把设计文档当作已实现参赛程序。
+当前阶段：已有选手PR实现、核心回归与两次真实模型调用证据；**尚未完成 ROS 2 Humble 对局联调和新策略胜率验证。** 不把设计文档当作已实现参赛程序。
 
 分支边界：本次只维护 ANALYSIS、COMPARISON，不改 main。[原协作规范](governance/original-collaboration-guidelines.md)保留。引用和第三方材料权利见 [NOTICE](NOTICE.md)。
 
 **私密预备资料：** 本分支不进入其他分支或公开导航；未来公开使用干净历史导出，见 [私密预备约定](governance/private-preparation.md)。
+

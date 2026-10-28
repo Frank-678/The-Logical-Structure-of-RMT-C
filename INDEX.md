@@ -1,6 +1,8 @@
 # 分支文件总索引
 
-[2026-10-27对话与实施全程记录](docs/18-conversation-and-implementation.md)：需求、依据、取舍、修正、21个代码提交及验证边界。选手主流程已有PR实现；完整Humble/DDS与真实模型联调仍未验收。原材料逐项复读继续记录，历史文档中的“尚未实现”保留当时含义。
+[2026-10-28原件逐项复读与实测](docs/19-original-materials-full-review.md)：8原件、72页全文、42页原页核对；真实DeepSeek两次成功，累积公告膨胀已修复。原版裁判与标准陪练因当前环境DDS权限未能开局，尚无胜率。
+
+[2026-10-27对话与实施全程记录](docs/18-conversation-and-implementation.md)：需求、依据、取舍、修正、21个代码提交及验证边界。选手主流程已有PR实现；完整Humble/DDS与真实模型联调仍未验收。原件复读和2026-10-28新增实测见上方入口；历史文档保留当时含义。
 
 [同批新增三张群聊截图](docs/17-map-uncertainty-2026-10-27.md)：堡垒不能硬编码，地图对称性占比说法冲突，中心迷宫仍仅猜测。
 
@@ -157,3 +159,9 @@
 | [materials/addenda/2026-10-27/symmetry-discussion.jpg](<materials/addenda/2026-10-27/symmetry-discussion.jpg>) |
 | [docs/18-conversation-and-implementation.md](docs/18-conversation-and-implementation.md) |
 | [checks/implementation-commits-2026-10-27.json](checks/implementation-commits-2026-10-27.json) |
+| [docs/19-original-materials-full-review.md](docs/19-original-materials-full-review.md) |
+| [checks/original-reading-2026-10-28.json](checks/original-reading-2026-10-28.json) |
+| [checks/original-gateway-2026-10-28.json](checks/original-gateway-2026-10-28.json) |
+| [checks/real-execution-2026-10-28.json](checks/real-execution-2026-10-28.json) |
+| [scripts/check_original_gateway.py](scripts/check_original_gateway.py) |
+| [checks/review-links-2026-10-28.json](checks/review-links-2026-10-28.json) |

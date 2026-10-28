@@ -1,0 +1,402 @@
+{
+  "review_date": "2026-10-28",
+  "source_branch": "ANALYSIS",
+  "source_parent_commit": "ed4fa3a1ff87c36a7ddb53f5d88529e7ac2e10a8",
+  "originals": [
+    {
+      "path": "materials/original/competition-rules-v1.0.pdf",
+      "name": "competition-rules-v1.0.pdf",
+      "bytes": 2839040,
+      "git_blob": "92fbe24f00842e40ca220d60074f439e62f725f7",
+      "sha256": "5390b3e30baa7a341aaff5d4893ac1c59b8edbb6f3c646674bd525d334d4775b",
+      "matches_repository": true,
+      "pages": 23,
+      "full_extracted_text_read": true,
+      "text_pages_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "visual_pages_reviewed": [
+        7,
+        12,
+        15,
+        16,
+        17,
+        19
+      ],
+      "all_pages_visually_reviewed": false
+    },
+    {
+      "path": "materials/original/preparation-03.pdf",
+      "name": "preparation-03.pdf",
+      "bytes": 2084707,
+      "git_blob": "3961083b26886bbf2fa3915db4d2d896ed1e79d3",
+      "sha256": "1bb4a75dd1eeac46ba63fc10fadfcf92d8be7b66f78a8789ff5786b88bc3e574",
+      "matches_repository": true,
+      "pages": 4,
+      "full_extracted_text_read": true,
+      "text_pages_read": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "visual_pages_reviewed": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "all_pages_visually_reviewed": true
+    },
+    {
+      "path": "materials/original/briefing-transcripts.zip",
+      "name": "briefing-transcripts.zip",
+      "bytes": 26754,
+      "git_blob": "803d56e128a59eec2e1b03befd10cd2d143b7717",
+      "sha256": "c0d4970d697dee64777f749f351f70de94f410e69959bed9438cbe0fceadc42f",
+      "matches_repository": true
+    },
+    {
+      "path": "materials/original/referee-tutorial.pdf",
+      "name": "referee-tutorial.pdf",
+      "bytes": 1022100,
+      "git_blob": "22e430e4c3519a46f8c2ccefeb8e995de676427c",
+      "sha256": "a03a4bca20547f1fb95b11e4869388326c6cb126ae5f4bd942f0353b1694e1a3",
+      "matches_repository": true,
+      "pages": 9,
+      "full_extracted_text_read": true,
+      "text_pages_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "visual_pages_reviewed": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "all_pages_visually_reviewed": false
+    },
+    {
+      "path": "materials/original/communication-protocol.pdf",
+      "name": "communication-protocol.pdf",
+      "bytes": 1664617,
+      "git_blob": "c2f402bd8e18f8cc2f711be0682583ee1f1acbef",
+      "sha256": "b3282fc6274f07ad7024efef9b0322eee9b5d5a2a4b50d3ec5093579b898af5c",
+      "matches_repository": true,
+      "pages": 18,
+      "full_extracted_text_read": true,
+      "text_pages_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "visual_pages_reviewed": [
+        4,
+        8,
+        13,
+        14,
+        15,
+        17
+      ],
+      "all_pages_visually_reviewed": false
+    },
+    {
+      "path": "materials/original/preparation-01.pdf",
+      "name": "preparation-01.pdf",
+      "bytes": 4613840,
+      "git_blob": "218d67364b6398116efe12e4161b6aeff2984c1d",
+      "sha256": "5507e96f9ccdfeb8ca4e7b57bf77c694a2ab09c786d9f3abe9d9933bfa1884b3",
+      "matches_repository": true,
+      "pages": 10,
+      "full_extracted_text_read": true,
+      "text_pages_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "visual_pages_reviewed": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "all_pages_visually_reviewed": true
+    },
+    {
+      "path": "materials/original/preparation-02.pdf",
+      "name": "preparation-02.pdf",
+      "bytes": 1571295,
+      "git_blob": "822cfc9b0f40dda95e430192411f740fe15e5993",
+      "sha256": "2264d10a224bcc0486b2f0131382c2a9b9bc9a9e08626c366d1154fd5ddb8401",
+      "matches_repository": true,
+      "pages": 8,
+      "full_extracted_text_read": true,
+      "text_pages_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "visual_pages_reviewed": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "all_pages_visually_reviewed": true
+    },
+    {
+      "path": "materials/original/practice-dist.zip",
+      "name": "practice-dist.zip",
+      "bytes": 2086914,
+      "git_blob": "f913561e3c2bf8e3a135f1809bd3e45ee21ef46e",
+      "sha256": "7c3de4eec8f0d0c6f3d171cc0d91e1521620b716a818db4e6ba92aed375a4b87",
+      "matches_repository": true
+    }
+  ],
+  "pdf_text_pages_read": 72,
+  "pdf_visual_pages_reviewed": 42,
+  "transcripts": [
+    {
+      "path": "2026年10月20日 18点52分.docx",
+      "paragraphs": 20,
+      "characters": 3438,
+      "embedded_images": 0,
+      "review": "all extracted paragraph text read; no source audio available"
+    },
+    {
+      "path": "周二 19点05分.docx",
+      "paragraphs": 75,
+      "characters": 7803,
+      "embedded_images": 0,
+      "review": "all extracted paragraph text read; no source audio available"
+    }
+  ],
+  "practice_tar_sha256": "bb9b066cbdaf485a1e261138bd243018503a531d2278a5a4efa25a57b45ce1a5",
+  "practice_files": [
+    {
+      "path": "CONTESTANT_PROTOCOL.md",
+      "bytes": 30581,
+      "sha256": "c7f7d4d31faaae316a2722d45715acce38f52bb5de640ae43a18bd4d51b1f89a",
+      "manifest_match": true,
+      "review": "full text read and static inspection"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6892,
+      "sha256": "67a417c61510d7ae359ee67414488fb6c75a8f0aabb9e48b12f45e109e036d40",
+      "manifest_match": true,
+      "review": "full text read and static inspection"
+    },
+    {
+      "path": "bin/referee_node",
+      "bytes": 2190472,
+      "sha256": "1cc7358cb4f96d3efbfe0318c6c96dc5f0ebe1ade37dddd65124fbab62699a0c",
+      "manifest_match": true,
+      "review": "ELF metadata and manifest only; no C++ source available",
+      "executed": true,
+      "architecture": [
+        "Class:                             ELF64",
+        "Type:                              DYN (Position-Independent Executable file)",
+        "Machine:                           Advanced Micro Devices X86-64"
+      ]
+    },
+    {
+      "path": "bin/robot_node",
+      "bytes": 1769528,
+      "sha256": "09ba71673f0451d07ee4d62d9c5a43085478ae86b0892534cee7ca14bcb5f8aa",
+      "manifest_match": true,
+      "review": "ELF metadata and manifest only; no C++ source available",
+      "executed": true,
+      "architecture": [
+        "Class:                             ELF64",
+        "Type:                              DYN (Position-Independent Executable file)",
+        "Machine:                           Advanced Micro Devices X86-64"
+      ]
+    },
+    {
+      "path": "bin/scoring_node",
+      "bytes": 1412048,
+      "sha256": "e077d78eaf8afd1c335ca3addb9fdaf6a75afd3d486f31a15a113091e3be80b1",
+      "manifest_match": true,
+      "review": "ELF metadata and manifest only; no C++ source available",
+      "executed": true,
+      "architecture": [
+        "Class:                             ELF64",
+        "Type:                              DYN (Position-Independent Executable file)",
+        "Machine:                           Advanced Micro Devices X86-64"
+      ]
+    },
+    {
+      "path": "bin/simulator_node",
+      "bytes": 2018304,
+      "sha256": "240c01eb2c2472220578737442e49018fb23bc292dd6b940ad33d581fdd82529",
+      "manifest_match": true,
+      "review": "ELF metadata and manifest only; no C++ source available",
+      "executed": true,
+      "architecture": [
+        "Class:                             ELF64",
+        "Type:                              DYN (Position-Independent Executable file)",
+        "Machine:                           Advanced Micro Devices X86-64"
+      ]
+    },
+    {
+      "path": "bin/validate_config",
+      "bytes": 1067344,
+      "sha256": "a2dbcec345551a3dde69a8d7d0f0da0ea64280278fcc67e4b67c799328c418bf",
+      "manifest_match": true,
+      "review": "ELF metadata and manifest only; no C++ source available",
+      "executed": true,
+      "architecture": [
+        "Class:                             ELF64",
+        "Type:                              DYN (Position-Independent Executable file)",
+        "Machine:                           Advanced Micro Devices X86-64"
+      ]
+    },
+    {
+      "path": "config/stage1.json",
+      "bytes": 2700,
+      "sha256": "76cb931722c6faa49639288fa5a21704d3390bd52ad2f1d1d95c15acc6e1d285",
+      "manifest_match": true,
+      "review": "full text read and static inspection"
+    },
+    {
+      "path": "config/stage2.json",
+      "bytes": 12735,
+      "sha256": "35ef0e02ac17222f2e087845060a281476375564842f49aa3e0cdfbe70ca3f71",
+      "manifest_match": true,
+      "review": "full text read and static inspection"
+    },
+    {
+      "path": "index.html",
+      "bytes": 8680,
+      "sha256": "13d6522616056c7d0e4b7b05b655af2a815287ac13ef6c2ee777cd3eeaff70bd",
+      "manifest_match": true,
+      "review": "full text read and static inspection"
+    },
+    {
+      "path": "internal_ros.py",
+      "bytes": 1870,
+      "sha256": "fdb46717efda636e494f504856bb0995169328212428e6cf99eaf60dc8ae6e0a",
+      "manifest_match": true,
+      "review": "full text read and static inspection"
+    },
+    {
+      "path": "manifest.json",
+      "bytes": 1701,
+      "sha256": "ba92d5ea6525e82b864e7f765dfb5aa5afb1180683fdd42056b9d2f7e4e5629c",
+      "manifest_match": null,
+      "review": "full text read and static inspection"
+    },
+    {
+      "path": "practice.py",
+      "bytes": 26360,
+      "sha256": "a72f6be6915a75c142298ff1b8f3d1ff2adbe3d763eaa35915747459c0b0d82a",
+      "manifest_match": true,
+      "review": "full text read and static inspection"
+    },
+    {
+      "path": "rules.txt",
+      "bytes": 42637,
+      "sha256": "78f26623fce84c5b886ba40bd8f8445ea6dd856154f8e3b031a403ad80c3be48",
+      "manifest_match": true,
+      "review": "full text read and static inspection"
+    },
+    {
+      "path": "start_bot.sh",
+      "bytes": 706,
+      "sha256": "ce72be9a7d77d4c0f4af931c8fe4cba78458cb0eeee7ea90b138d8dd3165954a",
+      "manifest_match": true,
+      "review": "full text read and static inspection"
+    },
+    {
+      "path": "start_referee.sh",
+      "bytes": 433,
+      "sha256": "25bf328c9e692efea85ba6d53c6b025e3227c1fc0467439e41c1d1b8a960369c",
+      "manifest_match": true,
+      "review": "full text read and static inspection"
+    },
+    {
+      "path": "测试使用教程.md",
+      "bytes": 14490,
+      "sha256": "9862f71ff2cc9789da9f0c73803ee9ccc6c1b610723f43fec07107744fb1af32",
+      "manifest_match": true,
+      "review": "full text read and static inspection"
+    }
+  ],
+  "manifest_checks_passed": true,
+  "outer_inner_tutorial_identical": true,
+  "judge_execution": "original binaries started; DDS interface enumeration denied, startup timed out; no match or scores",
+  "real_ai_execution": "2 successful real DeepSeek calls via original Handler and production C++ AiWorker; see separate report",
+  "unchanged_original_pycache_count": 0
+}

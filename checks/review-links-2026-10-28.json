@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-28",
+  "scope": "changed/new Markdown relative file targets; remote tree plus new paths; anchors and external HTTP links not checked",
+  "markdown_files": [
+    "README.md",
+    "INDEX.md",
+    "checks/README.md",
+    "docs/18-conversation-and-implementation.md",
+    "docs/19-original-materials-full-review.md"
+  ],
+  "relative_links_checked": 211,
+  "failures": []
+}

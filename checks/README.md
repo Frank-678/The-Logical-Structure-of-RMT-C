@@ -1,4 +1,4 @@
-# 已执行的静态校验
+# 材料校验与执行证据
 
 新增[PDF覆盖](releases/v1.1/pdf-reading-inventory.json)、[发行包差异](releases/v1.1/package-diff.json)、三份全文diff、[24项算术结果](releases/v1.1/scoring-examples.json)。旧已验证文件按远端Git对象保留，新7个原件和新manifest16文件哈希均核对；不代表ROS或引擎运行通过。
 
@@ -9,3 +9,6 @@
 这不代表ROS运行、真实AI请求或比赛策略已通过测试。PDF原始页数与提取记录保存在pdf-extraction-inventory.json。原课程材料内部的历史链接和引用保持原样，不当作本次自撰导航。
 
 2026-10-27新增[对话与实施记录](../docs/18-conversation-and-implementation.md)及[21项代码提交证据](implementation-commits-2026-10-27.json)。独立C++核心、固定HTTP、原版转发处理器夹具和ASan/UBSan已有对应通过记录；ROS/Humble、裁判二进制及真实LLM尚未联调。不同证据层级见该文第12节。
+
+
+2026-10-28新增[8原件逐项阅读证据](original-reading-2026-10-28.json)、[原处理器6项测试](original-gateway-2026-10-28.json)和[真实模型/裁判启动证据](real-execution-2026-10-28.json)。72页提取全文与42页原页核对分别计数；真实DeepSeek两次成功，实际Humble节点构建和启动通过，完整裁判/标准陪练因DDS权限未就绪，未产生有效对局。前文“尚未调用真实模型”等描述对应当时测试状态。
