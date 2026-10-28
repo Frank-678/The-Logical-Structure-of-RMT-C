@@ -1,5 +1,7 @@
 # 分支文件总索引
 
+[2026-10-28 AHC068→RMTC 策略迁移研究](docs/21-ahc068-to-rmtc-decision-study-2026-10-28.md)：已审查、已实现、已运行和待验证边界分离。
+
 [2026-10-28规则状态机与对手预测](docs/20-state-machines-and-opponent-prediction.md)：45个编号范围、5张图；实际加入权限状态和短轨迹预测，完成后重试参考车及标准陪练。两项因DDS权限未开局，无有效胜率。
 
 [2026-10-28原件逐项复读与实测](docs/19-original-materials-full-review.md)：8原件、72页全文、42页原页核对；真实DeepSeek两次成功，累积公告膨胀已修复。原版裁判与标准陪练因当前环境DDS权限未能开局，尚无胜率。
