@@ -1,5 +1,7 @@
 # RMTC · COMPARISON
 
+[2026-10-28 AHC068 两份解法与 RMTC 可迁移性](reports/07-ahc068-rectangle-swap-transfer-2026-10-28.md)：势函数、BFS 构造、束搜索、历史操作插入、置换群局部化简；另见 [C30–C41 裁定与进度](decisions/reuse-register.md)。
+
 2026-10-27：[v1.2迁移补充](reports/06-v1.2-transfer-update.md)，堡垒动态区域、复活专用搜索及交付调整；上游代码与数据未变。
 
 2026-10-23新增：[v1.1迁移影响](reports/04-v1.1-transfer-update.md) · [Prompt与分层harness](reports/05-prompt-harness-review.md)。六集原游戏数据不变，RMTC计分依据已更新。
