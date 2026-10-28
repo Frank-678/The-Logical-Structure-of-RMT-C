@@ -28,3 +28,4 @@
 [INFO] [1793171960.094356860] [scoring_node]: tick 28 | C=32.30 A=30.00 D=20.60 B=20.00 
 [INFO] [1793171960.598618978] [scoring_node]: tick 29 | C=32.30 A=30.00 D=20.60 B=20.00 
 [INFO] [1793171961.101302115] [scoring_node]: tick 30 | C=32.30 A=30.00 D=20.60 B=20.00 
+[INFO] [1793173425.539596798] [rclcpp]: signal_handler(SIGINT/SIGTERM)
