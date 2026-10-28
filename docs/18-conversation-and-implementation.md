@@ -258,3 +258,16 @@ COMPARISON的[采用与否决记录](https://github.com/Frank-678/The-Logical-St
 原Handler合成A审计记录2次成功。本次上游继承工具环境已有代理并使用系统CA，没有用直连配置的practice_launcher启动完整裁判；与用户direct不同，不能证明本机线路正常或其本地Key就是对话中那把。工具环境getifaddrs仍-1/EPERM，ROS导入占位，未完成原版裁判比赛；3772ms还超过样例2500ms预告，真实HTTP成功仍不等于及时避险或正式资格。
 
 [完整脱敏实测](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl/blob/7e5af551da20a1c17e40e0e14d1ce1ff072d7903/tests/results/real-ai-retest-2026-10-28.json)及REAL_TEST/README在7e5af55单独文档提交。实际客户端编译通过，未改决策源码，未重复无关测试；practice18文件不变。main矩阵R12/R38按新证据更新于0b1df2e，仅改README，代码PR不合并。用户WSL出网根因仍待本机分段检查，不能把代理需求当成已经实证的结论。
+
+
+## 24 用户要求补齐、调参和多风格自建对战
+
+用户明确继续策略，不以早先出网追问阻断。随后要求多地图、多风格陪练，并要求忠实履行原始约束。新增参数固定对象、三Tick情景、资源局部改进和连续受阻改道；按多个提交进入现有PR。自建裁判按v1.2而非随包旧规则文本，practice原件不动。对手只用自身公开局部感知，事件解释用公告后延迟oracle，明确不冒充模型。首轮失败后修改受阻路径，换新留出种子，910局含训练/对照，不是910独立地图。参数、逐局、未借鉴理由和限制见[本轮记录](24-multistyle-arena-tuning-and-gateway-2026-10-28.md)。
+
+## 25 用户转贴网关新公告，要求当前工作后处理
+
+按此顺序执行。正文model统一deepseek-flash，其余字段转发；thinking必须HTTP顶层disabled，JSON模式需Prompt。当前客户端原本已发送正确，新增客户端字段及原Handler透传回归，不重写practice、不凭新公告声称目标WSL出网已解决。保留多事件2200预算，512作为示例。没有新增真实模型调用，官方资格仍由裁判认定。原贴要点与示例归档，官方DeepSeek文档核对日期和来源写入本轮记录。
+
+## 26 最终交付状态
+
+代码4c7676159be4b35dded9f41a473ca5a2e8530ad6，七个小步提交，PR保持开放不合并；FSM、文件/函数/变量导读、ARENA方法/失败/结果与验证清单同步。最终留出平均分提高，死亡增加，关闭改道的胜率反而更高但均分更低，均如实保留。三Tick模块并未默认打开，资源局部改进也未宣称有成绩收益。完整原版裁判对标准车和用户WSL执行仍未完成，不能说全部实战验收已好。

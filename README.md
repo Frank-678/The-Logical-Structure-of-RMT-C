@@ -1,5 +1,7 @@
 # RMTC · ANALYSIS
 
+[2026-10-28多风格对战与参数封存](docs/24-multistyle-arena-tuning-and-gateway-2026-10-28.md)：910局包含训练和消融，首轮失败保留；新留出对抗平均33.54→34.72，非官方标准车。三Tick搜索保留但训练选择关闭；practice18原件不变，新公告字段回归通过。
+
 [用户本机502排查与独立出网检查](docs/18-conversation-and-implementation.md#22-用户本机已执行移动最新失败是http502)：本机ROS已实际执行移动，3次完成请求均HTTP502而非35秒客户端超时。新增诊断入口，旧启动器拒绝执行，原practice不变；上游根因仍待本机检查。
 
 [2026-10-28新增分析与实际规划](docs/23-incoming-analysis-and-planning-2026-10-28.md)：两份DOCX、云盘AHC/Gemini源、9仓库关键代码；3次功能提交+1次文档结果提交，7例采集配对。资源目标Beam/迟滞/信息探索已实现，完整攻防及标准车对局仍未验收。用户明确授权的main README矩阵已扩至R37。以下历史“Beam未实现”以本条为最新。

@@ -38,9 +38,9 @@
     },
     {
       "path": "README.md",
-      "bytes": 5562,
-      "sha256": "71323514f3144f3d0d005d91e2a13ae7d5c83dd812744f360740ec43dfbe4623",
-      "git_blob_sha": "351d3d87e8af6f8e71d82752f31e340bea8ec402",
+      "bytes": 5875,
+      "sha256": "62cf3b3136e3c6e36c42e937e855eeacae8411a500b10b020d85c4680bf9ef45",
+      "git_blob_sha": "da18c0e70b6709c48d84a2e8620cbc193d67b393",
       "mode": "100644"
     },
     {
@@ -94,9 +94,9 @@
     },
     {
       "path": "checks/incoming-review-links-2026-10-28.json",
-      "bytes": 898,
-      "sha256": "0bfccee6c18a975bdb124c73c7c1c0e7a0b64719b4df94d0c3065f310191069b",
-      "git_blob_sha": "785ba6ef96cda245f6772755953553a2525e30fb",
+      "bytes": 1111,
+      "sha256": "9184ad74fba9c611e8ef73e8f71ead297e49455bd1c3c9e2b39123ffce865aa6",
+      "git_blob_sha": "2df95cff0d81dd48c95e96947aa4e6a3bdce2f1c",
       "mode": "100644"
     },
     {
@@ -374,9 +374,9 @@
     },
     {
       "path": "docs/18-conversation-and-implementation.md",
-      "bytes": 33368,
-      "sha256": "8c36885b0736826b8d7bb4d0979d30a3c5aa5e6d8a2c11e7df7c9f8fdd67060a",
-      "git_blob_sha": "20954517a880b8e1b165424b8339de19fd0ec998",
+      "bytes": 35144,
+      "sha256": "4f5df817d6eb73fa9fe454d11a93c6c25717a3e0b6c5497bdaa8cebc31d2a881",
+      "git_blob_sha": "8866bba39c68a740f840e3387d0d1217cd097f63",
       "mode": "100644"
     },
     {
@@ -412,6 +412,13 @@
       "bytes": 5934,
       "sha256": "a9f6e4269d713ca40ffd91ab67053ffd7ba3f75a3862a895696cd883e8c07a68",
       "git_blob_sha": "27408f7422d4d73be5f10c02f5c482f4c2772935",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/24-multistyle-arena-tuning-and-gateway-2026-10-28.md",
+      "bytes": 7570,
+      "sha256": "e6b26e149b9e8a0b028640152a6e8ab14abf761ba2701824de8e45aeea5a374b",
+      "git_blob_sha": "5336ccea40eabeb812f6dd0bd5a86f4040ecfe68",
       "mode": "100644"
     },
     {
@@ -608,6 +615,13 @@
       "bytes": 1084,
       "sha256": "7ab5ceb79ec9b57207b6563fb9265de9aa21df072a038de706efc77115a16c82",
       "git_blob_sha": "9e9b0cd39f02a752e0618b089183c169538b5861",
+      "mode": "100644"
+    },
+    {
+      "path": "materials/addenda/2026-10-28-gateway-notice.md",
+      "bytes": 1235,
+      "sha256": "f19ab2b043a0f4a5d69d7391a0447731edc8077dcb933df0ffc85185ab488b5f",
+      "git_blob_sha": "0f15e38d71b98a04dfec7a6b9f321856a7b4783c",
       "mode": "100644"
     },
     {
