@@ -1,0 +1,527 @@
+{
+  "date": "2026-10-28",
+  "scope": "all 15 numbered chapters and all 30 numbered subsections; chapter parents covered by their subsection rows; not exhaustive state-space model checking",
+  "source_pdfs": [
+    {
+      "version": "rules v1.2",
+      "git_blob": "c88045c8332e4900407060a7bddf16c3fa1f4be3",
+      "pages": 24,
+      "full_text_read": true,
+      "visual_pages_this_round": [
+        15
+      ]
+    },
+    {
+      "version": "protocol v1.1",
+      "git_blob": "a7e3163ada8d3cf83e00245377ba7cb28d35dd86",
+      "pages": 19,
+      "full_text_read": true,
+      "visual_pages_this_round": []
+    },
+    {
+      "version": "tutorial v1.1",
+      "git_blob": "5db4977dd9cf3d7a597cdd09dd6a8c714e6ca5cf",
+      "pages": 10,
+      "full_text_read": true,
+      "visual_pages_this_round": [
+        5,
+        6
+      ]
+    }
+  ],
+  "numbered_sections_required": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "2.1",
+    "2.2",
+    "2.3",
+    "2.4",
+    "4.1",
+    "4.2",
+    "4.3",
+    "5.1",
+    "5.2",
+    "6.1",
+    "6.2",
+    "6.3",
+    "6.4",
+    "8.1",
+    "8.2",
+    "8.3",
+    "8.4",
+    "8.5",
+    "8.6",
+    "8.7",
+    "8.8",
+    "8.9",
+    "10.1",
+    "10.2",
+    "11.1",
+    "11.2",
+    "11.3",
+    "12.1",
+    "12.2",
+    "12.3"
+  ],
+  "numbered_sections_covered": [
+    "1",
+    "10",
+    "10.1",
+    "10.2",
+    "11",
+    "11.1",
+    "11.2",
+    "11.3",
+    "12",
+    "12.1",
+    "12.2",
+    "12.3",
+    "13",
+    "14",
+    "15",
+    "2",
+    "2.1",
+    "2.2",
+    "2.3",
+    "2.4",
+    "3",
+    "4",
+    "4.1",
+    "4.2",
+    "4.3",
+    "5",
+    "5.1",
+    "5.2",
+    "6",
+    "6.1",
+    "6.2",
+    "6.3",
+    "6.4",
+    "7",
+    "8",
+    "8.1",
+    "8.2",
+    "8.3",
+    "8.4",
+    "8.5",
+    "8.6",
+    "8.7",
+    "8.8",
+    "8.9",
+    "9"
+  ],
+  "rows": [
+    {
+      "section": "1",
+      "clause": "§1 赛事概况、报名、组队、报告、奖项",
+      "transition": "未登记→检录→阶段比赛→审查",
+      "action_and_analysis": "两阶段分数分开；语言须兼容接口且能解释；提交版本与运行路径一致；按通知提交材料",
+      "implementation_or_owner": "人工；build/run守卫辅助"
+    },
+    {
+      "section": "2.1",
+      "clause": "§2.1 公告与参数",
+      "transition": "未取得本场配置→已确认",
+      "action_and_analysis": "席位、令牌、网络、模型和参数按本场通知；不猜隐藏地图或未公告日程",
+      "implementation_or_owner": "match_config；人工确认"
+    },
+    {
+      "section": "2.2",
+      "clause": "§2.2 检录与联调",
+      "transition": "未联通→收感知→动作→回执",
+      "action_and_analysis": "仅话题存在/收到感知不能认定双向成功；stage0为外部快速联调选项",
+      "implementation_or_owner": "bot日志；裁判/人工"
+    },
+    {
+      "section": "2.3",
+      "clause": "§2.3 封存与重启",
+      "transition": "开发→封存→允许调整窗口→再封存",
+      "action_and_analysis": "决策参数、Prompt不能赛中任改；登记重启不补时；未实现人工decision_type切换，不提供隐蔽入口",
+      "implementation_or_owner": "人工；构建摘要"
+    },
+    {
+      "section": "2.4",
+      "clause": "§2.4 公开测试与上场",
+      "transition": "练习通过→现场更换接入→复验",
+      "action_and_analysis": "mock不取得真实AI资格；练习真值只供人工调试",
+      "implementation_or_owner": "practice外启动器；人工"
+    },
+    {
+      "section": "3",
+      "clause": "§3 流程、时长、晋级",
+      "transition": "采集种子→胜败赛道→决赛→复核",
+      "action_and_analysis": "正式动作0–99/0–499；同分依总分、有效任务、R、D、无效动作；加赛、轮空、席位轮换由裁判处理",
+      "implementation_or_owner": "裁判；客户端不自编排名"
+    },
+    {
+      "section": "4.1",
+      "clause": "§4.1 地图与视野",
+      "transition": "未知格→合法观测→记忆→过时",
+      "action_and_analysis": "每实体89字符图；世界轴不旋转；0不是通行证明；本车每帧绝对定位；漏帧不累计位移",
+      "implementation_or_owner": "strategy解析/tiles/history"
+    },
+    {
+      "section": "4.2",
+      "clause": "§4.2 资源",
+      "transition": "未取得→存活占格→裁判采集→本场移除",
+      "action_and_analysis": "无交互动作；不刷新；死亡后资源保留；高价值按value分类；不反复追已观测消失资源",
+      "implementation_or_owner": "tiles与官方score"
+    },
+    {
+      "section": "4.3",
+      "clause": "§4.3 基础属性",
+      "transition": "普通→事件修饰→到期恢复",
+      "action_and_analysis": "规则常量不参与调参；伤害/保护和状态由公开参数与有效事件解释约束",
+      "implementation_or_owner": "strategy/events"
+    },
+    {
+      "section": "5.1",
+      "clause": "§5.1 动作窗口",
+      "transition": "开放→更新候选→截止固化→关闭",
+      "action_and_analysis": "只回填当前场次/Tick；晚到不补执行；同Tick缓存，旧Tick丢弃；单次正常提交",
+      "implementation_or_owner": "Session/protocol；裁判截止"
+    },
+    {
+      "section": "5.2",
+      "clause": "§5.2 结算顺序",
+      "transition": "激活→防御/战斗→移动→触发→计分/任务",
+      "action_and_analysis": "当前移动不能躲已命中攻击；死亡车不移动；下一步风险只能用于未来决策",
+      "implementation_or_owner": "strategy与下表；裁判结算"
+    },
+    {
+      "section": "6.1",
+      "clause": "§6.1 MOVE",
+      "transition": "候选→成功/失败",
+      "action_and_analysis": "不能交换、跟进刚离开格或争同格；失败不是位置变化，不触发入点；未知邻格可合法试探",
+      "implementation_or_owner": "occupied/BFS/回执"
+    },
+    {
+      "section": "6.2",
+      "clause": "§6.2 ATTACK",
+      "transition": "合法攻击→最近目标/无目标",
+      "action_and_analysis": "普通只打最近敌车；保护车挡后车，墙不挡弹；无双才用5×5；有保护不能攻击",
+      "implementation_or_owner": "attack目标筛选/权限状态"
+    },
+    {
+      "section": "6.3",
+      "clause": "§6.3 DEFEND",
+      "transition": "每Tick重新提交→本Tick生效",
+      "action_and_analysis": "不沿用上一帧防御；环境伤害不按普通受击减半；无双使用专门防御伤害",
+      "implementation_or_owner": "fallback/战斗估值"
+    },
+    {
+      "section": "6.4",
+      "clause": "§6.4 WAIT",
+      "transition": "无候选/拒绝→裁判等待",
+      "action_and_analysis": "等待没有防御收益；策略普通回退采用DEFEND，不能合法行动时不发布",
+      "implementation_or_owner": "action_for/skip"
+    },
+    {
+      "section": "7",
+      "clause": "§7 死亡、复活、效果",
+      "transition": "存活→死亡→等待→受保护复活",
+      "action_and_analysis": "每次死亡D扣60；资源/任务保留；裁判从初始出生点按曼哈顿层、上右下左选合法格，障碍只排落点；同时复活按A至D占位；本车采用实际self.position",
+      "implementation_or_owner": "官方score/self；history"
+    },
+    {
+      "section": "8.1",
+      "clause": "§8.1 公告与时间",
+      "transition": "新文本→请求→校验解释→事件状态",
+      "action_and_analysis": "随机文本只由LLM解释；去重不按Tick删掉不同公告；迟到按绝对期限处理",
+      "implementation_or_owner": "AiWorker/events"
+    },
+    {
+      "section": "8.2",
+      "clause": "§8.2 爆炸",
+      "transition": "预告→移动前一次伤害→结束",
+      "action_and_analysis": "提前退出；激活后MOVE太晚；出生保护按公告；环境击杀不发奖励",
+      "implementation_or_owner": "dangerous/pre_damage"
+    },
+    {
+      "section": "8.3",
+      "clause": "§8.3 幻术",
+      "transition": "激活位置命中→反向MOVE→到期",
+      "action_and_analysis": "攻击方向不反转；离区/死亡不解除；缺激活位置历史则不猜方向",
+      "implementation_or_owner": "update_effects/move"
+    },
+    {
+      "section": "8.4",
+      "clause": "§8.4 天使恩泽",
+      "transition": "点存在→成功进入→回血/刷新→到期",
+      "action_and_analysis": "原地站点不触发；战斗后才回血，不能救已死亡车辆；点消失与效果到期分开",
+      "implementation_or_owner": "history/healing_until"
+    },
+    {
+      "section": "8.5",
+      "clause": "§8.5 天下无双",
+      "transition": "堡垒存在→连续驻留→授予→到期",
+      "action_and_analysis": "区域按公告；未完成进度离区/死亡清零；取得后跨死亡保留但事件结束失效；授予后下一次可用攻击生效",
+      "implementation_or_owner": "capture_progress/empowered"
+    },
+    {
+      "section": "8.6",
+      "clause": "§8.6 世界分裂",
+      "transition": "预告→十字墙/即时死亡复活→墙到期",
+      "action_and_analysis": "初始出生点豁免；线上激活本Tick强制等待；不发击杀奖励；只移除临时墙",
+      "implementation_or_owner": "split_wall/skip；裁判落点"
+    },
+    {
+      "section": "8.7",
+      "clause": "§8.7 火爆辣椒",
+      "transition": "成功入点→本Tick火线批次→结束",
+      "action_and_analysis": "交点只豁免自身那条线；其他火线仍可命中；损血不计普通D，击杀批次去重分60",
+      "implementation_or_owner": "possible_fire/trigger_chili；收益近似"
+    },
+    {
+      "section": "8.8",
+      "clause": "§8.8 洁身自好",
+      "transition": "激活→攻击防御目标反伤→到期",
+      "action_and_analysis": "保护目标不反伤；每个无双防御目标分别反；反伤不受易伤倍率，致死贡献者按规则分奖",
+      "implementation_or_owner": "reflection估值；裁判分奖"
+    },
+    {
+      "section": "8.9",
+      "clause": "§8.9 潘潘的神",
+      "transition": "移动触发窗口→下Tick易伤→统一到期",
+      "action_and_analysis": "只认实际成功移动；不追溯本Tick战斗；死亡不延时；环境/反伤不乘倍率",
+      "implementation_or_owner": "receipts/vulnerability"
+    },
+    {
+      "section": "9",
+      "clause": "§9 第一阶段",
+      "transition": "独立采集→种子成绩",
+      "action_and_analysis": "只移动，无事件/攻防/AI要求；争取100Tick内资源，最终恢复默认节奏验收",
+      "implementation_or_owner": "stage=1策略"
+    },
+    {
+      "section": "10.1",
+      "clause": "§10.1 任务",
+      "transition": "未完成→裁判存活结算达标→已完成",
+      "action_and_analysis": "不写死三项任务内容或坐标；按ID去重；D降低不撤销完成；未完成伤害任务按调整后D",
+      "implementation_or_owner": "missions/completed IDs"
+    },
+    {
+      "section": "10.2",
+      "clause": "§10.2 计分",
+      "transition": "实际贡献/奖励→死亡扣除→任务→排名",
+      "action_and_analysis": "R封顶120、D计分封顶500但累计不截断；多人分奖不按独享硬算；M受真实AI资格约束",
+      "implementation_or_owner": "score_delta；官方score为准"
+    },
+    {
+      "section": "11.1",
+      "clause": "§11.1 AI职责",
+      "transition": "本地持续控制＋后台解释",
+      "action_and_analysis": "不要求逐Tick由模型出动作；不部署本地小模型；HTTP超时不延长窗口",
+      "implementation_or_owner": "Session/AiWorker"
+    },
+    {
+      "section": "11.2",
+      "clause": "§11.2 AI接口身份",
+      "transition": "已配置→发POST→完整回复",
+      "action_and_analysis": "请求model在正文、完整端点、席位Bearer、非流式、正确长度；正式赛只用官方网关",
+      "implementation_or_owner": "match_config/perform"
+    },
+    {
+      "section": "11.3",
+      "clause": "§11.3 配额/失败/审计",
+      "transition": "请求→成功/退避/停用",
+      "action_and_analysis": "429分额度与临时限流；400/401等停止无效重试；网络/坏回复分类；成功≠解释正确≠正式资格",
+      "implementation_or_owner": "acknowledge/diagnostics"
+    },
+    {
+      "section": "12.1",
+      "clause": "§12.1 公开话题",
+      "transition": "按席位接入→仅使用公开输入",
+      "action_and_analysis": "感知/动作深度1；注册保留；任务/事件的文本外壳不误读为JSON参数；不接观赛真值",
+      "implementation_or_owner": "Bot/QoS；公开perception"
+    },
+    {
+      "section": "12.2",
+      "clause": "§12.2 消息要点",
+      "transition": "信封可信→读坐标/任务/原文",
+      "action_and_analysis": "场次不是鉴权；不要求全车效果或结构化随机事件字段；队名只显示，不改变席位",
+      "implementation_or_owner": "frame_tick/解析器"
+    },
+    {
+      "section": "12.3",
+      "clause": "§12.3 错误与计数",
+      "transition": "格式/身份拒绝或合法移动失败",
+      "action_and_analysis": "坏后发消息与状态错误覆盖规则不同；不靠非法消息试探；E_OOB/E_BLOCKED不增加invalid",
+      "implementation_or_owner": "protocol；裁判记录"
+    },
+    {
+      "section": "13",
+      "clause": "§13 合法策略与处罚",
+      "transition": "合法自主决策→裁判监督",
+      "action_and_analysis": "手写状态机与公开轨迹预测允许；不读其他席位/内部数据，不串通、不干扰、不利用漏洞",
+      "implementation_or_owner": "全部模块输入边界；人工"
+    },
+    {
+      "section": "14",
+      "clause": "§14 复核、申诉、故障",
+      "transition": "完赛→复核→确认/修订/重赛",
+      "action_and_analysis": "本队故障无补时；大屏异常不等于核心异常；记录场次/Tick；裁判全局故障处理与申诉由人工",
+      "implementation_or_owner": "日志/REAL_TEST；裁判/人工"
+    },
+    {
+      "section": "15",
+      "clause": "§15 解释与变更",
+      "transition": "已生效版本→统一书面公告→新版本",
+      "action_and_analysis": "私聊不能单独覆盖规则；封存后不自行改变计分或策略；保留来源与适用范围",
+      "implementation_or_owner": "版本记录与人工"
+    }
+  ],
+  "mermaid_diagrams": 5,
+  "implemented_feature_commit": "c80fb963c187f7667e8d6cf010b08512a0c5952c",
+  "regressions": {
+    "turn_state_transitions": "passed in actual core build",
+    "opponent_prediction": [
+      "stable resource collision",
+      "next-tick firing line",
+      "known wall cancels forecast",
+      "gap resets motion",
+      "anonymous is not associated",
+      "new match clears tracks",
+      "current lethal attack outranks future prediction"
+    ],
+    "core_fixed_http": "passed",
+    "original_handler_canned_upstream": "passed",
+    "startup_guards": "passed",
+    "actual_ros_cpp_link": "passed; manual build, not colcon"
+  },
+  "limitations": [
+    "forecast costs are handwritten heuristics, not calibrated probabilities",
+    "no full joint enemy action search",
+    "no measured win rate against standard bots",
+    "many-player exact settlement remains judge-owned"
+  ],
+  "practice_retry": {
+    "date": "2026-10-28",
+    "tested_feature_commit": "c80fb963c187f7667e8d6cf010b08512a0c5952c",
+    "host": "Ubuntu 24.04 with isolated Jammy/Humble runtime",
+    "practice_unchanged": true,
+    "method": "actual original processes; HTTP used only by test controller for start/status, never as bot decision input",
+    "attempts": [
+      {
+        "case": "reference_environment",
+        "stage": 1,
+        "A": "original reference robot",
+        "standard_opponents": [],
+        "ai_mode": "mock",
+        "resumed": false,
+        "complete_match": false,
+        "last_status": {},
+        "judge_exit": 1,
+        "errors": [
+          "getifaddrs: Operation not permitted",
+          "2026-10-28 01:50:49.294 [TRANSPORT Error] All whitelist interfaces were filtered out -> Function UDPv4Transport",
+          "RuntimeError: 裁判启动超时，请检查 ROS 环境与日志"
+        ],
+        "scores": null,
+        "elapsed_seconds": 13.67
+      },
+      {
+        "case": "strategy_vs_standard",
+        "stage": 2,
+        "A": "current actual ROS bot",
+        "standard_opponents": [
+          "B",
+          "C",
+          "D"
+        ],
+        "ai_mode": "real",
+        "resumed": false,
+        "complete_match": false,
+        "last_status": {},
+        "judge_exit": 1,
+        "errors": [
+          "getifaddrs: Operation not permitted",
+          "2026-10-28 01:51:02.900 [TRANSPORT Error] All whitelist interfaces were filtered out -> Function UDPv4Transport",
+          "RuntimeError: 裁判启动超时，请检查 ROS 环境与日志"
+        ],
+        "scores": null,
+        "elapsed_seconds": 13.67
+      }
+    ],
+    "win_rate": null
+  },
+  "practice_files_verified_unchanged": 18,
+  "temporary_credential_deleted": true,
+  "mermaid_parse_validation": [
+    {
+      "diagram": 1,
+      "type": "stateDiagram",
+      "valid": true
+    },
+    {
+      "diagram": 2,
+      "type": "flowchart-v2",
+      "valid": true
+    },
+    {
+      "diagram": 3,
+      "type": "stateDiagram",
+      "valid": true
+    },
+    {
+      "diagram": 4,
+      "type": "stateDiagram",
+      "valid": true
+    },
+    {
+      "diagram": 5,
+      "type": "stateDiagram",
+      "valid": true
+    }
+  ],
+  "documentation_commit": "90af9851a40ed962c7fe24c855ecf3712487d146",
+  "practice_tree_unchanged": "3c352b3f29be4a008f46642063ce527c4fb4756f",
+  "verified_code_commits": [
+    {
+      "sha": "c80fb963c187f7667e8d6cf010b08512a0c5952c",
+      "parent": [
+        "bc41b232263169c6f0f4d370e6fd88dcc1d74104"
+      ],
+      "message": "feat: enforce turn states and forecast visible opponent movement",
+      "files": [
+        "src/rmtc_bot/include/rmtc_bot/match_config.hpp",
+        "src/rmtc_bot/include/rmtc_bot/protocol.hpp",
+        "src/rmtc_bot/include/rmtc_bot/strategy.hpp",
+        "src/rmtc_bot/src/bot.cpp",
+        "src/rmtc_bot/src/strategy.cpp",
+        "tests/full_strategy_test.cpp"
+      ]
+    },
+    {
+      "sha": "90af9851a40ed962c7fe24c855ecf3712487d146",
+      "parent": [
+        "c80fb963c187f7667e8d6cf010b08512a0c5952c"
+      ],
+      "message": "docs: map rules to state machines and record reference and standard-bot retries",
+      "files": [
+        "CODE_GUIDE.md",
+        "README.md",
+        "REAL_TEST.md",
+        "STATE_MACHINE.md",
+        "tests/results/state-match-attempt-2026-10-28.json"
+      ]
+    }
+  ],
+  "diagram_parser": {
+    "package": "mermaid",
+    "version": "12.2.0"
+  }
+}

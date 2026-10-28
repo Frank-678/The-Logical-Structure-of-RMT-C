@@ -1,5 +1,7 @@
 # 分支文件总索引
 
+[2026-10-28规则状态机与对手预测](docs/20-state-machines-and-opponent-prediction.md)：45个编号范围、5张图；实际加入权限状态和短轨迹预测，完成后重试参考车及标准陪练。两项因DDS权限未开局，无有效胜率。
+
 [2026-10-28原件逐项复读与实测](docs/19-original-materials-full-review.md)：8原件、72页全文、42页原页核对；真实DeepSeek两次成功，累积公告膨胀已修复。原版裁判与标准陪练因当前环境DDS权限未能开局，尚无胜率。
 
 [2026-10-27对话与实施全程记录](docs/18-conversation-and-implementation.md)：需求、依据、取舍、修正、21个代码提交及验证边界。选手主流程已有PR实现；完整Humble/DDS与真实模型联调仍未验收。原件复读和2026-10-28新增实测见上方入口；历史文档保留当时含义。
@@ -165,3 +167,5 @@
 | [checks/real-execution-2026-10-28.json](checks/real-execution-2026-10-28.json) |
 | [scripts/check_original_gateway.py](scripts/check_original_gateway.py) |
 | [checks/review-links-2026-10-28.json](checks/review-links-2026-10-28.json) |
+| [docs/20-state-machines-and-opponent-prediction.md](docs/20-state-machines-and-opponent-prediction.md) |
+| [checks/state-machine-coverage-2026-10-28.json](checks/state-machine-coverage-2026-10-28.json) |

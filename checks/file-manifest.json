@@ -17,9 +17,9 @@
     },
     {
       "path": "INDEX.md",
-      "bytes": 15810,
-      "sha256": "143efce26902e6b06c9ba5af03358a7d02c9416e8285799551307280d10fe37b",
-      "git_blob_sha": "ddbb7bbfbbf272b55e318c96ce6cf004c8aca6c1",
+      "bytes": 16279,
+      "sha256": "cd60d152fed9f671009a23cead331c66e49413cd7e2df0555836d43039ea9241",
+      "git_blob_sha": "d739718687bc73c0bdbb747b6898b5745e34e3aa",
       "mode": "100644"
     },
     {
@@ -38,9 +38,9 @@
     },
     {
       "path": "README.md",
-      "bytes": 4117,
-      "sha256": "bf26272d031f26f2c33aa11131be3c1a1635491afc36c03b456e7669001c79df",
-      "git_blob_sha": "4acbf1c1a01e7c0cd0d03a082d73712acaa24433",
+      "bytes": 4380,
+      "sha256": "4b171e9fc49504f8fc0b056e1930782ef276c461be472b411552142b72bd453e",
+      "git_blob_sha": "1c299f41c6f64a221dacabc5f24ac4c260098591",
       "mode": "100644"
     },
     {
@@ -52,9 +52,9 @@
     },
     {
       "path": "checks/README.md",
-      "bytes": 2036,
-      "sha256": "35e620ad456cf90447a68629b2de6fc7a93afa71af383ddbc1c9bfe884837d3d",
-      "git_blob_sha": "ec4988f7c348058e0f6e62109824f0718c6c6ced",
+      "bytes": 2324,
+      "sha256": "a3ad92f3a940c4974dc5a27beb7bcd578a05fbda46db97c2348859e4a879e13b",
+      "git_blob_sha": "4ad79dc4738e8a032a8ec2cc49aa65fe91c0ae17",
       "mode": "100644"
     },
     {
@@ -206,9 +206,16 @@
     },
     {
       "path": "checks/review-links-2026-10-28.json",
-      "bytes": 390,
-      "sha256": "0ae0acbdd64f051897ca1bad65384dce285461207a887f931cd246701ca6cd98",
-      "git_blob_sha": "7dde1e744ae8e889b583b78871b2c44ca003a2d0",
+      "bytes": 400,
+      "sha256": "6a55136177f25a85011ccfed26705793f1f8cc769d1fba72cc01932c70948ef6",
+      "git_blob_sha": "e3808a5415014ecaceda47a4a274f6c899df877a",
+      "mode": "100644"
+    },
+    {
+      "path": "checks/state-machine-coverage-2026-10-28.json",
+      "bytes": 18896,
+      "sha256": "b43e6f2ed52cc87315c5dc1c903047c651491af16ebf30ec925d69498055a117",
+      "git_blob_sha": "5489a47f433dbd26942ba4c181197a5170f3fd1c",
       "mode": "100644"
     },
     {
@@ -332,9 +339,9 @@
     },
     {
       "path": "docs/18-conversation-and-implementation.md",
-      "bytes": 23645,
-      "sha256": "82756c2dbb55397388e716a5f026389b25c3bb3034b2ab22b3d192bc45a5cecf",
-      "git_blob_sha": "500c57449f74a9cae3ebcfa80dbf9325f396e24d",
+      "bytes": 25712,
+      "sha256": "f01870a25b59f953cff608816639abd67d79115284cfebc1ea63056847cdb30a",
+      "git_blob_sha": "a1e9b6ca5623e8f7a6e71b51d4f0780e355653e3",
       "mode": "100644"
     },
     {
@@ -342,6 +349,13 @@
       "bytes": 16774,
       "sha256": "fe02bd902273962babdd25e7fb15dd6685a1dbdb617352274122e7559b5032e5",
       "git_blob_sha": "a804ccc14d2c080d6b93d144de31699b11982f6d",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/20-state-machines-and-opponent-prediction.md",
+      "bytes": 20595,
+      "sha256": "7b01ebe3e12ad6183da731d868c0f1825777636d7e06cdf8a0bb84874590ac24",
+      "git_blob_sha": "44fb50121bda8f195b4db79efab4d8e789729daf",
       "mode": "100644"
     },
     {
