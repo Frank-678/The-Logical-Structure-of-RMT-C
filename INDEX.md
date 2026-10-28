@@ -196,6 +196,8 @@
 | [docs/27-late-practice-log-integrity-2026-10-28.md](docs/27-late-practice-log-integrity-2026-10-28.md) |
 | [checks/late-user-log-2026-10-28.json](checks/late-user-log-2026-10-28.json) |
 
+| [docs/28-first-real-llm-dds-battle-2026-10-29.md](docs/28-first-real-llm-dds-battle-2026-10-29.md) |
+
 ## 代码研究文档迁入
 
 | 文件 |
