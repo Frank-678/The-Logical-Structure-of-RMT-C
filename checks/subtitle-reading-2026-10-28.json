@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-28",
+  "scope": "Seven attached subtitles read in full, including rereads of truncated output; secondary narrative, not proof of original code execution or leaderboards",
+  "sources": [
+    {
+      "episode": "01",
+      "topic": "圈地",
+      "filename": "BV1iDhd6eE5N_9个大模型玩游戏，谁最强？ai算法对抗赛第一期_喵了个猫了个咪了个猫.txt",
+      "bytes": 25611,
+      "lines": 789,
+      "sha256": "1cb745cb1468d1c35cb420dbb02334118e02a95ee7a60a4938c83af65bf29c25",
+      "read": "full",
+      "raw_republished": false
+    },
+    {
+      "episode": "02",
+      "topic": "炸弹人",
+      "filename": "BV1xSa76yEqZ_九个ai想炸死对方，谁能活到最后？｜AI 算法对抗大赛 第 2 集 · 炸弹人_喵了个猫了个咪了个猫.txt",
+      "bytes": 41513,
+      "lines": 1260,
+      "sha256": "b3b9c74111e7b130366455356b6bf669c22ea040488ce50c43b908cece301903",
+      "read": "full",
+      "raw_republished": false
+    },
+    {
+      "episode": "03",
+      "topic": "夺旗",
+      "filename": "BV1h9a26vEzd_11个ai参加夺旗大赛，打了 32010 局，谁能把旗扛回家？｜AI 算法对抗大赛 第 3 集 · 夺旗_喵了个猫了个咪了个猫.txt",
+      "bytes": 33203,
+      "lines": 963,
+      "sha256": "55fc6d173d0576280d8d6830a4c25e3135d185dca3965aa9f5ae0f21dcf78729",
+      "read": "full",
+      "raw_republished": false
+    },
+    {
+      "episode": "04",
+      "topic": "外交",
+      "filename": "BV1D3Hx6jEzy_7个顶尖ai各操控一个国家，战争，博弈，与背叛｜AI 对抗大赛特别篇_喵了个猫了个咪了个猫.txt",
+      "bytes": 48529,
+      "lines": 1429,
+      "sha256": "4b1c828d893867fee104fd229babae2b2a0d17b06eb7c0f979fd34b0bfa222f9",
+      "read": "full",
+      "raw_republished": false
+    },
+    {
+      "episode": "05",
+      "topic": "仓储优化",
+      "filename": "BV1JEpv64ERE_12 个 AI 组队优化屎山代码，有的快了上千倍，有的比原来还慢｜AI 算法对抗大赛 第 5 集_喵了个猫了个咪了个猫.txt",
+      "bytes": 57696,
+      "lines": 1617,
+      "sha256": "d681c54ca75c4d4626e9fea3980f3b0d804ef84adeac3d3a667b5f6293b0678d",
+      "read": "full",
+      "raw_republished": false
+    },
+    {
+      "episode": "06",
+      "topic": "坦克",
+      "filename": "BV11DJt66Egx_14 个 AI 各写一个坦克程序，打了 14400 局，谁先拆掉对面老家？｜AI 算法对抗大赛 第 6 集 · 坦克大战_喵了个猫了个咪了个猫.txt",
+      "bytes": 32158,
+      "lines": 941,
+      "sha256": "4e8ecb21affb0037377bf1fd67a318d1adc915dd34bf75530b5cf962dd62352f",
+      "read": "full",
+      "raw_republished": false
+    },
+    {
+      "episode": "07",
+      "topic": "光轮及仓储复赛",
+      "filename": "BV1pJnB6iEd7_9 个冷门 AI 挑战擂主豆包：写程序对打 + 改屎山代码，谁是区王？｜AI 算法对抗大赛 第 7 集 · 区王争霸赛_喵了个猫了个咪了个猫.txt",
+      "bytes": 49097,
+      "lines": 1345,
+      "sha256": "04711abd762661159df99b4d4bee0d05a44d5a72192ed57a4c83967d6f01b826",
+      "read": "full",
+      "raw_republished": false
+    }
+  ]
+}

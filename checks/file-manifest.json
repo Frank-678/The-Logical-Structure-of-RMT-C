@@ -24,9 +24,9 @@
     },
     {
       "path": "INDEX.md",
-      "bytes": 4737,
-      "sha256": "3ae0a9cc0b8742e2f283ead3a7a7bc8d64c55dd479e485fa8a1ce3b093c22666",
-      "git_blob_sha": "7753b507d853d40cdb8073c71ab5372d31e37c8f",
+      "bytes": 4966,
+      "sha256": "cbee0abf9c6360d38d29c3d9db53fc5962c5a605a5402eff23c788f87efe3647",
+      "git_blob_sha": "21bdf5e17e0793c15b254021becf147926995de8",
       "mode": "100644"
     },
     {
@@ -45,9 +45,9 @@
     },
     {
       "path": "README.md",
-      "bytes": 3343,
-      "sha256": "303cddb5c776cf6495bbbe1082184127cbb38afb57085da2c95f89a08015b5ff",
-      "git_blob_sha": "a03147b34da1bd479ee8364e5dda5ffd8f85746b",
+      "bytes": 3580,
+      "sha256": "a1f06d0b1d9feee3e694fa0f2b51fc2b008364e6c7bca0752f64eb270b82e1ab",
+      "git_blob_sha": "87e0aec87ca9b2c39c9add8ff49e8cfa5f50181a",
       "mode": "100644"
     },
     {
@@ -100,6 +100,13 @@
       "mode": "100644"
     },
     {
+      "path": "checks/subtitle-reading-2026-10-28.json",
+      "bytes": 3161,
+      "sha256": "c1ea251fd3000f563240a953807ea5bcbd8dbcfd46ac646a8a5f9b98cad80e6d",
+      "git_blob_sha": "0e64f6c53410cb1adf5e65124fdf8af4e3eb9199",
+      "mode": "100644"
+    },
+    {
       "path": "checks/upstream-verification.json",
       "bytes": 132,
       "sha256": "7ce90eeaa8fccdf9c2de4e9e6f1eb5e6941199390fdaaff1fcb12c49b4b1117a",
@@ -108,9 +115,9 @@
     },
     {
       "path": "decisions/reuse-register.md",
-      "bytes": 12087,
-      "sha256": "ab2b898a748dd6227ef098fdf577daaae1b1c41c78ff9a72c45420769eac37a5",
-      "git_blob_sha": "1dfb632766fff298706d3c68cb8148fac9124eb4",
+      "bytes": 13586,
+      "sha256": "d813c78e375821710deebd9d91edb8b84fe43c94242ae5d6443a5538f4ed1be9",
+      "git_blob_sha": "424ece46ea7eee0281649d99aecdaa52accf43e7",
       "mode": "100644"
     },
     {
@@ -314,6 +321,13 @@
       "bytes": 2503,
       "sha256": "0ecca6e91bb182e9fc373259784df414cae40bb9b3116e67145099f4adc2f872",
       "git_blob_sha": "883da48f16f1ad5a40f88527c45d00ff471aa930",
+      "mode": "100644"
+    },
+    {
+      "path": "reports/11-subtitle-lessons-and-rmtc-counterexamples-2026-10-28.md",
+      "bytes": 9234,
+      "sha256": "9a338dfb61604750383235df479e33db443e89512509a5ffc416efd4b1261ac5",
+      "git_blob_sha": "d94832eb982adfb6fb3ab9130f5532717c44bb3d",
       "mode": "100644"
     },
     {

@@ -1,5 +1,7 @@
 # RMTC · COMPARISON
 
+[七份字幕逐项取舍与反例](reports/11-subtitle-lessons-and-rmtc-counterexamples-2026-10-28.md)：确认可能火线硬过滤缺陷并修复；32例对称变换/版与新地图验证，保留不可照搬规则和未解决项。
+
 C36/C37新进度：目标迟滞之外增加成功往返的真实进展检测与脱困，详见[迁移记录末段](decisions/reuse-register.md)。12局专门配对及60局新地图，未取得用户原地图，非官方胜率。
 
 [实际迁移与对战反馈](reports/10-applied-search-and-arena-results-2026-10-28.md)：局部重排/帧内BFS缓存/多情景已实现，910局含失败和消融；不把新增模块一律开启，也不把自建对手池称作官方比赛。

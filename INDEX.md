@@ -72,3 +72,6 @@
 | [checks/drive-source-review-2026-10-28.json](checks/drive-source-review-2026-10-28.json) |
 | [checks/op-counterexamples-2026-10-28.json](checks/op-counterexamples-2026-10-28.json) |
 | [tools/check_op_examples.py](tools/check_op_examples.py) |
+
+| [reports/11-subtitle-lessons-and-rmtc-counterexamples-2026-10-28.md](reports/11-subtitle-lessons-and-rmtc-counterexamples-2026-10-28.md) |
+| [checks/subtitle-reading-2026-10-28.json](checks/subtitle-reading-2026-10-28.json) |
