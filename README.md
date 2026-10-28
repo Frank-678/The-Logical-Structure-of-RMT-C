@@ -1,5 +1,7 @@
 # RMTC · ANALYSIS
 
+[2026-10-28新增内容复核](docs/22-latest-branches-and-ahc-review-2026-10-28.md)：4分支、9次新提交；两步采集反例与R封顶检查，区分已有首步闭环和未实现Beam。
+
 [2026-10-28 AHC068→RMTC 策略迁移分析](docs/21-ahc068-to-rmtc-decision-study-2026-10-28.md)：记录 AHC 与本赛差异、已实现基线、短时域搜索设计、审查/执行边界与 P0–P4 验收；新算法尚未实战。
 
 [2026-10-28规则状态机与对手预测](docs/20-state-machines-and-opponent-prediction.md)：45个编号范围、5张图；实际加入权限状态和短轨迹预测，完成后重试参考车及标准陪练。两项因DDS权限未开局，无有效胜率。

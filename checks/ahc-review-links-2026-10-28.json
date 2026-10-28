@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-28",
+  "checked_relative_links": 293,
+  "markdown_files": [
+    "ANALYSIS/INDEX.md",
+    "ANALYSIS/README.md",
+    "ANALYSIS/docs/18-conversation-and-implementation.md",
+    "ANALYSIS/docs/21-ahc068-to-rmtc-decision-study-2026-10-28.md",
+    "ANALYSIS/docs/22-latest-branches-and-ahc-review-2026-10-28.md",
+    "COMPARISON/INDEX.md",
+    "COMPARISON/README.md",
+    "COMPARISON/decisions/reuse-register.md",
+    "COMPARISON/reports/07-ahc068-rectangle-swap-transfer-2026-10-28.md"
+  ],
+  "broken": [],
+  "scope": "Relative file paths in reviewed/modified Markdown checked against pinned trees plus proposed files; anchors and external URLs not checked."
+}

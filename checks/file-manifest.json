@@ -17,9 +17,9 @@
     },
     {
       "path": "INDEX.md",
-      "bytes": 16279,
-      "sha256": "cd60d152fed9f671009a23cead331c66e49413cd7e2df0555836d43039ea9241",
-      "git_blob_sha": "d739718687bc73c0bdbb747b6898b5745e34e3aa",
+      "bytes": 17203,
+      "sha256": "39d107c13fc0f73bfc1e749393d11cd601f1b41125c7be1b3c97c772899bf602",
+      "git_blob_sha": "f2081a31620ad03773ada1d046bff067cd4693ea",
       "mode": "100644"
     },
     {
@@ -38,9 +38,9 @@
     },
     {
       "path": "README.md",
-      "bytes": 4380,
-      "sha256": "4b171e9fc49504f8fc0b056e1930782ef276c461be472b411552142b72bd453e",
-      "git_blob_sha": "1c299f41c6f64a221dacabc5f24ac4c260098591",
+      "bytes": 4813,
+      "sha256": "800977b2ca4c184daab40b5a369c83fb994f40bd7f50438939d332844c26452f",
+      "git_blob_sha": "43bea33686c24d5be081481a9de1675138de7765",
       "mode": "100644"
     },
     {
@@ -55,6 +55,27 @@
       "bytes": 2324,
       "sha256": "a3ad92f3a940c4974dc5a27beb7bcd578a05fbda46db97c2348859e4a879e13b",
       "git_blob_sha": "4ad79dc4738e8a032a8ec2cc49aa65fe91c0ae17",
+      "mode": "100644"
+    },
+    {
+      "path": "checks/ahc-review-links-2026-10-28.json",
+      "bytes": 677,
+      "sha256": "920f5f69f73f07d83f124905592b47b3b1743fec61c2fcf9cc904ce3762bb97d",
+      "git_blob_sha": "63a494af9629c5543ee03d5f78ea8959f6d8bdb5",
+      "mode": "100644"
+    },
+    {
+      "path": "checks/ahc-two-tick-probe-2026-10-28.json",
+      "bytes": 3955,
+      "sha256": "024b95b233c5e594510117dc56f034ee570d2fa194dab4fd6f1eee1673c5ba66",
+      "git_blob_sha": "2f1761abc9ed6216c906ca63b89c9280f59ec137",
+      "mode": "100644"
+    },
+    {
+      "path": "checks/branch-update-review-2026-10-28.json",
+      "bytes": 9681,
+      "sha256": "8b47b9ed140d0296731bf189dc466e299940d327c360bce002476c8116eecbf9",
+      "git_blob_sha": "a199288aed808ec39145e6df3f21b38cb16347ab",
       "mode": "100644"
     },
     {
@@ -339,9 +360,9 @@
     },
     {
       "path": "docs/18-conversation-and-implementation.md",
-      "bytes": 25712,
-      "sha256": "f01870a25b59f953cff608816639abd67d79115284cfebc1ea63056847cdb30a",
-      "git_blob_sha": "a1e9b6ca5623e8f7a6e71b51d4f0780e355653e3",
+      "bytes": 26691,
+      "sha256": "b4e68cdea39c604617c0aee1f4abd2e0ae3e7bacd420ad81f73a589960cb12a6",
+      "git_blob_sha": "8d65e5cb1ae919523d1743e268cc09da9d988e97",
       "mode": "100644"
     },
     {
@@ -356,6 +377,20 @@
       "bytes": 20595,
       "sha256": "7b01ebe3e12ad6183da731d868c0f1825777636d7e06cdf8a0bb84874590ac24",
       "git_blob_sha": "44fb50121bda8f195b4db79efab4d8e789729daf",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/21-ahc068-to-rmtc-decision-study-2026-10-28.md",
+      "bytes": 8763,
+      "sha256": "e83365c2b31d31afac141d15caab5c486c19fe581251ddce4200c5ca63e4e8f1",
+      "git_blob_sha": "67be552b7d56b16470315f3b4988e04571ba1600",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/22-latest-branches-and-ahc-review-2026-10-28.md",
+      "bytes": 9444,
+      "sha256": "a24aea219ffdf1b3d4c8571ed16c36bccea76fd0d9d09e3b78b14343ab4beb4e",
+      "git_blob_sha": "7da429b4ef2e85af0cd78e0b48d919b06d64d1e2",
       "mode": "100644"
     },
     {
@@ -993,6 +1028,13 @@
       "bytes": 16931,
       "sha256": "c30e09a2c3d0be9f6d4cdc8eb885395e5ee7989fedf7f1e76790cfd033cb9b7c",
       "git_blob_sha": "8f0eeb654f677e2a1094f44d19fc61ad32f97d30",
+      "mode": "100644"
+    },
+    {
+      "path": "scripts/ahc_two_tick_probe.cpp",
+      "bytes": 5557,
+      "sha256": "7f6b39fa3d0db93f4a13f986403b3c22227dde99114b234ab56721fe6436bfaa",
+      "git_blob_sha": "6dac6acd40f72a132de300b15013aaabc0438c10",
       "mode": "100644"
     },
     {

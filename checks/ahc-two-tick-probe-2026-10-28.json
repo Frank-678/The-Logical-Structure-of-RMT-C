@@ -1,0 +1,122 @@
+{
+  "cases": [
+    {
+      "baseline_actions": [
+        {
+          "action": {
+            "action": "move",
+            "direction": "up"
+          },
+          "reason": "collect_resource"
+        },
+        {
+          "action": {
+            "action": "move",
+            "direction": "right"
+          },
+          "reason": "collect_resource"
+        }
+      ],
+      "baseline_added_R": 20.0,
+      "baseline_official_resource_score_delta": 5.0,
+      "comparison_official_resource_score_delta": 7.5,
+      "enumerated_move_sequences": 16,
+      "horizon": 2,
+      "initial_R": 0.0,
+      "max_resource_sequence_added_R": 30.0,
+      "max_resource_sequences": [
+        [
+          "right",
+          "right"
+        ]
+      ],
+      "official_score_gap": 2.5
+    },
+    {
+      "baseline_actions": [
+        {
+          "action": {
+            "action": "move",
+            "direction": "up"
+          },
+          "reason": "collect_resource"
+        },
+        {
+          "action": {
+            "action": "move",
+            "direction": "right"
+          },
+          "reason": "collect_resource"
+        }
+      ],
+      "baseline_added_R": 20.0,
+      "baseline_official_resource_score_delta": 2.5,
+      "comparison_official_resource_score_delta": 2.5,
+      "enumerated_move_sequences": 16,
+      "horizon": 2,
+      "initial_R": 110.0,
+      "max_resource_sequence_added_R": 30.0,
+      "max_resource_sequences": [
+        [
+          "right",
+          "right"
+        ]
+      ],
+      "official_score_gap": 0.0
+    }
+  ],
+  "scope": "two synthetic collection cases; no match, combat, events or AI",
+  "production_commit": "90af9851a40ed962c7fe24c855ecf3712487d146",
+  "production_inputs": [
+    {
+      "path": "src/rmtc_bot/src/strategy.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ecc99711f52f7e459f51a445c82ba9ae7806ce8d",
+      "size": 38433,
+      "url": "https://api.github.com/repos/Frank-678/RoboMaster-Turing-Competition-BeyondControl/git/blobs/ecc99711f52f7e459f51a445c82ba9ae7806ce8d"
+    },
+    {
+      "path": "src/rmtc_bot/src/events.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e33a5f125f6c11c230b544b8da88539e18314bca",
+      "size": 13495,
+      "url": "https://api.github.com/repos/Frank-678/RoboMaster-Turing-Competition-BeyondControl/git/blobs/e33a5f125f6c11c230b544b8da88539e18314bca"
+    },
+    {
+      "path": "src/rmtc_bot/include/rmtc_bot/strategy.hpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19689c6f0d8159dfdde707d427a2883a5085e894",
+      "size": 4651,
+      "url": "https://api.github.com/repos/Frank-678/RoboMaster-Turing-Competition-BeyondControl/git/blobs/19689c6f0d8159dfdde707d427a2883a5085e894"
+    },
+    {
+      "path": "src/rmtc_bot/include/rmtc_bot/events.hpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04db6a4cb25ef027c6fda9bc513ee1b83a8bdb0f",
+      "size": 2749,
+      "url": "https://api.github.com/repos/Frank-678/RoboMaster-Turing-Competition-BeyondControl/git/blobs/04db6a4cb25ef027c6fda9bc513ee1b83a8bdb0f"
+    },
+    {
+      "path": "src/rmtc_bot/include/rmtc_bot/scoring.hpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6b4d8b710503e1efd6b4865fac1a6dbd7d58e91",
+      "size": 890,
+      "url": "https://api.github.com/repos/Frank-678/RoboMaster-Turing-Competition-BeyondControl/git/blobs/f6b4d8b710503e1efd6b4865fac1a6dbd7d58e91"
+    },
+    {
+      "path": "src/rmtc_bot/include/rmtc_bot/match_config.hpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "639fd4301148dbad76b661766a6861036e7f57a6",
+      "size": 4028,
+      "url": "https://api.github.com/repos/Frank-678/RoboMaster-Turing-Competition-BeyondControl/git/blobs/639fd4301148dbad76b661766a6861036e7f57a6"
+    }
+  ],
+  "probe_sha256": "7f6b39fa3d0db93f4a13f986403b3c22227dde99114b234ab56721fe6436bfaa",
+  "execution": "Compiled real Strategy with C++17 -O2 -Wall -Wextra -Wpedantic -Werror; no ROS or HTTP."
+}

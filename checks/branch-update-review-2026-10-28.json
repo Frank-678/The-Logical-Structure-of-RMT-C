@@ -1,0 +1,313 @@
+{
+  "review_date": "2026-10-28",
+  "review_timezone": "Asia/Shanghai",
+  "snapshot_heads": [
+    {
+      "name": "ANALYSIS",
+      "sha": "457d99a286338d41fe278781d727c5d37424e135"
+    },
+    {
+      "name": "COMPARISON",
+      "sha": "25540a914e87b8424c3a8a3ca78a4e2842723e21"
+    },
+    {
+      "name": "log",
+      "sha": "ee464265cfd7de45556de73b91eb677cc7601244"
+    },
+    {
+      "name": "main",
+      "sha": "bee5397f51525977f271cfcc35ac8669ebbd2ca8"
+    }
+  ],
+  "new_commits": [
+    {
+      "sha": "f34cf38c744e3993f9e453ad729a7c530889d3b4",
+      "subject": "docs: analyze AHC068 heuristics transfer and RMTC verification gates",
+      "branch": "ANALYSIS",
+      "date": "2026-10-28T04:39:49Z",
+      "files": [
+        {
+          "path": "docs/21-ahc068-to-rmtc-decision-study-2026-10-28.md",
+          "status": "added",
+          "additions": 89,
+          "deletions": 0
+        }
+      ]
+    },
+    {
+      "sha": "e4551583d439a1047a59da6b872b48c4bedd9691",
+      "subject": "docs(analysis): index AHC068-to-RMTC research and status",
+      "branch": "ANALYSIS",
+      "date": "2026-10-28T04:41:52Z",
+      "files": [
+        {
+          "path": "INDEX.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 0
+        }
+      ]
+    },
+    {
+      "sha": "457d99a286338d41fe278781d727c5d37424e135",
+      "subject": "docs(analysis): index AHC068-to-RMTC research and status",
+      "branch": "ANALYSIS",
+      "date": "2026-10-28T04:41:55Z",
+      "files": [
+        {
+          "path": "README.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 0
+        }
+      ]
+    },
+    {
+      "sha": "3da32fb742e6d3e4d0de642b4992583d5abdf2f9",
+      "subject": "docs(comparison): compare AHC068 entries and assess RMTC transferability",
+      "branch": "COMPARISON",
+      "date": "2026-10-28T04:40:27Z",
+      "files": [
+        {
+          "path": "reports/07-ahc068-rectangle-swap-transfer-2026-10-28.md",
+          "status": "added",
+          "additions": 62,
+          "deletions": 0
+        }
+      ]
+    },
+    {
+      "sha": "0d256813467beacd1485774f8ddd47dc8616ef68",
+      "subject": "docs(comparison): register AHC068 ideas with adoption and verification statuses",
+      "branch": "COMPARISON",
+      "date": "2026-10-28T04:40:51Z",
+      "files": [
+        {
+          "path": "decisions/reuse-register.md",
+          "status": "modified",
+          "additions": 21,
+          "deletions": 0
+        }
+      ]
+    },
+    {
+      "sha": "809aa91b556491bd78406883546251685d017516",
+      "subject": "docs(comparison): index AHC068-to-RMTC research and status",
+      "branch": "COMPARISON",
+      "date": "2026-10-28T04:41:57Z",
+      "files": [
+        {
+          "path": "README.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 0
+        }
+      ]
+    },
+    {
+      "sha": "25540a914e87b8424c3a8a3ca78a4e2842723e21",
+      "subject": "docs(comparison): index AHC068-to-RMTC research and status",
+      "branch": "COMPARISON",
+      "date": "2026-10-28T04:41:59Z",
+      "files": [
+        {
+          "path": "INDEX.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 0
+        }
+      ]
+    },
+    {
+      "sha": "deda106ad4bc080b944daaad12532a3da943ca24",
+      "subject": "docs(main): turn repository README into evidence-based RMTC status dashboard",
+      "branch": "main",
+      "date": "2026-10-28T04:41:37Z",
+      "files": [
+        {
+          "path": "README.md",
+          "status": "modified",
+          "additions": 70,
+          "deletions": 0
+        }
+      ]
+    },
+    {
+      "sha": "bee5397f51525977f271cfcc35ac8669ebbd2ca8",
+      "subject": "docs(main): clarify evidence-first tracking and no unrequested branch creation",
+      "branch": "main",
+      "date": "2026-10-28T04:42:35Z",
+      "files": [
+        {
+          "path": "README.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2
+        }
+      ]
+    }
+  ],
+  "baseline_comparisons": [
+    {
+      "branch": "ANALYSIS",
+      "total_commits": 3,
+      "commits": [
+        {
+          "sha": "f34cf38c744e3993f9e453ad729a7c530889d3b4",
+          "subject": "docs: analyze AHC068 heuristics transfer and RMTC verification gates"
+        },
+        {
+          "sha": "e4551583d439a1047a59da6b872b48c4bedd9691",
+          "subject": "docs(analysis): index AHC068-to-RMTC research and status"
+        },
+        {
+          "sha": "457d99a286338d41fe278781d727c5d37424e135",
+          "subject": "docs(analysis): index AHC068-to-RMTC research and status"
+        }
+      ],
+      "files": [
+        {
+          "path": "INDEX.md",
+          "status": "modified"
+        },
+        {
+          "path": "README.md",
+          "status": "modified"
+        },
+        {
+          "path": "docs/21-ahc068-to-rmtc-decision-study-2026-10-28.md",
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "branch": "COMPARISON",
+      "total_commits": 4,
+      "commits": [
+        {
+          "sha": "3da32fb742e6d3e4d0de642b4992583d5abdf2f9",
+          "subject": "docs(comparison): compare AHC068 entries and assess RMTC transferability"
+        },
+        {
+          "sha": "0d256813467beacd1485774f8ddd47dc8616ef68",
+          "subject": "docs(comparison): register AHC068 ideas with adoption and verification statuses"
+        },
+        {
+          "sha": "809aa91b556491bd78406883546251685d017516",
+          "subject": "docs(comparison): index AHC068-to-RMTC research and status"
+        },
+        {
+          "sha": "25540a914e87b8424c3a8a3ca78a4e2842723e21",
+          "subject": "docs(comparison): index AHC068-to-RMTC research and status"
+        }
+      ],
+      "files": [
+        {
+          "path": "INDEX.md",
+          "status": "modified"
+        },
+        {
+          "path": "README.md",
+          "status": "modified"
+        },
+        {
+          "path": "decisions/reuse-register.md",
+          "status": "modified"
+        },
+        {
+          "path": "reports/07-ahc068-rectangle-swap-transfer-2026-10-28.md",
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "branch": "main",
+      "total_commits": 2,
+      "commits": [
+        {
+          "sha": "deda106ad4bc080b944daaad12532a3da943ca24",
+          "subject": "docs(main): turn repository README into evidence-based RMTC status dashboard"
+        },
+        {
+          "sha": "bee5397f51525977f271cfcc35ac8669ebbd2ca8",
+          "subject": "docs(main): clarify evidence-first tracking and no unrequested branch creation"
+        }
+      ],
+      "files": [
+        {
+          "path": "README.md",
+          "status": "modified"
+        }
+      ]
+    }
+  ],
+  "coverage": {
+    "branch_count": 4,
+    "new_commit_count": 9,
+    "all_branch_trees_untruncated": true,
+    "new_content_read": "All new research prose, register changes, main dashboard, navigation diffs and all nine per-commit file lists; log head/tree unchanged. Not all historical files re-read. Discussions not fetched."
+  },
+  "production_commit": "90af9851a40ed962c7fe24c855ecf3712487d146",
+  "source_locations": {
+    "official_score_delta": "src/rmtc_bot/include/rmtc_bot/scoring.hpp:11",
+    "bfs_one_first_direction_per_cell": "src/rmtc_bot/src/strategy.cpp:386",
+    "single_target_resource_utility": "src/rmtc_bot/src/strategy.cpp:484-492",
+    "only_execute_first_move": "src/rmtc_bot/src/strategy.cpp:581",
+    "same_tick_cache": "src/rmtc_bot/src/session.cpp:22"
+  },
+  "external_verification": {
+    "primary_task_url": "https://atcoder.jp/contests/ahc068/tasks/ahc068_a",
+    "primary_task_read": true,
+    "submission_pages_read_this_round": false,
+    "failed_submission_urls": [
+      "https://atcoder.jp/contests/ahc068/submissions/77563950",
+      "https://atcoder.jp/contests/ahc068/submissions/77562268"
+    ],
+    "scope": "Task verified; submission source, author/rank and score remain previous conversation-level references, not independently verified or rerun."
+  },
+  "diagnostic": {
+    "source": "scripts/ahc_two_tick_probe.cpp",
+    "result": "checks/ahc-two-tick-probe-2026-10-28.json",
+    "cases": 2,
+    "real_production_strategy_compiled": true,
+    "new_search_in_production": false,
+    "full_game_or_win_rate": false
+  },
+  "manifest_before_review": {
+    "ANALYSIS": {
+      "stale": [
+        "INDEX.md",
+        "README.md"
+      ],
+      "missing": [
+        "docs/21-ahc068-to-rmtc-decision-study-2026-10-28.md"
+      ]
+    },
+    "COMPARISON": {
+      "stale": [
+        "INDEX.md",
+        "README.md",
+        "decisions/reuse-register.md"
+      ],
+      "missing": [
+        "reports/07-ahc068-rectangle-swap-transfer-2026-10-28.md"
+      ]
+    }
+  },
+  "decisions": {
+    "first_step_replanning": "Already present in BFS/Session; multi-step Beam not implemented. C37 corrected to partial existing capability.",
+    "multi_goal_value": "Two-step synthetic counterexample reproduced; cap case removes direct-score advantage. New production evaluation not implemented.",
+    "goal_hysteresis": "Proposed, not implemented. Must break on known danger or invalid target.",
+    "beam": "Retained as later experiment; H=3/B=5 unvalidated.",
+    "historical_rollbacks": "Rejected; only unexecuted future plans may change.",
+    "match_attempts": "Already attempted in previous round; blocked by DDS. Paired ablation not built. C41 corrected to partial attempts, no match acceptance."
+  },
+  "boundaries": {
+    "practice_modified": false,
+    "main_modified": false,
+    "code_pr_changed": false,
+    "new_branches_created": false,
+    "new_real_model_calls": 0,
+    "new_real_matches": 0
+  }
+}

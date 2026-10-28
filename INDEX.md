@@ -1,5 +1,7 @@
 # 分支文件总索引
 
+[2026-10-28新增内容复核](docs/22-latest-branches-and-ahc-review-2026-10-28.md)：4分支、9次新提交；两步采集反例与R封顶检查，区分已有首步闭环和未实现Beam。
+
 [2026-10-28 AHC068→RMTC 策略迁移研究](docs/21-ahc068-to-rmtc-decision-study-2026-10-28.md)：已审查、已实现、已运行和待验证边界分离。
 
 [2026-10-28规则状态机与对手预测](docs/20-state-machines-and-opponent-prediction.md)：45个编号范围、5张图；实际加入权限状态和短轨迹预测，完成后重试参考车及标准陪练。两项因DDS权限未开局，无有效胜率。
@@ -171,3 +173,9 @@
 | [checks/review-links-2026-10-28.json](checks/review-links-2026-10-28.json) |
 | [docs/20-state-machines-and-opponent-prediction.md](docs/20-state-machines-and-opponent-prediction.md) |
 | [checks/state-machine-coverage-2026-10-28.json](checks/state-machine-coverage-2026-10-28.json) |
+| [docs/21-ahc068-to-rmtc-decision-study-2026-10-28.md](docs/21-ahc068-to-rmtc-decision-study-2026-10-28.md) |
+| [docs/22-latest-branches-and-ahc-review-2026-10-28.md](docs/22-latest-branches-and-ahc-review-2026-10-28.md) |
+| [scripts/ahc_two_tick_probe.cpp](scripts/ahc_two_tick_probe.cpp) |
+| [checks/ahc-two-tick-probe-2026-10-28.json](checks/ahc-two-tick-probe-2026-10-28.json) |
+| [checks/branch-update-review-2026-10-28.json](checks/branch-update-review-2026-10-28.json) |
+| [checks/ahc-review-links-2026-10-28.json](checks/ahc-review-links-2026-10-28.json) |
