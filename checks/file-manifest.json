@@ -38,9 +38,9 @@
     },
     {
       "path": "README.md",
-      "bytes": 5875,
-      "sha256": "62cf3b3136e3c6e36c42e937e855eeacae8411a500b10b020d85c4680bf9ef45",
-      "git_blob_sha": "da18c0e70b6709c48d84a2e8620cbc193d67b393",
+      "bytes": 6141,
+      "sha256": "5287eb4fb649a304fca03a0bdf428a6dee99576998dc334426dc24b208ec7a66",
+      "git_blob_sha": "07ffcdb374d4ee5d9496873ee1640f4cf000f82b",
       "mode": "100644"
     },
     {
@@ -94,9 +94,9 @@
     },
     {
       "path": "checks/incoming-review-links-2026-10-28.json",
-      "bytes": 1111,
-      "sha256": "9184ad74fba9c611e8ef73e8f71ead297e49455bd1c3c9e2b39123ffce865aa6",
-      "git_blob_sha": "2df95cff0d81dd48c95e96947aa4e6a3bdce2f1c",
+      "bytes": 1175,
+      "sha256": "da469a0af206099601aa73868bdb85417e1d42a1b0ea9a3182a19ae8043d4e99",
+      "git_blob_sha": "d5ded52950510f01f965d0a2b0e175194deac0b8",
       "mode": "100644"
     },
     {
@@ -374,9 +374,9 @@
     },
     {
       "path": "docs/18-conversation-and-implementation.md",
-      "bytes": 35144,
-      "sha256": "4f5df817d6eb73fa9fe454d11a93c6c25717a3e0b6c5497bdaa8cebc31d2a881",
-      "git_blob_sha": "8866bba39c68a740f840e3387d0d1217cd097f63",
+      "bytes": 36428,
+      "sha256": "73927677f419cd0aeff1fb3a38ce91e369e529fd34a414ac7241b2beb5e11957",
+      "git_blob_sha": "0ccde2e0f5a7805b3dd9e803b0b896bac22d109f",
       "mode": "100644"
     },
     {
@@ -419,6 +419,13 @@
       "bytes": 7570,
       "sha256": "e6b26e149b9e8a0b028640152a6e8ab14abf761ba2701824de8e45aeea5a374b",
       "git_blob_sha": "5336ccea40eabeb812f6dd0bd5a86f4040ecfe68",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/25-motion-loops-and-recovery-2026-10-28.md",
+      "bytes": 4386,
+      "sha256": "457bfee49aea96c8d553b12d07ec7a5cc7e8b272823c392007dcb77906130f89",
+      "git_blob_sha": "590065671a03da8c19251367d1ee9f94de4dd011",
       "mode": "100644"
     },
     {

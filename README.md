@@ -1,5 +1,7 @@
 # RMTC · ANALYSIS
 
+[上沿往返与无进展脱困](docs/25-motion-loops-and-recovery-2026-10-28.md)：补足成功MOVE往返漏检；同类压力用例500→16Tick，争格任务Tick43完成，正常绕路保留。另60局新地图验证，不冒充用户原地图或原版裁判。
+
 [2026-10-28多风格对战与参数封存](docs/24-multistyle-arena-tuning-and-gateway-2026-10-28.md)：910局包含训练和消融，首轮失败保留；新留出对抗平均33.54→34.72，非官方标准车。三Tick搜索保留但训练选择关闭；practice18原件不变，新公告字段回归通过。
 
 [用户本机502排查与独立出网检查](docs/18-conversation-and-implementation.md#22-用户本机已执行移动最新失败是http502)：本机ROS已实际执行移动，3次完成请求均HTTP502而非35秒客户端超时。新增诊断入口，旧启动器拒绝执行，原practice不变；上游根因仍待本机检查。

@@ -1,6 +1,6 @@
 {
   "date": "2026-10-28",
-  "checked_relative_links": 324,
+  "checked_relative_links": 327,
   "markdown_files": [
     "ANALYSIS/AGENTS.md",
     "ANALYSIS/INDEX.md",
@@ -9,6 +9,7 @@
     "ANALYSIS/docs/21-ahc068-to-rmtc-decision-study-2026-10-28.md",
     "ANALYSIS/docs/23-incoming-analysis-and-planning-2026-10-28.md",
     "ANALYSIS/docs/24-multistyle-arena-tuning-and-gateway-2026-10-28.md",
+    "ANALYSIS/docs/25-motion-loops-and-recovery-2026-10-28.md",
     "ANALYSIS/materials/addenda/2026-10-28-analysis/README.md",
     "ANALYSIS/materials/addenda/2026-10-28-gateway-notice.md",
     "COMPARISON/AGENTS.md",
