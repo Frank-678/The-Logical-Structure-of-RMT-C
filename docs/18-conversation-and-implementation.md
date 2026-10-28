@@ -292,3 +292,17 @@ COMPARISON的[采用与否决记录](https://github.com/Frank-678/The-Logical-St
 ## 30 收尾时发现新日志提交
 
 只读复核最新两场的AI/score及2a4ed整场frames/referee：A25次real成功，500Tick原始分45；1000行是500份完全重复。27835场AI全502而score引用2a4ed，不能混用。未改practice，也未把用户上传的一场当作本工具新补丁原版复测或正式胜率。[来源/限制](27-late-practice-log-integrity-2026-10-28.md)。
+
+## 31 用户要求分析文档归另仓，保留代码强相关文件
+
+用户点名LESSONS、MATERIALS_CHECK、NAVIGATION、PLANNING、REAL_TEST应位于ANALYSIS；随后明确所有分析类内容归另一仓库、与代码强相关的除外。按此迁移五篇，拆ARENA历史结论，14份归档JSON原字节迁入checks/code-results；运行/源码/规则接口、测试用法与正在被脚本读取的selected-parameters保留代码仓库。修正跨仓引用，AGENTS记录这次明确的有限入口授权，不扩散其他预备历史。
+
+## 32 用户称当前调用完美成功，要求提高公告收益
+
+新日志A26/29次真实成功，复杂地图A55分、D1630领先同分D席620，已拿无双但Tick89才获/99到期。不能凭HTTP次数推断事件均被解析采纳，也无无模型对照。源码确实只在堡垒active后考虑收益；补未来公告的提前赶路/驻留，只走首步，不能提前领奖。新事件回包诊断把请求/采纳Tick、拒绝/部分解释、迟到/到期与当前效果分开，A端输出由run.sh自动留存，原practice不变。
+
+首版同时改active计算，59011组均分略降，保留失败并恢复生效后的旧策略；另69013组验证。策略与模型配置分开，用户本机Key、代理、阶段不从对话复制到Git。公开数值/边界与结果在[公告利用](../docs/implementation/EVENT_USE.md)。
+
+## 33 用户问第一阶段全吃为何30、曾38后回降
+
+截图036ac场的配置/score/scoring.log均为stage1、R200、40分；frames每Tick各有stage1和stage2消息。Tick66–68的R190同时显示38和30，Tick100的R200同时40和30。原网页接收同session就覆盖，没有阶段筛选。属于计分发布/观赛状态不一致，不能解释为机器人少吃、被扣分或LLM不成功。三场日志复现，未修改原裁判、未无证据归因具体进程。[证据](../docs/implementation/SCOREBOARD.md)。

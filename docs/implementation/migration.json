@@ -1,0 +1,117 @@
+{
+  "date": "2026-10-28",
+  "authorization": "User explicitly requested these five documents in ANALYSIS; code links to this directory are within this narrow authorization",
+  "files": [
+    {
+      "name": "LESSONS.md",
+      "source_code_commit": "826c4da5afa74d038b7ffad032da570e682d31a1",
+      "original_sha256": "3a50fa93bf958415bb1532d97df91d359b3c29f59f03afe789574a318c2cc6d9",
+      "destination": "docs/implementation/LESSONS.md",
+      "migrated_sha256": "31821db4c019a774383b487bf862bc2bc8664c3339b7247929db966e20609695"
+    },
+    {
+      "name": "MATERIALS_CHECK.md",
+      "source_code_commit": "826c4da5afa74d038b7ffad032da570e682d31a1",
+      "original_sha256": "c7390c9efacc383a8f4275df630925b3955f09fbb21f079cbb6ef0d2f86a87bf",
+      "destination": "docs/implementation/MATERIALS_CHECK.md",
+      "migrated_sha256": "b5329d4795b654c344ce3cb38132ce97bac2410159d2226bc4f71a352763422c"
+    },
+    {
+      "name": "NAVIGATION.md",
+      "source_code_commit": "826c4da5afa74d038b7ffad032da570e682d31a1",
+      "original_sha256": "a1b5bb2162e897375f666aaf1927fa246b94ccdf6f687a6c82287a1c7a344320",
+      "destination": "docs/implementation/NAVIGATION.md",
+      "migrated_sha256": "0e4c589a7ec6bd32d0439624679043ce7e65e2133203aabdfd1ade9b76996d50"
+    },
+    {
+      "name": "PLANNING.md",
+      "source_code_commit": "826c4da5afa74d038b7ffad032da570e682d31a1",
+      "original_sha256": "198ec1c172848c31292fee1a8eb7293da0f172955f75982462fcdf1471c29304",
+      "destination": "docs/implementation/PLANNING.md",
+      "migrated_sha256": "925099d9bb9ff75c688e17e481632153496c652ec4d58fe791b7657f449e56ea"
+    },
+    {
+      "name": "REAL_TEST.md",
+      "source_code_commit": "826c4da5afa74d038b7ffad032da570e682d31a1",
+      "original_sha256": "f0ca918626a5cf15ca2d36ae6072cfd34dfb7cb9291eb7dc8a1f0804f8ad0786",
+      "destination": "docs/implementation/REAL_TEST.md",
+      "migrated_sha256": "3eff67dfc3567196e68ec6de5e8816f05325ce93a6df40c33e35e4b3fee1b1f1"
+    }
+  ],
+  "completed_date": "2026-10-29",
+  "archived_results": [
+    {
+      "path": "tests/results/real-ai-retest-2026-10-28.json",
+      "destination": "checks/code-results/real-ai-retest-2026-10-28.json",
+      "sha256": "7fd153d2cc247da0f2735251f2498049b77f5fc4df9210c8bb77331939d9dd0f"
+    },
+    {
+      "path": "tests/results/arena-2026-10-28-pilot.json",
+      "destination": "checks/code-results/arena-2026-10-28-pilot.json",
+      "sha256": "4304f89059891ac6242d5210054b2769c7ef4e0ddd808777cf0e4f1d1dca5e8e"
+    },
+    {
+      "path": "tests/results/user-ai-502-2026-10-28.json",
+      "destination": "checks/code-results/user-ai-502-2026-10-28.json",
+      "sha256": "d068ee5159656882b680b4d8b6aa5e4e57b151b570a5c39a26585bb6a343187f"
+    },
+    {
+      "path": "tests/results/unstuck-2026-10-28.json",
+      "destination": "checks/code-results/unstuck-2026-10-28.json",
+      "sha256": "ec82ce2dd6d597df7659d57957f9fd317939eeededa6e11a8136bddac83614eb"
+    },
+    {
+      "path": "tests/results/real-ai-2026-10-28.json",
+      "destination": "checks/code-results/real-ai-2026-10-28.json",
+      "sha256": "41a8e5b3997626063947466572aa547fd2d3086d959151c8b3e7db53c8c592e6"
+    },
+    {
+      "path": "tests/results/risk-maps-2026-10-28.json",
+      "destination": "checks/code-results/risk-maps-2026-10-28.json",
+      "sha256": "5f52fe5352f62325b5714d35d798672161d8f77e1fa7c0bc13b5fa16db40f376"
+    },
+    {
+      "path": "tests/results/unstuck-maps-2026-10-28.json",
+      "destination": "checks/code-results/unstuck-maps-2026-10-28.json",
+      "sha256": "82ceba7343a408331a1af76e3ce5d146f20ce214eb28254ee2f662b70fb2eec6"
+    },
+    {
+      "path": "tests/results/verification-2026-10-28.json",
+      "destination": "checks/code-results/verification-2026-10-28.json",
+      "sha256": "54dc9ddf0c54e91c4775ffa9f63b562b382ec8747b128024ddd82bf89c7e16fd"
+    },
+    {
+      "path": "tests/results/planning-2026-10-28.json",
+      "destination": "checks/code-results/planning-2026-10-28.json",
+      "sha256": "cfd2b451f14b3699414670e239dcdb2af3a9836e05991059c3b207b6214b0154"
+    },
+    {
+      "path": "tests/results/unstuck-verification-2026-10-28.json",
+      "destination": "checks/code-results/unstuck-verification-2026-10-28.json",
+      "sha256": "5c69bdb10cff32fd3d0ffc9b29a455489f393d081addc70aa8615794158a6fd5"
+    },
+    {
+      "path": "tests/results/risk-verification-2026-10-28.json",
+      "destination": "checks/code-results/risk-verification-2026-10-28.json",
+      "sha256": "02fc69fb28c7155b0ac161fb94c4a0eb08bb1fa4e2e05437b7ddefda54eb5e7a"
+    },
+    {
+      "path": "tests/results/arena-2026-10-28.json",
+      "destination": "checks/code-results/arena-2026-10-28.json",
+      "sha256": "bf615fddf4ae225ba340d177023ba3b73a622650d51f55d70ff89766e103272a"
+    },
+    {
+      "path": "tests/results/risk-2026-10-28.json",
+      "destination": "checks/code-results/risk-2026-10-28.json",
+      "sha256": "48eb0f54a6e101835e1cf6d14c67e6c3e7a2869f0f0078ef045232ddfc4fd5c6"
+    },
+    {
+      "path": "tests/results/state-match-attempt-2026-10-28.json",
+      "destination": "checks/code-results/state-match-attempt-2026-10-28.json",
+      "sha256": "bd475754e053e51988d516636ab7717fd471bfa882763f73f3e7b3eaed63c10f"
+    }
+  ],
+  "split_documents": [
+    "docs/implementation/ARENA_RESULTS.md"
+  ]
+}

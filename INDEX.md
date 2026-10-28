@@ -195,3 +195,19 @@
 
 | [docs/27-late-practice-log-integrity-2026-10-28.md](docs/27-late-practice-log-integrity-2026-10-28.md) |
 | [checks/late-user-log-2026-10-28.json](checks/late-user-log-2026-10-28.json) |
+
+## 代码研究文档迁入
+
+| 文件 |
+| --- |
+| [docs/implementation/README.md](docs/implementation/README.md) |
+| [docs/implementation/LESSONS.md](docs/implementation/LESSONS.md) |
+| [docs/implementation/MATERIALS_CHECK.md](docs/implementation/MATERIALS_CHECK.md) |
+| [docs/implementation/NAVIGATION.md](docs/implementation/NAVIGATION.md) |
+| [docs/implementation/PLANNING.md](docs/implementation/PLANNING.md) |
+| [docs/implementation/REAL_TEST.md](docs/implementation/REAL_TEST.md) |
+
+| [docs/implementation/ARENA_RESULTS.md](docs/implementation/ARENA_RESULTS.md) |
+| [docs/implementation/EVENT_USE.md](docs/implementation/EVENT_USE.md) |
+| [docs/implementation/SCOREBOARD.md](docs/implementation/SCOREBOARD.md) |
+| [checks/phase-and-event-audit-2026-10-29.json](checks/phase-and-event-audit-2026-10-29.json) |

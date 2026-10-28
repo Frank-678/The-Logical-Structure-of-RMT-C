@@ -1,0 +1,2480 @@
+{
+  "date": "2026-10-29",
+  "baseline_code": "826c4da5afa74d038b7ffad032da570e682d31a1",
+  "scope": "Synthetic corridor with manual delayed announcement oracle; not user map, real LLM or official referee; other cars inactive, production rules unchanged",
+  "versions": {
+    "before": {
+      "cases": [
+        {
+          "empowered_action_windows": 5,
+          "gain_settlement_tick": 14,
+          "interpretation_delay": 0,
+          "result": {
+            "D": 0.0,
+            "M": 0,
+            "R": 130.0,
+            "attacks": 0,
+            "blocked": 0,
+            "deaths": 0,
+            "defends": 3,
+            "hp": 100.0,
+            "invalid": 0,
+            "moves": 27,
+            "qualified_M": 0,
+            "score": 30.0,
+            "seat": "A"
+          },
+          "trace": [
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                3,
+                4
+              ],
+              "reason": "collect_resource",
+              "tick": 0
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                2,
+                4
+              ],
+              "reason": "explore",
+              "tick": 1
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                1,
+                4
+              ],
+              "reason": "explore",
+              "tick": 2
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                0,
+                4
+              ],
+              "reason": "explore",
+              "tick": 3
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                1,
+                4
+              ],
+              "reason": "explore",
+              "tick": 4
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                2,
+                4
+              ],
+              "reason": "capture_fortress",
+              "tick": 5
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                3,
+                4
+              ],
+              "reason": "capture_fortress",
+              "tick": 6
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                4,
+                4
+              ],
+              "reason": "capture_fortress",
+              "tick": 7
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                5,
+                4
+              ],
+              "reason": "capture_fortress",
+              "tick": 8
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                6,
+                4
+              ],
+              "reason": "capture_fortress",
+              "tick": 9
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                7,
+                4
+              ],
+              "reason": "capture_fortress",
+              "tick": 10
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                8,
+                4
+              ],
+              "reason": "capture_fortress",
+              "tick": 11
+            },
+            {
+              "action": {
+                "action": "defend"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                8,
+                4
+              ],
+              "reason": "hold_fortress",
+              "tick": 12
+            },
+            {
+              "action": {
+                "action": "defend"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                8,
+                4
+              ],
+              "reason": "hold_fortress",
+              "tick": 13
+            },
+            {
+              "action": {
+                "action": "defend"
+              },
+              "empowered_after_settlement": true,
+              "position": [
+                8,
+                4
+              ],
+              "reason": "hold_fortress",
+              "tick": 14
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": true,
+              "position": [
+                7,
+                4
+              ],
+              "reason": "explore",
+              "tick": 15
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": true,
+              "position": [
+                6,
+                4
+              ],
+              "reason": "explore",
+              "tick": 16
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": true,
+              "position": [
+                5,
+                4
+              ],
+              "reason": "explore",
+              "tick": 17
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": true,
+              "position": [
+                4,
+                4
+              ],
+              "reason": "explore",
+              "tick": 18
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                3,
+                4
+              ],
+              "reason": "explore",
+              "tick": 19
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                2,
+                4
+              ],
+              "reason": "explore",
+              "tick": 20
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                1,
+                4
+              ],
+              "reason": "explore",
+              "tick": 21
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                0,
+                4
+              ],
+              "reason": "explore",
+              "tick": 22
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                1,
+                4
+              ],
+              "reason": "explore",
+              "tick": 23
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                0,
+                4
+              ],
+              "reason": "explore",
+              "tick": 24
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                1,
+                4
+              ],
+              "reason": "explore",
+              "tick": 25
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                2,
+                4
+              ],
+              "reason": "explore",
+              "tick": 26
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                3,
+                4
+              ],
+              "reason": "explore",
+              "tick": 27
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                4,
+                4
+              ],
+              "reason": "explore",
+              "tick": 28
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                5,
+                4
+              ],
+              "reason": "explore",
+              "tick": 29
+            }
+          ]
+        },
+        {
+          "empowered_action_windows": 5,
+          "gain_settlement_tick": 14,
+          "interpretation_delay": 8,
+          "result": {
+            "D": 0.0,
+            "M": 0,
+            "R": 130.0,
+            "attacks": 0,
+            "blocked": 0,
+            "deaths": 0,
+            "defends": 3,
+            "hp": 100.0,
+            "invalid": 0,
+            "moves": 27,
+            "qualified_M": 0,
+            "score": 30.0,
+            "seat": "A"
+          },
+          "trace": [
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                3,
+                4
+              ],
+              "reason": "collect_resource",
+              "tick": 0
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                2,
+                4
+              ],
+              "reason": "explore",
+              "tick": 1
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                1,
+                4
+              ],
+              "reason": "explore",
+              "tick": 2
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                0,
+                4
+              ],
+              "reason": "explore",
+              "tick": 3
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                1,
+                4
+              ],
+              "reason": "explore",
+              "tick": 4
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                2,
+                4
+              ],
+              "reason": "explore",
+              "tick": 5
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                3,
+                4
+              ],
+              "reason": "explore",
+              "tick": 6
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                4,
+                4
+              ],
+              "reason": "explore",
+              "tick": 7
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                5,
+                4
+              ],
+              "reason": "capture_fortress",
+              "tick": 8
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                6,
+                4
+              ],
+              "reason": "capture_fortress",
+              "tick": 9
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                7,
+                4
+              ],
+              "reason": "capture_fortress",
+              "tick": 10
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                8,
+                4
+              ],
+              "reason": "capture_fortress",
+              "tick": 11
+            },
+            {
+              "action": {
+                "action": "defend"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                8,
+                4
+              ],
+              "reason": "hold_fortress",
+              "tick": 12
+            },
+            {
+              "action": {
+                "action": "defend"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                8,
+                4
+              ],
+              "reason": "hold_fortress",
+              "tick": 13
+            },
+            {
+              "action": {
+                "action": "defend"
+              },
+              "empowered_after_settlement": true,
+              "position": [
+                8,
+                4
+              ],
+              "reason": "hold_fortress",
+              "tick": 14
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": true,
+              "position": [
+                7,
+                4
+              ],
+              "reason": "explore",
+              "tick": 15
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": true,
+              "position": [
+                6,
+                4
+              ],
+              "reason": "explore",
+              "tick": 16
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": true,
+              "position": [
+                5,
+                4
+              ],
+              "reason": "explore",
+              "tick": 17
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": true,
+              "position": [
+                4,
+                4
+              ],
+              "reason": "explore",
+              "tick": 18
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                3,
+                4
+              ],
+              "reason": "explore",
+              "tick": 19
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                2,
+                4
+              ],
+              "reason": "explore",
+              "tick": 20
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                1,
+                4
+              ],
+              "reason": "explore",
+              "tick": 21
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                0,
+                4
+              ],
+              "reason": "explore",
+              "tick": 22
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                1,
+                4
+              ],
+              "reason": "explore",
+              "tick": 23
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                0,
+                4
+              ],
+              "reason": "explore",
+              "tick": 24
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                1,
+                4
+              ],
+              "reason": "explore",
+              "tick": 25
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                2,
+                4
+              ],
+              "reason": "explore",
+              "tick": 26
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                3,
+                4
+              ],
+              "reason": "explore",
+              "tick": 27
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                4,
+                4
+              ],
+              "reason": "explore",
+              "tick": 28
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                5,
+                4
+              ],
+              "reason": "explore",
+              "tick": 29
+            }
+          ]
+        },
+        {
+          "empowered_action_windows": 0,
+          "gain_settlement_tick": -1,
+          "interpretation_delay": 20,
+          "result": {
+            "D": 0.0,
+            "M": 0,
+            "R": 130.0,
+            "attacks": 0,
+            "blocked": 0,
+            "deaths": 0,
+            "defends": 0,
+            "hp": 100.0,
+            "invalid": 0,
+            "moves": 30,
+            "qualified_M": 0,
+            "score": 30.0,
+            "seat": "A"
+          },
+          "trace": [
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                3,
+                4
+              ],
+              "reason": "collect_resource",
+              "tick": 0
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                2,
+                4
+              ],
+              "reason": "explore",
+              "tick": 1
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                1,
+                4
+              ],
+              "reason": "explore",
+              "tick": 2
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                0,
+                4
+              ],
+              "reason": "explore",
+              "tick": 3
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                1,
+                4
+              ],
+              "reason": "explore",
+              "tick": 4
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                2,
+                4
+              ],
+              "reason": "explore",
+              "tick": 5
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                3,
+                4
+              ],
+              "reason": "explore",
+              "tick": 6
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                4,
+                4
+              ],
+              "reason": "explore",
+              "tick": 7
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                5,
+                4
+              ],
+              "reason": "explore",
+              "tick": 8
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                6,
+                4
+              ],
+              "reason": "explore",
+              "tick": 9
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                7,
+                4
+              ],
+              "reason": "explore",
+              "tick": 10
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                8,
+                4
+              ],
+              "reason": "explore",
+              "tick": 11
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                7,
+                4
+              ],
+              "reason": "explore",
+              "tick": 12
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                8,
+                4
+              ],
+              "reason": "explore",
+              "tick": 13
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                7,
+                4
+              ],
+              "reason": "explore",
+              "tick": 14
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                6,
+                4
+              ],
+              "reason": "explore",
+              "tick": 15
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                5,
+                4
+              ],
+              "reason": "explore",
+              "tick": 16
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                4,
+                4
+              ],
+              "reason": "explore",
+              "tick": 17
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                3,
+                4
+              ],
+              "reason": "explore",
+              "tick": 18
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                2,
+                4
+              ],
+              "reason": "explore",
+              "tick": 19
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                1,
+                4
+              ],
+              "reason": "explore",
+              "tick": 20
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                0,
+                4
+              ],
+              "reason": "explore",
+              "tick": 21
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                1,
+                4
+              ],
+              "reason": "explore",
+              "tick": 22
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                0,
+                4
+              ],
+              "reason": "explore",
+              "tick": 23
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                1,
+                4
+              ],
+              "reason": "explore",
+              "tick": 24
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                2,
+                4
+              ],
+              "reason": "explore",
+              "tick": 25
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                3,
+                4
+              ],
+              "reason": "explore",
+              "tick": 26
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                4,
+                4
+              ],
+              "reason": "explore",
+              "tick": 27
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                5,
+                4
+              ],
+              "reason": "explore",
+              "tick": 28
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                6,
+                4
+              ],
+              "reason": "explore",
+              "tick": 29
+            }
+          ]
+        }
+      ],
+      "binary_sha256": "68542a7cb4a4457247aeba42106bfdf22e87080c3d54d0ab534de0f78c05c455"
+    },
+    "after": {
+      "cases": [
+        {
+          "empowered_action_windows": 11,
+          "gain_settlement_tick": 8,
+          "interpretation_delay": 0,
+          "result": {
+            "D": 0.0,
+            "M": 0,
+            "R": 130.0,
+            "attacks": 0,
+            "blocked": 0,
+            "deaths": 0,
+            "defends": 5,
+            "hp": 100.0,
+            "invalid": 0,
+            "moves": 25,
+            "qualified_M": 0,
+            "score": 30.0,
+            "seat": "A"
+          },
+          "trace": [
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                5,
+                4
+              ],
+              "reason": "prepare_fortress",
+              "tick": 0
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                6,
+                4
+              ],
+              "reason": "prepare_fortress",
+              "tick": 1
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                7,
+                4
+              ],
+              "reason": "prepare_fortress",
+              "tick": 2
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                8,
+                4
+              ],
+              "reason": "prepare_fortress",
+              "tick": 3
+            },
+            {
+              "action": {
+                "action": "defend"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                8,
+                4
+              ],
+              "reason": "hold_fortress",
+              "tick": 4
+            },
+            {
+              "action": {
+                "action": "defend"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                8,
+                4
+              ],
+              "reason": "hold_fortress",
+              "tick": 5
+            },
+            {
+              "action": {
+                "action": "defend"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                8,
+                4
+              ],
+              "reason": "hold_fortress",
+              "tick": 6
+            },
+            {
+              "action": {
+                "action": "defend"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                8,
+                4
+              ],
+              "reason": "hold_fortress",
+              "tick": 7
+            },
+            {
+              "action": {
+                "action": "defend"
+              },
+              "empowered_after_settlement": true,
+              "position": [
+                8,
+                4
+              ],
+              "reason": "hold_fortress",
+              "tick": 8
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": true,
+              "position": [
+                7,
+                4
+              ],
+              "reason": "collect_resource",
+              "tick": 9
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": true,
+              "position": [
+                6,
+                4
+              ],
+              "reason": "collect_resource",
+              "tick": 10
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": true,
+              "position": [
+                5,
+                4
+              ],
+              "reason": "collect_resource",
+              "tick": 11
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": true,
+              "position": [
+                4,
+                4
+              ],
+              "reason": "collect_resource",
+              "tick": 12
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": true,
+              "position": [
+                3,
+                4
+              ],
+              "reason": "collect_resource",
+              "tick": 13
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": true,
+              "position": [
+                2,
+                4
+              ],
+              "reason": "explore",
+              "tick": 14
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": true,
+              "position": [
+                1,
+                4
+              ],
+              "reason": "explore",
+              "tick": 15
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": true,
+              "position": [
+                0,
+                4
+              ],
+              "reason": "explore",
+              "tick": 16
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": true,
+              "position": [
+                1,
+                4
+              ],
+              "reason": "explore",
+              "tick": 17
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": true,
+              "position": [
+                2,
+                4
+              ],
+              "reason": "explore",
+              "tick": 18
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                3,
+                4
+              ],
+              "reason": "explore",
+              "tick": 19
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                2,
+                4
+              ],
+              "reason": "explore",
+              "tick": 20
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                1,
+                4
+              ],
+              "reason": "explore",
+              "tick": 21
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                0,
+                4
+              ],
+              "reason": "explore",
+              "tick": 22
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                1,
+                4
+              ],
+              "reason": "explore",
+              "tick": 23
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                0,
+                4
+              ],
+              "reason": "explore",
+              "tick": 24
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                1,
+                4
+              ],
+              "reason": "unstuck_relocate",
+              "tick": 25
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                2,
+                4
+              ],
+              "reason": "unstuck_relocate",
+              "tick": 26
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                3,
+                4
+              ],
+              "reason": "unstuck_relocate",
+              "tick": 27
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                4,
+                4
+              ],
+              "reason": "unstuck_relocate",
+              "tick": 28
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                5,
+                4
+              ],
+              "reason": "unstuck_relocate",
+              "tick": 29
+            }
+          ]
+        },
+        {
+          "empowered_action_windows": 5,
+          "gain_settlement_tick": 14,
+          "interpretation_delay": 8,
+          "result": {
+            "D": 0.0,
+            "M": 0,
+            "R": 130.0,
+            "attacks": 0,
+            "blocked": 0,
+            "deaths": 0,
+            "defends": 3,
+            "hp": 100.0,
+            "invalid": 0,
+            "moves": 27,
+            "qualified_M": 0,
+            "score": 30.0,
+            "seat": "A"
+          },
+          "trace": [
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                3,
+                4
+              ],
+              "reason": "collect_resource",
+              "tick": 0
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                2,
+                4
+              ],
+              "reason": "explore",
+              "tick": 1
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                1,
+                4
+              ],
+              "reason": "explore",
+              "tick": 2
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                0,
+                4
+              ],
+              "reason": "explore",
+              "tick": 3
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                1,
+                4
+              ],
+              "reason": "explore",
+              "tick": 4
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                2,
+                4
+              ],
+              "reason": "explore",
+              "tick": 5
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                3,
+                4
+              ],
+              "reason": "explore",
+              "tick": 6
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                4,
+                4
+              ],
+              "reason": "explore",
+              "tick": 7
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                5,
+                4
+              ],
+              "reason": "capture_fortress",
+              "tick": 8
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                6,
+                4
+              ],
+              "reason": "capture_fortress",
+              "tick": 9
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                7,
+                4
+              ],
+              "reason": "capture_fortress",
+              "tick": 10
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                8,
+                4
+              ],
+              "reason": "capture_fortress",
+              "tick": 11
+            },
+            {
+              "action": {
+                "action": "defend"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                8,
+                4
+              ],
+              "reason": "hold_fortress",
+              "tick": 12
+            },
+            {
+              "action": {
+                "action": "defend"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                8,
+                4
+              ],
+              "reason": "hold_fortress",
+              "tick": 13
+            },
+            {
+              "action": {
+                "action": "defend"
+              },
+              "empowered_after_settlement": true,
+              "position": [
+                8,
+                4
+              ],
+              "reason": "hold_fortress",
+              "tick": 14
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": true,
+              "position": [
+                7,
+                4
+              ],
+              "reason": "explore",
+              "tick": 15
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": true,
+              "position": [
+                6,
+                4
+              ],
+              "reason": "explore",
+              "tick": 16
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": true,
+              "position": [
+                5,
+                4
+              ],
+              "reason": "explore",
+              "tick": 17
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": true,
+              "position": [
+                4,
+                4
+              ],
+              "reason": "explore",
+              "tick": 18
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                3,
+                4
+              ],
+              "reason": "explore",
+              "tick": 19
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                2,
+                4
+              ],
+              "reason": "explore",
+              "tick": 20
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                1,
+                4
+              ],
+              "reason": "explore",
+              "tick": 21
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                0,
+                4
+              ],
+              "reason": "explore",
+              "tick": 22
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                1,
+                4
+              ],
+              "reason": "explore",
+              "tick": 23
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                0,
+                4
+              ],
+              "reason": "explore",
+              "tick": 24
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                1,
+                4
+              ],
+              "reason": "explore",
+              "tick": 25
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                2,
+                4
+              ],
+              "reason": "explore",
+              "tick": 26
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                3,
+                4
+              ],
+              "reason": "explore",
+              "tick": 27
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                4,
+                4
+              ],
+              "reason": "explore",
+              "tick": 28
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                5,
+                4
+              ],
+              "reason": "explore",
+              "tick": 29
+            }
+          ]
+        },
+        {
+          "empowered_action_windows": 0,
+          "gain_settlement_tick": -1,
+          "interpretation_delay": 20,
+          "result": {
+            "D": 0.0,
+            "M": 0,
+            "R": 130.0,
+            "attacks": 0,
+            "blocked": 0,
+            "deaths": 0,
+            "defends": 0,
+            "hp": 100.0,
+            "invalid": 0,
+            "moves": 30,
+            "qualified_M": 0,
+            "score": 30.0,
+            "seat": "A"
+          },
+          "trace": [
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                3,
+                4
+              ],
+              "reason": "collect_resource",
+              "tick": 0
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                2,
+                4
+              ],
+              "reason": "explore",
+              "tick": 1
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                1,
+                4
+              ],
+              "reason": "explore",
+              "tick": 2
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                0,
+                4
+              ],
+              "reason": "explore",
+              "tick": 3
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                1,
+                4
+              ],
+              "reason": "explore",
+              "tick": 4
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                2,
+                4
+              ],
+              "reason": "explore",
+              "tick": 5
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                3,
+                4
+              ],
+              "reason": "explore",
+              "tick": 6
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                4,
+                4
+              ],
+              "reason": "explore",
+              "tick": 7
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                5,
+                4
+              ],
+              "reason": "explore",
+              "tick": 8
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                6,
+                4
+              ],
+              "reason": "explore",
+              "tick": 9
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                7,
+                4
+              ],
+              "reason": "explore",
+              "tick": 10
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                8,
+                4
+              ],
+              "reason": "explore",
+              "tick": 11
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                7,
+                4
+              ],
+              "reason": "explore",
+              "tick": 12
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                8,
+                4
+              ],
+              "reason": "explore",
+              "tick": 13
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                7,
+                4
+              ],
+              "reason": "explore",
+              "tick": 14
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                6,
+                4
+              ],
+              "reason": "explore",
+              "tick": 15
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                5,
+                4
+              ],
+              "reason": "explore",
+              "tick": 16
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                4,
+                4
+              ],
+              "reason": "explore",
+              "tick": 17
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                3,
+                4
+              ],
+              "reason": "explore",
+              "tick": 18
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                2,
+                4
+              ],
+              "reason": "explore",
+              "tick": 19
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                1,
+                4
+              ],
+              "reason": "explore",
+              "tick": 20
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                0,
+                4
+              ],
+              "reason": "explore",
+              "tick": 21
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                1,
+                4
+              ],
+              "reason": "explore",
+              "tick": 22
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "left"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                0,
+                4
+              ],
+              "reason": "explore",
+              "tick": 23
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                1,
+                4
+              ],
+              "reason": "explore",
+              "tick": 24
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                2,
+                4
+              ],
+              "reason": "explore",
+              "tick": 25
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                3,
+                4
+              ],
+              "reason": "explore",
+              "tick": 26
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                4,
+                4
+              ],
+              "reason": "explore",
+              "tick": 27
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                5,
+                4
+              ],
+              "reason": "explore",
+              "tick": 28
+            },
+            {
+              "action": {
+                "action": "move",
+                "direction": "right"
+              },
+              "empowered_after_settlement": false,
+              "position": [
+                6,
+                4
+              ],
+              "reason": "explore",
+              "tick": 29
+            }
+          ]
+        }
+      ],
+      "binary_sha256": "2228729c2105ec03d35315bd7429b980da0dfe0c20e573e46694857d09b7d04d"
+    }
+  },
+  "source_sha256": {
+    "cst/tests/announcement_benchmark.cpp": "131e2a4db34e8163f9d98183654e82638497834ad7dc116b5616a38443a6ddca",
+    "cst/tests/arena.cpp": "04007f7d60832ae6a5af334c1285705b5cf4e740ce385b81fc231b1d416b1d51",
+    "cst/src/rmtc_bot/src/strategy.cpp": "88377f30d126d28c76d418c338d6ee75509d1e7aff3e412785d7970520efa781"
+  }
+}

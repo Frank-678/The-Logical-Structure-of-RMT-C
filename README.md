@@ -1,5 +1,9 @@
 # RMTC · ANALYSIS
 
+[第一阶段40/30显示混流](docs/implementation/SCOREBOARD.md) · [公告利用、前置抢点及失败/验证](docs/implementation/EVENT_USE.md)：按用户要求将分析与历史报告集中到本仓库，代码侧保留操作与接口说明。
+
+[迁入的研究文档、历史报告与公告复核](docs/implementation/README.md)：LESSONS、MATERIALS_CHECK、NAVIGATION、PLANNING、REAL_TEST。按本轮用户要求维护于此。
+
 [收尾新增用户日志复核](docs/27-late-practice-log-integrity-2026-10-28.md)：一场A25次真实网关成功，500份快照各重复一次；另一目录score场次不符，不能串场算成绩。用户实机记录不冒充本工具亲测。
 
 [七份字幕与假设风险逃路修复](docs/26-subtitle-counterexamples-and-risk-ordering-2026-10-28.md)：确认可能火线硬过滤缺陷并修复；32例对称变换/版与新地图验证，保留不可照搬规则和未解决项。

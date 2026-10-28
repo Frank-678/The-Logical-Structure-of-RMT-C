@@ -1,0 +1,624 @@
+{
+  "date": "2026-10-29",
+  "source_log_commit": "b6a4818fdb751bad0491be3fc532d1622df02b43",
+  "scope": "Read-only user-provided logs; never used as production strategy input; original practice unchanged",
+  "sessions": [
+    {
+      "folder": "practice-036ac763cdd14b26bef321a277b6e013",
+      "score_session": "practice-036ac763cdd14b26bef321a277b6e013",
+      "score_stage": 1,
+      "score_tick": 100,
+      "score_teams": [
+        {
+          "alive": true,
+          "effective_damage": 0.0,
+          "effects": [],
+          "hp": 100,
+          "invalid_actions": 0,
+          "mission_completed": 0,
+          "mission_completed_tasks": [],
+          "rank": 1,
+          "resource_value": 200.0,
+          "robot_id": "A",
+          "score": 40.0,
+          "team": "A",
+          "team_name": "Frank"
+        }
+      ],
+      "raw_frames": 200,
+      "different_session_tick_keys": 100,
+      "conflicting_stage_keys": 100,
+      "streams": {
+        "1": {
+          "samples": 100,
+          "max_score": 40.0,
+          "last": {
+            "tick": 100,
+            "stage": 1,
+            "R": 200.0,
+            "D": 0.0,
+            "score": 40.0
+          }
+        },
+        "2": {
+          "samples": 100,
+          "max_score": 30.0,
+          "last": {
+            "tick": 100,
+            "stage": 2,
+            "R": 200.0,
+            "D": 0.0,
+            "score": 30.0
+          }
+        }
+      },
+      "R190_examples": [
+        {
+          "tick": 66,
+          "stage": 1,
+          "R": 190.0,
+          "D": 0.0,
+          "score": 38.0
+        },
+        {
+          "tick": 67,
+          "stage": 1,
+          "R": 190.0,
+          "D": 0.0,
+          "score": 38.0
+        },
+        {
+          "tick": 68,
+          "stage": 1,
+          "R": 190.0,
+          "D": 0.0,
+          "score": 38.0
+        },
+        {
+          "tick": 69,
+          "stage": 1,
+          "R": 190.0,
+          "D": 0.0,
+          "score": 38.0
+        },
+        {
+          "tick": 70,
+          "stage": 1,
+          "R": 190.0,
+          "D": 0.0,
+          "score": 38.0
+        },
+        {
+          "tick": 71,
+          "stage": 1,
+          "R": 190.0,
+          "D": 0.0,
+          "score": 38.0
+        },
+        {
+          "tick": 72,
+          "stage": 1,
+          "R": 190.0,
+          "D": 0.0,
+          "score": 38.0
+        },
+        {
+          "tick": 73,
+          "stage": 1,
+          "R": 190.0,
+          "D": 0.0,
+          "score": 38.0
+        }
+      ],
+      "retrieved_sha256": {
+        "score.json": "7f2835d563bed74657a0beacc2028a12b95f8c4982382ef46974698ad82c511e",
+        "frames.jsonl": "2ca95930471777462ff6daebdce97595a9a3a4043938fc4ea4c97f5987a9480a"
+      }
+    },
+    {
+      "folder": "practice-178b15af777445f982dd94b71481cf68",
+      "score_session": "practice-178b15af777445f982dd94b71481cf68",
+      "score_stage": 2,
+      "score_tick": 500,
+      "score_teams": [
+        {
+          "alive": true,
+          "effective_damage": 1630.0,
+          "effects": [],
+          "hp": 80,
+          "invalid_actions": 0,
+          "mission_completed": 3,
+          "mission_completed_tasks": [
+            1,
+            2,
+            3
+          ],
+          "rank": 1,
+          "resource_value": 100.0,
+          "robot_id": "A",
+          "score": 55.0,
+          "team": "A",
+          "team_name": "Frank"
+        },
+        {
+          "alive": true,
+          "effective_damage": 620.0,
+          "effects": [],
+          "hp": 30,
+          "invalid_actions": 0,
+          "mission_completed": 3,
+          "mission_completed_tasks": [
+            1,
+            2,
+            3
+          ],
+          "rank": 2,
+          "resource_value": 100.0,
+          "robot_id": "D",
+          "score": 55.0,
+          "team": "D",
+          "team_name": "练习陪练D"
+        },
+        {
+          "alive": true,
+          "effective_damage": 1220.0,
+          "effects": [],
+          "hp": 30,
+          "invalid_actions": 0,
+          "mission_completed": 3,
+          "mission_completed_tasks": [
+            1,
+            2,
+            3
+          ],
+          "rank": 3,
+          "resource_value": 60.0,
+          "robot_id": "C",
+          "score": 45.0,
+          "team": "C",
+          "team_name": "练习陪练C"
+        },
+        {
+          "alive": true,
+          "effective_damage": 190.0,
+          "effects": [],
+          "hp": 100,
+          "invalid_actions": 0,
+          "mission_completed": 3,
+          "mission_completed_tasks": [
+            1,
+            2,
+            3
+          ],
+          "rank": 4,
+          "resource_value": 60.0,
+          "robot_id": "B",
+          "score": 35.7,
+          "team": "B",
+          "team_name": "练习陪练B"
+        }
+      ],
+      "ai": {
+        "A": {
+          "success": 29,
+          "failed": 0
+        },
+        "B": {
+          "success": 9,
+          "failed": 1
+        },
+        "C": {
+          "success": 10,
+          "failed": 0
+        },
+        "D": {
+          "success": 8,
+          "failed": 1
+        }
+      },
+      "A_public_effects": [
+        {
+          "tick": 35,
+          "kind": "effect_gained",
+          "effect": "inverted_controls",
+          "expires_at": 47,
+          "text": "A 号战车获得负面效果「幻术」，移动方向颠倒，Tick 47 解除，复活后仍保留。"
+        },
+        {
+          "tick": 47,
+          "kind": "effect_expired",
+          "effect": "inverted_controls",
+          "text": "A 号战车的「幻术」已解除，移动方向恢复正常。"
+        },
+        {
+          "tick": 89,
+          "kind": "effect_gained",
+          "effect": "unrivaled",
+          "expires_at": 99,
+          "text": "A 号战车获得「天下无双」！ATTACK 攻击自身5×5内所有敌人，伤害 35 HP，防御时 7 HP，持续至 Tick 99；复活后保留。"
+        },
+        {
+          "tick": 99,
+          "kind": "effect_expired",
+          "effect": "unrivaled",
+          "text": "A 号战车的「天下无双」已结束，攻击恢复正常。"
+        },
+        {
+          "tick": 161,
+          "kind": "effect_gained",
+          "effect": "vulnerable",
+          "expires_at": 173,
+          "text": "A 号战车移动后获得负面效果「易伤」，受到的战斗伤害倍率为 2，持续至 Tick 173，复活后仍保留。"
+        },
+        {
+          "tick": 173,
+          "kind": "effect_expired",
+          "effect": "vulnerable",
+          "text": "A 号战车的「易伤」已解除。"
+        }
+      ],
+      "retrieved_sha256": {
+        "score.json": "a289bdaabc54e3547e9fd11683306ac47e643666eb937e5c5ab788e8e9c183df",
+        "ai.jsonl": "d1dde2150c898586770e7bcb208f943a295ca21af25ae4ca16f44e70b20a120b"
+      }
+    },
+    {
+      "folder": "practice-dfcef97ee0294138b360095c6c5e1e74",
+      "score_session": "practice-dfcef97ee0294138b360095c6c5e1e74",
+      "score_stage": 2,
+      "score_tick": 500,
+      "score_teams": [
+        {
+          "alive": true,
+          "effective_damage": 1150.0,
+          "effects": [],
+          "hp": 100,
+          "invalid_actions": 0,
+          "mission_completed": 3,
+          "mission_completed_tasks": [
+            1,
+            2,
+            3
+          ],
+          "rank": 1,
+          "resource_value": 60.0,
+          "robot_id": "A",
+          "score": 45.0,
+          "team": "A",
+          "team_name": "Frank"
+        },
+        {
+          "alive": true,
+          "effective_damage": 990.0,
+          "effects": [],
+          "hp": 40,
+          "invalid_actions": 0,
+          "mission_completed": 3,
+          "mission_completed_tasks": [
+            1,
+            2,
+            3
+          ],
+          "rank": 2,
+          "resource_value": 50.0,
+          "robot_id": "C",
+          "score": 42.5,
+          "team": "C",
+          "team_name": "练习陪练C"
+        },
+        {
+          "alive": true,
+          "effective_damage": 356.0,
+          "effects": [],
+          "hp": 100,
+          "invalid_actions": 0,
+          "mission_completed": 3,
+          "mission_completed_tasks": [
+            1,
+            2,
+            3
+          ],
+          "rank": 3,
+          "resource_value": 50.0,
+          "robot_id": "D",
+          "score": 38.18,
+          "team": "D",
+          "team_name": "练习陪练D"
+        },
+        {
+          "alive": true,
+          "effective_damage": 60.0,
+          "effects": [],
+          "hp": 20,
+          "invalid_actions": 0,
+          "mission_completed": 3,
+          "mission_completed_tasks": [
+            1,
+            2,
+            3
+          ],
+          "rank": 4,
+          "resource_value": 40.0,
+          "robot_id": "B",
+          "score": 26.8,
+          "team": "B",
+          "team_name": "练习陪练B"
+        }
+      ],
+      "ai": {
+        "A": {
+          "success": 26,
+          "failed": 0
+        },
+        "B": {
+          "success": 10,
+          "failed": 1
+        },
+        "C": {
+          "success": 13,
+          "failed": 0
+        },
+        "D": {
+          "success": 14,
+          "failed": 2
+        }
+      },
+      "A_public_effects": [
+        {
+          "tick": 114,
+          "kind": "effect_gained",
+          "effect": "unrivaled",
+          "expires_at": 129,
+          "text": "A 号战车获得「天下无双」！ATTACK 攻击自身5×5内所有敌人，伤害 35 HP，防御时 7 HP，持续至 Tick 129；复活后保留。"
+        },
+        {
+          "tick": 129,
+          "kind": "effect_expired",
+          "effect": "unrivaled",
+          "text": "A 号战车的「天下无双」已结束，攻击恢复正常。"
+        },
+        {
+          "tick": 225,
+          "kind": "effect_gained",
+          "effect": "vulnerable",
+          "expires_at": 243,
+          "text": "A 号战车移动后获得负面效果「易伤」，受到的战斗伤害倍率为 2，持续至 Tick 243，复活后仍保留。"
+        },
+        {
+          "tick": 243,
+          "kind": "effect_expired",
+          "effect": "vulnerable",
+          "text": "A 号战车的「易伤」已解除。"
+        }
+      ],
+      "retrieved_sha256": {
+        "score.json": "24d616972fed9cdc0283e851cc3751207fd2e78e482d04d3ba0f50c75a11bdd2",
+        "ai.jsonl": "287202554e21b6cd8c392e1a6d73344ca43bfa2fd93dd27db58b63419548109c"
+      }
+    },
+    {
+      "folder": "practice-f13056a4d2e54a08b1f4052791f524b1",
+      "score_session": "practice-f13056a4d2e54a08b1f4052791f524b1",
+      "score_stage": 1,
+      "score_tick": 100,
+      "score_teams": [
+        {
+          "alive": true,
+          "effective_damage": 0.0,
+          "effects": [],
+          "hp": 100,
+          "invalid_actions": 0,
+          "mission_completed": 0,
+          "mission_completed_tasks": [],
+          "rank": 1,
+          "resource_value": 200.0,
+          "robot_id": "A",
+          "score": 40.0,
+          "team": "A",
+          "team_name": "Frank"
+        }
+      ],
+      "raw_frames": 200,
+      "different_session_tick_keys": 100,
+      "conflicting_stage_keys": 100,
+      "streams": {
+        "1": {
+          "samples": 100,
+          "max_score": 40.0,
+          "last": {
+            "tick": 100,
+            "stage": 1,
+            "R": 200.0,
+            "D": 0.0,
+            "score": 40.0
+          }
+        },
+        "2": {
+          "samples": 100,
+          "max_score": 30.0,
+          "last": {
+            "tick": 100,
+            "stage": 2,
+            "R": 200.0,
+            "D": 0.0,
+            "score": 30.0
+          }
+        }
+      },
+      "R190_examples": [
+        {
+          "tick": 66,
+          "stage": 1,
+          "R": 190.0,
+          "D": 0.0,
+          "score": 38.0
+        },
+        {
+          "tick": 67,
+          "stage": 1,
+          "R": 190.0,
+          "D": 0.0,
+          "score": 38.0
+        },
+        {
+          "tick": 68,
+          "stage": 1,
+          "R": 190.0,
+          "D": 0.0,
+          "score": 38.0
+        },
+        {
+          "tick": 69,
+          "stage": 1,
+          "R": 190.0,
+          "D": 0.0,
+          "score": 38.0
+        },
+        {
+          "tick": 70,
+          "stage": 1,
+          "R": 190.0,
+          "D": 0.0,
+          "score": 38.0
+        },
+        {
+          "tick": 71,
+          "stage": 1,
+          "R": 190.0,
+          "D": 0.0,
+          "score": 38.0
+        },
+        {
+          "tick": 72,
+          "stage": 1,
+          "R": 190.0,
+          "D": 0.0,
+          "score": 38.0
+        },
+        {
+          "tick": 73,
+          "stage": 1,
+          "R": 190.0,
+          "D": 0.0,
+          "score": 38.0
+        }
+      ],
+      "retrieved_sha256": {
+        "score.json": "805c74db2ade4fe627758c790eb5ec67caa00638c133d17cb63f3d5465065d3b",
+        "frames.jsonl": "ae2a9c2431c07e84115dd1835e82602f369da15ab130b5c35b41b3e9b9134c3c"
+      }
+    },
+    {
+      "folder": "practice-f2a9b769609b4dc2bf7647c693462784",
+      "score_session": "practice-f2a9b769609b4dc2bf7647c693462784",
+      "score_stage": 1,
+      "score_tick": 100,
+      "score_teams": [
+        {
+          "alive": true,
+          "effective_damage": 0.0,
+          "effects": [],
+          "hp": 100,
+          "invalid_actions": 0,
+          "mission_completed": 0,
+          "mission_completed_tasks": [],
+          "rank": 1,
+          "resource_value": 200.0,
+          "robot_id": "A",
+          "score": 40.0,
+          "team": "A",
+          "team_name": "Frank"
+        }
+      ],
+      "raw_frames": 200,
+      "different_session_tick_keys": 100,
+      "conflicting_stage_keys": 100,
+      "streams": {
+        "2": {
+          "samples": 100,
+          "max_score": 30.0,
+          "last": {
+            "tick": 100,
+            "stage": 2,
+            "R": 200.0,
+            "D": 0.0,
+            "score": 30.0
+          }
+        },
+        "1": {
+          "samples": 100,
+          "max_score": 40.0,
+          "last": {
+            "tick": 100,
+            "stage": 1,
+            "R": 200.0,
+            "D": 0.0,
+            "score": 40.0
+          }
+        }
+      },
+      "R190_examples": [
+        {
+          "tick": 66,
+          "stage": 2,
+          "R": 190.0,
+          "D": 0.0,
+          "score": 30.0
+        },
+        {
+          "tick": 67,
+          "stage": 2,
+          "R": 190.0,
+          "D": 0.0,
+          "score": 30.0
+        },
+        {
+          "tick": 68,
+          "stage": 2,
+          "R": 190.0,
+          "D": 0.0,
+          "score": 30.0
+        },
+        {
+          "tick": 69,
+          "stage": 2,
+          "R": 190.0,
+          "D": 0.0,
+          "score": 30.0
+        },
+        {
+          "tick": 70,
+          "stage": 2,
+          "R": 190.0,
+          "D": 0.0,
+          "score": 30.0
+        },
+        {
+          "tick": 71,
+          "stage": 2,
+          "R": 190.0,
+          "D": 0.0,
+          "score": 30.0
+        },
+        {
+          "tick": 72,
+          "stage": 2,
+          "R": 190.0,
+          "D": 0.0,
+          "score": 30.0
+        },
+        {
+          "tick": 73,
+          "stage": 2,
+          "R": 190.0,
+          "D": 0.0,
+          "score": 30.0
+        }
+      ],
+      "retrieved_sha256": {
+        "score.json": "f1def2a1304bc436b37b99f1fab759caee617977675e832d5c1b5b5ba2d9836f",
+        "frames.jsonl": "11f7fbd6dbb298554305b90f8ece8be0fdadfe817a4b39ac71258485fd47dcb8"
+      }
+    }
+  ]
+}

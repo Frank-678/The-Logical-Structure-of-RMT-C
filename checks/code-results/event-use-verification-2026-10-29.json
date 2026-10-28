@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-29",
+  "baseline_code": "826c4da5afa74d038b7ffad032da570e682d31a1",
+  "core_http_original_handler_arena": "ASan/UBSan passed with LeakSanitizer disabled in this host",
+  "startup": "Guard, automatic stdout/stderr log capture and exit-status propagation passed in temporary workspace; no ROS process launched",
+  "announcements": "Same synthetic fixture/old and current production cores, manual event oracle, timely/late/expired cases passed",
+  "maps": "Two batches: pilot59011 retained as failure; scoped change verified on fresh69013, fixed NPCs and parameters, no retuning",
+  "original_practice_files_unchanged": 18,
+  "actual_ros_link": "Final scoped production sources manually linked using actual Humble headers/libraries; no DDS runtime match",
+  "limitations": [
+    "No new real model call or original DDS full match executed by this tool host",
+    "HTTP audit success does not prove semantic adoption or beneficial decisions",
+    "No exact executable hash for user-uploaded sessions; no model-off controlled comparison",
+    "Original practice scoreboard mixed stage1/stage2 messages, not modified",
+    "Partial outcome changes and source/oracle sharing preclude a claim of universal superiority"
+  ],
+  "source_sha256": {
+    "run.sh": "504b8f66f8bca54540821ed7f7c39945df25006c453359b9adb4940c06b4ed45",
+    "tests/startup_test.py": "b8d22254080faf0ff74615742bdcb28fa72738853b1e425fff2ddefbe24c383d",
+    "src/rmtc_bot/src/strategy.cpp": "7b3d0afcd39632722e7e536f343cce4bd6cad1c235a1394ee7d7a52fd7f9375e",
+    "src/rmtc_bot/src/session.cpp": "70e4f0dc140e57ec1911b1911d73775685dd1fefc8b403927c43f85a0fcc24ac",
+    "src/rmtc_bot/src/ai_worker.cpp": "3549d49f3f2eef967f07009dced7288f553ed9e047c561c711009f4c8d7f0c26",
+    "src/rmtc_bot/src/bot.cpp": "fcbaaf4bfe22753b10f6fa92f1c4cc8e6f342a5571184b89ada207b16e1d3718",
+    "tests/full_strategy_test.cpp": "16188944dff47a2fbf4ad07bf727e49f894d1f893b5bc5ed5442e0ff022798b8",
+    "tests/mock_gateway.py": "4ff5af21e5024be86aad05656b230d9f34b7ce44b2ce9aa099ece5872559f39c",
+    "tests/announcement_benchmark.cpp": "131e2a4db34e8163f9d98183654e82638497834ad7dc116b5616a38443a6ddca",
+    "src/rmtc_bot/include/rmtc_bot/rules.hpp": "9f5b234a092dbed84ebcd0e692a918483dfc3cca649895a18de8073f9e87366b",
+    "src/rmtc_bot/include/rmtc_bot/strategy_tuning.hpp": "228103b83d38dab1b62a5971282bf9d9f5fde92a0baa0847689a0bcc7d6a6ab2",
+    "src/rmtc_bot/include/rmtc_bot/strategy.hpp": "7ab68c2ba36e7c7a158a4d62189333f43c52ed6178dce11dee35cd52714fe1df",
+    "src/rmtc_bot/include/rmtc_bot/scoring.hpp": "985681d6b4bd9da1cc4a8c7decaaff48c4d4855879df3cd9cdc1387a32a7399b",
+    "src/rmtc_bot/include/rmtc_bot/match_config.hpp": "23153f12f1a5fb3a47741c1ba97be5c5dc70eca4ac21d9c87e40a04457c05be6",
+    "src/rmtc_bot/include/rmtc_bot/strategy_parameters.hpp": "11f2fea9721fc7f66c8a3bf8d7bd64dd92c1a91caf2cc82e96be54c9e9a8641d",
+    "src/rmtc_bot/include/rmtc_bot/protocol.hpp": "905f975606911011ccbc7a958612c74a472309298d49482e89c51d8b13491150",
+    "src/rmtc_bot/include/rmtc_bot/events.hpp": "75b76359ee1333864d28ac5bcede0dfcc0fe4d71fb62f8fe0266303ff5c2f625",
+    "src/rmtc_bot/include/rmtc_bot/tactics.hpp": "dd7d52d063176c69a7e9d824b07b0e0e90d4447ecfc05951d7d2498aa7d5d2ad",
+    "src/rmtc_bot/include/rmtc_bot/session.hpp": "dd01ec31f6475a41f66195599a9d3e10c6e42571cfb616f6fa07a352bd055d9b",
+    "src/rmtc_bot/include/rmtc_bot/ai_worker.hpp": "a8c2471feb987f57039a80e16e95d3b618dc39cb62986bc1b537ee342013b80b"
+  },
+  "link_checks": "Code links checked; analysis relative paths checked against fixed tree plus proposed files; external links/anchors not fetched",
+  "implementation_commit": "3b610cb40db639cb5918c327af8f27f6356bbfb9",
+  "logging_commit": "7e80792798354968f40ca937fe30cef8646ab4fd",
+  "mermaid": "8 existing state-machine blocks parsed successfully, not rendered"
+}
