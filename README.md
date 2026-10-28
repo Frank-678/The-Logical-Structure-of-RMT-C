@@ -2,7 +2,7 @@
 
 本仓库用于**比赛规则整理、算法方案论证、实施和测试证据跟踪**；实际参赛 C++/ROS 2 工程另存放在 [RoboMaster-Turing-Competition-BeyondControl](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl)。这里的勾号只代表**已有对应证据的阶段**，不表示该方案已经提高胜率。
 
-**状态基线：2026-10-28。** 当前正式规则 v1.2，配套最新已取得的通信协议/裁判教程 v1.1。当前选手策略已有代码与部分离线测试，但**完整原版裁判/标准车对战尚未完成**；不能把 HTTP 请求成功等同于本场官方 AI 资格。
+**状态基线：2026-10-28。** 本轮将矩阵扩至R37；新增实现与结果固定于代码提交`a7d2318`（功能头`a23edad`），原版practice未改。 当前正式规则 v1.2，配套最新已取得的通信协议/裁判教程 v1.1。当前选手策略已有代码与部分离线测试，但**完整原版裁判/标准车对战尚未完成**；不能把 HTTP 请求成功等同于本场官方 AI 资格。
 
 ## 如何打勾：四道独立检查
 
@@ -38,22 +38,35 @@
 | R15 | A 对标准 B/C/D 的完整对局与真实得分 | ✅ | ◐ | ❌ | ⛔ | 同上：未成功开局；**暂无当前策略胜率或得分** |
 | R16 | 每 Tick 动作真实回执、不同场次和同 Tick 幂等验证 | ✅ | ✅ | ◐ | ◐ | [代码导读](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl/blob/strategy/visible-resource-bfs/CODE_GUIDE.md)；还需目标环境回执串联 |
 | R17 | AHC068 自身提交的势函数 + BFS 逆层剥离分析 | ✅ | — | — | — | [用户提交 #77563950](https://atcoder.jp/contests/ahc068/submissions/77563950)；仅外部算法研究 |
-| R18 | AHC068 高分提交的 Beam/历史插入/序列局部优化比较 | ✅ | — | — | — | [外部提交 #77562268](https://atcoder.jp/contests/ahc068/submissions/77562268)；此前源码审阅，不能当 RMTC 已实现 |
-| R19 | 将全局势函数改为多目标、跨 Tick 的边际收益估值 | ✅ | ⬜ | ⬜ | ⬜ | 研究结论已形成；优先 P1，在受控测试中评价后续目标 |
-| R20 | 目标迟滞与未执行计划的局部重排 | ✅ | ⬜ | ⬜ | ⬜ | 只改变未来路线，危险发生必须可立即打断 |
-| R21 | 小束宽 Beam Search / 滚动规划 | ✅ | ⬜ | ⬜ | ⬜ | 待测：深度 H=3、束宽 B=5 为实验起点，不是结论 |
+| R18 | AHC068 高分提交的 Beam/历史插入/序列局部优化比较 | ✅ | — | — | — | [提交 #77562268](https://atcoder.jp/contests/ahc068/submissions/77562268)的网页备份已取得2195行源码，核对Beam、Retro、局部优化与最终合法性检查；未运行原程序，未独立核实实时冠军排名 |
+| R19 | 多目标、跨 Tick 的边际收益估值 | ✅ | ◐ | ✅ | ◐ | [规划说明](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl/blob/a7d2318fcce432878277686cbb2da65c87ca30fe/PLANNING.md)：资源串用更新后的虚拟R逐次计算封顶收益；任务、死亡和多车联合推演仍未完成 |
+| R20 | 目标迟滞与未执行计划的局部重排 | ✅ | ◐ | ✅ | ◐ | [规划说明](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl/blob/a7d2318fcce432878277686cbb2da65c87ca30fe/PLANNING.md)：连续Tick的有效目标有10%排序余量；断帧、复活、失败MOVE与危险可打断。已有振荡回归；未实现通用2-opt/计划局部优化 |
+| R21 | 小束宽 Beam Search / 滚动规划 | ✅ | ◐ | ✅ | ◐ | [规划说明](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl/blob/a7d2318fcce432878277686cbb2da65c87ca30fe/PLANNING.md)：已实现最多3个资源目标、束宽5、候选8、10ms软预算，只执行首步；深度是目标数，不是3Tick；尚非完整攻防动作Beam |
 | R22 | 多对手情景预测与收益评估 | ✅ | ◐ | ◐ | ⬜ | 目前仅一步轨迹软惩罚，尚无多情景前瞻 |
-| R23 | 完整计分、死亡/争格/风险的配对消融实验 | ✅ | ⬜ | ⬜ | ⬜ | 保持地图、对手池、席位、随机条件可比，不只看平均总分 |
+| R23 | 完整计分、死亡/争格/风险的配对消融实验 | ✅ | ◐ | ◐ | ◐ | [7例配对轨迹](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl/blob/a7d2318fcce432878277686cbb2da65c87ca30fe/tests/results/planning-2026-10-28.json)：同夹具分别链接旧/新版的采集比较已运行；无敌车、事件或AI，完整R/D/M与对手池消融仍未建立 |
 | R24 | AHC 置换群共轭和已执行历史操作插入照搬 RMTC | ✅ | — | — | — | **明确拒绝**：RMTC 已结算 Tick 不能回滚 |
 | R25 | 赛前封存 Prompt、策略参数、构建 SHA 与现场一致性 | ✅ | ◐ | ◐ | ⬜ | [配置和构建说明](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl/blob/strategy/visible-resource-bfs/README.md)；正式赛上场仍待核验 |
 
-> 本表“验收”必须对应具体范围：例如 R13 的 ✅ 仅表示重复公告回归通过，不表示 AI 模型在所有事件上正确；R14/R15 的 ❌ 是**测试执行失败**而非“算法已输给标准车”。R17/R18/R24 的破折号表示研究或拒绝项，不应安排实现。
+| R26 | PacmanAI：手写收益/风险特征与模式切换选读 | ✅ | — | — | — | [README与heuristicTeam.py](https://github.com/jhammarstedt/PacmanAI/blob/2611a267b99c274516f889bba32852df083ad721/src/heuristicTeam.py)；实际获胜后备队是启发式，CNN/DQL训练不足。借鉴风险/记忆，不部署本地训练模型；未运行原游戏 |
+| R27 | pacman-mcts-agent-v2：有选择地分配搜索预算 | ✅ | — | — | — | [实际文件myTeam(1).py](https://github.com/neeilnandal/pacman-mcts-agent-v2/blob/4b48e73977bf5313a486acd39b4bccd22c8f1856/myTeam(1).py)；核对UCT与模式切换。默认0.82秒不适合直接放进100/500ms动作窗口；未运行原游戏 |
+| R28 | Pacman-Capture-the-Flag：设计与后续改进建议 | ✅ | — | — | — | [README](https://github.com/DXJ3X1/Pacman-Capture-the-Flag/blob/f2ed02de687e63ab4e2fd634fef5526dbb8314e1/README.md)；该仓库提供演示/设计材料，没有选手源码；提高单位步食物收益部分属于Further Improvements，不能当作已实现算法。PPT未读 |
+| R29 | Orienteering-Problem：贪心可行性反例 | ✅ | — | ✅ | ✅ | [原函数](https://github.com/MiladNooraei/Orienteering-Problem/blob/d41a5d7e1a9a561b7b3d94b27c683cb8c7bfb51d/Orienteering%20Problem.py)；已固定源码执行函数级反例：预算2时先选不可达高比值点后退出，实得0，另有距离1/得分10的可行路径。仅验收此反例，非完整项目或比赛 |
+| R30 | Algorithm-OP-Heuristic-Approaches：8种示例逐项核对 | ✅ | — | ✅ | ✅ | [仓库](https://github.com/aliiimaher/Algorithm-OP-Heuristic-Approaches/blob/44dec64428580615bd50da40a443258180e0b906/README.md)；已读8个脚本。函数级反例确认DP仅按递增编号，预算3时得10而可行重排得20；标为未完成的DFS拒绝了正收益邻点。不能称通用精确DP；未运行整个项目 |
+| R31 | op-solver：可行插入、删除与预算恢复选读 | ✅ | — | — | — | [add.c](https://github.com/gkobeaga/op-solver/blob/992a2443dd845c7a6f4952e1f28c51a4297e887b/src/cp/heur/add.c)、[drop.c](https://github.com/gkobeaga/op-solver/blob/992a2443dd845c7a6f4952e1f28c51a4297e887b/src/cp/heur/drop.c)、EA优化及可行性示例；适合作离线参考，静态全图与闭合路线前提不同；尚未集成或运行求解器 |
+| R32 | mrtsp_exploration_ros2：未知边界、信息量/路程选读 | ✅ | — | — | — | [README](https://github.com/mertgulerx/mrtsp_exploration_ros2/blob/d9bc18085f49f6aa4396b4009d22ad5255096bf9/README.md)及WFD/成本/排序代码；实际为Python/Jazzy、贪心排序，不能直接称精确TSP或Humble C++包。信息增益已独立适配见R36 |
+| R33 | AutoFrontierSearch：Humble边界检测选读 | ✅ | — | — | — | [algolism.py](https://github.com/Nyanziba/AutoFrontierSearch_ros2-humble/blob/8e72eeebddceff5addfde1e3111de203bf917311/src/frontier_exploration/frontier_exploration/algolism.py)；未知邻接空地、近墙过滤与随机选点。RMTC使用自身格图/视野，未搬SLAM、Nav2坐标与随机目标 |
+| R34 | CodeCraft_2024：距离缓存、方向持续与预约选读 | ✅ | — | — | — | [quick_view_version](https://github.com/PinkEx/CodeCraft_2024/blob/98d53b453302d2ee33e433fc859f1ab3f8c64818/quick_view_version/functions.h)及main/robot；可参考反向BFS、收益场和队内让行。RMTC对手不承诺让路，未知地图也不等于物流全图；未运行原赛事 |
+| R35 | 阶段结束与剩余动作数守卫 | ✅ | ✅ | ✅ | ✅ | [规划说明](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl/blob/a7d2318fcce432878277686cbb2da65c87ca30fe/PLANNING.md)：明确100/500动作Tick，最终状态不发布；末步/两阶段窗口核心回归通过。此勾仅验收守卫，不代表实战获胜 |
+| R36 | 已知可达观察点的信息增益探索 | ✅ | ✅ | ✅ | ◐ | [规划说明](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl/blob/a7d2318fcce432878277686cbb2da65c87ca30fe/PLANNING.md)：按实际视野计算新增未知格/路程，只走已知路径；边界与危险回归通过，局部下一帧覆盖9→12，未有整局覆盖率统计 |
+| R37 | 新旧采集策略的同条件夹具 | ✅ | ✅ | ✅ | ◐ | [7例配对轨迹](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl/blob/a7d2318fcce432878277686cbb2da65c87ca30fe/tests/results/planning-2026-10-28.json)：7例无受阻MOVE，两步新增R20→30、四步40→50、密集资源200的耗时40→36；迷宫均18步。单次决策最大观测2.28ms，仅一轮样本；不是标准车胜率或完整回调延迟 |
+
+> 本表“验收”必须对应具体范围：例如 R13 的 ✅ 仅表示重复公告回归通过，不表示 AI 模型在所有事件上正确；R14/R15 的 ❌ 是**测试执行失败**而非“算法已输给标准车”。R17/R18/R24及R26–R34的实现栏破折号表示外部研究或拒绝项；具体迁移单列R19–R21、R36。R29/R30的执行/验收只指上述函数反例。
 
 ## 下一轮执行优先级
 
 1. **P0：完成完整对局和 AI 时效数据。** 在正常 Ubuntu 22.04 / ROS 2 Humble/DDS 环境获取 A 与标准 B/C/D 的真实回执、R/D/M、得分、死亡、无效动作、模型调用与事件可用时间；不要动裁判原件。
-2. **P1：优化已经存在的目标评价。** 在保留当前安全守卫和行动回退前提下，加入目标迟滞及后续位置/资源的可兑现价值。
-3. **P2：再做小规模滚动 Beam Search。** 每个 Tick 只执行首动作，下一 Tick 依据真实感知重算；预测值不得当作裁判真值。
+2. **P1：实测新增目标规划。** 迟滞、资源串和信息增益已有代码及局部配对结果；在留出地图、不同席位和标准对手下检查收益与失效条件。
+3. **P2：补齐搜索模型，再决定是否扩展。** 现有束搜索只比较资源目标；完整多车攻防、任务、事件情景仍未完成。继续只执行首步，下一Tick依据裁判回执重算。
 4. **P3：多情景与消融。** 测试改动是否真实提升、什么地图/对手下失效；失败可回退基线。
 5. **P4：赛前封存与验收。** 确认版本、配置、协议、运行入口和规则权限，保持可追溯。
 
@@ -92,4 +105,3 @@ edit:
 怎么讨论？对ai的，让他们新建branch分析把结果记录到新建的branch，不提交pr；对人，可以用discussion讨论，交流，或者对ai的内容评论。QQ也可以。
 
 毕竟还是不把这个提交给学长，所以就畅所欲言。最后提交的是只有代码的那个仓库，或者你学一学docker提交容器。
-
