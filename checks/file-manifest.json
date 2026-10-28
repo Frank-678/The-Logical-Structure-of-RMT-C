@@ -374,9 +374,9 @@
     },
     {
       "path": "docs/18-conversation-and-implementation.md",
-      "bytes": 31078,
-      "sha256": "8fd1adc98426e85fb700287a43c009a47f25500fe8cae00afbf8202b27e84045",
-      "git_blob_sha": "eb6ebbe47fa51f4169426869aa417132e20648f3",
+      "bytes": 33368,
+      "sha256": "8c36885b0736826b8d7bb4d0979d30a3c5aa5e6d8a2c11e7df7c9f8fdd67060a",
+      "git_blob_sha": "20954517a880b8e1b165424b8339de19fd0ec998",
       "mode": "100644"
     },
     {

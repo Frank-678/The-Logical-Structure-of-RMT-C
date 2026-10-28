@@ -2,7 +2,7 @@
 
 更新日期：2026-10-28。本文按当前可见对话、已核对提交和测试记录，整理用户需求、证据、决策理由、实施与修正。它不是逐字聊天导出；上下文中缺失的原话、时间与中间操作不补写。
 
-当前代码位于[选手工程](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl)，通过[PR #1](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl/pull/1)交付。核对的最新代码头为`1682964a8a24dc348ce6fad223bbb6380a89516d`，PR尚未合并。用户2026-10-28新增授权只允许更新研究仓库main的README矩阵；已按此范围执行，代码main未改。
+当前代码位于[选手工程](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl)，通过[PR #1](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl/pull/1)交付。核对的最新代码头为`7e5af551da20a1c17e40e0e14d1ce1ff072d7903`，PR尚未合并。用户2026-10-28新增授权只允许更新研究仓库main的README矩阵；已按此范围执行，代码main未改。
 
 本分支与COMPARISON保存赛前材料和研究；代码仓库用于实现。两条研究分支的名称、入口和历史不得回写到代码PR或公开渠道。本文可从研究区引用代码提交，反向引用不允许。前21项提交证据见[实施提交记录](../checks/implementation-commits-2026-10-27.json)；2026-10-28新增修复和实测记录见[补充证据](../checks/real-execution-2026-10-28.json)。
 
@@ -246,3 +246,15 @@ COMPARISON的[采用与否决记录](https://github.com/Frank-678/The-Logical-St
 1682964独立提交README操作、变量用途和脱敏用户指标；practice18文件逐字节不变。没有在用户机器运行该命令，没有新增真实模型请求，没有猜测或自动切换代理。若practice_llm_proxy空，启动器会清空继承代理；终端其他程序能联网不证明练习代理也能。当前根因待用户本机一次诊断结果，不能直接定为网络、模型或密钥中的某一项。
 
 [用户运行指标](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl/blob/1682964a8a24dc348ce6fad223bbb6380a89516d/tests/results/user-ai-502-2026-10-28.json) · [诊断说明](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl/blob/1682964a8a24dc348ce6fad223bbb6380a89516d/README.md)。按已有有限授权，main矩阵扩至R38，并把R02/R12/R15改为对应新证据；提交ed402e5。代码PR保持开放，不合并main。
+
+## 23 用户直测读超时、再次授权临时Key与同WSL双终端要求
+
+用户运行新增检查返回read_timeout/http0/10065ms，上游direct、api.deepseek.com、deepseek-flash。不能据此把10秒称作模型思考：按库源检查，TLS握手超时也可能抛ReadTimeout；实际本地TCP接通但TLS不回应的夹具在连接50ms/读取500ms设置下约63ms复现同标签。此夹具证明分类歧义，不证明用户TLS就是根因。已给出不带Key的curl DNS/TCP/TLS/首字节检查，不要求再次构建。
+
+用户问此前测试API是否能通过，并再次明确允许使用原临时Key；随后要求在同一个WSL开两个终端直接测。已说明能力边界：当前终端是独立Ubuntu24.04.3、内核6.18.55，不是用户LAPTOP的WSL，也没有远程终端连接。授权不等于已经连接到用户电脑，不能把工具中的两进程称为同WSL对局。
+
+本次实际用临时Key重新请求4次：最小JSON探测200/6802ms但格式检查未过；当前1682964源码编译的C++ AiWorker经原版HTTP Handler，开局与爆炸分别200/4169ms、200/3772ms且事件契约通过；最小探测复核200/5113ms，外壳JSON有效、finish stop，最终12字符不是合法JSON。成功与未过项均保留，没有挑掉失败，也未输出Key、模型思考或原响应正文。
+
+原Handler合成A审计记录2次成功。本次上游继承工具环境已有代理并使用系统CA，没有用直连配置的practice_launcher启动完整裁判；与用户direct不同，不能证明本机线路正常或其本地Key就是对话中那把。工具环境getifaddrs仍-1/EPERM，ROS导入占位，未完成原版裁判比赛；3772ms还超过样例2500ms预告，真实HTTP成功仍不等于及时避险或正式资格。
+
+[完整脱敏实测](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl/blob/7e5af551da20a1c17e40e0e14d1ce1ff072d7903/tests/results/real-ai-retest-2026-10-28.json)及REAL_TEST/README在7e5af55单独文档提交。实际客户端编译通过，未改决策源码，未重复无关测试；practice18文件不变。main矩阵R12/R38按新证据更新于0b1df2e，仅改README，代码PR不合并。用户WSL出网根因仍待本机分段检查，不能把代理需求当成已经实证的结论。
