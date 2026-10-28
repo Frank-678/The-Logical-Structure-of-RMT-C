@@ -17,9 +17,9 @@
     },
     {
       "path": "INDEX.md",
-      "bytes": 17919,
-      "sha256": "8f243c591d890636a6a18fed25e45f89db8b2610338200d58785f78ef416589c",
-      "git_blob_sha": "f38b015ee84b75cc49297f80df6bb9ebbba4b968",
+      "bytes": 18057,
+      "sha256": "f71db0ee27a6fc2bd72fa8b6e958555e92a599dbf19beb2d7d77bfa8cc0be52c",
+      "git_blob_sha": "f34be7b054fbf61f565b2054f1e1c9fa486315c1",
       "mode": "100644"
     },
     {
@@ -38,9 +38,9 @@
     },
     {
       "path": "README.md",
-      "bytes": 6141,
-      "sha256": "5287eb4fb649a304fca03a0bdf428a6dee99576998dc334426dc24b208ec7a66",
-      "git_blob_sha": "07ffcdb374d4ee5d9496873ee1640f4cf000f82b",
+      "bytes": 6382,
+      "sha256": "2f5259d93eeb151f69a048e492eca7ee21978d6a4006869cee87f188c728417a",
+      "git_blob_sha": "4637e43e1ddf1f771d5cdea6182a10733e3b1d2d",
       "mode": "100644"
     },
     {
@@ -94,9 +94,9 @@
     },
     {
       "path": "checks/incoming-review-links-2026-10-28.json",
-      "bytes": 1175,
-      "sha256": "da469a0af206099601aa73868bdb85417e1d42a1b0ea9a3182a19ae8043d4e99",
-      "git_blob_sha": "d5ded52950510f01f965d0a2b0e175194deac0b8",
+      "bytes": 1339,
+      "sha256": "8e4d264ee43654cffa5da0f6059fa5645ae13c780ade6589c3f381f0d6d7b714",
+      "git_blob_sha": "80d345d0cf456dbb18a7cf69aa3b596675091df1",
       "mode": "100644"
     },
     {
@@ -374,9 +374,9 @@
     },
     {
       "path": "docs/18-conversation-and-implementation.md",
-      "bytes": 36428,
-      "sha256": "73927677f419cd0aeff1fb3a38ce91e369e529fd34a414ac7241b2beb5e11957",
-      "git_blob_sha": "0ccde2e0f5a7805b3dd9e803b0b896bac22d109f",
+      "bytes": 37187,
+      "sha256": "398aeea47c64bd4c7b733ff937036f8e92ab4148bbd49717b17c9ea9ff2ec3f1",
+      "git_blob_sha": "932d072f0dfe1e2c224fa6ca224d5737f4b15c95",
       "mode": "100644"
     },
     {
@@ -426,6 +426,13 @@
       "bytes": 4386,
       "sha256": "457bfee49aea96c8d553b12d07ec7a5cc7e8b272823c392007dcb77906130f89",
       "git_blob_sha": "590065671a03da8c19251367d1ee9f94de4dd011",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/26-subtitle-counterexamples-and-risk-ordering-2026-10-28.md",
+      "bytes": 2493,
+      "sha256": "3df15523817533821048aa618e85db32df679316c02a7266ac17a501ec87591a",
+      "git_blob_sha": "d0c045d1df67ec83ca98d180dc80114fbdd53638",
       "mode": "100644"
     },
     {

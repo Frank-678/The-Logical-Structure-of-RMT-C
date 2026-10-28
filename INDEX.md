@@ -190,3 +190,5 @@
 | [materials/addenda/2026-10-28-analysis/manifest.json](materials/addenda/2026-10-28-analysis/manifest.json) |
 | [materials/addenda/2026-10-28-analysis/01-57s.txt](materials/addenda/2026-10-28-analysis/01-57s.txt) |
 | [materials/addenda/2026-10-28-analysis/02-Gemini-.txt](materials/addenda/2026-10-28-analysis/02-Gemini-.txt) |
+
+| [docs/26-subtitle-counterexamples-and-risk-ordering-2026-10-28.md](docs/26-subtitle-counterexamples-and-risk-ordering-2026-10-28.md) |

@@ -1,6 +1,6 @@
 {
   "date": "2026-10-28",
-  "checked_relative_links": 327,
+  "checked_relative_links": 335,
   "markdown_files": [
     "ANALYSIS/AGENTS.md",
     "ANALYSIS/INDEX.md",
@@ -10,6 +10,7 @@
     "ANALYSIS/docs/23-incoming-analysis-and-planning-2026-10-28.md",
     "ANALYSIS/docs/24-multistyle-arena-tuning-and-gateway-2026-10-28.md",
     "ANALYSIS/docs/25-motion-loops-and-recovery-2026-10-28.md",
+    "ANALYSIS/docs/26-subtitle-counterexamples-and-risk-ordering-2026-10-28.md",
     "ANALYSIS/materials/addenda/2026-10-28-analysis/README.md",
     "ANALYSIS/materials/addenda/2026-10-28-gateway-notice.md",
     "COMPARISON/AGENTS.md",
@@ -18,8 +19,9 @@
     "COMPARISON/decisions/reuse-register.md",
     "COMPARISON/reports/08-gemini-repository-suggestions-2026-10-28.md",
     "COMPARISON/reports/09-drive-ahc-and-gemini-node-review-2026-10-28.md",
-    "COMPARISON/reports/10-applied-search-and-arena-results-2026-10-28.md"
+    "COMPARISON/reports/10-applied-search-and-arena-results-2026-10-28.md",
+    "COMPARISON/reports/11-subtitle-lessons-and-rmtc-counterexamples-2026-10-28.md"
   ],
   "broken": [],
-  "scope": "Relative file paths checked against pinned tree plus proposed files; external URLs and anchors not checked. Six public Mermaid blocks separately parsed, not rendered."
+  "scope": "Relative file paths checked against pinned tree plus proposed files; external URLs and anchors not checked. This pass does not validate Mermaid syntax or rendering."
 }
