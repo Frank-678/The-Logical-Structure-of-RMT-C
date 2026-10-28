@@ -60,3 +60,15 @@
 | [tools/verify_upstream.py](<tools/verify_upstream.py>) |
 | [upstream/meow-ai-arena](<upstream/meow-ai-arena>) |
 | [reports/06-v1.2-transfer-update.md](<reports/06-v1.2-transfer-update.md>) |
+
+## 2026-10-28后续材料与实施
+
+| 文件 |
+| --- |
+| [reports/07-ahc068-rectangle-swap-transfer-2026-10-28.md](reports/07-ahc068-rectangle-swap-transfer-2026-10-28.md) |
+| [reports/08-gemini-repository-suggestions-2026-10-28.md](reports/08-gemini-repository-suggestions-2026-10-28.md) |
+| [reports/09-drive-ahc-and-gemini-node-review-2026-10-28.md](reports/09-drive-ahc-and-gemini-node-review-2026-10-28.md) |
+| [checks/external-source-inventory-2026-10-28.json](checks/external-source-inventory-2026-10-28.json) |
+| [checks/drive-source-review-2026-10-28.json](checks/drive-source-review-2026-10-28.json) |
+| [checks/op-counterexamples-2026-10-28.json](checks/op-counterexamples-2026-10-28.json) |
+| [tools/check_op_examples.py](tools/check_op_examples.py) |

@@ -17,16 +17,16 @@
     },
     {
       "path": "AGENTS.md",
-      "bytes": 1114,
-      "sha256": "5d9439a0c158d60eac879aba23fc23d30c60ca19d40f243d6a0fa35912ab67f4",
-      "git_blob_sha": "1b2f6bbe37b6eafee8a8238f8ba4d63c26baa470",
+      "bytes": 1318,
+      "sha256": "67e8677fbe431f90d080d56b0f3a8acf08da4938cdf9006be34fd1649e011a8f",
+      "git_blob_sha": "07f93c886dac101a614d6bc2af112cd586b60091",
       "mode": "100644"
     },
     {
       "path": "INDEX.md",
-      "bytes": 3972,
-      "sha256": "e386c2c41e72953dbe4b799489a805e08ada5d154b6f8e3074d96d111d175bbc",
-      "git_blob_sha": "6c051c478f593edd9c52561cc188dabe49d3cd60",
+      "bytes": 4737,
+      "sha256": "3ae0a9cc0b8742e2f283ead3a7a7bc8d64c55dd479e485fa8a1ce3b093c22666",
+      "git_blob_sha": "7753b507d853d40cdb8073c71ab5372d31e37c8f",
       "mode": "100644"
     },
     {
@@ -45,9 +45,9 @@
     },
     {
       "path": "README.md",
-      "bytes": 2362,
-      "sha256": "497e31e41a41587414b0175ab7d9726d27e10ed6d5b5d3b773ec3c4225e2129c",
-      "git_blob_sha": "1c67e074e58ef4a20eb73aff55b503ef0d9c4b21",
+      "bytes": 2865,
+      "sha256": "fa9174d2e4c71cf0a188b87bd0c697dc7e57637af2ed735dda567da07f4065d5",
+      "git_blob_sha": "e3972f9db2b95de842077048b5a451e7d21a6d86",
       "mode": "100644"
     },
     {
@@ -65,10 +65,31 @@
       "mode": "100644"
     },
     {
+      "path": "checks/drive-source-review-2026-10-28.json",
+      "bytes": 2692,
+      "sha256": "48623aa8ca1a1d6cfebd7b6662bdee12ce4f878b90bba7f6a29c9d0126fd66be",
+      "git_blob_sha": "7dffa810d46de1caa32d891c7b654d9c3831014d",
+      "mode": "100644"
+    },
+    {
+      "path": "checks/external-source-inventory-2026-10-28.json",
+      "bytes": 19417,
+      "sha256": "5a8503d5168a873c51e42c61c43e2a0a3f4a21331b53623a28e6c33f54e444c8",
+      "git_blob_sha": "a9830b685dd58509d7de1e09cb06468742c175b4",
+      "mode": "100644"
+    },
+    {
       "path": "checks/link-check.json",
       "bytes": 213,
       "sha256": "1b0b48878ccfb06c0fcf67ee71f6fc588928b6e8cc2715c42e30d02a61e76d41",
       "git_blob_sha": "bcdd769e12810674cdf35ddafa9fb66b628b1459",
+      "mode": "100644"
+    },
+    {
+      "path": "checks/op-counterexamples-2026-10-28.json",
+      "bytes": 1101,
+      "sha256": "484978cc08bf14f2605f2386c7c16bbfda90a101ca36340a06a6393efe724990",
+      "git_blob_sha": "4711df4a012f29b1ff988508e48f6a90d52e134d",
       "mode": "100644"
     },
     {
@@ -87,9 +108,9 @@
     },
     {
       "path": "decisions/reuse-register.md",
-      "bytes": 7211,
-      "sha256": "e45af5671e427419447e86248fa41addd0d908c01e36d1a9110633d1e455bd0d",
-      "git_blob_sha": "dc95216cd765837602ec7cd50a2317ebcf45af6d",
+      "bytes": 9917,
+      "sha256": "e017b15caab27f320ed9589ec879bc92b000d79f16b429f25ded5cd8e458d265",
+      "git_blob_sha": "bd3f37f5fa7013efe6c7a54d0ee52a79301b61a3",
       "mode": "100644"
     },
     {
@@ -275,6 +296,20 @@
       "mode": "100644"
     },
     {
+      "path": "reports/08-gemini-repository-suggestions-2026-10-28.md",
+      "bytes": 8552,
+      "sha256": "ca5c9fa43d94205b07ad496df3efbb57613e95f68029b43c375ecd9e282f6b56",
+      "git_blob_sha": "710c3398961523699bfd14e60154d51e7325934b",
+      "mode": "100644"
+    },
+    {
+      "path": "reports/09-drive-ahc-and-gemini-node-review-2026-10-28.md",
+      "bytes": 5699,
+      "sha256": "bfce3fd49a2d54e9dc092f2b830fc738315d3fcb325f196625513c933e77593a",
+      "git_blob_sha": "5397d406ce6ff77d70503a2e6707a7e2d47a01f4",
+      "mode": "100644"
+    },
+    {
       "path": "snippets/README.md",
       "bytes": 853,
       "sha256": "66875ec3828975910a6f14d835b9ef853fd46343b2490577f045ae6a05e0c831",
@@ -322,6 +357,13 @@
       "sha256": "33b05c154009ae2769ea2fcf6b66f095bf5bcc98e534b0fadcf72c825bf8237f",
       "git_blob_sha": "4cccbd3e96d544bc6e95ef628bb755b57dda217c",
       "mode": "100755"
+    },
+    {
+      "path": "tools/check_op_examples.py",
+      "bytes": 3024,
+      "sha256": "eece86764e8a11f9ada531bdd11076aa2a66c2d5af631a7c04469ff5bfd31a99",
+      "git_blob_sha": "a4c9da05d5e3ea18f42c23f90d4436578fce5621",
+      "mode": "100644"
     },
     {
       "path": "tools/recompute_statistics.py",

@@ -1,0 +1,74 @@
+{
+  "ahc": {
+    "copy_element": "pre#for_copy0",
+    "normalized_cpp_bytes": 81262,
+    "lines": 2195,
+    "lf_count": 2195,
+    "possible_crlf_bytes": 83457,
+    "sha256_lf": "6e577c5a5577f11067744f682524a460ff53b12399c4d37b858bec68a47da9ab",
+    "mhtml_sha256": "e5373ebfd0cc6e81ffb2be4a9a3cdff15e34de159017f4bc19a10aad7262e05e",
+    "drive_id": "1HGjc-E3MhZsadWlW8xUgUt6sMAwD6v1Y",
+    "drive_url": "https://drive.google.com/file/d/1HGjc-E3MhZsadWlW8xUgUt6sMAwD6v1Y/view",
+    "title": "Submission #77562268 - estie Programming Contest 2026 (AtCoder Heuristic Contest 068)",
+    "source_kind": "User Drive MHTML snapshot; normalized source from pre#for_copy0",
+    "source_modified_time": "2026-10-28T04:19:53Z",
+    "snapshot_bytes": 2239557,
+    "snapshot_table": {
+      "author": "PrussianBlue",
+      "status": "AC",
+      "tests": 150,
+      "score": 1046659885,
+      "elapsed_ms": 1922,
+      "language": "C++23 (Clang 21.1.0)",
+      "displayed_code_bytes": 83457
+    },
+    "core_ranges_read": [
+      [
+        395,
+        435
+      ],
+      [
+        575,
+        645
+      ],
+      [
+        770,
+        905
+      ],
+      [
+        900,
+        990
+      ],
+      [
+        1538,
+        1675
+      ],
+      [
+        1860,
+        2078
+      ],
+      [
+        2124,
+        2195
+      ]
+    ],
+    "scope": "Full 2195-line source obtained; listed algorithm cores statically reviewed, not every line semantically audited; not compiled or executed; snapshot does not independently verify live champion rank.",
+    "byte_note": "81262 LF bytes + 2195 line endings equals displayed 83457; consistent with CRLF conversion, an inference rather than original source-byte verification."
+  },
+  "gemini": {
+    "title": "Rmtc Bot Node",
+    "url": "https://docs.google.com/document/d/1KhF07mer9pLoc7NWep8VgyuqR_o4xJylEK-f9EuHE-Q/edit?usp=drivesdk",
+    "id": "1KhF07mer9pLoc7NWep8VgyuqR_o4xJylEK-f9EuHE-Q",
+    "modified_time": "2026-10-28T05:28:18.298Z",
+    "raw_chars": 32434,
+    "source_kind": "native Google Doc text; normalized BOM and CRLF for line references",
+    "normalized_bytes": 35505,
+    "normalized_lines": 888,
+    "sha256": "d788ff706c28f2df3557b5ad9ef899b9c6b482fa51fedda00afb6d829278ea91",
+    "syntax_exit": 0,
+    "syntax_stderr": "",
+    "syntax_scope": "g++ -std=c++17 -fsyntax-only against real Humble headers; no node execution, no network request.",
+    "scope": "All 888 normalized source lines read; syntax-only compile passed with genuine Humble headers. No node/game/HTTP execution."
+  },
+  "preservation": "Source hashes, metadata and observed URLs only; no raw MHTML, signed transfer URL, account data or complete external code republished."
+}

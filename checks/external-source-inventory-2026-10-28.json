@@ -1,0 +1,441 @@
+{
+  "date": "2026-10-28",
+  "repositories": [
+    {
+      "repository": "jhammarstedt/PacmanAI",
+      "head": "2611a267b99c274516f889bba32852df083ad721",
+      "tree": "5fae6c418a532dd04b466c1ebdc6e769513bd752",
+      "head_date": "2021-05-24T19:38:12Z",
+      "tree_entries": 52
+    },
+    {
+      "repository": "neeilnandal/pacman-mcts-agent-v2",
+      "head": "4b48e73977bf5313a486acd39b4bccd22c8f1856",
+      "tree": "a75fb39c36ecb19ea43981f58754695305c6502a",
+      "head_date": "2026-10-26T19:28:39Z",
+      "tree_entries": 19
+    },
+    {
+      "repository": "DXJ3X1/Pacman-Capture-the-Flag",
+      "head": "f2ed02de687e63ab4e2fd634fef5526dbb8314e1",
+      "tree": "e09d5f78e45b48048bcaab6434454608073debf5",
+      "head_date": "2020-01-17T18:54:57Z",
+      "tree_entries": 8
+    },
+    {
+      "repository": "MiladNooraei/Orienteering-Problem",
+      "head": "d41a5d7e1a9a561b7b3d94b27c683cb8c7bfb51d",
+      "tree": "816ee28d13f317574ae7fbe6af2fb03d2caed898",
+      "head_date": "2025-11-19T13:59:55Z",
+      "tree_entries": 5
+    },
+    {
+      "repository": "aliiimaher/Algorithm-OP-Heuristic-Approaches",
+      "head": "44dec64428580615bd50da40a443258180e0b906",
+      "tree": "dc17353899811886e4de5941c7e879d7f3645757",
+      "head_date": "2023-07-07T09:30:55Z",
+      "tree_entries": 22
+    },
+    {
+      "repository": "gkobeaga/op-solver",
+      "head": "992a2443dd845c7a6f4952e1f28c51a4297e887b",
+      "tree": "cd9a462a2c06349899a82e05f35fefb7ea65d788",
+      "head_date": "2025-04-29T22:48:46Z",
+      "tree_entries": 201
+    },
+    {
+      "repository": "mertgulerx/mrtsp_exploration_ros2",
+      "head": "d9bc18085f49f6aa4396b4009d22ad5255096bf9",
+      "tree": "2eab57a9f4d12ebd6971e5a83d8288719565cca1",
+      "head_date": "2026-10-22T11:27:01Z",
+      "tree_entries": 24
+    },
+    {
+      "repository": "Nyanziba/AutoFrontierSearch_ros2-humble",
+      "head": "8e72eeebddceff5addfde1e3111de203bf917311",
+      "tree": "aa00a8db4153443ec21e3f2e985d79ecdf0583c4",
+      "head_date": "2024-10-08T05:23:41Z",
+      "tree_entries": 12
+    },
+    {
+      "repository": "PinkEx/CodeCraft_2024",
+      "head": "98d53b453302d2ee33e433fc859f1ab3f8c64818",
+      "tree": "228b42971f300dcad579af47e25274dbba59e930",
+      "head_date": "2024-04-24T03:53:32Z",
+      "tree_entries": 247
+    }
+  ],
+  "readme_count": 9,
+  "selected_code_file_count": 22,
+  "verified_git_blobs": 31,
+  "files": [
+    {
+      "path": "jhammarstedt/PacmanAI/README.md",
+      "bytes": 2879,
+      "git_blob_sha": "f504d76388e6e25da1af3f6455d92e28fa02a94f",
+      "sha256": "7d2f776011a4e969f1e869cb28c6c5850ba16a7782bba04eba7db9b4f3584107",
+      "url": "https://github.com/jhammarstedt/PacmanAI/blob/2611a267b99c274516f889bba32852df083ad721/README.md",
+      "read_scope": "full README",
+      "selected_line_ranges": [],
+      "executed_scope": "not executed"
+    },
+    {
+      "path": "neeilnandal/pacman-mcts-agent-v2/README.md",
+      "bytes": 9877,
+      "git_blob_sha": "53667ee4a28a61cfae7aa4d8fa84a60868329a2c",
+      "sha256": "4bd867f697e9eb62c5c1da11720a030f2df5901f362d873f840676c59c8762cd",
+      "url": "https://github.com/neeilnandal/pacman-mcts-agent-v2/blob/4b48e73977bf5313a486acd39b4bccd22c8f1856/README.md",
+      "read_scope": "full README",
+      "selected_line_ranges": [],
+      "executed_scope": "not executed"
+    },
+    {
+      "path": "DXJ3X1/Pacman-Capture-the-Flag/README.md",
+      "bytes": 5225,
+      "git_blob_sha": "74ec755ff96d7630f560b00c35af9e5fccb6b37e",
+      "sha256": "50774f11bfc427b6ea7248bc8b312b34a2ee8dd5effd11af1b94095d09fea5f6",
+      "url": "https://github.com/DXJ3X1/Pacman-Capture-the-Flag/blob/f2ed02de687e63ab4e2fd634fef5526dbb8314e1/README.md",
+      "read_scope": "full README",
+      "selected_line_ranges": [],
+      "executed_scope": "not executed"
+    },
+    {
+      "path": "MiladNooraei/Orienteering-Problem/README.md",
+      "bytes": 1408,
+      "git_blob_sha": "e4566f23e9c23f002842f067c44a76307889e633",
+      "sha256": "f54c31f9185e6f7f915885005cbf7729b6a18ced05f248ba7b1d5f1fdec82052",
+      "url": "https://github.com/MiladNooraei/Orienteering-Problem/blob/d41a5d7e1a9a561b7b3d94b27c683cb8c7bfb51d/README.md",
+      "read_scope": "full README",
+      "selected_line_ranges": [],
+      "executed_scope": "not executed"
+    },
+    {
+      "path": "aliiimaher/Algorithm-OP-Heuristic-Approaches/README.md",
+      "bytes": 3274,
+      "git_blob_sha": "b107a6b2fba004a167425287b56c5277e6b70b83",
+      "sha256": "a48ff4e6bd041eb4629edabb85ef0aaa95898a3d428c02cf99ec2edd77cecf05",
+      "url": "https://github.com/aliiimaher/Algorithm-OP-Heuristic-Approaches/blob/44dec64428580615bd50da40a443258180e0b906/README.md",
+      "read_scope": "full README",
+      "selected_line_ranges": [],
+      "executed_scope": "not executed"
+    },
+    {
+      "path": "gkobeaga/op-solver/README.md",
+      "bytes": 10901,
+      "git_blob_sha": "b9d244dd6ae3f82e516de02666a6b54da4bacb86",
+      "sha256": "cbfc2ae401fdc4532793ec673f8f3c416bde7874e6378d4c1fbb9410869844f3",
+      "url": "https://github.com/gkobeaga/op-solver/blob/992a2443dd845c7a6f4952e1f28c51a4297e887b/README.md",
+      "read_scope": "full README",
+      "selected_line_ranges": [],
+      "executed_scope": "not executed"
+    },
+    {
+      "path": "mertgulerx/mrtsp_exploration_ros2/README.md",
+      "bytes": 11304,
+      "git_blob_sha": "fda0b88c85f011b0e078e5ce6b4666c9407012db",
+      "sha256": "b9c22b5a80285d2d0c07f58483a1e7b16f8ebecd324da02815d796839b0d4afe",
+      "url": "https://github.com/mertgulerx/mrtsp_exploration_ros2/blob/d9bc18085f49f6aa4396b4009d22ad5255096bf9/README.md",
+      "read_scope": "full README",
+      "selected_line_ranges": [],
+      "executed_scope": "not executed"
+    },
+    {
+      "path": "Nyanziba/AutoFrontierSearch_ros2-humble/README.md",
+      "bytes": 1734,
+      "git_blob_sha": "4dcba5a86e00b610f99724c7d46093bdff452ccf",
+      "sha256": "ba5406660f72ac4d6f333aad1b0dc98a70df10a720f45744208cb7a742684384",
+      "url": "https://github.com/Nyanziba/AutoFrontierSearch_ros2-humble/blob/8e72eeebddceff5addfde1e3111de203bf917311/README.md",
+      "read_scope": "full README",
+      "selected_line_ranges": [],
+      "executed_scope": "not executed"
+    },
+    {
+      "path": "PinkEx/CodeCraft_2024/README.md",
+      "bytes": 1988,
+      "git_blob_sha": "0eaeb7dc3dcdf5808e6e82a9510010d48ece04eb",
+      "sha256": "058c3415b3b9c98e9da0d954266e6c53b0e9752f7012bf5b77e68693ec280eef",
+      "url": "https://github.com/PinkEx/CodeCraft_2024/blob/98d53b453302d2ee33e433fc859f1ab3f8c64818/README.md",
+      "read_scope": "full README",
+      "selected_line_ranges": [],
+      "executed_scope": "not executed"
+    },
+    {
+      "path": "jhammarstedt/PacmanAI/src/heuristicTeam.py",
+      "bytes": 21955,
+      "git_blob_sha": "f4fc3c819d44656cea81181416aa257965e595d1",
+      "sha256": "6a1c5426599f3aa5d112f5c9b0fa5b051e8bd5cf440ed3b36e964aed6b7e0ab9",
+      "url": "https://github.com/jhammarstedt/PacmanAI/blob/2611a267b99c274516f889bba32852df083ad721/src/heuristicTeam.py",
+      "read_scope": "selected ranges and named algorithm functions",
+      "selected_line_ranges": [
+        [
+          150,
+          285
+        ],
+        [
+          325,
+          450
+        ]
+      ],
+      "executed_scope": "not executed"
+    },
+    {
+      "path": "neeilnandal/pacman-mcts-agent-v2/myTeam(1).py",
+      "bytes": 22963,
+      "git_blob_sha": "52737346fba27a130f4d47ea91ee421570e123d2",
+      "sha256": "0e8fca33bb9136ca61697a028b5e5827f458cc4258a43465066a7414d0d2d43e",
+      "url": "https://github.com/neeilnandal/pacman-mcts-agent-v2/blob/4b48e73977bf5313a486acd39b4bccd22c8f1856/myTeam(1).py",
+      "read_scope": "selected ranges and named algorithm functions",
+      "selected_line_ranges": [
+        [
+          208,
+          320
+        ],
+        [
+          346,
+          415
+        ]
+      ],
+      "executed_scope": "not executed"
+    },
+    {
+      "path": "MiladNooraei/Orienteering-Problem/Orienteering Problem.py",
+      "bytes": 3548,
+      "git_blob_sha": "2756cafe2f7abdce63cf168b8b76cea3a0124f2f",
+      "sha256": "7110cc84d41a0e711ec11835172747ef7773b2f998f7531ae33811b49fea331f",
+      "url": "https://github.com/MiladNooraei/Orienteering-Problem/blob/d41a5d7e1a9a561b7b3d94b27c683cb8c7bfb51d/Orienteering%20Problem.py",
+      "read_scope": "full small file / relevant declarations",
+      "selected_line_ranges": [],
+      "executed_scope": "reviewed function only"
+    },
+    {
+      "path": "aliiimaher/Algorithm-OP-Heuristic-Approaches/App1_Greedy1.py",
+      "bytes": 2272,
+      "git_blob_sha": "09091c327eb7f051e4ec1316ab7e4d855c450b83",
+      "sha256": "c5ff70604daab126c8769803a86d563cf815189bae76ed7a2aa0dddeae3b5da3",
+      "url": "https://github.com/aliiimaher/Algorithm-OP-Heuristic-Approaches/blob/44dec64428580615bd50da40a443258180e0b906/App1_Greedy1.py",
+      "read_scope": "full small file / relevant declarations",
+      "selected_line_ranges": [],
+      "executed_scope": "not executed"
+    },
+    {
+      "path": "aliiimaher/Algorithm-OP-Heuristic-Approaches/App2_Greedy2.py",
+      "bytes": 2378,
+      "git_blob_sha": "ee44de617964455ddd44340a7abef6b5d85fb623",
+      "sha256": "0f9f13814cc479d7db7c873803b1ef63be01deb31b505223833f4b1ac8574c56",
+      "url": "https://github.com/aliiimaher/Algorithm-OP-Heuristic-Approaches/blob/44dec64428580615bd50da40a443258180e0b906/App2_Greedy2.py",
+      "read_scope": "full small file / relevant declarations",
+      "selected_line_ranges": [],
+      "executed_scope": "not executed"
+    },
+    {
+      "path": "aliiimaher/Algorithm-OP-Heuristic-Approaches/App3_Greedy3.py",
+      "bytes": 2709,
+      "git_blob_sha": "2de218dd6728995931da0ce806553f41db33c1fe",
+      "sha256": "7e6239997fdc8517d76939d998b3f36dbca793e382af5203b21f8e261202a490",
+      "url": "https://github.com/aliiimaher/Algorithm-OP-Heuristic-Approaches/blob/44dec64428580615bd50da40a443258180e0b906/App3_Greedy3.py",
+      "read_scope": "full small file / relevant declarations",
+      "selected_line_ranges": [],
+      "executed_scope": "not executed"
+    },
+    {
+      "path": "aliiimaher/Algorithm-OP-Heuristic-Approaches/App4_Greedy4.py",
+      "bytes": 2464,
+      "git_blob_sha": "1f42be7e767a38cc3caa5f5b2f39898d3a8e207c",
+      "sha256": "3172635d23c8dbcc47e089a2dfc854703207a01332292b1c82f1168ba10696bb",
+      "url": "https://github.com/aliiimaher/Algorithm-OP-Heuristic-Approaches/blob/44dec64428580615bd50da40a443258180e0b906/App4_Greedy4.py",
+      "read_scope": "full small file / relevant declarations",
+      "selected_line_ranges": [],
+      "executed_scope": "not executed"
+    },
+    {
+      "path": "aliiimaher/Algorithm-OP-Heuristic-Approaches/App5_DP.py",
+      "bytes": 2395,
+      "git_blob_sha": "ea6a458200ca0782fff2a64dbb5436781bdb6bb7",
+      "sha256": "8069e5918f4d9122d50e312ce4b03d3e2e6c8d80dd6635033fd10ea0cae0b014",
+      "url": "https://github.com/aliiimaher/Algorithm-OP-Heuristic-Approaches/blob/44dec64428580615bd50da40a443258180e0b906/App5_DP.py",
+      "read_scope": "full small file / relevant declarations",
+      "selected_line_ranges": [],
+      "executed_scope": "reviewed function only"
+    },
+    {
+      "path": "aliiimaher/Algorithm-OP-Heuristic-Approaches/App6_MST_Kruskal.py",
+      "bytes": 2843,
+      "git_blob_sha": "9746970dc31fd864d2331feb064aa011c93b5618",
+      "sha256": "78c2a0a298a0cbee8cebc51fd0bb0e9ff3a3869f8cbe98120e688f8c37485f6f",
+      "url": "https://github.com/aliiimaher/Algorithm-OP-Heuristic-Approaches/blob/44dec64428580615bd50da40a443258180e0b906/App6_MST_Kruskal.py",
+      "read_scope": "full small file / relevant declarations",
+      "selected_line_ranges": [],
+      "executed_scope": "not executed"
+    },
+    {
+      "path": "aliiimaher/Algorithm-OP-Heuristic-Approaches/App7_MST_Prim.py",
+      "bytes": 2910,
+      "git_blob_sha": "146ffe348b5add51075fe3c6c2ecc30166192148",
+      "sha256": "f1fe1e20828688832a62353dc68f3e34ab5b7c96898490627a04c911e40525d8",
+      "url": "https://github.com/aliiimaher/Algorithm-OP-Heuristic-Approaches/blob/44dec64428580615bd50da40a443258180e0b906/App7_MST_Prim.py",
+      "read_scope": "full small file / relevant declarations",
+      "selected_line_ranges": [],
+      "executed_scope": "not executed"
+    },
+    {
+      "path": "aliiimaher/Algorithm-OP-Heuristic-Approaches/App8_DFS_Modifed.py",
+      "bytes": 2485,
+      "git_blob_sha": "23aad98c307fcba94e6d4301e3966169d18fe029",
+      "sha256": "d941cc4fd972b670fa95e929522b1759024a933a1e9050038c83ee27473ef3e9",
+      "url": "https://github.com/aliiimaher/Algorithm-OP-Heuristic-Approaches/blob/44dec64428580615bd50da40a443258180e0b906/App8_DFS_Modifed.py",
+      "read_scope": "full small file / relevant declarations",
+      "selected_line_ranges": [],
+      "executed_scope": "reviewed function only"
+    },
+    {
+      "path": "gkobeaga/op-solver/src/cp/heur/add.c",
+      "bytes": 17438,
+      "git_blob_sha": "ded5afab0cd89940211d2702b9b9f534a12b491c",
+      "sha256": "1f1e65587de992e358285d3a1eb92a4b2d89000103e0f6f5f9cc8ac7e7777615",
+      "url": "https://github.com/gkobeaga/op-solver/blob/992a2443dd845c7a6f4952e1f28c51a4297e887b/src/cp/heur/add.c",
+      "read_scope": "selected ranges and named algorithm functions",
+      "selected_line_ranges": [
+        [
+          1,
+          90
+        ]
+      ],
+      "executed_scope": "not executed"
+    },
+    {
+      "path": "gkobeaga/op-solver/src/cp/heur/drop.c",
+      "bytes": 4718,
+      "git_blob_sha": "0002fdec74d505fe731d3f3f199f4fe06058c051",
+      "sha256": "085ad92c332c46f1234af33a17add46d10a8d49db3debd9024c914a3343c93e3",
+      "url": "https://github.com/gkobeaga/op-solver/blob/992a2443dd845c7a6f4952e1f28c51a4297e887b/src/cp/heur/drop.c",
+      "read_scope": "selected ranges and named algorithm functions",
+      "selected_line_ranges": [
+        [
+          1,
+          155
+        ]
+      ],
+      "executed_scope": "not executed"
+    },
+    {
+      "path": "gkobeaga/op-solver/src/cp/heur/ea/opt.c",
+      "bytes": 4635,
+      "git_blob_sha": "152107f4bdc1fd77c0ae01aa2589555a69300e81",
+      "sha256": "84ed64bd2d0a858b49f132409b43ab35b74bf5e4d5f12b6dd64bbf218bafcdec",
+      "url": "https://github.com/gkobeaga/op-solver/blob/992a2443dd845c7a6f4952e1f28c51a4297e887b/src/cp/heur/ea/opt.c",
+      "read_scope": "selected ranges and named algorithm functions",
+      "selected_line_ranges": [
+        [
+          1,
+          155
+        ]
+      ],
+      "executed_scope": "not executed"
+    },
+    {
+      "path": "gkobeaga/op-solver/examples/op-check-solution-feasibility.c",
+      "bytes": 1965,
+      "git_blob_sha": "86a44d3dcdc09b90a5f82a7f0df12639459ca930",
+      "sha256": "5b5b3e5167c5534fefb05f5f4f0157c8bd8a0a3f8c768c18d28d31b25f250fe5",
+      "url": "https://github.com/gkobeaga/op-solver/blob/992a2443dd845c7a6f4952e1f28c51a4297e887b/examples/op-check-solution-feasibility.c",
+      "read_scope": "full small file / relevant declarations",
+      "selected_line_ranges": [],
+      "executed_scope": "not executed"
+    },
+    {
+      "path": "mertgulerx/mrtsp_exploration_ros2/mrtsp_exploration_ros2/wfd_frontier.py",
+      "bytes": 6175,
+      "git_blob_sha": "b2be043c12d36fd54cf403859b51ad79081da2fa",
+      "sha256": "50134feeda74b395029fbc2d0fc9a94a55d4560d8be7b6c51fd2602c921ff399",
+      "url": "https://github.com/mertgulerx/mrtsp_exploration_ros2/blob/d9bc18085f49f6aa4396b4009d22ad5255096bf9/mrtsp_exploration_ros2/wfd_frontier.py",
+      "read_scope": "selected ranges and named algorithm functions",
+      "selected_line_ranges": [
+        [
+          45,
+          155
+        ]
+      ],
+      "executed_scope": "not executed"
+    },
+    {
+      "path": "mertgulerx/mrtsp_exploration_ros2/mrtsp_exploration_ros2/frontier_costs.py",
+      "bytes": 6419,
+      "git_blob_sha": "2e2e0a83bd2394f25bfe7a1e6e404287c1160a90",
+      "sha256": "5d9b0997a3212b422f655fdade57d64fea8f09698509e9f5661834476c91ca30",
+      "url": "https://github.com/mertgulerx/mrtsp_exploration_ros2/blob/d9bc18085f49f6aa4396b4009d22ad5255096bf9/mrtsp_exploration_ros2/frontier_costs.py",
+      "read_scope": "selected ranges and named algorithm functions",
+      "selected_line_ranges": [
+        [
+          45,
+          135
+        ]
+      ],
+      "executed_scope": "not executed"
+    },
+    {
+      "path": "mertgulerx/mrtsp_exploration_ros2/mrtsp_exploration_ros2/mrtsp_solver.py",
+      "bytes": 1215,
+      "git_blob_sha": "4b9f87ede576a7a310e3f4e98b076c6d1f75c34d",
+      "sha256": "cb94e23172fcbda9ce42bf69088e40bea59f3e36cd20baf4fec71fa02e860934",
+      "url": "https://github.com/mertgulerx/mrtsp_exploration_ros2/blob/d9bc18085f49f6aa4396b4009d22ad5255096bf9/mrtsp_exploration_ros2/mrtsp_solver.py",
+      "read_scope": "full small file / relevant declarations",
+      "selected_line_ranges": [],
+      "executed_scope": "not executed"
+    },
+    {
+      "path": "Nyanziba/AutoFrontierSearch_ros2-humble/src/frontier_exploration/frontier_exploration/algolism.py",
+      "bytes": 7242,
+      "git_blob_sha": "486de82d8273f3ddf3b86b80a61efbd08842b7bb",
+      "sha256": "f6fe14180bcc2933c0746ed2bb02039c6f021bbc28b20364c99b9653a8c0eacc",
+      "url": "https://github.com/Nyanziba/AutoFrontierSearch_ros2-humble/blob/8e72eeebddceff5addfde1e3111de203bf917311/src/frontier_exploration/frontier_exploration/algolism.py",
+      "read_scope": "full small file / relevant declarations",
+      "selected_line_ranges": [],
+      "executed_scope": "not executed"
+    },
+    {
+      "path": "PinkEx/CodeCraft_2024/quick_view_version/functions.h",
+      "bytes": 11404,
+      "git_blob_sha": "0327640fc132d251f4ffe5f371030b09cba1d95b",
+      "sha256": "6130444435db290e0382101193b978b26bb8c4a02173e1b01ad1aeeae5029847",
+      "url": "https://github.com/PinkEx/CodeCraft_2024/blob/98d53b453302d2ee33e433fc859f1ab3f8c64818/quick_view_version/functions.h",
+      "read_scope": "selected ranges and named algorithm functions",
+      "selected_line_ranges": [
+        [
+          80,
+          165
+        ]
+      ],
+      "executed_scope": "not executed"
+    },
+    {
+      "path": "PinkEx/CodeCraft_2024/quick_view_version/main.cpp",
+      "bytes": 16273,
+      "git_blob_sha": "ebfdaaa91c39c4dfe9bb3d803913b8de1a2981d0",
+      "sha256": "d0cbbbc9f7ca1d394c5e4044b97e30b368b7173f542b3f35c16a7a0f09dd8be9",
+      "url": "https://github.com/PinkEx/CodeCraft_2024/blob/98d53b453302d2ee33e433fc859f1ab3f8c64818/quick_view_version/main.cpp",
+      "read_scope": "selected ranges and named algorithm functions",
+      "selected_line_ranges": [
+        [
+          198,
+          270
+        ],
+        [
+          303,
+          350
+        ]
+      ],
+      "executed_scope": "not executed"
+    },
+    {
+      "path": "PinkEx/CodeCraft_2024/quick_view_version/robot.h",
+      "bytes": 682,
+      "git_blob_sha": "2da38aa545e48f2731897b64dd1667944f5ad7c0",
+      "sha256": "2dfa23f0c4142f73c02d99ec6d0a0c1f5070a472f4bc71edce3eb4883bbeb31c",
+      "url": "https://github.com/PinkEx/CodeCraft_2024/blob/98d53b453302d2ee33e433fc859f1ab3f8c64818/quick_view_version/robot.h",
+      "read_scope": "full small file / relevant declarations",
+      "selected_line_ranges": [],
+      "executed_scope": "not executed"
+    }
+  ],
+  "scope": "Repository trees inventoried; 9 READMEs read fully and selected code ranges/functions reviewed. No claim of full source audit or original games running. DXJ3X1 contains design/presentation assets but no agent code; PPT and images not read."
+}
