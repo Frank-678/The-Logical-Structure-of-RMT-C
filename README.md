@@ -2,7 +2,7 @@
 
 本仓库用于**比赛规则整理、算法方案论证、实施和测试证据跟踪**；实际参赛 C++/ROS 2 工程另存放在 [RoboMaster-Turing-Competition-BeyondControl](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl)。这里的勾号只代表**已有对应证据的阶段**，不表示该方案已经提高胜率。
 
-**状态基线：2026-10-28。** 矩阵现为R01–R38；规划基线为`a7d2318`（功能头`a23edad`），新增出网诊断与用户502证据为`1682964`。原版practice未改。 当前正式规则 v1.2，配套最新已取得的通信协议/裁判教程 v1.1。当前选手策略已有代码与部分离线测试，但**完整原版裁判/标准车对战尚未完成**；不能把 HTTP 请求成功等同于本场官方 AI 资格。
+**状态基线：2026-10-28。** 矩阵现为R01–R38；规划基线为`a7d2318`（功能头`a23edad`），新增出网诊断与用户502证据为`1682964`，临时Key再次真实复测为`7e5af55`。原版practice未改。 当前正式规则 v1.2，配套最新已取得的通信协议/裁判教程 v1.1。当前选手策略已有代码与部分离线测试，但**完整原版裁判/标准车对战尚未完成**；不能把 HTTP 请求成功等同于本场官方 AI 资格。
 
 ## 如何打勾：四道独立检查
 
@@ -32,7 +32,7 @@
 | R09 | 辣椒入点、爆炸/分裂提前避险 | ✅ | ◐ | ◐ | ⛔ | 已有对应处理与测试设计；完整多车/多事件结算未验收 |
 | R10 | 对手连续轨迹的一步预测（只作软惩罚） | ✅ | ✅ | ✅ | ◐ | [状态机和回归记录](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl/blob/strategy/visible-resource-bfs/STATE_MACHINE.md)；没有经对手池校准准确率 |
 | R11 | LLM 公告理解与本地每 Tick 动作决策分离 | ✅ | ✅ | ✅ | ◐ | [真实链路记录](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl/blob/strategy/visible-resource-bfs/REAL_TEST.md)；HTTP 成功不等于正式资格 |
-| R12 | 真实 DeepSeek 上游及事件结构化解析 | ✅ | ✅ | ✅ | ◐ | [分开记录](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl/blob/1682964a8a24dc348ce6fad223bbb6380a89516d/REAL_TEST.md)：此前两次HTTP200为4652ms/5977ms；用户最新两场3次完成请求均502，不能将旧成功当作当前场成功；新增出网检查待本机运行 |
+| R12 | 真实 DeepSeek 上游及事件结构化解析 | ✅ | ✅ | ✅ | ◐ | [最新真实复测](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl/blob/7e5af551da20a1c17e40e0e14d1ce1ff072d7903/REAL_TEST.md)：当前C++经原Handler两项200且契约通过，4169/3772ms，上游走工具环境代理；另两次最小探测200但最终JSON未通过。用户本机direct仍读超时，不能跨环境判成功；短预告及时率待测 |
 | R13 | 累积公告重复膨胀修复 | ✅ | ✅ | ✅ | ✅ | [REAL_TEST.md](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl/blob/strategy/visible-resource-bfs/REAL_TEST.md)：该具体回归复现后修复并复测通过 |
 | R14 | 正常 Humble/DDS 环境下的原版参考车验证 | ✅ | — | ❌ | ⛔ | [真实测试记录](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl/blob/strategy/visible-resource-bfs/REAL_TEST.md)：启动失败，原因是接口权限；须在目标环境重跑 |
 | R15 | A 对标准 B/C/D 的完整对局与真实得分 | ✅ | ◐ | ◐ | ⛔ | [最新用户记录](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl/blob/1682964a8a24dc348ce6fad223bbb6380a89516d/tests/results/user-ai-502-2026-10-28.json)：本机已运行至暂停Tick30，但未完赛且LLM为0；工具环境启动失败另存，仍无有效整局胜率 |
@@ -60,7 +60,7 @@
 | R36 | 已知可达观察点的信息增益探索 | ✅ | ✅ | ✅ | ◐ | [规划说明](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl/blob/a7d2318fcce432878277686cbb2da65c87ca30fe/PLANNING.md)：按实际视野计算新增未知格/路程，只走已知路径；边界与危险回归通过，局部下一帧覆盖9→12，未有整局覆盖率统计 |
 | R37 | 新旧采集策略的同条件夹具 | ✅ | ✅ | ✅ | ◐ | [7例配对轨迹](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl/blob/a7d2318fcce432878277686cbb2da65c87ca30fe/tests/results/planning-2026-10-28.json)：7例无受阻MOVE，两步新增R20→30、四步40→50、密集资源200的耗时40→36；迷宫均18步。单次决策最大观测2.28ms，仅一轮样本；不是标准车胜率或完整回调延迟 |
 
-| R38 | 练习代理的上游出网诊断 | ✅ | ✅ | ✅ | ◐ | [check_ai.sh](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl/blob/1682964a8a24dc348ce6fad223bbb6380a89516d/check_ai.sh)：同一编译配置直测一次最小JSON，区分代理/TLS/连接/读取/HTTP问题；8本机HTTP夹具+6注入异常、旧启动器拦截通过。未在用户机器执行，不计比赛资格 |
+| R38 | 练习代理的上游出网诊断 | ✅ | ✅ | ✅ | ◐ | [诊断与实测](https://github.com/Frank-678/RoboMaster-Turing-Competition-BeyondControl/blob/7e5af551da20a1c17e40e0e14d1ce1ff072d7903/README.md)：8本机HTTP+6注入异常、旧启动器拦截通过；用户已运行并报direct/read_timeout/10065ms。TLS握手亦可能被标read_timeout，需继续区分DNS/TCP/TLS/响应，不计比赛资格 |
 
 > 本表“验收”必须对应具体范围：例如 R13 的 ✅ 仅表示重复公告回归通过，不表示 AI 模型在所有事件上正确；R14/R15 的 ❌ 是**测试执行失败**而非“算法已输给标准车”。R17/R18/R24及R26–R34的实现栏破折号表示外部研究或拒绝项；具体迁移单列R19–R21、R36。R29/R30的执行/验收只指上述函数反例。
 
