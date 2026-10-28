@@ -45,9 +45,9 @@
     },
     {
       "path": "README.md",
-      "bytes": 3113,
-      "sha256": "4491006674c14e2533f4c121260494bda0ee8cce101c593cf0d9eae13935bfdb",
-      "git_blob_sha": "eaf9abbaeabe7c2959deec70da715c96d8e5d887",
+      "bytes": 3343,
+      "sha256": "303cddb5c776cf6495bbbe1082184127cbb38afb57085da2c95f89a08015b5ff",
+      "git_blob_sha": "a03147b34da1bd479ee8364e5dda5ffd8f85746b",
       "mode": "100644"
     },
     {
@@ -108,9 +108,9 @@
     },
     {
       "path": "decisions/reuse-register.md",
-      "bytes": 11181,
-      "sha256": "4c638d5ad970967729874006ee19b7434953c0dd8cfa903ecf8542f6cd9f77cb",
-      "git_blob_sha": "588bcfd2bc349a46ae753e2f78295e156358b7d8",
+      "bytes": 12087,
+      "sha256": "ab2b898a748dd6227ef098fdf577daaae1b1c41c78ff9a72c45420769eac37a5",
+      "git_blob_sha": "1dfb632766fff298706d3c68cb8148fac9124eb4",
       "mode": "100644"
     },
     {

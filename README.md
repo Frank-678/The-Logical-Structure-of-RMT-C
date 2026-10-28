@@ -1,5 +1,7 @@
 # RMTC · COMPARISON
 
+C36/C37新进度：目标迟滞之外增加成功往返的真实进展检测与脱困，详见[迁移记录末段](decisions/reuse-register.md)。12局专门配对及60局新地图，未取得用户原地图，非官方胜率。
+
 [实际迁移与对战反馈](reports/10-applied-search-and-arena-results-2026-10-28.md)：局部重排/帧内BFS缓存/多情景已实现，910局含失败和消融；不把新增模块一律开启，也不把自建对手池称作官方比赛。
 
 [9仓库的真实代码与反例](reports/08-gemini-repository-suggestions-2026-10-28.md) · [云盘AHC与Gemini节点](reports/09-drive-ahc-and-gemini-node-review-2026-10-28.md)：31文件blob核对，3个函数反例；Gemini888行语法通过而未运行，AHC选读核心。参赛资源目标Beam等已有小步实现，完整实战仍阻塞；下方旧“未实施”是历史状态。
