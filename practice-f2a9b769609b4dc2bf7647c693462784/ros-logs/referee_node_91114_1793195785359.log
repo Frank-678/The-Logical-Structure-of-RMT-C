@@ -1,0 +1,3 @@
+[INFO] [1793195787.059125460] [referee_public]: registered team A as Frank
+[INFO] [1793195807.720759993] [referee_public]: match completed at tick 100
+[INFO] [1793196010.918744294] [rclcpp]: signal_handler(SIGINT/SIGTERM)

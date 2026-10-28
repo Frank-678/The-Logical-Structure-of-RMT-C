@@ -52,3 +52,53 @@
 [WARN] [1793193618.048987777] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
 [WARN] [1793193623.676212267] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
 [INFO] [1793193636.931131367] [rmtc_test_robot]: AI plan applied: {"event_plan":null,"goals":["resource_high","resource_normal","resource_normal","reach_target"]}
+[WARN] [1793194719.331887710] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793194724.850778401] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793194730.349820350] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793194735.871386954] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793194741.430631745] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793194746.968305442] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793194752.519352213] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793194758.110086480] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793194763.902567964] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793194769.491163889] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793194782.467668557] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793194783.474150033] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793194789.089042262] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793194802.137459107] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793194803.152625805] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793194808.250876773] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793194813.894162853] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793194819.465902376] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793194825.086321897] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793194830.664697075] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793194835.807086674] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793194841.512685420] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793194847.173354916] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793194860.385765118] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793194873.643841130] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793194879.285952153] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793194884.870613611] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793194890.476639227] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[INFO] [1793194901.676570816] [rmtc_test_robot]: AI plan applied: {"event_plan":null,"goals":["resource_high","resource_normal","resource_normal","reach_target"]}
+[WARN] [1793195070.262690295] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793195071.288414918] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793195079.901101902] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[INFO] [1793195084.465778594] [rmtc_test_robot]: AI plan applied: {"event_plan":null,"goals":["resource_normal","resource_normal","resource_high","reach_target"]}
+[WARN] [1793195087.011531477] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793195100.231013557] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793195101.271348952] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793195106.879068279] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793195112.517798720] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793195118.139872683] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793195123.239008835] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793195128.859498058] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793195134.495861109] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793195140.074025067] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793195145.704909899] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793195151.374571160] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793195157.013781180] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793195162.628080152] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793195175.973639658] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793195181.583396263] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[INFO] [1793195191.447772430] [rmtc_test_robot]: AI plan applied: {"event_plan":null,"goals":["resource_high","resource_normal","resource_normal","reach_target"]}

@@ -498,3 +498,4 @@
 [INFO] [1793193744.504104708] [scoring_node]: tick 498 | A=45.00 C=42.50 D=38.18 B=26.80 
 [INFO] [1793193745.020124531] [scoring_node]: tick 499 | A=45.00 C=42.50 D=38.18 B=26.80 
 [INFO] [1793193745.522077289] [scoring_node]: tick 500 | A=45.00 C=42.50 D=38.18 B=26.80 
+[INFO] [1793194710.190735223] [rclcpp]: signal_handler(SIGINT/SIGTERM)

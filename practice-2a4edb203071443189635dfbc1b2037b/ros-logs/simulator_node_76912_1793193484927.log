@@ -1,1 +1,2 @@
 [INFO] [1793193486.319714109] [simulator_node]: simulator ready: 18x18, 4 teams
+[INFO] [1793194710.190644769] [rclcpp]: signal_handler(SIGINT/SIGTERM)

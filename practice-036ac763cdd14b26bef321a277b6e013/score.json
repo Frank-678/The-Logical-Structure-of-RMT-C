@@ -1,0 +1,180 @@
+{
+  "action_tick": 99,
+  "actions": [
+    {
+      "action": "move",
+      "direction": "up",
+      "effective_direction": "up",
+      "from": [
+        0,
+        1
+      ],
+      "source": "submitted",
+      "status": "move_success",
+      "submitted": {
+        "_source": "submitted",
+        "action": "move",
+        "direction": "up",
+        "session_id": "practice-036ac763cdd14b26bef321a277b6e013",
+        "tick": 99
+      },
+      "team": "A",
+      "team_name": "Frank",
+      "to": [
+        0,
+        0
+      ]
+    }
+  ],
+  "arena_events": {
+    "active": [],
+    "announcements": [],
+    "enabled": false,
+    "fortress_stays": {},
+    "temporary_obstacles": [],
+    "upcoming": []
+  },
+  "events": [
+    {
+      "action": "move",
+      "direction": "up",
+      "team": "A",
+      "tick": 99,
+      "type": "action"
+    },
+    {
+      "effective_direction": "up",
+      "from": [
+        0,
+        1
+      ],
+      "team": "A",
+      "tick": 99,
+      "to": [
+        0,
+        0
+      ],
+      "type": "move"
+    }
+  ],
+  "map_view": {
+    "map": {
+      "height": 18,
+      "width": 18
+    },
+    "obstacles": [
+      [
+        3,
+        11
+      ],
+      [
+        6,
+        3
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        11,
+        13
+      ],
+      [
+        11,
+        14
+      ],
+      [
+        14,
+        6
+      ]
+    ],
+    "resources": [],
+    "robots": [
+      {
+        "alive": true,
+        "defending": false,
+        "effective_damage": 0.0,
+        "effects": [],
+        "high_resources": 4,
+        "hp": 100,
+        "invalid_actions": 0,
+        "last_action": {
+          "action": "move",
+          "effective_direction": "up",
+          "moved": true,
+          "tick": 99
+        },
+        "mission_completed": [],
+        "normal_resources": 12,
+        "position": [
+          0,
+          0
+        ],
+        "position_tick": 0,
+        "protected": false,
+        "protection_ticks": 0,
+        "resource_value": 200,
+        "respawn_in": 0,
+        "robot_id": "A",
+        "spawn": [
+          1,
+          1
+        ],
+        "team": "A"
+      }
+    ],
+    "static_obstacles": [
+      [
+        3,
+        11
+      ],
+      [
+        6,
+        3
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        11,
+        13
+      ],
+      [
+        11,
+        14
+      ],
+      [
+        14,
+        6
+      ]
+    ]
+  },
+  "mission_text": "练习采集：自主收集资源。",
+  "session_id": "practice-036ac763cdd14b26bef321a277b6e013",
+  "stage": 1,
+  "team_registry": [
+    {
+      "name": "Frank",
+      "team": "A"
+    }
+  ],
+  "teams": [
+    {
+      "alive": true,
+      "effective_damage": 0.0,
+      "effects": [],
+      "hp": 100,
+      "invalid_actions": 0,
+      "mission_completed": 0,
+      "mission_completed_tasks": [],
+      "rank": 1,
+      "resource_value": 200.0,
+      "robot_id": "A",
+      "score": 40.0,
+      "team": "A",
+      "team_name": "Frank"
+    }
+  ],
+  "tick": 100
+}
