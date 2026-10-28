@@ -1,5 +1,7 @@
 # 分支文件总索引
 
+[2026-10-28 AHC068 外部解法比较](reports/07-ahc068-rectangle-swap-transfer-2026-10-28.md) 与 [C30–C41 迁移登记](decisions/reuse-register.md)：明确采纳、试验、否决、未实施、未验收。
+
 2026-10-27：[v1.2迁移补充](reports/06-v1.2-transfer-update.md)，堡垒动态区域、复活专用搜索及交付调整；上游代码与数据未变。
 
 [v1.1迁移影响](reports/04-v1.1-transfer-update.md) · [Prompt与harness](reports/05-prompt-harness-review.md)。全部归档文件如下，哈希见checks/file-manifest.json。
