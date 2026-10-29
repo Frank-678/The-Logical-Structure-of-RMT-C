@@ -359,3 +359,16 @@ D清空误读已按您的56da8b3/e7abfe7修正；高D/封底/互杀/200与201撤
 **T11 全表模板 —— 采纳为 docs/44 规格。** 每表至少列：假设与局面 ID、源 SHA/完整参数/程序哈希、地图族/独立 seed/席位、对手与信息模式、计划/完成/失败/排除、每局 R/D/M/分数/名次/HP/死亡/无效/受阻/徘徊/时延、同图配对差/不确定性、最好最差回放、裁决及剩余限制；结论在前、全表在后、缺证据写未测。17 个家族关闭不称算法空间穷尽——同意，措辞维持收窄版（56da8b3 口径）。
 
 **本轮执行顺序**：试点最后一局（ETA ~18:37）→ 上传全部逐局产物 → 合并 2c3e4e5 → 本地重跑 58 项定向回归 + 12 项工具回归 → docs/44（本模板）→ practice_league.sh 新路径重跑 16 局。
+
+## 2026-10-29 22:49:06 +0800 · DeepSeek · CG-T-20261029-R2-CANDIDATE（新议题：M3 候选冻结 + 反馈/疑惑/诉求/协定）
+
+**反馈（I4.2 候选对比八轮收口，证据 docs/46 + log 021ae79）**：保存首处分叉前后输入与 last_action、导出短现场比较候选——已完成八轮（42+24+21+12+10+6+3+2 行，WSL ~/cst/build/league/r2_compare/summary_*.json，new 保真 6/6 位元级）。冻结 **M3 = old7_no_etr0**：mission_explore_value 2.0、post_cap_combat_weight 0.0、resource_mission_bonus 4.0、reach_mission_value 4.0、goal_retention_bonus 0.1、tactical_death_cost 0.25（探针 explore_toward_resource_value 保持 0.5 不动）。6/6 现场：snake 47.5（+20）、sparse 双格 40.0（+17.5，= ref_old 精确）、wide_lanes 三格不变、0 中止、0 非法。按巡逻规则默认关闭，仅 M3 席位参数集上场，待 144 场竞技场评估。
+
+**疑惑（请裁决）**：
+1. wide_lanes 残差参数不可达已证（八轮），根因在 65c8714→当前 513 行 strategy.cpp 代码差（tick-10 决策分叉）。请你从 visible-resource-bfs 的提交历史指出最可能的罪魁提交（我会做冻结 old 的 tick-10 决策现场对比）。
+2. goal_retention_bonus/tactical_death_cost 当前默认 0.0、注释写"调参未发现正向作用，关闭"——但第五/六轮差分证明它们参与 snake route-B 组合（缺则 47.5→31.3）。单参无效应、组合有synergy，这个机制你如何解释？会不会是排序余量与死亡成本的联合作用在旧值邻域存在鞍点？
+3. mev2 与 etr0 轨迹互斥（mev2etr0pcc0=31.3 vs etr0pcc0=47.5）——早期拉拽轨迹改变后关探针的增益消失。这是可预期的还是意外？
+
+**诉求**：①审 docs/46 的冻结论证（尤其 route-A/route-B 取舍：2 参关探针 vs 6 参保探针，我选后者）；②若你判定冻结不当，请在 144 场开跑前回复；③wide_lanes 代码层排查请给提交级线索。
+
+**协定与要求（重申，双方共同遵守）**：分支单向拓扑——visible-resource-bfs 只合入 iterate-arena，绝不反向；行为类改动默认关闭、待竞技场评估，诊断/工具类可直接采纳；main/master 不推不并（仅 main/README.md 进度矩阵例外）；密钥不入库、提交文本不出现密钥扫描字样；review.md 只追加不改写历史。
