@@ -1,0 +1,32 @@
+[plan] snake-A-pressure focal=A T=22
+[plan] sparse-A-economy focal=A T=9
+[plan] sparse-A-archive focal=A T=9
+[variant] mev2 spec={'mission_explore_value': '2.0'}
+[done] mev2/snake-A-pressure: T=22 act=('move', 'right') old=('move', 'down') match_old=False first_diff_vs_old=22 final R/D/deaths=30.0/800.0/8 ref new {'R': 30.0, 'D': 800.0, 'deaths': 8} old {'R': 150.0, 'D': 620.0, 'deaths': 7} passed=True
+[done] mev2/sparse-A-economy: T=9 act=('move', 'down') old=('move', 'down') match_old=True first_diff_vs_old=34 final R/D/deaths=40.0/980.0/3 ref new {'R': 10.0, 'D': 820.0, 'deaths': 6} old {'R': 40.0, 'D': 820.0, 'deaths': 2} passed=True
+[done] mev2/sparse-A-archive: T=9 act=('move', 'down') old=('move', 'down') match_old=True first_diff_vs_old=24 final R/D/deaths=40.0/1510.0/0 ref new {'R': 10.0, 'D': 910.0, 'deaths': 9} old {'R': 40.0, 'D': 860.0, 'deaths': 14} passed=False
+[variant] rmb4 spec={'resource_mission_bonus': '4.0'}
+[done] rmb4/snake-A-pressure: T=22 act=('move', 'right') old=('move', 'down') match_old=False first_diff_vs_old=22 final R/D/deaths=30.0/800.0/8 ref new {'R': 30.0, 'D': 800.0, 'deaths': 8} old {'R': 150.0, 'D': 620.0, 'deaths': 7} passed=True
+[done] rmb4/sparse-A-economy: T=9 act=('move', 'right') old=('move', 'down') match_old=False first_diff_vs_old=9 final R/D/deaths=10.0/820.0/6 ref new {'R': 10.0, 'D': 820.0, 'deaths': 6} old {'R': 40.0, 'D': 820.0, 'deaths': 2} passed=True
+[done] rmb4/sparse-A-archive: T=9 act=('move', 'right') old=('move', 'down') match_old=False first_diff_vs_old=9 final R/D/deaths=10.0/910.0/9 ref new {'R': 10.0, 'D': 910.0, 'deaths': 9} old {'R': 40.0, 'D': 860.0, 'deaths': 14} passed=True
+[variant] rmv4 spec={'reach_mission_value': '4.0'}
+[done] rmv4/snake-A-pressure: T=22 act=('move', 'right') old=('move', 'down') match_old=False first_diff_vs_old=22 final R/D/deaths=30.0/800.0/8 ref new {'R': 30.0, 'D': 800.0, 'deaths': 8} old {'R': 150.0, 'D': 620.0, 'deaths': 7} passed=True
+[done] rmv4/sparse-A-economy: T=9 act=('move', 'right') old=('move', 'down') match_old=False first_diff_vs_old=9 final R/D/deaths=10.0/820.0/6 ref new {'R': 10.0, 'D': 820.0, 'deaths': 6} old {'R': 40.0, 'D': 820.0, 'deaths': 2} passed=True
+[done] rmv4/sparse-A-archive: T=9 act=('move', 'right') old=('move', 'down') match_old=False first_diff_vs_old=9 final R/D/deaths=10.0/910.0/9 ref new {'R': 10.0, 'D': 910.0, 'deaths': 9} old {'R': 40.0, 'D': 860.0, 'deaths': 14} passed=True
+[variant] grb01 spec={'goal_retention_bonus': '0.1'}
+[done] grb01/snake-A-pressure: T=22 act=('move', 'right') old=('move', 'down') match_old=False first_diff_vs_old=22 final R/D/deaths=30.0/800.0/8 ref new {'R': 30.0, 'D': 800.0, 'deaths': 8} old {'R': 150.0, 'D': 620.0, 'deaths': 7} passed=True
+[done] grb01/sparse-A-economy: T=9 act=('move', 'right') old=('move', 'down') match_old=False first_diff_vs_old=9 final R/D/deaths=10.0/820.0/6 ref new {'R': 10.0, 'D': 820.0, 'deaths': 6} old {'R': 40.0, 'D': 820.0, 'deaths': 2} passed=True
+[done] grb01/sparse-A-archive: T=9 act=('move', 'right') old=('move', 'down') match_old=False first_diff_vs_old=9 final R/D/deaths=10.0/910.0/9 ref new {'R': 10.0, 'D': 910.0, 'deaths': 9} old {'R': 40.0, 'D': 860.0, 'deaths': 14} passed=True
+[variant] tdc025 spec={'tactical_death_cost': '0.25'}
+[done] tdc025/snake-A-pressure: T=22 act=('move', 'right') old=('move', 'down') match_old=False first_diff_vs_old=22 final R/D/deaths=30.0/800.0/8 ref new {'R': 30.0, 'D': 800.0, 'deaths': 8} old {'R': 150.0, 'D': 620.0, 'deaths': 7} passed=True
+[done] tdc025/sparse-A-economy: T=9 act=('move', 'right') old=('move', 'down') match_old=False first_diff_vs_old=9 final R/D/deaths=10.0/820.0/6 ref new {'R': 10.0, 'D': 820.0, 'deaths': 6} old {'R': 40.0, 'D': 820.0, 'deaths': 2} passed=True
+[done] tdc025/sparse-A-archive: T=9 act=('move', 'right') old=('move', 'down') match_old=False first_diff_vs_old=9 final R/D/deaths=10.0/910.0/9 ref new {'R': 10.0, 'D': 910.0, 'deaths': 9} old {'R': 40.0, 'D': 860.0, 'deaths': 14} passed=True
+[variant] etr0 spec={'explore_toward_resource_value': '0.0'}
+[done] etr0/snake-A-pressure: T=22 act=('move', 'right') old=('move', 'down') match_old=False first_diff_vs_old=22 final R/D/deaths=30.0/1400.0/14 ref new {'R': 30.0, 'D': 800.0, 'deaths': 8} old {'R': 150.0, 'D': 620.0, 'deaths': 7} passed=True
+[done] etr0/sparse-A-economy: T=9 act=('move', 'right') old=('move', 'down') match_old=False first_diff_vs_old=9 final R/D/deaths=10.0/820.0/6 ref new {'R': 10.0, 'D': 820.0, 'deaths': 6} old {'R': 40.0, 'D': 820.0, 'deaths': 2} passed=True
+[done] etr0/sparse-A-archive: T=9 act=('move', 'right') old=('move', 'down') match_old=False first_diff_vs_old=9 final R/D/deaths=10.0/910.0/9 ref new {'R': 10.0, 'D': 910.0, 'deaths': 9} old {'R': 40.0, 'D': 860.0, 'deaths': 14} passed=True
+[variant] pcc0 spec={'post_cap_combat_weight': '0.0'}
+[done] pcc0/snake-A-pressure: T=22 act=('move', 'right') old=('move', 'down') match_old=False first_diff_vs_old=22 final R/D/deaths=30.0/460.0/7 ref new {'R': 30.0, 'D': 800.0, 'deaths': 8} old {'R': 150.0, 'D': 620.0, 'deaths': 7} passed=True
+[done] pcc0/sparse-A-economy: T=9 act=('move', 'right') old=('move', 'down') match_old=False first_diff_vs_old=9 final R/D/deaths=10.0/660.0/4 ref new {'R': 10.0, 'D': 820.0, 'deaths': 6} old {'R': 40.0, 'D': 820.0, 'deaths': 2} passed=True
+[done] pcc0/sparse-A-archive: T=9 act=('move', 'right') old=('move', 'down') match_old=False first_diff_vs_old=9 final R/D/deaths=10.0/610.0/6 ref new {'R': 10.0, 'D': 910.0, 'deaths': 9} old {'R': 40.0, 'D': 860.0, 'deaths': 14} passed=True
+summary -> /home/frank/cst/build/league/r2_compare/summary.json

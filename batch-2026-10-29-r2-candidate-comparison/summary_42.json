@@ -1,0 +1,1660 @@
+[
+ {
+  "case_id": "snake-A-pressure",
+  "variant": "new",
+  "T": 22,
+  "action_at_T": [
+   "move",
+   "right"
+  ],
+  "old_tape_at_T": [
+   "move",
+   "down"
+  ],
+  "match_old_at_T": false,
+  "first_diff_vs_old": 22,
+  "first_diff_vs_new": null,
+  "final": {
+   "R": 30.0,
+   "D": 800.0,
+   "deaths": 8,
+   "completed": [
+    "high"
+   ],
+   "hp": 100.0
+  },
+  "ref_new": {
+   "R": 30.0,
+   "D": 800.0,
+   "deaths": 8
+  },
+  "ref_old": {
+   "R": 150.0,
+   "D": 620.0,
+   "deaths": 7
+  },
+  "passed": true,
+  "stop": "until_tick",
+  "report": "/home/frank/cst/build/league/r2_compare/scenes/snake-A-pressure.json",
+  "fidelity_ticks_mismatch": [],
+  "fidelity_ok": true,
+  "final_matches_ref_new": true
+ },
+ {
+  "case_id": "sparse-A-economy",
+  "variant": "new",
+  "T": 9,
+  "action_at_T": [
+   "move",
+   "right"
+  ],
+  "old_tape_at_T": [
+   "move",
+   "down"
+  ],
+  "match_old_at_T": false,
+  "first_diff_vs_old": 9,
+  "first_diff_vs_new": null,
+  "final": {
+   "R": 10.0,
+   "D": 820.0,
+   "deaths": 6,
+   "completed": [
+    "reach"
+   ],
+   "hp": 100.0
+  },
+  "ref_new": {
+   "R": 10.0,
+   "D": 820.0,
+   "deaths": 6
+  },
+  "ref_old": {
+   "R": 40.0,
+   "D": 820.0,
+   "deaths": 2
+  },
+  "passed": true,
+  "stop": "until_tick",
+  "report": "/home/frank/cst/build/league/r2_compare/scenes/sparse-A-economy.json",
+  "fidelity_ticks_mismatch": [],
+  "fidelity_ok": true,
+  "final_matches_ref_new": true
+ },
+ {
+  "case_id": "sparse-A-archive",
+  "variant": "new",
+  "T": 9,
+  "action_at_T": [
+   "move",
+   "right"
+  ],
+  "old_tape_at_T": [
+   "move",
+   "down"
+  ],
+  "match_old_at_T": false,
+  "first_diff_vs_old": 9,
+  "first_diff_vs_new": null,
+  "final": {
+   "R": 10.0,
+   "D": 910.0,
+   "deaths": 9,
+   "completed": [
+    "reach"
+   ],
+   "hp": 100.0
+  },
+  "ref_new": {
+   "R": 10.0,
+   "D": 910.0,
+   "deaths": 9
+  },
+  "ref_old": {
+   "R": 40.0,
+   "D": 860.0,
+   "deaths": 14
+  },
+  "passed": true,
+  "stop": "until_tick",
+  "report": "/home/frank/cst/build/league/r2_compare/scenes/sparse-A-archive.json",
+  "fidelity_ticks_mismatch": [],
+  "fidelity_ok": true,
+  "final_matches_ref_new": true
+ },
+ {
+  "case_id": "wide_lanes-C-economy",
+  "variant": "new",
+  "T": 2,
+  "action_at_T": [
+   "move",
+   "up"
+  ],
+  "old_tape_at_T": [
+   "move",
+   "left"
+  ],
+  "match_old_at_T": false,
+  "first_diff_vs_old": 2,
+  "first_diff_vs_new": null,
+  "final": {
+   "R": 30.0,
+   "D": 1330.0,
+   "deaths": 8,
+   "completed": [
+    "normal",
+    "reach"
+   ],
+   "hp": 20.0
+  },
+  "ref_new": {
+   "R": 30.0,
+   "D": 1330.0,
+   "deaths": 8
+  },
+  "ref_old": {
+   "R": 70.0,
+   "D": 620.0,
+   "deaths": 2
+  },
+  "passed": true,
+  "stop": "until_tick",
+  "report": "/home/frank/cst/build/league/r2_compare/scenes/wide_lanes-C-economy.json",
+  "fidelity_ticks_mismatch": [],
+  "fidelity_ok": true,
+  "final_matches_ref_new": true
+ },
+ {
+  "case_id": "wide_lanes-C-pressure",
+  "variant": "new",
+  "T": 2,
+  "action_at_T": [
+   "move",
+   "up"
+  ],
+  "old_tape_at_T": [
+   "move",
+   "left"
+  ],
+  "match_old_at_T": false,
+  "first_diff_vs_old": 2,
+  "first_diff_vs_new": null,
+  "final": {
+   "R": 70.0,
+   "D": 540.0,
+   "deaths": 4,
+   "completed": [
+    "high",
+    "normal",
+    "reach"
+   ],
+   "hp": 40.0
+  },
+  "ref_new": {
+   "R": 70.0,
+   "D": 540.0,
+   "deaths": 4
+  },
+  "ref_old": {
+   "R": 110.0,
+   "D": 920.0,
+   "deaths": 7
+  },
+  "passed": true,
+  "stop": "until_tick",
+  "report": "/home/frank/cst/build/league/r2_compare/scenes/wide_lanes-C-pressure.json",
+  "fidelity_ticks_mismatch": [],
+  "fidelity_ok": true,
+  "final_matches_ref_new": true
+ },
+ {
+  "case_id": "wide_lanes-C-archive",
+  "variant": "new",
+  "T": 2,
+  "action_at_T": [
+   "move",
+   "up"
+  ],
+  "old_tape_at_T": [
+   "move",
+   "left"
+  ],
+  "match_old_at_T": false,
+  "first_diff_vs_old": 2,
+  "first_diff_vs_new": null,
+  "final": {
+   "R": 30.0,
+   "D": 840.0,
+   "deaths": 13,
+   "completed": [
+    "normal",
+    "reach"
+   ],
+   "hp": 100.0
+  },
+  "ref_new": {
+   "R": 30.0,
+   "D": 840.0,
+   "deaths": 13
+  },
+  "ref_old": {
+   "R": 70.0,
+   "D": 980.0,
+   "deaths": 5
+  },
+  "passed": true,
+  "stop": "until_tick",
+  "report": "/home/frank/cst/build/league/r2_compare/scenes/wide_lanes-C-archive.json",
+  "fidelity_ticks_mismatch": [],
+  "fidelity_ok": true,
+  "final_matches_ref_new": true
+ },
+ {
+  "case_id": "snake-A-pressure",
+  "variant": "old",
+  "T": 22,
+  "action_at_T": [
+   "move",
+   "right"
+  ],
+  "old_tape_at_T": [
+   "move",
+   "down"
+  ],
+  "match_old_at_T": false,
+  "first_diff_vs_old": 22,
+  "first_diff_vs_new": 36,
+  "final": {
+   "R": 70.0,
+   "D": 520.0,
+   "deaths": 9,
+   "completed": [
+    "high",
+    "normal",
+    "reach"
+   ],
+   "hp": 60.0
+  },
+  "ref_new": {
+   "R": 30.0,
+   "D": 800.0,
+   "deaths": 8
+  },
+  "ref_old": {
+   "R": 150.0,
+   "D": 620.0,
+   "deaths": 7
+  },
+  "passed": true,
+  "stop": "until_tick",
+  "report": "/home/frank/cst/build/league/r2_compare/scenes/snake-A-pressure.json"
+ },
+ {
+  "case_id": "sparse-A-economy",
+  "variant": "old",
+  "T": 9,
+  "action_at_T": [
+   "move",
+   "down"
+  ],
+  "old_tape_at_T": [
+   "move",
+   "down"
+  ],
+  "match_old_at_T": true,
+  "first_diff_vs_old": 95,
+  "first_diff_vs_new": 9,
+  "final": {
+   "R": 40.0,
+   "D": 780.0,
+   "deaths": 2,
+   "completed": [
+    "high",
+    "normal",
+    "reach"
+   ],
+   "hp": 100.0
+  },
+  "ref_new": {
+   "R": 10.0,
+   "D": 820.0,
+   "deaths": 6
+  },
+  "ref_old": {
+   "R": 40.0,
+   "D": 820.0,
+   "deaths": 2
+  },
+  "passed": true,
+  "stop": "until_tick",
+  "report": "/home/frank/cst/build/league/r2_compare/scenes/sparse-A-economy.json"
+ },
+ {
+  "case_id": "sparse-A-archive",
+  "variant": "old",
+  "T": 9,
+  "action_at_T": [
+   "move",
+   "down"
+  ],
+  "old_tape_at_T": [
+   "move",
+   "down"
+  ],
+  "match_old_at_T": true,
+  "first_diff_vs_old": 24,
+  "first_diff_vs_new": 9,
+  "final": {
+   "R": 40.0,
+   "D": 580.0,
+   "deaths": 0,
+   "completed": [
+    "high",
+    "normal",
+    "reach"
+   ],
+   "hp": 20.0
+  },
+  "ref_new": {
+   "R": 10.0,
+   "D": 910.0,
+   "deaths": 9
+  },
+  "ref_old": {
+   "R": 40.0,
+   "D": 860.0,
+   "deaths": 14
+  },
+  "passed": true,
+  "stop": "until_tick",
+  "report": "/home/frank/cst/build/league/r2_compare/scenes/sparse-A-archive.json"
+ },
+ {
+  "case_id": "wide_lanes-C-economy",
+  "variant": "old",
+  "T": 2,
+  "action_at_T": [
+   "move",
+   "left"
+  ],
+  "old_tape_at_T": [
+   "move",
+   "left"
+  ],
+  "match_old_at_T": true,
+  "first_diff_vs_old": 10,
+  "first_diff_vs_new": 2,
+  "final": {
+   "R": 30.0,
+   "D": 650.0,
+   "deaths": 1,
+   "completed": [
+    "normal",
+    "reach"
+   ],
+   "hp": 80.0
+  },
+  "ref_new": {
+   "R": 30.0,
+   "D": 1330.0,
+   "deaths": 8
+  },
+  "ref_old": {
+   "R": 70.0,
+   "D": 620.0,
+   "deaths": 2
+  },
+  "passed": true,
+  "stop": "until_tick",
+  "report": "/home/frank/cst/build/league/r2_compare/scenes/wide_lanes-C-economy.json"
+ },
+ {
+  "case_id": "wide_lanes-C-pressure",
+  "variant": "old",
+  "T": 2,
+  "action_at_T": [
+   "move",
+   "left"
+  ],
+  "old_tape_at_T": [
+   "move",
+   "left"
+  ],
+  "match_old_at_T": true,
+  "first_diff_vs_old": 10,
+  "first_diff_vs_new": 2,
+  "final": {
+   "R": 70.0,
+   "D": 520.0,
+   "deaths": 9,
+   "completed": [
+    "high",
+    "normal",
+    "reach"
+   ],
+   "hp": 100.0
+  },
+  "ref_new": {
+   "R": 70.0,
+   "D": 540.0,
+   "deaths": 4
+  },
+  "ref_old": {
+   "R": 110.0,
+   "D": 920.0,
+   "deaths": 7
+  },
+  "passed": true,
+  "stop": "until_tick",
+  "report": "/home/frank/cst/build/league/r2_compare/scenes/wide_lanes-C-pressure.json"
+ },
+ {
+  "case_id": "wide_lanes-C-archive",
+  "variant": "old",
+  "T": 2,
+  "action_at_T": [
+   "move",
+   "left"
+  ],
+  "old_tape_at_T": [
+   "move",
+   "left"
+  ],
+  "match_old_at_T": true,
+  "first_diff_vs_old": 10,
+  "first_diff_vs_new": 2,
+  "final": {
+   "R": 30.0,
+   "D": 760.0,
+   "deaths": 1,
+   "completed": [
+    "normal",
+    "reach"
+   ],
+   "hp": 20.0
+  },
+  "ref_new": {
+   "R": 30.0,
+   "D": 840.0,
+   "deaths": 13
+  },
+  "ref_old": {
+   "R": 70.0,
+   "D": 980.0,
+   "deaths": 5
+  },
+  "passed": true,
+  "stop": "until_tick",
+  "report": "/home/frank/cst/build/league/r2_compare/scenes/wide_lanes-C-archive.json"
+ },
+ {
+  "case_id": "snake-A-pressure",
+  "variant": "rrh05",
+  "T": 22,
+  "action_at_T": [
+   "move",
+   "right"
+  ],
+  "old_tape_at_T": [
+   "move",
+   "down"
+  ],
+  "match_old_at_T": false,
+  "first_diff_vs_old": 22,
+  "first_diff_vs_new": null,
+  "final": {
+   "R": 30.0,
+   "D": 800.0,
+   "deaths": 8,
+   "completed": [
+    "high"
+   ],
+   "hp": 100.0
+  },
+  "ref_new": {
+   "R": 30.0,
+   "D": 800.0,
+   "deaths": 8
+  },
+  "ref_old": {
+   "R": 150.0,
+   "D": 620.0,
+   "deaths": 7
+  },
+  "passed": true,
+  "stop": "until_tick",
+  "report": "/home/frank/cst/build/league/r2_compare/scenes/snake-A-pressure.json"
+ },
+ {
+  "case_id": "sparse-A-economy",
+  "variant": "rrh05",
+  "T": 9,
+  "action_at_T": [
+   "move",
+   "right"
+  ],
+  "old_tape_at_T": [
+   "move",
+   "down"
+  ],
+  "match_old_at_T": false,
+  "first_diff_vs_old": 9,
+  "first_diff_vs_new": null,
+  "final": {
+   "R": 10.0,
+   "D": 820.0,
+   "deaths": 6,
+   "completed": [
+    "reach"
+   ],
+   "hp": 100.0
+  },
+  "ref_new": {
+   "R": 10.0,
+   "D": 820.0,
+   "deaths": 6
+  },
+  "ref_old": {
+   "R": 40.0,
+   "D": 820.0,
+   "deaths": 2
+  },
+  "passed": true,
+  "stop": "until_tick",
+  "report": "/home/frank/cst/build/league/r2_compare/scenes/sparse-A-economy.json"
+ },
+ {
+  "case_id": "sparse-A-archive",
+  "variant": "rrh05",
+  "T": 9,
+  "action_at_T": [
+   "move",
+   "right"
+  ],
+  "old_tape_at_T": [
+   "move",
+   "down"
+  ],
+  "match_old_at_T": false,
+  "first_diff_vs_old": 9,
+  "first_diff_vs_new": null,
+  "final": {
+   "R": 10.0,
+   "D": 910.0,
+   "deaths": 9,
+   "completed": [
+    "reach"
+   ],
+   "hp": 100.0
+  },
+  "ref_new": {
+   "R": 10.0,
+   "D": 910.0,
+   "deaths": 9
+  },
+  "ref_old": {
+   "R": 40.0,
+   "D": 860.0,
+   "deaths": 14
+  },
+  "passed": true,
+  "stop": "until_tick",
+  "report": "/home/frank/cst/build/league/r2_compare/scenes/sparse-A-archive.json"
+ },
+ {
+  "case_id": "wide_lanes-C-economy",
+  "variant": "rrh05",
+  "T": 2,
+  "action_at_T": [
+   "move",
+   "left"
+  ],
+  "old_tape_at_T": [
+   "move",
+   "left"
+  ],
+  "match_old_at_T": true,
+  "first_diff_vs_old": 10,
+  "first_diff_vs_new": 2,
+  "final": {
+   "R": 30.0,
+   "D": 730.0,
+   "deaths": 1,
+   "completed": [
+    "normal",
+    "reach"
+   ],
+   "hp": 80.0
+  },
+  "ref_new": {
+   "R": 30.0,
+   "D": 1330.0,
+   "deaths": 8
+  },
+  "ref_old": {
+   "R": 70.0,
+   "D": 620.0,
+   "deaths": 2
+  },
+  "passed": true,
+  "stop": "until_tick",
+  "report": "/home/frank/cst/build/league/r2_compare/scenes/wide_lanes-C-economy.json"
+ },
+ {
+  "case_id": "wide_lanes-C-pressure",
+  "variant": "rrh05",
+  "T": 2,
+  "action_at_T": [
+   "move",
+   "left"
+  ],
+  "old_tape_at_T": [
+   "move",
+   "left"
+  ],
+  "match_old_at_T": true,
+  "first_diff_vs_old": 10,
+  "first_diff_vs_new": 2,
+  "final": {
+   "R": 70.0,
+   "D": 820.0,
+   "deaths": 7,
+   "completed": [
+    "high",
+    "normal",
+    "reach"
+   ],
+   "hp": 100.0
+  },
+  "ref_new": {
+   "R": 70.0,
+   "D": 540.0,
+   "deaths": 4
+  },
+  "ref_old": {
+   "R": 110.0,
+   "D": 920.0,
+   "deaths": 7
+  },
+  "passed": true,
+  "stop": "until_tick",
+  "report": "/home/frank/cst/build/league/r2_compare/scenes/wide_lanes-C-pressure.json"
+ },
+ {
+  "case_id": "wide_lanes-C-archive",
+  "variant": "rrh05",
+  "T": 2,
+  "action_at_T": [
+   "move",
+   "left"
+  ],
+  "old_tape_at_T": [
+   "move",
+   "left"
+  ],
+  "match_old_at_T": true,
+  "first_diff_vs_old": 10,
+  "first_diff_vs_new": 2,
+  "final": {
+   "R": 30.0,
+   "D": 1330.0,
+   "deaths": 1,
+   "completed": [
+    "normal",
+    "reach"
+   ],
+   "hp": 100.0
+  },
+  "ref_new": {
+   "R": 30.0,
+   "D": 840.0,
+   "deaths": 13
+  },
+  "ref_old": {
+   "R": 70.0,
+   "D": 980.0,
+   "deaths": 5
+  },
+  "passed": false,
+  "stop": "assertion_failed",
+  "report": "/home/frank/cst/build/league/r2_compare/scenes/wide_lanes-C-archive.json"
+ },
+ {
+  "case_id": "snake-A-pressure",
+  "variant": "rrh10",
+  "T": 22,
+  "action_at_T": [
+   "move",
+   "right"
+  ],
+  "old_tape_at_T": [
+   "move",
+   "down"
+  ],
+  "match_old_at_T": false,
+  "first_diff_vs_old": 22,
+  "first_diff_vs_new": null,
+  "final": {
+   "R": 30.0,
+   "D": 800.0,
+   "deaths": 8,
+   "completed": [
+    "high"
+   ],
+   "hp": 100.0
+  },
+  "ref_new": {
+   "R": 30.0,
+   "D": 800.0,
+   "deaths": 8
+  },
+  "ref_old": {
+   "R": 150.0,
+   "D": 620.0,
+   "deaths": 7
+  },
+  "passed": true,
+  "stop": "until_tick",
+  "report": "/home/frank/cst/build/league/r2_compare/scenes/snake-A-pressure.json"
+ },
+ {
+  "case_id": "sparse-A-economy",
+  "variant": "rrh10",
+  "T": 9,
+  "action_at_T": [
+   "move",
+   "right"
+  ],
+  "old_tape_at_T": [
+   "move",
+   "down"
+  ],
+  "match_old_at_T": false,
+  "first_diff_vs_old": 9,
+  "first_diff_vs_new": null,
+  "final": {
+   "R": 10.0,
+   "D": 820.0,
+   "deaths": 6,
+   "completed": [
+    "reach"
+   ],
+   "hp": 100.0
+  },
+  "ref_new": {
+   "R": 10.0,
+   "D": 820.0,
+   "deaths": 6
+  },
+  "ref_old": {
+   "R": 40.0,
+   "D": 820.0,
+   "deaths": 2
+  },
+  "passed": true,
+  "stop": "until_tick",
+  "report": "/home/frank/cst/build/league/r2_compare/scenes/sparse-A-economy.json"
+ },
+ {
+  "case_id": "sparse-A-archive",
+  "variant": "rrh10",
+  "T": 9,
+  "action_at_T": [
+   "move",
+   "right"
+  ],
+  "old_tape_at_T": [
+   "move",
+   "down"
+  ],
+  "match_old_at_T": false,
+  "first_diff_vs_old": 9,
+  "first_diff_vs_new": null,
+  "final": {
+   "R": 10.0,
+   "D": 910.0,
+   "deaths": 9,
+   "completed": [
+    "reach"
+   ],
+   "hp": 100.0
+  },
+  "ref_new": {
+   "R": 10.0,
+   "D": 910.0,
+   "deaths": 9
+  },
+  "ref_old": {
+   "R": 40.0,
+   "D": 860.0,
+   "deaths": 14
+  },
+  "passed": true,
+  "stop": "until_tick",
+  "report": "/home/frank/cst/build/league/r2_compare/scenes/sparse-A-archive.json"
+ },
+ {
+  "case_id": "wide_lanes-C-economy",
+  "variant": "rrh10",
+  "T": 2,
+  "action_at_T": [
+   "move",
+   "left"
+  ],
+  "old_tape_at_T": [
+   "move",
+   "left"
+  ],
+  "match_old_at_T": true,
+  "first_diff_vs_old": 10,
+  "first_diff_vs_new": 2,
+  "final": {
+   "R": 30.0,
+   "D": 730.0,
+   "deaths": 1,
+   "completed": [
+    "normal",
+    "reach"
+   ],
+   "hp": 80.0
+  },
+  "ref_new": {
+   "R": 30.0,
+   "D": 1330.0,
+   "deaths": 8
+  },
+  "ref_old": {
+   "R": 70.0,
+   "D": 620.0,
+   "deaths": 2
+  },
+  "passed": true,
+  "stop": "until_tick",
+  "report": "/home/frank/cst/build/league/r2_compare/scenes/wide_lanes-C-economy.json"
+ },
+ {
+  "case_id": "wide_lanes-C-pressure",
+  "variant": "rrh10",
+  "T": 2,
+  "action_at_T": [
+   "move",
+   "left"
+  ],
+  "old_tape_at_T": [
+   "move",
+   "left"
+  ],
+  "match_old_at_T": true,
+  "first_diff_vs_old": 10,
+  "first_diff_vs_new": 2,
+  "final": {
+   "R": 70.0,
+   "D": 820.0,
+   "deaths": 7,
+   "completed": [
+    "high",
+    "normal",
+    "reach"
+   ],
+   "hp": 100.0
+  },
+  "ref_new": {
+   "R": 70.0,
+   "D": 540.0,
+   "deaths": 4
+  },
+  "ref_old": {
+   "R": 110.0,
+   "D": 920.0,
+   "deaths": 7
+  },
+  "passed": true,
+  "stop": "until_tick",
+  "report": "/home/frank/cst/build/league/r2_compare/scenes/wide_lanes-C-pressure.json"
+ },
+ {
+  "case_id": "wide_lanes-C-archive",
+  "variant": "rrh10",
+  "T": 2,
+  "action_at_T": [
+   "move",
+   "left"
+  ],
+  "old_tape_at_T": [
+   "move",
+   "left"
+  ],
+  "match_old_at_T": true,
+  "first_diff_vs_old": 10,
+  "first_diff_vs_new": 2,
+  "final": {
+   "R": 30.0,
+   "D": 1330.0,
+   "deaths": 1,
+   "completed": [
+    "normal",
+    "reach"
+   ],
+   "hp": 100.0
+  },
+  "ref_new": {
+   "R": 30.0,
+   "D": 840.0,
+   "deaths": 13
+  },
+  "ref_old": {
+   "R": 70.0,
+   "D": 980.0,
+   "deaths": 5
+  },
+  "passed": false,
+  "stop": "assertion_failed",
+  "report": "/home/frank/cst/build/league/r2_compare/scenes/wide_lanes-C-archive.json"
+ },
+ {
+  "case_id": "snake-A-pressure",
+  "variant": "pull8",
+  "T": 22,
+  "action_at_T": [
+   "move",
+   "right"
+  ],
+  "old_tape_at_T": [
+   "move",
+   "down"
+  ],
+  "match_old_at_T": false,
+  "first_diff_vs_old": 22,
+  "first_diff_vs_new": null,
+  "final": {
+   "R": 30.0,
+   "D": 800.0,
+   "deaths": 8,
+   "completed": [
+    "high"
+   ],
+   "hp": 100.0
+  },
+  "ref_new": {
+   "R": 30.0,
+   "D": 800.0,
+   "deaths": 8
+  },
+  "ref_old": {
+   "R": 150.0,
+   "D": 620.0,
+   "deaths": 7
+  },
+  "passed": true,
+  "stop": "until_tick",
+  "report": "/home/frank/cst/build/league/r2_compare/scenes/snake-A-pressure.json"
+ },
+ {
+  "case_id": "sparse-A-economy",
+  "variant": "pull8",
+  "T": 9,
+  "action_at_T": [
+   "move",
+   "right"
+  ],
+  "old_tape_at_T": [
+   "move",
+   "down"
+  ],
+  "match_old_at_T": false,
+  "first_diff_vs_old": 9,
+  "first_diff_vs_new": 11,
+  "final": {
+   "R": 40.0,
+   "D": 940.0,
+   "deaths": 4,
+   "completed": [
+    "high",
+    "normal",
+    "reach"
+   ],
+   "hp": 100.0
+  },
+  "ref_new": {
+   "R": 10.0,
+   "D": 820.0,
+   "deaths": 6
+  },
+  "ref_old": {
+   "R": 40.0,
+   "D": 820.0,
+   "deaths": 2
+  },
+  "passed": true,
+  "stop": "until_tick",
+  "report": "/home/frank/cst/build/league/r2_compare/scenes/sparse-A-economy.json"
+ },
+ {
+  "case_id": "sparse-A-archive",
+  "variant": "pull8",
+  "T": 9,
+  "action_at_T": [
+   "move",
+   "right"
+  ],
+  "old_tape_at_T": [
+   "move",
+   "down"
+  ],
+  "match_old_at_T": false,
+  "first_diff_vs_old": 9,
+  "first_diff_vs_new": 11,
+  "final": {
+   "R": 40.0,
+   "D": 1350.0,
+   "deaths": 1,
+   "completed": [
+    "high",
+    "normal",
+    "reach"
+   ],
+   "hp": 100.0
+  },
+  "ref_new": {
+   "R": 10.0,
+   "D": 910.0,
+   "deaths": 9
+  },
+  "ref_old": {
+   "R": 40.0,
+   "D": 860.0,
+   "deaths": 14
+  },
+  "passed": false,
+  "stop": "assertion_failed",
+  "report": "/home/frank/cst/build/league/r2_compare/scenes/sparse-A-archive.json"
+ },
+ {
+  "case_id": "wide_lanes-C-economy",
+  "variant": "pull8",
+  "T": 2,
+  "action_at_T": [
+   "move",
+   "up"
+  ],
+  "old_tape_at_T": [
+   "move",
+   "left"
+  ],
+  "match_old_at_T": false,
+  "first_diff_vs_old": 2,
+  "first_diff_vs_new": null,
+  "final": {
+   "R": 30.0,
+   "D": 1330.0,
+   "deaths": 8,
+   "completed": [
+    "normal",
+    "reach"
+   ],
+   "hp": 20.0
+  },
+  "ref_new": {
+   "R": 30.0,
+   "D": 1330.0,
+   "deaths": 8
+  },
+  "ref_old": {
+   "R": 70.0,
+   "D": 620.0,
+   "deaths": 2
+  },
+  "passed": true,
+  "stop": "until_tick",
+  "report": "/home/frank/cst/build/league/r2_compare/scenes/wide_lanes-C-economy.json"
+ },
+ {
+  "case_id": "wide_lanes-C-pressure",
+  "variant": "pull8",
+  "T": 2,
+  "action_at_T": [
+   "move",
+   "up"
+  ],
+  "old_tape_at_T": [
+   "move",
+   "left"
+  ],
+  "match_old_at_T": false,
+  "first_diff_vs_old": 2,
+  "first_diff_vs_new": null,
+  "final": {
+   "R": 70.0,
+   "D": 540.0,
+   "deaths": 4,
+   "completed": [
+    "high",
+    "normal",
+    "reach"
+   ],
+   "hp": 40.0
+  },
+  "ref_new": {
+   "R": 70.0,
+   "D": 540.0,
+   "deaths": 4
+  },
+  "ref_old": {
+   "R": 110.0,
+   "D": 920.0,
+   "deaths": 7
+  },
+  "passed": true,
+  "stop": "until_tick",
+  "report": "/home/frank/cst/build/league/r2_compare/scenes/wide_lanes-C-pressure.json"
+ },
+ {
+  "case_id": "wide_lanes-C-archive",
+  "variant": "pull8",
+  "T": 2,
+  "action_at_T": [
+   "move",
+   "up"
+  ],
+  "old_tape_at_T": [
+   "move",
+   "left"
+  ],
+  "match_old_at_T": false,
+  "first_diff_vs_old": 2,
+  "first_diff_vs_new": null,
+  "final": {
+   "R": 30.0,
+   "D": 840.0,
+   "deaths": 13,
+   "completed": [
+    "normal",
+    "reach"
+   ],
+   "hp": 100.0
+  },
+  "ref_new": {
+   "R": 30.0,
+   "D": 840.0,
+   "deaths": 13
+  },
+  "ref_old": {
+   "R": 70.0,
+   "D": 980.0,
+   "deaths": 5
+  },
+  "passed": true,
+  "stop": "until_tick",
+  "report": "/home/frank/cst/build/league/r2_compare/scenes/wide_lanes-C-archive.json"
+ },
+ {
+  "case_id": "snake-A-pressure",
+  "variant": "probe0",
+  "T": 22,
+  "action_at_T": [
+   "move",
+   "right"
+  ],
+  "old_tape_at_T": [
+   "move",
+   "down"
+  ],
+  "match_old_at_T": false,
+  "first_diff_vs_old": 22,
+  "first_diff_vs_new": 33,
+  "final": {
+   "R": 30.0,
+   "D": 1400.0,
+   "deaths": 15,
+   "completed": [
+    "high",
+    "reach"
+   ],
+   "hp": 0.0
+  },
+  "ref_new": {
+   "R": 30.0,
+   "D": 800.0,
+   "deaths": 8
+  },
+  "ref_old": {
+   "R": 150.0,
+   "D": 620.0,
+   "deaths": 7
+  },
+  "passed": true,
+  "stop": "until_tick",
+  "report": "/home/frank/cst/build/league/r2_compare/scenes/snake-A-pressure.json"
+ },
+ {
+  "case_id": "sparse-A-economy",
+  "variant": "probe0",
+  "T": 9,
+  "action_at_T": [
+   "move",
+   "right"
+  ],
+  "old_tape_at_T": [
+   "move",
+   "down"
+  ],
+  "match_old_at_T": false,
+  "first_diff_vs_old": 9,
+  "first_diff_vs_new": null,
+  "final": {
+   "R": 10.0,
+   "D": 820.0,
+   "deaths": 6,
+   "completed": [
+    "reach"
+   ],
+   "hp": 100.0
+  },
+  "ref_new": {
+   "R": 10.0,
+   "D": 820.0,
+   "deaths": 6
+  },
+  "ref_old": {
+   "R": 40.0,
+   "D": 820.0,
+   "deaths": 2
+  },
+  "passed": true,
+  "stop": "until_tick",
+  "report": "/home/frank/cst/build/league/r2_compare/scenes/sparse-A-economy.json"
+ },
+ {
+  "case_id": "sparse-A-archive",
+  "variant": "probe0",
+  "T": 9,
+  "action_at_T": [
+   "move",
+   "right"
+  ],
+  "old_tape_at_T": [
+   "move",
+   "down"
+  ],
+  "match_old_at_T": false,
+  "first_diff_vs_old": 9,
+  "first_diff_vs_new": null,
+  "final": {
+   "R": 10.0,
+   "D": 910.0,
+   "deaths": 9,
+   "completed": [
+    "reach"
+   ],
+   "hp": 100.0
+  },
+  "ref_new": {
+   "R": 10.0,
+   "D": 910.0,
+   "deaths": 9
+  },
+  "ref_old": {
+   "R": 40.0,
+   "D": 860.0,
+   "deaths": 14
+  },
+  "passed": true,
+  "stop": "until_tick",
+  "report": "/home/frank/cst/build/league/r2_compare/scenes/sparse-A-archive.json"
+ },
+ {
+  "case_id": "wide_lanes-C-economy",
+  "variant": "probe0",
+  "T": 2,
+  "action_at_T": [
+   "move",
+   "up"
+  ],
+  "old_tape_at_T": [
+   "move",
+   "left"
+  ],
+  "match_old_at_T": false,
+  "first_diff_vs_old": 2,
+  "first_diff_vs_new": null,
+  "final": {
+   "R": 30.0,
+   "D": 1330.0,
+   "deaths": 8,
+   "completed": [
+    "normal",
+    "reach"
+   ],
+   "hp": 20.0
+  },
+  "ref_new": {
+   "R": 30.0,
+   "D": 1330.0,
+   "deaths": 8
+  },
+  "ref_old": {
+   "R": 70.0,
+   "D": 620.0,
+   "deaths": 2
+  },
+  "passed": true,
+  "stop": "until_tick",
+  "report": "/home/frank/cst/build/league/r2_compare/scenes/wide_lanes-C-economy.json"
+ },
+ {
+  "case_id": "wide_lanes-C-pressure",
+  "variant": "probe0",
+  "T": 2,
+  "action_at_T": [
+   "move",
+   "up"
+  ],
+  "old_tape_at_T": [
+   "move",
+   "left"
+  ],
+  "match_old_at_T": false,
+  "first_diff_vs_old": 2,
+  "first_diff_vs_new": null,
+  "final": {
+   "R": 70.0,
+   "D": 540.0,
+   "deaths": 4,
+   "completed": [
+    "high",
+    "normal",
+    "reach"
+   ],
+   "hp": 40.0
+  },
+  "ref_new": {
+   "R": 70.0,
+   "D": 540.0,
+   "deaths": 4
+  },
+  "ref_old": {
+   "R": 110.0,
+   "D": 920.0,
+   "deaths": 7
+  },
+  "passed": true,
+  "stop": "until_tick",
+  "report": "/home/frank/cst/build/league/r2_compare/scenes/wide_lanes-C-pressure.json"
+ },
+ {
+  "case_id": "wide_lanes-C-archive",
+  "variant": "probe0",
+  "T": 2,
+  "action_at_T": [
+   "move",
+   "up"
+  ],
+  "old_tape_at_T": [
+   "move",
+   "left"
+  ],
+  "match_old_at_T": false,
+  "first_diff_vs_old": 2,
+  "first_diff_vs_new": null,
+  "final": {
+   "R": 30.0,
+   "D": 840.0,
+   "deaths": 13,
+   "completed": [
+    "normal",
+    "reach"
+   ],
+   "hp": 100.0
+  },
+  "ref_new": {
+   "R": 30.0,
+   "D": 840.0,
+   "deaths": 13
+  },
+  "ref_old": {
+   "R": 70.0,
+   "D": 980.0,
+   "deaths": 5
+  },
+  "passed": true,
+  "stop": "until_tick",
+  "report": "/home/frank/cst/build/league/r2_compare/scenes/wide_lanes-C-archive.json"
+ },
+ {
+  "case_id": "snake-A-pressure",
+  "variant": "combo",
+  "T": 22,
+  "action_at_T": [
+   "move",
+   "right"
+  ],
+  "old_tape_at_T": [
+   "move",
+   "down"
+  ],
+  "match_old_at_T": false,
+  "first_diff_vs_old": 22,
+  "first_diff_vs_new": 33,
+  "final": {
+   "R": 30.0,
+   "D": 1220.0,
+   "deaths": 12,
+   "completed": [
+    "high",
+    "reach"
+   ],
+   "hp": 60.0
+  },
+  "ref_new": {
+   "R": 30.0,
+   "D": 800.0,
+   "deaths": 8
+  },
+  "ref_old": {
+   "R": 150.0,
+   "D": 620.0,
+   "deaths": 7
+  },
+  "passed": true,
+  "stop": "until_tick",
+  "report": "/home/frank/cst/build/league/r2_compare/scenes/snake-A-pressure.json"
+ },
+ {
+  "case_id": "sparse-A-economy",
+  "variant": "combo",
+  "T": 9,
+  "action_at_T": [
+   "move",
+   "right"
+  ],
+  "old_tape_at_T": [
+   "move",
+   "down"
+  ],
+  "match_old_at_T": false,
+  "first_diff_vs_old": 9,
+  "first_diff_vs_new": 11,
+  "final": {
+   "R": 40.0,
+   "D": 940.0,
+   "deaths": 4,
+   "completed": [
+    "high",
+    "normal",
+    "reach"
+   ],
+   "hp": 100.0
+  },
+  "ref_new": {
+   "R": 10.0,
+   "D": 820.0,
+   "deaths": 6
+  },
+  "ref_old": {
+   "R": 40.0,
+   "D": 820.0,
+   "deaths": 2
+  },
+  "passed": true,
+  "stop": "until_tick",
+  "report": "/home/frank/cst/build/league/r2_compare/scenes/sparse-A-economy.json"
+ },
+ {
+  "case_id": "sparse-A-archive",
+  "variant": "combo",
+  "T": 9,
+  "action_at_T": [
+   "move",
+   "right"
+  ],
+  "old_tape_at_T": [
+   "move",
+   "down"
+  ],
+  "match_old_at_T": false,
+  "first_diff_vs_old": 9,
+  "first_diff_vs_new": 11,
+  "final": {
+   "R": 40.0,
+   "D": 530.0,
+   "deaths": 0,
+   "completed": [
+    "high",
+    "normal",
+    "reach"
+   ],
+   "hp": 80.0
+  },
+  "ref_new": {
+   "R": 10.0,
+   "D": 910.0,
+   "deaths": 9
+  },
+  "ref_old": {
+   "R": 40.0,
+   "D": 860.0,
+   "deaths": 14
+  },
+  "passed": false,
+  "stop": "assertion_failed",
+  "report": "/home/frank/cst/build/league/r2_compare/scenes/sparse-A-archive.json"
+ },
+ {
+  "case_id": "wide_lanes-C-economy",
+  "variant": "combo",
+  "T": 2,
+  "action_at_T": [
+   "move",
+   "left"
+  ],
+  "old_tape_at_T": [
+   "move",
+   "left"
+  ],
+  "match_old_at_T": true,
+  "first_diff_vs_old": 10,
+  "first_diff_vs_new": 2,
+  "final": {
+   "R": 30.0,
+   "D": 730.0,
+   "deaths": 1,
+   "completed": [
+    "normal",
+    "reach"
+   ],
+   "hp": 80.0
+  },
+  "ref_new": {
+   "R": 30.0,
+   "D": 1330.0,
+   "deaths": 8
+  },
+  "ref_old": {
+   "R": 70.0,
+   "D": 620.0,
+   "deaths": 2
+  },
+  "passed": true,
+  "stop": "until_tick",
+  "report": "/home/frank/cst/build/league/r2_compare/scenes/wide_lanes-C-economy.json"
+ },
+ {
+  "case_id": "wide_lanes-C-pressure",
+  "variant": "combo",
+  "T": 2,
+  "action_at_T": [
+   "move",
+   "left"
+  ],
+  "old_tape_at_T": [
+   "move",
+   "left"
+  ],
+  "match_old_at_T": true,
+  "first_diff_vs_old": 10,
+  "first_diff_vs_new": 2,
+  "final": {
+   "R": 70.0,
+   "D": 820.0,
+   "deaths": 7,
+   "completed": [
+    "high",
+    "normal",
+    "reach"
+   ],
+   "hp": 100.0
+  },
+  "ref_new": {
+   "R": 70.0,
+   "D": 540.0,
+   "deaths": 4
+  },
+  "ref_old": {
+   "R": 110.0,
+   "D": 920.0,
+   "deaths": 7
+  },
+  "passed": true,
+  "stop": "until_tick",
+  "report": "/home/frank/cst/build/league/r2_compare/scenes/wide_lanes-C-pressure.json"
+ },
+ {
+  "case_id": "wide_lanes-C-archive",
+  "variant": "combo",
+  "T": 2,
+  "action_at_T": [
+   "move",
+   "left"
+  ],
+  "old_tape_at_T": [
+   "move",
+   "left"
+  ],
+  "match_old_at_T": true,
+  "first_diff_vs_old": 10,
+  "first_diff_vs_new": 2,
+  "final": {
+   "R": 30.0,
+   "D": 1330.0,
+   "deaths": 1,
+   "completed": [
+    "normal",
+    "reach"
+   ],
+   "hp": 100.0
+  },
+  "ref_new": {
+   "R": 30.0,
+   "D": 840.0,
+   "deaths": 13
+  },
+  "ref_old": {
+   "R": 70.0,
+   "D": 980.0,
+   "deaths": 5
+  },
+  "passed": false,
+  "stop": "assertion_failed",
+  "report": "/home/frank/cst/build/league/r2_compare/scenes/wide_lanes-C-archive.json"
+ }
+]

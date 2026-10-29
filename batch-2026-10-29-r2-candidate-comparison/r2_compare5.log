@@ -1,0 +1,18 @@
+[plan] snake-A-pressure focal=A T=22
+[plan] wide_lanes-C-archive focal=C T=2
+[variant] six_no_mev2 spec={'resource_mission_bonus': '4.0', 'reach_mission_value': '4.0', 'goal_retention_bonus': '0.1', 'tactical_death_cost': '0.25', 'explore_toward_resource_value': '0.0', 'post_cap_combat_weight': '0.0'}
+[done] six_no_mev2/snake-A-pressure: T=22 match_old=False first_diff_vs_old=22 first_diff_vs_new=31 final R/D/deaths=70.0/520.0/9 passed=True stop=until_tick abort_seats=[]
+[done] six_no_mev2/wide_lanes-C-archive: T=2 match_old=True first_diff_vs_old=10 first_diff_vs_new=2 final R/D/deaths=30.0/760.0/1 passed=True stop=until_tick abort_seats=[]
+[variant] etr0pcc0 spec={'explore_toward_resource_value': '0.0', 'post_cap_combat_weight': '0.0'}
+[done] etr0pcc0/snake-A-pressure: T=22 match_old=False first_diff_vs_old=22 first_diff_vs_new=31 final R/D/deaths=70.0/520.0/9 passed=True stop=until_tick abort_seats=[]
+[done] etr0pcc0/wide_lanes-C-archive: T=2 match_old=False first_diff_vs_old=2 first_diff_vs_new=262 final R/D/deaths=30.0/700.0/7 passed=True stop=until_tick abort_seats=[]
+[variant] mev2etr0pcc0 spec={'mission_explore_value': '2.0', 'explore_toward_resource_value': '0.0', 'post_cap_combat_weight': '0.0'}
+[done] mev2etr0pcc0/snake-A-pressure: T=22 match_old=False first_diff_vs_old=22 first_diff_vs_new=47 final R/D/deaths=30.0/460.0/7 passed=True stop=until_tick abort_seats=[]
+[done] mev2etr0pcc0/wide_lanes-C-archive: T=2 match_old=False first_diff_vs_old=2 first_diff_vs_new=262 final R/D/deaths=30.0/700.0/7 passed=True stop=until_tick abort_seats=[]
+[variant] old7_no_etr0 spec={'resource_mission_bonus': '4.0', 'reach_mission_value': '4.0', 'goal_retention_bonus': '0.1', 'tactical_death_cost': '0.25', 'mission_explore_value': '2.0', 'post_cap_combat_weight': '0.0'}
+[done] old7_no_etr0/snake-A-pressure: T=22 match_old=False first_diff_vs_old=22 first_diff_vs_new=36 final R/D/deaths=70.0/540.0/9 passed=True stop=until_tick abort_seats=[]
+[done] old7_no_etr0/wide_lanes-C-archive: T=2 match_old=True first_diff_vs_old=10 first_diff_vs_new=2 final R/D/deaths=30.0/760.0/1 passed=True stop=until_tick abort_seats=[]
+[variant] rrh10 spec={'race_reach_holdoff': '1.0'}
+[done] rrh10/snake-A-pressure: T=22 match_old=False first_diff_vs_old=22 first_diff_vs_new=None final R/D/deaths=30.0/800.0/8 passed=True stop=until_tick abort_seats=[]
+[done] rrh10/wide_lanes-C-archive: T=2 match_old=True first_diff_vs_old=10 first_diff_vs_new=2 final R/D/deaths=30.0/1330.0/1 passed=False stop=assertion_failed abort_seats=['A']
+summary -> /home/frank/cst/build/league/r2_compare/summary.json
