@@ -1,0 +1,22 @@
+[INFO] [1793235620.097478825] [rmtc_test_robot]: test robot for team D (练习陪练D) ready
+[WARN] [1793235629.386714822] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793235630.413885617] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793235635.973687365] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793235641.533934417] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793235654.647022293] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793235655.677118150] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793235660.781526570] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793235666.374326712] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793235671.931551171] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793235684.525208351] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793235685.538061497] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793235696.746986203] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793235705.299719429] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793235706.321870991] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793235711.866053296] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793235717.416750098] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793235728.180597074] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793235736.818239472] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793235737.872616565] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[INFO] [1793235747.964763515] [rmtc_test_robot]: AI plan applied: {"event_plan":null,"goals":["resource_normal","resource_normal","resource_high","reach_target"]}
+[INFO] [1793235875.551059042] [rclcpp]: signal_handler(SIGINT/SIGTERM)

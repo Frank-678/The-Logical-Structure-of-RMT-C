@@ -1,0 +1,14 @@
+[INFO] [1793235089.071991093] [referee_public]: registered team A as Frank
+[INFO] [1793235089.072262185] [referee_public]: registered team B as 练习陪练B
+[INFO] [1793235089.079847013] [referee_public]: registered team A as Frank
+[INFO] [1793235089.080236836] [referee_public]: registered team A as Frank
+[INFO] [1793235089.090618401] [referee_public]: registered team A as Frank
+[INFO] [1793235089.090860208] [referee_public]: registered team A as Frank
+[INFO] [1793235089.091092802] [referee_public]: registered team A as Frank
+[INFO] [1793235089.101675589] [referee_public]: registered team A as Frank
+[INFO] [1793235089.200235143] [referee_public]: registered team D as 练习陪练D
+[INFO] [1793235089.687688816] [referee_public]: registered team C as 练习陪练C
+[INFO] [1793235089.687900537] [referee_public]: registered team A as Frank
+[INFO] [1793235092.895564367] [referee_public]: registered team A as Frank
+[INFO] [1793235343.744833761] [referee_public]: match completed at tick 500
+[INFO] [1793235344.332669126] [rclcpp]: signal_handler(SIGINT/SIGTERM)
