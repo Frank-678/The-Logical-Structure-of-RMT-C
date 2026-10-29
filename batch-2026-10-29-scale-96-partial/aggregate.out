@@ -1,0 +1,99 @@
+[21:01:03] 冻结校验通过：champion install bot
+[21:01:03] 冻结校验通过：old_champion-B bot
+[21:01:03] === M1 x seed 20261201：1 个我方席位，4 局轮换席位 ===
+[21:01:03] battle 0: deploying (our seats: ['A'])
+启动：/home/frank/cst/install/rmtc_bot/lib/rmtc_bot/bot（seat=A，node=rmtc_bot_A，日志=/home/frank/cst/build/practice-league/scale-96/summary_M1_20261201.runs/case-0-toc_n8w5/botA.log）
+[21:05:32] battle 1: deploying (our seats: ['A'])
+启动：/home/frank/cst/install/rmtc_bot/lib/rmtc_bot/bot（seat=A，node=rmtc_bot_A，日志=/home/frank/cst/build/practice-league/scale-96/summary_M1_20261201.runs/case-1-ny_y7fur/botA.log）
+[21:09:55] battle 2: deploying (our seats: ['A'])
+启动：/home/frank/cst/install/rmtc_bot/lib/rmtc_bot/bot（seat=A，node=rmtc_bot_A，日志=/home/frank/cst/build/practice-league/scale-96/summary_M1_20261201.runs/case-2-2mt2idhd/botA.log）
+[21:14:17] battle 3: deploying (our seats: ['A'])
+启动：/home/frank/cst/install/rmtc_bot/lib/rmtc_bot/bot（seat=A，node=rmtc_bot_A，日志=/home/frank/cst/build/practice-league/scale-96/summary_M1_20261201.runs/case-3-u7pd11sx/botA.log）
+[21:18:40] batch done: 4/4 requested completed; summary -> /home/frank/cst/build/practice-league/scale-96/summary_M1_20261201.json
+[21:18:40] === M1 x seed 20261201：4/4 完成，用时 17.6 min ===
+[21:18:40] === M1 x seed 20261202：1 个我方席位，4 局轮换席位 ===
+[21:18:40] battle 0: deploying (our seats: ['A'])
+启动：/home/frank/cst/install/rmtc_bot/lib/rmtc_bot/bot（seat=A，node=rmtc_bot_A，日志=/home/frank/cst/build/practice-league/scale-96/summary_M1_20261202.runs/case-0-etos1fz_/botA.log）
+[21:23:03] battle 1: deploying (our seats: ['A'])
+启动：/home/frank/cst/install/rmtc_bot/lib/rmtc_bot/bot（seat=A，node=rmtc_bot_A，日志=/home/frank/cst/build/practice-league/scale-96/summary_M1_20261202.runs/case-1-_mc2x6wt/botA.log）
+[21:27:26] battle 2: deploying (our seats: ['A'])
+启动：/home/frank/cst/install/rmtc_bot/lib/rmtc_bot/bot（seat=A，node=rmtc_bot_A，日志=/home/frank/cst/build/practice-league/scale-96/summary_M1_20261202.runs/case-2-h1zj35n6/botA.log）
+[21:31:49] battle 3: deploying (our seats: ['A'])
+启动：/home/frank/cst/install/rmtc_bot/lib/rmtc_bot/bot（seat=A，node=rmtc_bot_A，日志=/home/frank/cst/build/practice-league/scale-96/summary_M1_20261202.runs/case-3-dop_24ba/botA.log）
+[21:36:11] batch done: 4/4 requested completed; summary -> /home/frank/cst/build/practice-league/scale-96/summary_M1_20261202.json
+[21:36:11] === M1 x seed 20261202：4/4 完成，用时 17.5 min ===
+[21:36:11] === M1 x seed 20261203：1 个我方席位，4 局轮换席位 ===
+[21:36:11] battle 0: deploying (our seats: ['A'])
+启动：/home/frank/cst/install/rmtc_bot/lib/rmtc_bot/bot（seat=A，node=rmtc_bot_A，日志=/home/frank/cst/build/practice-league/scale-96/summary_M1_20261203.runs/case-0-704ib9a_/botA.log）
+[21:40:33] battle 1: deploying (our seats: ['A'])
+启动：/home/frank/cst/install/rmtc_bot/lib/rmtc_bot/bot（seat=A，node=rmtc_bot_A，日志=/home/frank/cst/build/practice-league/scale-96/summary_M1_20261203.runs/case-1-ichk2ntt/botA.log）
+[21:44:57] battle 2: deploying (our seats: ['A'])
+启动：/home/frank/cst/install/rmtc_bot/lib/rmtc_bot/bot（seat=A，node=rmtc_bot_A，日志=/home/frank/cst/build/practice-league/scale-96/summary_M1_20261203.runs/case-2-v_2rcwz9/botA.log）
+[21:49:19] battle 3: deploying (our seats: ['A'])
+启动：/home/frank/cst/install/rmtc_bot/lib/rmtc_bot/bot（seat=A，node=rmtc_bot_A，日志=/home/frank/cst/build/practice-league/scale-96/summary_M1_20261203.runs/case-3-6i86sfmy/botA.log）
+[21:53:41] batch done: 4/4 requested completed; summary -> /home/frank/cst/build/practice-league/scale-96/summary_M1_20261203.json
+[21:53:41] === M1 x seed 20261203：4/4 完成，用时 17.5 min ===
+[21:53:41] === M1 x seed 20261204：1 个我方席位，4 局轮换席位 ===
+配置已改变，请先 bash build.sh。
+[21:53:41] === M1 x seed 20261204：0/4 完成，用时 0.0 min ===
+[21:53:41] === M1 x seed 20261205：1 个我方席位，4 局轮换席位 ===
+配置已改变，请先 bash build.sh。
+[21:53:41] === M1 x seed 20261205：0/4 完成，用时 0.0 min ===
+[21:53:41] === M1 x seed 20261206：1 个我方席位，4 局轮换席位 ===
+配置已改变，请先 bash build.sh。
+[21:53:41] === M1 x seed 20261206：0/4 完成，用时 0.0 min ===
+[21:53:41] === M1 x seed 20261207：1 个我方席位，4 局轮换席位 ===
+配置已改变，请先 bash build.sh。
+[21:53:41] === M1 x seed 20261207：0/4 完成，用时 0.0 min ===
+[21:53:41] === M1 x seed 20261208：1 个我方席位，4 局轮换席位 ===
+配置已改变，请先 bash build.sh。
+[21:53:41] === M1 x seed 20261208：0/4 完成，用时 0.0 min ===
+[21:53:41] === M1 x seed 20261209：1 个我方席位，4 局轮换席位 ===
+配置已改变，请先 bash build.sh。
+[21:53:41] === M1 x seed 20261209：0/4 完成，用时 0.0 min ===
+[21:53:41] === M1 x seed 20261210：1 个我方席位，4 局轮换席位 ===
+配置已改变，请先 bash build.sh。
+[21:53:41] === M1 x seed 20261210：0/4 完成，用时 0.0 min ===
+[21:53:41] === M1 x seed 20261211：1 个我方席位，4 局轮换席位 ===
+配置已改变，请先 bash build.sh。
+[21:53:41] === M1 x seed 20261211：0/4 完成，用时 0.0 min ===
+[21:53:41] === M1 x seed 20261212：1 个我方席位，4 局轮换席位 ===
+配置已改变，请先 bash build.sh。
+[21:53:41] === M1 x seed 20261212：0/4 完成，用时 0.0 min ===
+[21:53:41] === M2 x seed 20261201：2 个我方席位，4 局轮换席位 ===
+配置已改变，请先 bash build.sh。
+[21:53:41] === M2 x seed 20261201：0/4 完成，用时 0.0 min ===
+[21:53:41] === M2 x seed 20261202：2 个我方席位，4 局轮换席位 ===
+配置已改变，请先 bash build.sh。
+[21:53:41] === M2 x seed 20261202：0/4 完成，用时 0.0 min ===
+[21:53:41] === M2 x seed 20261203：2 个我方席位，4 局轮换席位 ===
+配置已改变，请先 bash build.sh。
+[21:53:41] === M2 x seed 20261203：0/4 完成，用时 0.0 min ===
+[21:53:41] === M2 x seed 20261204：2 个我方席位，4 局轮换席位 ===
+配置已改变，请先 bash build.sh。
+[21:53:41] === M2 x seed 20261204：0/4 完成，用时 0.0 min ===
+[21:53:41] === M2 x seed 20261205：2 个我方席位，4 局轮换席位 ===
+配置已改变，请先 bash build.sh。
+[21:53:41] === M2 x seed 20261205：0/4 完成，用时 0.0 min ===
+[21:53:41] === M2 x seed 20261206：2 个我方席位，4 局轮换席位 ===
+配置已改变，请先 bash build.sh。
+[21:53:41] === M2 x seed 20261206：0/4 完成，用时 0.0 min ===
+[21:53:41] === M2 x seed 20261207：2 个我方席位，4 局轮换席位 ===
+配置已改变，请先 bash build.sh。
+[21:53:41] === M2 x seed 20261207：0/4 完成，用时 0.0 min ===
+[21:53:41] === M2 x seed 20261208：2 个我方席位，4 局轮换席位 ===
+配置已改变，请先 bash build.sh。
+[21:53:42] === M2 x seed 20261208：0/4 完成，用时 0.0 min ===
+[21:53:42] === M2 x seed 20261209：2 个我方席位，4 局轮换席位 ===
+配置已改变，请先 bash build.sh。
+[21:53:42] === M2 x seed 20261209：0/4 完成，用时 0.0 min ===
+[21:53:42] === M2 x seed 20261210：2 个我方席位，4 局轮换席位 ===
+配置已改变，请先 bash build.sh。
+[21:53:42] === M2 x seed 20261210：0/4 完成，用时 0.0 min ===
+[21:53:42] === M2 x seed 20261211：2 个我方席位，4 局轮换席位 ===
+配置已改变，请先 bash build.sh。
+[21:53:42] === M2 x seed 20261211：0/4 完成，用时 0.0 min ===
+[21:53:42] === M2 x seed 20261212：2 个我方席位，4 局轮换席位 ===
+配置已改变，请先 bash build.sh。
+[21:53:42] === M2 x seed 20261212：0/4 完成，用时 0.0 min ===
+[21:53:42] 联赛批次完成：12/12 局 ok；失败驱动运行 21 个

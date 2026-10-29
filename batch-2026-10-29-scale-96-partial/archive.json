@@ -1,0 +1,28 @@
+{
+ "summary": "/home/frank/cst/build/practice-league/scale-96/league_summary.json",
+ "to": "/mnt/d/code/The-Logical-RMT-C-log/batch-2026-10-29-scale-96-partial",
+ "ts": "2026-10-29T22:00:31.762401+08:00",
+ "battles": 12,
+ "completed": 12,
+ "failed": 0,
+ "failures": [],
+ "sessions": [
+  "practice-139d385907b841ce92bc38a3836569f0",
+  "practice-fb3457c6578e4a1c896a2b4cd2b31ff5",
+  "practice-7420956f86504e6293055ab950349862",
+  "practice-c46a934b6dfc4351a79b4b9b753ededa",
+  "practice-fa328cca34c74b22bcfbe3831fdcc4f8",
+  "practice-bf0c2dc4ec8a4709989a7f0072e74117",
+  "practice-8db2130d06ff4986a13ddf53aaefb993",
+  "practice-5881763e824045229cc8401032ec5d48",
+  "practice-48afce953b2b4d739c86df5b75200817",
+  "practice-4e9b93fe111c4747875d68dff762bd6d",
+  "practice-daa146550e1a445695af929930d97f3e",
+  "practice-b34896c3c00746aea16918868e2f7862"
+ ],
+ "missing": {},
+ "key_scan": {
+  "ok": true,
+  "hits": 0
+ }
+}
