@@ -1,0 +1,19 @@
+[INFO] [1793275294.316962036] [rmtc_test_robot]: test robot for team C (练习陪练C) ready
+[WARN] [1793275379.886893870] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793275380.898452707] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793275394.150771163] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793275395.198097660] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793275400.862938280] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793275412.461256869] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793275421.023143531] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793275422.031949567] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793275427.474899876] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793275438.588821030] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[INFO] [1793275444.182235936] [rmtc_test_robot]: AI plan applied: {"event_plan":null,"goals":["resource_normal","resource_normal","resource_high","reach_target"]}
+[WARN] [1793275466.640151107] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793275475.269873530] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793275476.272319279] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793275481.831535909] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793275487.374923129] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[INFO] [1793275496.925611436] [rmtc_test_robot]: AI plan applied: {"event_plan":null,"goals":["resource_normal","resource_normal","resource_high","reach_target"]}
+[INFO] [1793275627.320410352] [rclcpp]: signal_handler(SIGINT/SIGTERM)

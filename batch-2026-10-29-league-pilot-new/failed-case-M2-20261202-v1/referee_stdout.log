@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/frank/cst/practice/practice.py", line 520, in <module>
+    main()
+  File "/home/frank/cst/practice/practice.py", line 501, in main
+    app.start(settings)
+  File "/home/frank/cst/practice/practice.py", line 279, in start
+    raise RuntimeError('裁判启动超时，请检查 ROS 环境与日志')
+RuntimeError: 裁判启动超时，请检查 ROS 环境与日志

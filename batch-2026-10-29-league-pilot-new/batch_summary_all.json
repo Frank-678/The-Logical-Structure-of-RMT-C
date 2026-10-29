@@ -1,0 +1,106 @@
+{
+ "batch": "batch-2026-10-29-league-pilot-new",
+ "path": "practice_league.sh (M1: A=champion vs 3 原版; M2: A=champion vs B=old_champion@9bc72a7 vs 2 原版)",
+ "n_battles": 16,
+ "champion_A": {
+  "n": 16,
+  "score_mean": 44.84375,
+  "R_mean": 60.625,
+  "D_mean": 1189.42,
+  "rank1": 7,
+  "deaths": 0,
+  "invalid": 0,
+  "M1": {
+   "n": 8,
+   "score_mean": 44.375,
+   "rank1": 3
+  },
+  "M2": {
+   "n": 8,
+   "score_mean": 45.3125,
+   "rank1": 4
+  }
+ },
+ "old_champion_B_M2": {
+  "n": 8,
+  "score_mean": 43.125,
+  "rank1": 1,
+  "deaths": 0
+ },
+ "opponents": {
+  "n": 40,
+  "score_mean": 34.3373,
+  "deaths": 2
+ },
+ "head_to_head_M2": {
+  "n": 8,
+  "diffs": [
+   0.0,
+   0.0,
+   2.5,
+   5.0,
+   2.5,
+   7.5,
+   7.5,
+   -7.5
+  ],
+  "W": 5,
+  "L": 1,
+  "T": 2,
+  "sum": 17.5,
+  "mean": 2.1875,
+  "bootstrap_95ci_mean": [
+   -1.25,
+   5.0
+  ],
+  "bootstrap_resamples": 20000,
+  "bootstrap_seed": 20261029,
+  "verdict": "CI 跨 0，无晋升主张"
+ },
+ "ai_calls": {
+  "A": [
+   404,
+   403,
+   1
+  ],
+  "B": [
+   286,
+   277,
+   9
+  ],
+  "C": [
+   149,
+   140,
+   9
+  ],
+  "D": [
+   140,
+   124,
+   16
+  ]
+ },
+ "deaths": [
+  [
+   "M2",
+   20261201,
+   2,
+   "D"
+  ],
+  [
+   "M2",
+   20261201,
+   3,
+   "D"
+  ]
+ ],
+ "identity": {
+  "A_binary_sha256": "39557aa16d75fb07a2cae950efe549c4ae13d5625cc671a3440a4513ed399052",
+  "B_binary_sha256": "bcebb860ae2a",
+  "per_battle_checked": "16/16"
+ },
+ "disclosure": {
+  "league_first_pass": "15/16 rc=1 (M2x02 v1 裁判启动超时)",
+  "recovery": "practice_batch.sh --only 1 同图重跑, config_sha256 身份护栏通过",
+  "failed_case": "failed-case-M2-20261202-v1/"
+ }
+}

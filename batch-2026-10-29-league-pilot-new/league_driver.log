@@ -1,0 +1,55 @@
+[2026-10-29 19:13:47 +0800] === pilot-new 16-battle league start: bash practice_league.sh --maps 20261201,20261202 --mixes M1,M2 --out build/practice-league/pilot-new ===
+[19:13:47] 冻结校验通过：champion install bot
+[19:13:47] 冻结校验通过：old_champion-B bot
+[19:13:47] === M1 x seed 20261201：1 个我方席位，4 局轮换席位 ===
+[19:13:47] battle 0: deploying (our seats: ['A'])
+启动：/home/frank/cst/install/rmtc_bot/lib/rmtc_bot/bot（seat=A，node=rmtc_bot_A，日志=/home/frank/cst/build/practice-league/pilot-new/summary_M1_20261201.runs/case-0-43tsb_99/botA.log）
+[19:18:08] battle 1: deploying (our seats: ['A'])
+启动：/home/frank/cst/install/rmtc_bot/lib/rmtc_bot/bot（seat=A，node=rmtc_bot_A，日志=/home/frank/cst/build/practice-league/pilot-new/summary_M1_20261201.runs/case-1-0hjite32/botA.log）
+[19:22:31] battle 2: deploying (our seats: ['A'])
+启动：/home/frank/cst/install/rmtc_bot/lib/rmtc_bot/bot（seat=A，node=rmtc_bot_A，日志=/home/frank/cst/build/practice-league/pilot-new/summary_M1_20261201.runs/case-2-6tuuto_c/botA.log）
+[19:26:51] battle 3: deploying (our seats: ['A'])
+启动：/home/frank/cst/install/rmtc_bot/lib/rmtc_bot/bot（seat=A，node=rmtc_bot_A，日志=/home/frank/cst/build/practice-league/pilot-new/summary_M1_20261201.runs/case-3-adzwufe3/botA.log）
+[19:31:11] batch done: 4/4 requested completed; summary -> /home/frank/cst/build/practice-league/pilot-new/summary_M1_20261201.json
+[19:31:11] === M1 x seed 20261201：4/4 完成，用时 17.4 min ===
+[19:31:11] === M1 x seed 20261202：1 个我方席位，4 局轮换席位 ===
+[19:31:11] battle 0: deploying (our seats: ['A'])
+启动：/home/frank/cst/install/rmtc_bot/lib/rmtc_bot/bot（seat=A，node=rmtc_bot_A，日志=/home/frank/cst/build/practice-league/pilot-new/summary_M1_20261202.runs/case-0-zd6sgivx/botA.log）
+[19:35:31] battle 1: deploying (our seats: ['A'])
+启动：/home/frank/cst/install/rmtc_bot/lib/rmtc_bot/bot（seat=A，node=rmtc_bot_A，日志=/home/frank/cst/build/practice-league/pilot-new/summary_M1_20261202.runs/case-1-fctlrsyx/botA.log）
+[19:39:52] battle 2: deploying (our seats: ['A'])
+启动：/home/frank/cst/install/rmtc_bot/lib/rmtc_bot/bot（seat=A，node=rmtc_bot_A，日志=/home/frank/cst/build/practice-league/pilot-new/summary_M1_20261202.runs/case-2-d4t_wrzx/botA.log）
+[19:44:12] battle 3: deploying (our seats: ['A'])
+启动：/home/frank/cst/install/rmtc_bot/lib/rmtc_bot/bot（seat=A，node=rmtc_bot_A，日志=/home/frank/cst/build/practice-league/pilot-new/summary_M1_20261202.runs/case-3-xc55v5el/botA.log）
+[19:48:32] batch done: 4/4 requested completed; summary -> /home/frank/cst/build/practice-league/pilot-new/summary_M1_20261202.json
+[19:48:32] === M1 x seed 20261202：4/4 完成，用时 17.4 min ===
+[19:48:32] === M2 x seed 20261201：2 个我方席位，4 局轮换席位 ===
+[19:48:32] battle 0: deploying (our seats: ['A', 'B'])
+启动：/home/frank/cst/install/rmtc_bot/lib/rmtc_bot/bot（seat=A，node=rmtc_bot_A，日志=/home/frank/cst/build/practice-league/pilot-new/summary_M2_20261201.runs/case-0-u61o01ry/botA.log）
+启动：/home/frank/cst-league-old/install-v-old_champion-B/rmtc_bot/lib/rmtc_bot/bot（seat=B，node=rmtc_bot_B，日志=/home/frank/cst/build/practice-league/pilot-new/summary_M2_20261201.runs/case-0-u61o01ry/botB.log）
+[19:52:52] battle 1: deploying (our seats: ['A', 'B'])
+启动：/home/frank/cst/install/rmtc_bot/lib/rmtc_bot/bot（seat=A，node=rmtc_bot_A，日志=/home/frank/cst/build/practice-league/pilot-new/summary_M2_20261201.runs/case-1-7hnr1dik/botA.log）
+启动：/home/frank/cst-league-old/install-v-old_champion-B/rmtc_bot/lib/rmtc_bot/bot（seat=B，node=rmtc_bot_B，日志=/home/frank/cst/build/practice-league/pilot-new/summary_M2_20261201.runs/case-1-7hnr1dik/botB.log）
+[19:57:12] battle 2: deploying (our seats: ['A', 'B'])
+启动：/home/frank/cst-league-old/install-v-old_champion-B/rmtc_bot/lib/rmtc_bot/bot（seat=B，node=rmtc_bot_B，日志=/home/frank/cst/build/practice-league/pilot-new/summary_M2_20261201.runs/case-2-3oy_qlpd/botB.log）
+启动：/home/frank/cst/install/rmtc_bot/lib/rmtc_bot/bot（seat=A，node=rmtc_bot_A，日志=/home/frank/cst/build/practice-league/pilot-new/summary_M2_20261201.runs/case-2-3oy_qlpd/botA.log）
+[20:01:32] battle 3: deploying (our seats: ['A', 'B'])
+启动：/home/frank/cst-league-old/install-v-old_champion-B/rmtc_bot/lib/rmtc_bot/bot（seat=B，node=rmtc_bot_B，日志=/home/frank/cst/build/practice-league/pilot-new/summary_M2_20261201.runs/case-3-efior7gl/botB.log）
+启动：/home/frank/cst/install/rmtc_bot/lib/rmtc_bot/bot（seat=A，node=rmtc_bot_A，日志=/home/frank/cst/build/practice-league/pilot-new/summary_M2_20261201.runs/case-3-efior7gl/botA.log）
+[20:07:08] batch done: 4/4 requested completed; summary -> /home/frank/cst/build/practice-league/pilot-new/summary_M2_20261201.json
+[20:07:08] === M2 x seed 20261201：4/4 完成，用时 18.6 min ===
+[20:07:08] === M2 x seed 20261202：2 个我方席位，4 局轮换席位 ===
+[20:07:08] battle 0: deploying (our seats: ['A', 'B'])
+启动：/home/frank/cst-league-old/install-v-old_champion-B/rmtc_bot/lib/rmtc_bot/bot（seat=B，node=rmtc_bot_B，日志=/home/frank/cst/build/practice-league/pilot-new/summary_M2_20261202.runs/case-0-qsmexyuf/botB.log）
+启动：/home/frank/cst/install/rmtc_bot/lib/rmtc_bot/bot（seat=A，node=rmtc_bot_A，日志=/home/frank/cst/build/practice-league/pilot-new/summary_M2_20261202.runs/case-0-qsmexyuf/botA.log）
+[20:11:27] battle 1: deploying (our seats: ['A', 'B'])
+[20:11:41] battle 2: deploying (our seats: ['A', 'B'])
+启动：/home/frank/cst/install/rmtc_bot/lib/rmtc_bot/bot（seat=A，node=rmtc_bot_A，日志=/home/frank/cst/build/practice-league/pilot-new/summary_M2_20261202.runs/case-2-g035mbs5/botA.log）
+启动：/home/frank/cst-league-old/install-v-old_champion-B/rmtc_bot/lib/rmtc_bot/bot（seat=B，node=rmtc_bot_B，日志=/home/frank/cst/build/practice-league/pilot-new/summary_M2_20261202.runs/case-2-g035mbs5/botB.log）
+[20:16:01] battle 3: deploying (our seats: ['A', 'B'])
+启动：/home/frank/cst-league-old/install-v-old_champion-B/rmtc_bot/lib/rmtc_bot/bot（seat=B，node=rmtc_bot_B，日志=/home/frank/cst/build/practice-league/pilot-new/summary_M2_20261202.runs/case-3-innv854p/botB.log）
+启动：/home/frank/cst/install/rmtc_bot/lib/rmtc_bot/bot（seat=A，node=rmtc_bot_A，日志=/home/frank/cst/build/practice-league/pilot-new/summary_M2_20261202.runs/case-3-innv854p/botA.log）
+[20:20:20] batch done: 3/4 requested completed; summary -> /home/frank/cst/build/practice-league/pilot-new/summary_M2_20261202.json
+[20:20:20] === M2 x seed 20261202：3/4 完成，用时 13.2 min ===
+[20:20:20] 联赛批次完成：15/16 局 ok；失败驱动运行 1 个
+[2026-10-29 20:20:20 +0800] === pilot-new league rc=1 ===

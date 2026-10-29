@@ -1,0 +1,18 @@
+[INFO] [1793274254.244300523] [rmtc_test_robot]: test robot for team D (练习陪练D) ready
+[WARN] [1793274265.561120267] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793274271.115310726] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793274276.645463882] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[INFO] [1793274287.179141096] [rmtc_test_robot]: AI plan applied: {"event_plan":null,"goals":["resource_high","resource_normal","resource_normal","reach_target"]}
+[WARN] [1793274303.350333493] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793274304.379137410] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793274310.006848781] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793274323.153220868] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793274324.159469954] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[INFO] [1793274332.738438328] [rmtc_test_robot]: AI plan applied: {"event_plan":null,"goals":["resource_high","resource_normal","resource_normal","reach_target"]}
+[WARN] [1793274351.477666427] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793274352.496670348] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793274365.703424286] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793274366.715811706] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793274379.869876824] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[INFO] [1793274390.487484266] [rmtc_test_robot]: AI plan applied: {"event_plan":null,"goals":["resource_normal","resource_normal","resource_high","reach_target"]}
+[INFO] [1793274511.760685478] [rclcpp]: signal_handler(SIGINT/SIGTERM)

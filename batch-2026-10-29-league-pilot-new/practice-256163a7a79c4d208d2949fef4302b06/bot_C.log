@@ -1,0 +1,18 @@
+[INFO] [1793276512.508921467] [rmtc_test_robot]: test robot for team C (练习陪练C) ready
+[INFO] [1793276519.142803116] [rmtc_test_robot]: AI plan applied: {"goals":["resource_normal","resource_normal","resource_high","reach_target"]}
+[WARN] [1793276545.032284483] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793276546.032617380] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793276556.699473995] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793276565.200179047] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793276566.143338906] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793276580.205651340] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793276581.217821448] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793276586.721451750] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793276592.181864534] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[INFO] [1793276600.967986005] [rmtc_test_robot]: AI plan applied: {"event_plan":null,"goals":["resource_high","resource_normal","resource_normal","reach_target"]}
+[WARN] [1793276610.916118177] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793276611.923775654] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793276624.790906899] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793276625.745300182] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[INFO] [1793276638.218416196] [rmtc_test_robot]: AI plan applied: {"event_plan":null,"goals":["resource_high","resource_normal","resource_normal","reach_target"]}
+[INFO] [1793276770.330772348] [rclcpp]: signal_handler(SIGINT/SIGTERM)
