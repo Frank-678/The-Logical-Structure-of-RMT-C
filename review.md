@@ -102,3 +102,21 @@ T5 建议的下一轮四项中，同分 D 争夺已由 post_cap_combat_weight=0.
 - 易伤窗口：A 每局都在获取窗口内移动并中招，但窗口内战斗伤害仅 180（全部伤害 3.2%）、窗口内死亡 2/53、窗口内动作移动 123/攻击 11。易伤克制杠杆头寸不足，本轮降级。同时撤回前期内部口径“易伤窗口内伤害 4680”——该数字基于累积公告文本关键字残留，方法错误（docs/33 §4）。
 - 低血量损失路径：53 死亡中 40 例最后动作为攻击且 hp<60；12 例死亡 tick 存在一步安全方向；8 例满足完整可撤退判据（n≥4 伤害 tick + 安全方向 + hp<80，逐一列于 docs/33 §6，配对反例为 45 例无安全方向死亡）。
 - 下一步（“先找损失路径，再写小改进与配对反例”）：low_hp_attack_discount 杠杆——hp<60 且 incoming==0 时攻击估值乘折扣（策略层 §6 与战术层深度 0 攻击分支同口径），默认 1.0 冠军逐位一致；sweep {0.7, 0.4, 0.1}，train 全量 + selection_guards，选中后 heldout 一次性 vs 冠军封存 0.8299。实施与结果将写入 docs/34 并回本文件。
+
+
+## 2026-10-29 10:45:00 +0800 · DeepSeek · T5-2 承诺项跟进（lowhp 杠杆轮结果）
+
+按约定只追加；时间 Asia/Shanghai。
+
+### T5-3 · 完成 · lowhp 杠杆轮按预注册判据家族关闭（docs/34 §5，随本回复同一提交）
+
+- 杠杆：`low_hp_attack_discount`（hp<60 且 incoming==0 时攻击估值乘折扣；策略层 §6 + 战术层深度 0 攻击分支同口径），默认 1.0 = 冠军逐位一致。代码 c7fe48e（strategy/iterate-arena-2026-10-28，已推）。家族关闭 → 保持 1.0，行为不变。
+- train 全量 24 场景（sweep 0.7/0.4/0.1，selection_guards 全过，stage-1 四 profile 逐位一致）：lhp04 最优 objective 0.8113 vs base_off 0.7971（+0.0142）→ 选中 0.4。
+- heldout 一次性（预注册判据 docs/34 §3，heldout 运行前已提交 7f217fd；结果封存 80e1648）：
+  - 确定性钉：frozen baseline objective 0.7710072751 逐位复现 0.7710073 ✓；且 baseline 逐局行与 postcap 轮 heldout 逐位相同（双钉）。
+  - selected_lhp40 objective 0.8286479 < 冠军封存 0.8298625（−0.0012）→ 不达标 → 家族关闭，不作第二次 heldout。
+  - stage-1 核验：heldout 中 baseline 与 selected 的 stage-1 差异（180→170 / 100→110 / 130→140）与 postcap 轮冠军 heldout 中 baseline vs selected 的差异逐位相同——属冠军已晋升杠杆相对冻结基线的既有 stage-1 影响；lhp40 与冠军封存的 stage-1 六局逐位相同 → 杠杆 stage-1 零影响，比较基座公平（docs/34 §5.2）。
+- 验证命令与结果：
+  - `python3 -I /mnt/d/Claude/Temp/claude/run_lowhp_heldout.py 0.4 2026-10-29`（镜像 run_arena.py heldout 段；baseline vs selected_lhp40，30 场景）→ 上述 objective，invalid 0。
+  - `python3 -I /mnt/d/Claude/Temp/claude/verify_stage1_identity.py` → “stage-1 逐位相同: True”、“baseline 两轮逐位相同: True”、冠军封存 objective 0.8298625。
+- 事后解读（不用于翻案）：heldout win_share 0.4583 与冠军完全一致，R −0.83、score −0.07、deaths +0.5、D +37.5——train 的 +0.0142 为噪声，与 L-c 前例同型（train +0.0113 → heldout −0.039）。下一轮按 T5 处方转回“可复现失误与真实对局”。

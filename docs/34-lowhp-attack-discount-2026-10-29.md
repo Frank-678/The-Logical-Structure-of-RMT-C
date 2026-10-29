@@ -10,7 +10,7 @@
   1. strategy.cpp §6 攻击估值：`utility *= parameters_.low_hp_attack_discount`（pie 折扣之后、致命检查之前）；
   2. tactics.cpp 束搜索：深度 0 的 attack 分支 `child.utility *= p.low_hp_attack_discount`。
 - 配套：strategy_parameters.hpp（成员 + competition() + validate() 0..1 范围）；arena_main.cpp（PARAMETER + competition_dump）；eval_levers.py 新组 `lowhp`。
-- 逐位一致保证：默认 1.0 → 两处 `if` 永不触发。train 结果中 stage-1 四个 profile 逐位相同（33.33 / R166.67 / 0 死，见 §5）即直接证据（stage-1 无对手、杠杆 stage-2 门控，兼作冠军一致性探针）。
+- 逐位一致保证：默认 1.0 → 两处 `if` 永不触发。train 结果中 stage-1 四个 profile 逐位相同（33.33 / R166.67 / 0 死，见 §5）即直接证据（stage-1 无战斗：对手为被动 collector、本机不攻击不受伤，故杠杆条件 hp<60 且攻击在 stage-1 永不成立；兼作冠军一致性探针）。
 
 ## 2. 扫描规模
 
@@ -40,4 +40,20 @@ sweep {0.7, 0.4, 0.1} + base_off（冠军基线）；train 全量 24 场景（12
 
 ## 5. heldout 与裁决
 
-（heldout 运行中；结果与裁决按 §3 判据补写，不回头改判据。）
+heldout 30 场景（同 arena-postcap-heldout-2026-10-29，seed 29003 起）。结果文件：tests/results/arena-lowhp-heldout-2026-10-29.json + selected-parameters-lowhp-heldout-2026-10-29.json（均已封存入代码仓库）。
+
+| profile | objective | invalid | deaths | blocked | stage1 score | stage2 score | stage2 R | stage2 D | stage2 deaths | stage2 win_share |
+|---|---|---|---|---|---|---|---|---|---|---|
+| baseline（冻结） | 0.7710073 | 0 | 140 | 1081 | 32.33 | 40.78 | 61.25 | 737.0 | 5.83 | 0.375 |
+| 冠军封存（postcap 轮 selected） | **0.8298625** | 0 | 162 | 198 | 32.67 | 43.88 | 69.58 | 887.4 | 6.75 | 0.458 |
+| selected_lhp40（0.4） | 0.8286479 | 0 | 174 | 182 | 32.67 | 43.80 | 68.75 | 924.9 | 7.25 | 0.458 |
+
+1. **确定性钉 ✓**：baseline objective 0.7710072751 = 逐位复现 0.7710073；且 baseline 逐局行与 postcap 轮 heldout 的 baseline 行**逐位相同**（双钉）。heldout 有效。
+2. **stage-1 差异查明（非异常）**：heldout 中 lhp40 与 baseline 的 stage-1 差异（180→170 / 100→110 / 130→140）与 postcap 轮冠军 heldout 中 baseline vs selected 的差异**逐位相同**——它是冠军已晋升杠杆（非 lowhp）相对 frozen baseline 的既有 stage-1 影响。lhp40 的 stage-1 六局与冠军封存 stage-1 六局**逐位相同**：lowhp 杠杆 stage-1 零影响（与 §4 train 逐位一致探针互证）。两候选共用同一 stage-1 分数，比较基座公平。
+3. **裁决：0.8286479 < 0.8298625，差 −0.0012 → 不达标。家族关闭：low_hp_attack_discount 保持 1.0，不作第二次 heldout（§3 判据，不回头改）。**
+
+事后解读（写死于此，不用于翻案）：
+
+- train +0.0142 在 heldout 上为 −0.0012（噪声级微负），与 L-c 前例同型（train +0.0113 → heldout −0.039）。win_share 与冠军封存完全一致（0.4583），R −0.83、score −0.07、deaths +0.5、D +37.5：低血量弃战没有换来净收益，只是把可赢的对局打成同分。
+- 预注册一次性 heldout 的裁决价值再次被验证：train 全量 24 场景的 +0.0142 无法区分真实增益与噪声。
+- 至此 T5 处方闭环：损失路径（docs/33 §5-7）→ 小改进（本杠杆）→ train 全量 → 预注册一次性 heldout → 家族关闭。与 L-c 前例同型：train 增益未在 heldout 复现。下一轮按 T5 处方转回"可复现失误与真实对局"。
