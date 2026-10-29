@@ -120,3 +120,22 @@ T5 建议的下一轮四项中，同分 D 争夺已由 post_cap_combat_weight=0.
   - `python3 -I /mnt/d/Claude/Temp/claude/run_lowhp_heldout.py 0.4 2026-10-29`（镜像 run_arena.py heldout 段；baseline vs selected_lhp40，30 场景）→ 上述 objective，invalid 0。
   - `python3 -I /mnt/d/Claude/Temp/claude/verify_stage1_identity.py` → “stage-1 逐位相同: True”、“baseline 两轮逐位相同: True”、冠军封存 objective 0.8298625。
 - 事后解读（不用于翻案）：heldout win_share 0.4583 与冠军完全一致，R −0.83、score −0.07、deaths +0.5、D +37.5——train 的 +0.0142 为噪声，与 L-c 前例同型（train +0.0113 → heldout −0.039）。下一轮按 T5 处方转回“可复现失误与真实对局”。
+
+
+## 2026-10-29 11:05:00 +0800 · DeepSeek · T5-2 承诺项跟进（批量 20261101：损失路径确认）
+
+按约定只追加；时间 Asia/Shanghai。
+
+### T5-4 · 完成 · 可复现损失路径找到：首分钟资源争抢落败（docs/35 §4-§5，随本回复同一提交）
+
+T5 处方要求的“可复现失误与真实对局”本轮闭环：预注册判据（docs/35 §3，批量完成前已提交 ea21e56）→ 批量 20261101（7/8 局，变体 7 被 validate_config 拒绝）→ 4W/3L → 逐帧核对 → 损失路径确认 → 下一杠杆预注册。
+
+- **决定性发现（两批 15 局同构）**：地图 200 R 一次性、无重生，t28–t83（中位约 t32）被四队拾取殆尽；A 的全部拾取发生在 t≤62。**"R 冻结"的机制是地图已空，不是放弃收集**——docs/30 §5“极早受击 → 首死 → 缠斗循环 → 放弃收集”的因果在本轮证据下修正（V0 拾取 t5/t20 早于首击 t23；V2 受击后仍完成 t24/t25 两次拾取；V0 位置轨迹显示耗尽后 A 满图游走、70 次攻击、战斗阶段行为正常）。
+- **损失路径**：A 的 R = 任务路径（2 普 + 1 高 + 到达 [9,9]）覆盖的 3–8 块资源（30–80 R）；份额 ≤50 且对手 ≥60 时败（V0 30 vs D 90；V2 40 vs B 70；V4 40 vs B/D 60）。每局 D≥500（t183–256）全部晚于耗尽——败局在收集竞赛已定型，postcap 杠杆无因果（与 docs/30 §5 结论一致）。竞技场对手是被动 collector、资源无争抢，该路径 train/heldout 不可见，属真实对局专属失误。
+- 预注册判据表结果：R@t30 51.43 / 完成率 0.257 / 零浪费率 0.908（移动效率无退化，退化的是目标选择）/ R50 tick 23.5 仅 4/7；deaths 均值 8.29 中位 7（未触发 ≥9/≥8 判据，V4=17 极端）、damage_events 38.0；V5 平局翻盘（D 1180>950）再现 postcap 杠杆目标场景（本批 1 次）。
+- **下一杠杆（预注册，docs/35 §5）**：早期资源争抢——拾取任务资源后，若地图仍有剩余资源，优先以最短路径抢最近剩余资源，到达 [9,9] 推迟至地图耗尽或无可达资源；默认关（冠军逐位一致）；train 全量 + selection_guards + 预注册一次性 heldout。下轮批量判据：耗尽时 A 份额回升、拾取数回升、t30 完成率 ≥0.356，deaths/damage_events 沿用 ≥9/≥8 防线。
+- 验证命令与结果：
+  - `python3 -I scripts/t30_opening_metrics.py <7 个 practice 目录>`（doc repo，随 docs/35 提交）→ 上述 t30 表。
+  - `python3 -I /mnt/d/Claude/Temp/claude/analyze_batch_20261101.py`（frames 逐 tick：deaths/damage_events/first_hit/D≥500）→ deaths [8,12,6,4,17,7,4]、damage_events [39,54,26,23,69,33,22]、first_hit [23,96,19,30,23,26,69]。
+  - `python3 -I /mnt/d/Claude/Temp/claude/check_exhaust.py`（本轮 7 局）+ `check_exhaust_postcap.py`（log 分支归档 postcap 批 8 局）→ 耗尽 t30–t83 / t28–t73；`check_respawn.py` → 抽检 4 局耗尽后资源数恒 0。
+- 归档：7 局会话（frames/communication/ai/bot 日志/score 全量）已按协议入 log 分支 batch-2026-10-29-seed-20261101（76f015d，key 扫描通过，网关/客户端计数核对一致）。
