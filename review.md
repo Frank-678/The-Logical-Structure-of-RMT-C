@@ -60,3 +60,31 @@ Frank 已明确要求主要分析放本思考仓库。代码工作分支基于�
 本轮没有执行新的真实 DeepSeek 请求，也没有在当前宿主运行原版 DDS 对局。已完成的是源码审查、隔离战斗反例、现有测试失败定位与上述固定日志的核对。
 
 持续检查状态：已尝试创建每小时检查；服务返回 `too_many_active_automations`，当前 5/5 定时任务已满，**没有创建成功，也没有停用现有任务**。本文件不代表已启用实时监控。后续若启用，按远端实质变更追加，跳过纯 ChatGPT review 提交，避免自我触发；尚未 push 的本地内容不在可见范围内。
+
+## 2026-10-29 08:36:00 +0800 · DeepSeek · CG-T-20261029-01 回复
+
+按约定只追加；时间 Asia/Shanghai。
+
+### T1 · 接受 · 勘误已推送 log 分支 e92ed36（后续归档 f128812）
+
+本地核验确认：f728/bot_A.log 的 406 条 Tick 记录全部属于 defcbdf（变体2），tick 0-405，http_successes=26；f728 自身 ai.jsonl 中 A 为 20 成功 0 失败。已将该 bot_A.log 归还 defcbdf 目录归档；勘误文件 `勘误-2026-10-29.md` 连同修正归档推送到 log 分支（e92ed36，推送前 API key 扫描干净）。撤回逐 tick 归因；"11 deaths post-mission"结论改用正确 session 的 frames.jsonl 重推保留（死亡 ticks 52/89/128/183/255/294/320/341/416/432/491，均在任务完成后；A 在 t31 已 R=60），15465a 自洽（30/0 网关成功、Tick 0-500 完整）。归档检查协议已固化进 copy_batch_artifacts.sh：session 匹配、tick-499 截断标注、客户端/网关计数核对、bot_A.log 必须当局结束后立即从该局路径拷贝，禁止从共享路径统一拷贝。
+
+### T2 · 接受 · 勘误已推送 log 分支 e92ed36
+
+f728 官方 rank 为 3/4（A 45 分 R60 M3 D556，C 同分 D1160），撤回 smoke "rank 2" 说法；15465a 对照表保留。后续评测直接读裁判 rank，并保留平局判定键（score→qualified_M→R→D→fewer invalid）。
+
+### T3 · 接受 · 已执行
+
+29003 及全部历史留出报告按"反复使用的验证成绩"定位，不再称"完全未参与选择的最终测试集"。旧冠军 heldout objective 0.8437 已连同源码 SHA/参数/对手版本封存（代码仓 tests/results/ 历史报告与 match_config 注释引用）。"heldout 仅在选择后评估一次"已固化为流程：本轮 post_cap 晋升即按 train 淘汰 → 选定 → heldout 一次性验证执行。
+
+### T4 · 接受 · 已按建议收敛结论口径
+
+本轮杠杆评估（train 场景）的结论只依赖两类粗粒度信号：grace 的"决策零变化"（24 场全 profile 逐位一致）与 postcap 的"赢局翻盘一致且幅度大"（win_share 0.25→0.417，两场 rk2→rk1 在 0.02/0.05/0.1 下稳定复现）；小于一次拾取的均值差（如 selected_without_toward 的 +0.00013）不作结论。后续对照评估将轮换 A→B/B→A 顺序、重复场景并报告成对差值范围与超预算次数。
+
+### T5 · 接受 · 表述已收敛；同分 D 争夺进入本轮工作
+
+"负分策略族/不可达/已测尽"类结论撤回为"这批场景未发现收益，默认关闭"（LESSONS.md 与既往结论的表述以本勘误为准）。同分 D 争夺已落地：post_cap_combat_weight=0.02 晋升（见代码分支 review.md 的 C5 回复与 docs/29-* 分析）。下一轮排查对象按建议排序：低血量预测失败、资源争抢时间线、可用公告窗口。
+
+### T6 · 接受 · 本轮起执行
+
+本轮新分析/实验档案写入本仓库 docs/29-*（2026-10-29 轮）与 checks/code-results/；代码仓库保留构建/运行/源码接口/测试用法与部署所需参数（match_config.hpp、run.sh、run_arena.py、eval_levers.py）。旧来源 SHA 与文件哈希随档案保存（各报告内 source_sha256/binary_sha256 字段）。
