@@ -1,0 +1,135 @@
+{
+ "checked": "2026-10-29 23:45 +0800",
+ "pairs": 6,
+ "all_trace_bitwise_equal": true,
+ "bitwise": [
+  {
+   "case": "snake-A-pressure",
+   "grb": "grb0",
+   "ticks": 500,
+   "trace_equal": true
+  },
+  {
+   "case": "snake-A-pressure",
+   "grb": "grb01",
+   "ticks": 500,
+   "trace_equal": true
+  },
+  {
+   "case": "sparse-A-economy",
+   "grb": "grb0",
+   "ticks": 500,
+   "trace_equal": true
+  },
+  {
+   "case": "sparse-A-economy",
+   "grb": "grb01",
+   "ticks": 500,
+   "trace_equal": true
+  },
+  {
+   "case": "sparse-A-archive",
+   "grb": "grb0",
+   "ticks": 500,
+   "trace_equal": true
+  },
+  {
+   "case": "sparse-A-archive",
+   "grb": "grb01",
+   "ticks": 500,
+   "trace_equal": true
+  }
+ ],
+ "final_summary": [
+  {
+   "case": "snake-A-pressure",
+   "grb": "grb0",
+   "final_equal": {
+    "R": true,
+    "D": true,
+    "deaths": true,
+    "completed": true,
+    "hp": true,
+    "invalid": true
+   },
+   "R": 30.0,
+   "D": 460.0,
+   "deaths": 7
+  },
+  {
+   "case": "snake-A-pressure",
+   "grb": "grb01",
+   "final_equal": {
+    "R": true,
+    "D": true,
+    "deaths": true,
+    "completed": true,
+    "hp": true,
+    "invalid": true
+   },
+   "R": 70.0,
+   "D": 540.0,
+   "deaths": 9
+  },
+  {
+   "case": "sparse-A-economy",
+   "grb": "grb0",
+   "final_equal": {
+    "R": true,
+    "D": true,
+    "deaths": true,
+    "completed": true,
+    "hp": true,
+    "invalid": true
+   },
+   "R": 40.0,
+   "D": 780.0,
+   "deaths": 2
+  },
+  {
+   "case": "sparse-A-economy",
+   "grb": "grb01",
+   "final_equal": {
+    "R": true,
+    "D": true,
+    "deaths": true,
+    "completed": true,
+    "hp": true,
+    "invalid": true
+   },
+   "R": 40.0,
+   "D": 780.0,
+   "deaths": 2
+  },
+  {
+   "case": "sparse-A-archive",
+   "grb": "grb0",
+   "final_equal": {
+    "R": true,
+    "D": true,
+    "deaths": true,
+    "completed": true,
+    "hp": true,
+    "invalid": true
+   },
+   "R": 40.0,
+   "D": 630.0,
+   "deaths": 0
+  },
+  {
+   "case": "sparse-A-archive",
+   "grb": "grb01",
+   "final_equal": {
+    "R": true,
+    "D": true,
+    "deaths": true,
+    "completed": true,
+    "hp": true,
+    "invalid": true
+   },
+   "R": 40.0,
+   "D": 580.0,
+   "deaths": 0
+  }
+ ]
+}
