@@ -1,0 +1,19 @@
+[INFO] [1793269150.278922736] [rmtc_test_robot]: test robot for team D (练习陪练D) ready
+[WARN] [1793269160.758927041] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793269166.276633397] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793269179.090740536] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793269187.895858019] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793269193.136202517] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793269198.654725741] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793269212.257212990] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793269213.213902028] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793269218.631548799] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793269224.130509072] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793269229.639301122] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793269239.237000864] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793269247.878163476] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793269248.898153838] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793269254.605756935] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793269259.682750377] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[INFO] [1793269271.338266613] [rmtc_test_robot]: AI plan applied: {"event_plan":null,"goals":["resource_high","resource_normal","reach_target"]}
+[INFO] [1793269408.313949894] [rclcpp]: signal_handler(SIGINT/SIGTERM)

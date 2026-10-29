@@ -1,0 +1,21 @@
+[INFO] [1793266475.722153247] [rmtc_test_robot]: test robot for team D (练习陪练D) ready
+[WARN] [1793266482.725053224] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793266491.658211521] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793266492.671697465] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793266498.195563492] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793266503.718175145] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793266516.350985858] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793266524.970901603] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793266525.985135464] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793266536.610453921] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793266545.204839758] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793266546.219296988] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793266551.779749390] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793266564.918592346] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793266578.092279076] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793266579.108858236] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793266592.471398959] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793266593.497985502] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793266599.120333280] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[INFO] [1793266607.236666566] [rmtc_test_robot]: AI plan applied: {"event_plan":null,"goals":["resource_normal","resource_normal","resource_high","reach_target"]}
+[INFO] [1793266731.920747892] [rclcpp]: signal_handler(SIGINT/SIGTERM)

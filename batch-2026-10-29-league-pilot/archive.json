@@ -1,0 +1,57 @@
+{
+ "summary": "/mnt/d/code/The-Logical-RMT-C-log/batch-2026-10-29-league-pilot/batch_summary_all.json",
+ "to": "/mnt/d/code/The-Logical-RMT-C-log/batch-2026-10-29-league-pilot",
+ "ts": "2026-10-29T18:46:27.888271+08:00",
+ "battles": 16,
+ "completed": 16,
+ "failed": 0,
+ "failures": [],
+ "sessions": [
+  "practice-a2de4586323646ff907885644a94cbac",
+  "practice-44956114dfaf44f580f540d9cc82a85f",
+  "practice-0a0cdf98c4ea48b484cc2f4202785ed6",
+  "practice-050da74747644902a299d49ef6877ce7",
+  "practice-0bb6a9dfdaeb49d38b7abd8d9cab2726",
+  "practice-aae9aae2272744289aecd969313d2bc3",
+  "practice-e01603b395cd45adb745b3da0d47f563",
+  "practice-306efcba985b4d1dab1fb93946a80fd0",
+  "practice-34eae999930d4e3e9a338d8a0bfc972e",
+  "practice-af43643cc34847e5816fcc9498434c45",
+  "practice-4ee99f63ae08431792a9b26e2d792b18",
+  "practice-030224e0229a418d8498b9feec5dccc9",
+  "practice-ee533264d6724f33bbca20e065b0526d",
+  "practice-35a19471fe624c8eaaf5020f9958fd29",
+  "practice-4f99a4703f2a4621bb3f538296ac0b0d",
+  "practice-51b073f361ff41c588db38ebbc04cd1d"
+ ],
+ "missing": {
+  "practice-34eae999930d4e3e9a338d8a0bfc972e": [
+   "bot_B.log"
+  ],
+  "practice-af43643cc34847e5816fcc9498434c45": [
+   "bot_B.log"
+  ],
+  "practice-4ee99f63ae08431792a9b26e2d792b18": [
+   "bot_B.log"
+  ],
+  "practice-030224e0229a418d8498b9feec5dccc9": [
+   "bot_B.log"
+  ],
+  "practice-ee533264d6724f33bbca20e065b0526d": [
+   "bot_B.log"
+  ],
+  "practice-35a19471fe624c8eaaf5020f9958fd29": [
+   "bot_B.log"
+  ],
+  "practice-4f99a4703f2a4621bb3f538296ac0b0d": [
+   "bot_B.log"
+  ],
+  "practice-51b073f361ff41c588db38ebbc04cd1d": [
+   "bot_B.log"
+  ]
+ },
+ "key_scan": {
+  "ok": true,
+  "hits": 0
+ }
+}
