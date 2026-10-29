@@ -1,0 +1,93 @@
+[
+  {
+    "name": "corner-greedy-move-stalls",
+    "exit_code": 0,
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "/workspace/scratch/457426c876eb/cst/tests/run_scenarios.py",
+      "/workspace/scratch/457426c876eb/review/league/log-upload-20261029/chase-probes/scenes/corner-greedy-move-stalls.json",
+      "--json-include",
+      "/workspace/scratch/457426c876eb/review/ros-runtime/include",
+      "--out",
+      "/workspace/scratch/457426c876eb/review/league/log-upload-20261029/chase-probes/corner-greedy-move-stalls"
+    ]
+  },
+  {
+    "name": "corner-attack-before-escape",
+    "exit_code": 0,
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "/workspace/scratch/457426c876eb/cst/tests/run_scenarios.py",
+      "/workspace/scratch/457426c876eb/review/league/log-upload-20261029/chase-probes/scenes/corner-attack-before-escape.json",
+      "--json-include",
+      "/workspace/scratch/457426c876eb/review/ros-runtime/include",
+      "--out",
+      "/workspace/scratch/457426c876eb/review/league/log-upload-20261029/chase-probes/corner-attack-before-escape"
+    ]
+  },
+  {
+    "name": "corner-current-strategy-probe",
+    "exit_code": 0,
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "/workspace/scratch/457426c876eb/cst/tests/run_scenarios.py",
+      "/workspace/scratch/457426c876eb/review/league/log-upload-20261029/chase-probes/scenes/corner-current-strategy-probe.json",
+      "--json-include",
+      "/workspace/scratch/457426c876eb/review/ros-runtime/include",
+      "--out",
+      "/workspace/scratch/457426c876eb/review/league/log-upload-20261029/chase-probes/corner-current-strategy-probe"
+    ]
+  },
+  {
+    "name": "reverse-is-not-a-swap",
+    "exit_code": 0,
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "/workspace/scratch/457426c876eb/cst/tests/run_scenarios.py",
+      "/workspace/scratch/457426c876eb/review/league/log-upload-20261029/chase-probes/scenes/reverse-is-not-a-swap.json",
+      "--json-include",
+      "/workspace/scratch/457426c876eb/review/ros-runtime/include",
+      "--out",
+      "/workspace/scratch/457426c876eb/review/league/log-upload-20261029/chase-probes/reverse-is-not-a-swap"
+    ]
+  },
+  {
+    "name": "two-shooters-move-cancelled",
+    "exit_code": 0,
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "/workspace/scratch/457426c876eb/cst/tests/run_scenarios.py",
+      "/workspace/scratch/457426c876eb/review/league/log-upload-20261029/chase-probes/scenes/two-shooters-move-cancelled.json",
+      "--json-include",
+      "/workspace/scratch/457426c876eb/review/ros-runtime/include",
+      "--out",
+      "/workspace/scratch/457426c876eb/review/league/log-upload-20261029/chase-probes/two-shooters-move-cancelled"
+    ]
+  },
+  {
+    "name": "two-shooters-defend-one-tick",
+    "exit_code": 0,
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "/workspace/scratch/457426c876eb/cst/tests/run_scenarios.py",
+      "/workspace/scratch/457426c876eb/review/league/log-upload-20261029/chase-probes/scenes/two-shooters-defend-one-tick.json",
+      "--json-include",
+      "/workspace/scratch/457426c876eb/review/ros-runtime/include",
+      "--out",
+      "/workspace/scratch/457426c876eb/review/league/log-upload-20261029/chase-probes/two-shooters-defend-one-tick"
+    ]
+  },
+  {
+    "name": "wall-does-not-block-normal-attack",
+    "exit_code": 0,
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "/workspace/scratch/457426c876eb/cst/tests/run_scenarios.py",
+      "/workspace/scratch/457426c876eb/review/league/log-upload-20261029/chase-probes/scenes/wall-does-not-block-normal-attack.json",
+      "--json-include",
+      "/workspace/scratch/457426c876eb/review/ros-runtime/include",
+      "--out",
+      "/workspace/scratch/457426c876eb/review/league/log-upload-20261029/chase-probes/wall-does-not-block-normal-attack"
+    ]
+  }
+]

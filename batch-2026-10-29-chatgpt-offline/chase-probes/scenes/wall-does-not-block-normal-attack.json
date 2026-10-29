@@ -1,0 +1,97 @@
+{
+  "schema": 1,
+  "name": "wall-does-not-block-normal-attack",
+  "stage": 2,
+  "tick_limit": 500,
+  "qualified": true,
+  "seed": 17,
+  "map": {
+    "width": 7,
+    "height": 7,
+    "vision_radius": 4,
+    "walls": [
+      [
+        4,
+        3
+      ]
+    ],
+    "spawns": [
+      [
+        3,
+        3
+      ],
+      [
+        5,
+        3
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        6,
+        6
+      ]
+    ]
+  },
+  "initial": {
+    "tick": 200,
+    "resources": [],
+    "cars": {
+      "A": {
+        "position": [
+          3,
+          3
+        ],
+        "hp": 100
+      },
+      "B": {
+        "position": [
+          5,
+          3
+        ],
+        "hp": 100
+      }
+    }
+  },
+  "missions": [],
+  "events": [],
+  "agents": {
+    "A": {
+      "type": "script",
+      "event_delivery": "oracle",
+      "actions": {},
+      "otherwise": {
+        "action": "attack",
+        "direction": "right"
+      }
+    },
+    "B": {
+      "type": "script",
+      "event_delivery": "oracle",
+      "actions": {},
+      "otherwise": {
+        "action": "move",
+        "direction": "up"
+      }
+    }
+  },
+  "run": {
+    "until_tick": 201,
+    "expect": [
+      {
+        "path": "/world/cars/B/hp",
+        "op": "eq",
+        "value": 80
+      },
+      {
+        "path": "/world/cars/B/position",
+        "op": "eq",
+        "value": [
+          5,
+          2
+        ]
+      }
+    ]
+  }
+}

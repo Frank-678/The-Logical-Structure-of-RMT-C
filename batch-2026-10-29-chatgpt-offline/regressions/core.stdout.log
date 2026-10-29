@@ -1,0 +1,12 @@
+Practice: stage=2 port=8080 mode=real model=fixture-model upstream_proxy=configured local_gateway=direct built=Oct 29 2026 11:43:54
+startup guards and original-practice launcher environment passed; no ROS process launched
+combat, tasks, eight event kinds, and session contracts passed
+mock HTTP: async event pipeline, quota, timeout, session cancellation, stage1 isolation passed
+strategy scenarios passed; synthetic maze: 3 resources in 18 ticks
+mock gateway request-count and authorization assertions passed
+AI check: 8 local HTTP cases and 6 injected network failures passed; no live model called
+combat, tasks, eight event kinds, and session contracts passed
+C++ Session -> original practice HTTP -> canned upstream -> validated event passed
+strategy scenarios passed; synthetic maze: 3 resources in 18 ticks
+original practice HTTP relay passed: model priority, token replacement, proxy routing, A audit and announced top-level options; canned upstream only
+arena rules: combat, reflection, overkill, movement, respawn, eight event kinds, oracle isolation and 18 maps passed

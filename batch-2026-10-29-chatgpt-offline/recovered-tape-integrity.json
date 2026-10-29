@@ -1,0 +1,618 @@
+{
+  "tapes": 68,
+  "complete": 68,
+  "rows": [
+    {
+      "case_id": "asymmetric-B-pressure",
+      "label": "deepseek",
+      "retried_in_temporary": false,
+      "records": 500,
+      "gzip_sha256": "d74bc7be41aad632e4d56cb5fdb2cb1ecfa691d01c6518b0198f1cce816ca68d",
+      "decoded_sha256": "10f8d98ab1602810914c9055d737b7a21036b5ff89552874327c4e8a0979eaac",
+      "result_matches_original": true
+    },
+    {
+      "case_id": "asymmetric-C-pressure",
+      "label": "deepseek",
+      "retried_in_temporary": true,
+      "records": 500,
+      "gzip_sha256": "053e49daaa1d040c8e535dab0d04c585bc471f283c271e4f1e6051c7f39205e3",
+      "decoded_sha256": "0a5a92d2e4d9ca6c70814e039003085b781bc01ca10c97a2d2577c5b3a492510",
+      "result_matches_original": true
+    },
+    {
+      "case_id": "asymmetric-D-archive",
+      "label": "chatgpt",
+      "retried_in_temporary": false,
+      "records": 500,
+      "gzip_sha256": "acb52104a1165bc55f020aa44c2cca544e6c999cb678def4aa052119c6dd0823",
+      "decoded_sha256": "76e9369e414b2a36abe70225bf66b0b5af4d7d532e74245100427bfcbaeeabb5",
+      "result_matches_original": true
+    },
+    {
+      "case_id": "asymmetric-D-archive",
+      "label": "deepseek",
+      "retried_in_temporary": true,
+      "records": 500,
+      "gzip_sha256": "9ac94fe8cabc9094cd4aee99bdeaa759f3ac8b943b87342ffa0607576fb1abaf",
+      "decoded_sha256": "d0dd6abd5828374048e8a7c921332b4e9a76a4082eb9e1d62cdc1c19000ebb09",
+      "result_matches_original": true
+    },
+    {
+      "case_id": "asymmetric-D-economy",
+      "label": "deepseek",
+      "retried_in_temporary": false,
+      "records": 500,
+      "gzip_sha256": "8dd8b79931f63086abe0cdbca0f761aa16298841007bdd2b8ff8708598d52195",
+      "decoded_sha256": "3290105f2dc8cb1865837e3756f0bf26a60d03bf5ca8df920686248e4192ed4d",
+      "result_matches_original": true
+    },
+    {
+      "case_id": "bridge-A-pressure",
+      "label": "deepseek",
+      "retried_in_temporary": true,
+      "records": 500,
+      "gzip_sha256": "796ffab05188949f63bc4e2be5f863aecd184167c138e98bca01b20a0b0ebc90",
+      "decoded_sha256": "c18f051bd57b92dd0368dcfe61d35c71a52d05580260d483f5dee2f4843434ca",
+      "result_matches_original": true
+    },
+    {
+      "case_id": "bridge-B-archive",
+      "label": "deepseek",
+      "retried_in_temporary": false,
+      "records": 500,
+      "gzip_sha256": "28c66b7661bc58b2053b5ff8bbb260d20ab10938665c6bd6d57408747f1204bd",
+      "decoded_sha256": "e9cc179183a33aa9e03994bc339f8bafa497d5d160d5c60f5074d09df026cc3b",
+      "result_matches_original": true
+    },
+    {
+      "case_id": "bridge-B-economy",
+      "label": "deepseek",
+      "retried_in_temporary": false,
+      "records": 500,
+      "gzip_sha256": "1b169739ba0d842af42fc309353d3917c5a7430902289ca1cacc139cd7738883",
+      "decoded_sha256": "db9964c04fcc77abf444dc24c1f6efb9808c5e41274bfb457231d1cd30df441b",
+      "result_matches_original": true
+    },
+    {
+      "case_id": "bridge-C-archive",
+      "label": "deepseek",
+      "retried_in_temporary": false,
+      "records": 500,
+      "gzip_sha256": "adaf1071cced98bb651e02eecc0709b23fbcfa011081a5ec1b656696decf95ae",
+      "decoded_sha256": "3030d5bbd44e3f316454d096a03c87822c81091994b99b46c6dbc3aa31cb587c",
+      "result_matches_original": true
+    },
+    {
+      "case_id": "bridge-D-archive",
+      "label": "deepseek",
+      "retried_in_temporary": false,
+      "records": 500,
+      "gzip_sha256": "887a7d26227e1a96e967f365f9107c7938c2c5e31a02de822ae652655a258ae4",
+      "decoded_sha256": "7197b05a0d9c2f967d16766e5265b63cc96ad25e58bc82e9fa6dc6c1c74c3e1d",
+      "result_matches_original": true
+    },
+    {
+      "case_id": "center_race-A-archive",
+      "label": "deepseek",
+      "retried_in_temporary": false,
+      "records": 500,
+      "gzip_sha256": "942d1cb986ebf7e60245bbdb6552ecffef6ddfb8e328184a51598c49c316da90",
+      "decoded_sha256": "094d70df80cb9fa7e09b0be019002030fd53a31ec8fbb111d89fa8392f8aeb3f",
+      "result_matches_original": true
+    },
+    {
+      "case_id": "center_race-B-archive",
+      "label": "deepseek",
+      "retried_in_temporary": false,
+      "records": 500,
+      "gzip_sha256": "7ec74d8b845f43ebe74f71bcee7330df5e434e5ad4bb194b6f4ea4550a8f4f64",
+      "decoded_sha256": "fbdc6f715b2a8019a35d59cd31819c8fda37607144baa2212e73b018c44488e6",
+      "result_matches_original": true
+    },
+    {
+      "case_id": "center_race-C-archive",
+      "label": "chatgpt",
+      "retried_in_temporary": false,
+      "records": 500,
+      "gzip_sha256": "9a8f92bc85667ab2dc3bb46d4aba56a8bbe54bd59fa943ad9d6c47afa2869f73",
+      "decoded_sha256": "fad9e69fee8378defa27a6d416b522b2ec0e29bf4a88aa9a58ccb30865a52777",
+      "result_matches_original": true
+    },
+    {
+      "case_id": "center_race-C-archive",
+      "label": "deepseek",
+      "retried_in_temporary": true,
+      "records": 500,
+      "gzip_sha256": "288358b811284affa1a83c504299a8028bc749eadf5891075e5b1796205a58a5",
+      "decoded_sha256": "687cf9d8a4f59941bbf979be562021175bab8cf107ee32672d66a94cdaefca6b",
+      "result_matches_original": true
+    },
+    {
+      "case_id": "center_race-D-archive",
+      "label": "chatgpt",
+      "retried_in_temporary": false,
+      "records": 500,
+      "gzip_sha256": "fe5c1127d6dd96f8031813011cd502fd891d0f614acd25e1167d41de1471bf90",
+      "decoded_sha256": "6764c83b96b1eb468fd0d1d4b190a03d71f8cfa30e34e6891da35b64f3b1914b",
+      "result_matches_original": true
+    },
+    {
+      "case_id": "center_race-D-archive",
+      "label": "deepseek",
+      "retried_in_temporary": false,
+      "records": 500,
+      "gzip_sha256": "63216f04cbfca2bcb89c9da72c7070c964ee4e6b8af2f5c3ba1e9c66e305d969",
+      "decoded_sha256": "857a494eeba18b56dcbe060ae7e8c0f2f3e18758a76b3a1dcbf307038edf397e",
+      "result_matches_original": true
+    },
+    {
+      "case_id": "center_race-D-pressure",
+      "label": "deepseek",
+      "retried_in_temporary": false,
+      "records": 500,
+      "gzip_sha256": "884ba3329029ad9ce7942e68e29cfdcf4fd6e8fd2c52138546a3bd9bb2ce65a2",
+      "decoded_sha256": "c3c2c06c1edd12c778c605e91604d735e3ada11cc61196ca6a1af68faa61bba3",
+      "result_matches_original": true
+    },
+    {
+      "case_id": "dead_ends-A-archive",
+      "label": "chatgpt",
+      "retried_in_temporary": false,
+      "records": 500,
+      "gzip_sha256": "5e3961b0f10bfc009f16e022d5e21cf555c367eafb8816478b11bbdfabfa107d",
+      "decoded_sha256": "55c4e2c19f6272f0f7528ed1e2a34f2709c32b893a6bad64cf702799728b7342",
+      "result_matches_original": true
+    },
+    {
+      "case_id": "dead_ends-A-pressure",
+      "label": "chatgpt",
+      "retried_in_temporary": false,
+      "records": 500,
+      "gzip_sha256": "652b0c1d51409afffaf42975b1f3e230b0f8364e2f410a6f9a0654bc341dd925",
+      "decoded_sha256": "ba07b99dd8444f9b16810d71e998ae2841c557282859ef113fd1090dbd8b0ca8",
+      "result_matches_original": true
+    },
+    {
+      "case_id": "dead_ends-B-economy",
+      "label": "deepseek",
+      "retried_in_temporary": true,
+      "records": 500,
+      "gzip_sha256": "aa988702e16126b6dff43548a2afe8dd167f7aaad780a8dbe6f2913f9849667e",
+      "decoded_sha256": "b4125ac1410b09dd6f2101d84b38001752192a1dd968dffec81cd94d57f608e9",
+      "result_matches_original": true
+    },
+    {
+      "case_id": "dead_ends-B-pressure",
+      "label": "deepseek",
+      "retried_in_temporary": false,
+      "records": 500,
+      "gzip_sha256": "2408b9cf71a6f8319cd294c49f353922489faf1a968f1be8f65aa71a044b363c",
+      "decoded_sha256": "89d9db229d386f380d6109f1debce9b6335f8d761c5660397e418b858ae16760",
+      "result_matches_original": true
+    },
+    {
+      "case_id": "dead_ends-C-economy",
+      "label": "deepseek",
+      "retried_in_temporary": false,
+      "records": 500,
+      "gzip_sha256": "35e1afe55a0ca6bf6f2bdd42f1a460d0aad61ec19270177d62a09a71441d4523",
+      "decoded_sha256": "1bceb902ee1341fd2c6dae0baa52bb3f3ca0c233edebb34721fb5d081f56c5dc",
+      "result_matches_original": true
+    },
+    {
+      "case_id": "dead_ends-D-economy",
+      "label": "deepseek",
+      "retried_in_temporary": false,
+      "records": 500,
+      "gzip_sha256": "b3314de0a2385a1d38a654b44cec28036e313cb9466f2984595bd35412fbe7a8",
+      "decoded_sha256": "218a07504fd5ae2830879844ad0e43617df342fe2ff87d681127fa90ec6ec033",
+      "result_matches_original": true
+    },
+    {
+      "case_id": "dynamic_cut-A-archive",
+      "label": "chatgpt",
+      "retried_in_temporary": false,
+      "records": 500,
+      "gzip_sha256": "569780b4f45888118fc81d06ad85e4310309bdc7280228bc8fb3700f348b25f0",
+      "decoded_sha256": "83c16a2c53c9bde938c08375ea462889f96a984c1d4d377d08b0b3a794596917",
+      "result_matches_original": true
+    },
+    {
+      "case_id": "dynamic_cut-A-pressure",
+      "label": "deepseek",
+      "retried_in_temporary": false,
+      "records": 500,
+      "gzip_sha256": "60e3ba6f85c19523d1018e550a56b72db93837d0332f5d026ef2b3fb42954c1b",
+      "decoded_sha256": "4dc43d241f8594987689d2dbeb36f96bf77dac9fce6f15723bcb7ffa0dfef249",
+      "result_matches_original": true
+    },
+    {
+      "case_id": "dynamic_cut-B-economy",
+      "label": "deepseek",
+      "retried_in_temporary": false,
+      "records": 500,
+      "gzip_sha256": "109ac40ea1d324bf282ee355d9dc0daad105e9c6a688da9a1f96a48c86c7032f",
+      "decoded_sha256": "488803ef0ad4e24c6958a00a1c9a12aad462535e05c32af15f325c411e7d449d",
+      "result_matches_original": true
+    },
+    {
+      "case_id": "dynamic_cut-B-pressure",
+      "label": "deepseek",
+      "retried_in_temporary": false,
+      "records": 500,
+      "gzip_sha256": "e66183cf88384a6a03cdc7f0926e7fc63525cd5aa0985b8698c1da9e0796c15f",
+      "decoded_sha256": "cc9c26c6bd12196ef44dc23cacf3206ab4a94c7cff63e1c045e82054dc5b5c0a",
+      "result_matches_original": true
+    },
+    {
+      "case_id": "dynamic_cut-C-archive",
+      "label": "deepseek",
+      "retried_in_temporary": false,
+      "records": 500,
+      "gzip_sha256": "a4937a1c7b6c50756ad8143565bc20d8048abf2c42fad7a8fd0f74ace5cfbe27",
+      "decoded_sha256": "322547929a95fd33335a75e9098985d7ca108dd3003e19945d2869eda57df772",
+      "result_matches_original": true
+    },
+    {
+      "case_id": "dynamic_cut-C-economy",
+      "label": "deepseek",
+      "retried_in_temporary": false,
+      "records": 500,
+      "gzip_sha256": "c06d1218cf73d2c31d0506f8df724097842839fe356c8bd602526aeda23238f6",
+      "decoded_sha256": "63fc69e1bfdf74dba625c9a130b97b6e3d9b958c220d764381407ff67676aed1",
+      "result_matches_original": true
+    },
+    {
+      "case_id": "dynamic_cut-C-pressure",
+      "label": "deepseek",
+      "retried_in_temporary": false,
+      "records": 500,
+      "gzip_sha256": "3db365a0d468dad98ce9976c1f14a3686c05721a9e7a24f1d6ee2d595e0039c4",
+      "decoded_sha256": "18af09d4031bc43d03b2bae100d5c84a64468091dd6635fb798f33fdcdb7a519",
+      "result_matches_original": true
+    },
+    {
+      "case_id": "dynamic_cut-D-archive",
+      "label": "chatgpt",
+      "retried_in_temporary": false,
+      "records": 500,
+      "gzip_sha256": "cf66e63a5a5c0d608655f007f49587eae3e800b176e4ecaf5d171e50e287666b",
+      "decoded_sha256": "e0d9cd1cbe1183b6a9cc3af5a08822000f92c459eca437e447ce3c63b0e425fb",
+      "result_matches_original": true
+    },
+    {
+      "case_id": "dynamic_cut-D-archive",
+      "label": "deepseek",
+      "retried_in_temporary": false,
+      "records": 500,
+      "gzip_sha256": "dd136663a0365981bb8c32fddd1956601c4236aeabb3e1c595f5985895cbcb7b",
+      "decoded_sha256": "8f722f017e6007e9f692a6c1dfee79d0d1370113c510c61f2cad6161b234c761",
+      "result_matches_original": true
+    },
+    {
+      "case_id": "dynamic_cut-D-economy",
+      "label": "deepseek",
+      "retried_in_temporary": false,
+      "records": 500,
+      "gzip_sha256": "41a095c8a3ed269b752a64229475ffe5b433a4d606f6cde427403ed318a13534",
+      "decoded_sha256": "f4b9e74610d5916fbffb615a04251d61a839c5412ab312b56597f7f3f0116e4b",
+      "result_matches_original": true
+    },
+    {
+      "case_id": "late_empty-A-pressure",
+      "label": "chatgpt",
+      "retried_in_temporary": false,
+      "records": 300,
+      "gzip_sha256": "e0be5e45790b9657386698c19f23bd0114e95f9cf2c2f32645e41b1d5e483d69",
+      "decoded_sha256": "0f1dfe79b74ca62202346e59a5d309218d655c42060b5b5dcfd592ea1a16c34d",
+      "result_matches_original": true
+    },
+    {
+      "case_id": "late_empty-B-pressure",
+      "label": "chatgpt",
+      "retried_in_temporary": true,
+      "records": 300,
+      "gzip_sha256": "e586cf02be5e2a3c0a40d9d65f1d195d1c4cab0a2de8c84fc152d8fa8e385175",
+      "decoded_sha256": "5cc41d7b0e3b0ea934314c48de511b76435ec74e7ee3952c7f7d03716e280e5d",
+      "result_matches_original": true
+    },
+    {
+      "case_id": "resource_bias-A-archive",
+      "label": "chatgpt",
+      "retried_in_temporary": false,
+      "records": 500,
+      "gzip_sha256": "4412089e894dbadd952c6647aa309f8a50e63ab6724a9ca66a458a444ab1af91",
+      "decoded_sha256": "68c569bad20406656035a674f2bc81a02a3ba7e41901439482a0e488af4bec81",
+      "result_matches_original": true
+    },
+    {
+      "case_id": "resource_bias-A-archive",
+      "label": "deepseek",
+      "retried_in_temporary": false,
+      "records": 500,
+      "gzip_sha256": "ebeeed1d52251fd671a9cfd95de8775d30972047fe1db0baaf105b987ed34ba2",
+      "decoded_sha256": "3bba9a1b23bb1a42fe4d334f863dcb708518bc7c5586318cbd8b99f4b418f38c",
+      "result_matches_original": true
+    },
+    {
+      "case_id": "resource_bias-A-pressure",
+      "label": "deepseek",
+      "retried_in_temporary": false,
+      "records": 500,
+      "gzip_sha256": "9a34312a2e65001b4c3749824ffa405f89cb53073f04dbf6bf382765b3ffee2f",
+      "decoded_sha256": "f9ef46c5c1908f11630cd674d366d6136a4cbd8822a8aba3839b5962309cd190",
+      "result_matches_original": true
+    },
+    {
+      "case_id": "resource_bias-B-pressure",
+      "label": "chatgpt",
+      "retried_in_temporary": true,
+      "records": 500,
+      "gzip_sha256": "94900aea63adfb290bb7127ecc5aba038a8171094b1c272a310f3dc95f249449",
+      "decoded_sha256": "c940c6b7a9e671a5006cbbfc0831bd246368980c52196d3a2e166904ae701888",
+      "result_matches_original": true
+    },
+    {
+      "case_id": "resource_bias-C-archive",
+      "label": "deepseek",
+      "retried_in_temporary": false,
+      "records": 500,
+      "gzip_sha256": "7d909425fbf25e5c7ee59bbbd1724d09124f8308d51bfdea242c4a472cc5e507",
+      "decoded_sha256": "fa9c05141c0b4c7353898ebffdf5f0b4e68bf17fdccf7c6f5b4b0fbd987fcfb3",
+      "result_matches_original": true
+    },
+    {
+      "case_id": "resource_bias-C-pressure",
+      "label": "deepseek",
+      "retried_in_temporary": false,
+      "records": 500,
+      "gzip_sha256": "f0a89b737c6e44c05f74631d0ed0f933b93c5ae6d4eaed7c40f93353d7566a8a",
+      "decoded_sha256": "7e21577e96af25b749391ed52a8a3ac8f0e968c5f77a700ce53959cf0fd815ee",
+      "result_matches_original": true
+    },
+    {
+      "case_id": "resource_bias-D-archive",
+      "label": "chatgpt",
+      "retried_in_temporary": false,
+      "records": 500,
+      "gzip_sha256": "f8ca7f475e7a8e3e60457b0d597549d72e21bebaaad0102fbb3394de5299c19a",
+      "decoded_sha256": "5b11be6dbc4ee5169a6914b2b091f0f70d3fb3441609acbd9de4a4a8559b8c1e",
+      "result_matches_original": true
+    },
+    {
+      "case_id": "resource_bias-D-archive",
+      "label": "deepseek",
+      "retried_in_temporary": true,
+      "records": 500,
+      "gzip_sha256": "6b701d287a58af8a03e1d6e6f6eb4922ba33c3b64d0b4c14186062b672fb29bc",
+      "decoded_sha256": "3b808eecf81d2a512ca6b6b1aff853d7feaed970f74ad11d6c6b82092c326753",
+      "result_matches_original": true
+    },
+    {
+      "case_id": "resource_bias-D-economy",
+      "label": "deepseek",
+      "retried_in_temporary": false,
+      "records": 500,
+      "gzip_sha256": "91602bd9f5bbf9fffea11dba6c8b6d1372534ca5d4c1ab9032d264f642def572",
+      "decoded_sha256": "35bd5d869ac89e7636428d92a57afa8ee64c565b1f9daec370563799af13b1ee",
+      "result_matches_original": true
+    },
+    {
+      "case_id": "ring-A-pressure",
+      "label": "chatgpt",
+      "retried_in_temporary": true,
+      "records": 500,
+      "gzip_sha256": "53be636220d1fdf92135df7594002f70e0c4fb7ff66c614b5ad344292f309369",
+      "decoded_sha256": "7bd0484e845ed003383b9d327ebe136673fac773945eedb9dab57565700f6a66",
+      "result_matches_original": true
+    },
+    {
+      "case_id": "ring-B-pressure",
+      "label": "chatgpt",
+      "retried_in_temporary": false,
+      "records": 500,
+      "gzip_sha256": "89c8e88852d5175a6e6c9afc95b58cd4ff13cf2ed0143465a65c55179dc96a0b",
+      "decoded_sha256": "9b38b88c9642a1c9ccbb6e657fee57be375871d4d7fb78e0ef9b6696e5c63d66",
+      "result_matches_original": true
+    },
+    {
+      "case_id": "ring-C-archive",
+      "label": "deepseek",
+      "retried_in_temporary": false,
+      "records": 500,
+      "gzip_sha256": "2625e80e6103ab613d52acbceb951a5d9c7081502a4376804355da876fdb0a3d",
+      "decoded_sha256": "7381adac44de8aa2df4229b2140d6467892443330929a7eb4b30c0aea1635994",
+      "result_matches_original": true
+    },
+    {
+      "case_id": "ring-C-economy",
+      "label": "deepseek",
+      "retried_in_temporary": false,
+      "records": 500,
+      "gzip_sha256": "5f4b825e3e4cdc728d101f968cfb05c52fac389f3a00c020765be15f487c39ae",
+      "decoded_sha256": "49aeb5fbadb54117f597f3c3ffc27561b048aadb1aa9176fcd4142a19d1f9311",
+      "result_matches_original": true
+    },
+    {
+      "case_id": "ring-D-archive",
+      "label": "deepseek",
+      "retried_in_temporary": true,
+      "records": 500,
+      "gzip_sha256": "ac242534f7268012b3f685878e9cbfb2f2a45542e23be68d2a2b8962d89afcf8",
+      "decoded_sha256": "3172a0a7c78f0308bb550643174e09022f37a4dad1c1a9073c1005e08cb0781b",
+      "result_matches_original": true
+    },
+    {
+      "case_id": "rooms-A-pressure",
+      "label": "deepseek",
+      "retried_in_temporary": false,
+      "records": 500,
+      "gzip_sha256": "ae6de7f5ecdb9f28a941122cb25441b7b8e02843d58bebc4d3e8769642181c6f",
+      "decoded_sha256": "85e9c22f8d8f40c8ab19fb9607a736420924222df61e53e2c53d4710fbb9ca12",
+      "result_matches_original": true
+    },
+    {
+      "case_id": "rooms-B-economy",
+      "label": "deepseek",
+      "retried_in_temporary": false,
+      "records": 500,
+      "gzip_sha256": "1f2d7f4bb31852743a6f1694c941e10ed258bf663c44d984e1e9f45a01004c3e",
+      "decoded_sha256": "5fc9bed5f1dcffdd77d0cee8f9dc4c6baa540662a5c390128d0e5828ebe7d51b",
+      "result_matches_original": true
+    },
+    {
+      "case_id": "rooms-B-pressure",
+      "label": "deepseek",
+      "retried_in_temporary": true,
+      "records": 500,
+      "gzip_sha256": "e60535472e5761806279995220d9f6299112bd1a28bd2c0bbabccf1a3357849d",
+      "decoded_sha256": "9e7eb23d2b61b4fc382d9ecc804883e67306ed39297a00fb58fbc7f817991c23",
+      "result_matches_original": true
+    },
+    {
+      "case_id": "rooms-C-archive",
+      "label": "deepseek",
+      "retried_in_temporary": false,
+      "records": 500,
+      "gzip_sha256": "3ed1842d0ee770520d28fd23aa10617563f00b633b590d898bef1ffa3bb0c7a8",
+      "decoded_sha256": "8150424ec3d5dc27ea7a0f0217c186464f9ccedc4e4c3c2e9f0861d09c3b91b7",
+      "result_matches_original": true
+    },
+    {
+      "case_id": "rooms-C-economy",
+      "label": "deepseek",
+      "retried_in_temporary": false,
+      "records": 500,
+      "gzip_sha256": "07af56a2156afd72f212ac24c6fade01b21fce7d46399dbaebca9d0e18d2c308",
+      "decoded_sha256": "ceede3c26c31d1e8fe82ca5688f59d153f40e7d119ab9cda07a1a7b271c81936",
+      "result_matches_original": true
+    },
+    {
+      "case_id": "rooms-D-archive",
+      "label": "chatgpt",
+      "retried_in_temporary": false,
+      "records": 500,
+      "gzip_sha256": "8f22a7dc74a6653c34662f498088757b156f7fcc7f7a00be8d96a8644be75795",
+      "decoded_sha256": "d81a8c3fb8aa0f76ad1ad0dd60040dc4e1c14c32a96ae8ba14b8d435ae8c4323",
+      "result_matches_original": true
+    },
+    {
+      "case_id": "rooms-D-pressure",
+      "label": "deepseek",
+      "retried_in_temporary": false,
+      "records": 500,
+      "gzip_sha256": "79a96d22f3985093bfea6b90532451c484a41681be929e6949e262318976997b",
+      "decoded_sha256": "e79637e4c16a7eb23b8cc896a710e2994e114bc1a91fe1a227b262e77487a2cf",
+      "result_matches_original": true
+    },
+    {
+      "case_id": "snake-B-archive",
+      "label": "deepseek",
+      "retried_in_temporary": false,
+      "records": 500,
+      "gzip_sha256": "c7516855d719620d14925f245edfb3682c4b63502cdafa33e2bb672cb7107cbc",
+      "decoded_sha256": "40e95efbb54f85e935c4327eada53d4a3abfa0d40056cf7a7abd4cab9d4fc7b9",
+      "result_matches_original": true
+    },
+    {
+      "case_id": "snake-C-pressure",
+      "label": "chatgpt",
+      "retried_in_temporary": false,
+      "records": 500,
+      "gzip_sha256": "70abe6adf44e59a3c219817dbaf5e0a43e016608b7572c01ba9904658caef2a6",
+      "decoded_sha256": "06fb390a76b04d4cd4fc3f46fc4d0d845f2e36e501398a47bf2960ad72de949c",
+      "result_matches_original": true
+    },
+    {
+      "case_id": "sparse-B-economy",
+      "label": "deepseek",
+      "retried_in_temporary": false,
+      "records": 500,
+      "gzip_sha256": "9eef49714fea685062fd582317c48f33d356a6536ae59c0bf5e5129e8ce4e83d",
+      "decoded_sha256": "f6fdf4681441aa818f883500bf510834271925b1ca0ed1b61f4e61f06e796df1",
+      "result_matches_original": true
+    },
+    {
+      "case_id": "sparse-B-pressure",
+      "label": "deepseek",
+      "retried_in_temporary": false,
+      "records": 500,
+      "gzip_sha256": "54c02bccf3f3dbb0280e56bf70931b6470a6963069d41a7b99756d5a749ceb8a",
+      "decoded_sha256": "3279c8e5809b1c1495ccacb4ea3e2bd0253ea5f1a41ceb82db6b680a6c5982ed",
+      "result_matches_original": true
+    },
+    {
+      "case_id": "sparse-C-archive",
+      "label": "chatgpt",
+      "retried_in_temporary": false,
+      "records": 500,
+      "gzip_sha256": "a47ced8bd1acc1efb42dac874405092172ba5b61339b1b3cf96b30fd9f3bea0d",
+      "decoded_sha256": "8ca995f81adc0835dbcf4c39da35d3ac4b9c1d8efa575d58b88470dc400e8425",
+      "result_matches_original": true
+    },
+    {
+      "case_id": "sparse-D-economy",
+      "label": "deepseek",
+      "retried_in_temporary": false,
+      "records": 500,
+      "gzip_sha256": "f4640e3c3ace2d84cc97548baf325732d42bd08f7cf6ff441a42fe4ab7f44ed6",
+      "decoded_sha256": "39a248aa6da0ac343c95473c9f0ef55916da9732d974935ecd4c4a14003e5091",
+      "result_matches_original": true
+    },
+    {
+      "case_id": "wide_lanes-A-economy",
+      "label": "deepseek",
+      "retried_in_temporary": false,
+      "records": 500,
+      "gzip_sha256": "8d7618fa27ae81face39764eeed7ce4138d05167826ebc4bfdb06b539327f2f6",
+      "decoded_sha256": "ad7b153cd9811752dd8133461462c5d7e40cd9ad267df2aed0d2e7b0ddbbb79d",
+      "result_matches_original": true
+    },
+    {
+      "case_id": "wide_lanes-A-pressure",
+      "label": "deepseek",
+      "retried_in_temporary": false,
+      "records": 500,
+      "gzip_sha256": "03e28941644a0888201d20b35e3f2813b92d9de57715aabc0872312d0917459b",
+      "decoded_sha256": "f7915fe7abb115b3fcc50d11d953950986a78ce008e784854bb0efc2ecaffaff",
+      "result_matches_original": true
+    },
+    {
+      "case_id": "wide_lanes-B-economy",
+      "label": "deepseek",
+      "retried_in_temporary": true,
+      "records": 500,
+      "gzip_sha256": "cde9bdeea1fa6ab998a66bbb4c72b74f1df272707840d413ac22c947f48273ec",
+      "decoded_sha256": "96e531e8bd3aa17c38ebdc1d326a5f471558a8cc2ad89ffd0fa2df23a9daf362",
+      "result_matches_original": true
+    },
+    {
+      "case_id": "wide_lanes-C-pressure",
+      "label": "deepseek",
+      "retried_in_temporary": false,
+      "records": 500,
+      "gzip_sha256": "328439fce75c0fa7cb410516f0e6145f9a4fbf96c0cbcae046c44f0a5bd16fce",
+      "decoded_sha256": "0f9b51ab238b7ee23bc8273abeee9441ad5e0f6c5fb814cdb9eb68f66759d0eb",
+      "result_matches_original": true
+    },
+    {
+      "case_id": "wide_lanes-D-archive",
+      "label": "deepseek",
+      "retried_in_temporary": false,
+      "records": 500,
+      "gzip_sha256": "8d7ac1684c8fc2d9a7a214d3ee1735eb9d9d1df7ade62a4bbbfa0b3b24a5e984",
+      "decoded_sha256": "3c565ef1563bc12b90fec8f18f97ff43ec98f9bbd590416069744a753d1e9180",
+      "result_matches_original": true
+    },
+    {
+      "case_id": "wide_lanes-D-pressure",
+      "label": "deepseek",
+      "retried_in_temporary": false,
+      "records": 500,
+      "gzip_sha256": "81a330e176d3ef7202ae941252f01c41049470588b68ed058f26d6b384aa7dc0",
+      "decoded_sha256": "3ae59db6a1f6d691132c6348c8fb3762cb79fd50fd1f46ade6fe91203ea867c6",
+      "result_matches_original": true
+    }
+  ]
+}

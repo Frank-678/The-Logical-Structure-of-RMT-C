@@ -1,0 +1,50 @@
+{
+  "archive": "first-recovery-raw.tar.xz",
+  "bytes": 14275380,
+  "sha256": "1bc6fef291ac0dab29d5bb84af40787b1993a295dfb581216a3de54959ef61b5",
+  "part_bytes": 2097152,
+  "parts": [
+    {
+      "index": 0,
+      "name": "first-recovery-raw.tar.xz.part-000",
+      "bytes": 2097152,
+      "sha256": "bcffc6ac2d3de9b2d5742f4719d46a4f1586ebe7df706cbb9057cb5d3a2e93fa"
+    },
+    {
+      "index": 1,
+      "name": "first-recovery-raw.tar.xz.part-001",
+      "bytes": 2097152,
+      "sha256": "ae2c04d37eb26370f6493bdc0ceceed4c698b313ff3985999da52040d5ee86ca"
+    },
+    {
+      "index": 2,
+      "name": "first-recovery-raw.tar.xz.part-002",
+      "bytes": 2097152,
+      "sha256": "4fbc7e5e3775e9f7bfa4cd5f5c1db235647004b437232a5a239af0e420d4fb7c"
+    },
+    {
+      "index": 3,
+      "name": "first-recovery-raw.tar.xz.part-003",
+      "bytes": 2097152,
+      "sha256": "7bd27e4d1e3976b8c633ff4fd9ebd0d5f0eeec89ffb742a0f099ab7bac9256f0"
+    },
+    {
+      "index": 4,
+      "name": "first-recovery-raw.tar.xz.part-004",
+      "bytes": 2097152,
+      "sha256": "8519b51ad0fb9d1b3267588451734247ceaa5d1a06f58819f50af1ef0ba009b7"
+    },
+    {
+      "index": 5,
+      "name": "first-recovery-raw.tar.xz.part-005",
+      "bytes": 2097152,
+      "sha256": "868b1cf80764c763905fbcbaf47cad28f15d2c2d585b647a4dd0f8ef6a151aae"
+    },
+    {
+      "index": 6,
+      "name": "first-recovery-raw.tar.xz.part-006",
+      "bytes": 1692468,
+      "sha256": "6a5f40803409f4e136b6b5dd258aad078544471a897a128b638c1a017a407219"
+    }
+  ]
+}

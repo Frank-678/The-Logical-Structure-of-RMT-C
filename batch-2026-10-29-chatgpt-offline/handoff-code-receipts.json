@@ -1,0 +1,12 @@
+[
+  {
+    "branch": "strategy/iterate-arena-2026-10-28",
+    "commit_sha": "d2fb0853ebbeed3f35c59870bb41de3225cb4b84",
+    "content_sha": "f585e03a32f98a286e254ba185babc2cf825cb94"
+  },
+  {
+    "branch": "strategy/visible-resource-bfs",
+    "commit_sha": "38b5d09b9742642e6cc0f24f4ea9724007dbe1b4",
+    "content_sha": "f585e03a32f98a286e254ba185babc2cf825cb94"
+  }
+]

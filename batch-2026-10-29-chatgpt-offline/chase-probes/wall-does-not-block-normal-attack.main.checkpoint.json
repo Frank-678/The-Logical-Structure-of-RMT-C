@@ -1,0 +1,375 @@
+{
+  "build_id": "7e2887d5ed31976dd534874772e68a54be2fb77ba1cd7751f8d5f0a4783fde4f",
+  "decisions": {
+    "A": {
+      "chosen": {
+        "action": "attack",
+        "direction": "right"
+      },
+      "reason": "script"
+    },
+    "B": {
+      "chosen": {
+        "action": "move",
+        "direction": "up"
+      },
+      "reason": "script"
+    }
+  },
+  "kind": "rmtc_scenario_checkpoint",
+  "scene": {
+    "agents": {
+      "A": {
+        "actions": {},
+        "event_delivery": "oracle",
+        "otherwise": {
+          "action": "attack",
+          "direction": "right"
+        },
+        "type": "script"
+      },
+      "B": {
+        "actions": {},
+        "event_delivery": "oracle",
+        "otherwise": {
+          "action": "move",
+          "direction": "up"
+        },
+        "type": "script"
+      }
+    },
+    "events": [],
+    "initial": {
+      "cars": {
+        "A": {
+          "hp": 100,
+          "position": [
+            3,
+            3
+          ]
+        },
+        "B": {
+          "hp": 100,
+          "position": [
+            5,
+            3
+          ]
+        }
+      },
+      "resources": [],
+      "tick": 200
+    },
+    "map": {
+      "height": 7,
+      "spawns": [
+        [
+          3,
+          3
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          6,
+          6
+        ]
+      ],
+      "vision_radius": 4,
+      "walls": [
+        [
+          4,
+          3
+        ]
+      ],
+      "width": 7
+    },
+    "missions": [],
+    "name": "wall-does-not-block-normal-attack",
+    "qualified": true,
+    "run": {
+      "expect": [
+        {
+          "op": "eq",
+          "path": "/world/cars/B/hp",
+          "value": 80
+        },
+        {
+          "op": "eq",
+          "path": "/world/cars/B/position",
+          "value": [
+            5,
+            2
+          ]
+        }
+      ],
+      "until_tick": 201
+    },
+    "schema": 1,
+    "seed": 17,
+    "stage": 2,
+    "tick_limit": 500
+  },
+  "schema": 1,
+  "tape": [
+    {
+      "actions": {
+        "A": {
+          "action": "attack",
+          "direction": "right"
+        },
+        "B": {
+          "action": "move",
+          "direction": "up"
+        }
+      },
+      "event_ids": {
+        "A": [],
+        "B": []
+      },
+      "perceptions": {
+        "A": {
+          "event_text": "",
+          "map": {
+            "height": 7,
+            "width": 7
+          },
+          "missions": [],
+          "score": {
+            "effective_damage": 0.0,
+            "invalid_actions": 0,
+            "mission_completed_ids": [],
+            "resource_value": 0.0
+          },
+          "self": {
+            "alive": true,
+            "hp": 100.0,
+            "last_action": null,
+            "position": [
+              3,
+              3
+            ],
+            "protected": false,
+            "respawn_in": 0,
+            "robot_id": "A",
+            "team": "A"
+          },
+          "session_id": "wall-does-not-block-normal-attack",
+          "tick": 200,
+          "visible_entities": [
+            {
+              "position": "000000000\n000000000\n000000000\n000000000\n000012000\n000000000\n000000000\n000000000\n000000000",
+              "type": "obstacle"
+            },
+            {
+              "defending": false,
+              "hp": 100.0,
+              "position": "000000000\n000000000\n000000000\n000000000\n000010200\n000000000\n000000000\n000000000\n000000000",
+              "protected": false,
+              "robot_id": "B",
+              "team": "B",
+              "type": "robot"
+            }
+          ],
+          "vision_radius": 4
+        },
+        "B": {
+          "event_text": "",
+          "map": {
+            "height": 7,
+            "width": 7
+          },
+          "missions": [],
+          "score": {
+            "effective_damage": 0.0,
+            "invalid_actions": 0,
+            "mission_completed_ids": [],
+            "resource_value": 0.0
+          },
+          "self": {
+            "alive": true,
+            "hp": 100.0,
+            "last_action": null,
+            "position": [
+              5,
+              3
+            ],
+            "protected": false,
+            "respawn_in": 0,
+            "robot_id": "B",
+            "team": "B"
+          },
+          "session_id": "wall-does-not-block-normal-attack",
+          "tick": 200,
+          "visible_entities": [
+            {
+              "position": "000000000\n000000000\n000000000\n000000000\n000210000\n000000000\n000000000\n000000000\n000000000",
+              "type": "obstacle"
+            },
+            {
+              "defending": false,
+              "hp": 100.0,
+              "position": "000000000\n000000000\n000000000\n000000000\n002010000\n000000000\n000000000\n000000000\n000000000",
+              "protected": false,
+              "robot_id": "A",
+              "team": "A",
+              "type": "robot"
+            }
+          ],
+          "vision_radius": 4
+        }
+      },
+      "tick": 200
+    }
+  ],
+  "world": {
+    "cars": {
+      "A": {
+        "D": 20.0,
+        "R": 0.0,
+        "alive": true,
+        "attacks": 1,
+        "blocked": 0,
+        "capture": {},
+        "completed": [],
+        "deaths": 0,
+        "defends": 0,
+        "empowered": [],
+        "heal_amount": 0.0,
+        "heal_until": -1,
+        "high": 0,
+        "hp": 100.0,
+        "invalid": 0,
+        "last_action": {
+          "action": "attack",
+          "moved": false,
+          "tick": 200
+        },
+        "moves": 0,
+        "normal": 0,
+        "position": [
+          3,
+          3
+        ],
+        "position_reason": "",
+        "protected": false,
+        "protected_left": 0,
+        "respawn_in": 0,
+        "reversed": [],
+        "vulnerable": []
+      },
+      "B": {
+        "D": 0.0,
+        "R": 0.0,
+        "alive": true,
+        "attacks": 0,
+        "blocked": 0,
+        "capture": {},
+        "completed": [],
+        "deaths": 0,
+        "defends": 0,
+        "empowered": [],
+        "heal_amount": 0.0,
+        "heal_until": -1,
+        "high": 0,
+        "hp": 80.0,
+        "invalid": 0,
+        "last_action": {
+          "action": "move",
+          "effective_direction": "up",
+          "moved": true,
+          "tick": 200
+        },
+        "moves": 1,
+        "normal": 0,
+        "position": [
+          5,
+          2
+        ],
+        "position_reason": "",
+        "protected": false,
+        "protected_left": 0,
+        "respawn_in": 0,
+        "reversed": [],
+        "vulnerable": []
+      },
+      "C": {
+        "D": 0.0,
+        "R": 0.0,
+        "alive": false,
+        "attacks": 0,
+        "blocked": 0,
+        "capture": {},
+        "completed": [],
+        "deaths": 0,
+        "defends": 0,
+        "empowered": [],
+        "heal_amount": 0.0,
+        "heal_until": -1,
+        "high": 0,
+        "hp": 0.0,
+        "invalid": 0,
+        "last_action": {
+          "action": "wait",
+          "moved": false,
+          "tick": 200
+        },
+        "moves": 0,
+        "normal": 0,
+        "position": [
+          0,
+          6
+        ],
+        "position_reason": "",
+        "protected": false,
+        "protected_left": 0,
+        "respawn_in": 999999999,
+        "reversed": [],
+        "vulnerable": []
+      },
+      "D": {
+        "D": 0.0,
+        "R": 0.0,
+        "alive": false,
+        "attacks": 0,
+        "blocked": 0,
+        "capture": {},
+        "completed": [],
+        "deaths": 0,
+        "defends": 0,
+        "empowered": [],
+        "heal_amount": 0.0,
+        "heal_until": -1,
+        "high": 0,
+        "hp": 0.0,
+        "invalid": 0,
+        "last_action": {
+          "action": "wait",
+          "moved": false,
+          "tick": 200
+        },
+        "moves": 0,
+        "normal": 0,
+        "position": [
+          6,
+          6
+        ],
+        "position_reason": "",
+        "protected": false,
+        "protected_left": 0,
+        "respawn_in": 999999999,
+        "reversed": [],
+        "vulnerable": []
+      }
+    },
+    "phase": "before_tick",
+    "resources": [],
+    "schema": 1,
+    "tick": 201
+  },
+  "_integrity_sha256": "35de88dd93e24871bd4b50352970e33f05b38f5acc6f2eb77f466dbeac0e00a3"
+}

@@ -1,0 +1,108 @@
+{
+  "schema": 1,
+  "name": "two-shooters-move-cancelled",
+  "stage": 2,
+  "tick_limit": 500,
+  "qualified": true,
+  "seed": 17,
+  "map": {
+    "width": 7,
+    "height": 7,
+    "vision_radius": 4,
+    "walls": [],
+    "spawns": [
+      [
+        3,
+        3
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        6,
+        6
+      ]
+    ]
+  },
+  "initial": {
+    "tick": 200,
+    "resources": [],
+    "cars": {
+      "A": {
+        "position": [
+          3,
+          3
+        ],
+        "hp": 30
+      },
+      "B": {
+        "position": [
+          2,
+          3
+        ],
+        "hp": 100
+      },
+      "C": {
+        "position": [
+          4,
+          3
+        ],
+        "hp": 100
+      }
+    }
+  },
+  "missions": [],
+  "events": [],
+  "agents": {
+    "A": {
+      "type": "script",
+      "event_delivery": "oracle",
+      "actions": {},
+      "otherwise": {
+        "action": "move",
+        "direction": "up"
+      }
+    },
+    "B": {
+      "type": "script",
+      "event_delivery": "oracle",
+      "actions": {},
+      "otherwise": {
+        "action": "attack",
+        "direction": "right"
+      }
+    },
+    "C": {
+      "type": "script",
+      "event_delivery": "oracle",
+      "actions": {},
+      "otherwise": {
+        "action": "attack",
+        "direction": "left"
+      }
+    }
+  },
+  "run": {
+    "until_tick": 201,
+    "expect": [
+      {
+        "path": "/world/cars/A/alive",
+        "op": "eq",
+        "value": false
+      },
+      {
+        "path": "/world/cars/A/position",
+        "op": "eq",
+        "value": [
+          3,
+          3
+        ]
+      }
+    ]
+  }
+}

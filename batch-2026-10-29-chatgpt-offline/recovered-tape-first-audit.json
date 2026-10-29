@@ -1,0 +1,478 @@
+[
+  {
+    "path": "asymmetric-B-pressure/deepseek/tape.jsonl.gz",
+    "bytes": 156114,
+    "records": 500,
+    "last": 499,
+    "error": null
+  },
+  {
+    "path": "asymmetric-C-pressure/deepseek/tape.jsonl.gz",
+    "bytes": 135798,
+    "records": 440,
+    "last": 439,
+    "error": "EOFError"
+  },
+  {
+    "path": "asymmetric-D-archive/chatgpt/tape.jsonl.gz",
+    "bytes": 654683,
+    "records": 500,
+    "last": 499,
+    "error": null
+  },
+  {
+    "path": "asymmetric-D-archive/deepseek/tape.jsonl.gz",
+    "bytes": 455167,
+    "records": 357,
+    "last": 356,
+    "error": "EOFError"
+  },
+  {
+    "path": "asymmetric-D-economy/deepseek/tape.jsonl.gz",
+    "bytes": 151462,
+    "records": 500,
+    "last": 499,
+    "error": null
+  },
+  {
+    "path": "bridge-A-pressure/deepseek/tape.jsonl.gz",
+    "bytes": 50843,
+    "records": 359,
+    "last": 358,
+    "error": "EOFError"
+  },
+  {
+    "path": "bridge-B-archive/deepseek/tape.jsonl.gz",
+    "bytes": 312632,
+    "records": 500,
+    "last": 499,
+    "error": null
+  },
+  {
+    "path": "bridge-B-economy/deepseek/tape.jsonl.gz",
+    "bytes": 74174,
+    "records": 500,
+    "last": 499,
+    "error": null
+  },
+  {
+    "path": "bridge-C-archive/deepseek/tape.jsonl.gz",
+    "bytes": 313161,
+    "records": 500,
+    "last": 499,
+    "error": null
+  },
+  {
+    "path": "bridge-D-archive/deepseek/tape.jsonl.gz",
+    "bytes": 312545,
+    "records": 500,
+    "last": 499,
+    "error": null
+  },
+  {
+    "path": "center_race-A-archive/deepseek/tape.jsonl.gz",
+    "bytes": 270634,
+    "records": 500,
+    "last": 499,
+    "error": null
+  },
+  {
+    "path": "center_race-B-archive/deepseek/tape.jsonl.gz",
+    "bytes": 270622,
+    "records": 500,
+    "last": 499,
+    "error": null
+  },
+  {
+    "path": "center_race-C-archive/chatgpt/tape.jsonl.gz",
+    "bytes": 265262,
+    "records": 500,
+    "last": 499,
+    "error": null
+  },
+  {
+    "path": "center_race-C-archive/deepseek/tape.jsonl.gz",
+    "bytes": 232150,
+    "records": 439,
+    "last": 438,
+    "error": "EOFError"
+  },
+  {
+    "path": "center_race-D-archive/chatgpt/tape.jsonl.gz",
+    "bytes": 270296,
+    "records": 500,
+    "last": 499,
+    "error": null
+  },
+  {
+    "path": "center_race-D-archive/deepseek/tape.jsonl.gz",
+    "bytes": 269777,
+    "records": 500,
+    "last": 499,
+    "error": null
+  },
+  {
+    "path": "center_race-D-pressure/deepseek/tape.jsonl.gz",
+    "bytes": 69445,
+    "records": 500,
+    "last": 499,
+    "error": null
+  },
+  {
+    "path": "dead_ends-A-archive/chatgpt/tape.jsonl.gz",
+    "bytes": 1244939,
+    "records": 500,
+    "last": 499,
+    "error": null
+  },
+  {
+    "path": "dead_ends-A-pressure/chatgpt/tape.jsonl.gz",
+    "bytes": 290176,
+    "records": 500,
+    "last": 499,
+    "error": null
+  },
+  {
+    "path": "dead_ends-B-economy/deepseek/tape.jsonl.gz",
+    "bytes": 315313,
+    "records": 497,
+    "last": 496,
+    "error": "EOFError"
+  },
+  {
+    "path": "dead_ends-B-pressure/deepseek/tape.jsonl.gz",
+    "bytes": 310258,
+    "records": 500,
+    "last": 499,
+    "error": null
+  },
+  {
+    "path": "dead_ends-C-economy/deepseek/tape.jsonl.gz",
+    "bytes": 302922,
+    "records": 500,
+    "last": 499,
+    "error": null
+  },
+  {
+    "path": "dead_ends-D-economy/deepseek/tape.jsonl.gz",
+    "bytes": 291555,
+    "records": 500,
+    "last": 499,
+    "error": null
+  },
+  {
+    "path": "dynamic_cut-A-archive/chatgpt/tape.jsonl.gz",
+    "bytes": 315194,
+    "records": 500,
+    "last": 499,
+    "error": null
+  },
+  {
+    "path": "dynamic_cut-A-pressure/deepseek/tape.jsonl.gz",
+    "bytes": 82704,
+    "records": 500,
+    "last": 499,
+    "error": null
+  },
+  {
+    "path": "dynamic_cut-B-economy/deepseek/tape.jsonl.gz",
+    "bytes": 72071,
+    "records": 500,
+    "last": 499,
+    "error": null
+  },
+  {
+    "path": "dynamic_cut-B-pressure/deepseek/tape.jsonl.gz",
+    "bytes": 76515,
+    "records": 500,
+    "last": 499,
+    "error": null
+  },
+  {
+    "path": "dynamic_cut-C-archive/deepseek/tape.jsonl.gz",
+    "bytes": 313470,
+    "records": 500,
+    "last": 499,
+    "error": null
+  },
+  {
+    "path": "dynamic_cut-C-economy/deepseek/tape.jsonl.gz",
+    "bytes": 80267,
+    "records": 500,
+    "last": 499,
+    "error": null
+  },
+  {
+    "path": "dynamic_cut-C-pressure/deepseek/tape.jsonl.gz",
+    "bytes": 78561,
+    "records": 500,
+    "last": 499,
+    "error": null
+  },
+  {
+    "path": "dynamic_cut-D-archive/chatgpt/tape.jsonl.gz",
+    "bytes": 313449,
+    "records": 500,
+    "last": 499,
+    "error": null
+  },
+  {
+    "path": "dynamic_cut-D-archive/deepseek/tape.jsonl.gz",
+    "bytes": 312458,
+    "records": 500,
+    "last": 499,
+    "error": null
+  },
+  {
+    "path": "dynamic_cut-D-economy/deepseek/tape.jsonl.gz",
+    "bytes": 77489,
+    "records": 500,
+    "last": 499,
+    "error": null
+  },
+  {
+    "path": "late_empty-A-pressure/chatgpt/tape.jsonl.gz",
+    "bytes": 31476,
+    "records": 300,
+    "last": 499,
+    "error": null
+  },
+  {
+    "path": "late_empty-B-pressure/chatgpt/tape.jsonl.gz",
+    "bytes": 9933,
+    "records": 117,
+    "last": 316,
+    "error": "EOFError"
+  },
+  {
+    "path": "resource_bias-A-archive/chatgpt/tape.jsonl.gz",
+    "bytes": 247331,
+    "records": 500,
+    "last": 499,
+    "error": null
+  },
+  {
+    "path": "resource_bias-A-archive/deepseek/tape.jsonl.gz",
+    "bytes": 246679,
+    "records": 500,
+    "last": 499,
+    "error": null
+  },
+  {
+    "path": "resource_bias-A-pressure/deepseek/tape.jsonl.gz",
+    "bytes": 60245,
+    "records": 500,
+    "last": 499,
+    "error": null
+  },
+  {
+    "path": "resource_bias-B-pressure/chatgpt/tape.jsonl.gz",
+    "bytes": 45108,
+    "records": 396,
+    "last": 395,
+    "error": "EOFError"
+  },
+  {
+    "path": "resource_bias-C-archive/deepseek/tape.jsonl.gz",
+    "bytes": 246183,
+    "records": 500,
+    "last": 499,
+    "error": null
+  },
+  {
+    "path": "resource_bias-C-pressure/deepseek/tape.jsonl.gz",
+    "bytes": 63591,
+    "records": 500,
+    "last": 499,
+    "error": null
+  },
+  {
+    "path": "resource_bias-D-archive/chatgpt/tape.jsonl.gz",
+    "bytes": 238601,
+    "records": 500,
+    "last": 499,
+    "error": null
+  },
+  {
+    "path": "resource_bias-D-archive/deepseek/tape.jsonl.gz",
+    "bytes": 196803,
+    "records": 422,
+    "last": 421,
+    "error": "EOFError"
+  },
+  {
+    "path": "resource_bias-D-economy/deepseek/tape.jsonl.gz",
+    "bytes": 65860,
+    "records": 500,
+    "last": 499,
+    "error": null
+  },
+  {
+    "path": "ring-A-pressure/chatgpt/tape.jsonl.gz",
+    "bytes": 70615,
+    "records": 369,
+    "last": 368,
+    "error": "EOFError"
+  },
+  {
+    "path": "ring-B-pressure/chatgpt/tape.jsonl.gz",
+    "bytes": 96496,
+    "records": 500,
+    "last": 499,
+    "error": null
+  },
+  {
+    "path": "ring-C-archive/deepseek/tape.jsonl.gz",
+    "bytes": 416963,
+    "records": 500,
+    "last": 499,
+    "error": null
+  },
+  {
+    "path": "ring-C-economy/deepseek/tape.jsonl.gz",
+    "bytes": 91880,
+    "records": 500,
+    "last": 499,
+    "error": null
+  },
+  {
+    "path": "ring-D-archive/deepseek/tape.jsonl.gz",
+    "bytes": 373320,
+    "records": 446,
+    "last": 445,
+    "error": "EOFError"
+  },
+  {
+    "path": "rooms-A-pressure/deepseek/tape.jsonl.gz",
+    "bytes": 89255,
+    "records": 500,
+    "last": 499,
+    "error": null
+  },
+  {
+    "path": "rooms-B-economy/deepseek/tape.jsonl.gz",
+    "bytes": 90654,
+    "records": 500,
+    "last": 499,
+    "error": null
+  },
+  {
+    "path": "rooms-B-pressure/deepseek/tape.jsonl.gz",
+    "bytes": 60153,
+    "records": 352,
+    "last": 351,
+    "error": "EOFError"
+  },
+  {
+    "path": "rooms-C-archive/deepseek/tape.jsonl.gz",
+    "bytes": 335093,
+    "records": 500,
+    "last": 499,
+    "error": null
+  },
+  {
+    "path": "rooms-C-economy/deepseek/tape.jsonl.gz",
+    "bytes": 93246,
+    "records": 500,
+    "last": 499,
+    "error": null
+  },
+  {
+    "path": "rooms-D-archive/chatgpt/tape.jsonl.gz",
+    "bytes": 345642,
+    "records": 500,
+    "last": 499,
+    "error": null
+  },
+  {
+    "path": "rooms-D-pressure/deepseek/tape.jsonl.gz",
+    "bytes": 88261,
+    "records": 500,
+    "last": 499,
+    "error": null
+  },
+  {
+    "path": "snake-B-archive/deepseek/tape.jsonl.gz",
+    "bytes": 451803,
+    "records": 500,
+    "last": 499,
+    "error": null
+  },
+  {
+    "path": "snake-C-pressure/chatgpt/tape.jsonl.gz",
+    "bytes": 119141,
+    "records": 500,
+    "last": 499,
+    "error": null
+  },
+  {
+    "path": "sparse-B-economy/deepseek/tape.jsonl.gz",
+    "bytes": 81872,
+    "records": 500,
+    "last": 499,
+    "error": null
+  },
+  {
+    "path": "sparse-B-pressure/deepseek/tape.jsonl.gz",
+    "bytes": 82214,
+    "records": 500,
+    "last": 499,
+    "error": null
+  },
+  {
+    "path": "sparse-C-archive/chatgpt/tape.jsonl.gz",
+    "bytes": 336095,
+    "records": 500,
+    "last": 499,
+    "error": null
+  },
+  {
+    "path": "sparse-D-economy/deepseek/tape.jsonl.gz",
+    "bytes": 86812,
+    "records": 500,
+    "last": 499,
+    "error": null
+  },
+  {
+    "path": "wide_lanes-A-economy/deepseek/tape.jsonl.gz",
+    "bytes": 107129,
+    "records": 500,
+    "last": 499,
+    "error": null
+  },
+  {
+    "path": "wide_lanes-A-pressure/deepseek/tape.jsonl.gz",
+    "bytes": 100445,
+    "records": 500,
+    "last": 499,
+    "error": null
+  },
+  {
+    "path": "wide_lanes-B-economy/deepseek/tape.jsonl.gz",
+    "bytes": 75874,
+    "records": 389,
+    "last": 388,
+    "error": "EOFError"
+  },
+  {
+    "path": "wide_lanes-C-pressure/deepseek/tape.jsonl.gz",
+    "bytes": 99142,
+    "records": 500,
+    "last": 499,
+    "error": null
+  },
+  {
+    "path": "wide_lanes-D-archive/deepseek/tape.jsonl.gz",
+    "bytes": 428298,
+    "records": 500,
+    "last": 499,
+    "error": null
+  },
+  {
+    "path": "wide_lanes-D-pressure/deepseek/tape.jsonl.gz",
+    "bytes": 99674,
+    "records": 500,
+    "last": 499,
+    "error": null
+  }
+]

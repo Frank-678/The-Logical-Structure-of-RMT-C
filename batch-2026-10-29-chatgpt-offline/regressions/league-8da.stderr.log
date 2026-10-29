@@ -1,0 +1,17 @@
+test_arbitrary_tick_breakpoint_and_no_fabricated_wait (__main__.League.test_arbitrary_tick_breakpoint_and_no_fabricated_wait) ... ok
+test_assertion_failure_keeps_short_reproducible_scene (__main__.League.test_assertion_failure_keeps_short_reproducible_scene) ... ok
+test_binary_source_and_manifest_tampering_rejected (__main__.League.test_binary_source_and_manifest_tampering_rejected) ... ok
+test_death_deducts_60_instead_of_clearing_all_damage (__main__.League.test_death_deducts_60_instead_of_clearing_all_damage) ... ok
+test_git_snapshot_does_not_read_dirty_worktree (__main__.League.test_git_snapshot_does_not_read_dirty_worktree) ... ok
+test_independent_frozen_process_for_each_seat (__main__.League.test_independent_frozen_process_for_each_seat) ... ok
+test_lowhp_berserker_attacks_instead_of_shared_defense (__main__.League.test_lowhp_berserker_attacks_instead_of_shared_defense) ... ok
+test_map_and_opponent_coverage_and_determinism (__main__.League.test_map_and_opponent_coverage_and_determinism) ... ok
+test_paired_statistics_group_seats_by_map (__main__.League.test_paired_statistics_group_seats_by_map) ... ok
+test_same_signature_cache_and_changed_scene_refusal (__main__.League.test_same_signature_cache_and_changed_scene_refusal) ... ok
+test_worker_crash_is_a_failure_without_substituted_action (__main__.League.test_worker_crash_is_a_failure_without_substituted_action) ... ok
+test_workers_receive_only_own_local_inputs (__main__.League.test_workers_receive_only_own_local_inputs) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.382s
+
+OK

@@ -1,0 +1,17 @@
+test_assertion_failure_keeps_checkpoint (__main__.Scenarios.test_assertion_failure_keeps_checkpoint) ... ok
+test_checked_in_examples (__main__.Scenarios.test_checked_in_examples) ... ok
+test_condition_breakpoint_is_before_next_action (__main__.Scenarios.test_condition_breakpoint_is_before_next_action) ... ok
+test_export_edit_and_run_new_cold_scene (__main__.Scenarios.test_export_edit_and_run_new_cold_scene) ... ok
+test_no_notice_fork_does_not_remove_scoring_qualification (__main__.Scenarios.test_no_notice_fork_does_not_remove_scoring_qualification) ... ok
+test_pending_explanation_survives_checkpoint (__main__.Scenarios.test_pending_explanation_survives_checkpoint) ... ok
+test_rejects_edited_or_different_build_checkpoint (__main__.Scenarios.test_rejects_edited_or_different_build_checkpoint) ... ok
+test_rejects_inconsistent_world_and_misspelled_fields (__main__.Scenarios.test_rejects_inconsistent_world_and_misspelled_fields) ... ok
+test_strategy_inputs_exclude_hidden_world (__main__.Scenarios.test_strategy_inputs_exclude_hidden_world) ... ok
+test_warm_fork_changes_only_future_enemy_action (__main__.Scenarios.test_warm_fork_changes_only_future_enemy_action) ... ok
+test_warm_forks_copy_memory_and_rng (__main__.Scenarios.test_warm_forks_copy_memory_and_rng) ... ok
+test_world_roundtrip_keeps_effects_resources_and_respawn (__main__.Scenarios.test_world_roundtrip_keeps_effects_resources_and_respawn) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 1.796s
+
+OK

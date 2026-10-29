@@ -1,0 +1,41 @@
+{
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0",
+  "flags": [
+    "-std=c++17",
+    "-O1",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-Werror",
+    "-I",
+    "/workspace/scratch/457426c876eb/cst/src/rmtc_bot/include",
+    "-I",
+    "/workspace/scratch/457426c876eb/cst/tests",
+    "-I",
+    "/workspace/scratch/457426c876eb/review/ros-runtime/include"
+  ],
+  "source_sha256": {
+    "src/rmtc_bot/src/strategy.cpp": "7b3d0afcd39632722e7e536f343cce4bd6cad1c235a1394ee7d7a52fd7f9375e",
+    "src/rmtc_bot/src/tactics.cpp": "f890c4fce21335149a2f8e26a406c2dfc2cc05c92f942e3bf088d1f1a55c38b7",
+    "src/rmtc_bot/src/events.cpp": "b4e84fc921363f7a739da4b517eb14959d2773d346de8982c6793e771f978866",
+    "tests/arena.cpp": "04007f7d60832ae6a5af334c1285705b5cf4e740ce385b81fc231b1d416b1d51",
+    "tests/arena_checkpoint.cpp": "325bf1cc20b29abf919180fed3cb1d492ece16aaa67988a150e677c46933acf5",
+    "tests/arena_opponents.cpp": "ba738a41ee84ed96ef4792ae4e5d5a500973e2f7a11039d5a72e6dc4fc406869",
+    "tests/scenario_runner.cpp": "9aab390f9ee572dd174fa2adeeb9989c16bc835dde778a128d58c150dccde34c",
+    "src/rmtc_bot/include/rmtc_bot/ai_worker.hpp": "a8c2471feb987f57039a80e16e95d3b618dc39cb62986bc1b537ee342013b80b",
+    "src/rmtc_bot/include/rmtc_bot/events.hpp": "75b76359ee1333864d28ac5bcede0dfcc0fe4d71fb62f8fe0266303ff5c2f625",
+    "src/rmtc_bot/include/rmtc_bot/match_config.hpp": "23153f12f1a5fb3a47741c1ba97be5c5dc70eca4ac21d9c87e40a04457c05be6",
+    "src/rmtc_bot/include/rmtc_bot/protocol.hpp": "905f975606911011ccbc7a958612c74a472309298d49482e89c51d8b13491150",
+    "src/rmtc_bot/include/rmtc_bot/rules.hpp": "9f5b234a092dbed84ebcd0e692a918483dfc3cca649895a18de8073f9e87366b",
+    "src/rmtc_bot/include/rmtc_bot/scoring.hpp": "985681d6b4bd9da1cc4a8c7decaaff48c4d4855879df3cd9cdc1387a32a7399b",
+    "src/rmtc_bot/include/rmtc_bot/session.hpp": "dd01ec31f6475a41f66195599a9d3e10c6e42571cfb616f6fa07a352bd055d9b",
+    "src/rmtc_bot/include/rmtc_bot/strategy.hpp": "7ab68c2ba36e7c7a158a4d62189333f43c52ed6178dce11dee35cd52714fe1df",
+    "src/rmtc_bot/include/rmtc_bot/strategy_parameters.hpp": "11f2fea9721fc7f66c8a3bf8d7bd64dd92c1a91caf2cc82e96be54c9e9a8641d",
+    "src/rmtc_bot/include/rmtc_bot/strategy_tuning.hpp": "228103b83d38dab1b62a5971282bf9d9f5fde92a0baa0847689a0bcc7d6a6ab2",
+    "src/rmtc_bot/include/rmtc_bot/tactics.hpp": "dd7d52d063176c69a7e9d824b07b0e0e90d4447ecfc05951d7d2498aa7d5d2ad",
+    "tests/arena.hpp": "043d10e6b205ae26c989a4eb57c28e971ec03df4bbe3fd4689b7a3706c358275"
+  },
+  "json_header_sha256": "9bea4c8066ef4a1c206b2be5a36302f8926f7fdc6087af5d20b417d0cf103ea6",
+  "build_id": "b4280216ba4796631e41119e28b59f076a0155204f8c71aa60c1e13dbba2081a",
+  "binary_sha256": "75208967dd1dbe00eeb10e95ead8e3b3a8c67e321288c7883935c2deae558bce"
+}

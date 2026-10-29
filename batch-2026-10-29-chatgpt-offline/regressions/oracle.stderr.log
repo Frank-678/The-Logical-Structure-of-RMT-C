@@ -1,0 +1,5 @@
+test_budget_cut_never_claims_optimal_or_fabricates_leaf (__main__.Oracle.test_budget_cut_never_claims_optimal_or_fabricates_leaf) ... ok
+test_clock_budget_opponent_is_not_labeled_exact (__main__.Oracle.test_clock_budget_opponent_is_not_labeled_exact) ... ok
+test_cloned_npc_rng_is_repeatable (__main__.Oracle.test_cloned_npc_rng_is_repeatable) ... ok
+test_early_move_survives_but_late_move_does_not (__main__.Oracle.test_early_move_survives_but_late_move_does_not) ... ok
+test_explicit_damage_objective_can_choose_mutual_kill (__main__.Oracle.test_explicit_damage_objective_can_choose_mutual_kill) ... 

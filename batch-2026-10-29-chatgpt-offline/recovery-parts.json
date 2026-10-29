@@ -1,0 +1,50 @@
+{
+  "archive": "verified-recovery-and-regressions.tar.xz",
+  "bytes": 14530932,
+  "sha256": "a9409b62aed3642b92edb126734050acdc29d0cc740adb2d8438405aff5306ce",
+  "part_bytes": 2097152,
+  "parts": [
+    {
+      "index": 0,
+      "name": "verified-recovery-and-regressions.tar.xz.part-000",
+      "bytes": 2097152,
+      "sha256": "08dc34919cdb097c535dee8c88b87fee8e97553e30ed6d850681a60bb5005c00"
+    },
+    {
+      "index": 1,
+      "name": "verified-recovery-and-regressions.tar.xz.part-001",
+      "bytes": 2097152,
+      "sha256": "8b5d8f505f88bdbd1c0201d8d353e5ba3a38dd0cd09937ba10122b046f4e3a2f"
+    },
+    {
+      "index": 2,
+      "name": "verified-recovery-and-regressions.tar.xz.part-002",
+      "bytes": 2097152,
+      "sha256": "5aea33a94a8b4c51e46826d2fd4129903746047012ef384476b51b95713c2a80"
+    },
+    {
+      "index": 3,
+      "name": "verified-recovery-and-regressions.tar.xz.part-003",
+      "bytes": 2097152,
+      "sha256": "027e932ab4f9c4e50407ea271e5d397b7e859d295793bd2827cfb9a535e8a8f9"
+    },
+    {
+      "index": 4,
+      "name": "verified-recovery-and-regressions.tar.xz.part-004",
+      "bytes": 2097152,
+      "sha256": "78619bec7c0eeee62c1b5b906b76d5b6e2070742f00999ea1698c36a63d9b407"
+    },
+    {
+      "index": 5,
+      "name": "verified-recovery-and-regressions.tar.xz.part-005",
+      "bytes": 2097152,
+      "sha256": "125d44081302347e380e186ec727ad84baa9ec6a13e44a7c706492c315d444e2"
+    },
+    {
+      "index": 6,
+      "name": "verified-recovery-and-regressions.tar.xz.part-006",
+      "bytes": 1948020,
+      "sha256": "6707040d9d6f6099578af72d56877eeaf45733803defae27cea23ce0dc0fc74b"
+    }
+  ]
+}

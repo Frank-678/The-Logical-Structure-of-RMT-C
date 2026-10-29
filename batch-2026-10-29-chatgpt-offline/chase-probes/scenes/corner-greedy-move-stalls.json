@@ -1,0 +1,105 @@
+{
+  "schema": 1,
+  "name": "corner-greedy-move-stalls",
+  "stage": 2,
+  "tick_limit": 500,
+  "qualified": true,
+  "seed": 17,
+  "map": {
+    "width": 7,
+    "height": 7,
+    "vision_radius": 4,
+    "walls": [],
+    "spawns": [
+      [
+        4,
+        0
+      ],
+      [
+        6,
+        0
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        6,
+        6
+      ]
+    ]
+  },
+  "initial": {
+    "tick": 200,
+    "resources": [],
+    "cars": {
+      "A": {
+        "position": [
+          4,
+          0
+        ],
+        "hp": 100
+      },
+      "B": {
+        "position": [
+          6,
+          0
+        ],
+        "hp": 40
+      }
+    }
+  },
+  "missions": [],
+  "events": [],
+  "agents": {
+    "A": {
+      "type": "script",
+      "event_delivery": "oracle",
+      "actions": {},
+      "otherwise": {
+        "action": "move",
+        "direction": "right"
+      }
+    },
+    "B": {
+      "type": "script",
+      "event_delivery": "oracle",
+      "actions": {},
+      "otherwise": {
+        "action": "move",
+        "direction": "left"
+      }
+    }
+  },
+  "run": {
+    "until_tick": 204,
+    "expect": [
+      {
+        "path": "/world/cars/A/position",
+        "op": "eq",
+        "value": [
+          4,
+          0
+        ]
+      },
+      {
+        "path": "/world/cars/B/position",
+        "op": "eq",
+        "value": [
+          6,
+          0
+        ]
+      },
+      {
+        "path": "/world/cars/A/D",
+        "op": "eq",
+        "value": 0
+      },
+      {
+        "path": "/world/cars/A/invalid",
+        "op": "eq",
+        "value": 0
+      }
+    ]
+  }
+}

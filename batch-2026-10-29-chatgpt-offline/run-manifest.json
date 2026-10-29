@@ -1,0 +1,608 @@
+{
+  "date": "2026-10-29",
+  "agent": "ChatGPT",
+  "environment": "Linux container; not user WSL",
+  "kind": "offline synthetic referee and regressions; no paid model or full original ROS matches",
+  "source_code_snapshot": "837dfe8679d0e33842d8108395073888b6d12145",
+  "frozen_workers": {
+    "chatgpt": {
+      "schema": 1,
+      "label": "chatgpt_65c_v2",
+      "provenance": {
+        "kind": "locked_git_snapshot",
+        "commit": "65c87145ae3b15572c3b1674181a74677fe86770",
+        "repository": "Frank-678/RoboMaster-Turing-Competition-BeyondControl",
+        "lock_sha256": "68e170ed1a9fe15e1c6385a5bced2fa88ced7ab2e96c09d5c738fac6e1120e30"
+      },
+      "source_sha256": {
+        "src/rmtc_bot/include/rmtc_bot/ai_worker.hpp": "a8c2471feb987f57039a80e16e95d3b618dc39cb62986bc1b537ee342013b80b",
+        "src/rmtc_bot/include/rmtc_bot/events.hpp": "75b76359ee1333864d28ac5bcede0dfcc0fe4d71fb62f8fe0266303ff5c2f625",
+        "src/rmtc_bot/include/rmtc_bot/match_config.hpp": "23153f12f1a5fb3a47741c1ba97be5c5dc70eca4ac21d9c87e40a04457c05be6",
+        "src/rmtc_bot/include/rmtc_bot/protocol.hpp": "905f975606911011ccbc7a958612c74a472309298d49482e89c51d8b13491150",
+        "src/rmtc_bot/include/rmtc_bot/rules.hpp": "9f5b234a092dbed84ebcd0e692a918483dfc3cca649895a18de8073f9e87366b",
+        "src/rmtc_bot/include/rmtc_bot/scoring.hpp": "985681d6b4bd9da1cc4a8c7decaaff48c4d4855879df3cd9cdc1387a32a7399b",
+        "src/rmtc_bot/include/rmtc_bot/session.hpp": "dd01ec31f6475a41f66195599a9d3e10c6e42571cfb616f6fa07a352bd055d9b",
+        "src/rmtc_bot/include/rmtc_bot/strategy.hpp": "7ab68c2ba36e7c7a158a4d62189333f43c52ed6178dce11dee35cd52714fe1df",
+        "src/rmtc_bot/include/rmtc_bot/strategy_parameters.hpp": "11f2fea9721fc7f66c8a3bf8d7bd64dd92c1a91caf2cc82e96be54c9e9a8641d",
+        "src/rmtc_bot/include/rmtc_bot/strategy_tuning.hpp": "228103b83d38dab1b62a5971282bf9d9f5fde92a0baa0847689a0bcc7d6a6ab2",
+        "src/rmtc_bot/include/rmtc_bot/tactics.hpp": "dd7d52d063176c69a7e9d824b07b0e0e90d4447ecfc05951d7d2498aa7d5d2ad",
+        "src/rmtc_bot/src/events.cpp": "b4e84fc921363f7a739da4b517eb14959d2773d346de8982c6793e771f978866",
+        "src/rmtc_bot/src/strategy.cpp": "7b3d0afcd39632722e7e536f343cce4bd6cad1c235a1394ee7d7a52fd7f9375e",
+        "src/rmtc_bot/src/tactics.cpp": "f890c4fce21335149a2f8e26a406c2dfc2cc05c92f942e3bf088d1f1a55c38b7"
+      },
+      "adapter_sha256": "af5506521114338180b6c8c8dd17785a172f184f4609a1b8987a3d4912c69a5b",
+      "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0",
+      "flags": [
+        "-std=c++17",
+        "-O1",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror"
+      ],
+      "scope": "offline strategy worker, no ROS/HTTP; adapter is current harness",
+      "json_header_sha256": "9bea4c8066ef4a1c206b2be5a36302f8926f7fdc6087af5d20b417d0cf103ea6",
+      "build_id": "819bd2a36406fd2c422b4c71cee86d4dfa133f7f4680dfbee2b914ab0c2e4f14",
+      "binary_sha256": "b7517eddfaf65a59917bbb7f9383583012dbf53a02a4d02cbd6c048759b08e18",
+      "parameters": {
+        "collision_replan": true,
+        "fortress_capture_value": 12.0,
+        "fortress_hold_value": 20.0,
+        "frontier_value": 0.02,
+        "goal_retention_bonus": 0.1,
+        "hazard_lead_ticks": 2,
+        "healing_below_hp": 40.0,
+        "loop_recovery": true,
+        "loop_window_ticks": 12,
+        "opponent_contest_cost": 1.0,
+        "opponent_pressure_cost": 0.25,
+        "reach_mission_value": 4.0,
+        "recovery_ticks": 12,
+        "resource_beam_width": 5,
+        "resource_candidate_limit": 8,
+        "resource_mission_bonus": 4.0,
+        "resource_plan_budget_ms": 10,
+        "resource_plan_depth": 4,
+        "resource_refinement": true,
+        "resource_refinement_trials": 12,
+        "stale_resource_decay": 0.01,
+        "stalled_goal_cooldown_ticks": 24,
+        "tactical_death_cost": 0.25,
+        "tactical_future_discount": 0.65,
+        "tactical_goal_weight": 0.65,
+        "tactical_hp_value": 0.015,
+        "tactical_risk": 0.6,
+        "tactical_search": false
+      }
+    },
+    "deepseek": {
+      "schema": 1,
+      "label": "deepseek_8da_v2",
+      "provenance": {
+        "kind": "locked_git_snapshot",
+        "commit": "8da0edecf59218647c83a19536da1c822cbcfd0d",
+        "repository": "Frank-678/RoboMaster-Turing-Competition-BeyondControl",
+        "lock_sha256": "ea9b895b34d9c0b6e1f10a66c72baa347278d204b05e3f5a717adb3c15ead957"
+      },
+      "source_sha256": {
+        "src/rmtc_bot/include/rmtc_bot/ai_worker.hpp": "a8c2471feb987f57039a80e16e95d3b618dc39cb62986bc1b537ee342013b80b",
+        "src/rmtc_bot/include/rmtc_bot/events.hpp": "75b76359ee1333864d28ac5bcede0dfcc0fe4d71fb62f8fe0266303ff5c2f625",
+        "src/rmtc_bot/include/rmtc_bot/match_config.hpp": "b1efdbc4d869a53ca05d850257e6dba99550ce4a7ccae8432cd9f04a441007c7",
+        "src/rmtc_bot/include/rmtc_bot/protocol.hpp": "905f975606911011ccbc7a958612c74a472309298d49482e89c51d8b13491150",
+        "src/rmtc_bot/include/rmtc_bot/rules.hpp": "9f5b234a092dbed84ebcd0e692a918483dfc3cca649895a18de8073f9e87366b",
+        "src/rmtc_bot/include/rmtc_bot/scoring.hpp": "985681d6b4bd9da1cc4a8c7decaaff48c4d4855879df3cd9cdc1387a32a7399b",
+        "src/rmtc_bot/include/rmtc_bot/session.hpp": "dd01ec31f6475a41f66195599a9d3e10c6e42571cfb616f6fa07a352bd055d9b",
+        "src/rmtc_bot/include/rmtc_bot/strategy.hpp": "320f559af50c54a514a382ecb5b540277b794c50378d342e61cbdb5ef786738b",
+        "src/rmtc_bot/include/rmtc_bot/strategy_parameters.hpp": "51805f93d722e18ad945b9f062a879e13329971edb55cde97e0e8745e982f39e",
+        "src/rmtc_bot/include/rmtc_bot/strategy_tuning.hpp": "228103b83d38dab1b62a5971282bf9d9f5fde92a0baa0847689a0bcc7d6a6ab2",
+        "src/rmtc_bot/include/rmtc_bot/tactics.hpp": "dd7d52d063176c69a7e9d824b07b0e0e90d4447ecfc05951d7d2498aa7d5d2ad",
+        "src/rmtc_bot/src/events.cpp": "b4e84fc921363f7a739da4b517eb14959d2773d346de8982c6793e771f978866",
+        "src/rmtc_bot/src/strategy.cpp": "b961f1d9c936076780b137d0fc34fd4bb7c18f1c763286b90414ff7c9bd507f0",
+        "src/rmtc_bot/src/tactics.cpp": "46c9194bd042c3a56fa6073927dcf629e4b3a30c711aed6081977213977be1d2"
+      },
+      "adapter_sha256": "af5506521114338180b6c8c8dd17785a172f184f4609a1b8987a3d4912c69a5b",
+      "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0",
+      "flags": [
+        "-std=c++17",
+        "-O1",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror"
+      ],
+      "scope": "offline strategy worker, no ROS/HTTP; adapter is current harness",
+      "json_header_sha256": "9bea4c8066ef4a1c206b2be5a36302f8926f7fdc6087af5d20b417d0cf103ea6",
+      "build_id": "607cd8daf4f3a7ad47da24c98d2b119df377c4b573b73f61aed22544edec2c20",
+      "binary_sha256": "811bfb7686b707a5c46d134d64e83c40e24a1b703c36b6ab31b3b396b373363c",
+      "parameters": {
+        "collision_replan": true,
+        "defend_stall_break_ticks": 0,
+        "explore_component_value": 0.0,
+        "explore_tour_value": 0.03,
+        "explore_toward_resource_value": 0.5,
+        "fortress_capture_value": 12.0,
+        "fortress_hold_value": 20.0,
+        "frontier_value": 0.02,
+        "goal_retention_bonus": 0.0,
+        "hazard_lead_ticks": 2,
+        "healing_below_hp": 40.0,
+        "loop_recovery": true,
+        "loop_window_ticks": 12,
+        "low_hp_attack_discount": 1.0,
+        "mission_explore_value": 0.0,
+        "opponent_claim_discount": 0.5,
+        "opponent_contest_cost": 1.0,
+        "opponent_pressure_cost": 0.25,
+        "post_cap_combat_weight": 0.02,
+        "prepare_fortress_value": 0.0,
+        "race_reach_holdoff": 0.0,
+        "reach_mission_value": 8.0,
+        "recovery_ticks": 12,
+        "resource_beam_width": 5,
+        "resource_candidate_limit": 8,
+        "resource_mission_bonus": 5.0,
+        "resource_plan_budget_ms": 10,
+        "resource_plan_depth": 4,
+        "resource_refinement": true,
+        "resource_refinement_trials": 12,
+        "stage1_flood_value": 0.0,
+        "stage1_frontier_value": 0.02,
+        "stage1_ring_value": 0.0,
+        "stage2_assassin_value": 0.0,
+        "stage2_explore_gate_tick": 0,
+        "stage2_mission_pull_stale_ticks": 0,
+        "stage2_pie_attack_discount": 0.0,
+        "stage2_race_gate": false,
+        "stage2_shadow_value": 0.0,
+        "stale_grace_ticks": 0,
+        "stale_resource_decay": 0.01,
+        "stalled_goal_cooldown_ticks": 24,
+        "tactical_death_cost": 0.0,
+        "tactical_future_discount": 0.65,
+        "tactical_goal_weight": 0.65,
+        "tactical_hp_value": 0.015,
+        "tactical_risk": 0.6,
+        "tactical_search": false,
+        "worst_case_survival": false
+      }
+    }
+  },
+  "original_engine": {
+    "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0",
+    "flags": [
+      "-std=c++17",
+      "-O1",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-Werror",
+      "-I",
+      "/workspace/scratch/457426c876eb/cst/src/rmtc_bot/include",
+      "-I",
+      "/workspace/scratch/457426c876eb/cst/tests",
+      "-I",
+      "/workspace/scratch/457426c876eb/review/ros-runtime/include"
+    ],
+    "source_sha256": {
+      "src/rmtc_bot/src/strategy.cpp": "7b3d0afcd39632722e7e536f343cce4bd6cad1c235a1394ee7d7a52fd7f9375e",
+      "src/rmtc_bot/src/tactics.cpp": "f890c4fce21335149a2f8e26a406c2dfc2cc05c92f942e3bf088d1f1a55c38b7",
+      "src/rmtc_bot/src/events.cpp": "b4e84fc921363f7a739da4b517eb14959d2773d346de8982c6793e771f978866",
+      "tests/arena.cpp": "04007f7d60832ae6a5af334c1285705b5cf4e740ce385b81fc231b1d416b1d51",
+      "tests/arena_checkpoint.cpp": "325bf1cc20b29abf919180fed3cb1d492ece16aaa67988a150e677c46933acf5",
+      "tests/arena_opponents.cpp": "ba738a41ee84ed96ef4792ae4e5d5a500973e2f7a11039d5a72e6dc4fc406869",
+      "tests/scenario_runner.cpp": "9aab390f9ee572dd174fa2adeeb9989c16bc835dde778a128d58c150dccde34c",
+      "src/rmtc_bot/include/rmtc_bot/ai_worker.hpp": "a8c2471feb987f57039a80e16e95d3b618dc39cb62986bc1b537ee342013b80b",
+      "src/rmtc_bot/include/rmtc_bot/events.hpp": "75b76359ee1333864d28ac5bcede0dfcc0fe4d71fb62f8fe0266303ff5c2f625",
+      "src/rmtc_bot/include/rmtc_bot/match_config.hpp": "23153f12f1a5fb3a47741c1ba97be5c5dc70eca4ac21d9c87e40a04457c05be6",
+      "src/rmtc_bot/include/rmtc_bot/protocol.hpp": "905f975606911011ccbc7a958612c74a472309298d49482e89c51d8b13491150",
+      "src/rmtc_bot/include/rmtc_bot/rules.hpp": "9f5b234a092dbed84ebcd0e692a918483dfc3cca649895a18de8073f9e87366b",
+      "src/rmtc_bot/include/rmtc_bot/scoring.hpp": "985681d6b4bd9da1cc4a8c7decaaff48c4d4855879df3cd9cdc1387a32a7399b",
+      "src/rmtc_bot/include/rmtc_bot/session.hpp": "dd01ec31f6475a41f66195599a9d3e10c6e42571cfb616f6fa07a352bd055d9b",
+      "src/rmtc_bot/include/rmtc_bot/strategy.hpp": "7ab68c2ba36e7c7a158a4d62189333f43c52ed6178dce11dee35cd52714fe1df",
+      "src/rmtc_bot/include/rmtc_bot/strategy_parameters.hpp": "11f2fea9721fc7f66c8a3bf8d7bd64dd92c1a91caf2cc82e96be54c9e9a8641d",
+      "src/rmtc_bot/include/rmtc_bot/strategy_tuning.hpp": "228103b83d38dab1b62a5971282bf9d9f5fde92a0baa0847689a0bcc7d6a6ab2",
+      "src/rmtc_bot/include/rmtc_bot/tactics.hpp": "dd7d52d063176c69a7e9d824b07b0e0e90d4447ecfc05951d7d2498aa7d5d2ad",
+      "tests/arena.hpp": "043d10e6b205ae26c989a4eb57c28e971ec03df4bbe3fd4689b7a3706c358275"
+    },
+    "json_header_sha256": "9bea4c8066ef4a1c206b2be5a36302f8926f7fdc6087af5d20b417d0cf103ea6",
+    "build_id": "b4280216ba4796631e41119e28b59f076a0155204f8c71aa60c1e13dbba2081a",
+    "binary_sha256": "75208967dd1dbe00eeb10e95ead8e3b3a8c67e321288c7883935c2deae558bce"
+  },
+  "regressions": [
+    {
+      "name": "core",
+      "command": [
+        "bash",
+        "tests/run.sh"
+      ],
+      "start": "2026-10-29T19:43:53.938951+08:00",
+      "elapsed_seconds": 38.07086266399983,
+      "exit_code": 0
+    },
+    {
+      "name": "scenes",
+      "command": [
+        "python3",
+        "tests/scenario_test.py",
+        "--json-include",
+        "/workspace/scratch/457426c876eb/review/ros-runtime/include"
+      ],
+      "start": "2026-10-29T19:44:32.010196+08:00",
+      "elapsed_seconds": 1.850648586999796,
+      "exit_code": 0
+    },
+    {
+      "name": "oracle",
+      "command": [
+        "python3",
+        "tests/oracle_test.py",
+        "--json-include",
+        "/workspace/scratch/457426c876eb/review/ros-runtime/include"
+      ],
+      "start": "2026-10-29T19:44:33.861184+08:00",
+      "elapsed_seconds": 0.6793195889999879,
+      "exit_code": 0
+    },
+    {
+      "name": "practice-tools",
+      "command": [
+        "python3",
+        "tests/practice_tools_test.py"
+      ],
+      "start": "2026-10-29T19:44:34.540869+08:00",
+      "elapsed_seconds": 0.14218715500010148,
+      "exit_code": 0
+    },
+    {
+      "name": "league-65c",
+      "command": [
+        "python3",
+        "tests/version_league_test.py",
+        "--json-include",
+        "/workspace/scratch/457426c876eb/review/ros-runtime/include",
+        "--version",
+        "build/league/versions/chatgpt_65c_v2"
+      ],
+      "start": "2026-10-29T19:44:34.683382+08:00",
+      "elapsed_seconds": 0.4371841680003854,
+      "exit_code": 0
+    },
+    {
+      "name": "league-8da",
+      "command": [
+        "python3",
+        "tests/version_league_test.py",
+        "--json-include",
+        "/workspace/scratch/457426c876eb/review/ros-runtime/include",
+        "--version",
+        "build/league/versions/deepseek_8da_v2"
+      ],
+      "start": "2026-10-29T19:44:35.120965+08:00",
+      "elapsed_seconds": 0.4487783029999264,
+      "exit_code": 0
+    }
+  ],
+  "old_tape_count": 288,
+  "old_complete_tapes": 220,
+  "old_incomplete_tapes": 68,
+  "rerun_68_all_terminal_worlds_match": true,
+  "first_rerun_complete_tapes": 56,
+  "first_rerun_incomplete_tapes": 12,
+  "verified_archive_complete_tapes": 68,
+  "verified_archive_extra_attempts": 12,
+  "archive_verification": "all 68 gzip streams decoded and all ticks checked again from finished tar.xz",
+  "original_archive": {
+    "archive": "raw-offline-artifacts.tar.xz",
+    "bytes": 55919280,
+    "sha256": "b02f3aa115aba98eed482729a2f406e4cda385e6642c335c7ca240ce0cd5b361",
+    "part_bytes": 2097152,
+    "parts": [
+      {
+        "index": 0,
+        "name": "raw-offline-artifacts.tar.xz.part-000",
+        "bytes": 2097152,
+        "sha256": "993c0c770c1556b7478248e79c87fb6caef9e4da7bdc1e5c6981d0c721db0928"
+      },
+      {
+        "index": 1,
+        "name": "raw-offline-artifacts.tar.xz.part-001",
+        "bytes": 2097152,
+        "sha256": "e17d2df98303e88abbd63ee02818ebc675e024159f64c9169827afc0d1fc0300"
+      },
+      {
+        "index": 2,
+        "name": "raw-offline-artifacts.tar.xz.part-002",
+        "bytes": 2097152,
+        "sha256": "38345b69c8f3223cd8bf356047138413032699134f3e0ce13b580b8c987a270d"
+      },
+      {
+        "index": 3,
+        "name": "raw-offline-artifacts.tar.xz.part-003",
+        "bytes": 2097152,
+        "sha256": "59e6aee60f54204bf41c7140c9ab2471112db9aceb994b0fe531a563b4aba1c0"
+      },
+      {
+        "index": 4,
+        "name": "raw-offline-artifacts.tar.xz.part-004",
+        "bytes": 2097152,
+        "sha256": "4f3f93caba498ac6298a61be64d881760c31cb78be9ee58b69f72bc2cf6af624"
+      },
+      {
+        "index": 5,
+        "name": "raw-offline-artifacts.tar.xz.part-005",
+        "bytes": 2097152,
+        "sha256": "c9c36d68cede0369c1359bd186ced9c2fc31f53339dbed09a5cf726027adcfc2"
+      },
+      {
+        "index": 6,
+        "name": "raw-offline-artifacts.tar.xz.part-006",
+        "bytes": 2097152,
+        "sha256": "f74f3467bf55565fee9d21d427acb9ef9a6a7de1602fdf9726852cf831060ab5"
+      },
+      {
+        "index": 7,
+        "name": "raw-offline-artifacts.tar.xz.part-007",
+        "bytes": 2097152,
+        "sha256": "7ac11479c37da5c72285bf104355068666da6fbbe937a26288c1bd44b3cf0617"
+      },
+      {
+        "index": 8,
+        "name": "raw-offline-artifacts.tar.xz.part-008",
+        "bytes": 2097152,
+        "sha256": "46aec729dff34ce9c2b4304b4ec458ead840ceed909d6e4ca7e15395cfd64537"
+      },
+      {
+        "index": 9,
+        "name": "raw-offline-artifacts.tar.xz.part-009",
+        "bytes": 2097152,
+        "sha256": "0d786893b5cb7a474c2a797f14d7bc18264f28c431ae010ce5be32a899c34845"
+      },
+      {
+        "index": 10,
+        "name": "raw-offline-artifacts.tar.xz.part-010",
+        "bytes": 2097152,
+        "sha256": "2734de9d537a7e4a81404eeddc274f526c08a2eb77cf13507b6f2850b719cf9f"
+      },
+      {
+        "index": 11,
+        "name": "raw-offline-artifacts.tar.xz.part-011",
+        "bytes": 2097152,
+        "sha256": "1875327c5149415b6d8cff3ea8a63caf0f380c57a4fc7f391c41bc0ae18336f9"
+      },
+      {
+        "index": 12,
+        "name": "raw-offline-artifacts.tar.xz.part-012",
+        "bytes": 2097152,
+        "sha256": "a70e55e5add4b0bb839f053eac66ac334997cb4c2fc2a649bfa0eec33631991e"
+      },
+      {
+        "index": 13,
+        "name": "raw-offline-artifacts.tar.xz.part-013",
+        "bytes": 2097152,
+        "sha256": "90525fca738377b954a17387250630a67dac647861d3e925a21526c3b3fc756c"
+      },
+      {
+        "index": 14,
+        "name": "raw-offline-artifacts.tar.xz.part-014",
+        "bytes": 2097152,
+        "sha256": "c0f9356faa7e9f10e7dfcf1131ff4726e6321e8c8511f87d53d9500ac0e58d77"
+      },
+      {
+        "index": 15,
+        "name": "raw-offline-artifacts.tar.xz.part-015",
+        "bytes": 2097152,
+        "sha256": "2b93941958a6369ed0f6f2ab18c4dda501f3fa5078c1a6f211aabb831243a552"
+      },
+      {
+        "index": 16,
+        "name": "raw-offline-artifacts.tar.xz.part-016",
+        "bytes": 2097152,
+        "sha256": "72c2ccbf20137d2cda5cc21dce0ffd1899167b1ce839867fbcc3913699a523a8"
+      },
+      {
+        "index": 17,
+        "name": "raw-offline-artifacts.tar.xz.part-017",
+        "bytes": 2097152,
+        "sha256": "7460980209a454c055ec1576d4e83f848bdcb38a9469ed5efe51e2d7ce89867b"
+      },
+      {
+        "index": 18,
+        "name": "raw-offline-artifacts.tar.xz.part-018",
+        "bytes": 2097152,
+        "sha256": "b70e76a39832736e508bd78ed50162c801d9b9391f0ebdefcca344cf7c282171"
+      },
+      {
+        "index": 19,
+        "name": "raw-offline-artifacts.tar.xz.part-019",
+        "bytes": 2097152,
+        "sha256": "04c6503c22e84f9fce45dd1fe2868006b1d3381cf9df6fe6cbdb2ab12f6dd50c"
+      },
+      {
+        "index": 20,
+        "name": "raw-offline-artifacts.tar.xz.part-020",
+        "bytes": 2097152,
+        "sha256": "77c5d0a5248aab4f4df8f4a3ac8c8875b1632dc9ec3e1ba80c610e210255185d"
+      },
+      {
+        "index": 21,
+        "name": "raw-offline-artifacts.tar.xz.part-021",
+        "bytes": 2097152,
+        "sha256": "e445664bcc65c8bdb40c1d3755c1dc2c3fc4ccf7c3399a0e58a93ea2ca21a793"
+      },
+      {
+        "index": 22,
+        "name": "raw-offline-artifacts.tar.xz.part-022",
+        "bytes": 2097152,
+        "sha256": "857237c4f33e535a04068ff7d403a05571125f1f7a9157f2c0d7d8d1fa6a79db"
+      },
+      {
+        "index": 23,
+        "name": "raw-offline-artifacts.tar.xz.part-023",
+        "bytes": 2097152,
+        "sha256": "936dc3e09fa80eaa2ecf5d47729eda40534201e0034cca66eb0f512b5c9491d3"
+      },
+      {
+        "index": 24,
+        "name": "raw-offline-artifacts.tar.xz.part-024",
+        "bytes": 2097152,
+        "sha256": "58a3e393aead456ee46e98a204a41378759dc81cf6c7ddb030a64372b83e7c7e"
+      },
+      {
+        "index": 25,
+        "name": "raw-offline-artifacts.tar.xz.part-025",
+        "bytes": 2097152,
+        "sha256": "1790e2bb0ed0b030ca87f187f848609630bac01845aa96201c2d9a972b813c43"
+      },
+      {
+        "index": 26,
+        "name": "raw-offline-artifacts.tar.xz.part-026",
+        "bytes": 1393328,
+        "sha256": "c13c1df06f074721e40a0ea5fcb45c0d60349709f1a6923f7448db0c00936db6"
+      }
+    ]
+  },
+  "recovery_archive": {
+    "archive": "verified-recovery-and-regressions.tar.xz",
+    "bytes": 14530932,
+    "sha256": "a9409b62aed3642b92edb126734050acdc29d0cc740adb2d8438405aff5306ce",
+    "part_bytes": 2097152,
+    "parts": [
+      {
+        "index": 0,
+        "name": "verified-recovery-and-regressions.tar.xz.part-000",
+        "bytes": 2097152,
+        "sha256": "08dc34919cdb097c535dee8c88b87fee8e97553e30ed6d850681a60bb5005c00"
+      },
+      {
+        "index": 1,
+        "name": "verified-recovery-and-regressions.tar.xz.part-001",
+        "bytes": 2097152,
+        "sha256": "8b5d8f505f88bdbd1c0201d8d353e5ba3a38dd0cd09937ba10122b046f4e3a2f"
+      },
+      {
+        "index": 2,
+        "name": "verified-recovery-and-regressions.tar.xz.part-002",
+        "bytes": 2097152,
+        "sha256": "5aea33a94a8b4c51e46826d2fd4129903746047012ef384476b51b95713c2a80"
+      },
+      {
+        "index": 3,
+        "name": "verified-recovery-and-regressions.tar.xz.part-003",
+        "bytes": 2097152,
+        "sha256": "027e932ab4f9c4e50407ea271e5d397b7e859d295793bd2827cfb9a535e8a8f9"
+      },
+      {
+        "index": 4,
+        "name": "verified-recovery-and-regressions.tar.xz.part-004",
+        "bytes": 2097152,
+        "sha256": "78619bec7c0eeee62c1b5b906b76d5b6e2070742f00999ea1698c36a63d9b407"
+      },
+      {
+        "index": 5,
+        "name": "verified-recovery-and-regressions.tar.xz.part-005",
+        "bytes": 2097152,
+        "sha256": "125d44081302347e380e186ec727ad84baa9ec6a13e44a7c706492c315d444e2"
+      },
+      {
+        "index": 6,
+        "name": "verified-recovery-and-regressions.tar.xz.part-006",
+        "bytes": 1948020,
+        "sha256": "6707040d9d6f6099578af72d56877eeaf45733803defae27cea23ce0dc0fc74b"
+      }
+    ]
+  },
+  "chase_probes": [
+    {
+      "name": "corner-greedy-move-stalls",
+      "exit_code": 0,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/workspace/scratch/457426c876eb/cst/tests/run_scenarios.py",
+        "/workspace/scratch/457426c876eb/review/league/log-upload-20261029/chase-probes/scenes/corner-greedy-move-stalls.json",
+        "--json-include",
+        "/workspace/scratch/457426c876eb/review/ros-runtime/include",
+        "--out",
+        "/workspace/scratch/457426c876eb/review/league/log-upload-20261029/chase-probes/corner-greedy-move-stalls"
+      ]
+    },
+    {
+      "name": "corner-attack-before-escape",
+      "exit_code": 0,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/workspace/scratch/457426c876eb/cst/tests/run_scenarios.py",
+        "/workspace/scratch/457426c876eb/review/league/log-upload-20261029/chase-probes/scenes/corner-attack-before-escape.json",
+        "--json-include",
+        "/workspace/scratch/457426c876eb/review/ros-runtime/include",
+        "--out",
+        "/workspace/scratch/457426c876eb/review/league/log-upload-20261029/chase-probes/corner-attack-before-escape"
+      ]
+    },
+    {
+      "name": "corner-current-strategy-probe",
+      "exit_code": 0,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/workspace/scratch/457426c876eb/cst/tests/run_scenarios.py",
+        "/workspace/scratch/457426c876eb/review/league/log-upload-20261029/chase-probes/scenes/corner-current-strategy-probe.json",
+        "--json-include",
+        "/workspace/scratch/457426c876eb/review/ros-runtime/include",
+        "--out",
+        "/workspace/scratch/457426c876eb/review/league/log-upload-20261029/chase-probes/corner-current-strategy-probe"
+      ]
+    },
+    {
+      "name": "reverse-is-not-a-swap",
+      "exit_code": 0,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/workspace/scratch/457426c876eb/cst/tests/run_scenarios.py",
+        "/workspace/scratch/457426c876eb/review/league/log-upload-20261029/chase-probes/scenes/reverse-is-not-a-swap.json",
+        "--json-include",
+        "/workspace/scratch/457426c876eb/review/ros-runtime/include",
+        "--out",
+        "/workspace/scratch/457426c876eb/review/league/log-upload-20261029/chase-probes/reverse-is-not-a-swap"
+      ]
+    },
+    {
+      "name": "two-shooters-move-cancelled",
+      "exit_code": 0,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/workspace/scratch/457426c876eb/cst/tests/run_scenarios.py",
+        "/workspace/scratch/457426c876eb/review/league/log-upload-20261029/chase-probes/scenes/two-shooters-move-cancelled.json",
+        "--json-include",
+        "/workspace/scratch/457426c876eb/review/ros-runtime/include",
+        "--out",
+        "/workspace/scratch/457426c876eb/review/league/log-upload-20261029/chase-probes/two-shooters-move-cancelled"
+      ]
+    },
+    {
+      "name": "two-shooters-defend-one-tick",
+      "exit_code": 0,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/workspace/scratch/457426c876eb/cst/tests/run_scenarios.py",
+        "/workspace/scratch/457426c876eb/review/league/log-upload-20261029/chase-probes/scenes/two-shooters-defend-one-tick.json",
+        "--json-include",
+        "/workspace/scratch/457426c876eb/review/ros-runtime/include",
+        "--out",
+        "/workspace/scratch/457426c876eb/review/league/log-upload-20261029/chase-probes/two-shooters-defend-one-tick"
+      ]
+    },
+    {
+      "name": "wall-does-not-block-normal-attack",
+      "exit_code": 0,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/workspace/scratch/457426c876eb/cst/tests/run_scenarios.py",
+        "/workspace/scratch/457426c876eb/review/league/log-upload-20261029/chase-probes/scenes/wall-does-not-block-normal-attack.json",
+        "--json-include",
+        "/workspace/scratch/457426c876eb/review/ros-runtime/include",
+        "--out",
+        "/workspace/scratch/457426c876eb/review/league/log-upload-20261029/chase-probes/wall-does-not-block-normal-attack"
+      ]
+    }
+  ],
+  "note": "The 68 reruns and 12 storage retries are repeat evidence, not independent maps or 80 new-version wins; original artifacts retained."
+}

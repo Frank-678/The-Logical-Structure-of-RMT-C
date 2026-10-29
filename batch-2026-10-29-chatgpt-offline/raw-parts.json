@@ -1,0 +1,170 @@
+{
+  "archive": "raw-offline-artifacts.tar.xz",
+  "bytes": 55919280,
+  "sha256": "b02f3aa115aba98eed482729a2f406e4cda385e6642c335c7ca240ce0cd5b361",
+  "part_bytes": 2097152,
+  "parts": [
+    {
+      "index": 0,
+      "name": "raw-offline-artifacts.tar.xz.part-000",
+      "bytes": 2097152,
+      "sha256": "993c0c770c1556b7478248e79c87fb6caef9e4da7bdc1e5c6981d0c721db0928"
+    },
+    {
+      "index": 1,
+      "name": "raw-offline-artifacts.tar.xz.part-001",
+      "bytes": 2097152,
+      "sha256": "e17d2df98303e88abbd63ee02818ebc675e024159f64c9169827afc0d1fc0300"
+    },
+    {
+      "index": 2,
+      "name": "raw-offline-artifacts.tar.xz.part-002",
+      "bytes": 2097152,
+      "sha256": "38345b69c8f3223cd8bf356047138413032699134f3e0ce13b580b8c987a270d"
+    },
+    {
+      "index": 3,
+      "name": "raw-offline-artifacts.tar.xz.part-003",
+      "bytes": 2097152,
+      "sha256": "59e6aee60f54204bf41c7140c9ab2471112db9aceb994b0fe531a563b4aba1c0"
+    },
+    {
+      "index": 4,
+      "name": "raw-offline-artifacts.tar.xz.part-004",
+      "bytes": 2097152,
+      "sha256": "4f3f93caba498ac6298a61be64d881760c31cb78be9ee58b69f72bc2cf6af624"
+    },
+    {
+      "index": 5,
+      "name": "raw-offline-artifacts.tar.xz.part-005",
+      "bytes": 2097152,
+      "sha256": "c9c36d68cede0369c1359bd186ced9c2fc31f53339dbed09a5cf726027adcfc2"
+    },
+    {
+      "index": 6,
+      "name": "raw-offline-artifacts.tar.xz.part-006",
+      "bytes": 2097152,
+      "sha256": "f74f3467bf55565fee9d21d427acb9ef9a6a7de1602fdf9726852cf831060ab5"
+    },
+    {
+      "index": 7,
+      "name": "raw-offline-artifacts.tar.xz.part-007",
+      "bytes": 2097152,
+      "sha256": "7ac11479c37da5c72285bf104355068666da6fbbe937a26288c1bd44b3cf0617"
+    },
+    {
+      "index": 8,
+      "name": "raw-offline-artifacts.tar.xz.part-008",
+      "bytes": 2097152,
+      "sha256": "46aec729dff34ce9c2b4304b4ec458ead840ceed909d6e4ca7e15395cfd64537"
+    },
+    {
+      "index": 9,
+      "name": "raw-offline-artifacts.tar.xz.part-009",
+      "bytes": 2097152,
+      "sha256": "0d786893b5cb7a474c2a797f14d7bc18264f28c431ae010ce5be32a899c34845"
+    },
+    {
+      "index": 10,
+      "name": "raw-offline-artifacts.tar.xz.part-010",
+      "bytes": 2097152,
+      "sha256": "2734de9d537a7e4a81404eeddc274f526c08a2eb77cf13507b6f2850b719cf9f"
+    },
+    {
+      "index": 11,
+      "name": "raw-offline-artifacts.tar.xz.part-011",
+      "bytes": 2097152,
+      "sha256": "1875327c5149415b6d8cff3ea8a63caf0f380c57a4fc7f391c41bc0ae18336f9"
+    },
+    {
+      "index": 12,
+      "name": "raw-offline-artifacts.tar.xz.part-012",
+      "bytes": 2097152,
+      "sha256": "a70e55e5add4b0bb839f053eac66ac334997cb4c2fc2a649bfa0eec33631991e"
+    },
+    {
+      "index": 13,
+      "name": "raw-offline-artifacts.tar.xz.part-013",
+      "bytes": 2097152,
+      "sha256": "90525fca738377b954a17387250630a67dac647861d3e925a21526c3b3fc756c"
+    },
+    {
+      "index": 14,
+      "name": "raw-offline-artifacts.tar.xz.part-014",
+      "bytes": 2097152,
+      "sha256": "c0f9356faa7e9f10e7dfcf1131ff4726e6321e8c8511f87d53d9500ac0e58d77"
+    },
+    {
+      "index": 15,
+      "name": "raw-offline-artifacts.tar.xz.part-015",
+      "bytes": 2097152,
+      "sha256": "2b93941958a6369ed0f6f2ab18c4dda501f3fa5078c1a6f211aabb831243a552"
+    },
+    {
+      "index": 16,
+      "name": "raw-offline-artifacts.tar.xz.part-016",
+      "bytes": 2097152,
+      "sha256": "72c2ccbf20137d2cda5cc21dce0ffd1899167b1ce839867fbcc3913699a523a8"
+    },
+    {
+      "index": 17,
+      "name": "raw-offline-artifacts.tar.xz.part-017",
+      "bytes": 2097152,
+      "sha256": "7460980209a454c055ec1576d4e83f848bdcb38a9469ed5efe51e2d7ce89867b"
+    },
+    {
+      "index": 18,
+      "name": "raw-offline-artifacts.tar.xz.part-018",
+      "bytes": 2097152,
+      "sha256": "b70e76a39832736e508bd78ed50162c801d9b9391f0ebdefcca344cf7c282171"
+    },
+    {
+      "index": 19,
+      "name": "raw-offline-artifacts.tar.xz.part-019",
+      "bytes": 2097152,
+      "sha256": "04c6503c22e84f9fce45dd1fe2868006b1d3381cf9df6fe6cbdb2ab12f6dd50c"
+    },
+    {
+      "index": 20,
+      "name": "raw-offline-artifacts.tar.xz.part-020",
+      "bytes": 2097152,
+      "sha256": "77c5d0a5248aab4f4df8f4a3ac8c8875b1632dc9ec3e1ba80c610e210255185d"
+    },
+    {
+      "index": 21,
+      "name": "raw-offline-artifacts.tar.xz.part-021",
+      "bytes": 2097152,
+      "sha256": "e445664bcc65c8bdb40c1d3755c1dc2c3fc4ccf7c3399a0e58a93ea2ca21a793"
+    },
+    {
+      "index": 22,
+      "name": "raw-offline-artifacts.tar.xz.part-022",
+      "bytes": 2097152,
+      "sha256": "857237c4f33e535a04068ff7d403a05571125f1f7a9157f2c0d7d8d1fa6a79db"
+    },
+    {
+      "index": 23,
+      "name": "raw-offline-artifacts.tar.xz.part-023",
+      "bytes": 2097152,
+      "sha256": "936dc3e09fa80eaa2ecf5d47729eda40534201e0034cca66eb0f512b5c9491d3"
+    },
+    {
+      "index": 24,
+      "name": "raw-offline-artifacts.tar.xz.part-024",
+      "bytes": 2097152,
+      "sha256": "58a3e393aead456ee46e98a204a41378759dc81cf6c7ddb030a64372b83e7c7e"
+    },
+    {
+      "index": 25,
+      "name": "raw-offline-artifacts.tar.xz.part-025",
+      "bytes": 2097152,
+      "sha256": "1790e2bb0ed0b030ca87f187f848609630bac01845aa96201c2d9a972b813c43"
+    },
+    {
+      "index": 26,
+      "name": "raw-offline-artifacts.tar.xz.part-026",
+      "bytes": 1393328,
+      "sha256": "c13c1df06f074721e40a0ea5fcb45c0d60349709f1a6923f7448db0c00936db6"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "name": "core",
+    "command": [
+      "bash",
+      "tests/run.sh"
+    ],
+    "start": "2026-10-29T19:43:53.938951+08:00",
+    "elapsed_seconds": 38.07086266399983,
+    "exit_code": 0
+  },
+  {
+    "name": "scenes",
+    "command": [
+      "python3",
+      "tests/scenario_test.py",
+      "--json-include",
+      "/workspace/scratch/457426c876eb/review/ros-runtime/include"
+    ],
+    "start": "2026-10-29T19:44:32.010196+08:00",
+    "elapsed_seconds": 1.850648586999796,
+    "exit_code": 0
+  },
+  {
+    "name": "oracle",
+    "command": [
+      "python3",
+      "tests/oracle_test.py",
+      "--json-include",
+      "/workspace/scratch/457426c876eb/review/ros-runtime/include"
+    ],
+    "start": "2026-10-29T19:44:33.861184+08:00",
+    "elapsed_seconds": 0.6793195889999879,
+    "exit_code": 0
+  },
+  {
+    "name": "practice-tools",
+    "command": [
+      "python3",
+      "tests/practice_tools_test.py"
+    ],
+    "start": "2026-10-29T19:44:34.540869+08:00",
+    "elapsed_seconds": 0.14218715500010148,
+    "exit_code": 0
+  },
+  {
+    "name": "league-65c",
+    "command": [
+      "python3",
+      "tests/version_league_test.py",
+      "--json-include",
+      "/workspace/scratch/457426c876eb/review/ros-runtime/include",
+      "--version",
+      "build/league/versions/chatgpt_65c_v2"
+    ],
+    "start": "2026-10-29T19:44:34.683382+08:00",
+    "elapsed_seconds": 0.4371841680003854,
+    "exit_code": 0
+  },
+  {
+    "name": "league-8da",
+    "command": [
+      "python3",
+      "tests/version_league_test.py",
+      "--json-include",
+      "/workspace/scratch/457426c876eb/review/ros-runtime/include",
+      "--version",
+      "build/league/versions/deepseek_8da_v2"
+    ],
+    "start": "2026-10-29T19:44:35.120965+08:00",
+    "elapsed_seconds": 0.4487783029999264,
+    "exit_code": 0
+  }
+]
