@@ -1,0 +1,305 @@
+{
+  "time": "2026-10-29 23:15:53 +0800",
+  "scope": "Git publication integrity, not a new match or strategy acceptance",
+  "previous_commit": "c1c64dd0ad176a6696a6a48e19b0ce647548b28b",
+  "source_results_unchanged": true,
+  "checked_original_publication_entries": 116,
+  "repaired_parts": [
+    {
+      "path": "batch-2026-10-29-chatgpt-offline/archives/raw-offline-artifacts.tar.xz.part-000",
+      "bytes": 2097152,
+      "git_blob_sha": "74739f4f311aea5b90fbae5d159f90447f09df35",
+      "previous_git_blob_sha": "10ee178553a692067cd13945e52ce6992ef6104f",
+      "previous_bytes": 786444
+    },
+    {
+      "path": "batch-2026-10-29-chatgpt-offline/archives/raw-offline-artifacts.tar.xz.part-001",
+      "bytes": 2097152,
+      "git_blob_sha": "d3d88a17b36160926e16fe0ff19908a9bf6fed86",
+      "previous_git_blob_sha": "2b69aedb528cfd0cb4a048618b2d9bf2130a2968",
+      "previous_bytes": 786444
+    },
+    {
+      "path": "batch-2026-10-29-chatgpt-offline/archives/raw-offline-artifacts.tar.xz.part-002",
+      "bytes": 2097152,
+      "git_blob_sha": "19440e39d87f1b29c747cabf32b8b12456f4d6e2",
+      "previous_git_blob_sha": "539c848ef70ed0e1e71d39dd1bdfbd9dd9cd1835",
+      "previous_bytes": 786444
+    },
+    {
+      "path": "batch-2026-10-29-chatgpt-offline/archives/raw-offline-artifacts.tar.xz.part-003",
+      "bytes": 2097152,
+      "git_blob_sha": "69e7339a8956518c3dfafb7f972b2b884e3612aa",
+      "previous_git_blob_sha": "fae74149bb47fc44d5d9f0883ebb30a466a7db0d",
+      "previous_bytes": 786444
+    },
+    {
+      "path": "batch-2026-10-29-chatgpt-offline/archives/raw-offline-artifacts.tar.xz.part-004",
+      "bytes": 2097152,
+      "git_blob_sha": "55824b4bce2a5c467045e8fba9d9f4c7e33333fa",
+      "previous_git_blob_sha": "f64aed0f30e1869d979b7c8f04083610663b38e7",
+      "previous_bytes": 786444
+    },
+    {
+      "path": "batch-2026-10-29-chatgpt-offline/archives/raw-offline-artifacts.tar.xz.part-005",
+      "bytes": 2097152,
+      "git_blob_sha": "c600862c32fe901f93808255ab299f481764a3b6",
+      "previous_git_blob_sha": "a74770df3d7c967ca7dd27d0066d4d671a796dea",
+      "previous_bytes": 786444
+    },
+    {
+      "path": "batch-2026-10-29-chatgpt-offline/archives/raw-offline-artifacts.tar.xz.part-006",
+      "bytes": 2097152,
+      "git_blob_sha": "d03562d51825982370a13fe102940c85fa755049",
+      "previous_git_blob_sha": "d08dbb7dd43b8f93dd8013d9bf03759c1f36113b",
+      "previous_bytes": 786444
+    },
+    {
+      "path": "batch-2026-10-29-chatgpt-offline/archives/raw-offline-artifacts.tar.xz.part-007",
+      "bytes": 2097152,
+      "git_blob_sha": "9b4070dced629d855afa9eb77189f92713d36fe0",
+      "previous_git_blob_sha": "1566f4289af21c152af68385eb71d4cbcb17cbf7",
+      "previous_bytes": 786444
+    },
+    {
+      "path": "batch-2026-10-29-chatgpt-offline/archives/raw-offline-artifacts.tar.xz.part-008",
+      "bytes": 2097152,
+      "git_blob_sha": "8fbec97453f857adcdbad5c79b308c6e75db8535",
+      "previous_git_blob_sha": "76477b0d1abd37ccbe3cb6febc82ee7b15bdc9d3",
+      "previous_bytes": 786444
+    },
+    {
+      "path": "batch-2026-10-29-chatgpt-offline/archives/raw-offline-artifacts.tar.xz.part-009",
+      "bytes": 2097152,
+      "git_blob_sha": "14ef6227d62914c42355273d0e0a8708af29e2d0",
+      "previous_git_blob_sha": "ca95371ed39ae1fa34b256dc445617b105682b7c",
+      "previous_bytes": 786444
+    },
+    {
+      "path": "batch-2026-10-29-chatgpt-offline/archives/raw-offline-artifacts.tar.xz.part-010",
+      "bytes": 2097152,
+      "git_blob_sha": "ab97c20694c9de1a4c3ebc75199d8488a048a86b",
+      "previous_git_blob_sha": "6f6c146cd000f4d0f86ec44c92dfc57c6b40a058",
+      "previous_bytes": 786444
+    },
+    {
+      "path": "batch-2026-10-29-chatgpt-offline/archives/raw-offline-artifacts.tar.xz.part-011",
+      "bytes": 2097152,
+      "git_blob_sha": "1d35303d5b1f4b31f598d00103842b3ea5266756",
+      "previous_git_blob_sha": "d5a5a3a9da5e699ae250141e7fe986e3ed1aeb04",
+      "previous_bytes": 786444
+    },
+    {
+      "path": "batch-2026-10-29-chatgpt-offline/archives/raw-offline-artifacts.tar.xz.part-012",
+      "bytes": 2097152,
+      "git_blob_sha": "eb1c224f32a024a9dc4c92922525f6043a08a55c",
+      "previous_git_blob_sha": "052ec7b501926eaa5720977400f24883b40afdb0",
+      "previous_bytes": 786444
+    },
+    {
+      "path": "batch-2026-10-29-chatgpt-offline/archives/raw-offline-artifacts.tar.xz.part-013",
+      "bytes": 2097152,
+      "git_blob_sha": "cd408d192c52a23fc2691465e857619db4888b55",
+      "previous_git_blob_sha": "d4ac7bc77b518b966d2b90e065a4c96a627d0cc1",
+      "previous_bytes": 786444
+    },
+    {
+      "path": "batch-2026-10-29-chatgpt-offline/archives/raw-offline-artifacts.tar.xz.part-014",
+      "bytes": 2097152,
+      "git_blob_sha": "458736b1df4f404507831d36993619b77a0cb703",
+      "previous_git_blob_sha": "4fc5e6a127de93ee64c79036702d8f40f26bf4a6",
+      "previous_bytes": 786444
+    },
+    {
+      "path": "batch-2026-10-29-chatgpt-offline/archives/raw-offline-artifacts.tar.xz.part-015",
+      "bytes": 2097152,
+      "git_blob_sha": "3b17ead47a8b3fa08476bcc76065dd54885e47cd",
+      "previous_git_blob_sha": "00ae848aaa8797cf8e0b79c78cb7b1fdaf5b8b2e",
+      "previous_bytes": 786444
+    },
+    {
+      "path": "batch-2026-10-29-chatgpt-offline/archives/raw-offline-artifacts.tar.xz.part-016",
+      "bytes": 2097152,
+      "git_blob_sha": "eb00f601e195a5d360cc2a15b3523ac190ad14c9",
+      "previous_git_blob_sha": "9ca653701584cef35bed472ad9f857938d270afb",
+      "previous_bytes": 786444
+    },
+    {
+      "path": "batch-2026-10-29-chatgpt-offline/archives/raw-offline-artifacts.tar.xz.part-017",
+      "bytes": 2097152,
+      "git_blob_sha": "72f98c6e0b3982ed5a23bf228537c850dd2fe88d",
+      "previous_git_blob_sha": "8792151ef6695bec91c79f147fbe6dca72748bcc",
+      "previous_bytes": 786444
+    },
+    {
+      "path": "batch-2026-10-29-chatgpt-offline/archives/raw-offline-artifacts.tar.xz.part-018",
+      "bytes": 2097152,
+      "git_blob_sha": "cacd0f63e41cb65b802ed8c664bc8a00c4c20f7a",
+      "previous_git_blob_sha": "2b5a13fffa1cb6ef9f3e9d73ed29bccce2c7d51e",
+      "previous_bytes": 786444
+    },
+    {
+      "path": "batch-2026-10-29-chatgpt-offline/archives/raw-offline-artifacts.tar.xz.part-019",
+      "bytes": 2097152,
+      "git_blob_sha": "6cb489ac62c4535a514dd981afb8d45ba9df92c7",
+      "previous_git_blob_sha": "5e871256264e1a8a8c4ce53a096bfb229711ddf3",
+      "previous_bytes": 786444
+    },
+    {
+      "path": "batch-2026-10-29-chatgpt-offline/archives/raw-offline-artifacts.tar.xz.part-020",
+      "bytes": 2097152,
+      "git_blob_sha": "8f98dc7e4dc95600a135f3ad139d8b59e13b374f",
+      "previous_git_blob_sha": "51058584cb3931b8aec4f7fe672ce7937a712e6e",
+      "previous_bytes": 786444
+    },
+    {
+      "path": "batch-2026-10-29-chatgpt-offline/archives/raw-offline-artifacts.tar.xz.part-021",
+      "bytes": 2097152,
+      "git_blob_sha": "920c43a2c7d8808c537570cf4a4c3ed3cb8c3680",
+      "previous_git_blob_sha": "4117d3abcc909b4b8720954d8fb2671e57010cb3",
+      "previous_bytes": 786444
+    },
+    {
+      "path": "batch-2026-10-29-chatgpt-offline/archives/raw-offline-artifacts.tar.xz.part-022",
+      "bytes": 2097152,
+      "git_blob_sha": "3b870f0a03d5c67556efb281c289efae2f6aa235",
+      "previous_git_blob_sha": "7136517c61fe6f797f1fa20bae95860ccb258cae",
+      "previous_bytes": 786444
+    },
+    {
+      "path": "batch-2026-10-29-chatgpt-offline/archives/raw-offline-artifacts.tar.xz.part-023",
+      "bytes": 2097152,
+      "git_blob_sha": "dafb7d210187e8b39b9aeff2deb0daa11784d381",
+      "previous_git_blob_sha": "6b0ce6f32b5f1475ef0c8f967102be21359b851f",
+      "previous_bytes": 786444
+    },
+    {
+      "path": "batch-2026-10-29-chatgpt-offline/archives/raw-offline-artifacts.tar.xz.part-024",
+      "bytes": 2097152,
+      "git_blob_sha": "cbd5e2115f307c75f92ee40210829bd9e593f29d",
+      "previous_git_blob_sha": "f211452392d9af77852efd08654299c5048db3bd",
+      "previous_bytes": 786444
+    },
+    {
+      "path": "batch-2026-10-29-chatgpt-offline/archives/raw-offline-artifacts.tar.xz.part-025",
+      "bytes": 2097152,
+      "git_blob_sha": "d7438c1a44839b5501878d57fd572dc764cec84a",
+      "previous_git_blob_sha": "6fa63662b7b629ff56ae26d8849fc3e1f4b944c0",
+      "previous_bytes": 786444
+    },
+    {
+      "path": "batch-2026-10-29-chatgpt-offline/archives/raw-offline-artifacts.tar.xz.part-026",
+      "bytes": 1393328,
+      "git_blob_sha": "3e5429a120b4da22c847e10ecc8b2825d1ed52bd",
+      "previous_git_blob_sha": "548fc674f66ad5324677b584483b70ab0bbc3821",
+      "previous_bytes": 786444
+    },
+    {
+      "path": "batch-2026-10-29-chatgpt-offline/archives/verified-recovery-and-regressions.tar.xz.part-000",
+      "bytes": 2097152,
+      "git_blob_sha": "017d8c2770e0154932d81416b380fc0197b94635",
+      "previous_git_blob_sha": "6a1c1666fa9397ee6c9d85760201a261d8da384d",
+      "previous_bytes": 786444
+    },
+    {
+      "path": "batch-2026-10-29-chatgpt-offline/archives/verified-recovery-and-regressions.tar.xz.part-001",
+      "bytes": 2097152,
+      "git_blob_sha": "9d81b85718637fc0dce48b57998f6250ca64d131",
+      "previous_git_blob_sha": "ba36a0e06077398ac516e6ff476e8f728d05ee27",
+      "previous_bytes": 786444
+    },
+    {
+      "path": "batch-2026-10-29-chatgpt-offline/archives/verified-recovery-and-regressions.tar.xz.part-002",
+      "bytes": 2097152,
+      "git_blob_sha": "6722dd8a26ed2fadfdc5cbd99af1ba5f66560937",
+      "previous_git_blob_sha": "6a16f58eabf93eb7c7269d583673f68b791f3ca0",
+      "previous_bytes": 786444
+    },
+    {
+      "path": "batch-2026-10-29-chatgpt-offline/archives/verified-recovery-and-regressions.tar.xz.part-003",
+      "bytes": 2097152,
+      "git_blob_sha": "775456fc50ff10f66a37733f689aef41143ef97d",
+      "previous_git_blob_sha": "b1e0a7f71bc022e28fb6652febf6df1d764a2f8e",
+      "previous_bytes": 786444
+    },
+    {
+      "path": "batch-2026-10-29-chatgpt-offline/archives/verified-recovery-and-regressions.tar.xz.part-004",
+      "bytes": 2097152,
+      "git_blob_sha": "3a095d8f91219bc046855addc2ce780428e487a8",
+      "previous_git_blob_sha": "13f745b66d85d759c74aa2d98b5a460a3a382a86",
+      "previous_bytes": 786444
+    },
+    {
+      "path": "batch-2026-10-29-chatgpt-offline/archives/verified-recovery-and-regressions.tar.xz.part-005",
+      "bytes": 2097152,
+      "git_blob_sha": "1a40ae8ea3cf2bd9fbc7b37f8ecc1b3693332477",
+      "previous_git_blob_sha": "b4d5c0b79348c227bc7fe9e7698d5ace28fae9b7",
+      "previous_bytes": 786444
+    },
+    {
+      "path": "batch-2026-10-29-chatgpt-offline/archives/verified-recovery-and-regressions.tar.xz.part-006",
+      "bytes": 1948020,
+      "git_blob_sha": "5edcaffa53d7e3b38f9632823267bd2f930891d3",
+      "previous_git_blob_sha": "37d4d904a54e3bf0b59d8249327183479d451413",
+      "previous_bytes": 786445
+    }
+  ],
+  "first_recovery_parts_verified_unchanged": [
+    {
+      "path": "batch-2026-10-29-chatgpt-offline/archives/first-recovery-raw.tar.xz.part-002",
+      "bytes": 2097152,
+      "git_blob_sha": "c1fb085b5b957dc352b19812dfce08745c07a716"
+    },
+    {
+      "path": "batch-2026-10-29-chatgpt-offline/archives/first-recovery-raw.tar.xz.part-003",
+      "bytes": 2097152,
+      "git_blob_sha": "e23748acdd8670536b67c305ee0717216e8fc4c9"
+    },
+    {
+      "path": "batch-2026-10-29-chatgpt-offline/archives/first-recovery-raw.tar.xz.part-004",
+      "bytes": 2097152,
+      "git_blob_sha": "b01f88f778eb757097169a8fb3585ac025266a42"
+    },
+    {
+      "path": "batch-2026-10-29-chatgpt-offline/archives/first-recovery-raw.tar.xz.part-006",
+      "bytes": 1692468,
+      "git_blob_sha": "d8a2bf66c4735caf38bcf3842d32659f246cd188"
+    },
+    {
+      "path": "batch-2026-10-29-chatgpt-offline/archives/first-recovery-raw.tar.xz.part-001",
+      "bytes": 2097152,
+      "git_blob_sha": "9bd7ed87ca6e7a165a03e606d473b03792a85b33"
+    },
+    {
+      "path": "batch-2026-10-29-chatgpt-offline/archives/first-recovery-raw.tar.xz.part-005",
+      "bytes": 2097152,
+      "git_blob_sha": "78663766f7e08064521164b26f71aa43397e6b0e"
+    },
+    {
+      "path": "batch-2026-10-29-chatgpt-offline/archives/first-recovery-raw.tar.xz.part-000",
+      "bytes": 2097152,
+      "git_blob_sha": "a9d4bb2e05bb400050958a0a2258192734cd5881"
+    }
+  ],
+  "archives": [
+    {
+      "archive": "raw-offline-artifacts.tar.xz",
+      "bytes": 55919280,
+      "sha256": "b02f3aa115aba98eed482729a2f406e4cda385e6642c335c7ca240ce0cd5b361",
+      "parts": 27
+    },
+    {
+      "archive": "verified-recovery-and-regressions.tar.xz",
+      "bytes": 14530932,
+      "sha256": "a9409b62aed3642b92edb126734050acdc29d0cc740adb2d8438405aff5306ce",
+      "parts": 7
+    },
+    {
+      "archive": "first-recovery-raw.tar.xz",
+      "bytes": 14275380,
+      "sha256": "1bc6fef291ac0dab29d5bb84af40787b1993a295dfb581216a3de54959ef61b5",
+      "parts": 7
+    }
+  ],
+  "limitation": "Original 68 truncated gzip tapes remain preserved as original evidence; recovered complete tapes are separate reruns and not independent samples."
+}

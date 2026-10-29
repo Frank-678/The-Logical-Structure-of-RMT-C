@@ -37,3 +37,9 @@ tar -xJf first-recovery-raw.tar.xz -C extracted
 `verify_archives.py`先按清单顺序核对每块SHA再拼接、核对整包SHA；解包后`raw-file-manifest.json`可核对原始文件。原归档中的68个坏gzip会继续报EOF，完整补跑对应同case/label的verified-recovery条目，不覆盖原文件。
 
 重现时先从相同完整Git SHA冻结worker，再将plan.versions路径指向本机冻结目录，另选输出目录。原绝对路径仅记录本轮环境，不能把改过路径的plan冒称原签名缓存。
+
+## 2026-10-29 上传完整性补正
+
+最终远端校验发现：提交 c1c64dd0ad176a6696a6a48e19b0ce647548b28b 中原始日志包与最终补跑包的34个Git分块在上传时被截断，不能按当时清单拼接成功。本次已从本地完整原包重新上传这34块，并逐块核对实际Git blob SHA与本地完整字节计算值一致；首次补跑包7块原本完整，已核对保留。清单和运行结果未改，旧提交保留历史。
+
+请使用本分支最新提交中的分块执行上面的校验与解包命令。完整性记录见 [upload-integrity-2026-10-29.json](upload-integrity-2026-10-29.json)。本补正只修复上传产物，不增加比赛样本，也不把旧的68条坏gzip冒充完整原回放。
