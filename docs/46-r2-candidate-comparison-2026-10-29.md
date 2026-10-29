@@ -152,3 +152,12 @@ tactical_death_cost = 0.25    （旧版值，组合必需）
 2. **行为类改动默认关闭**：候选参数不进入默认配置；只在 M3 席位以参数集形态上场（与 old_champion-B 同机制），待 144 场竞技场评估后再决定是否进入默认。
 3. **wide_lanes 残差（已裁定）**：第二轮 oldpull 在 snake/wide_lanes 上 ≡ new（"旧版无门槛拉拽"假设对 wide_lanes 证伪），wide_lanes 分差根因在代码层（65c8714→当前 513 行差），需回到冻结 old 的 tick-10 决策现场排查，不再调全局权重（I4.2 原话）。
 4. 证据归档 log 分支（summary_42.json / summary.json / 驱动脚本 / 场景报告）随本报告提交后执行。
+
+## 勘误追加（2026-10-29 23:32 +0800，随 docs/48 提交）
+
+§6 冻结结论与第六轮中"**pcc0 与 grb/tdc 组合出 snake +20**"及"grb01/tdc025 组合必需"的归因**有误**，现更正：
+
+- 代码核查（docs/48 §2.1）：`tactical_search = false`（match_config.hpp:78），`tactical_choice` 唯一调用点（strategy.cpp:1438）位于该参数门内（strategy.cpp:1411），tactical_death_cost 唯一使用点 tactics.cpp:170 → **tactical_death_cost 在全部候选变体中为死参数**。
+- 第九轮四格消融（grb{0,0.1} × tdc{0,0.25}，docs/48 §2.2）：tdc 0.0 与 0.25 在全部 6 组逐 tick 动作序列与终局**逐位一致**（6/6 死参实证）。
+- 更正结论：snake +20 的差分来源为 **grb=0.1 单独贡献**，与 tdc 无关。M3 冻结由六参数修订为**五参数**（tdc 剔除）：mev2.0 / pcc0 / rmb4 / rmv4 / grb0.1；行为零漂移（grb01_tdc0 复现第 6~8 轮全部结果）。
+- 本文件其余结论（route B 优选、wide_lanes 代码层残差裁定、行为类默认关闭）不受影响，维持不变。
