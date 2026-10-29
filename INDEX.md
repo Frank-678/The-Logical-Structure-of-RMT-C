@@ -198,6 +198,10 @@
 
 | [docs/28-first-real-llm-dds-battle-2026-10-29.md](docs/28-first-real-llm-dds-battle-2026-10-29.md) |
 
+| [docs/29-review-fixes-and-postcap-lever-2026-10-29.md](docs/29-review-fixes-and-postcap-lever-2026-10-29.md) |
+| [docs/30-real-battle-baseline-and-postcap-batch-2026-10-29.md](docs/30-real-battle-baseline-and-postcap-batch-2026-10-29.md) |
+| [scripts/analyze_frames_jsonl.py](scripts/analyze_frames_jsonl.py) |
+
 ## 代码研究文档迁入
 
 | 文件 |
