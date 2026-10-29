@@ -1,0 +1,458 @@
+[
+ {
+  "variant": 0,
+  "session": "practice-9d486e108006413891d8740772984f82",
+  "teams": {
+   "C": {
+    "score": 52.5,
+    "R": 90.0,
+    "D": 940.0,
+    "M": 3,
+    "hp": 0,
+    "invalid": 0
+   },
+   "D": {
+    "score": 42.5,
+    "R": 50.0,
+    "D": 578.0,
+    "M": 3,
+    "hp": 100,
+    "invalid": 0
+   },
+   "A": {
+    "score": 37.5,
+    "R": 50.0,
+    "D": 1245.0,
+    "M": 2,
+    "hp": 0,
+    "invalid": 0
+   },
+   "B": {
+    "score": 22.5,
+    "R": 10.0,
+    "D": 615.0,
+    "M": 1,
+    "hp": 40,
+    "invalid": 0
+   }
+  },
+  "ai": {
+   "A": {
+    "calls": 73,
+    "fail": 0
+   },
+   "D": {
+    "calls": 9,
+    "fail": 1
+   },
+   "C": {
+    "calls": 11,
+    "fail": 0
+   },
+   "B": {
+    "calls": 11,
+    "fail": 1
+   }
+  },
+  "ok": true
+ },
+ {
+  "variant": 1,
+  "session": "practice-941ca351a4dd4252b4c61890e326da82",
+  "teams": {
+   "A": {
+    "score": 60.0,
+    "R": 120.0,
+    "D": 1155.0,
+    "M": 3,
+    "hp": 100,
+    "invalid": 0
+   },
+   "C": {
+    "score": 42.5,
+    "R": 50.0,
+    "D": 1070.0,
+    "M": 3,
+    "hp": 40,
+    "invalid": 0
+   },
+   "B": {
+    "score": 25.6,
+    "R": 30.0,
+    "D": 270.0,
+    "M": 2,
+    "hp": 20,
+    "invalid": 0
+   },
+   "D": {
+    "score": 20.0,
+    "R": 0.0,
+    "D": 593.0,
+    "M": 1,
+    "hp": 100,
+    "invalid": 0
+   }
+  },
+  "ai": {
+   "A": {
+    "calls": 80,
+    "fail": 0
+   },
+   "C": {
+    "calls": 10,
+    "fail": 1
+   },
+   "D": {
+    "calls": 8,
+    "fail": 2
+   },
+   "B": {
+    "calls": 10,
+    "fail": 0
+   }
+  },
+  "ok": true
+ },
+ {
+  "variant": 2,
+  "session": "practice-202f5d10aac54ea3811a5c1fbd9b245e",
+  "teams": {
+   "A": {
+    "score": 57.5,
+    "R": 110.0,
+    "D": 1505.0,
+    "M": 3,
+    "hp": 100,
+    "invalid": 0
+   },
+   "D": {
+    "score": 40.0,
+    "R": 60.0,
+    "D": 580.0,
+    "M": 2,
+    "hp": 100,
+    "invalid": 0
+   },
+   "B": {
+    "score": 25.65,
+    "R": 20.0,
+    "D": 355.0,
+    "M": 2,
+    "hp": 100,
+    "invalid": 0
+   },
+   "C": {
+    "score": 7.5,
+    "R": 10.0,
+    "D": 0.0,
+    "M": 1,
+    "hp": 80,
+    "invalid": 0
+   }
+  },
+  "ai": {
+   "A": {
+    "calls": 70,
+    "fail": 0
+   },
+   "C": {
+    "calls": 9,
+    "fail": 1
+   },
+   "B": {
+    "calls": 10,
+    "fail": 1
+   },
+   "D": {
+    "calls": 6,
+    "fail": 2
+   }
+  },
+  "ok": true
+ },
+ {
+  "variant": "3m",
+  "session": "practice-329a6c199fd84a7598750ea9390004fe",
+  "teams": {
+   "A": {
+    "score": 45.0,
+    "R": 60.0,
+    "D": 1200.0,
+    "M": 3,
+    "hp": 100,
+    "invalid": 0
+   },
+   "D": {
+    "score": 42.5,
+    "R": 50.0,
+    "D": 670.0,
+    "M": 3,
+    "hp": 80,
+    "invalid": 0
+   },
+   "C": {
+    "score": 42.5,
+    "R": 50.0,
+    "D": 566.0,
+    "M": 3,
+    "hp": 100,
+    "invalid": 0
+   },
+   "B": {
+    "score": 31.6,
+    "R": 40.0,
+    "D": 220.0,
+    "M": 3,
+    "hp": 40,
+    "invalid": 0
+   }
+  },
+  "ai": {
+   "A": {
+    "calls": 85,
+    "fail": 0
+   },
+   "B": {
+    "calls": 10,
+    "fail": 1
+   },
+   "D": {
+    "calls": 12,
+    "fail": 0
+   },
+   "C": {
+    "calls": 10,
+    "fail": 2
+   }
+  },
+  "ok": true
+ },
+ {
+  "variant": "3a",
+  "session": "practice-592341bce22f44e5ba6d19034a4fdfea",
+  "teams": {
+   "A": {
+    "score": 45.0,
+    "R": 60.0,
+    "D": 560.0,
+    "M": 3,
+    "hp": 20,
+    "invalid": 0
+   },
+   "D": {
+    "score": 33.8,
+    "R": 70.0,
+    "D": 210.0,
+    "M": 2,
+    "hp": 100,
+    "invalid": 0
+   },
+   "B": {
+    "score": 25.7,
+    "R": 40.0,
+    "D": 190.0,
+    "M": 2,
+    "hp": 44,
+    "invalid": 0
+   },
+   "C": {
+    "score": 17.5,
+    "R": 30.0,
+    "D": 0.0,
+    "M": 2,
+    "hp": 40,
+    "invalid": 0
+   }
+  },
+  "ai": {
+   "A": {
+    "calls": 26,
+    "fail": 0
+   },
+   "C": {
+    "calls": 8,
+    "fail": 2
+   },
+   "D": {
+    "calls": 8,
+    "fail": 1
+   },
+   "B": {
+    "calls": 7,
+    "fail": 2
+   }
+  },
+  "ok": true
+ },
+ {
+  "variant": 4,
+  "session": "practice-958b322f4bc24611a778519593c522bb",
+  "teams": {
+   "C": {
+    "score": 42.5,
+    "R": 50.0,
+    "D": 975.0,
+    "M": 3,
+    "hp": 80,
+    "invalid": 0
+   },
+   "B": {
+    "score": 41.0,
+    "R": 80.0,
+    "D": 200.0,
+    "M": 3,
+    "hp": 40,
+    "invalid": 0
+   },
+   "D": {
+    "score": 37.5,
+    "R": 50.0,
+    "D": 745.0,
+    "M": 2,
+    "hp": 80,
+    "invalid": 0
+   },
+   "A": {
+    "score": 30.0,
+    "R": 20.0,
+    "D": 1160.0,
+    "M": 2,
+    "hp": 100,
+    "invalid": 0
+   }
+  },
+  "ai": {
+   "A": {
+    "calls": 37,
+    "fail": 0
+   },
+   "D": {
+    "calls": 7,
+    "fail": 1
+   },
+   "B": {
+    "calls": 7,
+    "fail": 2
+   },
+   "C": {
+    "calls": 8,
+    "fail": 1
+   }
+  },
+  "ok": true
+ },
+ {
+  "variant": 5,
+  "session": "practice-ab24664557f94c018652953db64970a2",
+  "teams": {
+   "A": {
+    "score": 45.0,
+    "R": 60.0,
+    "D": 1320.0,
+    "M": 3,
+    "hp": 80,
+    "invalid": 0
+   },
+   "B": {
+    "score": 40.4,
+    "R": 70.0,
+    "D": 430.0,
+    "M": 2,
+    "hp": 20,
+    "invalid": 0
+   },
+   "D": {
+    "score": 37.5,
+    "R": 50.0,
+    "D": 618.0,
+    "M": 2,
+    "hp": 100,
+    "invalid": 0
+   },
+   "C": {
+    "score": 15.0,
+    "R": 20.0,
+    "D": 0.0,
+    "M": 2,
+    "hp": 80,
+    "invalid": 0
+   }
+  },
+  "ai": {
+   "A": {
+    "calls": 43,
+    "fail": 0
+   },
+   "C": {
+    "calls": 9,
+    "fail": 0
+   },
+   "B": {
+    "calls": 8,
+    "fail": 0
+   },
+   "D": {
+    "calls": 7,
+    "fail": 2
+   }
+  },
+  "ok": true
+ },
+ {
+  "variant": 6,
+  "session": "practice-bd4313193ca34d228309787b1ff03797",
+  "teams": {
+   "A": {
+    "score": 47.5,
+    "R": 70.0,
+    "D": 970.0,
+    "M": 3,
+    "hp": 20,
+    "invalid": 0
+   },
+   "D": {
+    "score": 40.2,
+    "R": 60.0,
+    "D": 340.0,
+    "M": 3,
+    "hp": 100,
+    "invalid": 0
+   },
+   "B": {
+    "score": 37.5,
+    "R": 50.0,
+    "D": 530.0,
+    "M": 2,
+    "hp": 40,
+    "invalid": 0
+   },
+   "C": {
+    "score": 15.0,
+    "R": 20.0,
+    "D": 0.0,
+    "M": 2,
+    "hp": 100,
+    "invalid": 0
+   }
+  },
+  "ai": {
+   "A": {
+    "calls": 46,
+    "fail": 0
+   },
+   "B": {
+    "calls": 8,
+    "fail": 2
+   },
+   "D": {
+    "calls": 8,
+    "fail": 0
+   },
+   "C": {
+    "calls": 9,
+    "fail": 1
+   }
+  },
+  "ok": true
+ }
+]

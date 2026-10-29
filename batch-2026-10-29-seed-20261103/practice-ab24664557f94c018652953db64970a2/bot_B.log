@@ -1,0 +1,18 @@
+[INFO] [1793259250.839256435] [rmtc_test_robot]: test robot for team B (练习陪练B) ready
+[INFO] [1793259256.813678304] [rmtc_test_robot]: AI plan applied: {"goals":["resource_high","resource_normal","reach_target"]}
+[WARN] [1793259286.568400117] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793259287.579023689] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793259293.126198323] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793259306.157680621] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793259307.166896054] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793259312.724041678] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793259318.267133109] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793259331.482258926] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793259332.493779915] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793259342.106578031] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793259350.690929838] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793259356.236675040] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793259369.399142700] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793259370.409752880] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[INFO] [1793259380.057917153] [rmtc_test_robot]: AI plan applied: {"event_plan":null,"goals":["resource_normal","resource_normal","resource_high","reach_target"]}
+[INFO] [1793259507.547541484] [rclcpp]: signal_handler(SIGINT/SIGTERM)
