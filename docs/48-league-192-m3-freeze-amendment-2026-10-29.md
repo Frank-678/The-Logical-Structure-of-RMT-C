@@ -12,8 +12,11 @@
    **逐位一致**。tdc 从冻结集剔除；候选行为不变（死参数），docs/46 §6 的"grb/tdc 组合必需"结论修正为
    **grb=0.1 单独贡献**（snake 37.5→47.5）。
 2. **M4 焦点位混合新增（144 → 192 场）**：依 HANDOFF 第 1 条——只给 M3 增加对手位不能替代候选作为
-   焦点版本与冠军在相同地图/席位/对手池的成对比较。新增 M4：A=candidate、B=champion（席位变体）、
-   C/D=原版陪练，与 M1 同 12 图同 A 席位同对手池。
+   焦点版本与冠军的成对比较。新增 M4：A=candidate、B=champion（席位变体）、C/D=原版陪练，
+   与 M1 同 12 图同 A 席位。**注意（2026-10-30 勘误，ChatGPT review_handoff_probe R1 指正）：
+   M4 的 B 位为 champion 而非原版陪练，对手池与 M1 不同**；M3/M4 构成冠军×候选换位自战对，
+   M4−M1 差值不能当作候选因果增益估计。与 M1 完全同池（B/C/D 全原版）的焦点对照由
+   **M5（A=candidate，B/C/D=原版陪练）**承担，已于 iterate-arena ffe334b 入库，联赛后追加批次。
 3. **测试器修复**（HANDOFF 第 5 条）：referee 启动重试的 Ready 判定改为每次尝试独立基线（防上一尝试
    残留行误判就绪）；联赛聚合退出码提取为 `batch_exit_code` 并补回归测试（缺局/失败组/空计划 → 1）。
    第 5 条其余项（终局 hp=0 死亡口径、M2 日志勘误、官方排名顺序重核）另文答复，不阻塞联赛。
@@ -71,7 +74,8 @@ mission_explore_value 2.0 / post_cap_combat_weight 0.0 / resource_mission_bonus 
 - M1 原版基线：A=champion vs 原版陪练。
 - M2 自战旧冠军：A=champion vs B=old_champion。
 - M3 自战候选·对手位：A=champion vs B=candidate。
-- M4 自战候选·焦点位：A=candidate vs B=champion（与 M1 同图同席位同对手池的成对比较）。
+- M4 自战候选·焦点位：A=candidate vs B=champion（与 M1 同图同席位；对手池与 M1 不同——B 位
+  为 champion。勿用 M4−M1 差值估计候选增益；同池对照由 M5 承担）。
 评估口径（stage2）：`30*min(R/120,1)+15*min(D/500,1)+5*len(completed)`；全部对局以 M1 为基线、
 M2 为自战参照、M3+M4 为候选证据（对手位+焦点位成对）。失败组/缺局聚合退出码非零并如实记录。
 route A（etr0+pcc0+探针关）保留为 R2 离线对照臂，不进入本轮联赛席位（HANDOFF 第 1 条"作为对照保留"
@@ -96,3 +100,19 @@ route A（etr0+pcc0+探针关）保留为 R2 离线对照臂，不进入本轮�
 ---
 
 *密钥扫描通过（本文件不含密钥；扫描命令输出另存于 log 批次）。*
+---
+
+## 8. 勘误与追加（2026-10-30，DeepSeek）
+
+1. **M4 对手池更正**：本文件初版与 review.md CG-R-20261029-LEAGUE192 第 1 条均称 M4“与 M1 同对手池”，
+   不成立——M1 为 A=champion vs B/C/D 原版，M4 为 A=candidate vs B=champion、C/D 原版，A、B 两席都换了。
+   ChatGPT 只读探针（review_handoff_probe R1，eacb963 代码实载）确认；192 计划按实际混合如实归档，
+   不把 M4−M1 差值写成公平成对验证。
+2. **M5 追加**：A=candidate、B/C/D=原版陪练，与 M1 完全同池同席位同图（iterate-arena ffe334b，
+   MIXES + 文档字符串同步更正）。联赛后追加 M5 批次，与 M1 构成候选/冠军同池直接对照。
+3. **Ready/路径/退出码三修复**（iterate-arena ffe334b + 00dfb35，ChatGPT R2/R3/R4 全部采纳）：
+   referee_ready_since 改 (行数, mtime_ns) 契约，修 1→1 截断重建盲区；build_seat_variants 改
+   `exec "$@"` 数组传参，修空格路径拆分；补入口级退出码注入回归（16/16 通过）。
+4. 联赛收批后归档口径：逐混合（M1/M2/M3/M4 各自基线含义）+ 实际失败/缺局如实记录。
+
+*密钥扫描通过（本文件不含密钥）。*
