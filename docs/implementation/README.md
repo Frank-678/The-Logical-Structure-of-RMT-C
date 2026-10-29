@@ -14,3 +14,11 @@
 
 - [EVENT_USE.md](EVENT_USE.md)：成功调用如何进入策略、未来抢点修复、日志与实测范围。
 - [SCOREBOARD.md](SCOREBOARD.md)：第一阶段38/40回跳30的同场分阶段证据。
+
+
+## 2026-10-29 · ChatGPT追逃研究与最新审查
+
+- [追击、截击、脱离的理论、实现与20个设计局面全表](pursuit-evasion-feasibility-2026-10-29.md)
+- [DeepSeek定点审查、wide_lanes提交线索与直接答复](deepseek-causal-audit-2026-10-29.md)
+
+独立原型在代码仓a4ccba51，原始结果在log分支63a07848；正式策略开关未改，未声称整局晋级率提高。
