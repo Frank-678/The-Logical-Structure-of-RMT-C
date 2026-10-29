@@ -1,0 +1,3039 @@
+{
+  "summary": {
+    "versions": {
+      "chatgpt": {
+        "completed": 4,
+        "failures": 0,
+        "mean_score": 3.9499999999999993,
+        "mean_rank": 1.75,
+        "win_share": 0.25,
+        "mean_deaths": 0.5
+      },
+      "deepseek": {
+        "completed": 4,
+        "failures": 0,
+        "mean_score": 3.9499999999999993,
+        "mean_rank": 1.75,
+        "win_share": 0.25,
+        "mean_deaths": 0.5
+      }
+    },
+    "paired": {
+      "deepseek": {
+        "reference": "chatgpt",
+        "map_groups": 3,
+        "paired_cases": 4,
+        "mean_map_delta": 0.0,
+        "bootstrap95": [
+          0.0,
+          0.0
+        ],
+        "caution": "descriptive; small fixture suite, not proof of official improvement"
+      }
+    }
+  },
+  "rows": [
+    {
+      "case_id": "lowhp-retreat-probe",
+      "map_id": "lowhp_retreat_probe",
+      "family": "deepseek_new_probe",
+      "mix": "script",
+      "focal": "A",
+      "candidate": "chatgpt",
+      "signature": "521bda7a8cd8b32d112318ac21ad5f3317c761a7de1a9fde8337eea6543173dd",
+      "scene": {
+        "schema": 1,
+        "name": "lowhp-retreat-probe",
+        "stage": 2,
+        "tick_limit": 500,
+        "qualified": true,
+        "seed": 17,
+        "map": {
+          "width": 9,
+          "height": 9,
+          "vision_radius": 4,
+          "walls": [],
+          "spawns": [
+            [
+              4,
+              4
+            ],
+            [
+              5,
+              4
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              8,
+              8
+            ]
+          ]
+        },
+        "initial": {
+          "tick": 200,
+          "resources": [],
+          "cars": {
+            "A": {
+              "position": [
+                4,
+                4
+              ],
+              "hp": 30
+            },
+            "B": {
+              "position": [
+                5,
+                4
+              ],
+              "hp": 100
+            }
+          }
+        },
+        "missions": [],
+        "events": [],
+        "agents": {
+          "A": {
+            "type": "external",
+            "version": "chatgpt",
+            "event_delivery": "oracle"
+          },
+          "B": {
+            "type": "script",
+            "event_delivery": "oracle",
+            "actions": {
+              "200": {
+                "action": "attack",
+                "direction": "left"
+              },
+              "201": {
+                "action": "attack",
+                "direction": "left"
+              },
+              "202": {
+                "action": "attack",
+                "direction": "left"
+              },
+              "203": {
+                "action": "attack",
+                "direction": "left"
+              },
+              "204": {
+                "action": "attack",
+                "direction": "left"
+              }
+            },
+            "otherwise": {
+              "action": "defend"
+            }
+          }
+        },
+        "run": {
+          "until_tick": 205,
+          "expect": []
+        }
+      },
+      "versions": {
+        "A": "chatgpt"
+      },
+      "engine_build_id": "b4280216ba4796631e41119e28b59f076a0155204f8c71aa60c1e13dbba2081a",
+      "status": "passed",
+      "scope": "offline; no live model/ROS",
+      "stop": "until_tick",
+      "failed_conditions": [],
+      "start_tick": 200,
+      "end_tick": 205,
+      "result": [
+        {
+          "D": 0.0,
+          "M": 0,
+          "R": 0.0,
+          "attacks": 2,
+          "blocked": 0,
+          "deaths": 1,
+          "defends": 0,
+          "hp": 100.0,
+          "invalid": 0,
+          "moves": 0,
+          "qualified_M": 0,
+          "score": 0.0,
+          "seat": "A"
+        },
+        {
+          "D": 90.0,
+          "M": 0,
+          "R": 0.0,
+          "attacks": 5,
+          "blocked": 0,
+          "deaths": 0,
+          "defends": 0,
+          "hp": 60.0,
+          "invalid": 0,
+          "moves": 0,
+          "qualified_M": 0,
+          "score": 2.6999999999999997,
+          "seat": "B"
+        },
+        {
+          "D": 0.0,
+          "M": 0,
+          "R": 0.0,
+          "attacks": 0,
+          "blocked": 0,
+          "deaths": 0,
+          "defends": 0,
+          "hp": 0.0,
+          "invalid": 0,
+          "moves": 0,
+          "qualified_M": 0,
+          "score": 0.0,
+          "seat": "C"
+        },
+        {
+          "D": 0.0,
+          "M": 0,
+          "R": 0.0,
+          "attacks": 0,
+          "blocked": 0,
+          "deaths": 0,
+          "defends": 0,
+          "hp": 0.0,
+          "invalid": 0,
+          "moves": 0,
+          "qualified_M": 0,
+          "score": 0.0,
+          "seat": "D"
+        }
+      ],
+      "focal_result": {
+        "D": 0.0,
+        "M": 0,
+        "R": 0.0,
+        "attacks": 2,
+        "blocked": 0,
+        "deaths": 1,
+        "defends": 0,
+        "hp": 100.0,
+        "invalid": 0,
+        "moves": 0,
+        "qualified_M": 0,
+        "score": 0.0,
+        "seat": "A"
+      },
+      "rank": 2,
+      "win_share": 0.0,
+      "stationary_windows": 0,
+      "world": {
+        "cars": {
+          "A": {
+            "D": 0.0,
+            "R": 0.0,
+            "alive": true,
+            "attacks": 2,
+            "blocked": 0,
+            "capture": {},
+            "completed": [],
+            "deaths": 1,
+            "defends": 0,
+            "empowered": [],
+            "heal_amount": 0.0,
+            "heal_until": -1,
+            "high": 0,
+            "hp": 100.0,
+            "invalid": 0,
+            "last_action": {
+              "action": "wait",
+              "moved": false,
+              "tick": 204
+            },
+            "moves": 0,
+            "normal": 0,
+            "position": [
+              4,
+              4
+            ],
+            "position_reason": "respawn",
+            "protected": true,
+            "protected_left": 2,
+            "respawn_in": 0,
+            "reversed": [],
+            "vulnerable": []
+          },
+          "B": {
+            "D": 90.0,
+            "R": 0.0,
+            "alive": true,
+            "attacks": 5,
+            "blocked": 0,
+            "capture": {},
+            "completed": [],
+            "deaths": 0,
+            "defends": 0,
+            "empowered": [],
+            "heal_amount": 0.0,
+            "heal_until": -1,
+            "high": 0,
+            "hp": 60.0,
+            "invalid": 0,
+            "last_action": {
+              "action": "attack",
+              "moved": false,
+              "tick": 204
+            },
+            "moves": 0,
+            "normal": 0,
+            "position": [
+              5,
+              4
+            ],
+            "position_reason": "",
+            "protected": false,
+            "protected_left": 0,
+            "respawn_in": 0,
+            "reversed": [],
+            "vulnerable": []
+          },
+          "C": {
+            "D": 0.0,
+            "R": 0.0,
+            "alive": false,
+            "attacks": 0,
+            "blocked": 0,
+            "capture": {},
+            "completed": [],
+            "deaths": 0,
+            "defends": 0,
+            "empowered": [],
+            "heal_amount": 0.0,
+            "heal_until": -1,
+            "high": 0,
+            "hp": 0.0,
+            "invalid": 0,
+            "last_action": {
+              "action": "wait",
+              "moved": false,
+              "tick": 204
+            },
+            "moves": 0,
+            "normal": 0,
+            "position": [
+              0,
+              0
+            ],
+            "position_reason": "",
+            "protected": false,
+            "protected_left": 0,
+            "respawn_in": 999999995,
+            "reversed": [],
+            "vulnerable": []
+          },
+          "D": {
+            "D": 0.0,
+            "R": 0.0,
+            "alive": false,
+            "attacks": 0,
+            "blocked": 0,
+            "capture": {},
+            "completed": [],
+            "deaths": 0,
+            "defends": 0,
+            "empowered": [],
+            "heal_amount": 0.0,
+            "heal_until": -1,
+            "high": 0,
+            "hp": 0.0,
+            "invalid": 0,
+            "last_action": {
+              "action": "wait",
+              "moved": false,
+              "tick": 204
+            },
+            "moves": 0,
+            "normal": 0,
+            "position": [
+              8,
+              8
+            ],
+            "position_reason": "",
+            "protected": false,
+            "protected_left": 0,
+            "respawn_in": 999999995,
+            "reversed": [],
+            "vulnerable": []
+          }
+        },
+        "phase": "before_tick",
+        "resources": [],
+        "schema": 1,
+        "tick": 205
+      },
+      "timing": {
+        "A": {
+          "max_ms": 0.078739,
+          "p95_ms": 0.078739,
+          "over_500ms": 0
+        }
+      },
+      "event_observations": {
+        "A": {
+          "unique_delivered": 0,
+          "delivered_ids": [],
+          "gained_fortress": [],
+          "gained_heal": false,
+          "causal_effect": "not established by a single rollout"
+        }
+      }
+    },
+    {
+      "case_id": "lowhp-retreat-probe",
+      "map_id": "lowhp_retreat_probe",
+      "family": "deepseek_new_probe",
+      "mix": "script",
+      "focal": "A",
+      "candidate": "deepseek",
+      "signature": "3603c8f6510513ab073cf748765f32a6bcfdbc02e4511b157bc9d1cfe164d0f8",
+      "scene": {
+        "schema": 1,
+        "name": "lowhp-retreat-probe",
+        "stage": 2,
+        "tick_limit": 500,
+        "qualified": true,
+        "seed": 17,
+        "map": {
+          "width": 9,
+          "height": 9,
+          "vision_radius": 4,
+          "walls": [],
+          "spawns": [
+            [
+              4,
+              4
+            ],
+            [
+              5,
+              4
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              8,
+              8
+            ]
+          ]
+        },
+        "initial": {
+          "tick": 200,
+          "resources": [],
+          "cars": {
+            "A": {
+              "position": [
+                4,
+                4
+              ],
+              "hp": 30
+            },
+            "B": {
+              "position": [
+                5,
+                4
+              ],
+              "hp": 100
+            }
+          }
+        },
+        "missions": [],
+        "events": [],
+        "agents": {
+          "A": {
+            "type": "external",
+            "version": "deepseek",
+            "event_delivery": "oracle"
+          },
+          "B": {
+            "type": "script",
+            "event_delivery": "oracle",
+            "actions": {
+              "200": {
+                "action": "attack",
+                "direction": "left"
+              },
+              "201": {
+                "action": "attack",
+                "direction": "left"
+              },
+              "202": {
+                "action": "attack",
+                "direction": "left"
+              },
+              "203": {
+                "action": "attack",
+                "direction": "left"
+              },
+              "204": {
+                "action": "attack",
+                "direction": "left"
+              }
+            },
+            "otherwise": {
+              "action": "defend"
+            }
+          }
+        },
+        "run": {
+          "until_tick": 205,
+          "expect": []
+        }
+      },
+      "versions": {
+        "A": "deepseek"
+      },
+      "engine_build_id": "b4280216ba4796631e41119e28b59f076a0155204f8c71aa60c1e13dbba2081a",
+      "status": "passed",
+      "scope": "offline; no live model/ROS",
+      "stop": "until_tick",
+      "failed_conditions": [],
+      "start_tick": 200,
+      "end_tick": 205,
+      "result": [
+        {
+          "D": 0.0,
+          "M": 0,
+          "R": 0.0,
+          "attacks": 2,
+          "blocked": 0,
+          "deaths": 1,
+          "defends": 0,
+          "hp": 100.0,
+          "invalid": 0,
+          "moves": 0,
+          "qualified_M": 0,
+          "score": 0.0,
+          "seat": "A"
+        },
+        {
+          "D": 90.0,
+          "M": 0,
+          "R": 0.0,
+          "attacks": 5,
+          "blocked": 0,
+          "deaths": 0,
+          "defends": 0,
+          "hp": 60.0,
+          "invalid": 0,
+          "moves": 0,
+          "qualified_M": 0,
+          "score": 2.6999999999999997,
+          "seat": "B"
+        },
+        {
+          "D": 0.0,
+          "M": 0,
+          "R": 0.0,
+          "attacks": 0,
+          "blocked": 0,
+          "deaths": 0,
+          "defends": 0,
+          "hp": 0.0,
+          "invalid": 0,
+          "moves": 0,
+          "qualified_M": 0,
+          "score": 0.0,
+          "seat": "C"
+        },
+        {
+          "D": 0.0,
+          "M": 0,
+          "R": 0.0,
+          "attacks": 0,
+          "blocked": 0,
+          "deaths": 0,
+          "defends": 0,
+          "hp": 0.0,
+          "invalid": 0,
+          "moves": 0,
+          "qualified_M": 0,
+          "score": 0.0,
+          "seat": "D"
+        }
+      ],
+      "focal_result": {
+        "D": 0.0,
+        "M": 0,
+        "R": 0.0,
+        "attacks": 2,
+        "blocked": 0,
+        "deaths": 1,
+        "defends": 0,
+        "hp": 100.0,
+        "invalid": 0,
+        "moves": 0,
+        "qualified_M": 0,
+        "score": 0.0,
+        "seat": "A"
+      },
+      "rank": 2,
+      "win_share": 0.0,
+      "stationary_windows": 0,
+      "world": {
+        "cars": {
+          "A": {
+            "D": 0.0,
+            "R": 0.0,
+            "alive": true,
+            "attacks": 2,
+            "blocked": 0,
+            "capture": {},
+            "completed": [],
+            "deaths": 1,
+            "defends": 0,
+            "empowered": [],
+            "heal_amount": 0.0,
+            "heal_until": -1,
+            "high": 0,
+            "hp": 100.0,
+            "invalid": 0,
+            "last_action": {
+              "action": "wait",
+              "moved": false,
+              "tick": 204
+            },
+            "moves": 0,
+            "normal": 0,
+            "position": [
+              4,
+              4
+            ],
+            "position_reason": "respawn",
+            "protected": true,
+            "protected_left": 2,
+            "respawn_in": 0,
+            "reversed": [],
+            "vulnerable": []
+          },
+          "B": {
+            "D": 90.0,
+            "R": 0.0,
+            "alive": true,
+            "attacks": 5,
+            "blocked": 0,
+            "capture": {},
+            "completed": [],
+            "deaths": 0,
+            "defends": 0,
+            "empowered": [],
+            "heal_amount": 0.0,
+            "heal_until": -1,
+            "high": 0,
+            "hp": 60.0,
+            "invalid": 0,
+            "last_action": {
+              "action": "attack",
+              "moved": false,
+              "tick": 204
+            },
+            "moves": 0,
+            "normal": 0,
+            "position": [
+              5,
+              4
+            ],
+            "position_reason": "",
+            "protected": false,
+            "protected_left": 0,
+            "respawn_in": 0,
+            "reversed": [],
+            "vulnerable": []
+          },
+          "C": {
+            "D": 0.0,
+            "R": 0.0,
+            "alive": false,
+            "attacks": 0,
+            "blocked": 0,
+            "capture": {},
+            "completed": [],
+            "deaths": 0,
+            "defends": 0,
+            "empowered": [],
+            "heal_amount": 0.0,
+            "heal_until": -1,
+            "high": 0,
+            "hp": 0.0,
+            "invalid": 0,
+            "last_action": {
+              "action": "wait",
+              "moved": false,
+              "tick": 204
+            },
+            "moves": 0,
+            "normal": 0,
+            "position": [
+              0,
+              0
+            ],
+            "position_reason": "",
+            "protected": false,
+            "protected_left": 0,
+            "respawn_in": 999999995,
+            "reversed": [],
+            "vulnerable": []
+          },
+          "D": {
+            "D": 0.0,
+            "R": 0.0,
+            "alive": false,
+            "attacks": 0,
+            "blocked": 0,
+            "capture": {},
+            "completed": [],
+            "deaths": 0,
+            "defends": 0,
+            "empowered": [],
+            "heal_amount": 0.0,
+            "heal_until": -1,
+            "high": 0,
+            "hp": 0.0,
+            "invalid": 0,
+            "last_action": {
+              "action": "wait",
+              "moved": false,
+              "tick": 204
+            },
+            "moves": 0,
+            "normal": 0,
+            "position": [
+              8,
+              8
+            ],
+            "position_reason": "",
+            "protected": false,
+            "protected_left": 0,
+            "respawn_in": 999999995,
+            "reversed": [],
+            "vulnerable": []
+          }
+        },
+        "phase": "before_tick",
+        "resources": [],
+        "schema": 1,
+        "tick": 205
+      },
+      "timing": {
+        "A": {
+          "max_ms": 0.118288,
+          "p95_ms": 0.118288,
+          "over_500ms": 0
+        }
+      },
+      "event_observations": {
+        "A": {
+          "unique_delivered": 0,
+          "delivered_ids": [],
+          "gained_fortress": [],
+          "gained_heal": false,
+          "causal_effect": "not established by a single rollout"
+        }
+      }
+    },
+    {
+      "case_id": "resource-race-timeline",
+      "map_id": "resource_race_timeline",
+      "family": "deepseek_new_probe",
+      "mix": "script",
+      "focal": "A",
+      "candidate": "chatgpt",
+      "signature": "df2822c427b69595407c9fff37ae81c763ed6d85fd631f2a78a1e264b15de5bb",
+      "scene": {
+        "schema": 1,
+        "name": "resource-race-timeline",
+        "stage": 2,
+        "tick_limit": 500,
+        "qualified": true,
+        "seed": 17,
+        "map": {
+          "width": 9,
+          "height": 9,
+          "vision_radius": 4,
+          "walls": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              4,
+              3
+            ],
+            [
+              5,
+              3
+            ],
+            [
+              6,
+              3
+            ],
+            [
+              7,
+              3
+            ],
+            [
+              8,
+              3
+            ],
+            [
+              0,
+              5
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              5,
+              5
+            ],
+            [
+              6,
+              5
+            ],
+            [
+              7,
+              5
+            ],
+            [
+              8,
+              5
+            ]
+          ],
+          "spawns": [
+            [
+              1,
+              4
+            ],
+            [
+              7,
+              4
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              8,
+              8
+            ]
+          ]
+        },
+        "initial": {
+          "tick": 195,
+          "resources": [
+            {
+              "position": [
+                3,
+                4
+              ],
+              "value": 20
+            },
+            {
+              "position": [
+                5,
+                4
+              ],
+              "value": 100
+            }
+          ],
+          "cars": {
+            "A": {
+              "position": [
+                1,
+                4
+              ],
+              "hp": 100
+            },
+            "B": {
+              "position": [
+                7,
+                4
+              ],
+              "hp": 100
+            }
+          }
+        },
+        "missions": [],
+        "events": [],
+        "agents": {
+          "A": {
+            "type": "external",
+            "version": "chatgpt",
+            "event_delivery": "oracle"
+          },
+          "B": {
+            "type": "script",
+            "event_delivery": "oracle",
+            "actions": {
+              "195": {
+                "action": "move",
+                "direction": "left"
+              },
+              "196": {
+                "action": "move",
+                "direction": "left"
+              },
+              "197": {
+                "action": "move",
+                "direction": "left"
+              },
+              "198": {
+                "action": "move",
+                "direction": "left"
+              },
+              "199": {
+                "action": "move",
+                "direction": "left"
+              },
+              "200": {
+                "action": "move",
+                "direction": "left"
+              },
+              "201": {
+                "action": "move",
+                "direction": "left"
+              }
+            },
+            "otherwise": {
+              "action": "defend"
+            }
+          }
+        },
+        "run": {
+          "until_tick": 210,
+          "expect": []
+        }
+      },
+      "versions": {
+        "A": "chatgpt"
+      },
+      "engine_build_id": "b4280216ba4796631e41119e28b59f076a0155204f8c71aa60c1e13dbba2081a",
+      "status": "passed",
+      "scope": "offline; no live model/ROS",
+      "stop": "until_tick",
+      "failed_conditions": [],
+      "start_tick": 195,
+      "end_tick": 210,
+      "result": [
+        {
+          "D": 180.0,
+          "M": 0,
+          "R": 20.0,
+          "attacks": 7,
+          "blocked": 0,
+          "deaths": 0,
+          "defends": 0,
+          "hp": 100.0,
+          "invalid": 0,
+          "moves": 8,
+          "qualified_M": 0,
+          "score": 10.399999999999999,
+          "seat": "A"
+        },
+        {
+          "D": 0.0,
+          "M": 0,
+          "R": 100.0,
+          "attacks": 0,
+          "blocked": 3,
+          "deaths": 1,
+          "defends": 5,
+          "hp": 80.0,
+          "invalid": 0,
+          "moves": 3,
+          "qualified_M": 0,
+          "score": 25.0,
+          "seat": "B"
+        },
+        {
+          "D": 0.0,
+          "M": 0,
+          "R": 0.0,
+          "attacks": 0,
+          "blocked": 0,
+          "deaths": 0,
+          "defends": 0,
+          "hp": 0.0,
+          "invalid": 0,
+          "moves": 0,
+          "qualified_M": 0,
+          "score": 0.0,
+          "seat": "C"
+        },
+        {
+          "D": 0.0,
+          "M": 0,
+          "R": 0.0,
+          "attacks": 0,
+          "blocked": 0,
+          "deaths": 0,
+          "defends": 0,
+          "hp": 0.0,
+          "invalid": 0,
+          "moves": 0,
+          "qualified_M": 0,
+          "score": 0.0,
+          "seat": "D"
+        }
+      ],
+      "focal_result": {
+        "D": 180.0,
+        "M": 0,
+        "R": 20.0,
+        "attacks": 7,
+        "blocked": 0,
+        "deaths": 0,
+        "defends": 0,
+        "hp": 100.0,
+        "invalid": 0,
+        "moves": 8,
+        "qualified_M": 0,
+        "score": 10.399999999999999,
+        "seat": "A"
+      },
+      "rank": 2,
+      "win_share": 0.0,
+      "stationary_windows": 0,
+      "world": {
+        "cars": {
+          "A": {
+            "D": 180.0,
+            "R": 20.0,
+            "alive": true,
+            "attacks": 7,
+            "blocked": 0,
+            "capture": {},
+            "completed": [],
+            "deaths": 0,
+            "defends": 0,
+            "empowered": [],
+            "heal_amount": 0.0,
+            "heal_until": -1,
+            "high": 1,
+            "hp": 100.0,
+            "invalid": 0,
+            "last_action": {
+              "action": "attack",
+              "moved": false,
+              "tick": 209
+            },
+            "moves": 8,
+            "normal": 0,
+            "position": [
+              5,
+              4
+            ],
+            "position_reason": "",
+            "protected": false,
+            "protected_left": 0,
+            "respawn_in": 0,
+            "reversed": [],
+            "vulnerable": []
+          },
+          "B": {
+            "D": 0.0,
+            "R": 100.0,
+            "alive": true,
+            "attacks": 0,
+            "blocked": 3,
+            "capture": {},
+            "completed": [],
+            "deaths": 1,
+            "defends": 5,
+            "empowered": [],
+            "heal_amount": 0.0,
+            "heal_until": -1,
+            "high": 1,
+            "hp": 80.0,
+            "invalid": 0,
+            "last_action": {
+              "action": "defend",
+              "moved": false,
+              "tick": 209
+            },
+            "moves": 3,
+            "normal": 0,
+            "position": [
+              7,
+              4
+            ],
+            "position_reason": "",
+            "protected": false,
+            "protected_left": 0,
+            "respawn_in": 0,
+            "reversed": [],
+            "vulnerable": []
+          },
+          "C": {
+            "D": 0.0,
+            "R": 0.0,
+            "alive": false,
+            "attacks": 0,
+            "blocked": 0,
+            "capture": {},
+            "completed": [],
+            "deaths": 0,
+            "defends": 0,
+            "empowered": [],
+            "heal_amount": 0.0,
+            "heal_until": -1,
+            "high": 0,
+            "hp": 0.0,
+            "invalid": 0,
+            "last_action": {
+              "action": "wait",
+              "moved": false,
+              "tick": 209
+            },
+            "moves": 0,
+            "normal": 0,
+            "position": [
+              0,
+              0
+            ],
+            "position_reason": "",
+            "protected": false,
+            "protected_left": 0,
+            "respawn_in": 999999985,
+            "reversed": [],
+            "vulnerable": []
+          },
+          "D": {
+            "D": 0.0,
+            "R": 0.0,
+            "alive": false,
+            "attacks": 0,
+            "blocked": 0,
+            "capture": {},
+            "completed": [],
+            "deaths": 0,
+            "defends": 0,
+            "empowered": [],
+            "heal_amount": 0.0,
+            "heal_until": -1,
+            "high": 0,
+            "hp": 0.0,
+            "invalid": 0,
+            "last_action": {
+              "action": "wait",
+              "moved": false,
+              "tick": 209
+            },
+            "moves": 0,
+            "normal": 0,
+            "position": [
+              8,
+              8
+            ],
+            "position_reason": "",
+            "protected": false,
+            "protected_left": 0,
+            "respawn_in": 999999985,
+            "reversed": [],
+            "vulnerable": []
+          }
+        },
+        "phase": "before_tick",
+        "resources": [],
+        "schema": 1,
+        "tick": 210
+      },
+      "timing": {
+        "A": {
+          "max_ms": 0.082114,
+          "p95_ms": 0.082114,
+          "over_500ms": 0
+        }
+      },
+      "event_observations": {
+        "A": {
+          "unique_delivered": 0,
+          "delivered_ids": [],
+          "gained_fortress": [],
+          "gained_heal": false,
+          "causal_effect": "not established by a single rollout"
+        }
+      }
+    },
+    {
+      "case_id": "resource-race-timeline",
+      "map_id": "resource_race_timeline",
+      "family": "deepseek_new_probe",
+      "mix": "script",
+      "focal": "A",
+      "candidate": "deepseek",
+      "signature": "ae09a053384af898e32cef4bb8dc78106d28f6ac7054834c32bfb894441923e1",
+      "scene": {
+        "schema": 1,
+        "name": "resource-race-timeline",
+        "stage": 2,
+        "tick_limit": 500,
+        "qualified": true,
+        "seed": 17,
+        "map": {
+          "width": 9,
+          "height": 9,
+          "vision_radius": 4,
+          "walls": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              4,
+              3
+            ],
+            [
+              5,
+              3
+            ],
+            [
+              6,
+              3
+            ],
+            [
+              7,
+              3
+            ],
+            [
+              8,
+              3
+            ],
+            [
+              0,
+              5
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              5,
+              5
+            ],
+            [
+              6,
+              5
+            ],
+            [
+              7,
+              5
+            ],
+            [
+              8,
+              5
+            ]
+          ],
+          "spawns": [
+            [
+              1,
+              4
+            ],
+            [
+              7,
+              4
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              8,
+              8
+            ]
+          ]
+        },
+        "initial": {
+          "tick": 195,
+          "resources": [
+            {
+              "position": [
+                3,
+                4
+              ],
+              "value": 20
+            },
+            {
+              "position": [
+                5,
+                4
+              ],
+              "value": 100
+            }
+          ],
+          "cars": {
+            "A": {
+              "position": [
+                1,
+                4
+              ],
+              "hp": 100
+            },
+            "B": {
+              "position": [
+                7,
+                4
+              ],
+              "hp": 100
+            }
+          }
+        },
+        "missions": [],
+        "events": [],
+        "agents": {
+          "A": {
+            "type": "external",
+            "version": "deepseek",
+            "event_delivery": "oracle"
+          },
+          "B": {
+            "type": "script",
+            "event_delivery": "oracle",
+            "actions": {
+              "195": {
+                "action": "move",
+                "direction": "left"
+              },
+              "196": {
+                "action": "move",
+                "direction": "left"
+              },
+              "197": {
+                "action": "move",
+                "direction": "left"
+              },
+              "198": {
+                "action": "move",
+                "direction": "left"
+              },
+              "199": {
+                "action": "move",
+                "direction": "left"
+              },
+              "200": {
+                "action": "move",
+                "direction": "left"
+              },
+              "201": {
+                "action": "move",
+                "direction": "left"
+              }
+            },
+            "otherwise": {
+              "action": "defend"
+            }
+          }
+        },
+        "run": {
+          "until_tick": 210,
+          "expect": []
+        }
+      },
+      "versions": {
+        "A": "deepseek"
+      },
+      "engine_build_id": "b4280216ba4796631e41119e28b59f076a0155204f8c71aa60c1e13dbba2081a",
+      "status": "passed",
+      "scope": "offline; no live model/ROS",
+      "stop": "until_tick",
+      "failed_conditions": [],
+      "start_tick": 195,
+      "end_tick": 210,
+      "result": [
+        {
+          "D": 180.0,
+          "M": 0,
+          "R": 20.0,
+          "attacks": 7,
+          "blocked": 0,
+          "deaths": 0,
+          "defends": 0,
+          "hp": 100.0,
+          "invalid": 0,
+          "moves": 8,
+          "qualified_M": 0,
+          "score": 10.399999999999999,
+          "seat": "A"
+        },
+        {
+          "D": 0.0,
+          "M": 0,
+          "R": 100.0,
+          "attacks": 0,
+          "blocked": 3,
+          "deaths": 1,
+          "defends": 5,
+          "hp": 80.0,
+          "invalid": 0,
+          "moves": 3,
+          "qualified_M": 0,
+          "score": 25.0,
+          "seat": "B"
+        },
+        {
+          "D": 0.0,
+          "M": 0,
+          "R": 0.0,
+          "attacks": 0,
+          "blocked": 0,
+          "deaths": 0,
+          "defends": 0,
+          "hp": 0.0,
+          "invalid": 0,
+          "moves": 0,
+          "qualified_M": 0,
+          "score": 0.0,
+          "seat": "C"
+        },
+        {
+          "D": 0.0,
+          "M": 0,
+          "R": 0.0,
+          "attacks": 0,
+          "blocked": 0,
+          "deaths": 0,
+          "defends": 0,
+          "hp": 0.0,
+          "invalid": 0,
+          "moves": 0,
+          "qualified_M": 0,
+          "score": 0.0,
+          "seat": "D"
+        }
+      ],
+      "focal_result": {
+        "D": 180.0,
+        "M": 0,
+        "R": 20.0,
+        "attacks": 7,
+        "blocked": 0,
+        "deaths": 0,
+        "defends": 0,
+        "hp": 100.0,
+        "invalid": 0,
+        "moves": 8,
+        "qualified_M": 0,
+        "score": 10.399999999999999,
+        "seat": "A"
+      },
+      "rank": 2,
+      "win_share": 0.0,
+      "stationary_windows": 0,
+      "world": {
+        "cars": {
+          "A": {
+            "D": 180.0,
+            "R": 20.0,
+            "alive": true,
+            "attacks": 7,
+            "blocked": 0,
+            "capture": {},
+            "completed": [],
+            "deaths": 0,
+            "defends": 0,
+            "empowered": [],
+            "heal_amount": 0.0,
+            "heal_until": -1,
+            "high": 1,
+            "hp": 100.0,
+            "invalid": 0,
+            "last_action": {
+              "action": "attack",
+              "moved": false,
+              "tick": 209
+            },
+            "moves": 8,
+            "normal": 0,
+            "position": [
+              5,
+              4
+            ],
+            "position_reason": "",
+            "protected": false,
+            "protected_left": 0,
+            "respawn_in": 0,
+            "reversed": [],
+            "vulnerable": []
+          },
+          "B": {
+            "D": 0.0,
+            "R": 100.0,
+            "alive": true,
+            "attacks": 0,
+            "blocked": 3,
+            "capture": {},
+            "completed": [],
+            "deaths": 1,
+            "defends": 5,
+            "empowered": [],
+            "heal_amount": 0.0,
+            "heal_until": -1,
+            "high": 1,
+            "hp": 80.0,
+            "invalid": 0,
+            "last_action": {
+              "action": "defend",
+              "moved": false,
+              "tick": 209
+            },
+            "moves": 3,
+            "normal": 0,
+            "position": [
+              7,
+              4
+            ],
+            "position_reason": "",
+            "protected": false,
+            "protected_left": 0,
+            "respawn_in": 0,
+            "reversed": [],
+            "vulnerable": []
+          },
+          "C": {
+            "D": 0.0,
+            "R": 0.0,
+            "alive": false,
+            "attacks": 0,
+            "blocked": 0,
+            "capture": {},
+            "completed": [],
+            "deaths": 0,
+            "defends": 0,
+            "empowered": [],
+            "heal_amount": 0.0,
+            "heal_until": -1,
+            "high": 0,
+            "hp": 0.0,
+            "invalid": 0,
+            "last_action": {
+              "action": "wait",
+              "moved": false,
+              "tick": 209
+            },
+            "moves": 0,
+            "normal": 0,
+            "position": [
+              0,
+              0
+            ],
+            "position_reason": "",
+            "protected": false,
+            "protected_left": 0,
+            "respawn_in": 999999985,
+            "reversed": [],
+            "vulnerable": []
+          },
+          "D": {
+            "D": 0.0,
+            "R": 0.0,
+            "alive": false,
+            "attacks": 0,
+            "blocked": 0,
+            "capture": {},
+            "completed": [],
+            "deaths": 0,
+            "defends": 0,
+            "empowered": [],
+            "heal_amount": 0.0,
+            "heal_until": -1,
+            "high": 0,
+            "hp": 0.0,
+            "invalid": 0,
+            "last_action": {
+              "action": "wait",
+              "moved": false,
+              "tick": 209
+            },
+            "moves": 0,
+            "normal": 0,
+            "position": [
+              8,
+              8
+            ],
+            "position_reason": "",
+            "protected": false,
+            "protected_left": 0,
+            "respawn_in": 999999985,
+            "reversed": [],
+            "vulnerable": []
+          }
+        },
+        "phase": "before_tick",
+        "resources": [],
+        "schema": 1,
+        "tick": 210
+      },
+      "timing": {
+        "A": {
+          "max_ms": 0.170297,
+          "p95_ms": 0.170297,
+          "over_500ms": 0
+        }
+      },
+      "event_observations": {
+        "A": {
+          "unique_delivered": 0,
+          "delivered_ids": [],
+          "gained_fortress": [],
+          "gained_heal": false,
+          "causal_effect": "not established by a single rollout"
+        }
+      }
+    },
+    {
+      "case_id": "death-start-D200",
+      "map_id": "death-rule",
+      "family": "rule-distinguish",
+      "mix": "script",
+      "focal": "A",
+      "candidate": "chatgpt",
+      "signature": "b46c631c35800b5000e014ae0dbb11108dcc86ffb16f255619f5ea7487433f2a",
+      "scene": {
+        "schema": 1,
+        "name": "lowhp-retreat-probe",
+        "stage": 2,
+        "tick_limit": 500,
+        "qualified": true,
+        "seed": 17,
+        "map": {
+          "width": 9,
+          "height": 9,
+          "vision_radius": 4,
+          "walls": [],
+          "spawns": [
+            [
+              4,
+              4
+            ],
+            [
+              5,
+              4
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              8,
+              8
+            ]
+          ]
+        },
+        "initial": {
+          "tick": 200,
+          "resources": [],
+          "cars": {
+            "A": {
+              "position": [
+                4,
+                4
+              ],
+              "hp": 30,
+              "D": 200
+            },
+            "B": {
+              "position": [
+                5,
+                4
+              ],
+              "hp": 100
+            }
+          }
+        },
+        "missions": [],
+        "events": [],
+        "agents": {
+          "A": {
+            "type": "external",
+            "version": "chatgpt",
+            "event_delivery": "oracle"
+          },
+          "B": {
+            "type": "script",
+            "event_delivery": "oracle",
+            "actions": {
+              "200": {
+                "action": "attack",
+                "direction": "left"
+              },
+              "201": {
+                "action": "attack",
+                "direction": "left"
+              },
+              "202": {
+                "action": "attack",
+                "direction": "left"
+              },
+              "203": {
+                "action": "attack",
+                "direction": "left"
+              },
+              "204": {
+                "action": "attack",
+                "direction": "left"
+              }
+            },
+            "otherwise": {
+              "action": "defend"
+            }
+          }
+        },
+        "run": {
+          "until_tick": 202,
+          "expect": []
+        }
+      },
+      "versions": {
+        "A": "chatgpt"
+      },
+      "engine_build_id": "b4280216ba4796631e41119e28b59f076a0155204f8c71aa60c1e13dbba2081a",
+      "status": "passed",
+      "scope": "offline; no live model/ROS",
+      "stop": "until_tick",
+      "failed_conditions": [],
+      "start_tick": 200,
+      "end_tick": 202,
+      "result": [
+        {
+          "D": 180.0,
+          "M": 0,
+          "R": 0.0,
+          "attacks": 2,
+          "blocked": 0,
+          "deaths": 1,
+          "defends": 0,
+          "hp": 0.0,
+          "invalid": 0,
+          "moves": 0,
+          "qualified_M": 0,
+          "score": 5.3999999999999995,
+          "seat": "A"
+        },
+        {
+          "D": 90.0,
+          "M": 0,
+          "R": 0.0,
+          "attacks": 2,
+          "blocked": 0,
+          "deaths": 0,
+          "defends": 0,
+          "hp": 60.0,
+          "invalid": 0,
+          "moves": 0,
+          "qualified_M": 0,
+          "score": 2.6999999999999997,
+          "seat": "B"
+        },
+        {
+          "D": 0.0,
+          "M": 0,
+          "R": 0.0,
+          "attacks": 0,
+          "blocked": 0,
+          "deaths": 0,
+          "defends": 0,
+          "hp": 0.0,
+          "invalid": 0,
+          "moves": 0,
+          "qualified_M": 0,
+          "score": 0.0,
+          "seat": "C"
+        },
+        {
+          "D": 0.0,
+          "M": 0,
+          "R": 0.0,
+          "attacks": 0,
+          "blocked": 0,
+          "deaths": 0,
+          "defends": 0,
+          "hp": 0.0,
+          "invalid": 0,
+          "moves": 0,
+          "qualified_M": 0,
+          "score": 0.0,
+          "seat": "D"
+        }
+      ],
+      "focal_result": {
+        "D": 180.0,
+        "M": 0,
+        "R": 0.0,
+        "attacks": 2,
+        "blocked": 0,
+        "deaths": 1,
+        "defends": 0,
+        "hp": 0.0,
+        "invalid": 0,
+        "moves": 0,
+        "qualified_M": 0,
+        "score": 5.3999999999999995,
+        "seat": "A"
+      },
+      "rank": 1,
+      "win_share": 1.0,
+      "stationary_windows": 0,
+      "world": {
+        "cars": {
+          "A": {
+            "D": 180.0,
+            "R": 0.0,
+            "alive": false,
+            "attacks": 2,
+            "blocked": 0,
+            "capture": {},
+            "completed": [],
+            "deaths": 1,
+            "defends": 0,
+            "empowered": [],
+            "heal_amount": 0.0,
+            "heal_until": -1,
+            "high": 0,
+            "hp": 0.0,
+            "invalid": 0,
+            "last_action": {
+              "action": "attack",
+              "moved": false,
+              "tick": 201
+            },
+            "moves": 0,
+            "normal": 0,
+            "position": [
+              4,
+              4
+            ],
+            "position_reason": "",
+            "protected": false,
+            "protected_left": 0,
+            "respawn_in": 3,
+            "reversed": [],
+            "vulnerable": []
+          },
+          "B": {
+            "D": 90.0,
+            "R": 0.0,
+            "alive": true,
+            "attacks": 2,
+            "blocked": 0,
+            "capture": {},
+            "completed": [],
+            "deaths": 0,
+            "defends": 0,
+            "empowered": [],
+            "heal_amount": 0.0,
+            "heal_until": -1,
+            "high": 0,
+            "hp": 60.0,
+            "invalid": 0,
+            "last_action": {
+              "action": "attack",
+              "moved": false,
+              "tick": 201
+            },
+            "moves": 0,
+            "normal": 0,
+            "position": [
+              5,
+              4
+            ],
+            "position_reason": "",
+            "protected": false,
+            "protected_left": 0,
+            "respawn_in": 0,
+            "reversed": [],
+            "vulnerable": []
+          },
+          "C": {
+            "D": 0.0,
+            "R": 0.0,
+            "alive": false,
+            "attacks": 0,
+            "blocked": 0,
+            "capture": {},
+            "completed": [],
+            "deaths": 0,
+            "defends": 0,
+            "empowered": [],
+            "heal_amount": 0.0,
+            "heal_until": -1,
+            "high": 0,
+            "hp": 0.0,
+            "invalid": 0,
+            "last_action": {
+              "action": "wait",
+              "moved": false,
+              "tick": 201
+            },
+            "moves": 0,
+            "normal": 0,
+            "position": [
+              0,
+              0
+            ],
+            "position_reason": "",
+            "protected": false,
+            "protected_left": 0,
+            "respawn_in": 999999998,
+            "reversed": [],
+            "vulnerable": []
+          },
+          "D": {
+            "D": 0.0,
+            "R": 0.0,
+            "alive": false,
+            "attacks": 0,
+            "blocked": 0,
+            "capture": {},
+            "completed": [],
+            "deaths": 0,
+            "defends": 0,
+            "empowered": [],
+            "heal_amount": 0.0,
+            "heal_until": -1,
+            "high": 0,
+            "hp": 0.0,
+            "invalid": 0,
+            "last_action": {
+              "action": "wait",
+              "moved": false,
+              "tick": 201
+            },
+            "moves": 0,
+            "normal": 0,
+            "position": [
+              8,
+              8
+            ],
+            "position_reason": "",
+            "protected": false,
+            "protected_left": 0,
+            "respawn_in": 999999998,
+            "reversed": [],
+            "vulnerable": []
+          }
+        },
+        "phase": "before_tick",
+        "resources": [],
+        "schema": 1,
+        "tick": 202
+      },
+      "timing": {
+        "A": {
+          "max_ms": 0.084067,
+          "p95_ms": 0.084067,
+          "over_500ms": 0
+        }
+      },
+      "event_observations": {
+        "A": {
+          "unique_delivered": 0,
+          "delivered_ids": [],
+          "gained_fortress": [],
+          "gained_heal": false,
+          "causal_effect": "not established by a single rollout"
+        }
+      }
+    },
+    {
+      "case_id": "death-start-D200",
+      "map_id": "death-rule",
+      "family": "rule-distinguish",
+      "mix": "script",
+      "focal": "A",
+      "candidate": "deepseek",
+      "signature": "bec85229c32e7dfc252e5a66ca77a0fb623f7b91619ab29c34a47c1b27d7597b",
+      "scene": {
+        "schema": 1,
+        "name": "lowhp-retreat-probe",
+        "stage": 2,
+        "tick_limit": 500,
+        "qualified": true,
+        "seed": 17,
+        "map": {
+          "width": 9,
+          "height": 9,
+          "vision_radius": 4,
+          "walls": [],
+          "spawns": [
+            [
+              4,
+              4
+            ],
+            [
+              5,
+              4
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              8,
+              8
+            ]
+          ]
+        },
+        "initial": {
+          "tick": 200,
+          "resources": [],
+          "cars": {
+            "A": {
+              "position": [
+                4,
+                4
+              ],
+              "hp": 30,
+              "D": 200
+            },
+            "B": {
+              "position": [
+                5,
+                4
+              ],
+              "hp": 100
+            }
+          }
+        },
+        "missions": [],
+        "events": [],
+        "agents": {
+          "A": {
+            "type": "external",
+            "version": "deepseek",
+            "event_delivery": "oracle"
+          },
+          "B": {
+            "type": "script",
+            "event_delivery": "oracle",
+            "actions": {
+              "200": {
+                "action": "attack",
+                "direction": "left"
+              },
+              "201": {
+                "action": "attack",
+                "direction": "left"
+              },
+              "202": {
+                "action": "attack",
+                "direction": "left"
+              },
+              "203": {
+                "action": "attack",
+                "direction": "left"
+              },
+              "204": {
+                "action": "attack",
+                "direction": "left"
+              }
+            },
+            "otherwise": {
+              "action": "defend"
+            }
+          }
+        },
+        "run": {
+          "until_tick": 202,
+          "expect": []
+        }
+      },
+      "versions": {
+        "A": "deepseek"
+      },
+      "engine_build_id": "b4280216ba4796631e41119e28b59f076a0155204f8c71aa60c1e13dbba2081a",
+      "status": "passed",
+      "scope": "offline; no live model/ROS",
+      "stop": "until_tick",
+      "failed_conditions": [],
+      "start_tick": 200,
+      "end_tick": 202,
+      "result": [
+        {
+          "D": 180.0,
+          "M": 0,
+          "R": 0.0,
+          "attacks": 2,
+          "blocked": 0,
+          "deaths": 1,
+          "defends": 0,
+          "hp": 0.0,
+          "invalid": 0,
+          "moves": 0,
+          "qualified_M": 0,
+          "score": 5.3999999999999995,
+          "seat": "A"
+        },
+        {
+          "D": 90.0,
+          "M": 0,
+          "R": 0.0,
+          "attacks": 2,
+          "blocked": 0,
+          "deaths": 0,
+          "defends": 0,
+          "hp": 60.0,
+          "invalid": 0,
+          "moves": 0,
+          "qualified_M": 0,
+          "score": 2.6999999999999997,
+          "seat": "B"
+        },
+        {
+          "D": 0.0,
+          "M": 0,
+          "R": 0.0,
+          "attacks": 0,
+          "blocked": 0,
+          "deaths": 0,
+          "defends": 0,
+          "hp": 0.0,
+          "invalid": 0,
+          "moves": 0,
+          "qualified_M": 0,
+          "score": 0.0,
+          "seat": "C"
+        },
+        {
+          "D": 0.0,
+          "M": 0,
+          "R": 0.0,
+          "attacks": 0,
+          "blocked": 0,
+          "deaths": 0,
+          "defends": 0,
+          "hp": 0.0,
+          "invalid": 0,
+          "moves": 0,
+          "qualified_M": 0,
+          "score": 0.0,
+          "seat": "D"
+        }
+      ],
+      "focal_result": {
+        "D": 180.0,
+        "M": 0,
+        "R": 0.0,
+        "attacks": 2,
+        "blocked": 0,
+        "deaths": 1,
+        "defends": 0,
+        "hp": 0.0,
+        "invalid": 0,
+        "moves": 0,
+        "qualified_M": 0,
+        "score": 5.3999999999999995,
+        "seat": "A"
+      },
+      "rank": 1,
+      "win_share": 1.0,
+      "stationary_windows": 0,
+      "world": {
+        "cars": {
+          "A": {
+            "D": 180.0,
+            "R": 0.0,
+            "alive": false,
+            "attacks": 2,
+            "blocked": 0,
+            "capture": {},
+            "completed": [],
+            "deaths": 1,
+            "defends": 0,
+            "empowered": [],
+            "heal_amount": 0.0,
+            "heal_until": -1,
+            "high": 0,
+            "hp": 0.0,
+            "invalid": 0,
+            "last_action": {
+              "action": "attack",
+              "moved": false,
+              "tick": 201
+            },
+            "moves": 0,
+            "normal": 0,
+            "position": [
+              4,
+              4
+            ],
+            "position_reason": "",
+            "protected": false,
+            "protected_left": 0,
+            "respawn_in": 3,
+            "reversed": [],
+            "vulnerable": []
+          },
+          "B": {
+            "D": 90.0,
+            "R": 0.0,
+            "alive": true,
+            "attacks": 2,
+            "blocked": 0,
+            "capture": {},
+            "completed": [],
+            "deaths": 0,
+            "defends": 0,
+            "empowered": [],
+            "heal_amount": 0.0,
+            "heal_until": -1,
+            "high": 0,
+            "hp": 60.0,
+            "invalid": 0,
+            "last_action": {
+              "action": "attack",
+              "moved": false,
+              "tick": 201
+            },
+            "moves": 0,
+            "normal": 0,
+            "position": [
+              5,
+              4
+            ],
+            "position_reason": "",
+            "protected": false,
+            "protected_left": 0,
+            "respawn_in": 0,
+            "reversed": [],
+            "vulnerable": []
+          },
+          "C": {
+            "D": 0.0,
+            "R": 0.0,
+            "alive": false,
+            "attacks": 0,
+            "blocked": 0,
+            "capture": {},
+            "completed": [],
+            "deaths": 0,
+            "defends": 0,
+            "empowered": [],
+            "heal_amount": 0.0,
+            "heal_until": -1,
+            "high": 0,
+            "hp": 0.0,
+            "invalid": 0,
+            "last_action": {
+              "action": "wait",
+              "moved": false,
+              "tick": 201
+            },
+            "moves": 0,
+            "normal": 0,
+            "position": [
+              0,
+              0
+            ],
+            "position_reason": "",
+            "protected": false,
+            "protected_left": 0,
+            "respawn_in": 999999998,
+            "reversed": [],
+            "vulnerable": []
+          },
+          "D": {
+            "D": 0.0,
+            "R": 0.0,
+            "alive": false,
+            "attacks": 0,
+            "blocked": 0,
+            "capture": {},
+            "completed": [],
+            "deaths": 0,
+            "defends": 0,
+            "empowered": [],
+            "heal_amount": 0.0,
+            "heal_until": -1,
+            "high": 0,
+            "hp": 0.0,
+            "invalid": 0,
+            "last_action": {
+              "action": "wait",
+              "moved": false,
+              "tick": 201
+            },
+            "moves": 0,
+            "normal": 0,
+            "position": [
+              8,
+              8
+            ],
+            "position_reason": "",
+            "protected": false,
+            "protected_left": 0,
+            "respawn_in": 999999998,
+            "reversed": [],
+            "vulnerable": []
+          }
+        },
+        "phase": "before_tick",
+        "resources": [],
+        "schema": 1,
+        "tick": 202
+      },
+      "timing": {
+        "A": {
+          "max_ms": 0.109305,
+          "p95_ms": 0.109305,
+          "over_500ms": 0
+        }
+      },
+      "event_observations": {
+        "A": {
+          "unique_delivered": 0,
+          "delivered_ids": [],
+          "gained_fortress": [],
+          "gained_heal": false,
+          "causal_effect": "not established by a single rollout"
+        }
+      }
+    },
+    {
+      "case_id": "lowhp-early-exit",
+      "map_id": "lowhp_retreat_probe",
+      "family": "deepseek_new_probe",
+      "mix": "script",
+      "focal": "A",
+      "candidate": "chatgpt",
+      "signature": "bc25dfcd1987d0561bee4b7b81f7ebb73f8d5df950ebdd65660c663deddda850",
+      "scene": {
+        "schema": 1,
+        "name": "lowhp-retreat-probe",
+        "stage": 2,
+        "tick_limit": 500,
+        "qualified": true,
+        "seed": 17,
+        "map": {
+          "width": 9,
+          "height": 9,
+          "vision_radius": 4,
+          "walls": [],
+          "spawns": [
+            [
+              4,
+              4
+            ],
+            [
+              5,
+              4
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              8,
+              8
+            ]
+          ]
+        },
+        "initial": {
+          "tick": 200,
+          "resources": [],
+          "cars": {
+            "A": {
+              "position": [
+                4,
+                4
+              ],
+              "hp": 30
+            },
+            "B": {
+              "position": [
+                5,
+                4
+              ],
+              "hp": 100
+            }
+          }
+        },
+        "missions": [],
+        "events": [],
+        "agents": {
+          "A": {
+            "type": "script",
+            "event_delivery": "oracle",
+            "actions": {
+              "200": {
+                "action": "move",
+                "direction": "up"
+              }
+            },
+            "otherwise": {
+              "action": "defend"
+            }
+          },
+          "B": {
+            "type": "script",
+            "event_delivery": "oracle",
+            "actions": {
+              "200": {
+                "action": "attack",
+                "direction": "left"
+              },
+              "201": {
+                "action": "attack",
+                "direction": "left"
+              },
+              "202": {
+                "action": "attack",
+                "direction": "left"
+              },
+              "203": {
+                "action": "attack",
+                "direction": "left"
+              },
+              "204": {
+                "action": "attack",
+                "direction": "left"
+              }
+            },
+            "otherwise": {
+              "action": "defend"
+            }
+          }
+        },
+        "run": {
+          "until_tick": 205,
+          "expect": []
+        }
+      },
+      "versions": {},
+      "engine_build_id": "b4280216ba4796631e41119e28b59f076a0155204f8c71aa60c1e13dbba2081a",
+      "status": "passed",
+      "scope": "offline; no live model/ROS",
+      "stop": "until_tick",
+      "failed_conditions": [],
+      "start_tick": 200,
+      "end_tick": 205,
+      "result": [
+        {
+          "D": 0.0,
+          "M": 0,
+          "R": 0.0,
+          "attacks": 0,
+          "blocked": 0,
+          "deaths": 0,
+          "defends": 4,
+          "hp": 10.0,
+          "invalid": 0,
+          "moves": 1,
+          "qualified_M": 0,
+          "score": 0.0,
+          "seat": "A"
+        },
+        {
+          "D": 20.0,
+          "M": 0,
+          "R": 0.0,
+          "attacks": 5,
+          "blocked": 0,
+          "deaths": 0,
+          "defends": 0,
+          "hp": 100.0,
+          "invalid": 0,
+          "moves": 0,
+          "qualified_M": 0,
+          "score": 0.6,
+          "seat": "B"
+        },
+        {
+          "D": 0.0,
+          "M": 0,
+          "R": 0.0,
+          "attacks": 0,
+          "blocked": 0,
+          "deaths": 0,
+          "defends": 0,
+          "hp": 0.0,
+          "invalid": 0,
+          "moves": 0,
+          "qualified_M": 0,
+          "score": 0.0,
+          "seat": "C"
+        },
+        {
+          "D": 0.0,
+          "M": 0,
+          "R": 0.0,
+          "attacks": 0,
+          "blocked": 0,
+          "deaths": 0,
+          "defends": 0,
+          "hp": 0.0,
+          "invalid": 0,
+          "moves": 0,
+          "qualified_M": 0,
+          "score": 0.0,
+          "seat": "D"
+        }
+      ],
+      "focal_result": {
+        "D": 0.0,
+        "M": 0,
+        "R": 0.0,
+        "attacks": 0,
+        "blocked": 0,
+        "deaths": 0,
+        "defends": 4,
+        "hp": 10.0,
+        "invalid": 0,
+        "moves": 1,
+        "qualified_M": 0,
+        "score": 0.0,
+        "seat": "A"
+      },
+      "rank": 2,
+      "win_share": 0.0,
+      "stationary_windows": 0,
+      "world": {
+        "cars": {
+          "A": {
+            "D": 0.0,
+            "R": 0.0,
+            "alive": true,
+            "attacks": 0,
+            "blocked": 0,
+            "capture": {},
+            "completed": [],
+            "deaths": 0,
+            "defends": 4,
+            "empowered": [],
+            "heal_amount": 0.0,
+            "heal_until": -1,
+            "high": 0,
+            "hp": 10.0,
+            "invalid": 0,
+            "last_action": {
+              "action": "defend",
+              "moved": false,
+              "tick": 204
+            },
+            "moves": 1,
+            "normal": 0,
+            "position": [
+              4,
+              3
+            ],
+            "position_reason": "",
+            "protected": false,
+            "protected_left": 0,
+            "respawn_in": 0,
+            "reversed": [],
+            "vulnerable": []
+          },
+          "B": {
+            "D": 20.0,
+            "R": 0.0,
+            "alive": true,
+            "attacks": 5,
+            "blocked": 0,
+            "capture": {},
+            "completed": [],
+            "deaths": 0,
+            "defends": 0,
+            "empowered": [],
+            "heal_amount": 0.0,
+            "heal_until": -1,
+            "high": 0,
+            "hp": 100.0,
+            "invalid": 0,
+            "last_action": {
+              "action": "attack",
+              "moved": false,
+              "tick": 204
+            },
+            "moves": 0,
+            "normal": 0,
+            "position": [
+              5,
+              4
+            ],
+            "position_reason": "",
+            "protected": false,
+            "protected_left": 0,
+            "respawn_in": 0,
+            "reversed": [],
+            "vulnerable": []
+          },
+          "C": {
+            "D": 0.0,
+            "R": 0.0,
+            "alive": false,
+            "attacks": 0,
+            "blocked": 0,
+            "capture": {},
+            "completed": [],
+            "deaths": 0,
+            "defends": 0,
+            "empowered": [],
+            "heal_amount": 0.0,
+            "heal_until": -1,
+            "high": 0,
+            "hp": 0.0,
+            "invalid": 0,
+            "last_action": {
+              "action": "wait",
+              "moved": false,
+              "tick": 204
+            },
+            "moves": 0,
+            "normal": 0,
+            "position": [
+              0,
+              0
+            ],
+            "position_reason": "",
+            "protected": false,
+            "protected_left": 0,
+            "respawn_in": 999999995,
+            "reversed": [],
+            "vulnerable": []
+          },
+          "D": {
+            "D": 0.0,
+            "R": 0.0,
+            "alive": false,
+            "attacks": 0,
+            "blocked": 0,
+            "capture": {},
+            "completed": [],
+            "deaths": 0,
+            "defends": 0,
+            "empowered": [],
+            "heal_amount": 0.0,
+            "heal_until": -1,
+            "high": 0,
+            "hp": 0.0,
+            "invalid": 0,
+            "last_action": {
+              "action": "wait",
+              "moved": false,
+              "tick": 204
+            },
+            "moves": 0,
+            "normal": 0,
+            "position": [
+              8,
+              8
+            ],
+            "position_reason": "",
+            "protected": false,
+            "protected_left": 0,
+            "respawn_in": 999999995,
+            "reversed": [],
+            "vulnerable": []
+          }
+        },
+        "phase": "before_tick",
+        "resources": [],
+        "schema": 1,
+        "tick": 205
+      },
+      "timing": {},
+      "event_observations": {}
+    },
+    {
+      "case_id": "lowhp-early-exit",
+      "map_id": "lowhp_retreat_probe",
+      "family": "deepseek_new_probe",
+      "mix": "script",
+      "focal": "A",
+      "candidate": "deepseek",
+      "signature": "f76c7299c168b274c0ea93c42d5883e879bf36274539270c1b14476963a4f47c",
+      "scene": {
+        "schema": 1,
+        "name": "lowhp-retreat-probe",
+        "stage": 2,
+        "tick_limit": 500,
+        "qualified": true,
+        "seed": 17,
+        "map": {
+          "width": 9,
+          "height": 9,
+          "vision_radius": 4,
+          "walls": [],
+          "spawns": [
+            [
+              4,
+              4
+            ],
+            [
+              5,
+              4
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              8,
+              8
+            ]
+          ]
+        },
+        "initial": {
+          "tick": 200,
+          "resources": [],
+          "cars": {
+            "A": {
+              "position": [
+                4,
+                4
+              ],
+              "hp": 30
+            },
+            "B": {
+              "position": [
+                5,
+                4
+              ],
+              "hp": 100
+            }
+          }
+        },
+        "missions": [],
+        "events": [],
+        "agents": {
+          "A": {
+            "type": "script",
+            "event_delivery": "oracle",
+            "actions": {
+              "200": {
+                "action": "move",
+                "direction": "up"
+              }
+            },
+            "otherwise": {
+              "action": "defend"
+            }
+          },
+          "B": {
+            "type": "script",
+            "event_delivery": "oracle",
+            "actions": {
+              "200": {
+                "action": "attack",
+                "direction": "left"
+              },
+              "201": {
+                "action": "attack",
+                "direction": "left"
+              },
+              "202": {
+                "action": "attack",
+                "direction": "left"
+              },
+              "203": {
+                "action": "attack",
+                "direction": "left"
+              },
+              "204": {
+                "action": "attack",
+                "direction": "left"
+              }
+            },
+            "otherwise": {
+              "action": "defend"
+            }
+          }
+        },
+        "run": {
+          "until_tick": 205,
+          "expect": []
+        }
+      },
+      "versions": {},
+      "engine_build_id": "b4280216ba4796631e41119e28b59f076a0155204f8c71aa60c1e13dbba2081a",
+      "status": "passed",
+      "scope": "offline; no live model/ROS",
+      "stop": "until_tick",
+      "failed_conditions": [],
+      "start_tick": 200,
+      "end_tick": 205,
+      "result": [
+        {
+          "D": 0.0,
+          "M": 0,
+          "R": 0.0,
+          "attacks": 0,
+          "blocked": 0,
+          "deaths": 0,
+          "defends": 4,
+          "hp": 10.0,
+          "invalid": 0,
+          "moves": 1,
+          "qualified_M": 0,
+          "score": 0.0,
+          "seat": "A"
+        },
+        {
+          "D": 20.0,
+          "M": 0,
+          "R": 0.0,
+          "attacks": 5,
+          "blocked": 0,
+          "deaths": 0,
+          "defends": 0,
+          "hp": 100.0,
+          "invalid": 0,
+          "moves": 0,
+          "qualified_M": 0,
+          "score": 0.6,
+          "seat": "B"
+        },
+        {
+          "D": 0.0,
+          "M": 0,
+          "R": 0.0,
+          "attacks": 0,
+          "blocked": 0,
+          "deaths": 0,
+          "defends": 0,
+          "hp": 0.0,
+          "invalid": 0,
+          "moves": 0,
+          "qualified_M": 0,
+          "score": 0.0,
+          "seat": "C"
+        },
+        {
+          "D": 0.0,
+          "M": 0,
+          "R": 0.0,
+          "attacks": 0,
+          "blocked": 0,
+          "deaths": 0,
+          "defends": 0,
+          "hp": 0.0,
+          "invalid": 0,
+          "moves": 0,
+          "qualified_M": 0,
+          "score": 0.0,
+          "seat": "D"
+        }
+      ],
+      "focal_result": {
+        "D": 0.0,
+        "M": 0,
+        "R": 0.0,
+        "attacks": 0,
+        "blocked": 0,
+        "deaths": 0,
+        "defends": 4,
+        "hp": 10.0,
+        "invalid": 0,
+        "moves": 1,
+        "qualified_M": 0,
+        "score": 0.0,
+        "seat": "A"
+      },
+      "rank": 2,
+      "win_share": 0.0,
+      "stationary_windows": 0,
+      "world": {
+        "cars": {
+          "A": {
+            "D": 0.0,
+            "R": 0.0,
+            "alive": true,
+            "attacks": 0,
+            "blocked": 0,
+            "capture": {},
+            "completed": [],
+            "deaths": 0,
+            "defends": 4,
+            "empowered": [],
+            "heal_amount": 0.0,
+            "heal_until": -1,
+            "high": 0,
+            "hp": 10.0,
+            "invalid": 0,
+            "last_action": {
+              "action": "defend",
+              "moved": false,
+              "tick": 204
+            },
+            "moves": 1,
+            "normal": 0,
+            "position": [
+              4,
+              3
+            ],
+            "position_reason": "",
+            "protected": false,
+            "protected_left": 0,
+            "respawn_in": 0,
+            "reversed": [],
+            "vulnerable": []
+          },
+          "B": {
+            "D": 20.0,
+            "R": 0.0,
+            "alive": true,
+            "attacks": 5,
+            "blocked": 0,
+            "capture": {},
+            "completed": [],
+            "deaths": 0,
+            "defends": 0,
+            "empowered": [],
+            "heal_amount": 0.0,
+            "heal_until": -1,
+            "high": 0,
+            "hp": 100.0,
+            "invalid": 0,
+            "last_action": {
+              "action": "attack",
+              "moved": false,
+              "tick": 204
+            },
+            "moves": 0,
+            "normal": 0,
+            "position": [
+              5,
+              4
+            ],
+            "position_reason": "",
+            "protected": false,
+            "protected_left": 0,
+            "respawn_in": 0,
+            "reversed": [],
+            "vulnerable": []
+          },
+          "C": {
+            "D": 0.0,
+            "R": 0.0,
+            "alive": false,
+            "attacks": 0,
+            "blocked": 0,
+            "capture": {},
+            "completed": [],
+            "deaths": 0,
+            "defends": 0,
+            "empowered": [],
+            "heal_amount": 0.0,
+            "heal_until": -1,
+            "high": 0,
+            "hp": 0.0,
+            "invalid": 0,
+            "last_action": {
+              "action": "wait",
+              "moved": false,
+              "tick": 204
+            },
+            "moves": 0,
+            "normal": 0,
+            "position": [
+              0,
+              0
+            ],
+            "position_reason": "",
+            "protected": false,
+            "protected_left": 0,
+            "respawn_in": 999999995,
+            "reversed": [],
+            "vulnerable": []
+          },
+          "D": {
+            "D": 0.0,
+            "R": 0.0,
+            "alive": false,
+            "attacks": 0,
+            "blocked": 0,
+            "capture": {},
+            "completed": [],
+            "deaths": 0,
+            "defends": 0,
+            "empowered": [],
+            "heal_amount": 0.0,
+            "heal_until": -1,
+            "high": 0,
+            "hp": 0.0,
+            "invalid": 0,
+            "last_action": {
+              "action": "wait",
+              "moved": false,
+              "tick": 204
+            },
+            "moves": 0,
+            "normal": 0,
+            "position": [
+              8,
+              8
+            ],
+            "position_reason": "",
+            "protected": false,
+            "protected_left": 0,
+            "respawn_in": 999999995,
+            "reversed": [],
+            "vulnerable": []
+          }
+        },
+        "phase": "before_tick",
+        "resources": [],
+        "schema": 1,
+        "tick": 205
+      },
+      "timing": {},
+      "event_observations": {}
+    }
+  ]
+}

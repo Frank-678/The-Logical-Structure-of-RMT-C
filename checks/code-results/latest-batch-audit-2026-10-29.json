@@ -1,0 +1,118 @@
+{
+  "head": "58ed0cada3cf21adc3e62c0a4abffc1e5110b99b",
+  "rows": [
+    {
+      "session": "practice-202f5d10aac54ea3811a5c1fbd9b245e",
+      "rank": 1,
+      "score": 57.5,
+      "R": 110.0,
+      "D": 1505.0,
+      "M": 3,
+      "ai_success": 70,
+      "ai_fail": 0,
+      "config_walls": 6,
+      "actual_static_walls": 6,
+      "same_walls": true
+    },
+    {
+      "session": "practice-329a6c199fd84a7598750ea9390004fe",
+      "rank": 1,
+      "score": 45.0,
+      "R": 60.0,
+      "D": 1200.0,
+      "M": 3,
+      "ai_success": 85,
+      "ai_fail": 0,
+      "config_walls": 6,
+      "actual_static_walls": 6,
+      "same_walls": true
+    },
+    {
+      "session": "practice-592341bce22f44e5ba6d19034a4fdfea",
+      "rank": 1,
+      "score": 45.0,
+      "R": 60.0,
+      "D": 560.0,
+      "M": 3,
+      "ai_success": 26,
+      "ai_fail": 0,
+      "config_walls": 6,
+      "actual_static_walls": 6,
+      "same_walls": true
+    },
+    {
+      "session": "practice-941ca351a4dd4252b4c61890e326da82",
+      "rank": 1,
+      "score": 60.0,
+      "R": 120.0,
+      "D": 1155.0,
+      "M": 3,
+      "ai_success": 80,
+      "ai_fail": 0,
+      "config_walls": 6,
+      "actual_static_walls": 6,
+      "same_walls": true
+    },
+    {
+      "session": "practice-958b322f4bc24611a778519593c522bb",
+      "rank": 4,
+      "score": 30.0,
+      "R": 20.0,
+      "D": 1160.0,
+      "M": 2,
+      "ai_success": 37,
+      "ai_fail": 0,
+      "config_walls": 6,
+      "actual_static_walls": 6,
+      "same_walls": true
+    },
+    {
+      "session": "practice-9d486e108006413891d8740772984f82",
+      "rank": 3,
+      "score": 37.5,
+      "R": 50.0,
+      "D": 1245.0,
+      "M": 2,
+      "ai_success": 73,
+      "ai_fail": 0,
+      "config_walls": 6,
+      "actual_static_walls": 6,
+      "same_walls": true
+    },
+    {
+      "session": "practice-ab24664557f94c018652953db64970a2",
+      "rank": 1,
+      "score": 45.0,
+      "R": 60.0,
+      "D": 1320.0,
+      "M": 3,
+      "ai_success": 43,
+      "ai_fail": 0,
+      "config_walls": 6,
+      "actual_static_walls": 6,
+      "same_walls": true
+    },
+    {
+      "session": "practice-bd4313193ca34d228309787b1ff03797",
+      "rank": 1,
+      "score": 47.5,
+      "R": 70.0,
+      "D": 970.0,
+      "M": 3,
+      "ai_success": 46,
+      "ai_fail": 0,
+      "config_walls": 6,
+      "actual_static_walls": 6,
+      "same_walls": true
+    }
+  ],
+  "mean_score": 45.9375,
+  "wins": 6,
+  "ai_success": 460,
+  "unique_static_maps": 4,
+  "spawn_groups": 4,
+  "same_config_sessions": [
+    "practice-9d486e108006413891d8740772984f82",
+    "practice-958b322f4bc24611a778519593c522bb"
+  ]
+}

@@ -1,0 +1,3448 @@
+{
+  "scope": "offline custom referee; no paid model/ROS matches",
+  "family": "late_empty",
+  "rows": [
+    {
+      "case_id": "late_empty-A-economy",
+      "map_id": "late_empty-20261040",
+      "family": "late_empty",
+      "mix": "economy",
+      "focal": "A",
+      "candidate": "chatgpt",
+      "signature": "751c29de4436d5df65f5e15bb0826f79ae894300e198970aeaa97951ccea2d2b",
+      "versions": {
+        "A": "chatgpt"
+      },
+      "status": "passed",
+      "stop": "until_tick",
+      "failed_conditions": [],
+      "start_tick": 200,
+      "end_tick": 500,
+      "result": [
+        {
+          "D": 1000.0,
+          "M": 3,
+          "R": 40.0,
+          "attacks": 21,
+          "blocked": 6,
+          "deaths": 1,
+          "defends": 29,
+          "hp": 100.0,
+          "invalid": 0,
+          "moves": 241,
+          "qualified_M": 3,
+          "score": 40.0,
+          "seat": "A"
+        },
+        {
+          "D": 510.0,
+          "M": 2,
+          "R": 40.0,
+          "attacks": 18,
+          "blocked": 1,
+          "deaths": 3,
+          "defends": 66,
+          "hp": 20.0,
+          "invalid": 0,
+          "moves": 205,
+          "qualified_M": 2,
+          "score": 35.0,
+          "seat": "B"
+        },
+        {
+          "D": 660.0,
+          "M": 3,
+          "R": 40.0,
+          "attacks": 19,
+          "blocked": 1,
+          "deaths": 2,
+          "defends": 44,
+          "hp": 20.0,
+          "invalid": 0,
+          "moves": 230,
+          "qualified_M": 3,
+          "score": 40.0,
+          "seat": "C"
+        },
+        {
+          "D": 210.0,
+          "M": 3,
+          "R": 40.0,
+          "attacks": 2,
+          "blocked": 6,
+          "deaths": 4,
+          "defends": 2,
+          "hp": 80.0,
+          "invalid": 0,
+          "moves": 274,
+          "qualified_M": 3,
+          "score": 31.3,
+          "seat": "D"
+        }
+      ],
+      "focal_result": {
+        "D": 1000.0,
+        "M": 3,
+        "R": 40.0,
+        "attacks": 21,
+        "blocked": 6,
+        "deaths": 1,
+        "defends": 29,
+        "hp": 100.0,
+        "invalid": 0,
+        "moves": 241,
+        "qualified_M": 3,
+        "score": 40.0,
+        "seat": "A"
+      },
+      "rank": 1,
+      "win_share": 1.0,
+      "stationary_windows": 12,
+      "timing": {
+        "A": {
+          "max_ms": 2.080312,
+          "p95_ms": 1.252822,
+          "over_500ms": 0
+        }
+      },
+      "event_observations": {
+        "A": {
+          "unique_delivered": 6,
+          "delivered_ids": [
+            "chili",
+            "explosion",
+            "fortress",
+            "heal",
+            "illusion",
+            "split"
+          ],
+          "gained_fortress": [
+            "fortress"
+          ],
+          "gained_heal": false,
+          "causal_effect": "not established by a single rollout"
+        }
+      }
+    },
+    {
+      "case_id": "late_empty-A-economy",
+      "map_id": "late_empty-20261040",
+      "family": "late_empty",
+      "mix": "economy",
+      "focal": "A",
+      "candidate": "deepseek",
+      "signature": "6b85f415409093fe9865a40076d2e008c9d62244abcde651bd7164eea45f9036",
+      "versions": {
+        "A": "deepseek"
+      },
+      "status": "passed",
+      "stop": "until_tick",
+      "failed_conditions": [],
+      "start_tick": 200,
+      "end_tick": 500,
+      "result": [
+        {
+          "D": 1280.0,
+          "M": 3,
+          "R": 40.0,
+          "attacks": 28,
+          "blocked": 5,
+          "deaths": 3,
+          "defends": 10,
+          "hp": 100.0,
+          "invalid": 0,
+          "moves": 248,
+          "qualified_M": 3,
+          "score": 40.0,
+          "seat": "A"
+        },
+        {
+          "D": 460.0,
+          "M": 2,
+          "R": 40.0,
+          "attacks": 17,
+          "blocked": 0,
+          "deaths": 5,
+          "defends": 2,
+          "hp": 40.0,
+          "invalid": 0,
+          "moves": 264,
+          "qualified_M": 2,
+          "score": 33.8,
+          "seat": "B"
+        },
+        {
+          "D": 400.0,
+          "M": 3,
+          "R": 40.0,
+          "attacks": 9,
+          "blocked": 0,
+          "deaths": 2,
+          "defends": 1,
+          "hp": 100.0,
+          "invalid": 0,
+          "moves": 284,
+          "qualified_M": 3,
+          "score": 37.0,
+          "seat": "C"
+        },
+        {
+          "D": 240.0,
+          "M": 3,
+          "R": 40.0,
+          "attacks": 0,
+          "blocked": 5,
+          "deaths": 1,
+          "defends": 1,
+          "hp": 80.0,
+          "invalid": 0,
+          "moves": 290,
+          "qualified_M": 3,
+          "score": 32.2,
+          "seat": "D"
+        }
+      ],
+      "focal_result": {
+        "D": 1280.0,
+        "M": 3,
+        "R": 40.0,
+        "attacks": 28,
+        "blocked": 5,
+        "deaths": 3,
+        "defends": 10,
+        "hp": 100.0,
+        "invalid": 0,
+        "moves": 248,
+        "qualified_M": 3,
+        "score": 40.0,
+        "seat": "A"
+      },
+      "rank": 1,
+      "win_share": 1.0,
+      "stationary_windows": 0,
+      "timing": {
+        "A": {
+          "max_ms": 1.992048,
+          "p95_ms": 0.746027,
+          "over_500ms": 0
+        }
+      },
+      "event_observations": {
+        "A": {
+          "unique_delivered": 6,
+          "delivered_ids": [
+            "chili",
+            "explosion",
+            "fortress",
+            "heal",
+            "illusion",
+            "split"
+          ],
+          "gained_fortress": [
+            "fortress"
+          ],
+          "gained_heal": false,
+          "causal_effect": "not established by a single rollout"
+        }
+      }
+    },
+    {
+      "case_id": "late_empty-A-pressure",
+      "map_id": "late_empty-20261040",
+      "family": "late_empty",
+      "mix": "pressure",
+      "focal": "A",
+      "candidate": "chatgpt",
+      "signature": "dd3eb325e105c5cb91e3a3f95d932b366f26adf1ef031350e9cf56af65e2a2fa",
+      "versions": {
+        "A": "chatgpt"
+      },
+      "status": "passed",
+      "stop": "until_tick",
+      "failed_conditions": [],
+      "start_tick": 200,
+      "end_tick": 500,
+      "result": [
+        {
+          "D": 1120.0,
+          "M": 3,
+          "R": 40.0,
+          "attacks": 29,
+          "blocked": 5,
+          "deaths": 3,
+          "defends": 10,
+          "hp": 20.0,
+          "invalid": 0,
+          "moves": 247,
+          "qualified_M": 3,
+          "score": 40.0,
+          "seat": "A"
+        },
+        {
+          "D": 1100.0,
+          "M": 3,
+          "R": 40.0,
+          "attacks": 47,
+          "blocked": 0,
+          "deaths": 8,
+          "defends": 0,
+          "hp": 100.0,
+          "invalid": 0,
+          "moves": 229,
+          "qualified_M": 3,
+          "score": 40.0,
+          "seat": "B"
+        },
+        {
+          "D": 740.0,
+          "M": 2,
+          "R": 40.0,
+          "attacks": 19,
+          "blocked": 0,
+          "deaths": 3,
+          "defends": 272,
+          "hp": 20.0,
+          "invalid": 0,
+          "moves": 0,
+          "qualified_M": 2,
+          "score": 35.0,
+          "seat": "C"
+        },
+        {
+          "D": 300.0,
+          "M": 3,
+          "R": 40.0,
+          "attacks": 15,
+          "blocked": 5,
+          "deaths": 5,
+          "defends": 18,
+          "hp": 100.0,
+          "invalid": 0,
+          "moves": 247,
+          "qualified_M": 3,
+          "score": 34.0,
+          "seat": "D"
+        }
+      ],
+      "focal_result": {
+        "D": 1120.0,
+        "M": 3,
+        "R": 40.0,
+        "attacks": 29,
+        "blocked": 5,
+        "deaths": 3,
+        "defends": 10,
+        "hp": 20.0,
+        "invalid": 0,
+        "moves": 247,
+        "qualified_M": 3,
+        "score": 40.0,
+        "seat": "A"
+      },
+      "rank": 1,
+      "win_share": 1.0,
+      "stationary_windows": 7,
+      "timing": {
+        "A": {
+          "max_ms": 1.862042,
+          "p95_ms": 1.300875,
+          "over_500ms": 0
+        }
+      },
+      "event_observations": {
+        "A": {
+          "unique_delivered": 6,
+          "delivered_ids": [
+            "chili",
+            "explosion",
+            "fortress",
+            "heal",
+            "illusion",
+            "split"
+          ],
+          "gained_fortress": [
+            "fortress"
+          ],
+          "gained_heal": false,
+          "causal_effect": "not established by a single rollout"
+        }
+      }
+    },
+    {
+      "case_id": "late_empty-A-pressure",
+      "map_id": "late_empty-20261040",
+      "family": "late_empty",
+      "mix": "pressure",
+      "focal": "A",
+      "candidate": "deepseek",
+      "signature": "695cb1620aa2896fac57dde5b96b7c9a4a97291016a09af4998ef50ad7d5c824",
+      "versions": {
+        "A": "deepseek"
+      },
+      "status": "passed",
+      "stop": "until_tick",
+      "failed_conditions": [],
+      "start_tick": 200,
+      "end_tick": 500,
+      "result": [
+        {
+          "D": 780.0,
+          "M": 3,
+          "R": 40.0,
+          "attacks": 17,
+          "blocked": 0,
+          "deaths": 3,
+          "defends": 9,
+          "hp": 100.0,
+          "invalid": 0,
+          "moves": 264,
+          "qualified_M": 3,
+          "score": 40.0,
+          "seat": "A"
+        },
+        {
+          "D": 640.0,
+          "M": 2,
+          "R": 40.0,
+          "attacks": 17,
+          "blocked": 0,
+          "deaths": 2,
+          "defends": 0,
+          "hp": 40.0,
+          "invalid": 0,
+          "moves": 277,
+          "qualified_M": 2,
+          "score": 35.0,
+          "seat": "B"
+        },
+        {
+          "D": 360.0,
+          "M": 2,
+          "R": 40.0,
+          "attacks": 4,
+          "blocked": 0,
+          "deaths": 1,
+          "defends": 293,
+          "hp": 80.0,
+          "invalid": 0,
+          "moves": 0,
+          "qualified_M": 2,
+          "score": 30.799999999999997,
+          "seat": "C"
+        },
+        {
+          "D": 300.0,
+          "M": 3,
+          "R": 40.0,
+          "attacks": 6,
+          "blocked": 0,
+          "deaths": 2,
+          "defends": 8,
+          "hp": 100.0,
+          "invalid": 0,
+          "moves": 280,
+          "qualified_M": 3,
+          "score": 34.0,
+          "seat": "D"
+        }
+      ],
+      "focal_result": {
+        "D": 780.0,
+        "M": 3,
+        "R": 40.0,
+        "attacks": 17,
+        "blocked": 0,
+        "deaths": 3,
+        "defends": 9,
+        "hp": 100.0,
+        "invalid": 0,
+        "moves": 264,
+        "qualified_M": 3,
+        "score": 40.0,
+        "seat": "A"
+      },
+      "rank": 1,
+      "win_share": 1.0,
+      "stationary_windows": 2,
+      "timing": {
+        "A": {
+          "max_ms": 1.914482,
+          "p95_ms": 0.790504,
+          "over_500ms": 0
+        }
+      },
+      "event_observations": {
+        "A": {
+          "unique_delivered": 6,
+          "delivered_ids": [
+            "chili",
+            "explosion",
+            "fortress",
+            "heal",
+            "illusion",
+            "split"
+          ],
+          "gained_fortress": [
+            "fortress"
+          ],
+          "gained_heal": false,
+          "causal_effect": "not established by a single rollout"
+        }
+      }
+    },
+    {
+      "case_id": "late_empty-A-archive",
+      "map_id": "late_empty-20261040",
+      "family": "late_empty",
+      "mix": "archive",
+      "focal": "A",
+      "candidate": "chatgpt",
+      "signature": "3c4ad8927a916564f531464c8a92d6547b537011fa5c35f49903edbaa6444ecc",
+      "versions": {
+        "A": "chatgpt",
+        "B": "deepseek",
+        "C": "deepseek",
+        "D": "deepseek"
+      },
+      "status": "passed",
+      "stop": "until_tick",
+      "failed_conditions": [],
+      "start_tick": 200,
+      "end_tick": 500,
+      "result": [
+        {
+          "D": 1230.0,
+          "M": 3,
+          "R": 40.0,
+          "attacks": 33,
+          "blocked": 17,
+          "deaths": 6,
+          "defends": 12,
+          "hp": 60.0,
+          "invalid": 0,
+          "moves": 220,
+          "qualified_M": 3,
+          "score": 40.0,
+          "seat": "A"
+        },
+        {
+          "D": 820.0,
+          "M": 3,
+          "R": 40.0,
+          "attacks": 20,
+          "blocked": 18,
+          "deaths": 4,
+          "defends": 8,
+          "hp": 60.0,
+          "invalid": 0,
+          "moves": 242,
+          "qualified_M": 3,
+          "score": 40.0,
+          "seat": "B"
+        },
+        {
+          "D": 900.0,
+          "M": 3,
+          "R": 40.0,
+          "attacks": 29,
+          "blocked": 17,
+          "deaths": 5,
+          "defends": 8,
+          "hp": 80.0,
+          "invalid": 0,
+          "moves": 230,
+          "qualified_M": 3,
+          "score": 40.0,
+          "seat": "C"
+        },
+        {
+          "D": 540.0,
+          "M": 3,
+          "R": 40.0,
+          "attacks": 21,
+          "blocked": 18,
+          "deaths": 6,
+          "defends": 10,
+          "hp": 100.0,
+          "invalid": 0,
+          "moves": 231,
+          "qualified_M": 3,
+          "score": 40.0,
+          "seat": "D"
+        }
+      ],
+      "focal_result": {
+        "D": 1230.0,
+        "M": 3,
+        "R": 40.0,
+        "attacks": 33,
+        "blocked": 17,
+        "deaths": 6,
+        "defends": 12,
+        "hp": 60.0,
+        "invalid": 0,
+        "moves": 220,
+        "qualified_M": 3,
+        "score": 40.0,
+        "seat": "A"
+      },
+      "rank": 1,
+      "win_share": 1.0,
+      "stationary_windows": 11,
+      "timing": {
+        "A": {
+          "max_ms": 1.218681,
+          "p95_ms": 0.955533,
+          "over_500ms": 0
+        },
+        "B": {
+          "max_ms": 2.472985,
+          "p95_ms": 0.89428,
+          "over_500ms": 0
+        },
+        "C": {
+          "max_ms": 1.401386,
+          "p95_ms": 0.89404,
+          "over_500ms": 0
+        },
+        "D": {
+          "max_ms": 2.605595,
+          "p95_ms": 0.830895,
+          "over_500ms": 0
+        }
+      },
+      "event_observations": {
+        "A": {
+          "unique_delivered": 6,
+          "delivered_ids": [
+            "chili",
+            "explosion",
+            "fortress",
+            "heal",
+            "illusion",
+            "split"
+          ],
+          "gained_fortress": [
+            "fortress"
+          ],
+          "gained_heal": false,
+          "causal_effect": "not established by a single rollout"
+        },
+        "B": {
+          "unique_delivered": 6,
+          "delivered_ids": [
+            "chili",
+            "explosion",
+            "fortress",
+            "heal",
+            "illusion",
+            "split"
+          ],
+          "gained_fortress": [
+            "fortress"
+          ],
+          "gained_heal": false,
+          "causal_effect": "not established by a single rollout"
+        },
+        "C": {
+          "unique_delivered": 6,
+          "delivered_ids": [
+            "chili",
+            "explosion",
+            "fortress",
+            "heal",
+            "illusion",
+            "split"
+          ],
+          "gained_fortress": [
+            "fortress"
+          ],
+          "gained_heal": true,
+          "causal_effect": "not established by a single rollout"
+        },
+        "D": {
+          "unique_delivered": 6,
+          "delivered_ids": [
+            "chili",
+            "explosion",
+            "fortress",
+            "heal",
+            "illusion",
+            "split"
+          ],
+          "gained_fortress": [
+            "fortress"
+          ],
+          "gained_heal": false,
+          "causal_effect": "not established by a single rollout"
+        }
+      }
+    },
+    {
+      "case_id": "late_empty-A-archive",
+      "map_id": "late_empty-20261040",
+      "family": "late_empty",
+      "mix": "archive",
+      "focal": "A",
+      "candidate": "deepseek",
+      "signature": "6af7117be6827acd9c2e6db7df91f37337b2b70b8e9329a17857d4fd1342c6f5",
+      "versions": {
+        "A": "deepseek",
+        "B": "deepseek",
+        "C": "deepseek",
+        "D": "deepseek"
+      },
+      "status": "passed",
+      "stop": "until_tick",
+      "failed_conditions": [],
+      "start_tick": 200,
+      "end_tick": 500,
+      "result": [
+        {
+          "D": 600.0,
+          "M": 3,
+          "R": 40.0,
+          "attacks": 28,
+          "blocked": 14,
+          "deaths": 7,
+          "defends": 7,
+          "hp": 100.0,
+          "invalid": 0,
+          "moves": 228,
+          "qualified_M": 3,
+          "score": 40.0,
+          "seat": "A"
+        },
+        {
+          "D": 1130.0,
+          "M": 3,
+          "R": 40.0,
+          "attacks": 30,
+          "blocked": 8,
+          "deaths": 6,
+          "defends": 8,
+          "hp": 80.0,
+          "invalid": 0,
+          "moves": 235,
+          "qualified_M": 3,
+          "score": 40.0,
+          "seat": "B"
+        },
+        {
+          "D": 1055.0,
+          "M": 3,
+          "R": 40.0,
+          "attacks": 29,
+          "blocked": 2,
+          "deaths": 6,
+          "defends": 9,
+          "hp": 100.0,
+          "invalid": 0,
+          "moves": 242,
+          "qualified_M": 3,
+          "score": 40.0,
+          "seat": "C"
+        },
+        {
+          "D": 795.0,
+          "M": 3,
+          "R": 40.0,
+          "attacks": 22,
+          "blocked": 8,
+          "deaths": 4,
+          "defends": 9,
+          "hp": 40.0,
+          "invalid": 0,
+          "moves": 246,
+          "qualified_M": 3,
+          "score": 40.0,
+          "seat": "D"
+        }
+      ],
+      "focal_result": {
+        "D": 600.0,
+        "M": 3,
+        "R": 40.0,
+        "attacks": 28,
+        "blocked": 14,
+        "deaths": 7,
+        "defends": 7,
+        "hp": 100.0,
+        "invalid": 0,
+        "moves": 228,
+        "qualified_M": 3,
+        "score": 40.0,
+        "seat": "A"
+      },
+      "rank": 4,
+      "win_share": 0.0,
+      "stationary_windows": 9,
+      "timing": {
+        "A": {
+          "max_ms": 1.501688,
+          "p95_ms": 0.831626,
+          "over_500ms": 0
+        },
+        "B": {
+          "max_ms": 1.845407,
+          "p95_ms": 0.954411,
+          "over_500ms": 0
+        },
+        "C": {
+          "max_ms": 1.844486,
+          "p95_ms": 0.87426,
+          "over_500ms": 0
+        },
+        "D": {
+          "max_ms": 2.821421,
+          "p95_ms": 0.837716,
+          "over_500ms": 0
+        }
+      },
+      "event_observations": {
+        "A": {
+          "unique_delivered": 6,
+          "delivered_ids": [
+            "chili",
+            "explosion",
+            "fortress",
+            "heal",
+            "illusion",
+            "split"
+          ],
+          "gained_fortress": [],
+          "gained_heal": false,
+          "causal_effect": "not established by a single rollout"
+        },
+        "B": {
+          "unique_delivered": 6,
+          "delivered_ids": [
+            "chili",
+            "explosion",
+            "fortress",
+            "heal",
+            "illusion",
+            "split"
+          ],
+          "gained_fortress": [
+            "fortress"
+          ],
+          "gained_heal": false,
+          "causal_effect": "not established by a single rollout"
+        },
+        "C": {
+          "unique_delivered": 6,
+          "delivered_ids": [
+            "chili",
+            "explosion",
+            "fortress",
+            "heal",
+            "illusion",
+            "split"
+          ],
+          "gained_fortress": [
+            "fortress"
+          ],
+          "gained_heal": false,
+          "causal_effect": "not established by a single rollout"
+        },
+        "D": {
+          "unique_delivered": 6,
+          "delivered_ids": [
+            "chili",
+            "explosion",
+            "fortress",
+            "heal",
+            "illusion",
+            "split"
+          ],
+          "gained_fortress": [
+            "fortress"
+          ],
+          "gained_heal": false,
+          "causal_effect": "not established by a single rollout"
+        }
+      }
+    },
+    {
+      "case_id": "late_empty-B-economy",
+      "map_id": "late_empty-20261040",
+      "family": "late_empty",
+      "mix": "economy",
+      "focal": "B",
+      "candidate": "chatgpt",
+      "signature": "933fb93b4c242cd30ba29e1a4368a7f042c991f8c8ef218b3c273781622e65df",
+      "versions": {
+        "B": "chatgpt"
+      },
+      "status": "passed",
+      "stop": "until_tick",
+      "failed_conditions": [],
+      "start_tick": 200,
+      "end_tick": 500,
+      "result": [
+        {
+          "D": 480.0,
+          "M": 3,
+          "R": 40.0,
+          "attacks": 7,
+          "blocked": 2,
+          "deaths": 0,
+          "defends": 0,
+          "hp": 100.0,
+          "invalid": 0,
+          "moves": 291,
+          "qualified_M": 3,
+          "score": 39.4,
+          "seat": "A"
+        },
+        {
+          "D": 380.0,
+          "M": 2,
+          "R": 40.0,
+          "attacks": 4,
+          "blocked": 0,
+          "deaths": 0,
+          "defends": 283,
+          "hp": 20.0,
+          "invalid": 0,
+          "moves": 13,
+          "qualified_M": 2,
+          "score": 31.4,
+          "seat": "B"
+        },
+        {
+          "D": 380.0,
+          "M": 2,
+          "R": 40.0,
+          "attacks": 4,
+          "blocked": 0,
+          "deaths": 0,
+          "defends": 283,
+          "hp": 20.0,
+          "invalid": 0,
+          "moves": 13,
+          "qualified_M": 2,
+          "score": 31.4,
+          "seat": "C"
+        },
+        {
+          "D": 240.0,
+          "M": 3,
+          "R": 40.0,
+          "attacks": 0,
+          "blocked": 2,
+          "deaths": 1,
+          "defends": 1,
+          "hp": 80.0,
+          "invalid": 0,
+          "moves": 293,
+          "qualified_M": 3,
+          "score": 32.2,
+          "seat": "D"
+        }
+      ],
+      "focal_result": {
+        "D": 380.0,
+        "M": 2,
+        "R": 40.0,
+        "attacks": 4,
+        "blocked": 0,
+        "deaths": 0,
+        "defends": 283,
+        "hp": 20.0,
+        "invalid": 0,
+        "moves": 13,
+        "qualified_M": 2,
+        "score": 31.4,
+        "seat": "B"
+      },
+      "rank": 3,
+      "win_share": 0.0,
+      "stationary_windows": 273,
+      "timing": {
+        "B": {
+          "max_ms": 0.08558,
+          "p95_ms": 0.05252,
+          "over_500ms": 0
+        }
+      },
+      "event_observations": {
+        "B": {
+          "unique_delivered": 6,
+          "delivered_ids": [
+            "chili",
+            "explosion",
+            "fortress",
+            "heal",
+            "illusion",
+            "split"
+          ],
+          "gained_fortress": [],
+          "gained_heal": false,
+          "causal_effect": "not established by a single rollout"
+        }
+      }
+    },
+    {
+      "case_id": "late_empty-B-economy",
+      "map_id": "late_empty-20261040",
+      "family": "late_empty",
+      "mix": "economy",
+      "focal": "B",
+      "candidate": "deepseek",
+      "signature": "bef65ad1b733d75691c46a7e9094ec640c91da8587222b59f3938c08da998ea8",
+      "versions": {
+        "B": "deepseek"
+      },
+      "status": "passed",
+      "stop": "until_tick",
+      "failed_conditions": [],
+      "start_tick": 200,
+      "end_tick": 500,
+      "result": [
+        {
+          "D": 500.0,
+          "M": 3,
+          "R": 40.0,
+          "attacks": 9,
+          "blocked": 1,
+          "deaths": 1,
+          "defends": 1,
+          "hp": 80.0,
+          "invalid": 0,
+          "moves": 286,
+          "qualified_M": 3,
+          "score": 40.0,
+          "seat": "A"
+        },
+        {
+          "D": 770.0,
+          "M": 3,
+          "R": 40.0,
+          "attacks": 18,
+          "blocked": 4,
+          "deaths": 2,
+          "defends": 9,
+          "hp": 40.0,
+          "invalid": 0,
+          "moves": 261,
+          "qualified_M": 3,
+          "score": 40.0,
+          "seat": "B"
+        },
+        {
+          "D": 500.0,
+          "M": 3,
+          "R": 40.0,
+          "attacks": 11,
+          "blocked": 0,
+          "deaths": 1,
+          "defends": 1,
+          "hp": 50.0,
+          "invalid": 0,
+          "moves": 285,
+          "qualified_M": 3,
+          "score": 40.0,
+          "seat": "C"
+        },
+        {
+          "D": 180.0,
+          "M": 3,
+          "R": 40.0,
+          "attacks": 0,
+          "blocked": 3,
+          "deaths": 2,
+          "defends": 1,
+          "hp": 80.0,
+          "invalid": 0,
+          "moves": 288,
+          "qualified_M": 3,
+          "score": 30.4,
+          "seat": "D"
+        }
+      ],
+      "focal_result": {
+        "D": 770.0,
+        "M": 3,
+        "R": 40.0,
+        "attacks": 18,
+        "blocked": 4,
+        "deaths": 2,
+        "defends": 9,
+        "hp": 40.0,
+        "invalid": 0,
+        "moves": 261,
+        "qualified_M": 3,
+        "score": 40.0,
+        "seat": "B"
+      },
+      "rank": 1,
+      "win_share": 1.0,
+      "stationary_windows": 3,
+      "timing": {
+        "B": {
+          "max_ms": 2.506299,
+          "p95_ms": 0.803614,
+          "over_500ms": 0
+        }
+      },
+      "event_observations": {
+        "B": {
+          "unique_delivered": 6,
+          "delivered_ids": [
+            "chili",
+            "explosion",
+            "fortress",
+            "heal",
+            "illusion",
+            "split"
+          ],
+          "gained_fortress": [
+            "fortress"
+          ],
+          "gained_heal": false,
+          "causal_effect": "not established by a single rollout"
+        }
+      }
+    },
+    {
+      "case_id": "late_empty-B-pressure",
+      "map_id": "late_empty-20261040",
+      "family": "late_empty",
+      "mix": "pressure",
+      "focal": "B",
+      "candidate": "chatgpt",
+      "signature": "4cee87d6349702661b9461429eafaecb8dd4ceecb9096d9cbd33c6a2dad2f06c",
+      "versions": {
+        "B": "chatgpt"
+      },
+      "status": "passed",
+      "stop": "until_tick",
+      "failed_conditions": [],
+      "start_tick": 200,
+      "end_tick": 500,
+      "result": [
+        {
+          "D": 380.0,
+          "M": 2,
+          "R": 40.0,
+          "attacks": 2,
+          "blocked": 235,
+          "deaths": 0,
+          "defends": 0,
+          "hp": 80.0,
+          "invalid": 0,
+          "moves": 63,
+          "qualified_M": 2,
+          "score": 31.4,
+          "seat": "A"
+        },
+        {
+          "D": 740.0,
+          "M": 3,
+          "R": 40.0,
+          "attacks": 12,
+          "blocked": 0,
+          "deaths": 1,
+          "defends": 8,
+          "hp": 20.0,
+          "invalid": 0,
+          "moves": 277,
+          "qualified_M": 3,
+          "score": 40.0,
+          "seat": "B"
+        },
+        {
+          "D": 260.0,
+          "M": 2,
+          "R": 40.0,
+          "attacks": 4,
+          "blocked": 0,
+          "deaths": 2,
+          "defends": 290,
+          "hp": 100.0,
+          "invalid": 0,
+          "moves": 0,
+          "qualified_M": 2,
+          "score": 27.8,
+          "seat": "C"
+        },
+        {
+          "D": 320.0,
+          "M": 3,
+          "R": 40.0,
+          "attacks": 4,
+          "blocked": 235,
+          "deaths": 1,
+          "defends": 3,
+          "hp": 100.0,
+          "invalid": 0,
+          "moves": 55,
+          "qualified_M": 3,
+          "score": 34.6,
+          "seat": "D"
+        }
+      ],
+      "focal_result": {
+        "D": 740.0,
+        "M": 3,
+        "R": 40.0,
+        "attacks": 12,
+        "blocked": 0,
+        "deaths": 1,
+        "defends": 8,
+        "hp": 20.0,
+        "invalid": 0,
+        "moves": 277,
+        "qualified_M": 3,
+        "score": 40.0,
+        "seat": "B"
+      },
+      "rank": 1,
+      "win_share": 1.0,
+      "stationary_windows": 3,
+      "timing": {
+        "B": {
+          "max_ms": 1.509019,
+          "p95_ms": 1.2052,
+          "over_500ms": 0
+        }
+      },
+      "event_observations": {
+        "B": {
+          "unique_delivered": 6,
+          "delivered_ids": [
+            "chili",
+            "explosion",
+            "fortress",
+            "heal",
+            "illusion",
+            "split"
+          ],
+          "gained_fortress": [
+            "fortress"
+          ],
+          "gained_heal": false,
+          "causal_effect": "not established by a single rollout"
+        }
+      }
+    },
+    {
+      "case_id": "late_empty-B-pressure",
+      "map_id": "late_empty-20261040",
+      "family": "late_empty",
+      "mix": "pressure",
+      "focal": "B",
+      "candidate": "deepseek",
+      "signature": "670bd87db47ca29628c521348da99983ad06418db41dbe76448b9495b5a57d9d",
+      "versions": {
+        "B": "deepseek"
+      },
+      "status": "passed",
+      "stop": "until_tick",
+      "failed_conditions": [],
+      "start_tick": 200,
+      "end_tick": 500,
+      "result": [
+        {
+          "D": 570.0,
+          "M": 2,
+          "R": 40.0,
+          "attacks": 18,
+          "blocked": 14,
+          "deaths": 3,
+          "defends": 0,
+          "hp": 100.0,
+          "invalid": 0,
+          "moves": 259,
+          "qualified_M": 2,
+          "score": 35.0,
+          "seat": "A"
+        },
+        {
+          "D": 930.0,
+          "M": 3,
+          "R": 40.0,
+          "attacks": 33,
+          "blocked": 0,
+          "deaths": 5,
+          "defends": 10,
+          "hp": 100.0,
+          "invalid": 0,
+          "moves": 242,
+          "qualified_M": 3,
+          "score": 40.0,
+          "seat": "B"
+        },
+        {
+          "D": 490.0,
+          "M": 2,
+          "R": 40.0,
+          "attacks": 5,
+          "blocked": 0,
+          "deaths": 0,
+          "defends": 295,
+          "hp": 20.0,
+          "invalid": 0,
+          "moves": 0,
+          "qualified_M": 2,
+          "score": 34.7,
+          "seat": "C"
+        },
+        {
+          "D": 470.0,
+          "M": 3,
+          "R": 40.0,
+          "attacks": 15,
+          "blocked": 14,
+          "deaths": 5,
+          "defends": 13,
+          "hp": 100.0,
+          "invalid": 0,
+          "moves": 244,
+          "qualified_M": 3,
+          "score": 39.1,
+          "seat": "D"
+        }
+      ],
+      "focal_result": {
+        "D": 930.0,
+        "M": 3,
+        "R": 40.0,
+        "attacks": 33,
+        "blocked": 0,
+        "deaths": 5,
+        "defends": 10,
+        "hp": 100.0,
+        "invalid": 0,
+        "moves": 242,
+        "qualified_M": 3,
+        "score": 40.0,
+        "seat": "B"
+      },
+      "rank": 1,
+      "win_share": 1.0,
+      "stationary_windows": 29,
+      "timing": {
+        "B": {
+          "max_ms": 2.755562,
+          "p95_ms": 0.843394,
+          "over_500ms": 0
+        }
+      },
+      "event_observations": {
+        "B": {
+          "unique_delivered": 6,
+          "delivered_ids": [
+            "chili",
+            "explosion",
+            "fortress",
+            "heal",
+            "illusion",
+            "split"
+          ],
+          "gained_fortress": [
+            "fortress"
+          ],
+          "gained_heal": false,
+          "causal_effect": "not established by a single rollout"
+        }
+      }
+    },
+    {
+      "case_id": "late_empty-B-archive",
+      "map_id": "late_empty-20261040",
+      "family": "late_empty",
+      "mix": "archive",
+      "focal": "B",
+      "candidate": "chatgpt",
+      "signature": "ddf3a404d7fd052b8d9bc75bfdb8c7c15b9056ee0879d6d0c29a46a71f18f8da",
+      "versions": {
+        "A": "deepseek",
+        "B": "chatgpt",
+        "C": "deepseek",
+        "D": "deepseek"
+      },
+      "status": "passed",
+      "stop": "until_tick",
+      "failed_conditions": [],
+      "start_tick": 200,
+      "end_tick": 500,
+      "result": [
+        {
+          "D": 740.0,
+          "M": 3,
+          "R": 40.0,
+          "attacks": 24,
+          "blocked": 0,
+          "deaths": 6,
+          "defends": 9,
+          "hp": 100.0,
+          "invalid": 0,
+          "moves": 248,
+          "qualified_M": 3,
+          "score": 40.0,
+          "seat": "A"
+        },
+        {
+          "D": 1520.0,
+          "M": 3,
+          "R": 40.0,
+          "attacks": 43,
+          "blocked": 0,
+          "deaths": 7,
+          "defends": 12,
+          "hp": 100.0,
+          "invalid": 0,
+          "moves": 224,
+          "qualified_M": 3,
+          "score": 40.0,
+          "seat": "B"
+        },
+        {
+          "D": 960.0,
+          "M": 3,
+          "R": 40.0,
+          "attacks": 29,
+          "blocked": 14,
+          "deaths": 8,
+          "defends": 10,
+          "hp": 100.0,
+          "invalid": 0,
+          "moves": 222,
+          "qualified_M": 3,
+          "score": 40.0,
+          "seat": "C"
+        },
+        {
+          "D": 740.0,
+          "M": 3,
+          "R": 40.0,
+          "attacks": 22,
+          "blocked": 14,
+          "deaths": 6,
+          "defends": 7,
+          "hp": 80.0,
+          "invalid": 0,
+          "moves": 238,
+          "qualified_M": 3,
+          "score": 40.0,
+          "seat": "D"
+        }
+      ],
+      "focal_result": {
+        "D": 1520.0,
+        "M": 3,
+        "R": 40.0,
+        "attacks": 43,
+        "blocked": 0,
+        "deaths": 7,
+        "defends": 12,
+        "hp": 100.0,
+        "invalid": 0,
+        "moves": 224,
+        "qualified_M": 3,
+        "score": 40.0,
+        "seat": "B"
+      },
+      "rank": 1,
+      "win_share": 1.0,
+      "stationary_windows": 7,
+      "timing": {
+        "A": {
+          "max_ms": 1.760389,
+          "p95_ms": 0.9074,
+          "over_500ms": 0
+        },
+        "B": {
+          "max_ms": 2.188846,
+          "p95_ms": 1.292372,
+          "over_500ms": 0
+        },
+        "C": {
+          "max_ms": 1.544373,
+          "p95_ms": 0.913821,
+          "over_500ms": 0
+        },
+        "D": {
+          "max_ms": 1.882774,
+          "p95_ms": 0.916965,
+          "over_500ms": 0
+        }
+      },
+      "event_observations": {
+        "A": {
+          "unique_delivered": 6,
+          "delivered_ids": [
+            "chili",
+            "explosion",
+            "fortress",
+            "heal",
+            "illusion",
+            "split"
+          ],
+          "gained_fortress": [
+            "fortress"
+          ],
+          "gained_heal": false,
+          "causal_effect": "not established by a single rollout"
+        },
+        "B": {
+          "unique_delivered": 6,
+          "delivered_ids": [
+            "chili",
+            "explosion",
+            "fortress",
+            "heal",
+            "illusion",
+            "split"
+          ],
+          "gained_fortress": [
+            "fortress"
+          ],
+          "gained_heal": true,
+          "causal_effect": "not established by a single rollout"
+        },
+        "C": {
+          "unique_delivered": 6,
+          "delivered_ids": [
+            "chili",
+            "explosion",
+            "fortress",
+            "heal",
+            "illusion",
+            "split"
+          ],
+          "gained_fortress": [
+            "fortress"
+          ],
+          "gained_heal": false,
+          "causal_effect": "not established by a single rollout"
+        },
+        "D": {
+          "unique_delivered": 6,
+          "delivered_ids": [
+            "chili",
+            "explosion",
+            "fortress",
+            "heal",
+            "illusion",
+            "split"
+          ],
+          "gained_fortress": [
+            "fortress"
+          ],
+          "gained_heal": true,
+          "causal_effect": "not established by a single rollout"
+        }
+      }
+    },
+    {
+      "case_id": "late_empty-B-archive",
+      "map_id": "late_empty-20261040",
+      "family": "late_empty",
+      "mix": "archive",
+      "focal": "B",
+      "candidate": "deepseek",
+      "signature": "f0b4d6d5916545f40dd4aff4b53fbab06dcdd946a20442230402cb7cee4601dc",
+      "versions": {
+        "A": "deepseek",
+        "B": "deepseek",
+        "C": "deepseek",
+        "D": "deepseek"
+      },
+      "status": "passed",
+      "stop": "until_tick",
+      "failed_conditions": [],
+      "start_tick": 200,
+      "end_tick": 500,
+      "result": [
+        {
+          "D": 600.0,
+          "M": 3,
+          "R": 40.0,
+          "attacks": 28,
+          "blocked": 14,
+          "deaths": 7,
+          "defends": 7,
+          "hp": 100.0,
+          "invalid": 0,
+          "moves": 228,
+          "qualified_M": 3,
+          "score": 40.0,
+          "seat": "A"
+        },
+        {
+          "D": 1130.0,
+          "M": 3,
+          "R": 40.0,
+          "attacks": 30,
+          "blocked": 8,
+          "deaths": 6,
+          "defends": 8,
+          "hp": 80.0,
+          "invalid": 0,
+          "moves": 235,
+          "qualified_M": 3,
+          "score": 40.0,
+          "seat": "B"
+        },
+        {
+          "D": 1055.0,
+          "M": 3,
+          "R": 40.0,
+          "attacks": 29,
+          "blocked": 2,
+          "deaths": 6,
+          "defends": 9,
+          "hp": 100.0,
+          "invalid": 0,
+          "moves": 242,
+          "qualified_M": 3,
+          "score": 40.0,
+          "seat": "C"
+        },
+        {
+          "D": 795.0,
+          "M": 3,
+          "R": 40.0,
+          "attacks": 22,
+          "blocked": 8,
+          "deaths": 4,
+          "defends": 9,
+          "hp": 40.0,
+          "invalid": 0,
+          "moves": 246,
+          "qualified_M": 3,
+          "score": 40.0,
+          "seat": "D"
+        }
+      ],
+      "focal_result": {
+        "D": 1130.0,
+        "M": 3,
+        "R": 40.0,
+        "attacks": 30,
+        "blocked": 8,
+        "deaths": 6,
+        "defends": 8,
+        "hp": 80.0,
+        "invalid": 0,
+        "moves": 235,
+        "qualified_M": 3,
+        "score": 40.0,
+        "seat": "B"
+      },
+      "rank": 1,
+      "win_share": 1.0,
+      "stationary_windows": 16,
+      "timing": {
+        "A": {
+          "max_ms": 2.123817,
+          "p95_ms": 0.860269,
+          "over_500ms": 0
+        },
+        "B": {
+          "max_ms": 3.258191,
+          "p95_ms": 0.943175,
+          "over_500ms": 0
+        },
+        "C": {
+          "max_ms": 3.21875,
+          "p95_ms": 1.000581,
+          "over_500ms": 0
+        },
+        "D": {
+          "max_ms": 1.662014,
+          "p95_ms": 0.881401,
+          "over_500ms": 0
+        }
+      },
+      "event_observations": {
+        "A": {
+          "unique_delivered": 6,
+          "delivered_ids": [
+            "chili",
+            "explosion",
+            "fortress",
+            "heal",
+            "illusion",
+            "split"
+          ],
+          "gained_fortress": [],
+          "gained_heal": false,
+          "causal_effect": "not established by a single rollout"
+        },
+        "B": {
+          "unique_delivered": 6,
+          "delivered_ids": [
+            "chili",
+            "explosion",
+            "fortress",
+            "heal",
+            "illusion",
+            "split"
+          ],
+          "gained_fortress": [
+            "fortress"
+          ],
+          "gained_heal": false,
+          "causal_effect": "not established by a single rollout"
+        },
+        "C": {
+          "unique_delivered": 6,
+          "delivered_ids": [
+            "chili",
+            "explosion",
+            "fortress",
+            "heal",
+            "illusion",
+            "split"
+          ],
+          "gained_fortress": [
+            "fortress"
+          ],
+          "gained_heal": false,
+          "causal_effect": "not established by a single rollout"
+        },
+        "D": {
+          "unique_delivered": 6,
+          "delivered_ids": [
+            "chili",
+            "explosion",
+            "fortress",
+            "heal",
+            "illusion",
+            "split"
+          ],
+          "gained_fortress": [
+            "fortress"
+          ],
+          "gained_heal": false,
+          "causal_effect": "not established by a single rollout"
+        }
+      }
+    },
+    {
+      "case_id": "late_empty-C-economy",
+      "map_id": "late_empty-20261040",
+      "family": "late_empty",
+      "mix": "economy",
+      "focal": "C",
+      "candidate": "chatgpt",
+      "signature": "40befb80d37a503bdae8d47c128e58c34391d3cbc9da3f942abba420b78c8d42",
+      "versions": {
+        "C": "chatgpt"
+      },
+      "status": "passed",
+      "stop": "until_tick",
+      "failed_conditions": [],
+      "start_tick": 200,
+      "end_tick": 500,
+      "result": [
+        {
+          "D": 380.0,
+          "M": 2,
+          "R": 40.0,
+          "attacks": 4,
+          "blocked": 0,
+          "deaths": 0,
+          "defends": 242,
+          "hp": 20.0,
+          "invalid": 0,
+          "moves": 54,
+          "qualified_M": 2,
+          "score": 31.4,
+          "seat": "A"
+        },
+        {
+          "D": 460.0,
+          "M": 2,
+          "R": 40.0,
+          "attacks": 6,
+          "blocked": 0,
+          "deaths": 0,
+          "defends": 0,
+          "hp": 100.0,
+          "invalid": 0,
+          "moves": 294,
+          "qualified_M": 2,
+          "score": 33.8,
+          "seat": "B"
+        },
+        {
+          "D": 540.0,
+          "M": 3,
+          "R": 40.0,
+          "attacks": 10,
+          "blocked": 1,
+          "deaths": 0,
+          "defends": 242,
+          "hp": 20.0,
+          "invalid": 0,
+          "moves": 47,
+          "qualified_M": 3,
+          "score": 40.0,
+          "seat": "C"
+        },
+        {
+          "D": 180.0,
+          "M": 3,
+          "R": 40.0,
+          "attacks": 0,
+          "blocked": 1,
+          "deaths": 2,
+          "defends": 2,
+          "hp": 100.0,
+          "invalid": 0,
+          "moves": 289,
+          "qualified_M": 3,
+          "score": 30.4,
+          "seat": "D"
+        }
+      ],
+      "focal_result": {
+        "D": 540.0,
+        "M": 3,
+        "R": 40.0,
+        "attacks": 10,
+        "blocked": 1,
+        "deaths": 0,
+        "defends": 242,
+        "hp": 20.0,
+        "invalid": 0,
+        "moves": 47,
+        "qualified_M": 3,
+        "score": 40.0,
+        "seat": "C"
+      },
+      "rank": 1,
+      "win_share": 1.0,
+      "stationary_windows": 232,
+      "timing": {
+        "C": {
+          "max_ms": 0.640998,
+          "p95_ms": 0.12573,
+          "over_500ms": 0
+        }
+      },
+      "event_observations": {
+        "C": {
+          "unique_delivered": 6,
+          "delivered_ids": [
+            "chili",
+            "explosion",
+            "fortress",
+            "heal",
+            "illusion",
+            "split"
+          ],
+          "gained_fortress": [],
+          "gained_heal": false,
+          "causal_effect": "not established by a single rollout"
+        }
+      }
+    },
+    {
+      "case_id": "late_empty-C-economy",
+      "map_id": "late_empty-20261040",
+      "family": "late_empty",
+      "mix": "economy",
+      "focal": "C",
+      "candidate": "deepseek",
+      "signature": "094a73fef22a50852fd14649b826a41e443b1342769f3232740a56b9b816012e",
+      "versions": {
+        "C": "deepseek"
+      },
+      "status": "passed",
+      "stop": "until_tick",
+      "failed_conditions": [],
+      "start_tick": 200,
+      "end_tick": 500,
+      "result": [
+        {
+          "D": 500.0,
+          "M": 3,
+          "R": 40.0,
+          "attacks": 11,
+          "blocked": 0,
+          "deaths": 1,
+          "defends": 1,
+          "hp": 100.0,
+          "invalid": 0,
+          "moves": 285,
+          "qualified_M": 3,
+          "score": 40.0,
+          "seat": "A"
+        },
+        {
+          "D": 580.0,
+          "M": 2,
+          "R": 40.0,
+          "attacks": 20,
+          "blocked": 2,
+          "deaths": 4,
+          "defends": 2,
+          "hp": 100.0,
+          "invalid": 0,
+          "moves": 262,
+          "qualified_M": 2,
+          "score": 35.0,
+          "seat": "B"
+        },
+        {
+          "D": 980.0,
+          "M": 3,
+          "R": 40.0,
+          "attacks": 24,
+          "blocked": 2,
+          "deaths": 4,
+          "defends": 11,
+          "hp": 80.0,
+          "invalid": 0,
+          "moves": 250,
+          "qualified_M": 3,
+          "score": 40.0,
+          "seat": "C"
+        },
+        {
+          "D": 240.0,
+          "M": 3,
+          "R": 40.0,
+          "attacks": 0,
+          "blocked": 0,
+          "deaths": 1,
+          "defends": 0,
+          "hp": 20.0,
+          "invalid": 0,
+          "moves": 296,
+          "qualified_M": 3,
+          "score": 32.2,
+          "seat": "D"
+        }
+      ],
+      "focal_result": {
+        "D": 980.0,
+        "M": 3,
+        "R": 40.0,
+        "attacks": 24,
+        "blocked": 2,
+        "deaths": 4,
+        "defends": 11,
+        "hp": 80.0,
+        "invalid": 0,
+        "moves": 250,
+        "qualified_M": 3,
+        "score": 40.0,
+        "seat": "C"
+      },
+      "rank": 1,
+      "win_share": 1.0,
+      "stationary_windows": 0,
+      "timing": {
+        "C": {
+          "max_ms": 1.119741,
+          "p95_ms": 0.791926,
+          "over_500ms": 0
+        }
+      },
+      "event_observations": {
+        "C": {
+          "unique_delivered": 6,
+          "delivered_ids": [
+            "chili",
+            "explosion",
+            "fortress",
+            "heal",
+            "illusion",
+            "split"
+          ],
+          "gained_fortress": [
+            "fortress"
+          ],
+          "gained_heal": false,
+          "causal_effect": "not established by a single rollout"
+        }
+      }
+    },
+    {
+      "case_id": "late_empty-C-pressure",
+      "map_id": "late_empty-20261040",
+      "family": "late_empty",
+      "mix": "pressure",
+      "focal": "C",
+      "candidate": "chatgpt",
+      "signature": "eac576dea0bad9b342f9f5cbdcd58d78d3d179c0aed733048a11433ca2dad0d2",
+      "versions": {
+        "C": "chatgpt"
+      },
+      "status": "passed",
+      "stop": "until_tick",
+      "failed_conditions": [],
+      "start_tick": 200,
+      "end_tick": 500,
+      "result": [
+        {
+          "D": 460.0,
+          "M": 2,
+          "R": 40.0,
+          "attacks": 16,
+          "blocked": 87,
+          "deaths": 4,
+          "defends": 0,
+          "hp": 80.0,
+          "invalid": 0,
+          "moves": 184,
+          "qualified_M": 2,
+          "score": 33.8,
+          "seat": "A"
+        },
+        {
+          "D": 420.0,
+          "M": 2,
+          "R": 40.0,
+          "attacks": 4,
+          "blocked": 0,
+          "deaths": 0,
+          "defends": 296,
+          "hp": 40.0,
+          "invalid": 0,
+          "moves": 0,
+          "qualified_M": 2,
+          "score": 32.6,
+          "seat": "B"
+        },
+        {
+          "D": 1010.0,
+          "M": 3,
+          "R": 40.0,
+          "attacks": 27,
+          "blocked": 17,
+          "deaths": 3,
+          "defends": 13,
+          "hp": 80.0,
+          "invalid": 0,
+          "moves": 234,
+          "qualified_M": 3,
+          "score": 40.0,
+          "seat": "C"
+        },
+        {
+          "D": 380.0,
+          "M": 3,
+          "R": 40.0,
+          "attacks": 10,
+          "blocked": 96,
+          "deaths": 3,
+          "defends": 11,
+          "hp": 80.0,
+          "invalid": 0,
+          "moves": 174,
+          "qualified_M": 3,
+          "score": 36.4,
+          "seat": "D"
+        }
+      ],
+      "focal_result": {
+        "D": 1010.0,
+        "M": 3,
+        "R": 40.0,
+        "attacks": 27,
+        "blocked": 17,
+        "deaths": 3,
+        "defends": 13,
+        "hp": 80.0,
+        "invalid": 0,
+        "moves": 234,
+        "qualified_M": 3,
+        "score": 40.0,
+        "seat": "C"
+      },
+      "rank": 1,
+      "win_share": 1.0,
+      "stationary_windows": 18,
+      "timing": {
+        "C": {
+          "max_ms": 3.591464,
+          "p95_ms": 1.289577,
+          "over_500ms": 0
+        }
+      },
+      "event_observations": {
+        "C": {
+          "unique_delivered": 6,
+          "delivered_ids": [
+            "chili",
+            "explosion",
+            "fortress",
+            "heal",
+            "illusion",
+            "split"
+          ],
+          "gained_fortress": [
+            "fortress"
+          ],
+          "gained_heal": false,
+          "causal_effect": "not established by a single rollout"
+        }
+      }
+    },
+    {
+      "case_id": "late_empty-C-pressure",
+      "map_id": "late_empty-20261040",
+      "family": "late_empty",
+      "mix": "pressure",
+      "focal": "C",
+      "candidate": "deepseek",
+      "signature": "c89f147726883afacae9caa344efa51f8a4a3089bf03a40b95d5ba5bdb816eaa",
+      "versions": {
+        "C": "deepseek"
+      },
+      "status": "passed",
+      "stop": "until_tick",
+      "failed_conditions": [],
+      "start_tick": 200,
+      "end_tick": 500,
+      "result": [
+        {
+          "D": 850.0,
+          "M": 3,
+          "R": 40.0,
+          "attacks": 12,
+          "blocked": 129,
+          "deaths": 1,
+          "defends": 0,
+          "hp": 40.0,
+          "invalid": 0,
+          "moves": 156,
+          "qualified_M": 3,
+          "score": 40.0,
+          "seat": "A"
+        },
+        {
+          "D": 480.0,
+          "M": 2,
+          "R": 40.0,
+          "attacks": 7,
+          "blocked": 0,
+          "deaths": 1,
+          "defends": 290,
+          "hp": 100.0,
+          "invalid": 0,
+          "moves": 0,
+          "qualified_M": 2,
+          "score": 34.4,
+          "seat": "B"
+        },
+        {
+          "D": 570.0,
+          "M": 3,
+          "R": 40.0,
+          "attacks": 19,
+          "blocked": 0,
+          "deaths": 4,
+          "defends": 8,
+          "hp": 100.0,
+          "invalid": 0,
+          "moves": 260,
+          "qualified_M": 3,
+          "score": 40.0,
+          "seat": "C"
+        },
+        {
+          "D": 260.0,
+          "M": 3,
+          "R": 40.0,
+          "attacks": 7,
+          "blocked": 129,
+          "deaths": 3,
+          "defends": 7,
+          "hp": 100.0,
+          "invalid": 0,
+          "moves": 148,
+          "qualified_M": 3,
+          "score": 32.8,
+          "seat": "D"
+        }
+      ],
+      "focal_result": {
+        "D": 570.0,
+        "M": 3,
+        "R": 40.0,
+        "attacks": 19,
+        "blocked": 0,
+        "deaths": 4,
+        "defends": 8,
+        "hp": 100.0,
+        "invalid": 0,
+        "moves": 260,
+        "qualified_M": 3,
+        "score": 40.0,
+        "seat": "C"
+      },
+      "rank": 2,
+      "win_share": 0.0,
+      "stationary_windows": 0,
+      "timing": {
+        "C": {
+          "max_ms": 2.44977,
+          "p95_ms": 0.934081,
+          "over_500ms": 0
+        }
+      },
+      "event_observations": {
+        "C": {
+          "unique_delivered": 6,
+          "delivered_ids": [
+            "chili",
+            "explosion",
+            "fortress",
+            "heal",
+            "illusion",
+            "split"
+          ],
+          "gained_fortress": [
+            "fortress"
+          ],
+          "gained_heal": false,
+          "causal_effect": "not established by a single rollout"
+        }
+      }
+    },
+    {
+      "case_id": "late_empty-C-archive",
+      "map_id": "late_empty-20261040",
+      "family": "late_empty",
+      "mix": "archive",
+      "focal": "C",
+      "candidate": "chatgpt",
+      "signature": "7f493e47912504bf784609f3e62db54a615033dcf2ed85155dcdfa20d23ed434",
+      "versions": {
+        "A": "deepseek",
+        "B": "deepseek",
+        "C": "chatgpt",
+        "D": "deepseek"
+      },
+      "status": "passed",
+      "stop": "until_tick",
+      "failed_conditions": [],
+      "start_tick": 200,
+      "end_tick": 500,
+      "result": [
+        {
+          "D": 902.8571428571429,
+          "M": 3,
+          "R": 40.0,
+          "attacks": 31,
+          "blocked": 7,
+          "deaths": 6,
+          "defends": 11,
+          "hp": 100.0,
+          "invalid": 0,
+          "moves": 232,
+          "qualified_M": 3,
+          "score": 40.0,
+          "seat": "A"
+        },
+        {
+          "D": 945.0,
+          "M": 3,
+          "R": 40.0,
+          "attacks": 32,
+          "blocked": 13,
+          "deaths": 7,
+          "defends": 9,
+          "hp": 100.0,
+          "invalid": 0,
+          "moves": 225,
+          "qualified_M": 3,
+          "score": 40.0,
+          "seat": "B"
+        },
+        {
+          "D": 857.1428571428571,
+          "M": 3,
+          "R": 40.0,
+          "attacks": 27,
+          "blocked": 6,
+          "deaths": 5,
+          "defends": 10,
+          "hp": 0.0,
+          "invalid": 0,
+          "moves": 243,
+          "qualified_M": 3,
+          "score": 40.0,
+          "seat": "C"
+        },
+        {
+          "D": 815.0,
+          "M": 3,
+          "R": 40.0,
+          "attacks": 20,
+          "blocked": 0,
+          "deaths": 5,
+          "defends": 4,
+          "hp": 80.0,
+          "invalid": 0,
+          "moves": 261,
+          "qualified_M": 3,
+          "score": 40.0,
+          "seat": "D"
+        }
+      ],
+      "focal_result": {
+        "D": 857.1428571428571,
+        "M": 3,
+        "R": 40.0,
+        "attacks": 27,
+        "blocked": 6,
+        "deaths": 5,
+        "defends": 10,
+        "hp": 0.0,
+        "invalid": 0,
+        "moves": 243,
+        "qualified_M": 3,
+        "score": 40.0,
+        "seat": "C"
+      },
+      "rank": 3,
+      "win_share": 0.0,
+      "stationary_windows": 11,
+      "timing": {
+        "A": {
+          "max_ms": 1.948137,
+          "p95_ms": 0.86016,
+          "over_500ms": 0
+        },
+        "B": {
+          "max_ms": 1.217288,
+          "p95_ms": 0.9398,
+          "over_500ms": 0
+        },
+        "C": {
+          "max_ms": 3.287895,
+          "p95_ms": 1.261816,
+          "over_500ms": 0
+        },
+        "D": {
+          "max_ms": 2.242352,
+          "p95_ms": 0.897376,
+          "over_500ms": 0
+        }
+      },
+      "event_observations": {
+        "A": {
+          "unique_delivered": 6,
+          "delivered_ids": [
+            "chili",
+            "explosion",
+            "fortress",
+            "heal",
+            "illusion",
+            "split"
+          ],
+          "gained_fortress": [
+            "fortress"
+          ],
+          "gained_heal": false,
+          "causal_effect": "not established by a single rollout"
+        },
+        "B": {
+          "unique_delivered": 6,
+          "delivered_ids": [
+            "chili",
+            "explosion",
+            "fortress",
+            "heal",
+            "illusion",
+            "split"
+          ],
+          "gained_fortress": [
+            "fortress"
+          ],
+          "gained_heal": false,
+          "causal_effect": "not established by a single rollout"
+        },
+        "C": {
+          "unique_delivered": 6,
+          "delivered_ids": [
+            "chili",
+            "explosion",
+            "fortress",
+            "heal",
+            "illusion",
+            "split"
+          ],
+          "gained_fortress": [
+            "fortress"
+          ],
+          "gained_heal": false,
+          "causal_effect": "not established by a single rollout"
+        },
+        "D": {
+          "unique_delivered": 6,
+          "delivered_ids": [
+            "chili",
+            "explosion",
+            "fortress",
+            "heal",
+            "illusion",
+            "split"
+          ],
+          "gained_fortress": [
+            "fortress"
+          ],
+          "gained_heal": true,
+          "causal_effect": "not established by a single rollout"
+        }
+      }
+    },
+    {
+      "case_id": "late_empty-C-archive",
+      "map_id": "late_empty-20261040",
+      "family": "late_empty",
+      "mix": "archive",
+      "focal": "C",
+      "candidate": "deepseek",
+      "signature": "aaac4c48aa9e41f1dfa7dcb0ccdf18d2314db5a8839c98db5194415ae8bf74f8",
+      "versions": {
+        "A": "deepseek",
+        "B": "deepseek",
+        "C": "deepseek",
+        "D": "deepseek"
+      },
+      "status": "passed",
+      "stop": "until_tick",
+      "failed_conditions": [],
+      "start_tick": 200,
+      "end_tick": 500,
+      "result": [
+        {
+          "D": 600.0,
+          "M": 3,
+          "R": 40.0,
+          "attacks": 28,
+          "blocked": 14,
+          "deaths": 7,
+          "defends": 7,
+          "hp": 100.0,
+          "invalid": 0,
+          "moves": 228,
+          "qualified_M": 3,
+          "score": 40.0,
+          "seat": "A"
+        },
+        {
+          "D": 1130.0,
+          "M": 3,
+          "R": 40.0,
+          "attacks": 30,
+          "blocked": 8,
+          "deaths": 6,
+          "defends": 8,
+          "hp": 80.0,
+          "invalid": 0,
+          "moves": 235,
+          "qualified_M": 3,
+          "score": 40.0,
+          "seat": "B"
+        },
+        {
+          "D": 1055.0,
+          "M": 3,
+          "R": 40.0,
+          "attacks": 29,
+          "blocked": 2,
+          "deaths": 6,
+          "defends": 9,
+          "hp": 100.0,
+          "invalid": 0,
+          "moves": 242,
+          "qualified_M": 3,
+          "score": 40.0,
+          "seat": "C"
+        },
+        {
+          "D": 795.0,
+          "M": 3,
+          "R": 40.0,
+          "attacks": 22,
+          "blocked": 8,
+          "deaths": 4,
+          "defends": 9,
+          "hp": 40.0,
+          "invalid": 0,
+          "moves": 246,
+          "qualified_M": 3,
+          "score": 40.0,
+          "seat": "D"
+        }
+      ],
+      "focal_result": {
+        "D": 1055.0,
+        "M": 3,
+        "R": 40.0,
+        "attacks": 29,
+        "blocked": 2,
+        "deaths": 6,
+        "defends": 9,
+        "hp": 100.0,
+        "invalid": 0,
+        "moves": 242,
+        "qualified_M": 3,
+        "score": 40.0,
+        "seat": "C"
+      },
+      "rank": 2,
+      "win_share": 0.0,
+      "stationary_windows": 8,
+      "timing": {
+        "A": {
+          "max_ms": 5.120294,
+          "p95_ms": 0.873108,
+          "over_500ms": 0
+        },
+        "B": {
+          "max_ms": 2.294064,
+          "p95_ms": 0.948122,
+          "over_500ms": 0
+        },
+        "C": {
+          "max_ms": 1.476229,
+          "p95_ms": 0.90057,
+          "over_500ms": 0
+        },
+        "D": {
+          "max_ms": 2.013933,
+          "p95_ms": 0.798426,
+          "over_500ms": 0
+        }
+      },
+      "event_observations": {
+        "A": {
+          "unique_delivered": 6,
+          "delivered_ids": [
+            "chili",
+            "explosion",
+            "fortress",
+            "heal",
+            "illusion",
+            "split"
+          ],
+          "gained_fortress": [],
+          "gained_heal": false,
+          "causal_effect": "not established by a single rollout"
+        },
+        "B": {
+          "unique_delivered": 6,
+          "delivered_ids": [
+            "chili",
+            "explosion",
+            "fortress",
+            "heal",
+            "illusion",
+            "split"
+          ],
+          "gained_fortress": [
+            "fortress"
+          ],
+          "gained_heal": false,
+          "causal_effect": "not established by a single rollout"
+        },
+        "C": {
+          "unique_delivered": 6,
+          "delivered_ids": [
+            "chili",
+            "explosion",
+            "fortress",
+            "heal",
+            "illusion",
+            "split"
+          ],
+          "gained_fortress": [
+            "fortress"
+          ],
+          "gained_heal": false,
+          "causal_effect": "not established by a single rollout"
+        },
+        "D": {
+          "unique_delivered": 6,
+          "delivered_ids": [
+            "chili",
+            "explosion",
+            "fortress",
+            "heal",
+            "illusion",
+            "split"
+          ],
+          "gained_fortress": [
+            "fortress"
+          ],
+          "gained_heal": false,
+          "causal_effect": "not established by a single rollout"
+        }
+      }
+    },
+    {
+      "case_id": "late_empty-D-economy",
+      "map_id": "late_empty-20261040",
+      "family": "late_empty",
+      "mix": "economy",
+      "focal": "D",
+      "candidate": "chatgpt",
+      "signature": "6e8a29771d2f7fa96c52f44154171614063d1f74f1b79c23160ab9774f02bb50",
+      "versions": {
+        "D": "chatgpt"
+      },
+      "status": "passed",
+      "stop": "until_tick",
+      "failed_conditions": [],
+      "start_tick": 200,
+      "end_tick": 500,
+      "result": [
+        {
+          "D": 380.0,
+          "M": 2,
+          "R": 40.0,
+          "attacks": 4,
+          "blocked": 0,
+          "deaths": 0,
+          "defends": 274,
+          "hp": 20.0,
+          "invalid": 0,
+          "moves": 22,
+          "qualified_M": 2,
+          "score": 31.4,
+          "seat": "A"
+        },
+        {
+          "D": 320.0,
+          "M": 2,
+          "R": 40.0,
+          "attacks": 1,
+          "blocked": 0,
+          "deaths": 0,
+          "defends": 0,
+          "hp": 100.0,
+          "invalid": 0,
+          "moves": 299,
+          "qualified_M": 2,
+          "score": 29.6,
+          "seat": "B"
+        },
+        {
+          "D": 300.0,
+          "M": 3,
+          "R": 40.0,
+          "attacks": 0,
+          "blocked": 0,
+          "deaths": 0,
+          "defends": 0,
+          "hp": 80.0,
+          "invalid": 0,
+          "moves": 300,
+          "qualified_M": 3,
+          "score": 34.0,
+          "seat": "C"
+        },
+        {
+          "D": 380.0,
+          "M": 3,
+          "R": 40.0,
+          "attacks": 4,
+          "blocked": 0,
+          "deaths": 0,
+          "defends": 274,
+          "hp": 20.0,
+          "invalid": 0,
+          "moves": 22,
+          "qualified_M": 3,
+          "score": 36.4,
+          "seat": "D"
+        }
+      ],
+      "focal_result": {
+        "D": 380.0,
+        "M": 3,
+        "R": 40.0,
+        "attacks": 4,
+        "blocked": 0,
+        "deaths": 0,
+        "defends": 274,
+        "hp": 20.0,
+        "invalid": 0,
+        "moves": 22,
+        "qualified_M": 3,
+        "score": 36.4,
+        "seat": "D"
+      },
+      "rank": 1,
+      "win_share": 1.0,
+      "stationary_windows": 264,
+      "timing": {
+        "D": {
+          "max_ms": 0.342738,
+          "p95_ms": 0.140142,
+          "over_500ms": 0
+        }
+      },
+      "event_observations": {
+        "D": {
+          "unique_delivered": 6,
+          "delivered_ids": [
+            "chili",
+            "explosion",
+            "fortress",
+            "heal",
+            "illusion",
+            "split"
+          ],
+          "gained_fortress": [],
+          "gained_heal": false,
+          "causal_effect": "not established by a single rollout"
+        }
+      }
+    },
+    {
+      "case_id": "late_empty-D-economy",
+      "map_id": "late_empty-20261040",
+      "family": "late_empty",
+      "mix": "economy",
+      "focal": "D",
+      "candidate": "deepseek",
+      "signature": "c5e91d34437372452fd71717aa750b962abd4927e934507a333daace99dd16a1",
+      "versions": {
+        "D": "deepseek"
+      },
+      "status": "passed",
+      "stop": "until_tick",
+      "failed_conditions": [],
+      "start_tick": 200,
+      "end_tick": 500,
+      "result": [
+        {
+          "D": 380.0,
+          "M": 3,
+          "R": 40.0,
+          "attacks": 4,
+          "blocked": 0,
+          "deaths": 0,
+          "defends": 23,
+          "hp": 20.0,
+          "invalid": 0,
+          "moves": 273,
+          "qualified_M": 3,
+          "score": 36.4,
+          "seat": "A"
+        },
+        {
+          "D": 480.0,
+          "M": 2,
+          "R": 40.0,
+          "attacks": 10,
+          "blocked": 0,
+          "deaths": 1,
+          "defends": 24,
+          "hp": 20.0,
+          "invalid": 0,
+          "moves": 263,
+          "qualified_M": 2,
+          "score": 34.4,
+          "seat": "B"
+        },
+        {
+          "D": 180.0,
+          "M": 3,
+          "R": 40.0,
+          "attacks": 0,
+          "blocked": 7,
+          "deaths": 2,
+          "defends": 1,
+          "hp": 40.0,
+          "invalid": 0,
+          "moves": 284,
+          "qualified_M": 3,
+          "score": 30.4,
+          "seat": "C"
+        },
+        {
+          "D": 780.0,
+          "M": 3,
+          "R": 40.0,
+          "attacks": 17,
+          "blocked": 7,
+          "deaths": 1,
+          "defends": 8,
+          "hp": 100.0,
+          "invalid": 0,
+          "moves": 265,
+          "qualified_M": 3,
+          "score": 40.0,
+          "seat": "D"
+        }
+      ],
+      "focal_result": {
+        "D": 780.0,
+        "M": 3,
+        "R": 40.0,
+        "attacks": 17,
+        "blocked": 7,
+        "deaths": 1,
+        "defends": 8,
+        "hp": 100.0,
+        "invalid": 0,
+        "moves": 265,
+        "qualified_M": 3,
+        "score": 40.0,
+        "seat": "D"
+      },
+      "rank": 1,
+      "win_share": 1.0,
+      "stationary_windows": 3,
+      "timing": {
+        "D": {
+          "max_ms": 2.057398,
+          "p95_ms": 0.876794,
+          "over_500ms": 0
+        }
+      },
+      "event_observations": {
+        "D": {
+          "unique_delivered": 6,
+          "delivered_ids": [
+            "chili",
+            "explosion",
+            "fortress",
+            "heal",
+            "illusion",
+            "split"
+          ],
+          "gained_fortress": [
+            "fortress"
+          ],
+          "gained_heal": false,
+          "causal_effect": "not established by a single rollout"
+        }
+      }
+    },
+    {
+      "case_id": "late_empty-D-pressure",
+      "map_id": "late_empty-20261040",
+      "family": "late_empty",
+      "mix": "pressure",
+      "focal": "D",
+      "candidate": "chatgpt",
+      "signature": "f5c98f6a43d6cdf8835a0b62ee74e169b44515e1da67c140bfa1d991f200fba1",
+      "versions": {
+        "D": "chatgpt"
+      },
+      "status": "passed",
+      "stop": "until_tick",
+      "failed_conditions": [],
+      "start_tick": 200,
+      "end_tick": 500,
+      "result": [
+        {
+          "D": 520.0,
+          "M": 2,
+          "R": 40.0,
+          "attacks": 13,
+          "blocked": 0,
+          "deaths": 2,
+          "defends": 0,
+          "hp": 100.0,
+          "invalid": 0,
+          "moves": 281,
+          "qualified_M": 2,
+          "score": 35.0,
+          "seat": "A"
+        },
+        {
+          "D": 520.0,
+          "M": 2,
+          "R": 40.0,
+          "attacks": 14,
+          "blocked": 0,
+          "deaths": 2,
+          "defends": 280,
+          "hp": 100.0,
+          "invalid": 0,
+          "moves": 0,
+          "qualified_M": 2,
+          "score": 35.0,
+          "seat": "B"
+        },
+        {
+          "D": 480.0,
+          "M": 2,
+          "R": 40.0,
+          "attacks": 14,
+          "blocked": 0,
+          "deaths": 3,
+          "defends": 11,
+          "hp": 100.0,
+          "invalid": 0,
+          "moves": 266,
+          "qualified_M": 2,
+          "score": 34.4,
+          "seat": "C"
+        },
+        {
+          "D": 880.0,
+          "M": 3,
+          "R": 40.0,
+          "attacks": 30,
+          "blocked": 0,
+          "deaths": 5,
+          "defends": 15,
+          "hp": 100.0,
+          "invalid": 0,
+          "moves": 240,
+          "qualified_M": 3,
+          "score": 40.0,
+          "seat": "D"
+        }
+      ],
+      "focal_result": {
+        "D": 880.0,
+        "M": 3,
+        "R": 40.0,
+        "attacks": 30,
+        "blocked": 0,
+        "deaths": 5,
+        "defends": 15,
+        "hp": 100.0,
+        "invalid": 0,
+        "moves": 240,
+        "qualified_M": 3,
+        "score": 40.0,
+        "seat": "D"
+      },
+      "rank": 1,
+      "win_share": 1.0,
+      "stationary_windows": 9,
+      "timing": {
+        "D": {
+          "max_ms": 1.670743,
+          "p95_ms": 1.247254,
+          "over_500ms": 0
+        }
+      },
+      "event_observations": {
+        "D": {
+          "unique_delivered": 6,
+          "delivered_ids": [
+            "chili",
+            "explosion",
+            "fortress",
+            "heal",
+            "illusion",
+            "split"
+          ],
+          "gained_fortress": [
+            "fortress"
+          ],
+          "gained_heal": false,
+          "causal_effect": "not established by a single rollout"
+        }
+      }
+    },
+    {
+      "case_id": "late_empty-D-pressure",
+      "map_id": "late_empty-20261040",
+      "family": "late_empty",
+      "mix": "pressure",
+      "focal": "D",
+      "candidate": "deepseek",
+      "signature": "1eeeb0e582055976d1656a5249cccdac488c8c7f8cbbe7d150dd939162b99a5b",
+      "versions": {
+        "D": "deepseek"
+      },
+      "status": "passed",
+      "stop": "until_tick",
+      "failed_conditions": [],
+      "start_tick": 200,
+      "end_tick": 500,
+      "result": [
+        {
+          "D": 610.0,
+          "M": 2,
+          "R": 40.0,
+          "attacks": 16,
+          "blocked": 99,
+          "deaths": 3,
+          "defends": 0,
+          "hp": 100.0,
+          "invalid": 0,
+          "moves": 176,
+          "qualified_M": 2,
+          "score": 35.0,
+          "seat": "A"
+        },
+        {
+          "D": 520.0,
+          "M": 2,
+          "R": 40.0,
+          "attacks": 11,
+          "blocked": 0,
+          "deaths": 2,
+          "defends": 283,
+          "hp": 60.0,
+          "invalid": 0,
+          "moves": 0,
+          "qualified_M": 2,
+          "score": 35.0,
+          "seat": "B"
+        },
+        {
+          "D": 340.0,
+          "M": 2,
+          "R": 40.0,
+          "attacks": 12,
+          "blocked": 99,
+          "deaths": 4,
+          "defends": 13,
+          "hp": 10.0,
+          "invalid": 0,
+          "moves": 162,
+          "qualified_M": 2,
+          "score": 30.200000000000003,
+          "seat": "C"
+        },
+        {
+          "D": 1160.0,
+          "M": 3,
+          "R": 40.0,
+          "attacks": 39,
+          "blocked": 0,
+          "deaths": 4,
+          "defends": 10,
+          "hp": 0.0,
+          "invalid": 0,
+          "moves": 241,
+          "qualified_M": 3,
+          "score": 40.0,
+          "seat": "D"
+        }
+      ],
+      "focal_result": {
+        "D": 1160.0,
+        "M": 3,
+        "R": 40.0,
+        "attacks": 39,
+        "blocked": 0,
+        "deaths": 4,
+        "defends": 10,
+        "hp": 0.0,
+        "invalid": 0,
+        "moves": 241,
+        "qualified_M": 3,
+        "score": 40.0,
+        "seat": "D"
+      },
+      "rank": 1,
+      "win_share": 1.0,
+      "stationary_windows": 10,
+      "timing": {
+        "D": {
+          "max_ms": 2.63583,
+          "p95_ms": 0.796984,
+          "over_500ms": 0
+        }
+      },
+      "event_observations": {
+        "D": {
+          "unique_delivered": 6,
+          "delivered_ids": [
+            "chili",
+            "explosion",
+            "fortress",
+            "heal",
+            "illusion",
+            "split"
+          ],
+          "gained_fortress": [
+            "fortress"
+          ],
+          "gained_heal": false,
+          "causal_effect": "not established by a single rollout"
+        }
+      }
+    },
+    {
+      "case_id": "late_empty-D-archive",
+      "map_id": "late_empty-20261040",
+      "family": "late_empty",
+      "mix": "archive",
+      "focal": "D",
+      "candidate": "chatgpt",
+      "signature": "5c0a1b7f70e25558cb36d7391fd82ba4f6027f4ec3cda6775edea459de109622",
+      "versions": {
+        "A": "deepseek",
+        "B": "deepseek",
+        "C": "deepseek",
+        "D": "chatgpt"
+      },
+      "status": "passed",
+      "stop": "until_tick",
+      "failed_conditions": [],
+      "start_tick": 200,
+      "end_tick": 500,
+      "result": [
+        {
+          "D": 950.0,
+          "M": 3,
+          "R": 40.0,
+          "attacks": 33,
+          "blocked": 0,
+          "deaths": 7,
+          "defends": 15,
+          "hp": 100.0,
+          "invalid": 0,
+          "moves": 231,
+          "qualified_M": 3,
+          "score": 40.0,
+          "seat": "A"
+        },
+        {
+          "D": 820.0,
+          "M": 3,
+          "R": 40.0,
+          "attacks": 33,
+          "blocked": 21,
+          "deaths": 8,
+          "defends": 9,
+          "hp": 0.0,
+          "invalid": 0,
+          "moves": 214,
+          "qualified_M": 3,
+          "score": 40.0,
+          "seat": "B"
+        },
+        {
+          "D": 1055.0,
+          "M": 3,
+          "R": 40.0,
+          "attacks": 35,
+          "blocked": 23,
+          "deaths": 10,
+          "defends": 9,
+          "hp": 0.0,
+          "invalid": 0,
+          "moves": 202,
+          "qualified_M": 3,
+          "score": 40.0,
+          "seat": "C"
+        },
+        {
+          "D": 1275.0,
+          "M": 3,
+          "R": 40.0,
+          "attacks": 35,
+          "blocked": 2,
+          "deaths": 4,
+          "defends": 8,
+          "hp": 100.0,
+          "invalid": 0,
+          "moves": 243,
+          "qualified_M": 3,
+          "score": 40.0,
+          "seat": "D"
+        }
+      ],
+      "focal_result": {
+        "D": 1275.0,
+        "M": 3,
+        "R": 40.0,
+        "attacks": 35,
+        "blocked": 2,
+        "deaths": 4,
+        "defends": 8,
+        "hp": 100.0,
+        "invalid": 0,
+        "moves": 243,
+        "qualified_M": 3,
+        "score": 40.0,
+        "seat": "D"
+      },
+      "rank": 1,
+      "win_share": 1.0,
+      "stationary_windows": 19,
+      "timing": {
+        "A": {
+          "max_ms": 1.24525,
+          "p95_ms": 0.863414,
+          "over_500ms": 0
+        },
+        "B": {
+          "max_ms": 4.504784,
+          "p95_ms": 0.842683,
+          "over_500ms": 0
+        },
+        "C": {
+          "max_ms": 2.349353,
+          "p95_ms": 0.836404,
+          "over_500ms": 0
+        },
+        "D": {
+          "max_ms": 2.850034,
+          "p95_ms": 1.198621,
+          "over_500ms": 0
+        }
+      },
+      "event_observations": {
+        "A": {
+          "unique_delivered": 6,
+          "delivered_ids": [
+            "chili",
+            "explosion",
+            "fortress",
+            "heal",
+            "illusion",
+            "split"
+          ],
+          "gained_fortress": [
+            "fortress"
+          ],
+          "gained_heal": false,
+          "causal_effect": "not established by a single rollout"
+        },
+        "B": {
+          "unique_delivered": 6,
+          "delivered_ids": [
+            "chili",
+            "explosion",
+            "fortress",
+            "heal",
+            "illusion",
+            "split"
+          ],
+          "gained_fortress": [
+            "fortress"
+          ],
+          "gained_heal": false,
+          "causal_effect": "not established by a single rollout"
+        },
+        "C": {
+          "unique_delivered": 6,
+          "delivered_ids": [
+            "chili",
+            "explosion",
+            "fortress",
+            "heal",
+            "illusion",
+            "split"
+          ],
+          "gained_fortress": [
+            "fortress"
+          ],
+          "gained_heal": false,
+          "causal_effect": "not established by a single rollout"
+        },
+        "D": {
+          "unique_delivered": 6,
+          "delivered_ids": [
+            "chili",
+            "explosion",
+            "fortress",
+            "heal",
+            "illusion",
+            "split"
+          ],
+          "gained_fortress": [
+            "fortress"
+          ],
+          "gained_heal": false,
+          "causal_effect": "not established by a single rollout"
+        }
+      }
+    },
+    {
+      "case_id": "late_empty-D-archive",
+      "map_id": "late_empty-20261040",
+      "family": "late_empty",
+      "mix": "archive",
+      "focal": "D",
+      "candidate": "deepseek",
+      "signature": "42c2bafe7e9b4d33d8cd9a350ec98728b6f57f06f87d95b0bc0bc19519312d82",
+      "versions": {
+        "A": "deepseek",
+        "B": "deepseek",
+        "C": "deepseek",
+        "D": "deepseek"
+      },
+      "status": "passed",
+      "stop": "until_tick",
+      "failed_conditions": [],
+      "start_tick": 200,
+      "end_tick": 500,
+      "result": [
+        {
+          "D": 600.0,
+          "M": 3,
+          "R": 40.0,
+          "attacks": 28,
+          "blocked": 14,
+          "deaths": 7,
+          "defends": 7,
+          "hp": 100.0,
+          "invalid": 0,
+          "moves": 228,
+          "qualified_M": 3,
+          "score": 40.0,
+          "seat": "A"
+        },
+        {
+          "D": 1130.0,
+          "M": 3,
+          "R": 40.0,
+          "attacks": 30,
+          "blocked": 8,
+          "deaths": 6,
+          "defends": 8,
+          "hp": 80.0,
+          "invalid": 0,
+          "moves": 235,
+          "qualified_M": 3,
+          "score": 40.0,
+          "seat": "B"
+        },
+        {
+          "D": 1055.0,
+          "M": 3,
+          "R": 40.0,
+          "attacks": 29,
+          "blocked": 2,
+          "deaths": 6,
+          "defends": 9,
+          "hp": 100.0,
+          "invalid": 0,
+          "moves": 242,
+          "qualified_M": 3,
+          "score": 40.0,
+          "seat": "C"
+        },
+        {
+          "D": 795.0,
+          "M": 3,
+          "R": 40.0,
+          "attacks": 22,
+          "blocked": 8,
+          "deaths": 4,
+          "defends": 9,
+          "hp": 40.0,
+          "invalid": 0,
+          "moves": 246,
+          "qualified_M": 3,
+          "score": 40.0,
+          "seat": "D"
+        }
+      ],
+      "focal_result": {
+        "D": 795.0,
+        "M": 3,
+        "R": 40.0,
+        "attacks": 22,
+        "blocked": 8,
+        "deaths": 4,
+        "defends": 9,
+        "hp": 40.0,
+        "invalid": 0,
+        "moves": 246,
+        "qualified_M": 3,
+        "score": 40.0,
+        "seat": "D"
+      },
+      "rank": 3,
+      "win_share": 0.0,
+      "stationary_windows": 4,
+      "timing": {
+        "A": {
+          "max_ms": 1.795713,
+          "p95_ms": 0.82155,
+          "over_500ms": 0
+        },
+        "B": {
+          "max_ms": 1.278581,
+          "p95_ms": 0.803874,
+          "over_500ms": 0
+        },
+        "C": {
+          "max_ms": 1.512929,
+          "p95_ms": 0.977827,
+          "over_500ms": 0
+        },
+        "D": {
+          "max_ms": 2.25816,
+          "p95_ms": 0.863405,
+          "over_500ms": 0
+        }
+      },
+      "event_observations": {
+        "A": {
+          "unique_delivered": 6,
+          "delivered_ids": [
+            "chili",
+            "explosion",
+            "fortress",
+            "heal",
+            "illusion",
+            "split"
+          ],
+          "gained_fortress": [],
+          "gained_heal": false,
+          "causal_effect": "not established by a single rollout"
+        },
+        "B": {
+          "unique_delivered": 6,
+          "delivered_ids": [
+            "chili",
+            "explosion",
+            "fortress",
+            "heal",
+            "illusion",
+            "split"
+          ],
+          "gained_fortress": [
+            "fortress"
+          ],
+          "gained_heal": false,
+          "causal_effect": "not established by a single rollout"
+        },
+        "C": {
+          "unique_delivered": 6,
+          "delivered_ids": [
+            "chili",
+            "explosion",
+            "fortress",
+            "heal",
+            "illusion",
+            "split"
+          ],
+          "gained_fortress": [
+            "fortress"
+          ],
+          "gained_heal": false,
+          "causal_effect": "not established by a single rollout"
+        },
+        "D": {
+          "unique_delivered": 6,
+          "delivered_ids": [
+            "chili",
+            "explosion",
+            "fortress",
+            "heal",
+            "illusion",
+            "split"
+          ],
+          "gained_fortress": [
+            "fortress"
+          ],
+          "gained_heal": false,
+          "causal_effect": "not established by a single rollout"
+        }
+      }
+    }
+  ]
+}

@@ -59,3 +59,9 @@
 
 **私密预备资料：** 本分支不进入其他分支或公开导航；未来公开使用干净历史导出，见 [私密预备约定](governance/private-preparation.md)。
 
+
+## 2026-10-29：版本联赛、DeepSeek复审与场景求解
+
+[本轮复审及工具修复](docs/42-chatgpt-version-league-review-2026-10-29.md) · [16类场景求解方案](docs/43-scenario-solvers-and-optimality-boundaries-2026-10-29.md) · [288局完整对比表](checks/code-results/version-league-2026-10-29.md) · [全部参数/版本/计划](checks/code-results/version-league-2026-10-29.json) · [验证范围](checks/code-results/version-league-validation-2026-10-29.json)。
+
+本轮288是自建离线裁判的版本×局面组合；没有新运行真实模型或原版DDS。与DeepSeek的真实pilot分开统计。均分差约0.11，未证明整体提升；原版相同脚本差分、真实公告回复回放及机会到净收益漏斗仍待完成。外部近期论文在比较区13报告，代码入口用法留在代码仓库。
