@@ -1,0 +1,338 @@
+{
+  "scope": "offline_closed_ordinary_duel_surrogate",
+  "requested_depth": 2,
+  "completed_depth": 2,
+  "budget_exhausted": false,
+  "joint_transitions": 2232,
+  "elapsed_ms": 37.41050799999357,
+  "score_damage_cap": 500.0,
+  "baseline_action": {
+    "action": "move",
+    "direction": "up"
+  },
+  "weights": {
+    "hp": 0.03,
+    "death": 3.0,
+    "goal": 1.0,
+    "override_margin": 0.05
+  },
+  "sample_seed": 20261029,
+  "recommendation": "candidate_exceeds_baseline_in_model",
+  "sampled_action": {
+    "action": "attack",
+    "direction": "right"
+  },
+  "policy": [
+    {
+      "action": {
+        "action": "defend"
+      },
+      "probability": 0.0
+    },
+    {
+      "action": {
+        "action": "attack",
+        "direction": "up"
+      },
+      "probability": 0.0
+    },
+    {
+      "action": {
+        "action": "attack",
+        "direction": "right"
+      },
+      "probability": 1.0
+    },
+    {
+      "action": {
+        "action": "attack",
+        "direction": "down"
+      },
+      "probability": 0.0
+    },
+    {
+      "action": {
+        "action": "attack",
+        "direction": "left"
+      },
+      "probability": 0.0
+    },
+    {
+      "action": {
+        "action": "move",
+        "direction": "up"
+      },
+      "probability": 0.0
+    },
+    {
+      "action": {
+        "action": "move",
+        "direction": "down"
+      },
+      "probability": 0.0
+    },
+    {
+      "action": {
+        "action": "move",
+        "direction": "left"
+      },
+      "probability": 0.0
+    }
+  ],
+  "certificate": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "gap": 0.0,
+    "baseline_lower": -0.6,
+    "baseline_upper": -0.6
+  },
+  "row_actions": [
+    {
+      "action": "defend"
+    },
+    {
+      "action": "attack",
+      "direction": "up"
+    },
+    {
+      "action": "attack",
+      "direction": "right"
+    },
+    {
+      "action": "attack",
+      "direction": "down"
+    },
+    {
+      "action": "attack",
+      "direction": "left"
+    },
+    {
+      "action": "move",
+      "direction": "up"
+    },
+    {
+      "action": "move",
+      "direction": "down"
+    },
+    {
+      "action": "move",
+      "direction": "left"
+    }
+  ],
+  "opponent_actions": [
+    {
+      "action": "defend"
+    },
+    {
+      "action": "attack",
+      "direction": "up"
+    },
+    {
+      "action": "attack",
+      "direction": "right"
+    },
+    {
+      "action": "attack",
+      "direction": "down"
+    },
+    {
+      "action": "attack",
+      "direction": "left"
+    },
+    {
+      "action": "move",
+      "direction": "up"
+    },
+    {
+      "action": "move",
+      "direction": "right"
+    },
+    {
+      "action": "move",
+      "direction": "down"
+    },
+    null
+  ],
+  "lower_matrix": [
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.29999999999999993,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.6,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.30000000000000004,
+      0.6,
+      0.6,
+      0.6,
+      0.0,
+      0.6,
+      0.6,
+      0.6,
+      0.6
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.6,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.6,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.6,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.6,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.6,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "upper_matrix": [
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.29999999999999993,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.6,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.30000000000000004,
+      0.6,
+      0.6,
+      0.6,
+      0.0,
+      0.6,
+      0.6,
+      0.6,
+      0.6
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.6,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.6,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.6,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.6,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.6,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "scene_id": "wall-crossfire-cap500",
+  "scene_sha256": "87392e17310b2265e7854b60c412ebf02aa3e2da10afc354b1c374a802247734"
+}

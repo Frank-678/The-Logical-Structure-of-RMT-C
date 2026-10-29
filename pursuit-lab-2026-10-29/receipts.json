@@ -1,0 +1,35 @@
+[
+  {
+    "command": [
+      "python3",
+      "tests/pursuit_lab_test.py"
+    ],
+    "cwd": "/workspace/scratch/606bca75a75e/pursuit-work",
+    "rc": 0,
+    "stdout": "command-0.stdout.txt",
+    "stderr": "command-0.stderr.txt"
+  },
+  {
+    "command": [
+      "python3",
+      "tools/review_handoff_probe.py",
+      "/workspace/scratch/606bca75a75e/deepseek-audit",
+      "--out",
+      "results/deepseek-review.json"
+    ],
+    "cwd": "/workspace/scratch/606bca75a75e/pursuit-work",
+    "rc": 0,
+    "stdout": "command-1.stdout.txt",
+    "stderr": "command-1.stderr.txt"
+  },
+  {
+    "command": [
+      "python3",
+      "tests/practice_tools_test.py"
+    ],
+    "cwd": "/workspace/scratch/606bca75a75e/deepseek-audit",
+    "rc": 0,
+    "stdout": "deepseek-tests.stdout.txt",
+    "stderr": "deepseek-tests.stderr.txt"
+  }
+]

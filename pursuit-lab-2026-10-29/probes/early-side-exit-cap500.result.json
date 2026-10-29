@@ -1,0 +1,393 @@
+{
+  "scope": "offline_closed_ordinary_duel_surrogate",
+  "requested_depth": 2,
+  "completed_depth": 2,
+  "budget_exhausted": false,
+  "joint_transitions": 2272,
+  "elapsed_ms": 18.614018999869586,
+  "score_damage_cap": 500.0,
+  "baseline_action": {
+    "action": "move",
+    "direction": "right"
+  },
+  "weights": {
+    "hp": 0.03,
+    "death": 3.0,
+    "goal": 1.0,
+    "override_margin": 0.05
+  },
+  "sample_seed": 20261029,
+  "recommendation": "candidate_exceeds_baseline_in_model",
+  "sampled_action": {
+    "action": "move",
+    "direction": "up"
+  },
+  "policy": [
+    {
+      "action": {
+        "action": "defend"
+      },
+      "probability": 0.0
+    },
+    {
+      "action": {
+        "action": "attack",
+        "direction": "up"
+      },
+      "probability": 0.0
+    },
+    {
+      "action": {
+        "action": "attack",
+        "direction": "right"
+      },
+      "probability": 0.0
+    },
+    {
+      "action": {
+        "action": "attack",
+        "direction": "down"
+      },
+      "probability": 0.0
+    },
+    {
+      "action": {
+        "action": "attack",
+        "direction": "left"
+      },
+      "probability": 0.0
+    },
+    {
+      "action": {
+        "action": "move",
+        "direction": "up"
+      },
+      "probability": 1.0
+    },
+    {
+      "action": {
+        "action": "move",
+        "direction": "right"
+      },
+      "probability": 0.0
+    },
+    {
+      "action": {
+        "action": "move",
+        "direction": "down"
+      },
+      "probability": 0.0
+    },
+    {
+      "action": {
+        "action": "move",
+        "direction": "left"
+      },
+      "probability": 0.0
+    }
+  ],
+  "certificate": {
+    "lower": 1.0,
+    "upper": 1.0,
+    "gap": 0.0,
+    "baseline_lower": -0.8,
+    "baseline_upper": -0.8
+  },
+  "row_actions": [
+    {
+      "action": "defend"
+    },
+    {
+      "action": "attack",
+      "direction": "up"
+    },
+    {
+      "action": "attack",
+      "direction": "right"
+    },
+    {
+      "action": "attack",
+      "direction": "down"
+    },
+    {
+      "action": "attack",
+      "direction": "left"
+    },
+    {
+      "action": "move",
+      "direction": "up"
+    },
+    {
+      "action": "move",
+      "direction": "right"
+    },
+    {
+      "action": "move",
+      "direction": "down"
+    },
+    {
+      "action": "move",
+      "direction": "left"
+    }
+  ],
+  "opponent_actions": [
+    {
+      "action": "defend"
+    },
+    {
+      "action": "attack",
+      "direction": "up"
+    },
+    {
+      "action": "attack",
+      "direction": "right"
+    },
+    {
+      "action": "attack",
+      "direction": "down"
+    },
+    {
+      "action": "attack",
+      "direction": "left"
+    },
+    {
+      "action": "move",
+      "direction": "up"
+    },
+    {
+      "action": "move",
+      "direction": "right"
+    },
+    {
+      "action": "move",
+      "direction": "down"
+    },
+    {
+      "action": "move",
+      "direction": "left"
+    },
+    null
+  ],
+  "lower_matrix": [
+    [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      -0.3,
+      0.5
+    ],
+    [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      -0.3,
+      0.5
+    ],
+    [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      -0.3,
+      0.5
+    ],
+    [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      -0.3,
+      0.5
+    ],
+    [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      -0.3,
+      0.5
+    ],
+    [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    [
+      -0.8,
+      -0.8,
+      -0.8,
+      -0.8,
+      -0.8,
+      0.0,
+      0.0,
+      0.0,
+      -0.8,
+      -0.8
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  ],
+  "upper_matrix": [
+    [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      -0.3,
+      0.5
+    ],
+    [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      -0.3,
+      0.5
+    ],
+    [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      -0.3,
+      0.5
+    ],
+    [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      -0.3,
+      0.5
+    ],
+    [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      -0.3,
+      0.5
+    ],
+    [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    [
+      -0.8,
+      -0.8,
+      -0.8,
+      -0.8,
+      -0.8,
+      0.0,
+      0.0,
+      0.0,
+      -0.8,
+      -0.8
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  ],
+  "scene_id": "early-side-exit-cap500",
+  "scene_sha256": "b5072c57c58ab6ee10069044833507c730dd5689332d6176e1d13a6d150ceed2"
+}

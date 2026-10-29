@@ -1,0 +1,258 @@
+{
+  "differential-part-08.json": {
+    "bytes": 84399,
+    "sha256": "ed05e0f84cc16e48543c79f6a18b3d6551b1bfc0e355e1b29bef19990eb31176"
+  },
+  "differential-part-02.json": {
+    "bytes": 85429,
+    "sha256": "9191730aa7b839c6ab579fcc09cec9646f601e4b6578ae06985c5ee9fa441e80"
+  },
+  "certificate-lp.json": {
+    "bytes": 89706,
+    "sha256": "8e11bf6b1a19d51b0c97f3237ba9af9006c5f7c818cfe07169a85907ad0b3e04"
+  },
+  "command-1.stderr.txt": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "receipts.json": {
+    "bytes": 824,
+    "sha256": "e22de5be8df37ed17378f5d66b5f1a26a46b5ac4bc368bf6177a952010acf268"
+  },
+  "differential-part-00.json": {
+    "bytes": 85007,
+    "sha256": "7096a39f549eefa35fc3c57c7d74c65e9ed620363afd2987664030215707ac24"
+  },
+  "differential-part-03.json": {
+    "bytes": 85384,
+    "sha256": "07f9b6d4ab0f0bc5690c62f3fa6eb6c8f91ae9bd558a0eeb194dce36ad4210bf"
+  },
+  "differential-index.json": {
+    "bytes": 2511,
+    "sha256": "e961a9dcfd1fe161d011d1598b5526ec51872f84ddb04a186621402d4c74a662"
+  },
+  "README.md": {
+    "bytes": 1650,
+    "sha256": "b2be4612913d56ede14c5b53d5d0fee655755a6bfedfc36c3e03a0c9a05b8315"
+  },
+  "command-0.stdout.txt": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "deepseek-review.json": {
+    "bytes": 1357,
+    "sha256": "90b10a99d774d7340ef3d619164d7036f6da932abf0e8dcc728c598b9ed085b3"
+  },
+  "differential-part-07.json": {
+    "bytes": 83696,
+    "sha256": "b88d0d6e482448d679bfd4651526b9da4bc8bc113d685d104dfb402d4bced19b"
+  },
+  "differential-part-01.json": {
+    "bytes": 84334,
+    "sha256": "35d2e1fbbb87598ddaf606cbd01ab27188ad14ed9b4fba2d775efafa335ac72e"
+  },
+  "differential-part-09.json": {
+    "bytes": 85368,
+    "sha256": "95f14e6b052776a69388d07b29fbc7f4b1bfbacb8605b548c5b7089230c088be"
+  },
+  "differential-part-11.json": {
+    "bytes": 85406,
+    "sha256": "7f9a7f1c22a4f0c37c7fbb1229a412a1599eede0c0f701d8f3237c20a89820de"
+  },
+  "differential-part-10.json": {
+    "bytes": 85709,
+    "sha256": "36af01d572f0909080a76219cc0c54cb548c78a95e63afe61f03b34f15dab92a"
+  },
+  "differential-part-06.json": {
+    "bytes": 86334,
+    "sha256": "aa9b97a481c16c860144d6ceefd803043705883a4ab4ef31295ead82f2b41cd0"
+  },
+  "differential-part-04.json": {
+    "bytes": 86076,
+    "sha256": "ffa5d592430a5cbb2164b9414b704482ca92c4636d075bcfc8895c233907e659"
+  },
+  "deepseek-tests.stderr.txt": {
+    "bytes": 113,
+    "sha256": "f6d8da83f4849e18523046967c80c4ecdb9aba041de410952311479be46e03b4"
+  },
+  "command-0.stderr.txt": {
+    "bytes": 2675,
+    "sha256": "72337167510c4fcc880fad2965b3901bf9aaf39abdfec6b78b056cc8c1b18161"
+  },
+  "deepseek-tests.stdout.txt": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "differential-part-05.json": {
+    "bytes": 85511,
+    "sha256": "7e03a6136cf7d4804a705a38617899b39d748f4c9e8297a52b9823809fb077de"
+  },
+  "command-1.stdout.txt": {
+    "bytes": 37,
+    "sha256": "ae2595ee9aa162e638f79d1d5018143e5bddb01665cb5438d603ae8b73adc66a"
+  },
+  "probes/wall-crossfire-cap300.scene.json": {
+    "bytes": 1603,
+    "sha256": "e27c86dffac2e85b7c3175b4c9f2b70dd6662a1a3959f3ed8085137e1694b6da"
+  },
+  "probes/corner-immediate-shot-cap300.scene.json": {
+    "bytes": 1641,
+    "sha256": "031416fe6018b98e4fbe1b1305ff197607282abcc1a3a386dd57710c9e85ae2b"
+  },
+  "probes/symmetric-open-no-shot-cap300.scene.json": {
+    "bytes": 1644,
+    "sha256": "3ae3ba267faaee9938f9b65c424b92fc315ff154c9d0e24551032e1ce6d311c7"
+  },
+  "probes/diagonal-edge-cap500.scene.json": {
+    "bytes": 1634,
+    "sha256": "6ac7eb4cb0a578421ff8173ab451ecc97c57dbdce66b17f8760ca6cd88e4abbb"
+  },
+  "probes/corner-healthy-mobile-cap300.result.json": {
+    "bytes": 3960,
+    "sha256": "651916df28a734df7d938eae10ec260c783b8ab217f53aa1548ad3e022c109b9"
+  },
+  "probes/bridge-contested-cap500.scene.json": {
+    "bytes": 798,
+    "sha256": "e85902f9d8b87ff23c06b6e143678e85677d234a78e80aad10e75fa307cb7a3c"
+  },
+  "probes/economy-versus-chase-cap500.scene.json": {
+    "bytes": 1822,
+    "sha256": "8502fda127745cc0fb53b5c8356be9240dec15548abb0b563a23fab0c06544ff"
+  },
+  "probes/bridge-contested-cap300.result.json": {
+    "bytes": 4211,
+    "sha256": "6dc4e871247bbf14a3aa47c8e453c1b856302a76250b2e92ae643737e982019f"
+  },
+  "probes/early-side-exit-cap300.scene.json": {
+    "bytes": 1652,
+    "sha256": "0a3356517f50d462cffa02c74a75b5a586d3025f38a5dfdaac07b8dc23a97481"
+  },
+  "probes/early-side-exit-cap500.scene.json": {
+    "bytes": 1652,
+    "sha256": "b5072c57c58ab6ee10069044833507c730dd5689332d6176e1d13a6d150ceed2"
+  },
+  "probes/summary.json": {
+    "bytes": 121539,
+    "sha256": "ad3c943d96a0b7d2390d49f98493046c8da266d0cb2eb70c43d09dabc3325c8f"
+  },
+  "probes/lethal-current-ray-cap500.result.json": {
+    "bytes": 4676,
+    "sha256": "d9e0876f212e36e7dac0918e6b247ed22844449ea7e1150e4795e8250fea9111"
+  },
+  "probes/corner-immediate-shot-cap500.result.json": {
+    "bytes": 3941,
+    "sha256": "424837ee5b0b1ecd1807a93e13f0c8873f37a3c508a0e207c27ecfd946beb75d"
+  },
+  "probes/lethal-current-ray-cap300.scene.json": {
+    "bytes": 1638,
+    "sha256": "569a67ed71713d79d9f691e4be91516a46b020f945e40d500ea9cd5ee65a18bd"
+  },
+  "probes/obstacle-detour-cap500.result.json": {
+    "bytes": 4853,
+    "sha256": "55c48caba28b7b68ae274fbf9818b1d6dbb4b8a4d088d48353bfd5a846d13db7"
+  },
+  "probes/lethal-current-ray-cap300.result.json": {
+    "bytes": 4676,
+    "sha256": "84e890d93b681c25290597994d95cdf3e1b10c4dd9abfb7f0b9c3c1fde3dd3f9"
+  },
+  "probes/diagonal-edge-cap300.result.json": {
+    "bytes": 4956,
+    "sha256": "fe02a4696bc91376f3f5f759f9cd075cabf02fb45d534a5f60c3ae2d9f9df76b"
+  },
+  "probes/obstacle-detour-cap500.scene.json": {
+    "bytes": 1643,
+    "sha256": "a65d20a47e38ac5a19c8cf770196971fa1779c835318c0212561be7ad0af3783"
+  },
+  "probes/diagonal-edge-cap500.result.json": {
+    "bytes": 4956,
+    "sha256": "fa14289a421b4ed68454adc93bd0bfae8b76618a776c99097545a208830ae391"
+  },
+  "probes/corner-healthy-mobile-cap500.result.json": {
+    "bytes": 3866,
+    "sha256": "5e7296f2753c278c9f0cf431a276af198eacfad4550780828af9bebacc1a7bba"
+  },
+  "probes/bridge-contested-cap300.scene.json": {
+    "bytes": 798,
+    "sha256": "df2db965e7aacc3ccd7db5c6ba249984452571094602842e0681f39c66877542"
+  },
+  "probes/economy-versus-chase-cap300.scene.json": {
+    "bytes": 1822,
+    "sha256": "764153c82cbbc40084cfc1f66b47e0e37767b96c6e614ca2817f67c4e1fedd5b"
+  },
+  "probes/diagonal-edge-cap300.scene.json": {
+    "bytes": 1634,
+    "sha256": "0cd2e3e32bbec1a8bcbe3d68fc00bdda65e96c90869119772c50736541c2a48d"
+  },
+  "probes/wall-crossfire-cap500.scene.json": {
+    "bytes": 1603,
+    "sha256": "87392e17310b2265e7854b60c412ebf02aa3e2da10afc354b1c374a802247734"
+  },
+  "probes/corner-immediate-shot-cap300.result.json": {
+    "bytes": 3792,
+    "sha256": "a719381caff54928f7da97ae0d1a428867bef99cd51e33e8fd3d28f228621335"
+  },
+  "probes/economy-versus-chase-cap300.result.json": {
+    "bytes": 5303,
+    "sha256": "ba15c05855b07629aa0f27743df734b1dfbd73ce55fc8f5e7b8bfa3f9948fa64"
+  },
+  "probes/symmetric-open-no-shot-cap500.scene.json": {
+    "bytes": 1644,
+    "sha256": "1e4790c15357dcddbe8dcfba36da0543562f939ed05a259d9b5e36a6abab10df"
+  },
+  "probes/early-side-exit-cap300.result.json": {
+    "bytes": 5307,
+    "sha256": "a6b1036e273e812ca3f154b4f5a1827312e605cdffa9c8049b0e7df06cc83950"
+  },
+  "probes/corner-healthy-mobile-cap500.scene.json": {
+    "bytes": 1642,
+    "sha256": "7f119028962903b8e6e0bf2b5080d311157046d7e36786b5c8901f0e78e41003"
+  },
+  "probes/symmetric-open-no-shot-cap500.result.json": {
+    "bytes": 5270,
+    "sha256": "fb586c139110aa337cd79c9a38f9dfec48c469f39d20397b741f9bc0ef58a913"
+  },
+  "probes/corner-immediate-shot-cap500.scene.json": {
+    "bytes": 1641,
+    "sha256": "241161538f379fa1bbf40ae2bff3e77068af46cd346213ce395010bf094767bf"
+  },
+  "probes/symmetric-open-no-shot-cap300.result.json": {
+    "bytes": 5270,
+    "sha256": "bedc6720499eb4c4866e15a19bdc642069477e2737482970ef9b99a1a5b0ddf2"
+  },
+  "probes/bridge-contested-cap500.result.json": {
+    "bytes": 4085,
+    "sha256": "c62536de7f0538319228442e15989f0d085e3ee02f528ed98eaf4e9f85a11961"
+  },
+  "probes/wall-crossfire-cap500.result.json": {
+    "bytes": 4695,
+    "sha256": "ae15a60a392a0883fb95c51ddc275fa9540bd6af52355a9e52fad1eff69e12d5"
+  },
+  "probes/obstacle-detour-cap300.scene.json": {
+    "bytes": 1643,
+    "sha256": "f81e69d7e8f687e4113a116fcd3a2d97c0d3e8163e45284897b8fddf68d3c575"
+  },
+  "probes/economy-versus-chase-cap500.result.json": {
+    "bytes": 5301,
+    "sha256": "56360d8a4b9dcc89d049a7134c610d4100950528bd2b2c5a880dd0d147c0670d"
+  },
+  "probes/wall-crossfire-cap300.result.json": {
+    "bytes": 4757,
+    "sha256": "c3b4140032b0ce608aab1e7ab115c9b365aad4c8216c09f0989905088a23daea"
+  },
+  "probes/lethal-current-ray-cap500.scene.json": {
+    "bytes": 1638,
+    "sha256": "fd163b7461f38785d95ca9ee5ecb8fe86c492c16cd1e19c384366e28dd571459"
+  },
+  "probes/obstacle-detour-cap300.result.json": {
+    "bytes": 4852,
+    "sha256": "c2b52e2d9e62a000ac2cd561bad774d2647daa21e32b1b14c26336ad1e7090ca"
+  },
+  "probes/corner-healthy-mobile-cap300.scene.json": {
+    "bytes": 1642,
+    "sha256": "a09c40e09d8ab26af41243ff7d4cc9108034b66f8ae6e372daaa21568fc82f91"
+  },
+  "probes/early-side-exit-cap500.result.json": {
+    "bytes": 5308,
+    "sha256": "e12f2671573ed75e096355ab67de82d479e2045c364663620e7d70ad65b90de1"
+  }
+}

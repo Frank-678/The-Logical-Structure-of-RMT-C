@@ -1,0 +1,393 @@
+{
+  "scope": "offline_closed_ordinary_duel_surrogate",
+  "requested_depth": 2,
+  "completed_depth": 2,
+  "budget_exhausted": false,
+  "joint_transitions": 2272,
+  "elapsed_ms": 37.7331980002964,
+  "score_damage_cap": 500.0,
+  "baseline_action": {
+    "action": "move",
+    "direction": "right"
+  },
+  "weights": {
+    "hp": 0.03,
+    "death": 3.0,
+    "goal": 1.0,
+    "override_margin": 0.05
+  },
+  "sample_seed": 20261029,
+  "recommendation": "candidate_exceeds_baseline_in_model",
+  "sampled_action": {
+    "action": "move",
+    "direction": "up"
+  },
+  "policy": [
+    {
+      "action": {
+        "action": "defend"
+      },
+      "probability": 0.0
+    },
+    {
+      "action": {
+        "action": "attack",
+        "direction": "up"
+      },
+      "probability": 0.0
+    },
+    {
+      "action": {
+        "action": "attack",
+        "direction": "right"
+      },
+      "probability": 0.0
+    },
+    {
+      "action": {
+        "action": "attack",
+        "direction": "down"
+      },
+      "probability": 0.0
+    },
+    {
+      "action": {
+        "action": "attack",
+        "direction": "left"
+      },
+      "probability": 0.0
+    },
+    {
+      "action": {
+        "action": "move",
+        "direction": "up"
+      },
+      "probability": 1.0
+    },
+    {
+      "action": {
+        "action": "move",
+        "direction": "right"
+      },
+      "probability": 0.0
+    },
+    {
+      "action": {
+        "action": "move",
+        "direction": "down"
+      },
+      "probability": 0.0
+    },
+    {
+      "action": {
+        "action": "move",
+        "direction": "left"
+      },
+      "probability": 0.0
+    }
+  ],
+  "certificate": {
+    "lower": 7.5,
+    "upper": 7.5,
+    "gap": 0.0,
+    "baseline_lower": -0.6,
+    "baseline_upper": -0.6
+  },
+  "row_actions": [
+    {
+      "action": "defend"
+    },
+    {
+      "action": "attack",
+      "direction": "up"
+    },
+    {
+      "action": "attack",
+      "direction": "right"
+    },
+    {
+      "action": "attack",
+      "direction": "down"
+    },
+    {
+      "action": "attack",
+      "direction": "left"
+    },
+    {
+      "action": "move",
+      "direction": "up"
+    },
+    {
+      "action": "move",
+      "direction": "right"
+    },
+    {
+      "action": "move",
+      "direction": "down"
+    },
+    {
+      "action": "move",
+      "direction": "left"
+    }
+  ],
+  "opponent_actions": [
+    {
+      "action": "defend"
+    },
+    {
+      "action": "attack",
+      "direction": "up"
+    },
+    {
+      "action": "attack",
+      "direction": "right"
+    },
+    {
+      "action": "attack",
+      "direction": "down"
+    },
+    {
+      "action": "attack",
+      "direction": "left"
+    },
+    {
+      "action": "move",
+      "direction": "up"
+    },
+    {
+      "action": "move",
+      "direction": "right"
+    },
+    {
+      "action": "move",
+      "direction": "down"
+    },
+    {
+      "action": "move",
+      "direction": "left"
+    },
+    null
+  ],
+  "lower_matrix": [
+    [
+      6.0,
+      6.0,
+      6.0,
+      6.0,
+      6.0,
+      6.0,
+      6.0,
+      6.0,
+      5.4,
+      6.0
+    ],
+    [
+      6.0,
+      6.0,
+      6.0,
+      6.0,
+      6.0,
+      6.0,
+      6.0,
+      6.0,
+      5.4,
+      6.0
+    ],
+    [
+      6.0,
+      6.0,
+      6.0,
+      6.0,
+      6.0,
+      6.0,
+      6.0,
+      6.0,
+      5.4,
+      6.0
+    ],
+    [
+      6.0,
+      6.0,
+      6.0,
+      6.0,
+      6.0,
+      6.0,
+      6.0,
+      6.0,
+      5.4,
+      6.0
+    ],
+    [
+      6.0,
+      6.0,
+      6.0,
+      6.0,
+      6.0,
+      6.0,
+      6.0,
+      6.0,
+      5.4,
+      6.0
+    ],
+    [
+      7.5,
+      7.5,
+      7.5,
+      7.5,
+      7.5,
+      7.5,
+      7.5,
+      7.5,
+      7.5,
+      7.5
+    ],
+    [
+      -0.6,
+      -0.6,
+      -0.6,
+      -0.6,
+      -0.6,
+      0.0,
+      0.0,
+      0.0,
+      -0.6,
+      -0.6
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      2.5,
+      2.5,
+      2.5,
+      2.5,
+      2.5,
+      2.5,
+      2.5,
+      2.5,
+      2.5,
+      2.5
+    ]
+  ],
+  "upper_matrix": [
+    [
+      6.0,
+      6.0,
+      6.0,
+      6.0,
+      6.0,
+      6.0,
+      6.0,
+      6.0,
+      5.4,
+      6.0
+    ],
+    [
+      6.0,
+      6.0,
+      6.0,
+      6.0,
+      6.0,
+      6.0,
+      6.0,
+      6.0,
+      5.4,
+      6.0
+    ],
+    [
+      6.0,
+      6.0,
+      6.0,
+      6.0,
+      6.0,
+      6.0,
+      6.0,
+      6.0,
+      5.4,
+      6.0
+    ],
+    [
+      6.0,
+      6.0,
+      6.0,
+      6.0,
+      6.0,
+      6.0,
+      6.0,
+      6.0,
+      5.4,
+      6.0
+    ],
+    [
+      6.0,
+      6.0,
+      6.0,
+      6.0,
+      6.0,
+      6.0,
+      6.0,
+      6.0,
+      5.4,
+      6.0
+    ],
+    [
+      7.5,
+      7.5,
+      7.5,
+      7.5,
+      7.5,
+      7.5,
+      7.5,
+      7.5,
+      7.5,
+      7.5
+    ],
+    [
+      -0.6,
+      -0.6,
+      -0.6,
+      -0.6,
+      -0.6,
+      0.0,
+      0.0,
+      0.0,
+      -0.6,
+      -0.6
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      2.5,
+      2.5,
+      2.5,
+      2.5,
+      2.5,
+      2.5,
+      2.5,
+      2.5,
+      2.5,
+      2.5
+    ]
+  ],
+  "scene_id": "economy-versus-chase-cap500",
+  "scene_sha256": "8502fda127745cc0fb53b5c8356be9240dec15548abb0b563a23fab0c06544ff"
+}

@@ -1,0 +1,84 @@
+{
+  "schema": 1,
+  "scope": "ordinary transition vs supplied offline arena; not original ROS",
+  "engine_sha256": "f004861f02d10cdd1991d6301386205f5e0c92b103dad7e5da55eca46b00323f",
+  "planner_sha256": "afed9df4111b42e2d653b6b6cc56b4c6edcfdd212df99f4283f8f7f71a2acbab",
+  "seed": 20261029,
+  "planned": 240,
+  "completed": 240,
+  "passed": 240,
+  "parts": [
+    {
+      "path": "differential-part-00.json",
+      "rows": 20,
+      "bytes": 85007,
+      "sha256": "7096a39f549eefa35fc3c57c7d74c65e9ed620363afd2987664030215707ac24"
+    },
+    {
+      "path": "differential-part-01.json",
+      "rows": 20,
+      "bytes": 84334,
+      "sha256": "35d2e1fbbb87598ddaf606cbd01ab27188ad14ed9b4fba2d775efafa335ac72e"
+    },
+    {
+      "path": "differential-part-02.json",
+      "rows": 20,
+      "bytes": 85429,
+      "sha256": "9191730aa7b839c6ab579fcc09cec9646f601e4b6578ae06985c5ee9fa441e80"
+    },
+    {
+      "path": "differential-part-03.json",
+      "rows": 20,
+      "bytes": 85384,
+      "sha256": "07f9b6d4ab0f0bc5690c62f3fa6eb6c8f91ae9bd558a0eeb194dce36ad4210bf"
+    },
+    {
+      "path": "differential-part-04.json",
+      "rows": 20,
+      "bytes": 86076,
+      "sha256": "ffa5d592430a5cbb2164b9414b704482ca92c4636d075bcfc8895c233907e659"
+    },
+    {
+      "path": "differential-part-05.json",
+      "rows": 20,
+      "bytes": 85511,
+      "sha256": "7e03a6136cf7d4804a705a38617899b39d748f4c9e8297a52b9823809fb077de"
+    },
+    {
+      "path": "differential-part-06.json",
+      "rows": 20,
+      "bytes": 86334,
+      "sha256": "aa9b97a481c16c860144d6ceefd803043705883a4ab4ef31295ead82f2b41cd0"
+    },
+    {
+      "path": "differential-part-07.json",
+      "rows": 20,
+      "bytes": 83696,
+      "sha256": "b88d0d6e482448d679bfd4651526b9da4bc8bc113d685d104dfb402d4bced19b"
+    },
+    {
+      "path": "differential-part-08.json",
+      "rows": 20,
+      "bytes": 84399,
+      "sha256": "ed05e0f84cc16e48543c79f6a18b3d6551b1bfc0e355e1b29bef19990eb31176"
+    },
+    {
+      "path": "differential-part-09.json",
+      "rows": 20,
+      "bytes": 85368,
+      "sha256": "95f14e6b052776a69388d07b29fbc7f4b1bfbacb8605b548c5b7089230c088be"
+    },
+    {
+      "path": "differential-part-10.json",
+      "rows": 20,
+      "bytes": 85709,
+      "sha256": "36af01d572f0909080a76219cc0c54cb548c78a95e63afe61f03b34f15dab92a"
+    },
+    {
+      "path": "differential-part-11.json",
+      "rows": 20,
+      "bytes": 85406,
+      "sha256": "7f9a7f1c22a4f0c37c7fbb1229a412a1599eede0c0f701d8f3237c20a89820de"
+    }
+  ]
+}

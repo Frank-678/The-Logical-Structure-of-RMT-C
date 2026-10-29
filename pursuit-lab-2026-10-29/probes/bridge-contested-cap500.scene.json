@@ -1,0 +1,67 @@
+{
+  "schema": 1,
+  "id": "bridge-contested-cap500",
+  "complete_local_model": true,
+  "width": 7,
+  "height": 5,
+  "walkable": [
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      4,
+      2
+    ],
+    [
+      5,
+      2
+    ],
+    [
+      6,
+      2
+    ]
+  ],
+  "players": [
+    {
+      "position": [
+        1,
+        2
+      ],
+      "hp": 100
+    },
+    {
+      "position": [
+        3,
+        2
+      ],
+      "hp": 100
+    }
+  ],
+  "own_damage": 0,
+  "resources": [],
+  "baseline_action": {
+    "action": "move",
+    "direction": "right"
+  },
+  "goal": null,
+  "search": {
+    "horizon": 2,
+    "joint_budget": 30000,
+    "time_budget_ms": 200,
+    "matrix_iterations": 1024
+  },
+  "score_damage_cap": 500
+}

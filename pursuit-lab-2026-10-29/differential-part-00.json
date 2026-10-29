@@ -1,0 +1,5275 @@
+{
+  "schema": 1,
+  "rows": [
+    {
+      "id": "diff-0",
+      "scene": {
+        "schema": 1,
+        "id": "diff-0",
+        "complete_local_model": true,
+        "width": 6,
+        "height": 5,
+        "walkable": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            5,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            5,
+            4
+          ]
+        ],
+        "players": [
+          {
+            "position": [
+              5,
+              2
+            ],
+            "hp": 100
+          },
+          {
+            "position": [
+              2,
+              2
+            ],
+            "hp": 35
+          }
+        ],
+        "own_resource": 120,
+        "own_damage": 290,
+        "resources": [
+          {
+            "position": [
+              2,
+              1
+            ],
+            "value": 20
+          },
+          {
+            "position": [
+              5,
+              3
+            ],
+            "value": 10
+          },
+          {
+            "position": [
+              5,
+              2
+            ],
+            "value": 10
+          },
+          {
+            "position": [
+              5,
+              1
+            ],
+            "value": 20
+          }
+        ],
+        "score_damage_cap": 300,
+        "baseline_action": {
+          "action": "defend"
+        }
+      },
+      "actions": [
+        {
+          "action": "move",
+          "direction": "up"
+        },
+        {
+          "action": "move",
+          "direction": "up"
+        }
+      ],
+      "engine_rc": 0,
+      "engine_stderr": "",
+      "passed": true,
+      "expected": {
+        "positions": [
+          [
+            5,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "hp": [
+          100.0,
+          35.0
+        ],
+        "own_r": 140.0,
+        "own_d": 290.0,
+        "own_deaths": 0,
+        "resources": [
+          {
+            "position": [
+              5,
+              2
+            ],
+            "value": 10.0
+          },
+          {
+            "position": [
+              5,
+              3
+            ],
+            "value": 10.0
+          }
+        ]
+      },
+      "actual": {
+        "positions": [
+          [
+            5,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "hp": [
+          100.0,
+          35.0
+        ],
+        "own_r": 140.0,
+        "own_d": 290.0,
+        "own_deaths": 0,
+        "resources": [
+          {
+            "position": [
+              5,
+              2
+            ],
+            "value": 10
+          },
+          {
+            "position": [
+              5,
+              3
+            ],
+            "value": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": "diff-1",
+      "scene": {
+        "schema": 1,
+        "id": "diff-1",
+        "complete_local_model": true,
+        "width": 6,
+        "height": 5,
+        "walkable": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            5,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            5,
+            4
+          ]
+        ],
+        "players": [
+          {
+            "position": [
+              0,
+              4
+            ],
+            "hp": 20
+          },
+          {
+            "position": [
+              0,
+              0
+            ],
+            "hp": 100
+          }
+        ],
+        "own_resource": 110,
+        "own_damage": 59,
+        "resources": [
+          {
+            "position": [
+              3,
+              2
+            ],
+            "value": 20
+          },
+          {
+            "position": [
+              2,
+              1
+            ],
+            "value": 20
+          },
+          {
+            "position": [
+              4,
+              3
+            ],
+            "value": 20
+          },
+          {
+            "position": [
+              5,
+              2
+            ],
+            "value": 10
+          }
+        ],
+        "score_damage_cap": 300,
+        "baseline_action": {
+          "action": "defend"
+        }
+      },
+      "actions": [
+        {
+          "action": "move",
+          "direction": "down"
+        },
+        {
+          "action": "move",
+          "direction": "up"
+        }
+      ],
+      "engine_rc": 0,
+      "engine_stderr": "",
+      "passed": true,
+      "expected": {
+        "positions": [
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "hp": [
+          20.0,
+          100.0
+        ],
+        "own_r": 110.0,
+        "own_d": 59.0,
+        "own_deaths": 0,
+        "resources": [
+          {
+            "position": [
+              2,
+              1
+            ],
+            "value": 20.0
+          },
+          {
+            "position": [
+              3,
+              2
+            ],
+            "value": 20.0
+          },
+          {
+            "position": [
+              4,
+              3
+            ],
+            "value": 20.0
+          },
+          {
+            "position": [
+              5,
+              2
+            ],
+            "value": 10.0
+          }
+        ]
+      },
+      "actual": {
+        "positions": [
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "hp": [
+          20.0,
+          100.0
+        ],
+        "own_r": 110.0,
+        "own_d": 59.0,
+        "own_deaths": 0,
+        "resources": [
+          {
+            "position": [
+              2,
+              1
+            ],
+            "value": 20
+          },
+          {
+            "position": [
+              3,
+              2
+            ],
+            "value": 20
+          },
+          {
+            "position": [
+              4,
+              3
+            ],
+            "value": 20
+          },
+          {
+            "position": [
+              5,
+              2
+            ],
+            "value": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": "diff-2",
+      "scene": {
+        "schema": 1,
+        "id": "diff-2",
+        "complete_local_model": true,
+        "width": 6,
+        "height": 5,
+        "walkable": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            4
+          ]
+        ],
+        "players": [
+          {
+            "position": [
+              5,
+              2
+            ],
+            "hp": 20
+          },
+          {
+            "position": [
+              5,
+              3
+            ],
+            "hp": 20
+          }
+        ],
+        "own_resource": 0,
+        "own_damage": 0,
+        "resources": [
+          {
+            "position": [
+              4,
+              2
+            ],
+            "value": 10
+          },
+          {
+            "position": [
+              0,
+              0
+            ],
+            "value": 10
+          },
+          {
+            "position": [
+              4,
+              4
+            ],
+            "value": 10
+          },
+          {
+            "position": [
+              3,
+              3
+            ],
+            "value": 10
+          }
+        ],
+        "score_damage_cap": 300,
+        "baseline_action": {
+          "action": "defend"
+        }
+      },
+      "actions": [
+        {
+          "action": "move",
+          "direction": "left"
+        },
+        {
+          "action": "attack",
+          "direction": "down"
+        }
+      ],
+      "engine_rc": 0,
+      "engine_stderr": "",
+      "passed": true,
+      "expected": {
+        "positions": [
+          [
+            4,
+            2
+          ],
+          [
+            5,
+            3
+          ]
+        ],
+        "hp": [
+          20.0,
+          20.0
+        ],
+        "own_r": 10.0,
+        "own_d": 0.0,
+        "own_deaths": 0,
+        "resources": [
+          {
+            "position": [
+              0,
+              0
+            ],
+            "value": 10.0
+          },
+          {
+            "position": [
+              3,
+              3
+            ],
+            "value": 10.0
+          },
+          {
+            "position": [
+              4,
+              4
+            ],
+            "value": 10.0
+          }
+        ]
+      },
+      "actual": {
+        "positions": [
+          [
+            4,
+            2
+          ],
+          [
+            5,
+            3
+          ]
+        ],
+        "hp": [
+          20.0,
+          20.0
+        ],
+        "own_r": 10.0,
+        "own_d": 0.0,
+        "own_deaths": 0,
+        "resources": [
+          {
+            "position": [
+              0,
+              0
+            ],
+            "value": 10
+          },
+          {
+            "position": [
+              3,
+              3
+            ],
+            "value": 10
+          },
+          {
+            "position": [
+              4,
+              4
+            ],
+            "value": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": "diff-3",
+      "scene": {
+        "schema": 1,
+        "id": "diff-3",
+        "complete_local_model": true,
+        "width": 6,
+        "height": 5,
+        "walkable": [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            5,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            5,
+            4
+          ]
+        ],
+        "players": [
+          {
+            "position": [
+              2,
+              2
+            ],
+            "hp": 10
+          },
+          {
+            "position": [
+              0,
+              4
+            ],
+            "hp": 100
+          }
+        ],
+        "own_resource": 0,
+        "own_damage": 59,
+        "resources": [
+          {
+            "position": [
+              3,
+              1
+            ],
+            "value": 20
+          },
+          {
+            "position": [
+              1,
+              1
+            ],
+            "value": 10
+          },
+          {
+            "position": [
+              5,
+              0
+            ],
+            "value": 20
+          },
+          {
+            "position": [
+              2,
+              2
+            ],
+            "value": 20
+          }
+        ],
+        "score_damage_cap": 300,
+        "baseline_action": {
+          "action": "defend"
+        }
+      },
+      "actions": [
+        {
+          "action": "move",
+          "direction": "down"
+        },
+        {
+          "action": "defend"
+        }
+      ],
+      "engine_rc": 0,
+      "engine_stderr": "",
+      "passed": true,
+      "expected": {
+        "positions": [
+          [
+            2,
+            3
+          ],
+          [
+            0,
+            4
+          ]
+        ],
+        "hp": [
+          10.0,
+          100.0
+        ],
+        "own_r": 0.0,
+        "own_d": 59.0,
+        "own_deaths": 0,
+        "resources": [
+          {
+            "position": [
+              1,
+              1
+            ],
+            "value": 10.0
+          },
+          {
+            "position": [
+              2,
+              2
+            ],
+            "value": 20.0
+          },
+          {
+            "position": [
+              3,
+              1
+            ],
+            "value": 20.0
+          },
+          {
+            "position": [
+              5,
+              0
+            ],
+            "value": 20.0
+          }
+        ]
+      },
+      "actual": {
+        "positions": [
+          [
+            2,
+            3
+          ],
+          [
+            0,
+            4
+          ]
+        ],
+        "hp": [
+          10.0,
+          100.0
+        ],
+        "own_r": 0.0,
+        "own_d": 59.0,
+        "own_deaths": 0,
+        "resources": [
+          {
+            "position": [
+              1,
+              1
+            ],
+            "value": 10
+          },
+          {
+            "position": [
+              2,
+              2
+            ],
+            "value": 20
+          },
+          {
+            "position": [
+              3,
+              1
+            ],
+            "value": 20
+          },
+          {
+            "position": [
+              5,
+              0
+            ],
+            "value": 20
+          }
+        ]
+      }
+    },
+    {
+      "id": "diff-4",
+      "scene": {
+        "schema": 1,
+        "id": "diff-4",
+        "complete_local_model": true,
+        "width": 6,
+        "height": 5,
+        "walkable": [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            5,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            4
+          ]
+        ],
+        "players": [
+          {
+            "position": [
+              2,
+              0
+            ],
+            "hp": 35
+          },
+          {
+            "position": [
+              5,
+              3
+            ],
+            "hp": 15
+          }
+        ],
+        "own_resource": 120,
+        "own_damage": 290,
+        "resources": [
+          {
+            "position": [
+              2,
+              4
+            ],
+            "value": 20
+          },
+          {
+            "position": [
+              5,
+              0
+            ],
+            "value": 20
+          },
+          {
+            "position": [
+              4,
+              0
+            ],
+            "value": 10
+          },
+          {
+            "position": [
+              3,
+              4
+            ],
+            "value": 10
+          }
+        ],
+        "score_damage_cap": 300,
+        "baseline_action": {
+          "action": "defend"
+        }
+      },
+      "actions": [
+        {
+          "action": "move",
+          "direction": "down"
+        },
+        {
+          "action": "defend"
+        }
+      ],
+      "engine_rc": 0,
+      "engine_stderr": "",
+      "passed": true,
+      "expected": {
+        "positions": [
+          [
+            2,
+            1
+          ],
+          [
+            5,
+            3
+          ]
+        ],
+        "hp": [
+          35.0,
+          15.0
+        ],
+        "own_r": 120.0,
+        "own_d": 290.0,
+        "own_deaths": 0,
+        "resources": [
+          {
+            "position": [
+              2,
+              4
+            ],
+            "value": 20.0
+          },
+          {
+            "position": [
+              3,
+              4
+            ],
+            "value": 10.0
+          },
+          {
+            "position": [
+              4,
+              0
+            ],
+            "value": 10.0
+          },
+          {
+            "position": [
+              5,
+              0
+            ],
+            "value": 20.0
+          }
+        ]
+      },
+      "actual": {
+        "positions": [
+          [
+            2,
+            1
+          ],
+          [
+            5,
+            3
+          ]
+        ],
+        "hp": [
+          35.0,
+          15.0
+        ],
+        "own_r": 120.0,
+        "own_d": 290.0,
+        "own_deaths": 0,
+        "resources": [
+          {
+            "position": [
+              2,
+              4
+            ],
+            "value": 20
+          },
+          {
+            "position": [
+              3,
+              4
+            ],
+            "value": 10
+          },
+          {
+            "position": [
+              4,
+              0
+            ],
+            "value": 10
+          },
+          {
+            "position": [
+              5,
+              0
+            ],
+            "value": 20
+          }
+        ]
+      }
+    },
+    {
+      "id": "diff-5",
+      "scene": {
+        "schema": 1,
+        "id": "diff-5",
+        "complete_local_model": true,
+        "width": 6,
+        "height": 5,
+        "walkable": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            4,
+            4
+          ]
+        ],
+        "players": [
+          {
+            "position": [
+              3,
+              3
+            ],
+            "hp": 10
+          },
+          {
+            "position": [
+              1,
+              2
+            ],
+            "hp": 15
+          }
+        ],
+        "own_resource": 0,
+        "own_damage": 290,
+        "resources": [
+          {
+            "position": [
+              3,
+              3
+            ],
+            "value": 20
+          },
+          {
+            "position": [
+              4,
+              3
+            ],
+            "value": 20
+          },
+          {
+            "position": [
+              3,
+              0
+            ],
+            "value": 20
+          },
+          {
+            "position": [
+              0,
+              4
+            ],
+            "value": 20
+          }
+        ],
+        "score_damage_cap": 300,
+        "baseline_action": {
+          "action": "defend"
+        }
+      },
+      "actions": [
+        {
+          "action": "move",
+          "direction": "left"
+        },
+        {
+          "action": "attack",
+          "direction": "left"
+        }
+      ],
+      "engine_rc": 0,
+      "engine_stderr": "",
+      "passed": true,
+      "expected": {
+        "positions": [
+          [
+            3,
+            3
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "hp": [
+          10.0,
+          15.0
+        ],
+        "own_r": 20.0,
+        "own_d": 290.0,
+        "own_deaths": 0,
+        "resources": [
+          {
+            "position": [
+              0,
+              4
+            ],
+            "value": 20.0
+          },
+          {
+            "position": [
+              3,
+              0
+            ],
+            "value": 20.0
+          },
+          {
+            "position": [
+              4,
+              3
+            ],
+            "value": 20.0
+          }
+        ]
+      },
+      "actual": {
+        "positions": [
+          [
+            3,
+            3
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "hp": [
+          10.0,
+          15.0
+        ],
+        "own_r": 20.0,
+        "own_d": 290.0,
+        "own_deaths": 0,
+        "resources": [
+          {
+            "position": [
+              0,
+              4
+            ],
+            "value": 20
+          },
+          {
+            "position": [
+              3,
+              0
+            ],
+            "value": 20
+          },
+          {
+            "position": [
+              4,
+              3
+            ],
+            "value": 20
+          }
+        ]
+      }
+    },
+    {
+      "id": "diff-6",
+      "scene": {
+        "schema": 1,
+        "id": "diff-6",
+        "complete_local_model": true,
+        "width": 6,
+        "height": 5,
+        "walkable": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            5,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            4
+          ]
+        ],
+        "players": [
+          {
+            "position": [
+              0,
+              2
+            ],
+            "hp": 20
+          },
+          {
+            "position": [
+              0,
+              1
+            ],
+            "hp": 100
+          }
+        ],
+        "own_resource": 110,
+        "own_damage": 70,
+        "resources": [
+          {
+            "position": [
+              2,
+              1
+            ],
+            "value": 20
+          },
+          {
+            "position": [
+              3,
+              4
+            ],
+            "value": 20
+          },
+          {
+            "position": [
+              2,
+              2
+            ],
+            "value": 10
+          },
+          {
+            "position": [
+              1,
+              4
+            ],
+            "value": 10
+          }
+        ],
+        "score_damage_cap": 300,
+        "baseline_action": {
+          "action": "defend"
+        }
+      },
+      "actions": [
+        {
+          "action": "move",
+          "direction": "down"
+        },
+        {
+          "action": "move",
+          "direction": "up"
+        }
+      ],
+      "engine_rc": 0,
+      "engine_stderr": "",
+      "passed": true,
+      "expected": {
+        "positions": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "hp": [
+          20.0,
+          100.0
+        ],
+        "own_r": 110.0,
+        "own_d": 70.0,
+        "own_deaths": 0,
+        "resources": [
+          {
+            "position": [
+              1,
+              4
+            ],
+            "value": 10.0
+          },
+          {
+            "position": [
+              2,
+              1
+            ],
+            "value": 20.0
+          },
+          {
+            "position": [
+              2,
+              2
+            ],
+            "value": 10.0
+          },
+          {
+            "position": [
+              3,
+              4
+            ],
+            "value": 20.0
+          }
+        ]
+      },
+      "actual": {
+        "positions": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "hp": [
+          20.0,
+          100.0
+        ],
+        "own_r": 110.0,
+        "own_d": 70.0,
+        "own_deaths": 0,
+        "resources": [
+          {
+            "position": [
+              1,
+              4
+            ],
+            "value": 10
+          },
+          {
+            "position": [
+              2,
+              1
+            ],
+            "value": 20
+          },
+          {
+            "position": [
+              2,
+              2
+            ],
+            "value": 10
+          },
+          {
+            "position": [
+              3,
+              4
+            ],
+            "value": 20
+          }
+        ]
+      }
+    },
+    {
+      "id": "diff-7",
+      "scene": {
+        "schema": 1,
+        "id": "diff-7",
+        "complete_local_model": true,
+        "width": 6,
+        "height": 5,
+        "walkable": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            5,
+            4
+          ]
+        ],
+        "players": [
+          {
+            "position": [
+              3,
+              2
+            ],
+            "hp": 35
+          },
+          {
+            "position": [
+              2,
+              2
+            ],
+            "hp": 100
+          }
+        ],
+        "own_resource": 120,
+        "own_damage": 500,
+        "resources": [
+          {
+            "position": [
+              2,
+              4
+            ],
+            "value": 20
+          },
+          {
+            "position": [
+              0,
+              3
+            ],
+            "value": 20
+          },
+          {
+            "position": [
+              0,
+              1
+            ],
+            "value": 20
+          },
+          {
+            "position": [
+              3,
+              3
+            ],
+            "value": 10
+          }
+        ],
+        "score_damage_cap": 300,
+        "baseline_action": {
+          "action": "defend"
+        }
+      },
+      "actions": [
+        {
+          "action": "defend"
+        },
+        {
+          "action": "defend"
+        }
+      ],
+      "engine_rc": 0,
+      "engine_stderr": "",
+      "passed": true,
+      "expected": {
+        "positions": [
+          [
+            3,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "hp": [
+          35.0,
+          100.0
+        ],
+        "own_r": 120.0,
+        "own_d": 500.0,
+        "own_deaths": 0,
+        "resources": [
+          {
+            "position": [
+              0,
+              1
+            ],
+            "value": 20.0
+          },
+          {
+            "position": [
+              0,
+              3
+            ],
+            "value": 20.0
+          },
+          {
+            "position": [
+              2,
+              4
+            ],
+            "value": 20.0
+          },
+          {
+            "position": [
+              3,
+              3
+            ],
+            "value": 10.0
+          }
+        ]
+      },
+      "actual": {
+        "positions": [
+          [
+            3,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "hp": [
+          35.0,
+          100.0
+        ],
+        "own_r": 120.0,
+        "own_d": 500.0,
+        "own_deaths": 0,
+        "resources": [
+          {
+            "position": [
+              0,
+              1
+            ],
+            "value": 20
+          },
+          {
+            "position": [
+              0,
+              3
+            ],
+            "value": 20
+          },
+          {
+            "position": [
+              2,
+              4
+            ],
+            "value": 20
+          },
+          {
+            "position": [
+              3,
+              3
+            ],
+            "value": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": "diff-8",
+      "scene": {
+        "schema": 1,
+        "id": "diff-8",
+        "complete_local_model": true,
+        "width": 6,
+        "height": 5,
+        "walkable": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            5,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            4
+          ]
+        ],
+        "players": [
+          {
+            "position": [
+              1,
+              0
+            ],
+            "hp": 20
+          },
+          {
+            "position": [
+              1,
+              1
+            ],
+            "hp": 10
+          }
+        ],
+        "own_resource": 110,
+        "own_damage": 70,
+        "resources": [
+          {
+            "position": [
+              3,
+              4
+            ],
+            "value": 20
+          },
+          {
+            "position": [
+              4,
+              4
+            ],
+            "value": 20
+          },
+          {
+            "position": [
+              1,
+              3
+            ],
+            "value": 20
+          },
+          {
+            "position": [
+              4,
+              3
+            ],
+            "value": 10
+          }
+        ],
+        "score_damage_cap": 300,
+        "baseline_action": {
+          "action": "defend"
+        }
+      },
+      "actions": [
+        {
+          "action": "attack",
+          "direction": "down"
+        },
+        {
+          "action": "move",
+          "direction": "right"
+        }
+      ],
+      "engine_rc": 0,
+      "engine_stderr": "",
+      "passed": true,
+      "expected": {
+        "positions": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "hp": [
+          20.0,
+          0.0
+        ],
+        "own_r": 110.0,
+        "own_d": 140.0,
+        "own_deaths": 0,
+        "resources": [
+          {
+            "position": [
+              1,
+              3
+            ],
+            "value": 20.0
+          },
+          {
+            "position": [
+              3,
+              4
+            ],
+            "value": 20.0
+          },
+          {
+            "position": [
+              4,
+              3
+            ],
+            "value": 10.0
+          },
+          {
+            "position": [
+              4,
+              4
+            ],
+            "value": 20.0
+          }
+        ]
+      },
+      "actual": {
+        "positions": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "hp": [
+          20.0,
+          0.0
+        ],
+        "own_r": 110.0,
+        "own_d": 140.0,
+        "own_deaths": 0,
+        "resources": [
+          {
+            "position": [
+              1,
+              3
+            ],
+            "value": 20
+          },
+          {
+            "position": [
+              3,
+              4
+            ],
+            "value": 20
+          },
+          {
+            "position": [
+              4,
+              3
+            ],
+            "value": 10
+          },
+          {
+            "position": [
+              4,
+              4
+            ],
+            "value": 20
+          }
+        ]
+      }
+    },
+    {
+      "id": "diff-9",
+      "scene": {
+        "schema": 1,
+        "id": "diff-9",
+        "complete_local_model": true,
+        "width": 6,
+        "height": 5,
+        "walkable": [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            5,
+            4
+          ]
+        ],
+        "players": [
+          {
+            "position": [
+              1,
+              2
+            ],
+            "hp": 10
+          },
+          {
+            "position": [
+              1,
+              0
+            ],
+            "hp": 100
+          }
+        ],
+        "own_resource": 120,
+        "own_damage": 70,
+        "resources": [
+          {
+            "position": [
+              5,
+              2
+            ],
+            "value": 20
+          },
+          {
+            "position": [
+              0,
+              2
+            ],
+            "value": 10
+          },
+          {
+            "position": [
+              2,
+              2
+            ],
+            "value": 10
+          },
+          {
+            "position": [
+              3,
+              0
+            ],
+            "value": 20
+          }
+        ],
+        "score_damage_cap": 300,
+        "baseline_action": {
+          "action": "defend"
+        }
+      },
+      "actions": [
+        null,
+        {
+          "action": "move",
+          "direction": "up"
+        }
+      ],
+      "engine_rc": 0,
+      "engine_stderr": "",
+      "passed": true,
+      "expected": {
+        "positions": [
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "hp": [
+          10.0,
+          100.0
+        ],
+        "own_r": 120.0,
+        "own_d": 70.0,
+        "own_deaths": 0,
+        "resources": [
+          {
+            "position": [
+              0,
+              2
+            ],
+            "value": 10.0
+          },
+          {
+            "position": [
+              2,
+              2
+            ],
+            "value": 10.0
+          },
+          {
+            "position": [
+              3,
+              0
+            ],
+            "value": 20.0
+          },
+          {
+            "position": [
+              5,
+              2
+            ],
+            "value": 20.0
+          }
+        ]
+      },
+      "actual": {
+        "positions": [
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "hp": [
+          10.0,
+          100.0
+        ],
+        "own_r": 120.0,
+        "own_d": 70.0,
+        "own_deaths": 0,
+        "resources": [
+          {
+            "position": [
+              0,
+              2
+            ],
+            "value": 10
+          },
+          {
+            "position": [
+              2,
+              2
+            ],
+            "value": 10
+          },
+          {
+            "position": [
+              3,
+              0
+            ],
+            "value": 20
+          },
+          {
+            "position": [
+              5,
+              2
+            ],
+            "value": 20
+          }
+        ]
+      }
+    },
+    {
+      "id": "diff-10",
+      "scene": {
+        "schema": 1,
+        "id": "diff-10",
+        "complete_local_model": true,
+        "width": 6,
+        "height": 5,
+        "walkable": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            5,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            4
+          ]
+        ],
+        "players": [
+          {
+            "position": [
+              4,
+              1
+            ],
+            "hp": 35
+          },
+          {
+            "position": [
+              2,
+              1
+            ],
+            "hp": 100
+          }
+        ],
+        "own_resource": 0,
+        "own_damage": 290,
+        "resources": [
+          {
+            "position": [
+              5,
+              1
+            ],
+            "value": 20
+          },
+          {
+            "position": [
+              5,
+              2
+            ],
+            "value": 20
+          },
+          {
+            "position": [
+              4,
+              1
+            ],
+            "value": 10
+          },
+          {
+            "position": [
+              3,
+              4
+            ],
+            "value": 20
+          }
+        ],
+        "score_damage_cap": 300,
+        "baseline_action": {
+          "action": "defend"
+        }
+      },
+      "actions": [
+        {
+          "action": "defend"
+        },
+        {
+          "action": "attack",
+          "direction": "left"
+        }
+      ],
+      "engine_rc": 0,
+      "engine_stderr": "",
+      "passed": true,
+      "expected": {
+        "positions": [
+          [
+            4,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "hp": [
+          35.0,
+          100.0
+        ],
+        "own_r": 10.0,
+        "own_d": 290.0,
+        "own_deaths": 0,
+        "resources": [
+          {
+            "position": [
+              3,
+              4
+            ],
+            "value": 20.0
+          },
+          {
+            "position": [
+              5,
+              1
+            ],
+            "value": 20.0
+          },
+          {
+            "position": [
+              5,
+              2
+            ],
+            "value": 20.0
+          }
+        ]
+      },
+      "actual": {
+        "positions": [
+          [
+            4,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "hp": [
+          35.0,
+          100.0
+        ],
+        "own_r": 10.0,
+        "own_d": 290.0,
+        "own_deaths": 0,
+        "resources": [
+          {
+            "position": [
+              3,
+              4
+            ],
+            "value": 20
+          },
+          {
+            "position": [
+              5,
+              1
+            ],
+            "value": 20
+          },
+          {
+            "position": [
+              5,
+              2
+            ],
+            "value": 20
+          }
+        ]
+      }
+    },
+    {
+      "id": "diff-11",
+      "scene": {
+        "schema": 1,
+        "id": "diff-11",
+        "complete_local_model": true,
+        "width": 6,
+        "height": 5,
+        "walkable": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            4
+          ]
+        ],
+        "players": [
+          {
+            "position": [
+              4,
+              3
+            ],
+            "hp": 15
+          },
+          {
+            "position": [
+              1,
+              2
+            ],
+            "hp": 10
+          }
+        ],
+        "own_resource": 0,
+        "own_damage": 59,
+        "resources": [
+          {
+            "position": [
+              0,
+              4
+            ],
+            "value": 20
+          },
+          {
+            "position": [
+              5,
+              3
+            ],
+            "value": 10
+          },
+          {
+            "position": [
+              3,
+              1
+            ],
+            "value": 10
+          },
+          {
+            "position": [
+              3,
+              3
+            ],
+            "value": 20
+          }
+        ],
+        "score_damage_cap": 300,
+        "baseline_action": {
+          "action": "defend"
+        }
+      },
+      "actions": [
+        {
+          "action": "attack",
+          "direction": "right"
+        },
+        {
+          "action": "defend"
+        }
+      ],
+      "engine_rc": 0,
+      "engine_stderr": "",
+      "passed": true,
+      "expected": {
+        "positions": [
+          [
+            4,
+            3
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "hp": [
+          15.0,
+          10.0
+        ],
+        "own_r": 0.0,
+        "own_d": 59.0,
+        "own_deaths": 0,
+        "resources": [
+          {
+            "position": [
+              0,
+              4
+            ],
+            "value": 20.0
+          },
+          {
+            "position": [
+              3,
+              1
+            ],
+            "value": 10.0
+          },
+          {
+            "position": [
+              3,
+              3
+            ],
+            "value": 20.0
+          },
+          {
+            "position": [
+              5,
+              3
+            ],
+            "value": 10.0
+          }
+        ]
+      },
+      "actual": {
+        "positions": [
+          [
+            4,
+            3
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "hp": [
+          15.0,
+          10.0
+        ],
+        "own_r": 0.0,
+        "own_d": 59.0,
+        "own_deaths": 0,
+        "resources": [
+          {
+            "position": [
+              0,
+              4
+            ],
+            "value": 20
+          },
+          {
+            "position": [
+              3,
+              1
+            ],
+            "value": 10
+          },
+          {
+            "position": [
+              3,
+              3
+            ],
+            "value": 20
+          },
+          {
+            "position": [
+              5,
+              3
+            ],
+            "value": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": "diff-12",
+      "scene": {
+        "schema": 1,
+        "id": "diff-12",
+        "complete_local_model": true,
+        "width": 6,
+        "height": 5,
+        "walkable": [
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            5,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            5,
+            4
+          ]
+        ],
+        "players": [
+          {
+            "position": [
+              4,
+              1
+            ],
+            "hp": 10
+          },
+          {
+            "position": [
+              2,
+              2
+            ],
+            "hp": 20
+          }
+        ],
+        "own_resource": 120,
+        "own_damage": 59,
+        "resources": [
+          {
+            "position": [
+              5,
+              0
+            ],
+            "value": 10
+          },
+          {
+            "position": [
+              4,
+              3
+            ],
+            "value": 10
+          },
+          {
+            "position": [
+              0,
+              3
+            ],
+            "value": 20
+          },
+          {
+            "position": [
+              5,
+              4
+            ],
+            "value": 10
+          }
+        ],
+        "score_damage_cap": 300,
+        "baseline_action": {
+          "action": "defend"
+        }
+      },
+      "actions": [
+        {
+          "action": "defend"
+        },
+        null
+      ],
+      "engine_rc": 0,
+      "engine_stderr": "",
+      "passed": true,
+      "expected": {
+        "positions": [
+          [
+            4,
+            1
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "hp": [
+          10.0,
+          20.0
+        ],
+        "own_r": 120.0,
+        "own_d": 59.0,
+        "own_deaths": 0,
+        "resources": [
+          {
+            "position": [
+              0,
+              3
+            ],
+            "value": 20.0
+          },
+          {
+            "position": [
+              4,
+              3
+            ],
+            "value": 10.0
+          },
+          {
+            "position": [
+              5,
+              0
+            ],
+            "value": 10.0
+          },
+          {
+            "position": [
+              5,
+              4
+            ],
+            "value": 10.0
+          }
+        ]
+      },
+      "actual": {
+        "positions": [
+          [
+            4,
+            1
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "hp": [
+          10.0,
+          20.0
+        ],
+        "own_r": 120.0,
+        "own_d": 59.0,
+        "own_deaths": 0,
+        "resources": [
+          {
+            "position": [
+              0,
+              3
+            ],
+            "value": 20
+          },
+          {
+            "position": [
+              4,
+              3
+            ],
+            "value": 10
+          },
+          {
+            "position": [
+              5,
+              0
+            ],
+            "value": 10
+          },
+          {
+            "position": [
+              5,
+              4
+            ],
+            "value": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": "diff-13",
+      "scene": {
+        "schema": 1,
+        "id": "diff-13",
+        "complete_local_model": true,
+        "width": 6,
+        "height": 5,
+        "walkable": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            5,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            4
+          ]
+        ],
+        "players": [
+          {
+            "position": [
+              2,
+              2
+            ],
+            "hp": 100
+          },
+          {
+            "position": [
+              0,
+              4
+            ],
+            "hp": 100
+          }
+        ],
+        "own_resource": 120,
+        "own_damage": 800,
+        "resources": [
+          {
+            "position": [
+              3,
+              4
+            ],
+            "value": 20
+          },
+          {
+            "position": [
+              3,
+              0
+            ],
+            "value": 10
+          },
+          {
+            "position": [
+              2,
+              3
+            ],
+            "value": 20
+          },
+          {
+            "position": [
+              5,
+              4
+            ],
+            "value": 20
+          }
+        ],
+        "score_damage_cap": 300,
+        "baseline_action": {
+          "action": "defend"
+        }
+      },
+      "actions": [
+        {
+          "action": "move",
+          "direction": "right"
+        },
+        {
+          "action": "move",
+          "direction": "down"
+        }
+      ],
+      "engine_rc": 0,
+      "engine_stderr": "",
+      "passed": true,
+      "expected": {
+        "positions": [
+          [
+            3,
+            2
+          ],
+          [
+            0,
+            4
+          ]
+        ],
+        "hp": [
+          100.0,
+          100.0
+        ],
+        "own_r": 120.0,
+        "own_d": 800.0,
+        "own_deaths": 0,
+        "resources": [
+          {
+            "position": [
+              2,
+              3
+            ],
+            "value": 20.0
+          },
+          {
+            "position": [
+              3,
+              0
+            ],
+            "value": 10.0
+          },
+          {
+            "position": [
+              3,
+              4
+            ],
+            "value": 20.0
+          },
+          {
+            "position": [
+              5,
+              4
+            ],
+            "value": 20.0
+          }
+        ]
+      },
+      "actual": {
+        "positions": [
+          [
+            3,
+            2
+          ],
+          [
+            0,
+            4
+          ]
+        ],
+        "hp": [
+          100.0,
+          100.0
+        ],
+        "own_r": 120.0,
+        "own_d": 800.0,
+        "own_deaths": 0,
+        "resources": [
+          {
+            "position": [
+              2,
+              3
+            ],
+            "value": 20
+          },
+          {
+            "position": [
+              3,
+              0
+            ],
+            "value": 10
+          },
+          {
+            "position": [
+              3,
+              4
+            ],
+            "value": 20
+          },
+          {
+            "position": [
+              5,
+              4
+            ],
+            "value": 20
+          }
+        ]
+      }
+    },
+    {
+      "id": "diff-14",
+      "scene": {
+        "schema": 1,
+        "id": "diff-14",
+        "complete_local_model": true,
+        "width": 6,
+        "height": 5,
+        "walkable": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            5,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            4
+          ]
+        ],
+        "players": [
+          {
+            "position": [
+              0,
+              1
+            ],
+            "hp": 20
+          },
+          {
+            "position": [
+              4,
+              0
+            ],
+            "hp": 35
+          }
+        ],
+        "own_resource": 120,
+        "own_damage": 500,
+        "resources": [
+          {
+            "position": [
+              0,
+              0
+            ],
+            "value": 10
+          },
+          {
+            "position": [
+              1,
+              0
+            ],
+            "value": 10
+          },
+          {
+            "position": [
+              4,
+              2
+            ],
+            "value": 10
+          },
+          {
+            "position": [
+              1,
+              1
+            ],
+            "value": 10
+          }
+        ],
+        "score_damage_cap": 300,
+        "baseline_action": {
+          "action": "defend"
+        }
+      },
+      "actions": [
+        {
+          "action": "attack",
+          "direction": "down"
+        },
+        {
+          "action": "move",
+          "direction": "left"
+        }
+      ],
+      "engine_rc": 0,
+      "engine_stderr": "",
+      "passed": true,
+      "expected": {
+        "positions": [
+          [
+            0,
+            1
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        "hp": [
+          20.0,
+          35.0
+        ],
+        "own_r": 120.0,
+        "own_d": 500.0,
+        "own_deaths": 0,
+        "resources": [
+          {
+            "position": [
+              0,
+              0
+            ],
+            "value": 10.0
+          },
+          {
+            "position": [
+              1,
+              0
+            ],
+            "value": 10.0
+          },
+          {
+            "position": [
+              1,
+              1
+            ],
+            "value": 10.0
+          },
+          {
+            "position": [
+              4,
+              2
+            ],
+            "value": 10.0
+          }
+        ]
+      },
+      "actual": {
+        "positions": [
+          [
+            0,
+            1
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        "hp": [
+          20.0,
+          35.0
+        ],
+        "own_r": 120.0,
+        "own_d": 500.0,
+        "own_deaths": 0,
+        "resources": [
+          {
+            "position": [
+              0,
+              0
+            ],
+            "value": 10
+          },
+          {
+            "position": [
+              1,
+              0
+            ],
+            "value": 10
+          },
+          {
+            "position": [
+              1,
+              1
+            ],
+            "value": 10
+          },
+          {
+            "position": [
+              4,
+              2
+            ],
+            "value": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": "diff-15",
+      "scene": {
+        "schema": 1,
+        "id": "diff-15",
+        "complete_local_model": true,
+        "width": 6,
+        "height": 5,
+        "walkable": [
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            4
+          ]
+        ],
+        "players": [
+          {
+            "position": [
+              3,
+              3
+            ],
+            "hp": 100
+          },
+          {
+            "position": [
+              0,
+              0
+            ],
+            "hp": 20
+          }
+        ],
+        "own_resource": 120,
+        "own_damage": 0,
+        "resources": [
+          {
+            "position": [
+              0,
+              2
+            ],
+            "value": 20
+          },
+          {
+            "position": [
+              4,
+              3
+            ],
+            "value": 20
+          },
+          {
+            "position": [
+              3,
+              0
+            ],
+            "value": 20
+          },
+          {
+            "position": [
+              3,
+              1
+            ],
+            "value": 20
+          }
+        ],
+        "score_damage_cap": 300,
+        "baseline_action": {
+          "action": "defend"
+        }
+      },
+      "actions": [
+        {
+          "action": "move",
+          "direction": "right"
+        },
+        {
+          "action": "defend"
+        }
+      ],
+      "engine_rc": 0,
+      "engine_stderr": "",
+      "passed": true,
+      "expected": {
+        "positions": [
+          [
+            4,
+            3
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "hp": [
+          100.0,
+          20.0
+        ],
+        "own_r": 140.0,
+        "own_d": 0.0,
+        "own_deaths": 0,
+        "resources": [
+          {
+            "position": [
+              0,
+              2
+            ],
+            "value": 20.0
+          },
+          {
+            "position": [
+              3,
+              0
+            ],
+            "value": 20.0
+          },
+          {
+            "position": [
+              3,
+              1
+            ],
+            "value": 20.0
+          }
+        ]
+      },
+      "actual": {
+        "positions": [
+          [
+            4,
+            3
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "hp": [
+          100.0,
+          20.0
+        ],
+        "own_r": 140.0,
+        "own_d": 0.0,
+        "own_deaths": 0,
+        "resources": [
+          {
+            "position": [
+              0,
+              2
+            ],
+            "value": 20
+          },
+          {
+            "position": [
+              3,
+              0
+            ],
+            "value": 20
+          },
+          {
+            "position": [
+              3,
+              1
+            ],
+            "value": 20
+          }
+        ]
+      }
+    },
+    {
+      "id": "diff-16",
+      "scene": {
+        "schema": 1,
+        "id": "diff-16",
+        "complete_local_model": true,
+        "width": 6,
+        "height": 5,
+        "walkable": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            5,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            4
+          ]
+        ],
+        "players": [
+          {
+            "position": [
+              3,
+              3
+            ],
+            "hp": 35
+          },
+          {
+            "position": [
+              4,
+              4
+            ],
+            "hp": 15
+          }
+        ],
+        "own_resource": 120,
+        "own_damage": 0,
+        "resources": [
+          {
+            "position": [
+              1,
+              4
+            ],
+            "value": 20
+          },
+          {
+            "position": [
+              0,
+              0
+            ],
+            "value": 20
+          },
+          {
+            "position": [
+              5,
+              0
+            ],
+            "value": 10
+          },
+          {
+            "position": [
+              4,
+              4
+            ],
+            "value": 10
+          }
+        ],
+        "score_damage_cap": 300,
+        "baseline_action": {
+          "action": "defend"
+        }
+      },
+      "actions": [
+        {
+          "action": "attack",
+          "direction": "down"
+        },
+        {
+          "action": "move",
+          "direction": "up"
+        }
+      ],
+      "engine_rc": 0,
+      "engine_stderr": "",
+      "passed": true,
+      "expected": {
+        "positions": [
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "hp": [
+          35.0,
+          15.0
+        ],
+        "own_r": 120.0,
+        "own_d": 0.0,
+        "own_deaths": 0,
+        "resources": [
+          {
+            "position": [
+              0,
+              0
+            ],
+            "value": 20.0
+          },
+          {
+            "position": [
+              1,
+              4
+            ],
+            "value": 20.0
+          },
+          {
+            "position": [
+              4,
+              4
+            ],
+            "value": 10.0
+          },
+          {
+            "position": [
+              5,
+              0
+            ],
+            "value": 10.0
+          }
+        ]
+      },
+      "actual": {
+        "positions": [
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "hp": [
+          35.0,
+          15.0
+        ],
+        "own_r": 120.0,
+        "own_d": 0.0,
+        "own_deaths": 0,
+        "resources": [
+          {
+            "position": [
+              0,
+              0
+            ],
+            "value": 20
+          },
+          {
+            "position": [
+              1,
+              4
+            ],
+            "value": 20
+          },
+          {
+            "position": [
+              4,
+              4
+            ],
+            "value": 10
+          },
+          {
+            "position": [
+              5,
+              0
+            ],
+            "value": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": "diff-17",
+      "scene": {
+        "schema": 1,
+        "id": "diff-17",
+        "complete_local_model": true,
+        "width": 6,
+        "height": 5,
+        "walkable": [
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            4
+          ]
+        ],
+        "players": [
+          {
+            "position": [
+              2,
+              0
+            ],
+            "hp": 35
+          },
+          {
+            "position": [
+              2,
+              1
+            ],
+            "hp": 35
+          }
+        ],
+        "own_resource": 110,
+        "own_damage": 0,
+        "resources": [
+          {
+            "position": [
+              4,
+              4
+            ],
+            "value": 20
+          },
+          {
+            "position": [
+              0,
+              1
+            ],
+            "value": 10
+          },
+          {
+            "position": [
+              4,
+              0
+            ],
+            "value": 20
+          },
+          {
+            "position": [
+              2,
+              3
+            ],
+            "value": 20
+          }
+        ],
+        "score_damage_cap": 300,
+        "baseline_action": {
+          "action": "defend"
+        }
+      },
+      "actions": [
+        {
+          "action": "move",
+          "direction": "right"
+        },
+        {
+          "action": "attack",
+          "direction": "down"
+        }
+      ],
+      "engine_rc": 0,
+      "engine_stderr": "",
+      "passed": true,
+      "expected": {
+        "positions": [
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "hp": [
+          35.0,
+          35.0
+        ],
+        "own_r": 110.0,
+        "own_d": 0.0,
+        "own_deaths": 0,
+        "resources": [
+          {
+            "position": [
+              0,
+              1
+            ],
+            "value": 10.0
+          },
+          {
+            "position": [
+              2,
+              3
+            ],
+            "value": 20.0
+          },
+          {
+            "position": [
+              4,
+              0
+            ],
+            "value": 20.0
+          },
+          {
+            "position": [
+              4,
+              4
+            ],
+            "value": 20.0
+          }
+        ]
+      },
+      "actual": {
+        "positions": [
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "hp": [
+          35.0,
+          35.0
+        ],
+        "own_r": 110.0,
+        "own_d": 0.0,
+        "own_deaths": 0,
+        "resources": [
+          {
+            "position": [
+              0,
+              1
+            ],
+            "value": 10
+          },
+          {
+            "position": [
+              2,
+              3
+            ],
+            "value": 20
+          },
+          {
+            "position": [
+              4,
+              0
+            ],
+            "value": 20
+          },
+          {
+            "position": [
+              4,
+              4
+            ],
+            "value": 20
+          }
+        ]
+      }
+    },
+    {
+      "id": "diff-18",
+      "scene": {
+        "schema": 1,
+        "id": "diff-18",
+        "complete_local_model": true,
+        "width": 6,
+        "height": 5,
+        "walkable": [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            5,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            4
+          ]
+        ],
+        "players": [
+          {
+            "position": [
+              1,
+              4
+            ],
+            "hp": 35
+          },
+          {
+            "position": [
+              3,
+              3
+            ],
+            "hp": 100
+          }
+        ],
+        "own_resource": 110,
+        "own_damage": 59,
+        "resources": [
+          {
+            "position": [
+              0,
+              4
+            ],
+            "value": 10
+          },
+          {
+            "position": [
+              5,
+              0
+            ],
+            "value": 20
+          },
+          {
+            "position": [
+              3,
+              1
+            ],
+            "value": 10
+          },
+          {
+            "position": [
+              1,
+              2
+            ],
+            "value": 10
+          }
+        ],
+        "score_damage_cap": 300,
+        "baseline_action": {
+          "action": "defend"
+        }
+      },
+      "actions": [
+        {
+          "action": "move",
+          "direction": "down"
+        },
+        {
+          "action": "move",
+          "direction": "up"
+        }
+      ],
+      "engine_rc": 0,
+      "engine_stderr": "",
+      "passed": true,
+      "expected": {
+        "positions": [
+          [
+            1,
+            4
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        "hp": [
+          35.0,
+          100.0
+        ],
+        "own_r": 110.0,
+        "own_d": 59.0,
+        "own_deaths": 0,
+        "resources": [
+          {
+            "position": [
+              0,
+              4
+            ],
+            "value": 10.0
+          },
+          {
+            "position": [
+              1,
+              2
+            ],
+            "value": 10.0
+          },
+          {
+            "position": [
+              3,
+              1
+            ],
+            "value": 10.0
+          },
+          {
+            "position": [
+              5,
+              0
+            ],
+            "value": 20.0
+          }
+        ]
+      },
+      "actual": {
+        "positions": [
+          [
+            1,
+            4
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        "hp": [
+          35.0,
+          100.0
+        ],
+        "own_r": 110.0,
+        "own_d": 59.0,
+        "own_deaths": 0,
+        "resources": [
+          {
+            "position": [
+              0,
+              4
+            ],
+            "value": 10
+          },
+          {
+            "position": [
+              1,
+              2
+            ],
+            "value": 10
+          },
+          {
+            "position": [
+              3,
+              1
+            ],
+            "value": 10
+          },
+          {
+            "position": [
+              5,
+              0
+            ],
+            "value": 20
+          }
+        ]
+      }
+    },
+    {
+      "id": "diff-19",
+      "scene": {
+        "schema": 1,
+        "id": "diff-19",
+        "complete_local_model": true,
+        "width": 6,
+        "height": 5,
+        "walkable": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            4
+          ]
+        ],
+        "players": [
+          {
+            "position": [
+              0,
+              4
+            ],
+            "hp": 10
+          },
+          {
+            "position": [
+              4,
+              3
+            ],
+            "hp": 20
+          }
+        ],
+        "own_resource": 110,
+        "own_damage": 59,
+        "resources": [
+          {
+            "position": [
+              4,
+              2
+            ],
+            "value": 20
+          },
+          {
+            "position": [
+              0,
+              3
+            ],
+            "value": 10
+          },
+          {
+            "position": [
+              2,
+              0
+            ],
+            "value": 20
+          },
+          {
+            "position": [
+              3,
+              3
+            ],
+            "value": 20
+          }
+        ],
+        "score_damage_cap": 300,
+        "baseline_action": {
+          "action": "defend"
+        }
+      },
+      "actions": [
+        {
+          "action": "move",
+          "direction": "down"
+        },
+        {
+          "action": "move",
+          "direction": "down"
+        }
+      ],
+      "engine_rc": 0,
+      "engine_stderr": "",
+      "passed": true,
+      "expected": {
+        "positions": [
+          [
+            0,
+            4
+          ],
+          [
+            4,
+            4
+          ]
+        ],
+        "hp": [
+          10.0,
+          20.0
+        ],
+        "own_r": 110.0,
+        "own_d": 59.0,
+        "own_deaths": 0,
+        "resources": [
+          {
+            "position": [
+              0,
+              3
+            ],
+            "value": 10.0
+          },
+          {
+            "position": [
+              2,
+              0
+            ],
+            "value": 20.0
+          },
+          {
+            "position": [
+              3,
+              3
+            ],
+            "value": 20.0
+          },
+          {
+            "position": [
+              4,
+              2
+            ],
+            "value": 20.0
+          }
+        ]
+      },
+      "actual": {
+        "positions": [
+          [
+            0,
+            4
+          ],
+          [
+            4,
+            4
+          ]
+        ],
+        "hp": [
+          10.0,
+          20.0
+        ],
+        "own_r": 110.0,
+        "own_d": 59.0,
+        "own_deaths": 0,
+        "resources": [
+          {
+            "position": [
+              0,
+              3
+            ],
+            "value": 10
+          },
+          {
+            "position": [
+              2,
+              0
+            ],
+            "value": 20
+          },
+          {
+            "position": [
+              3,
+              3
+            ],
+            "value": 20
+          },
+          {
+            "position": [
+              4,
+              2
+            ],
+            "value": 20
+          }
+        ]
+      }
+    }
+  ]
+}

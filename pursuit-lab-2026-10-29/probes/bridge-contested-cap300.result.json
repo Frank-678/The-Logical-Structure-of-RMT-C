@@ -1,0 +1,287 @@
+{
+  "scope": "offline_closed_ordinary_duel_surrogate",
+  "requested_depth": 2,
+  "completed_depth": 2,
+  "budget_exhausted": false,
+  "joint_transitions": 920,
+  "elapsed_ms": 12.359846999970614,
+  "score_damage_cap": 300.0,
+  "baseline_action": {
+    "action": "move",
+    "direction": "right"
+  },
+  "weights": {
+    "hp": 0.03,
+    "death": 3.0,
+    "goal": 1.0,
+    "override_margin": 0.05
+  },
+  "sample_seed": 20261029,
+  "recommendation": "candidate_exceeds_baseline_in_model",
+  "sampled_action": {
+    "action": "attack",
+    "direction": "right"
+  },
+  "policy": [
+    {
+      "action": {
+        "action": "defend"
+      },
+      "probability": 0.0
+    },
+    {
+      "action": {
+        "action": "attack",
+        "direction": "up"
+      },
+      "probability": 0.0
+    },
+    {
+      "action": {
+        "action": "attack",
+        "direction": "right"
+      },
+      "probability": 1.0
+    },
+    {
+      "action": {
+        "action": "attack",
+        "direction": "down"
+      },
+      "probability": 0.0
+    },
+    {
+      "action": {
+        "action": "attack",
+        "direction": "left"
+      },
+      "probability": 0.0
+    },
+    {
+      "action": {
+        "action": "move",
+        "direction": "right"
+      },
+      "probability": 0.0
+    },
+    {
+      "action": {
+        "action": "move",
+        "direction": "left"
+      },
+      "probability": 0.0
+    }
+  ],
+  "certificate": {
+    "lower": 0.8,
+    "upper": 0.8,
+    "gap": 0.0,
+    "baseline_lower": -0.19999999999999996,
+    "baseline_upper": -0.19999999999999996
+  },
+  "row_actions": [
+    {
+      "action": "defend"
+    },
+    {
+      "action": "attack",
+      "direction": "up"
+    },
+    {
+      "action": "attack",
+      "direction": "right"
+    },
+    {
+      "action": "attack",
+      "direction": "down"
+    },
+    {
+      "action": "attack",
+      "direction": "left"
+    },
+    {
+      "action": "move",
+      "direction": "right"
+    },
+    {
+      "action": "move",
+      "direction": "left"
+    }
+  ],
+  "opponent_actions": [
+    {
+      "action": "defend"
+    },
+    {
+      "action": "attack",
+      "direction": "up"
+    },
+    {
+      "action": "attack",
+      "direction": "right"
+    },
+    {
+      "action": "attack",
+      "direction": "down"
+    },
+    {
+      "action": "attack",
+      "direction": "left"
+    },
+    {
+      "action": "move",
+      "direction": "right"
+    },
+    {
+      "action": "move",
+      "direction": "left"
+    },
+    null
+  ],
+  "lower_matrix": [
+    [
+      0.4,
+      0.4,
+      0.4,
+      0.4,
+      0.10000000000000009,
+      0.0,
+      0.4,
+      0.4
+    ],
+    [
+      0.4,
+      0.4,
+      0.4,
+      0.4,
+      -0.19999999999999996,
+      0.0,
+      0.4,
+      0.4
+    ],
+    [
+      0.9,
+      1.4,
+      1.4,
+      1.4,
+      0.8,
+      1.0,
+      1.4,
+      1.4
+    ],
+    [
+      0.4,
+      0.4,
+      0.4,
+      0.4,
+      -0.19999999999999996,
+      0.0,
+      0.4,
+      0.4
+    ],
+    [
+      0.4,
+      0.4,
+      0.4,
+      0.4,
+      -0.19999999999999996,
+      0.0,
+      0.4,
+      0.4
+    ],
+    [
+      0.4,
+      0.4,
+      0.4,
+      0.4,
+      -0.19999999999999996,
+      0.4,
+      0.4,
+      0.4
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.6,
+      0.0,
+      0.4,
+      0.0
+    ]
+  ],
+  "upper_matrix": [
+    [
+      0.4,
+      0.4,
+      0.4,
+      0.4,
+      0.10000000000000009,
+      0.0,
+      0.4,
+      0.4
+    ],
+    [
+      0.4,
+      0.4,
+      0.4,
+      0.4,
+      -0.19999999999999996,
+      0.0,
+      0.4,
+      0.4
+    ],
+    [
+      0.9,
+      1.4,
+      1.4,
+      1.4,
+      0.8,
+      1.0,
+      1.4,
+      1.4
+    ],
+    [
+      0.4,
+      0.4,
+      0.4,
+      0.4,
+      -0.19999999999999996,
+      0.0,
+      0.4,
+      0.4
+    ],
+    [
+      0.4,
+      0.4,
+      0.4,
+      0.4,
+      -0.19999999999999996,
+      0.0,
+      0.4,
+      0.4
+    ],
+    [
+      0.4,
+      0.4,
+      0.4,
+      0.4,
+      -0.19999999999999996,
+      0.4,
+      0.4,
+      0.4
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.6,
+      0.0,
+      0.4,
+      0.0
+    ]
+  ],
+  "scene_id": "bridge-contested-cap300",
+  "scene_sha256": "df2db965e7aacc3ccd7db5c6ba249984452571094602842e0681f39c66877542"
+}

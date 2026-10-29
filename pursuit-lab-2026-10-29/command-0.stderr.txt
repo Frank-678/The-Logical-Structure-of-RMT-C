@@ -1,0 +1,28 @@
+test_finite_node_budget_returns_explicit_baseline (__main__.DecisionCases.test_finite_node_budget_returns_explicit_baseline) ... ok
+test_move_cannot_save_low_hp_but_defend_can (__main__.DecisionCases.test_move_cannot_save_low_hp_but_defend_can) ... ok
+test_partial_deeper_matrix_does_not_replace_completed_depth (__main__.DecisionCases.test_partial_deeper_matrix_does_not_replace_completed_depth) ... ok
+test_seed_replays_the_distribution_sample (__main__.DecisionCases.test_seed_replays_the_distribution_sample) ... ok
+test_shoot_corner_target_before_it_moves (__main__.DecisionCases.test_shoot_corner_target_before_it_moves) ... ok
+test_two_step_search_reports_recursive_bounds (__main__.DecisionCases.test_two_step_search_reports_recursive_bounds) ... ok
+test_unsupported_information_is_not_silently_accepted (__main__.DecisionCases.test_unsupported_information_is_not_silently_accepted) ... ok
+test_malformed_matrix_is_rejected (__main__.MatrixCases.test_malformed_matrix_is_rejected) ... ok
+test_matching_pennies_needs_mixing (__main__.MatrixCases.test_matching_pennies_needs_mixing) ... ok
+test_pure_saddle (__main__.MatrixCases.test_pure_saddle) ... ok
+test_random_2_by_2_bounds_enclose_exact_value (__main__.MatrixCases.test_random_2_by_2_bounds_enclose_exact_value) ... ok
+test_rock_paper_scissors (__main__.MatrixCases.test_rock_paper_scissors) ... ok
+test_attack_before_movement (__main__.SettlementCases.test_attack_before_movement) ... ok
+test_defend_survives_current_attack (__main__.SettlementCases.test_defend_survives_current_attack) ... ok
+test_defending_is_current_action_only (__main__.SettlementCases.test_defending_is_current_action_only) ... ok
+test_goal_distance_respects_walls (__main__.SettlementCases.test_goal_distance_respects_walls) ... ok
+test_mutual_kills_are_simultaneous (__main__.SettlementCases.test_mutual_kills_are_simultaneous) ... ok
+test_resources_collected_by_survivors_and_removed_for_either_player (__main__.SettlementCases.test_resources_collected_by_survivors_and_removed_for_either_player) ... ok
+test_rotation_commutes_with_physical_transition (__main__.SettlementCases.test_rotation_commutes_with_physical_transition) ... ok
+test_same_destination_blocks_both (__main__.SettlementCases.test_same_destination_blocks_both) ... ok
+test_score_cap_is_an_explicit_input (__main__.SettlementCases.test_score_cap_is_an_explicit_input) ... ok
+test_swap_is_not_possible (__main__.SettlementCases.test_swap_is_not_possible) ... ok
+test_wall_does_not_block_normal_shot (__main__.SettlementCases.test_wall_does_not_block_normal_shot) ... ok
+
+----------------------------------------------------------------------
+Ran 23 tests in 0.051s
+
+OK

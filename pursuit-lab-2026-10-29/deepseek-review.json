@@ -1,0 +1,41 @@
+{
+  "schema": 1,
+  "scope": "read-only/mocked handoff audit; no real referee/build",
+  "reviewed_commit": "eacb963dab4d38bf5f2c3112fb6043fe10279c61",
+  "findings": [
+    {
+      "id": "R1",
+      "M1_opponents": {
+        "B": "original",
+        "C": "original",
+        "D": "original"
+      },
+      "M4_opponents": {
+        "B": "champion",
+        "C": "original",
+        "D": "original"
+      },
+      "same_opponent_pool": false,
+      "issue_present": true
+    },
+    {
+      "id": "R2",
+      "baseline": 1,
+      "new_ready_lines_after_truncate": 1,
+      "fresh_ready_expected": true,
+      "actual": false,
+      "issue_present": true
+    },
+    {
+      "id": "R3",
+      "expected_one_argument": "/tmp/rmtc-review-rvpmorph/source with spaces/build-v-fixture-B/logs",
+      "shell_argument_preserved": false,
+      "issue_present": true,
+      "actual_shell_command": [
+        "bash",
+        "-c",
+        "source /opt/ros/humble/setup.bash && exec colcon --log-base /tmp/rmtc-review-rvpmorph/source with spaces/build-v-fixture-B/logs build --base-paths /tmp/rmtc-review-rvpmorph/source with spaces/build-v-fixture-B/source/src --packages-select rmtc_bot --build-base /tmp/rmtc-review-rvpmorph/source with spaces/build-v-fixture-B/packages --install-base /tmp/rmtc-review-rvpmorph/source with spaces/install-v-fixture-B"
+      ]
+    }
+  ]
+}

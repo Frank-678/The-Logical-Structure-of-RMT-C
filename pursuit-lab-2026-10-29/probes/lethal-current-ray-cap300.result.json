@@ -1,0 +1,337 @@
+{
+  "scope": "offline_closed_ordinary_duel_surrogate",
+  "requested_depth": 2,
+  "completed_depth": 2,
+  "budget_exhausted": false,
+  "joint_transitions": 1964,
+  "elapsed_ms": 35.667325999838795,
+  "score_damage_cap": 300.0,
+  "baseline_action": {
+    "action": "move",
+    "direction": "up"
+  },
+  "weights": {
+    "hp": 0.03,
+    "death": 3.0,
+    "goal": 1.0,
+    "override_margin": 0.05
+  },
+  "sample_seed": 20261029,
+  "recommendation": "candidate_exceeds_baseline_in_model",
+  "sampled_action": {
+    "action": "defend"
+  },
+  "policy": [
+    {
+      "action": {
+        "action": "defend"
+      },
+      "probability": 1.0
+    },
+    {
+      "action": {
+        "action": "attack",
+        "direction": "up"
+      },
+      "probability": 0.0
+    },
+    {
+      "action": {
+        "action": "attack",
+        "direction": "right"
+      },
+      "probability": 0.0
+    },
+    {
+      "action": {
+        "action": "attack",
+        "direction": "down"
+      },
+      "probability": 0.0
+    },
+    {
+      "action": {
+        "action": "attack",
+        "direction": "left"
+      },
+      "probability": 0.0
+    },
+    {
+      "action": {
+        "action": "move",
+        "direction": "up"
+      },
+      "probability": 0.0
+    },
+    {
+      "action": {
+        "action": "move",
+        "direction": "down"
+      },
+      "probability": 0.0
+    },
+    {
+      "action": {
+        "action": "move",
+        "direction": "left"
+      },
+      "probability": 0.0
+    }
+  ],
+  "certificate": {
+    "lower": -5.6,
+    "upper": -5.6,
+    "gap": 0.0,
+    "baseline_lower": -6.6,
+    "baseline_upper": -6.6
+  },
+  "row_actions": [
+    {
+      "action": "defend"
+    },
+    {
+      "action": "attack",
+      "direction": "up"
+    },
+    {
+      "action": "attack",
+      "direction": "right"
+    },
+    {
+      "action": "attack",
+      "direction": "down"
+    },
+    {
+      "action": "attack",
+      "direction": "left"
+    },
+    {
+      "action": "move",
+      "direction": "up"
+    },
+    {
+      "action": "move",
+      "direction": "down"
+    },
+    {
+      "action": "move",
+      "direction": "left"
+    }
+  ],
+  "opponent_actions": [
+    {
+      "action": "defend"
+    },
+    {
+      "action": "attack",
+      "direction": "up"
+    },
+    {
+      "action": "attack",
+      "direction": "right"
+    },
+    {
+      "action": "attack",
+      "direction": "down"
+    },
+    {
+      "action": "attack",
+      "direction": "left"
+    },
+    {
+      "action": "move",
+      "direction": "up"
+    },
+    {
+      "action": "move",
+      "direction": "right"
+    },
+    {
+      "action": "move",
+      "direction": "down"
+    },
+    null
+  ],
+  "lower_matrix": [
+    [
+      -0.3,
+      -0.3,
+      -0.3,
+      -0.3,
+      -5.6,
+      0.0,
+      -0.3,
+      0.0,
+      -0.3
+    ],
+    [
+      -0.3,
+      -0.3,
+      -0.3,
+      -0.3,
+      -6.6,
+      0.0,
+      -0.3,
+      0.0,
+      -0.3
+    ],
+    [
+      0.2,
+      0.7,
+      0.7,
+      0.7,
+      -5.6,
+      1.0,
+      0.7,
+      1.0,
+      0.7
+    ],
+    [
+      -0.3,
+      -0.3,
+      -0.3,
+      -0.3,
+      -6.6,
+      0.0,
+      -0.3,
+      0.0,
+      -0.3
+    ],
+    [
+      -0.3,
+      -0.3,
+      -0.3,
+      -0.3,
+      -6.6,
+      0.0,
+      -0.3,
+      0.0,
+      -0.3
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -6.6,
+      -0.3,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -6.6,
+      0.0,
+      0.0,
+      -0.3,
+      0.0
+    ],
+    [
+      -0.3,
+      -0.3,
+      -0.3,
+      -0.3,
+      -6.6,
+      0.0,
+      0.0,
+      0.0,
+      -0.3
+    ]
+  ],
+  "upper_matrix": [
+    [
+      -0.3,
+      -0.3,
+      -0.3,
+      -0.3,
+      -5.6,
+      0.0,
+      -0.3,
+      0.0,
+      -0.3
+    ],
+    [
+      -0.3,
+      -0.3,
+      -0.3,
+      -0.3,
+      -6.6,
+      0.0,
+      -0.3,
+      0.0,
+      -0.3
+    ],
+    [
+      0.2,
+      0.7,
+      0.7,
+      0.7,
+      -5.6,
+      1.0,
+      0.7,
+      1.0,
+      0.7
+    ],
+    [
+      -0.3,
+      -0.3,
+      -0.3,
+      -0.3,
+      -6.6,
+      0.0,
+      -0.3,
+      0.0,
+      -0.3
+    ],
+    [
+      -0.3,
+      -0.3,
+      -0.3,
+      -0.3,
+      -6.6,
+      0.0,
+      -0.3,
+      0.0,
+      -0.3
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -6.6,
+      -0.3,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -6.6,
+      0.0,
+      0.0,
+      -0.3,
+      0.0
+    ],
+    [
+      -0.3,
+      -0.3,
+      -0.3,
+      -0.3,
+      -6.6,
+      0.0,
+      0.0,
+      0.0,
+      -0.3
+    ]
+  ],
+  "scene_id": "lethal-current-ray-cap300",
+  "scene_sha256": "569a67ed71713d79d9f691e4be91516a46b020f945e40d500ea9cd5ee65a18bd"
+}
