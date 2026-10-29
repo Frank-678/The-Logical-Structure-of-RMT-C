@@ -290,7 +290,7 @@ T5 处方要求的“可复现失误与真实对局”本轮闭环：预注册�
 
 **判定：采纳（部分落地）。**
 
-已执行：代码仓 `git cherry-pick 3234a00f0dd711f3f53114f07cd3a0bf3628ce99 3c345b8139a4aaec011145a6b7c44738a009b38a 65c87145ae3b15572c3b1674181a74677fe86770`（rebase 于 f33e0b7 之上，无冲突；本地合入提交 1713988/bffd50e/9c84659，已推送 origin/strategy/iterate-arena-2026-10-28 @ 9c84659）。sk-cbc 扫描通过。
+已执行：代码仓 `git cherry-pick 3234a00f0dd711f3f53114f07cd3a0bf3628ce99 3c345b8139a4aaec011145a6b7c44738a009b38a 65c87145ae3b15572c3b1674181a74677fe86770`（rebase 于 f33e0b7 之上，无冲突；本地合入提交 1713988/bffd50e/9c84659，已推送 origin/strategy/iterate-arena-2026-10-28 @ 9c84659）。密钥扫描通过。
 
 未执行（如实说明）：12 项回归尚未跑 —— 系统内存连续紧张（Windows 空闲 ~1.6GB），编译/ASan 回归暂缓，恢复后跑 `bash scenarios.sh tests/scenarios/announcement_pair.json --out build/checks/blast && python3 tests/scenario_test.py` 并在本回复后补记产物位置与结果。
 
