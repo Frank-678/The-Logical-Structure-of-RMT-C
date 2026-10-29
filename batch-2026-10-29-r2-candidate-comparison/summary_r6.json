@@ -1,0 +1,258 @@
+[
+ {
+  "case_id": "snake-A-pressure",
+  "variant": "mev2pcc0rmb4rmv4",
+  "T": 22,
+  "action_at_T": [
+   "move",
+   "right"
+  ],
+  "old_tape_at_T": [
+   "move",
+   "down"
+  ],
+  "match_old_at_T": false,
+  "first_diff_vs_old": 22,
+  "first_diff_vs_new": 359,
+  "final": {
+   "R": 30.0,
+   "D": 460.0,
+   "deaths": 7,
+   "completed": [
+    "high",
+    "reach"
+   ],
+   "hp": 100.0
+  },
+  "passed": true,
+  "stop": "until_tick",
+  "abort_seats": [],
+  "end_tick": 500,
+  "ref_new": {
+   "R": 30.0,
+   "D": 800.0,
+   "deaths": 8
+  },
+  "ref_old": {
+   "R": 150.0,
+   "D": 620.0,
+   "deaths": 7
+  },
+  "report": "/home/frank/cst/build/league/r2_compare/scenes/snake-A-pressure-mev2pcc0rmb4rmv4.json",
+  "reconstructed": true
+ },
+ {
+  "case_id": "sparse-A-economy",
+  "variant": "mev2pcc0rmb4rmv4",
+  "T": 9,
+  "action_at_T": [
+   "move",
+   "down"
+  ],
+  "old_tape_at_T": [
+   "move",
+   "down"
+  ],
+  "match_old_at_T": true,
+  "first_diff_vs_old": 95,
+  "first_diff_vs_new": 9,
+  "final": {
+   "R": 40.0,
+   "D": 780.0,
+   "deaths": 2,
+   "completed": [
+    "high",
+    "normal",
+    "reach"
+   ],
+   "hp": 100.0
+  },
+  "passed": true,
+  "stop": "until_tick",
+  "abort_seats": [],
+  "end_tick": 500,
+  "ref_new": {
+   "R": 10.0,
+   "D": 820.0,
+   "deaths": 6
+  },
+  "ref_old": {
+   "R": 40.0,
+   "D": 820.0,
+   "deaths": 2
+  },
+  "report": "/home/frank/cst/build/league/r2_compare/scenes/sparse-A-economy-mev2pcc0rmb4rmv4.json",
+  "reconstructed": true
+ },
+ {
+  "case_id": "sparse-A-archive",
+  "variant": "mev2pcc0rmb4rmv4",
+  "T": 9,
+  "action_at_T": [
+   "move",
+   "down"
+  ],
+  "old_tape_at_T": [
+   "move",
+   "down"
+  ],
+  "match_old_at_T": true,
+  "first_diff_vs_old": 24,
+  "first_diff_vs_new": 9,
+  "final": {
+   "R": 40.0,
+   "D": 630.0,
+   "deaths": 0,
+   "completed": [
+    "high",
+    "normal",
+    "reach"
+   ],
+   "hp": 40.0
+  },
+  "passed": true,
+  "stop": "until_tick",
+  "abort_seats": [],
+  "end_tick": 500,
+  "ref_new": {
+   "R": 10.0,
+   "D": 910.0,
+   "deaths": 9
+  },
+  "ref_old": {
+   "R": 40.0,
+   "D": 860.0,
+   "deaths": 14
+  },
+  "report": "/home/frank/cst/build/league/r2_compare/scenes/sparse-A-archive-mev2pcc0rmb4rmv4.json",
+  "reconstructed": true
+ },
+ {
+  "case_id": "snake-A-pressure",
+  "variant": "mev2pcc0rmv4",
+  "T": 22,
+  "action_at_T": [
+   "move",
+   "right"
+  ],
+  "old_tape_at_T": [
+   "move",
+   "down"
+  ],
+  "match_old_at_T": false,
+  "first_diff_vs_old": 22,
+  "first_diff_vs_new": 359,
+  "final": {
+   "R": 30.0,
+   "D": 460.0,
+   "deaths": 7,
+   "completed": [
+    "high",
+    "reach"
+   ],
+   "hp": 100.0
+  },
+  "passed": true,
+  "stop": "until_tick",
+  "abort_seats": [],
+  "end_tick": 500,
+  "ref_new": {
+   "R": 30.0,
+   "D": 800.0,
+   "deaths": 8
+  },
+  "ref_old": {
+   "R": 150.0,
+   "D": 620.0,
+   "deaths": 7
+  },
+  "report": "/home/frank/cst/build/league/r2_compare/scenes/snake-A-pressure-mev2pcc0rmv4.json",
+  "reconstructed": true
+ },
+ {
+  "case_id": "sparse-A-economy",
+  "variant": "mev2pcc0rmv4",
+  "T": 9,
+  "action_at_T": [
+   "move",
+   "down"
+  ],
+  "old_tape_at_T": [
+   "move",
+   "down"
+  ],
+  "match_old_at_T": true,
+  "first_diff_vs_old": 95,
+  "first_diff_vs_new": 9,
+  "final": {
+   "R": 40.0,
+   "D": 780.0,
+   "deaths": 2,
+   "completed": [
+    "high",
+    "normal",
+    "reach"
+   ],
+   "hp": 100.0
+  },
+  "passed": true,
+  "stop": "until_tick",
+  "abort_seats": [],
+  "end_tick": 500,
+  "ref_new": {
+   "R": 10.0,
+   "D": 820.0,
+   "deaths": 6
+  },
+  "ref_old": {
+   "R": 40.0,
+   "D": 820.0,
+   "deaths": 2
+  },
+  "report": "/home/frank/cst/build/league/r2_compare/scenes/sparse-A-economy-mev2pcc0rmv4.json",
+  "reconstructed": true
+ },
+ {
+  "case_id": "sparse-A-archive",
+  "variant": "mev2pcc0rmv4",
+  "T": 9,
+  "action_at_T": [
+   "move",
+   "down"
+  ],
+  "old_tape_at_T": [
+   "move",
+   "down"
+  ],
+  "match_old_at_T": true,
+  "first_diff_vs_old": 24,
+  "first_diff_vs_new": 9,
+  "final": {
+   "R": 40.0,
+   "D": 630.0,
+   "deaths": 0,
+   "completed": [
+    "high",
+    "normal",
+    "reach"
+   ],
+   "hp": 40.0
+  },
+  "passed": true,
+  "stop": "until_tick",
+  "abort_seats": [],
+  "end_tick": 500,
+  "ref_new": {
+   "R": 10.0,
+   "D": 910.0,
+   "deaths": 9
+  },
+  "ref_old": {
+   "R": 40.0,
+   "D": 860.0,
+   "deaths": 14
+  },
+  "report": "/home/frank/cst/build/league/r2_compare/scenes/sparse-A-archive-mev2pcc0rmv4.json",
+  "reconstructed": true
+ }
+]

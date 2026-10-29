@@ -1,0 +1,12 @@
+[plan] snake-A-pressure focal=A T=22
+[plan] sparse-A-economy focal=A T=9
+[plan] sparse-A-archive focal=A T=9
+[variant] mev2pcc0rmb4rmv4 spec={'mission_explore_value': '2.0', 'post_cap_combat_weight': '0.0', 'resource_mission_bonus': '4.0', 'reach_mission_value': '4.0'}
+[done] mev2pcc0rmb4rmv4/snake-A-pressure: T=22 match_old=False first_diff_vs_old=22 first_diff_vs_new=359 final R/D/deaths=30.0/460.0/7 passed=True stop=until_tick abort_seats=[]
+[done] mev2pcc0rmb4rmv4/sparse-A-economy: T=9 match_old=True first_diff_vs_old=95 first_diff_vs_new=9 final R/D/deaths=40.0/780.0/2 passed=True stop=until_tick abort_seats=[]
+[done] mev2pcc0rmb4rmv4/sparse-A-archive: T=9 match_old=True first_diff_vs_old=24 first_diff_vs_new=9 final R/D/deaths=40.0/630.0/0 passed=True stop=until_tick abort_seats=[]
+[variant] mev2pcc0rmv4 spec={'mission_explore_value': '2.0', 'post_cap_combat_weight': '0.0', 'reach_mission_value': '4.0'}
+[done] mev2pcc0rmv4/snake-A-pressure: T=22 match_old=False first_diff_vs_old=22 first_diff_vs_new=359 final R/D/deaths=30.0/460.0/7 passed=True stop=until_tick abort_seats=[]
+[done] mev2pcc0rmv4/sparse-A-economy: T=9 match_old=True first_diff_vs_old=95 first_diff_vs_new=9 final R/D/deaths=40.0/780.0/2 passed=True stop=until_tick abort_seats=[]
+[done] mev2pcc0rmv4/sparse-A-archive: T=9 match_old=True first_diff_vs_old=24 first_diff_vs_new=9 final R/D/deaths=40.0/630.0/0 passed=True stop=until_tick abort_seats=[]
+summary -> /home/frank/cst/build/league/r2_compare/summary.json
