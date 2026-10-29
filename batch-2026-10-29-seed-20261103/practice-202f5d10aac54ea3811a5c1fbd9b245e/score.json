@@ -1,0 +1,804 @@
+{
+  "action_tick": 499,
+  "actions": [
+    {
+      "action": "move",
+      "direction": "down",
+      "effective_direction": "down",
+      "from": [
+        9,
+        1
+      ],
+      "source": "submitted",
+      "status": "move_success",
+      "submitted": {
+        "_source": "submitted",
+        "action": "move",
+        "direction": "down",
+        "session_id": "practice-202f5d10aac54ea3811a5c1fbd9b245e",
+        "tick": 499
+      },
+      "team": "A",
+      "team_name": "Frank",
+      "to": [
+        9,
+        2
+      ]
+    },
+    {
+      "action": "move",
+      "direction": "up",
+      "effective_direction": "up",
+      "from": [
+        15,
+        8
+      ],
+      "source": "submitted",
+      "status": "move_success",
+      "submitted": {
+        "_source": "submitted",
+        "action": "move",
+        "direction": "up",
+        "session_id": "practice-202f5d10aac54ea3811a5c1fbd9b245e",
+        "tick": 499
+      },
+      "team": "B",
+      "team_name": "练习陪练B",
+      "to": [
+        15,
+        7
+      ]
+    },
+    {
+      "action": "move",
+      "direction": "up",
+      "effective_direction": "up",
+      "from": [
+        8,
+        2
+      ],
+      "source": "submitted",
+      "status": "move_success",
+      "submitted": {
+        "_source": "submitted",
+        "action": "move",
+        "direction": "up",
+        "session_id": "practice-202f5d10aac54ea3811a5c1fbd9b245e",
+        "tick": 499
+      },
+      "team": "C",
+      "team_name": "练习陪练C",
+      "to": [
+        8,
+        1
+      ]
+    },
+    {
+      "action": "move",
+      "direction": "down",
+      "effective_direction": "down",
+      "from": [
+        15,
+        5
+      ],
+      "source": "submitted",
+      "status": "move_success",
+      "submitted": {
+        "_source": "submitted",
+        "action": "move",
+        "direction": "down",
+        "session_id": "practice-202f5d10aac54ea3811a5c1fbd9b245e",
+        "tick": 499
+      },
+      "team": "D",
+      "team_name": "练习陪练D",
+      "to": [
+        15,
+        6
+      ]
+    }
+  ],
+  "arena_events": {
+    "active": [],
+    "announcements": [
+      {
+        "end_tick": 64,
+        "event": "unrivaled",
+        "event_id": "practice_unrivaled",
+        "id": 1,
+        "kind": "announcement",
+        "start_tick": 40,
+        "text": "随机事件预告：Tick 40（5 Tick 后），地图中央 [9,9] 将出现 3×3 堡垒并存在 24 Tick。连续停留 4 Tick 将获得「天下无双」：ATTACK 命中自身周围5×5内所有敌人，普通伤害 35 HP、防御伤害 7 HP；增益于堡垒消失时结束。",
+        "tick": 35
+      },
+      {
+        "end_tick": 64,
+        "event": "unrivaled",
+        "event_id": "practice_unrivaled",
+        "id": 2,
+        "kind": "event_started",
+        "text": "天下无双堡垒出现：矩形 [8,8] 至 [10,10]，持续至 Tick 64。离开堡垒会清空尚未完成的占领进度。",
+        "tick": 40
+      },
+      {
+        "effect": "unrivaled",
+        "expires_at": 64,
+        "id": 3,
+        "kind": "effect_gained",
+        "robot_id": "A",
+        "team": "A",
+        "text": "A 号战车获得「天下无双」！ATTACK 攻击自身5×5内所有敌人，伤害 35 HP，防御时 7 HP，持续至 Tick 64；复活后保留。",
+        "tick": 45
+      },
+      {
+        "end_tick": 71,
+        "event": "purity",
+        "event_id": "practice_purity",
+        "id": 4,
+        "kind": "announcement",
+        "start_tick": 55,
+        "text": "随机事件预告：Tick 55（5 Tick 后）起，全场进入持续 16 Tick 的「洁身自好」：攻击正在防御的敌人会让攻击者自身受到 12 HP 伤害，并且无法伤害该目标。",
+        "tick": 50
+      },
+      {
+        "end_tick": 71,
+        "event": "purity",
+        "event_id": "practice_purity",
+        "id": 5,
+        "kind": "event_started",
+        "text": "「洁身自好」生效！攻击防御敌人将反噬自身 12 HP，效果于 Tick 71 结束。",
+        "tick": 55
+      },
+      {
+        "end_tick": 75,
+        "event": "world_split",
+        "event_id": "practice_world_split",
+        "id": 6,
+        "kind": "announcement",
+        "start_tick": 65,
+        "text": "随机事件预告：Tick 65（5 Tick 后），以 [8,8] 为交点的整行整列将生成十字障碍，存在 10 Tick。障碍生成时十字线上的战车直接死亡并立即回出生点重生，已有增益和负面效果保留。",
+        "tick": 60
+      },
+      {
+        "effect": "unrivaled",
+        "id": 7,
+        "kind": "effect_expired",
+        "robot_id": "A",
+        "team": "A",
+        "text": "A 号战车的「天下无双」已结束，攻击恢复正常。",
+        "tick": 64
+      },
+      {
+        "event": "unrivaled",
+        "event_id": "practice_unrivaled",
+        "id": 8,
+        "kind": "event_ended",
+        "text": "天下无双堡垒消失，堡垒增益全部结束。",
+        "tick": 64
+      },
+      {
+        "end_tick": 75,
+        "event": "world_split",
+        "event_id": "practice_world_split",
+        "id": 9,
+        "kind": "event_started",
+        "text": "世界分裂！以 [8,8] 为交点的十字障碍已生成，Tick 75 移除临时障碍，原有障碍不会消失。",
+        "tick": 65
+      },
+      {
+        "event": "purity",
+        "event_id": "practice_purity",
+        "id": 10,
+        "kind": "event_ended",
+        "text": "「洁身自好」结束，攻击防御敌人的规则恢复正常。",
+        "tick": 71
+      },
+      {
+        "event": "world_split",
+        "event_id": "practice_world_split",
+        "id": 11,
+        "kind": "event_ended",
+        "text": "世界分裂结束，临时十字障碍消失，原先地图障碍保留。",
+        "tick": 75
+      },
+      {
+        "end_tick": 126,
+        "event": "illusion",
+        "event_id": "practice_illusion",
+        "id": 12,
+        "kind": "announcement",
+        "start_tick": 125,
+        "text": "随机事件预告：Tick 125（5 Tick 后），矩形 [8,3] 至 [12,7] 内战车将中幻术，接下来 12 Tick 移动上下、左右均颠倒；复活不解除。",
+        "tick": 120
+      },
+      {
+        "end_tick": 126,
+        "event": "illusion",
+        "event_id": "practice_illusion",
+        "id": 13,
+        "kind": "event_started",
+        "text": "幻术生效，矩形 [8,3] 至 [12,7] 内战车的移动方向被颠倒。",
+        "tick": 125
+      },
+      {
+        "event": "illusion",
+        "event_id": "practice_illusion",
+        "id": 14,
+        "kind": "event_ended",
+        "text": "幻术施放已结束，已经命中的负面效果按各自到期 Tick 解除。",
+        "tick": 126
+      },
+      {
+        "end_tick": 161,
+        "event": "angel",
+        "event_id": "practice_angel",
+        "id": 15,
+        "kind": "announcement",
+        "start_tick": 145,
+        "text": "随机事件预告：5 Tick 后（Tick 145），天使恩泽将在 [[12,12],[1,5]] 出现并存在 16 Tick。进入点位可获得持续 8 Tick、每 Tick 回血 5 HP 的增益，上限 100 HP；离开再进入可以刷新。",
+        "tick": 140
+      },
+      {
+        "end_tick": 161,
+        "event": "angel",
+        "event_id": "practice_angel",
+        "id": 16,
+        "kind": "event_started",
+        "text": "天使恩泽出现于 [[12,12],[1,5]]，截至 Tick 161 可进入获得或刷新回血增益。",
+        "tick": 145
+      },
+      {
+        "event": "angel",
+        "event_id": "practice_angel",
+        "id": 17,
+        "kind": "event_ended",
+        "text": "天使恩泽点已消失；已经获得的回血增益继续到各自到期 Tick。",
+        "tick": 161
+      },
+      {
+        "end_tick": 191,
+        "event": "pepper",
+        "event_id": "practice_pepper",
+        "id": 18,
+        "kind": "announcement",
+        "start_tick": 175,
+        "text": "随机事件预告：5 Tick 后（Tick 175），火爆辣椒点 [[12,5],[7,9]] 出现并存在 16 Tick。每次进入点位会触发仅1 Tick的整行整列十字火线，交点自身除外，线上战车扣除 30 HP。停留不重复触发，出生保护免疫。",
+        "tick": 170
+      },
+      {
+        "end_tick": 191,
+        "event": "pepper",
+        "event_id": "practice_pepper",
+        "id": 19,
+        "kind": "event_started",
+        "text": "火爆辣椒点 [[12,5],[7,9]] 已出现，持续至 Tick 191。",
+        "tick": 175
+      },
+      {
+        "event": "pepper",
+        "event_id": "practice_pepper",
+        "id": 20,
+        "kind": "event_ended",
+        "text": "火爆辣椒点已消失，不再触发十字火线。",
+        "tick": 191
+      },
+      {
+        "end_tick": 228,
+        "event": "pan",
+        "event_id": "practice_pan",
+        "id": 21,
+        "kind": "announcement",
+        "start_tick": 210,
+        "text": "随机事件预告：Tick 210（5 Tick 后）起，接下来的 10 Tick 中，成功移动的战车将获得易伤，受到的战斗伤害乘以 2；出生保护伤害为 0。易伤统一在 Tick 228 结束，复活不解除，可与天下无双叠加。",
+        "tick": 205
+      },
+      {
+        "end_tick": 228,
+        "event": "pan",
+        "event_id": "practice_pan",
+        "id": 22,
+        "kind": "event_started",
+        "text": "「潘潘的神」生效：前 10 Tick 内成功移动将获得易伤，易伤统一在 Tick 228 结束。",
+        "tick": 210
+      },
+      {
+        "effect": "vulnerable",
+        "expires_at": 228,
+        "id": 23,
+        "kind": "effect_gained",
+        "robot_id": "A",
+        "team": "A",
+        "text": "A 号战车移动后获得负面效果「易伤」，受到的战斗伤害倍率为 2，持续至 Tick 228，复活后仍保留。",
+        "tick": 210
+      },
+      {
+        "effect": "vulnerable",
+        "expires_at": 228,
+        "id": 24,
+        "kind": "effect_gained",
+        "robot_id": "B",
+        "team": "B",
+        "text": "B 号战车移动后获得负面效果「易伤」，受到的战斗伤害倍率为 2，持续至 Tick 228，复活后仍保留。",
+        "tick": 210
+      },
+      {
+        "effect": "vulnerable",
+        "expires_at": 228,
+        "id": 25,
+        "kind": "effect_gained",
+        "robot_id": "C",
+        "team": "C",
+        "text": "C 号战车移动后获得负面效果「易伤」，受到的战斗伤害倍率为 2，持续至 Tick 228，复活后仍保留。",
+        "tick": 210
+      },
+      {
+        "effect": "vulnerable",
+        "expires_at": 228,
+        "id": 26,
+        "kind": "effect_gained",
+        "robot_id": "D",
+        "team": "D",
+        "text": "D 号战车移动后获得负面效果「易伤」，受到的战斗伤害倍率为 2，持续至 Tick 228，复活后仍保留。",
+        "tick": 210
+      },
+      {
+        "end_tick": 226,
+        "event": "explosion",
+        "event_id": "practice_explosion",
+        "id": 27,
+        "kind": "announcement",
+        "start_tick": 225,
+        "text": "随机事件预告：5 Tick 后（Tick 225），左上角 [4,4]、右下角 [8,8] 的矩形区域将发生爆炸，范围内所有存活战车扣除 50 HP；出生保护免疫。",
+        "tick": 220
+      },
+      {
+        "end_tick": 226,
+        "event": "explosion",
+        "event_id": "practice_explosion",
+        "id": 28,
+        "kind": "event_started",
+        "text": "爆炸发生！矩形 [4,4] 至 [8,8] 内战车受到 50 HP 环境伤害。",
+        "tick": 225
+      },
+      {
+        "event": "explosion",
+        "event_id": "practice_explosion",
+        "id": 29,
+        "kind": "event_ended",
+        "text": "爆炸已结束。",
+        "tick": 226
+      },
+      {
+        "effect": "vulnerable",
+        "id": 30,
+        "kind": "effect_expired",
+        "robot_id": "A",
+        "team": "A",
+        "text": "A 号战车的「易伤」已解除。",
+        "tick": 228
+      },
+      {
+        "effect": "vulnerable",
+        "id": 31,
+        "kind": "effect_expired",
+        "robot_id": "B",
+        "team": "B",
+        "text": "B 号战车的「易伤」已解除。",
+        "tick": 228
+      },
+      {
+        "effect": "vulnerable",
+        "id": 32,
+        "kind": "effect_expired",
+        "robot_id": "C",
+        "team": "C",
+        "text": "C 号战车的「易伤」已解除。",
+        "tick": 228
+      },
+      {
+        "effect": "vulnerable",
+        "id": 33,
+        "kind": "effect_expired",
+        "robot_id": "D",
+        "team": "D",
+        "text": "D 号战车的「易伤」已解除。",
+        "tick": 228
+      },
+      {
+        "event": "pan",
+        "event_id": "practice_pan",
+        "id": 34,
+        "kind": "event_ended",
+        "text": "「潘潘的神」事件区域结束，已经获得的易伤按各自到期 Tick 解除。",
+        "tick": 228
+      }
+    ],
+    "enabled": true,
+    "fortress_stays": {},
+    "temporary_obstacles": [],
+    "upcoming": []
+  },
+  "events": [
+    {
+      "action": "move",
+      "direction": "down",
+      "team": "A",
+      "tick": 499,
+      "type": "action"
+    },
+    {
+      "action": "move",
+      "direction": "up",
+      "team": "B",
+      "tick": 499,
+      "type": "action"
+    },
+    {
+      "action": "move",
+      "direction": "up",
+      "team": "C",
+      "tick": 499,
+      "type": "action"
+    },
+    {
+      "action": "move",
+      "direction": "down",
+      "team": "D",
+      "tick": 499,
+      "type": "action"
+    },
+    {
+      "effective_direction": "down",
+      "from": [
+        9,
+        1
+      ],
+      "team": "A",
+      "tick": 499,
+      "to": [
+        9,
+        2
+      ],
+      "type": "move"
+    },
+    {
+      "effective_direction": "up",
+      "from": [
+        15,
+        8
+      ],
+      "team": "B",
+      "tick": 499,
+      "to": [
+        15,
+        7
+      ],
+      "type": "move"
+    },
+    {
+      "effective_direction": "up",
+      "from": [
+        8,
+        2
+      ],
+      "team": "C",
+      "tick": 499,
+      "to": [
+        8,
+        1
+      ],
+      "type": "move"
+    },
+    {
+      "effective_direction": "down",
+      "from": [
+        15,
+        5
+      ],
+      "team": "D",
+      "tick": 499,
+      "to": [
+        15,
+        6
+      ],
+      "type": "move"
+    }
+  ],
+  "map_view": {
+    "map": {
+      "height": 18,
+      "width": 18
+    },
+    "obstacles": [
+      [
+        0,
+        11
+      ],
+      [
+        1,
+        12
+      ],
+      [
+        5,
+        0
+      ],
+      [
+        8,
+        16
+      ],
+      [
+        16,
+        5
+      ],
+      [
+        16,
+        10
+      ]
+    ],
+    "resources": [],
+    "robots": [
+      {
+        "alive": true,
+        "defending": false,
+        "effective_damage": 1505.0,
+        "effects": [],
+        "high_resources": 4,
+        "hp": 100,
+        "invalid_actions": 0,
+        "last_action": {
+          "action": "move",
+          "effective_direction": "down",
+          "moved": true,
+          "tick": 499
+        },
+        "mission_completed": [
+          "collect_high_value",
+          "collect_two_normal",
+          "reach_target"
+        ],
+        "normal_resources": 3,
+        "position": [
+          9,
+          2
+        ],
+        "position_tick": 456,
+        "protected": false,
+        "protection_ticks": 0,
+        "resource_value": 110,
+        "respawn_in": 0,
+        "robot_id": "A",
+        "spawn": [
+          1,
+          16
+        ],
+        "team": "A"
+      },
+      {
+        "alive": true,
+        "defending": false,
+        "effective_damage": 355.0,
+        "effects": [],
+        "high_resources": 0,
+        "hp": 100,
+        "invalid_actions": 0,
+        "last_action": {
+          "action": "move",
+          "effective_direction": "up",
+          "moved": true,
+          "tick": 499
+        },
+        "mission_completed": [
+          "collect_two_normal",
+          "reach_target"
+        ],
+        "normal_resources": 2,
+        "position": [
+          15,
+          7
+        ],
+        "position_tick": 490,
+        "protected": false,
+        "protection_ticks": 0,
+        "resource_value": 20,
+        "respawn_in": 0,
+        "robot_id": "B",
+        "spawn": [
+          16,
+          16
+        ],
+        "team": "B"
+      },
+      {
+        "alive": true,
+        "defending": false,
+        "effective_damage": 0.0,
+        "effects": [],
+        "high_resources": 0,
+        "hp": 80,
+        "invalid_actions": 0,
+        "last_action": {
+          "action": "move",
+          "effective_direction": "up",
+          "moved": true,
+          "tick": 499
+        },
+        "mission_completed": [
+          "reach_target"
+        ],
+        "normal_resources": 1,
+        "position": [
+          8,
+          1
+        ],
+        "position_tick": 475,
+        "protected": false,
+        "protection_ticks": 0,
+        "resource_value": 10,
+        "respawn_in": 0,
+        "robot_id": "C",
+        "spawn": [
+          1,
+          1
+        ],
+        "team": "C"
+      },
+      {
+        "alive": true,
+        "defending": false,
+        "effective_damage": 580.0,
+        "effects": [],
+        "high_resources": 0,
+        "hp": 100,
+        "invalid_actions": 0,
+        "last_action": {
+          "action": "move",
+          "effective_direction": "down",
+          "moved": true,
+          "tick": 499
+        },
+        "mission_completed": [
+          "collect_two_normal",
+          "reach_target"
+        ],
+        "normal_resources": 6,
+        "position": [
+          15,
+          6
+        ],
+        "position_tick": 456,
+        "protected": false,
+        "protection_ticks": 0,
+        "resource_value": 60,
+        "respawn_in": 0,
+        "robot_id": "D",
+        "spawn": [
+          16,
+          1
+        ],
+        "team": "D"
+      }
+    ],
+    "static_obstacles": [
+      [
+        0,
+        11
+      ],
+      [
+        1,
+        12
+      ],
+      [
+        5,
+        0
+      ],
+      [
+        8,
+        16
+      ],
+      [
+        16,
+        5
+      ],
+      [
+        16,
+        10
+      ]
+    ]
+  },
+  "mission_text": "练习任务：收集两个普通资源、一个高价值资源，并到达 [9,9]。",
+  "session_id": "practice-202f5d10aac54ea3811a5c1fbd9b245e",
+  "stage": 2,
+  "team_registry": [
+    {
+      "name": "Frank",
+      "team": "A"
+    },
+    {
+      "name": "练习陪练B",
+      "team": "B"
+    },
+    {
+      "name": "练习陪练C",
+      "team": "C"
+    },
+    {
+      "name": "练习陪练D",
+      "team": "D"
+    }
+  ],
+  "teams": [
+    {
+      "alive": true,
+      "effective_damage": 1505.0,
+      "effects": [],
+      "hp": 100,
+      "invalid_actions": 0,
+      "mission_completed": 3,
+      "mission_completed_tasks": [
+        1,
+        2,
+        3
+      ],
+      "rank": 1,
+      "resource_value": 110.0,
+      "robot_id": "A",
+      "score": 57.5,
+      "team": "A",
+      "team_name": "Frank"
+    },
+    {
+      "alive": true,
+      "effective_damage": 580.0,
+      "effects": [],
+      "hp": 100,
+      "invalid_actions": 0,
+      "mission_completed": 2,
+      "mission_completed_tasks": [
+        1,
+        3
+      ],
+      "rank": 2,
+      "resource_value": 60.0,
+      "robot_id": "D",
+      "score": 40.0,
+      "team": "D",
+      "team_name": "练习陪练D"
+    },
+    {
+      "alive": true,
+      "effective_damage": 355.0,
+      "effects": [],
+      "hp": 100,
+      "invalid_actions": 0,
+      "mission_completed": 2,
+      "mission_completed_tasks": [
+        1,
+        3
+      ],
+      "rank": 3,
+      "resource_value": 20.0,
+      "robot_id": "B",
+      "score": 25.65,
+      "team": "B",
+      "team_name": "练习陪练B"
+    },
+    {
+      "alive": true,
+      "effective_damage": 0.0,
+      "effects": [],
+      "hp": 80,
+      "invalid_actions": 0,
+      "mission_completed": 1,
+      "mission_completed_tasks": [
+        3
+      ],
+      "rank": 4,
+      "resource_value": 10.0,
+      "robot_id": "C",
+      "score": 7.5,
+      "team": "C",
+      "team_name": "练习陪练C"
+    }
+  ],
+  "tick": 500
+}

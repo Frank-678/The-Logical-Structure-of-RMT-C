@@ -1,0 +1,19 @@
+[INFO] [1793248817.143142587] [rmtc_test_robot]: test robot for team B (练习陪练B) ready
+[INFO] [1793248825.179314830] [rmtc_test_robot]: AI plan applied: {"goals":["resource_normal","resource_normal","resource_high","reach_target"]}
+[WARN] [1793248834.347295505] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793248842.924992911] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793248843.920810251] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793248848.950207966] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793248854.483859757] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793248867.710786117] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793248880.868317160] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793248881.857094783] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793248887.439930190] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793248900.549567309] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793248901.573147139] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793248914.787235296] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793248928.150278999] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793248929.161287083] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793248934.733357815] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[INFO] [1793248943.345660262] [rmtc_test_robot]: AI plan applied: {"event_plan":null,"goals":["resource_high","resource_normal","reach_target"]}
+[INFO] [1793249074.971900394] [rclcpp]: signal_handler(SIGINT/SIGTERM)

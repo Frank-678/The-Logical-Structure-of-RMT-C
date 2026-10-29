@@ -1,0 +1,20 @@
+[INFO] [1793248018.980068935] [rmtc_test_robot]: test robot for team C (练习陪练C) ready
+[INFO] [1793248023.730708482] [rmtc_test_robot]: AI plan applied: {"goals":["resource_normal","resource_high","reach_target"]}
+[WARN] [1793248038.901307471] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793248047.582330729] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793248048.595297005] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793248053.654153128] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793248058.664839822] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793248071.788248156] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793248072.843152627] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793248085.664226632] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793248094.267873330] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793248095.247511409] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793248100.758053341] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793248113.863819233] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793248114.877442928] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793248120.537981735] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793248133.778450652] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[WARN] [1793248134.803312129] [rmtc_test_robot]: AI unavailable, invalid or stale; local strategy continues
+[INFO] [1793248145.475264508] [rmtc_test_robot]: AI plan applied: {"event_plan":null,"goals":["resource_normal","resource_normal","resource_high","reach_target"]}
+[INFO] [1793248275.007360627] [rclcpp]: signal_handler(SIGINT/SIGTERM)
