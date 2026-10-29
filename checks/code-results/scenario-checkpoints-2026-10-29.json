@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-29T12:27:26.832714+08:00",
+  "base": "b27397f788b9ce0c950eece0b8ef296e7e716af8",
+  "tested_deepseek_source": "80e1648008f3afd39c0073eef2754435783deb01",
+  "results": {
+    "scenario_regressions": 12,
+    "normal": "passed",
+    "asan_ubsan": "passed; LeakSanitizer disabled on host",
+    "deepseek_compatibility": 12,
+    "existing_arena_rules": "passed; 18 generated maps",
+    "paid_calls": 0,
+    "full_original_ros_match": "not run"
+  },
+  "sha256": {
+    "tests/arena.hpp": "043d10e6b205ae26c989a4eb57c28e971ec03df4bbe3fd4689b7a3706c358275",
+    "tests/arena_checkpoint.cpp": "325bf1cc20b29abf919180fed3cb1d492ece16aaa67988a150e677c46933acf5",
+    "tests/scenario_runner.cpp": "db3c1f05b368f49ac132453f376a03c87776b6e3c7675e4361ea1744363f4baf",
+    "tests/run_scenarios.py": "7b906495e577130fe0ce996bdfeb04d9338836be47f361c7b77f44952e07d0c0",
+    "scenarios.sh": "80d5babcb4bf48be599743278ef53175014db3a10248889482492b9087a74878",
+    "tests/scenario_test.py": "ca843e3b7c9a106d4296ae0ffd4f0a0fbe0ee7fbbb17b19b080f24b545b2ab2c",
+    "SCENARIOS.md": "c230e3a5447c33003ce464a764e31e3b06fe8b87fe7c53ede28071f87b187e85",
+    "README.md": "83d9787f8741a52f087cf64333c9f4ada16c1b03c09557716b47e3676a93ce8f",
+    "CODE_GUIDE.md": "c1ed3d1c192118504bba5e326ef8ea3b2a2e69fa0e66826f19777202d8312a2d",
+    "tests/scenarios/announcement_pair.json": "cb41bb7725d226be4bd06d461409ed12e5148360d551412a2381ab906affc8c7",
+    "tests/scenarios/attack_before_move.json": "2f676387d16c0b297060ca393cae1e14bcf250105cfecfa5a0de63f5c7380f3f",
+    "tests/scenarios/defend_survives.json": "a092e3ea3cb175c631ad5f94b1773f09f55bf1027c38e0dc9576e7fb1a00832f",
+    "tests/scenarios/warm_forks.json": "65e9220add900a99603b586534a35e2b1e55510d4b46a7417cc851525d7603e9"
+  },
+  "commits": [
+    "3234a00f0dd711f3f53114f07cd3a0bf3628ce99",
+    "3c345b8139a4aaec011145a6b7c44738a009b38a",
+    "65c87145ae3b15572c3b1674181a74677fe86770"
+  ],
+  "head": "65c87145ae3b15572c3b1674181a74677fe86770",
+  "tree": "2de33113327132ad6785392995b333fa12e2ca20"
+}
