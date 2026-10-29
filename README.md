@@ -27,3 +27,9 @@ C36/C37新进度：目标迟滞之外增加成功往返的真实进展检测与�
 RMTC原始材料与设计在 [ANALYSIS](https://github.com/Frank-678/The-Logical-Structure-of-RMT-C/tree/ANALYSIS)。所有策略迁移均需在RMTC验证；当前没有宣称已实现参赛bot。新增9仓库的明确阅读范围见上方新报告，不扩大为全仓语义审计。保留 [原协作规范](governance/original-collaboration-guidelines.md)，本轮用户明确授权仅更新main/README矩阵，除此不改main、不合并研究历史。
 
 **私密预备资料：** 本分支不进入其他分支或公开导航；未来公开使用干净历史导出，见 [私密预备约定](governance/private-preparation.md)。
+
+## 2026-10-29：重新评估算法与近期论文
+
+[9仓库、六集、AHC及许可复审](reports/12-algorithm-reassessment-and-license-2026-10-29.md) · [2025–2026近期论文的分情景适配](reports/13-recent-papers-2025-2026-scenario-transfer.md) · [固定版本许可账本](checks/license-audit-2026-10-29.json)。
+
+保留能落到实验的搜索、冲突分组、时限规划与同时行动矩阵方法；不把游戏前提不匹配写成算法无用。新增短段穷举是独立测试参照，论文方法仍需同条件、未见地图及真实预算验收。

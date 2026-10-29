@@ -1,0 +1,144 @@
+{
+  "date": "2026-10-29",
+  "metadata": [
+    {
+      "repo": "jhammarstedt/PacmanAI",
+      "url": "https://github.com/jhammarstedt/PacmanAI",
+      "default_branch": "main",
+      "license": null,
+      "archived": false
+    },
+    {
+      "repo": "neeilnandal/pacman-mcts-agent-v2",
+      "url": "https://github.com/neeilnandal/pacman-mcts-agent-v2",
+      "default_branch": "main",
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false
+    },
+    {
+      "repo": "DXJ3X1/Pacman-Capture-the-Flag",
+      "url": "https://github.com/DXJ3X1/Pacman-Capture-the-Flag",
+      "default_branch": "master",
+      "license": null,
+      "archived": false
+    },
+    {
+      "repo": "MiladNooraei/Orienteering-Problem",
+      "url": "https://github.com/MiladNooraei/Orienteering-Problem",
+      "default_branch": "main",
+      "license": null,
+      "archived": false
+    },
+    {
+      "repo": "aliiimaher/Algorithm-OP-Heuristic-Approaches",
+      "url": "https://github.com/aliiimaher/Algorithm-OP-Heuristic-Approaches",
+      "default_branch": "main",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false
+    },
+    {
+      "repo": "gkobeaga/op-solver",
+      "url": "https://github.com/gkobeaga/op-solver",
+      "default_branch": "main",
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false
+    },
+    {
+      "repo": "mertgulerx/mrtsp_exploration_ros2",
+      "url": "https://github.com/mertgulerx/mrtsp_exploration_ros2",
+      "default_branch": "main",
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "archived": false
+    },
+    {
+      "repo": "Nyanziba/AutoFrontierSearch_ros2-humble",
+      "url": "https://github.com/Nyanziba/AutoFrontierSearch_ros2-humble",
+      "default_branch": "main",
+      "license": null,
+      "archived": false
+    },
+    {
+      "repo": "PinkEx/CodeCraft_2024",
+      "url": "https://github.com/PinkEx/CodeCraft_2024",
+      "default_branch": "master",
+      "license": null,
+      "archived": true
+    },
+    {
+      "repo": "google-deepmind/open_spiel",
+      "url": "https://github.com/google-deepmind/open_spiel",
+      "default_branch": "master",
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false
+    },
+    {
+      "repo": "google-research/rliable",
+      "url": "https://github.com/google-research/rliable",
+      "default_branch": "master",
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": true
+    }
+  ],
+  "fixed": [
+    {
+      "repository": "gkobeaga/op-solver",
+      "commit": "992a2443dd845c7a6f4952e1f28c51a4297e887b",
+      "path": "LICENSE",
+      "sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+    },
+    {
+      "repository": "neeilnandal/pacman-mcts-agent-v2",
+      "commit": "4b48e73977bf5313a486acd39b4bccd22c8f1856",
+      "path": "LICENSE",
+      "sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+    },
+    {
+      "repository": "aliiimaher/Algorithm-OP-Heuristic-Approaches",
+      "commit": "44dec64428580615bd50da40a443258180e0b906",
+      "path": "LICENSE",
+      "sha": "5f94f2be96342d63ef32ef132b420210a0f2736e"
+    },
+    {
+      "repository": "mertgulerx/mrtsp_exploration_ros2",
+      "commit": "d9bc18085f49f6aa4396b4009d22ad5255096bf9",
+      "path": "LICENSE",
+      "sha": "8c82eb4de5e99c8c9c45b68883e6b92506d8e87d"
+    }
+  ]
+}
