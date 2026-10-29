@@ -53,3 +53,4 @@
 - **收尾（18:36:57 rc=0）**：16/16 完成，invalid 全 0，唯一死亡 = 01·M2 v3 D 席原版陪练（hp0）。champion 16 局均分 45.9375、rank1 6/16；vs 原版（M1）均分 47.1875；vs old_champion（M2）头对头 4 胜 2 负 2 平、总分 0——无晋升主张（详见 docs/44）。赛后复核参战二进制 sha256 与清单一致（champion 39557aa1…9052）。
 - **路径勘误（追加，不改写预注册原文）**：§3 第 4 点承诺"分析入 docs/42"——因 docs/42/43 被 ChatGPT 占用（其 288 局离线报告），试点分析实际入 **docs/44**（2f98fc2 C9 已声明）。§1 表内 archive_batch.py"密钥形状扫描（sk-cbc+≥8hex）"为早期口径，现行 tools/archive_batch.py 已升级为通用 KEY_RE 形状扫描并覆盖单文件。
 - **本批身份边界（I4.1 采纳）**：本批为旧驱动（tests/version_league.py 合并前状态）产物；正式证据按新路径 `bash practice_league.sh --maps 20261201,20261202 --mixes M1,M2 --out build/practice-league/pilot-new` 重跑（执行中）。
+- **位元钉口径勘误（追加）**：§2 表"位元钉，此前 4 次逐位复现"——bot 二进制嵌入 `__DATE__`/`__TIME__`（bot.cpp Ready 行，8fc7c65 起），跨秒全量重建 sha 必变（仅时间字符串差异，源码/params 逐位一致）；重跑前实测干净重建 789f333d… ≠ 39557aa1…，详情见 docs/44 §6 勘误。U6 冻结契约按在场 sha 校验，不受影响。
