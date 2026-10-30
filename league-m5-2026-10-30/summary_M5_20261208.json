@@ -1,0 +1,144 @@
+[
+ {
+  "variant": 0,
+  "ok": true,
+  "log_dir": "/home/frank/cst/build/league/league-m5/summary_M5_20261208.runs/case-0-l22mbo2z",
+  "config_path": "/home/frank/cst/build/league/league-m5/summary_M5_20261208.runs/case-0-l22mbo2z/config_0.json",
+  "config_sha256": "124436a4cac06c74bee600ab52252714db43995ece30163b31580331f52f9420",
+  "session": "practice-b5d38db0b83049f084244414012ec3b9",
+  "run_dir": "/home/frank/.rmtc-practice/practice-b5d38db0b83049f084244414012ec3b9",
+  "teams": {
+   "C": {
+    "score": 50.0,
+    "R": 80.0,
+    "D": 1015.0,
+    "M": 3,
+    "hp": 60,
+    "invalid": 0
+   },
+   "B": {
+    "score": 36.8,
+    "R": 50.0,
+    "D": 310.0,
+    "M": 3,
+    "hp": 100,
+    "invalid": 0
+   },
+   "D": {
+    "score": 35.0,
+    "R": 40.0,
+    "D": 855.0,
+    "M": 2,
+    "hp": 100,
+    "invalid": 0
+   },
+   "A": {
+    "score": 32.5,
+    "R": 30.0,
+    "D": 790.0,
+    "M": 2,
+    "hp": 100,
+    "invalid": 0
+   }
+  },
+  "ai": {
+   "A": {
+    "calls": 20,
+    "success": 0,
+    "fail": 20
+   },
+   "D": {
+    "calls": 30,
+    "success": 0,
+    "fail": 30
+   },
+   "B": {
+    "calls": 30,
+    "success": 0,
+    "fail": 30
+   },
+   "C": {
+    "calls": 30,
+    "success": 0,
+    "fail": 30
+   }
+  },
+  "binaries": {
+   "A": {
+    "install_base": "/home/frank/cst/install-v-candidate-A",
+    "binary_sha256": "d76489d8a929b97749e78f95b1ab9a09eda9a0062e489455e469729ae9946c1e"
+   }
+  }
+ },
+ {
+  "variant": 1,
+  "ok": true,
+  "log_dir": "/home/frank/cst/build/league/league-m5/summary_M5_20261208.runs/case-1-xvoylrna",
+  "config_path": "/home/frank/cst/build/league/league-m5/summary_M5_20261208.runs/case-1-xvoylrna/config_1.json",
+  "config_sha256": "9b33b6c38cf841a0c67f03a184e3a742db9578b3d5d54edcf9378ba3084c6f1a",
+  "session": "practice-ffa21a02b0e94efba1988e1a5aa7f2ec",
+  "run_dir": "/home/frank/.rmtc-practice/practice-ffa21a02b0e94efba1988e1a5aa7f2ec",
+  "teams": {
+   "D": {
+    "score": 47.5,
+    "R": 70.0,
+    "D": 1076.0,
+    "M": 3,
+    "hp": 20,
+    "invalid": 0
+   },
+   "A": {
+    "score": 42.5,
+    "R": 50.0,
+    "D": 680.0,
+    "M": 3,
+    "hp": 100,
+    "invalid": 0
+   },
+   "B": {
+    "score": 26.5875,
+    "R": 50.0,
+    "D": 136.25,
+    "M": 2,
+    "hp": 100,
+    "invalid": 0
+   },
+   "C": {
+    "score": 17.5,
+    "R": 30.0,
+    "D": 0.0,
+    "M": 2,
+    "hp": 20,
+    "invalid": 0
+   }
+  },
+  "ai": {
+   "D": {
+    "calls": 29,
+    "success": 0,
+    "fail": 29
+   },
+   "C": {
+    "calls": 29,
+    "success": 0,
+    "fail": 29
+   },
+   "B": {
+    "calls": 29,
+    "success": 0,
+    "fail": 29
+   },
+   "A": {
+    "calls": 20,
+    "success": 0,
+    "fail": 20
+   }
+  },
+  "binaries": {
+   "A": {
+    "install_base": "/home/frank/cst/install-v-candidate-A",
+    "binary_sha256": "d76489d8a929b97749e78f95b1ab9a09eda9a0062e489455e469729ae9946c1e"
+   }
+  }
+ }
+]
