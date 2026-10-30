@@ -26,6 +26,7 @@ description: RMTC 实验操作手册——网关验证、秒级场景批量（2�
 ## 2. 秒级场景批量（2 万组主力路径）
 
 - `bash scenarios.sh` = tests/run_scenarios.py：摆第 200 Tick 局面只跑验证段，**不启 ROS、不调模型**——单次秒级，规模化扫描首选
+- **tick_ms=50 快跑（真地图秒级，2026-10-31 验证）**：practice.py `tick_ms` 下限 50ms，`/api/start` body 里 `tick_ms` 每局可覆盖 → 100-tick 官方图 = ~5.2s 墙钟（vs 默认 4 分钟），2 万组实验的主力路径。**代价是预热必须完整**：DDS 发现未完成就 resume → 首感知迟到 tick 71-92、R 崩塌（官方 200→80）→ 必须等 referee.log 出现 "registered team A"（≤20s）再 sleep 1.0 才 resume，之后 first_tick=0、官方=200、w8-spread-47=140 与 100ms 节奏逐位一致。**score.json 是每会话的**：`<DATA_DIR>/<sid>/score.json`（不是 DATA/score.json），teams[0].resource_value=R、invalid_actions 判无效。批量驱动滞后闸：50ms 节奏下相邻 tick 心跳间隔 >60ms 计数 >30 → 判定 CPU 挤兑、整图重跑
 - 地图族：`python3 tools/formal_size_suite.py` 生成 20×20/24×24 可复现合成图（STYLES=uniform/cluster/edge/center/spread，seed 固定）；practice1/2/config.json 是官方形状基线
 - **参数扫描架构**：match_config.hpp 是编译期常量 → 用 build_seat_variants 式**一次构建 K 个变体**（每变体=一组参数组合，并行编译），再短场景批量对打；绝不每组合单独 colcon build（15s×N 不可行）
 - 判据纪律（docs/02 + COMPARISON report 02）：同图同席同对手配对、留出图、一机制一改动、记录 AI 资格与异常/失败回放；train 增益≠真实增益（docs/34 实证第二次）
@@ -63,6 +64,8 @@ description: RMTC 实验操作手册——网关验证、秒级场景批量（2�
 - **链式命令禁 `;` 串失败步骤**：`重建脚本; 三 sweep` 让重建失败后旧二进制无条件照扫（第二次污染）——依赖步骤一律 `&&`，且探针闸探测脚本用 `sys.exit(1)` 断链（域验证探针 /tmp/probe_domain28.py：我的裁判见注册 ∧ 用户日志零增量 ∧ bot.log 本局 sid tick≤5，任一不满足即退出）
 - **变体构建必须同时 sed `stage`**：`match_config.hpp` 的 stage 是编译期值（bot.cpp:33 `const int stage = cfg::stage`），感知消息无阶段字段。10-31 惨案：重建脚本只 sed 域+旋钮、漏 sed `stage = 2`→`= 1`，4 个新构建全是 stage2 战斗逻辑打 stage1 图（官方图 R=170 vs 基线 200，bot.log `mode=combat_ready ai=requesting` 而非 `mode=collecting ai=disabled_missing_url_and_token`）。修复后 stage1+域28 重建链全绿（probe/control 官方图均 200）。**验尸三件套**：mode 行 + R 值 + 与基线 install 对照；正式赛两阶段切换用 `tools/build_stage.sh 1|2`（README 两阶段切换章节），官方流程=每阶段前确认代码版本+阶段间 10min 调整窗口可改参数
 - **bash 参数替换 `${v//./}` 会删小数点**：剂量循环 `--install-base "install_${dose//./}"` 把 0.05 变成 005——构建落在 install_stage1_flood005，扫描脚本却按 install_stage1_flood05 找 → run_seat 源 setup.bash 失败 → bot 退出码 1 → 22 局 REG-FAIL（构建本身成功、colcon 退出 0，极具迷惑性）。**REG-FAIL 验尸三件套**：install 树 `find` 对比（二进制在 lib/rmtc_bot/bot？）+ bot 退出码 + run_seat 里 source 的 setup.bash 路径是否存在
+- **变体队列的锚点必须与源码逐字核对（2026-10-31 战役批次 v1 再犯记录）**：camp_build_all.sh v1 在 stage-sed 教训写入本文件之后**复犯**——只 sed 域+旋钮、漏 stage 2→1，49 个变体全是 stage2 逻辑（官方图 R=170，OFFICIAL GUARD 哨兵拦住整批）。同时发现队列锚点过期：sed 锚 `stale_resource_decay = 0.01` 而源码实际已是 0.005——**锚点不中=sed 静默空转=该变体静默等于 base**（最阴险：构建成功、对局照跑、数据看着正常）。**防线三件套**：①构建脚本每次三连 sed（stage+域+旋钮）并把 sed 后的源三值回读入构建日志；②队列锚点用 WSL 侧脚本 + `grep -cF`（固定串）逐锚验证必须各中 1；③驱动首验哨兵——base 变体官方图必须 200，否则整批不采信。另注意两点：①colcon install 树默认**不装头文件**（install_camp_X/include 不存在是正常现象）；②**隔离安装布局下二进制在 `<install-base>/<pkg>/lib/<pkg>/bot`**（install_camp_X/rmtc_bot/lib/rmtc_bot/bot），不是 `<install-base>/lib/...`——批量脚本的等待/校验一律按嵌套路径，不确定就 `find` 先看真实布局
+- **wsl.exe 内联 for/while 循环的引号会被外层吃掉**：`bash -lc 'for p in "a b" "c d"; do grep -c "$p" ...'` 实测 16 个模式全部返回同一假数（91=被拆碎的模式误命中）——**任何循环/多模式校验一律写成 WSL 侧脚本文件（heredoc 传数据）+ `wsl.exe bash -lc 'bash /tmp/x.sh'`**，绝不内联
 
 ## 7. 收尾清单
 
