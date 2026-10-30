@@ -33,7 +33,14 @@ description: RMTC 实验操作手册——网关验证、秒级场景批量（2�
 ## 3. 正式尺寸实跑（分钟级）
 
 - `bash practice1/run.sh`（stage1 单席 20×20）、`bash practice2/run.sh`（stage2 24×24）：原版裁判+校验器；`RMTC_FORMAL_CONFIG/RMTC_FORMAL_PORT/RMTC_FORMAL_DATA_DIR` 环境可覆盖
+- **run.sh 只起裁判（暂停态等 A 席）——bot 必须单独启动**：`bash tools/run_seat.sh <install_base> <A|B|C|D> <logfile>`；开赛需 `curl -X POST -d '{}' http://127.0.0.1:8082/api/resume`（缺 JSON body 会 400）
+- **域隔离铁律**：bot main() 强制 `setenv(ROS_DOMAIN_ID, cfg::ros_domain_id, 覆盖)`——外层 export 对 bot 无效，域号是编译期值；裁判(start_referee.sh)尊重环境变量。变体构建必须把目标域编进二进制：`sed stage/ros_domain_id → colcon build --build-base build_stage1 --install-base install_stage1 → 复原 → build.sh`
+- practice.py 是**双参与者**：公开节点=env 域，内部组织者=域+1（internal_ros.py）；referee_node 公开面在 env 域。同机已有会话占 27 时必须用 28（裁判 env 28 + bot 编译 28），端口换 8082，否则 /team_A/perception 等席位话题串线、bot 注册还会污染他人会话
+- **换图零重启**：`POST /api/start` 接受完整 config 正文（stage/tick_ms/max_ticks/config），同一个 practice.py 可以循环跑任意地图（formal_size_suite.generate 产出）；`/api/reset` 复用原 settings
+- **循环换图两大基建坑（2026-10-30 实测）**：① 上一场 tick 刚满就 /api/start → 上一场子进程未退、同域 FastDDS participant 创建冲突 → 500「部署失败」；每场结束必须 /api/stop 等完全停止再开下一场，500 时 stop/reset 重试。② **长命 bot 对新生 referee_node 的 DDS 重发现不可靠**：新会话的感知可能晚到几十 tick 甚至整场为零（R=30/R=0 伪影，bot 日志该会话无 tick 行即确诊）——批量扫描必须**每图重启 bot**，不能复用一个长命进程跑多图
+- DDS 域诊断：UDP 端口 = 7400+250×domain（`ss -uanp`）；**WSL 下 /proc/PID/environ 是 exec 快照、不反映 setenv，不可信**
 - stage1 无 LLM（launcher：real = `--check-ai` || `--batch` || stage==2）；stage2 强制 real 模式
+- **practice2/run.sh 硬编码 `--ai-mode mock`**——stage2 真实 AI 实跑必须追加 `--ai-mode real`（argparse 后者覆盖前者）；real 模式要求裁判进程环境含 `PRACTICE_LLM_URL`（完整 completions 地址）+`PRACTICE_LLM_KEY`，上游请求由 requests 继承 `http_proxy`/`https_proxy`（7890），陪练 robot_node 若不带 model 还需 `PRACTICE_MODEL`。绕过 launcher 自起裁判时全部手动 export
 - 量化口径：会话目录 ai.jsonl 字段 seat/session_id/mode/status/success/success_count/attempt_count；success==(status==200) 恒等
 
 ## 4. 联赛批次（小时级）
