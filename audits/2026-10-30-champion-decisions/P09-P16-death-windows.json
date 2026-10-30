@@ -1,0 +1,2596 @@
+[
+  {
+    "variant": "M2-01-v0",
+    "session": "practice-49111efdea404479aee215a07426db11",
+    "n": 500,
+    "missing": 0,
+    "deaths": 12,
+    "attackDeath": 12,
+    "attPostcap": 54,
+    "attLow": 16,
+    "final": {
+      "score": 40,
+      "R": 40,
+      "D": 1558.909090909,
+      "M": 3,
+      "hp": 100,
+      "invalid": 0
+    },
+    "deathCases": [
+      {
+        "tick": 60,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "hp": 20,
+        "D": 248.909090909
+      },
+      {
+        "tick": 128,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "hp": 10,
+        "D": 348.909090909
+      },
+      {
+        "tick": 166,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "hp": 20,
+        "D": 388.909090909
+      },
+      {
+        "tick": 179,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "hp": 10,
+        "D": 548.909090909
+      },
+      {
+        "tick": 200,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "hp": 20,
+        "D": 703.909090909
+      },
+      {
+        "tick": 209,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "hp": 20,
+        "D": 763.909090909
+      },
+      {
+        "tick": 242,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "hp": 10,
+        "D": 833.909090909
+      },
+      {
+        "tick": 286,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "hp": 20,
+        "D": 873.909090909
+      },
+      {
+        "tick": 336,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "hp": 10,
+        "D": 1143.909090909
+      },
+      {
+        "tick": 415,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "hp": 10,
+        "D": 1278.909090909
+      },
+      {
+        "tick": 460,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "hp": 10,
+        "D": 1478.909090909
+      },
+      {
+        "tick": 495,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "hp": 10,
+        "D": 1598.909090909
+      }
+    ],
+    "lookbacks": [
+      {
+        "deathTick": 60,
+        "lead": 2,
+        "earlierActionTick": 57,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 40
+      },
+      {
+        "deathTick": 60,
+        "lead": 3,
+        "earlierActionTick": 56,
+        "action": "move",
+        "reason": "approach_enemy",
+        "HP": 40
+      },
+      {
+        "deathTick": 60,
+        "lead": 4,
+        "earlierActionTick": 55,
+        "action": "move",
+        "reason": "approach_enemy",
+        "HP": 40
+      },
+      {
+        "deathTick": 60,
+        "lead": 5,
+        "earlierActionTick": 54,
+        "action": "move",
+        "reason": "approach_enemy",
+        "HP": 40
+      },
+      {
+        "deathTick": 128,
+        "lead": 2,
+        "earlierActionTick": 125,
+        "action": "move",
+        "reason": "unstuck_relocate",
+        "HP": 20
+      },
+      {
+        "deathTick": 128,
+        "lead": 3,
+        "earlierActionTick": 124,
+        "action": "move",
+        "reason": "approach_enemy",
+        "HP": 20
+      },
+      {
+        "deathTick": 128,
+        "lead": 4,
+        "earlierActionTick": 123,
+        "action": "move",
+        "reason": "approach_enemy",
+        "HP": 20
+      },
+      {
+        "deathTick": 128,
+        "lead": 5,
+        "earlierActionTick": 122,
+        "action": "move",
+        "reason": "approach_enemy",
+        "HP": 20
+      },
+      {
+        "deathTick": 166,
+        "lead": 2,
+        "earlierActionTick": 163,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 60
+      },
+      {
+        "deathTick": 166,
+        "lead": 3,
+        "earlierActionTick": 162,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 80
+      },
+      {
+        "deathTick": 166,
+        "lead": 4,
+        "earlierActionTick": 161,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 100
+      },
+      {
+        "deathTick": 166,
+        "lead": 5,
+        "earlierActionTick": 160,
+        "action": "move",
+        "reason": "approach_enemy",
+        "HP": 100
+      },
+      {
+        "deathTick": 179,
+        "lead": 2,
+        "earlierActionTick": 176,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 40
+      },
+      {
+        "deathTick": 179,
+        "lead": 3,
+        "earlierActionTick": 175,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 40
+      },
+      {
+        "deathTick": 179,
+        "lead": 4,
+        "earlierActionTick": 174,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 60
+      },
+      {
+        "deathTick": 179,
+        "lead": 5,
+        "earlierActionTick": 173,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 60
+      },
+      {
+        "deathTick": 200,
+        "lead": 2,
+        "earlierActionTick": 197,
+        "action": "move",
+        "reason": "explore_frontier",
+        "HP": 20
+      },
+      {
+        "deathTick": 200,
+        "lead": 3,
+        "earlierActionTick": 196,
+        "action": "move",
+        "reason": "explore_frontier",
+        "HP": 20
+      },
+      {
+        "deathTick": 200,
+        "lead": 4,
+        "earlierActionTick": 195,
+        "action": "move",
+        "reason": "explore_frontier",
+        "HP": 20
+      },
+      {
+        "deathTick": 200,
+        "lead": 5,
+        "earlierActionTick": 194,
+        "action": "move",
+        "reason": "explore_frontier",
+        "HP": 20
+      },
+      {
+        "deathTick": 209,
+        "lead": 2,
+        "earlierActionTick": 206,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 60
+      },
+      {
+        "deathTick": 209,
+        "lead": 3,
+        "earlierActionTick": 205,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 80
+      },
+      {
+        "deathTick": 209,
+        "lead": 4,
+        "earlierActionTick": 204,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 100
+      },
+      {
+        "deathTick": 209,
+        "lead": 5,
+        "earlierActionTick": 203,
+        "action": "move",
+        "reason": "approach_enemy",
+        "HP": 100
+      },
+      {
+        "deathTick": 242,
+        "lead": 2,
+        "earlierActionTick": 239,
+        "action": "defend",
+        "reason": "defend_lethal_threat",
+        "HP": 20
+      },
+      {
+        "deathTick": 242,
+        "lead": 3,
+        "earlierActionTick": 238,
+        "action": "move",
+        "reason": "approach_enemy",
+        "HP": 20
+      },
+      {
+        "deathTick": 242,
+        "lead": 4,
+        "earlierActionTick": 237,
+        "action": "move",
+        "reason": "explore_frontier",
+        "HP": 40
+      },
+      {
+        "deathTick": 242,
+        "lead": 5,
+        "earlierActionTick": 236,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 40
+      },
+      {
+        "deathTick": 286,
+        "lead": 2,
+        "earlierActionTick": 283,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 60
+      },
+      {
+        "deathTick": 286,
+        "lead": 3,
+        "earlierActionTick": 282,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 80
+      },
+      {
+        "deathTick": 286,
+        "lead": 4,
+        "earlierActionTick": 281,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 100
+      },
+      {
+        "deathTick": 286,
+        "lead": 5,
+        "earlierActionTick": 280,
+        "action": "move",
+        "reason": "approach_enemy",
+        "HP": 100
+      },
+      {
+        "deathTick": 336,
+        "lead": 2,
+        "earlierActionTick": 333,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 40
+      },
+      {
+        "deathTick": 336,
+        "lead": 3,
+        "earlierActionTick": 332,
+        "action": "move",
+        "reason": "approach_enemy",
+        "HP": 40
+      },
+      {
+        "deathTick": 336,
+        "lead": 4,
+        "earlierActionTick": 331,
+        "action": "move",
+        "reason": "approach_enemy",
+        "HP": 40
+      },
+      {
+        "deathTick": 336,
+        "lead": 5,
+        "earlierActionTick": 330,
+        "action": "move",
+        "reason": "approach_enemy",
+        "HP": 40
+      },
+      {
+        "deathTick": 415,
+        "lead": 2,
+        "earlierActionTick": 412,
+        "action": "move",
+        "reason": "approach_enemy",
+        "HP": 20
+      },
+      {
+        "deathTick": 415,
+        "lead": 3,
+        "earlierActionTick": 411,
+        "action": "move",
+        "reason": "approach_enemy",
+        "HP": 20
+      },
+      {
+        "deathTick": 415,
+        "lead": 4,
+        "earlierActionTick": 410,
+        "action": "move",
+        "reason": "approach_enemy",
+        "HP": 20
+      },
+      {
+        "deathTick": 415,
+        "lead": 5,
+        "earlierActionTick": 409,
+        "action": "move",
+        "reason": "approach_enemy",
+        "HP": 20
+      },
+      {
+        "deathTick": 460,
+        "lead": 2,
+        "earlierActionTick": 457,
+        "action": "move",
+        "reason": "approach_enemy",
+        "HP": 10
+      },
+      {
+        "deathTick": 460,
+        "lead": 3,
+        "earlierActionTick": 456,
+        "action": "move",
+        "reason": "explore",
+        "HP": 10
+      },
+      {
+        "deathTick": 460,
+        "lead": 4,
+        "earlierActionTick": 455,
+        "action": "move",
+        "reason": "explore",
+        "HP": 10
+      },
+      {
+        "deathTick": 460,
+        "lead": 5,
+        "earlierActionTick": 454,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 10
+      },
+      {
+        "deathTick": 495,
+        "lead": 2,
+        "earlierActionTick": 492,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 40
+      },
+      {
+        "deathTick": 495,
+        "lead": 3,
+        "earlierActionTick": 491,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 60
+      },
+      {
+        "deathTick": 495,
+        "lead": 4,
+        "earlierActionTick": 490,
+        "action": "move",
+        "reason": "approach_enemy",
+        "HP": 60
+      },
+      {
+        "deathTick": 495,
+        "lead": 5,
+        "earlierActionTick": 489,
+        "action": "move",
+        "reason": "explore",
+        "HP": 60
+      }
+    ]
+  },
+  {
+    "variant": "M2-01-v1",
+    "session": "practice-308b1f4b2feb4080b00ceb4e2e5402ba",
+    "n": 500,
+    "missing": 0,
+    "deaths": 7,
+    "attackDeath": 6,
+    "attPostcap": 26,
+    "attLow": 7,
+    "final": {
+      "score": 40,
+      "R": 40,
+      "D": 930,
+      "M": 3,
+      "hp": 80,
+      "invalid": 0
+    },
+    "deathCases": [
+      {
+        "tick": 23,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "hp": 30,
+        "D": 20
+      },
+      {
+        "tick": 45,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "hp": 20,
+        "D": 80
+      },
+      {
+        "tick": 119,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "hp": 10,
+        "D": 200
+      },
+      {
+        "tick": 177,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "hp": 10,
+        "D": 380
+      },
+      {
+        "tick": 328,
+        "action": "defend",
+        "reason": "defend_lethal_threat",
+        "hp": 20,
+        "D": 650
+      },
+      {
+        "tick": 404,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "hp": 10,
+        "D": 805
+      },
+      {
+        "tick": 460,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "hp": 20,
+        "D": 935
+      }
+    ],
+    "lookbacks": [
+      {
+        "deathTick": 23,
+        "lead": 2,
+        "earlierActionTick": 20,
+        "action": "move",
+        "reason": "capture_fortress",
+        "HP": 100
+      },
+      {
+        "deathTick": 23,
+        "lead": 3,
+        "earlierActionTick": 19,
+        "action": "move",
+        "reason": "capture_fortress",
+        "HP": 100
+      },
+      {
+        "deathTick": 23,
+        "lead": 4,
+        "earlierActionTick": 18,
+        "action": "move",
+        "reason": "capture_fortress",
+        "HP": 100
+      },
+      {
+        "deathTick": 23,
+        "lead": 5,
+        "earlierActionTick": 17,
+        "action": "move",
+        "reason": "capture_fortress",
+        "HP": 100
+      },
+      {
+        "deathTick": 45,
+        "lead": 2,
+        "earlierActionTick": 42,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 60
+      },
+      {
+        "deathTick": 45,
+        "lead": 3,
+        "earlierActionTick": 41,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 80
+      },
+      {
+        "deathTick": 45,
+        "lead": 4,
+        "earlierActionTick": 40,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 100
+      },
+      {
+        "deathTick": 45,
+        "lead": 5,
+        "earlierActionTick": 39,
+        "action": "move",
+        "reason": "reach_mission",
+        "HP": 100
+      },
+      {
+        "deathTick": 119,
+        "lead": 2,
+        "earlierActionTick": 116,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 40
+      },
+      {
+        "deathTick": 119,
+        "lead": 3,
+        "earlierActionTick": 115,
+        "action": "move",
+        "reason": "approach_enemy",
+        "HP": 40
+      },
+      {
+        "deathTick": 119,
+        "lead": 4,
+        "earlierActionTick": 114,
+        "action": "move",
+        "reason": "approach_enemy",
+        "HP": 40
+      },
+      {
+        "deathTick": 119,
+        "lead": 5,
+        "earlierActionTick": 113,
+        "action": "move",
+        "reason": "approach_enemy",
+        "HP": 40
+      },
+      {
+        "deathTick": 177,
+        "lead": 2,
+        "earlierActionTick": 174,
+        "action": "defend",
+        "reason": "defend_lethal_threat",
+        "HP": 20
+      },
+      {
+        "deathTick": 177,
+        "lead": 3,
+        "earlierActionTick": 173,
+        "action": "defend",
+        "reason": "defend_lethal_threat",
+        "HP": 20
+      },
+      {
+        "deathTick": 177,
+        "lead": 4,
+        "earlierActionTick": 172,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 40
+      },
+      {
+        "deathTick": 177,
+        "lead": 5,
+        "earlierActionTick": 171,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 40
+      },
+      {
+        "deathTick": 328,
+        "lead": 2,
+        "earlierActionTick": 325,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 40
+      },
+      {
+        "deathTick": 328,
+        "lead": 3,
+        "earlierActionTick": 324,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 40
+      },
+      {
+        "deathTick": 328,
+        "lead": 4,
+        "earlierActionTick": 323,
+        "action": "move",
+        "reason": "approach_enemy",
+        "HP": 40
+      },
+      {
+        "deathTick": 328,
+        "lead": 5,
+        "earlierActionTick": 322,
+        "action": "move",
+        "reason": "approach_enemy",
+        "HP": 40
+      },
+      {
+        "deathTick": 404,
+        "lead": 2,
+        "earlierActionTick": 401,
+        "action": "defend",
+        "reason": "defend_lethal_threat",
+        "HP": 20
+      },
+      {
+        "deathTick": 404,
+        "lead": 3,
+        "earlierActionTick": 400,
+        "action": "move",
+        "reason": "unstuck_relocate",
+        "HP": 20
+      },
+      {
+        "deathTick": 404,
+        "lead": 4,
+        "earlierActionTick": 399,
+        "action": "move",
+        "reason": "unstuck_relocate",
+        "HP": 20
+      },
+      {
+        "deathTick": 404,
+        "lead": 5,
+        "earlierActionTick": 398,
+        "action": "move",
+        "reason": "unstuck_relocate",
+        "HP": 20
+      },
+      {
+        "deathTick": 460,
+        "lead": 2,
+        "earlierActionTick": 457,
+        "action": "defend",
+        "reason": "defend_lethal_threat",
+        "HP": 20
+      },
+      {
+        "deathTick": 460,
+        "lead": 3,
+        "earlierActionTick": 456,
+        "action": "defend",
+        "reason": "defend_lethal_threat",
+        "HP": 20
+      },
+      {
+        "deathTick": 460,
+        "lead": 4,
+        "earlierActionTick": 455,
+        "action": "defend",
+        "reason": "defend_lethal_threat",
+        "HP": 20
+      },
+      {
+        "deathTick": 460,
+        "lead": 5,
+        "earlierActionTick": 454,
+        "action": "defend",
+        "reason": "defend_lethal_threat",
+        "HP": 20
+      }
+    ]
+  },
+  {
+    "variant": "M2-01-v2",
+    "session": "practice-1761674b167a4f44812428173c1f570b",
+    "n": 500,
+    "missing": 0,
+    "deaths": 6,
+    "attackDeath": 3,
+    "attPostcap": 13,
+    "attLow": 4,
+    "final": {
+      "score": 47.5,
+      "R": 70,
+      "D": 710.454545455,
+      "M": 3,
+      "hp": 100,
+      "invalid": 0
+    },
+    "deathCases": [
+      {
+        "tick": 21,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "hp": 33,
+        "D": 40
+      },
+      {
+        "tick": 132,
+        "action": "move",
+        "reason": "explore_frontier",
+        "hp": 10,
+        "D": 500.454545455
+      },
+      {
+        "tick": 181,
+        "action": "move",
+        "reason": "approach_enemy",
+        "hp": 20,
+        "D": 600.454545455
+      },
+      {
+        "tick": 224,
+        "action": "move",
+        "reason": "explore_frontier",
+        "hp": 10,
+        "D": 540.454545455
+      },
+      {
+        "tick": 372,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "hp": 20,
+        "D": 620.454545455
+      },
+      {
+        "tick": 497,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "hp": 10,
+        "D": 750.454545455
+      }
+    ],
+    "lookbacks": [
+      {
+        "deathTick": 21,
+        "lead": 2,
+        "earlierActionTick": 18,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 60
+      },
+      {
+        "deathTick": 21,
+        "lead": 3,
+        "earlierActionTick": 17,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 80
+      },
+      {
+        "deathTick": 21,
+        "lead": 4,
+        "earlierActionTick": 16,
+        "action": "move",
+        "reason": "reach_mission",
+        "HP": 100
+      },
+      {
+        "deathTick": 21,
+        "lead": 5,
+        "earlierActionTick": 15,
+        "action": "move",
+        "reason": "reach_mission",
+        "HP": 100
+      },
+      {
+        "deathTick": 132,
+        "lead": 2,
+        "earlierActionTick": 129,
+        "action": "move",
+        "reason": "approach_enemy",
+        "HP": 10
+      },
+      {
+        "deathTick": 132,
+        "lead": 3,
+        "earlierActionTick": 128,
+        "action": "move",
+        "reason": "approach_enemy",
+        "HP": 10
+      },
+      {
+        "deathTick": 132,
+        "lead": 4,
+        "earlierActionTick": 127,
+        "action": "move",
+        "reason": "approach_enemy",
+        "HP": 10
+      },
+      {
+        "deathTick": 132,
+        "lead": 5,
+        "earlierActionTick": 126,
+        "action": "move",
+        "reason": "approach_enemy",
+        "HP": 10
+      },
+      {
+        "deathTick": 181,
+        "lead": 2,
+        "earlierActionTick": 178,
+        "action": "move",
+        "reason": "approach_enemy",
+        "HP": 20
+      },
+      {
+        "deathTick": 181,
+        "lead": 3,
+        "earlierActionTick": 177,
+        "action": "move",
+        "reason": "approach_enemy",
+        "HP": 20
+      },
+      {
+        "deathTick": 181,
+        "lead": 4,
+        "earlierActionTick": 176,
+        "action": "move",
+        "reason": "approach_enemy",
+        "HP": 20
+      },
+      {
+        "deathTick": 181,
+        "lead": 5,
+        "earlierActionTick": 175,
+        "action": "move",
+        "reason": "approach_enemy",
+        "HP": 20
+      },
+      {
+        "deathTick": 224,
+        "lead": 2,
+        "earlierActionTick": 221,
+        "action": "defend",
+        "reason": "defend_lethal_threat",
+        "HP": 20
+      },
+      {
+        "deathTick": 224,
+        "lead": 3,
+        "earlierActionTick": 220,
+        "action": "move",
+        "reason": "unstuck_relocate",
+        "HP": 20
+      },
+      {
+        "deathTick": 224,
+        "lead": 4,
+        "earlierActionTick": 219,
+        "action": "move",
+        "reason": "unstuck_relocate",
+        "HP": 20
+      },
+      {
+        "deathTick": 224,
+        "lead": 5,
+        "earlierActionTick": 218,
+        "action": "move",
+        "reason": "unstuck_relocate",
+        "HP": 20
+      },
+      {
+        "deathTick": 372,
+        "lead": 2,
+        "earlierActionTick": 369,
+        "action": "defend",
+        "reason": "defend_lethal_threat",
+        "HP": 20
+      },
+      {
+        "deathTick": 372,
+        "lead": 3,
+        "earlierActionTick": 368,
+        "action": "defend",
+        "reason": "defend_lethal_threat",
+        "HP": 20
+      },
+      {
+        "deathTick": 372,
+        "lead": 4,
+        "earlierActionTick": 367,
+        "action": "defend",
+        "reason": "defend_lethal_threat",
+        "HP": 20
+      },
+      {
+        "deathTick": 372,
+        "lead": 5,
+        "earlierActionTick": 366,
+        "action": "defend",
+        "reason": "defend_lethal_threat",
+        "HP": 20
+      },
+      {
+        "deathTick": 497,
+        "lead": 2,
+        "earlierActionTick": 494,
+        "action": "defend",
+        "reason": "defend_lethal_threat",
+        "HP": 20
+      },
+      {
+        "deathTick": 497,
+        "lead": 3,
+        "earlierActionTick": 493,
+        "action": "defend",
+        "reason": "defend_lethal_threat",
+        "HP": 20
+      },
+      {
+        "deathTick": 497,
+        "lead": 4,
+        "earlierActionTick": 492,
+        "action": "move",
+        "reason": "approach_enemy",
+        "HP": 20
+      },
+      {
+        "deathTick": 497,
+        "lead": 5,
+        "earlierActionTick": 491,
+        "action": "move",
+        "reason": "approach_enemy",
+        "HP": 20
+      }
+    ]
+  },
+  {
+    "variant": "M2-01-v3",
+    "session": "practice-b87c125179eb4fd89e95b4be6ff7da4f",
+    "n": 500,
+    "missing": 0,
+    "deaths": 7,
+    "attackDeath": 6,
+    "attPostcap": 30,
+    "attLow": 8,
+    "final": {
+      "score": 45,
+      "R": 60,
+      "D": 1092.5,
+      "M": 3,
+      "hp": 10,
+      "invalid": 0
+    },
+    "deathCases": [
+      {
+        "tick": 37,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "hp": 30,
+        "D": 97.5
+      },
+      {
+        "tick": 74,
+        "action": "move",
+        "reason": "approach_enemy",
+        "hp": 20,
+        "D": 162.5
+      },
+      {
+        "tick": 125,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "hp": 8,
+        "D": 202.5
+      },
+      {
+        "tick": 181,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "hp": 20,
+        "D": 322.5
+      },
+      {
+        "tick": 260,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "hp": 20,
+        "D": 462.5
+      },
+      {
+        "tick": 396,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "hp": 20,
+        "D": 652.5
+      },
+      {
+        "tick": 439,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "hp": 20,
+        "D": 772.5
+      }
+    ],
+    "lookbacks": [
+      {
+        "deathTick": 37,
+        "lead": 2,
+        "earlierActionTick": 34,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 65
+      },
+      {
+        "deathTick": 37,
+        "lead": 3,
+        "earlierActionTick": 33,
+        "action": "move",
+        "reason": "reach_mission",
+        "HP": 100
+      },
+      {
+        "deathTick": 37,
+        "lead": 4,
+        "earlierActionTick": 32,
+        "action": "move",
+        "reason": "reach_mission",
+        "HP": 100
+      },
+      {
+        "deathTick": 37,
+        "lead": 5,
+        "earlierActionTick": 31,
+        "action": "move",
+        "reason": "reach_mission",
+        "HP": 100
+      },
+      {
+        "deathTick": 74,
+        "lead": 2,
+        "earlierActionTick": 71,
+        "action": "move",
+        "reason": "approach_enemy",
+        "HP": 20
+      },
+      {
+        "deathTick": 74,
+        "lead": 3,
+        "earlierActionTick": 70,
+        "action": "move",
+        "reason": "approach_enemy",
+        "HP": 20
+      },
+      {
+        "deathTick": 74,
+        "lead": 4,
+        "earlierActionTick": 69,
+        "action": "move",
+        "reason": "approach_enemy",
+        "HP": 40
+      },
+      {
+        "deathTick": 74,
+        "lead": 5,
+        "earlierActionTick": 68,
+        "action": "defend",
+        "reason": "defend_lethal_threat",
+        "HP": 40
+      },
+      {
+        "deathTick": 125,
+        "lead": 2,
+        "earlierActionTick": 122,
+        "action": "move",
+        "reason": "approach_enemy",
+        "HP": 8
+      },
+      {
+        "deathTick": 125,
+        "lead": 3,
+        "earlierActionTick": 121,
+        "action": "move",
+        "reason": "approach_enemy",
+        "HP": 8
+      },
+      {
+        "deathTick": 125,
+        "lead": 4,
+        "earlierActionTick": 120,
+        "action": "move",
+        "reason": "approach_enemy",
+        "HP": 8
+      },
+      {
+        "deathTick": 125,
+        "lead": 5,
+        "earlierActionTick": 119,
+        "action": "move",
+        "reason": "approach_enemy",
+        "HP": 8
+      },
+      {
+        "deathTick": 181,
+        "lead": 2,
+        "earlierActionTick": 178,
+        "action": "defend",
+        "reason": "defend_lethal_threat",
+        "HP": 20
+      },
+      {
+        "deathTick": 181,
+        "lead": 3,
+        "earlierActionTick": 177,
+        "action": "defend",
+        "reason": "defend_lethal_threat",
+        "HP": 20
+      },
+      {
+        "deathTick": 181,
+        "lead": 4,
+        "earlierActionTick": 176,
+        "action": "defend",
+        "reason": "defend_lethal_threat",
+        "HP": 20
+      },
+      {
+        "deathTick": 181,
+        "lead": 5,
+        "earlierActionTick": 175,
+        "action": "defend",
+        "reason": "defend_lethal_threat",
+        "HP": 20
+      },
+      {
+        "deathTick": 260,
+        "lead": 2,
+        "earlierActionTick": 257,
+        "action": "defend",
+        "reason": "defend_lethal_threat",
+        "HP": 20
+      },
+      {
+        "deathTick": 260,
+        "lead": 3,
+        "earlierActionTick": 256,
+        "action": "defend",
+        "reason": "defend_lethal_threat",
+        "HP": 20
+      },
+      {
+        "deathTick": 260,
+        "lead": 4,
+        "earlierActionTick": 255,
+        "action": "move",
+        "reason": "approach_enemy",
+        "HP": 20
+      },
+      {
+        "deathTick": 260,
+        "lead": 5,
+        "earlierActionTick": 254,
+        "action": "move",
+        "reason": "unstuck_relocate",
+        "HP": 20
+      },
+      {
+        "deathTick": 396,
+        "lead": 2,
+        "earlierActionTick": 393,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 60
+      },
+      {
+        "deathTick": 396,
+        "lead": 3,
+        "earlierActionTick": 392,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 80
+      },
+      {
+        "deathTick": 396,
+        "lead": 4,
+        "earlierActionTick": 391,
+        "action": "move",
+        "reason": "approach_enemy",
+        "HP": 80
+      },
+      {
+        "deathTick": 396,
+        "lead": 5,
+        "earlierActionTick": 390,
+        "action": "move",
+        "reason": "unstuck_relocate",
+        "HP": 80
+      },
+      {
+        "deathTick": 439,
+        "lead": 2,
+        "earlierActionTick": 436,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 40
+      },
+      {
+        "deathTick": 439,
+        "lead": 3,
+        "earlierActionTick": 435,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 60
+      },
+      {
+        "deathTick": 439,
+        "lead": 4,
+        "earlierActionTick": 434,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 80
+      },
+      {
+        "deathTick": 439,
+        "lead": 5,
+        "earlierActionTick": 433,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 100
+      }
+    ]
+  },
+  {
+    "variant": "M2-02-v0",
+    "session": "practice-e482d1786541462e969648cd1b4c3dd9",
+    "n": 500,
+    "missing": 0,
+    "deaths": 11,
+    "attackDeath": 10,
+    "attPostcap": 31,
+    "attLow": 17,
+    "final": {
+      "score": 47.5,
+      "R": 70,
+      "D": 1080,
+      "M": 3,
+      "hp": 20,
+      "invalid": 0
+    },
+    "deathCases": [
+      {
+        "tick": 31,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "hp": 10,
+        "D": 40
+      },
+      {
+        "tick": 52,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "hp": 20,
+        "D": 80
+      },
+      {
+        "tick": 87,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "hp": 20,
+        "D": 180
+      },
+      {
+        "tick": 115,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "hp": 10,
+        "D": 200
+      },
+      {
+        "tick": 130,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "hp": 20,
+        "D": 220
+      },
+      {
+        "tick": 154,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "hp": 10,
+        "D": 400
+      },
+      {
+        "tick": 225,
+        "action": "move",
+        "reason": "explore_frontier",
+        "hp": 10,
+        "D": 630
+      },
+      {
+        "tick": 240,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "hp": 20,
+        "D": 630
+      },
+      {
+        "tick": 307,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "hp": 10,
+        "D": 750
+      },
+      {
+        "tick": 340,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "hp": 10,
+        "D": 870
+      },
+      {
+        "tick": 400,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "hp": 20,
+        "D": 960
+      }
+    ],
+    "lookbacks": [
+      {
+        "deathTick": 31,
+        "lead": 2,
+        "earlierActionTick": 28,
+        "action": "defend",
+        "reason": "defend_lethal_threat",
+        "HP": 20
+      },
+      {
+        "deathTick": 31,
+        "lead": 3,
+        "earlierActionTick": 27,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 20
+      },
+      {
+        "deathTick": 31,
+        "lead": 4,
+        "earlierActionTick": 26,
+        "action": "defend",
+        "reason": "defend_lethal_threat",
+        "HP": 30
+      },
+      {
+        "deathTick": 31,
+        "lead": 5,
+        "earlierActionTick": 25,
+        "action": "defend",
+        "reason": "defend_lethal_threat",
+        "HP": 40
+      },
+      {
+        "deathTick": 52,
+        "lead": 2,
+        "earlierActionTick": 49,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 60
+      },
+      {
+        "deathTick": 52,
+        "lead": 3,
+        "earlierActionTick": 48,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 80
+      },
+      {
+        "deathTick": 52,
+        "lead": 4,
+        "earlierActionTick": 47,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 100
+      },
+      {
+        "deathTick": 52,
+        "lead": 5,
+        "earlierActionTick": 46,
+        "action": "move",
+        "reason": "approach_enemy",
+        "HP": 100
+      },
+      {
+        "deathTick": 87,
+        "lead": 2,
+        "earlierActionTick": 84,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 100
+      },
+      {
+        "deathTick": 87,
+        "lead": 3,
+        "earlierActionTick": 83,
+        "action": "move",
+        "reason": "approach_enemy",
+        "HP": 100
+      },
+      {
+        "deathTick": 87,
+        "lead": 4,
+        "earlierActionTick": 82,
+        "action": "move",
+        "reason": "approach_enemy",
+        "HP": 100
+      },
+      {
+        "deathTick": 87,
+        "lead": 5,
+        "earlierActionTick": 81,
+        "action": "move",
+        "reason": "approach_enemy",
+        "HP": 100
+      },
+      {
+        "deathTick": 115,
+        "lead": 2,
+        "earlierActionTick": 112,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 10
+      },
+      {
+        "deathTick": 115,
+        "lead": 3,
+        "earlierActionTick": 111,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 10
+      },
+      {
+        "deathTick": 115,
+        "lead": 4,
+        "earlierActionTick": 110,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 10
+      },
+      {
+        "deathTick": 115,
+        "lead": 5,
+        "earlierActionTick": 109,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 45
+      },
+      {
+        "deathTick": 130,
+        "lead": 2,
+        "earlierActionTick": 127,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 60
+      },
+      {
+        "deathTick": 130,
+        "lead": 3,
+        "earlierActionTick": 126,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 80
+      },
+      {
+        "deathTick": 130,
+        "lead": 4,
+        "earlierActionTick": 125,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 100
+      },
+      {
+        "deathTick": 130,
+        "lead": 5,
+        "earlierActionTick": 124,
+        "action": "move",
+        "reason": "approach_enemy",
+        "HP": 100
+      },
+      {
+        "deathTick": 154,
+        "lead": 2,
+        "earlierActionTick": 151,
+        "action": "move",
+        "reason": "approach_enemy",
+        "HP": 20
+      },
+      {
+        "deathTick": 154,
+        "lead": 3,
+        "earlierActionTick": 150,
+        "action": "move",
+        "reason": "approach_enemy",
+        "HP": 20
+      },
+      {
+        "deathTick": 154,
+        "lead": 4,
+        "earlierActionTick": 149,
+        "action": "move",
+        "reason": "collect_resource",
+        "HP": 20
+      },
+      {
+        "deathTick": 154,
+        "lead": 5,
+        "earlierActionTick": 148,
+        "action": "move",
+        "reason": "collect_resource",
+        "HP": 20
+      },
+      {
+        "deathTick": 225,
+        "lead": 2,
+        "earlierActionTick": 222,
+        "action": "defend",
+        "reason": "defend_lethal_threat",
+        "HP": 20
+      },
+      {
+        "deathTick": 225,
+        "lead": 3,
+        "earlierActionTick": 221,
+        "action": "defend",
+        "reason": "defend_lethal_threat",
+        "HP": 20
+      },
+      {
+        "deathTick": 225,
+        "lead": 4,
+        "earlierActionTick": 220,
+        "action": "move",
+        "reason": "approach_enemy",
+        "HP": 20
+      },
+      {
+        "deathTick": 225,
+        "lead": 5,
+        "earlierActionTick": 219,
+        "action": "move",
+        "reason": "approach_enemy",
+        "HP": 20
+      },
+      {
+        "deathTick": 240,
+        "lead": 2,
+        "earlierActionTick": 237,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 60
+      },
+      {
+        "deathTick": 240,
+        "lead": 3,
+        "earlierActionTick": 236,
+        "action": "move",
+        "reason": "approach_enemy",
+        "HP": 60
+      },
+      {
+        "deathTick": 240,
+        "lead": 4,
+        "earlierActionTick": 235,
+        "action": "move",
+        "reason": "explore_frontier",
+        "HP": 80
+      },
+      {
+        "deathTick": 240,
+        "lead": 5,
+        "earlierActionTick": 234,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 80
+      },
+      {
+        "deathTick": 307,
+        "lead": 2,
+        "earlierActionTick": 304,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 40
+      },
+      {
+        "deathTick": 307,
+        "lead": 3,
+        "earlierActionTick": 303,
+        "action": "move",
+        "reason": "approach_enemy",
+        "HP": 40
+      },
+      {
+        "deathTick": 307,
+        "lead": 4,
+        "earlierActionTick": 302,
+        "action": "move",
+        "reason": "approach_enemy",
+        "HP": 40
+      },
+      {
+        "deathTick": 307,
+        "lead": 5,
+        "earlierActionTick": 301,
+        "action": "move",
+        "reason": "approach_enemy",
+        "HP": 40
+      },
+      {
+        "deathTick": 340,
+        "lead": 2,
+        "earlierActionTick": 337,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 40
+      },
+      {
+        "deathTick": 340,
+        "lead": 3,
+        "earlierActionTick": 336,
+        "action": "move",
+        "reason": "approach_enemy",
+        "HP": 40
+      },
+      {
+        "deathTick": 340,
+        "lead": 4,
+        "earlierActionTick": 335,
+        "action": "move",
+        "reason": "approach_enemy",
+        "HP": 40
+      },
+      {
+        "deathTick": 340,
+        "lead": 5,
+        "earlierActionTick": 334,
+        "action": "move",
+        "reason": "approach_enemy",
+        "HP": 40
+      },
+      {
+        "deathTick": 400,
+        "lead": 2,
+        "earlierActionTick": 397,
+        "action": "defend",
+        "reason": "defend_lethal_threat",
+        "HP": 20
+      },
+      {
+        "deathTick": 400,
+        "lead": 3,
+        "earlierActionTick": 396,
+        "action": "defend",
+        "reason": "defend_lethal_threat",
+        "HP": 20
+      },
+      {
+        "deathTick": 400,
+        "lead": 4,
+        "earlierActionTick": 395,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 40
+      },
+      {
+        "deathTick": 400,
+        "lead": 5,
+        "earlierActionTick": 394,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 60
+      }
+    ]
+  },
+  {
+    "variant": "M2-02-v1",
+    "session": "practice-256163a7a79c4d208d2949fef4302b06",
+    "n": 500,
+    "missing": 0,
+    "deaths": 7,
+    "attackDeath": 5,
+    "attPostcap": 33,
+    "attLow": 5,
+    "final": {
+      "score": 50,
+      "R": 80,
+      "D": 1305,
+      "M": 3,
+      "hp": 40,
+      "invalid": 0
+    },
+    "deathCases": [
+      {
+        "tick": 56,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "hp": 20,
+        "D": 260
+      },
+      {
+        "tick": 117,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "hp": 30,
+        "D": 371
+      },
+      {
+        "tick": 144,
+        "action": "move",
+        "reason": "explore_frontier",
+        "hp": 10,
+        "D": 540
+      },
+      {
+        "tick": 223,
+        "action": "move",
+        "reason": "explore_frontier",
+        "hp": 20,
+        "D": 600
+      },
+      {
+        "tick": 284,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "hp": 10,
+        "D": 650
+      },
+      {
+        "tick": 348,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "hp": 10,
+        "D": 985
+      },
+      {
+        "tick": 449,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "hp": 20,
+        "D": 1185
+      }
+    ],
+    "lookbacks": [
+      {
+        "deathTick": 56,
+        "lead": 2,
+        "earlierActionTick": 53,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 60
+      },
+      {
+        "deathTick": 56,
+        "lead": 3,
+        "earlierActionTick": 52,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 60
+      },
+      {
+        "deathTick": 56,
+        "lead": 4,
+        "earlierActionTick": 51,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 80
+      },
+      {
+        "deathTick": 56,
+        "lead": 5,
+        "earlierActionTick": 50,
+        "action": "move",
+        "reason": "approach_enemy",
+        "HP": 80
+      },
+      {
+        "deathTick": 117,
+        "lead": 2,
+        "earlierActionTick": 114,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 100
+      },
+      {
+        "deathTick": 117,
+        "lead": 3,
+        "earlierActionTick": 113,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 100
+      },
+      {
+        "deathTick": 117,
+        "lead": 4,
+        "earlierActionTick": 112,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 100
+      },
+      {
+        "deathTick": 117,
+        "lead": 5,
+        "earlierActionTick": 111,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 100
+      },
+      {
+        "deathTick": 144,
+        "lead": 2,
+        "earlierActionTick": 141,
+        "action": "move",
+        "reason": "approach_enemy",
+        "HP": 20
+      },
+      {
+        "deathTick": 144,
+        "lead": 3,
+        "earlierActionTick": 140,
+        "action": "move",
+        "reason": "explore_frontier",
+        "HP": 20
+      },
+      {
+        "deathTick": 144,
+        "lead": 4,
+        "earlierActionTick": 139,
+        "action": "move",
+        "reason": "explore_frontier",
+        "HP": 20
+      },
+      {
+        "deathTick": 144,
+        "lead": 5,
+        "earlierActionTick": 138,
+        "action": "move",
+        "reason": "explore_frontier",
+        "HP": 20
+      },
+      {
+        "deathTick": 223,
+        "lead": 2,
+        "earlierActionTick": 220,
+        "action": "move",
+        "reason": "explore_frontier",
+        "HP": 40
+      },
+      {
+        "deathTick": 223,
+        "lead": 3,
+        "earlierActionTick": 219,
+        "action": "move",
+        "reason": "approach_enemy",
+        "HP": 40
+      },
+      {
+        "deathTick": 223,
+        "lead": 4,
+        "earlierActionTick": 218,
+        "action": "move",
+        "reason": "explore_frontier",
+        "HP": 60
+      },
+      {
+        "deathTick": 223,
+        "lead": 5,
+        "earlierActionTick": 217,
+        "action": "move",
+        "reason": "explore_frontier",
+        "HP": 60
+      },
+      {
+        "deathTick": 284,
+        "lead": 2,
+        "earlierActionTick": 281,
+        "action": "defend",
+        "reason": "defend_lethal_threat",
+        "HP": 30
+      },
+      {
+        "deathTick": 284,
+        "lead": 3,
+        "earlierActionTick": 280,
+        "action": "defend",
+        "reason": "defend_lethal_threat",
+        "HP": 40
+      },
+      {
+        "deathTick": 284,
+        "lead": 4,
+        "earlierActionTick": 279,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 40
+      },
+      {
+        "deathTick": 284,
+        "lead": 5,
+        "earlierActionTick": 278,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 60
+      },
+      {
+        "deathTick": 348,
+        "lead": 2,
+        "earlierActionTick": 345,
+        "action": "defend",
+        "reason": "defend_lethal_threat",
+        "HP": 20
+      },
+      {
+        "deathTick": 348,
+        "lead": 3,
+        "earlierActionTick": 344,
+        "action": "defend",
+        "reason": "defend_lethal_threat",
+        "HP": 20
+      },
+      {
+        "deathTick": 348,
+        "lead": 4,
+        "earlierActionTick": 343,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 40
+      },
+      {
+        "deathTick": 348,
+        "lead": 5,
+        "earlierActionTick": 342,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 40
+      },
+      {
+        "deathTick": 449,
+        "lead": 2,
+        "earlierActionTick": 446,
+        "action": "move",
+        "reason": "approach_enemy",
+        "HP": 20
+      },
+      {
+        "deathTick": 449,
+        "lead": 3,
+        "earlierActionTick": 445,
+        "action": "move",
+        "reason": "approach_enemy",
+        "HP": 20
+      },
+      {
+        "deathTick": 449,
+        "lead": 4,
+        "earlierActionTick": 444,
+        "action": "defend",
+        "reason": "defend_lethal_threat",
+        "HP": 20
+      },
+      {
+        "deathTick": 449,
+        "lead": 5,
+        "earlierActionTick": 443,
+        "action": "move",
+        "reason": "approach_enemy",
+        "HP": 20
+      }
+    ]
+  },
+  {
+    "variant": "M2-02-v2",
+    "session": "practice-e77c8e6d507344d498644e6931b9d3cc",
+    "n": 500,
+    "missing": 0,
+    "deaths": 7,
+    "attackDeath": 6,
+    "attPostcap": 44,
+    "attLow": 12,
+    "final": {
+      "score": 47.5,
+      "R": 70,
+      "D": 1622,
+      "M": 3,
+      "hp": 40,
+      "invalid": 0
+    },
+    "deathCases": [
+      {
+        "tick": 38,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "hp": 10,
+        "D": 160
+      },
+      {
+        "tick": 85,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "hp": 20,
+        "D": 370
+      },
+      {
+        "tick": 105,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "hp": 5,
+        "D": 430
+      },
+      {
+        "tick": 161,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "hp": 10,
+        "D": 517
+      },
+      {
+        "tick": 266,
+        "action": "move",
+        "reason": "explore_frontier",
+        "hp": 10,
+        "D": 687
+      },
+      {
+        "tick": 313,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "hp": 20,
+        "D": 962
+      },
+      {
+        "tick": 429,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "hp": 10,
+        "D": 1522
+      }
+    ],
+    "lookbacks": [
+      {
+        "deathTick": 38,
+        "lead": 2,
+        "earlierActionTick": 35,
+        "action": "move",
+        "reason": "approach_enemy",
+        "HP": 20
+      },
+      {
+        "deathTick": 38,
+        "lead": 3,
+        "earlierActionTick": 34,
+        "action": "move",
+        "reason": "explore_frontier",
+        "HP": 20
+      },
+      {
+        "deathTick": 38,
+        "lead": 4,
+        "earlierActionTick": 33,
+        "action": "move",
+        "reason": "explore_frontier",
+        "HP": 20
+      },
+      {
+        "deathTick": 38,
+        "lead": 5,
+        "earlierActionTick": 32,
+        "action": "move",
+        "reason": "explore_frontier",
+        "HP": 20
+      },
+      {
+        "deathTick": 85,
+        "lead": 2,
+        "earlierActionTick": 82,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 40
+      },
+      {
+        "deathTick": 85,
+        "lead": 3,
+        "earlierActionTick": 81,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 60
+      },
+      {
+        "deathTick": 85,
+        "lead": 4,
+        "earlierActionTick": 80,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 80
+      },
+      {
+        "deathTick": 85,
+        "lead": 5,
+        "earlierActionTick": 79,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 100
+      },
+      {
+        "deathTick": 105,
+        "lead": 2,
+        "earlierActionTick": 102,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 80
+      },
+      {
+        "deathTick": 105,
+        "lead": 3,
+        "earlierActionTick": 101,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 100
+      },
+      {
+        "deathTick": 105,
+        "lead": 4,
+        "earlierActionTick": 100,
+        "action": "move",
+        "reason": "capture_fortress",
+        "HP": 100
+      },
+      {
+        "deathTick": 105,
+        "lead": 5,
+        "earlierActionTick": 99,
+        "action": "move",
+        "reason": "capture_fortress",
+        "HP": 100
+      },
+      {
+        "deathTick": 161,
+        "lead": 2,
+        "earlierActionTick": 158,
+        "action": "defend",
+        "reason": "defend_lethal_threat",
+        "HP": 20
+      },
+      {
+        "deathTick": 161,
+        "lead": 3,
+        "earlierActionTick": 157,
+        "action": "defend",
+        "reason": "defend_lethal_threat",
+        "HP": 20
+      },
+      {
+        "deathTick": 161,
+        "lead": 4,
+        "earlierActionTick": 156,
+        "action": "defend",
+        "reason": "defend_lethal_threat",
+        "HP": 20
+      },
+      {
+        "deathTick": 161,
+        "lead": 5,
+        "earlierActionTick": 155,
+        "action": "defend",
+        "reason": "defend_lethal_threat",
+        "HP": 20
+      },
+      {
+        "deathTick": 266,
+        "lead": 2,
+        "earlierActionTick": 263,
+        "action": "move",
+        "reason": "approach_enemy",
+        "HP": 10
+      },
+      {
+        "deathTick": 266,
+        "lead": 3,
+        "earlierActionTick": 262,
+        "action": "move",
+        "reason": "approach_enemy",
+        "HP": 10
+      },
+      {
+        "deathTick": 266,
+        "lead": 4,
+        "earlierActionTick": 261,
+        "action": "move",
+        "reason": "approach_enemy",
+        "HP": 10
+      },
+      {
+        "deathTick": 266,
+        "lead": 5,
+        "earlierActionTick": 260,
+        "action": "move",
+        "reason": "approach_enemy",
+        "HP": 10
+      },
+      {
+        "deathTick": 313,
+        "lead": 2,
+        "earlierActionTick": 310,
+        "action": "move",
+        "reason": "explore_frontier",
+        "HP": 40
+      },
+      {
+        "deathTick": 313,
+        "lead": 3,
+        "earlierActionTick": 309,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 40
+      },
+      {
+        "deathTick": 313,
+        "lead": 4,
+        "earlierActionTick": 308,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 60
+      },
+      {
+        "deathTick": 313,
+        "lead": 5,
+        "earlierActionTick": 307,
+        "action": "move",
+        "reason": "approach_enemy",
+        "HP": 60
+      },
+      {
+        "deathTick": 429,
+        "lead": 2,
+        "earlierActionTick": 426,
+        "action": "move",
+        "reason": "unstuck_relocate",
+        "HP": 10
+      },
+      {
+        "deathTick": 429,
+        "lead": 3,
+        "earlierActionTick": 425,
+        "action": "move",
+        "reason": "unstuck_relocate",
+        "HP": 10
+      },
+      {
+        "deathTick": 429,
+        "lead": 4,
+        "earlierActionTick": 424,
+        "action": "move",
+        "reason": "unstuck_relocate",
+        "HP": 10
+      },
+      {
+        "deathTick": 429,
+        "lead": 5,
+        "earlierActionTick": 423,
+        "action": "move",
+        "reason": "unstuck_relocate",
+        "HP": 10
+      }
+    ]
+  },
+  {
+    "variant": "M2-02-v3",
+    "session": "practice-6959d64682404037a886aca303d00d0c",
+    "n": 500,
+    "missing": 0,
+    "deaths": 5,
+    "attackDeath": 4,
+    "attPostcap": 21,
+    "attLow": 7,
+    "final": {
+      "score": 45,
+      "R": 60,
+      "D": 960,
+      "M": 3,
+      "hp": 20,
+      "invalid": 0
+    },
+    "deathCases": [
+      {
+        "tick": 36,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "hp": 10,
+        "D": 100
+      },
+      {
+        "tick": 80,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "hp": 20,
+        "D": 230
+      },
+      {
+        "tick": 152,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "hp": 5,
+        "D": 580
+      },
+      {
+        "tick": 197,
+        "action": "move",
+        "reason": "explore_frontier",
+        "hp": 8,
+        "D": 760
+      },
+      {
+        "tick": 248,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "hp": 20,
+        "D": 780
+      }
+    ],
+    "lookbacks": [
+      {
+        "deathTick": 36,
+        "lead": 2,
+        "earlierActionTick": 33,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 10
+      },
+      {
+        "deathTick": 36,
+        "lead": 3,
+        "earlierActionTick": 32,
+        "action": "defend",
+        "reason": "defend_lethal_threat",
+        "HP": 20
+      },
+      {
+        "deathTick": 36,
+        "lead": 4,
+        "earlierActionTick": 31,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 40
+      },
+      {
+        "deathTick": 36,
+        "lead": 5,
+        "earlierActionTick": 30,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 60
+      },
+      {
+        "deathTick": 80,
+        "lead": 2,
+        "earlierActionTick": 77,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 60
+      },
+      {
+        "deathTick": 80,
+        "lead": 3,
+        "earlierActionTick": 76,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 80
+      },
+      {
+        "deathTick": 80,
+        "lead": 4,
+        "earlierActionTick": 75,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 100
+      },
+      {
+        "deathTick": 80,
+        "lead": 5,
+        "earlierActionTick": 74,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 100
+      },
+      {
+        "deathTick": 152,
+        "lead": 2,
+        "earlierActionTick": 149,
+        "action": "move",
+        "reason": "approach_enemy",
+        "HP": 5
+      },
+      {
+        "deathTick": 152,
+        "lead": 3,
+        "earlierActionTick": 148,
+        "action": "move",
+        "reason": "approach_enemy",
+        "HP": 5
+      },
+      {
+        "deathTick": 152,
+        "lead": 4,
+        "earlierActionTick": 147,
+        "action": "move",
+        "reason": "approach_enemy",
+        "HP": 5
+      },
+      {
+        "deathTick": 152,
+        "lead": 5,
+        "earlierActionTick": 146,
+        "action": "move",
+        "reason": "approach_enemy",
+        "HP": 5
+      },
+      {
+        "deathTick": 197,
+        "lead": 2,
+        "earlierActionTick": 194,
+        "action": "defend",
+        "reason": "defend_lethal_threat",
+        "HP": 8
+      },
+      {
+        "deathTick": 197,
+        "lead": 3,
+        "earlierActionTick": 193,
+        "action": "defend",
+        "reason": "defend_lethal_threat",
+        "HP": 8
+      },
+      {
+        "deathTick": 197,
+        "lead": 4,
+        "earlierActionTick": 192,
+        "action": "defend",
+        "reason": "defend_lethal_threat",
+        "HP": 8
+      },
+      {
+        "deathTick": 197,
+        "lead": 5,
+        "earlierActionTick": 191,
+        "action": "move",
+        "reason": "unstuck_relocate",
+        "HP": 8
+      },
+      {
+        "deathTick": 248,
+        "lead": 2,
+        "earlierActionTick": 245,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 60
+      },
+      {
+        "deathTick": 248,
+        "lead": 3,
+        "earlierActionTick": 244,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 80
+      },
+      {
+        "deathTick": 248,
+        "lead": 4,
+        "earlierActionTick": 243,
+        "action": "attack",
+        "reason": "attack_opportunity",
+        "HP": 100
+      },
+      {
+        "deathTick": 248,
+        "lead": 5,
+        "earlierActionTick": 242,
+        "action": "move",
+        "reason": "approach_enemy",
+        "HP": 100
+      }
+    ]
+  }
+]
