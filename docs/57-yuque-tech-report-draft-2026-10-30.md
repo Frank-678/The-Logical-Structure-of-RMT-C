@@ -31,7 +31,7 @@
 | 战斗 | 完成 | §6 贪心 argmax + 情境折扣（post_cap 0.02 开；pie/低血/assassin 杠杆已实现默认关，待竞技场评估） |
 | 堡垒 | 完成 | capture/hold 估值、驻留进度全量重建 |
 | 事件理解 | 完成 | 后台 LLM 异步、公告去重、结果校验；**不阻塞动作窗口** |
-| 两阶段切换 | 完成 | match_config.hpp 编译期配置，缺失值拒绝启动 |
+| 两阶段切换 | 完成 | match_config.hpp 编译期 stage，`tools/build_stage.sh 1|2` 一键重建，README「两阶段切换」章节；阶段间 10min 调整窗口内换版本，版本摘要 build/rmtc_bot/match_config.sha256 |
 | AI 链路自检 | 完成 | practice_launcher --check-ai / check_ai.sh → **request_ok / http 200**（2026-10-30 实测，临时凭证验证后即还原，key 不入库） |
 
 算法命名表：BFS（导航/边界）、倒推 DP（危险守卫）、beam search（资源串）、有界 2-opt（巡回）、贪心 argmax（终选）、LLM（事件理解）。50 项参数全表见 docs/54 §参数总表（语雀内可链仓库文档，不逐项复制）。
