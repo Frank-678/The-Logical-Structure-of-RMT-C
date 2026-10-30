@@ -32,6 +32,7 @@
 | 堡垒 | 完成 | capture/hold 估值、驻留进度全量重建 |
 | 事件理解 | 完成 | 后台 LLM 异步、公告去重、结果校验；**不阻塞动作窗口** |
 | 两阶段切换 | 完成 | match_config.hpp 编译期 stage，`tools/build_stage.sh 1|2` 一键重建，README「两阶段切换」章节；阶段间 10min 调整窗口内换版本，版本摘要 build/rmtc_bot/match_config.sha256 |
+| LLM 每局调用预算 | 完成 | AiConfig.max_calls + cfg::ai_max_calls_per_match（0=不限，默认不改变行为）；observe() 在既有排队护栏后闸 started_，预算耗尽本地策略照常、日志状态 budget_exhausted；现场配额公布后在阶段间窗口改参数 |
 | AI 链路自检 | 完成 | practice_launcher --check-ai / check_ai.sh → **request_ok / http 200**（2026-10-30 实测，临时凭证验证后即还原，key 不入库） |
 
 算法命名表：BFS（导航/边界）、倒推 DP（危险守卫）、beam search（资源串）、有界 2-opt（巡回）、贪心 argmax（终选）、LLM（事件理解）。50 项参数全表见 docs/54 §参数总表（语雀内可链仓库文档，不逐项复制）。
@@ -81,7 +82,7 @@ DeepSeek + ChatGPT 双模型分工协作：实现与调参（DeepSeek）、独�
 
 ## 8. 代码运行逻辑及指令
 
-- 赛前配置只改 `src/rmtc_bot/include/rmtc_bot/match_config.hpp`：team/席位、stage、ros_domain_id、ai_url（官方网关，以发放值为准）、ai_token（本场席位令牌，不提交）、ai_model=deepseek-flash、ai_max_tokens=512、ai_thinking="disabled"、ai_json_output=true、ai_http_proxy 空串直连；
+- 赛前配置只改 `src/rmtc_bot/include/rmtc_bot/match_config.hpp`：team/席位、stage、ros_domain_id、ai_url（官方网关，以发放值为准）、ai_token（本场席位令牌，不提交）、ai_model=deepseek-flash、ai_max_tokens=512、ai_max_calls_per_match（每局调用预算，配额公布后填）、ai_thinking="disabled"、ai_json_output=true、ai_http_proxy 空串直连；
 - 构建：`bash build.sh`（产物 install/rmtc_bot/lib/rmtc_bot/bot）；
 - 自检：`bash check_ai.sh`（须返回 request_ok）；
 - 短场景验证：`bash scenarios.sh`（四例，不启 ROS 不调模型）；

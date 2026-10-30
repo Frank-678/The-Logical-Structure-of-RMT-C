@@ -62,6 +62,7 @@ description: RMTC 实验操作手册——网关验证、秒级场景批量（2�
 - **WSL 构建脚本禁 `set -u`**：`/opt/ros/humble/setup.bash` 引用未设变量（AMENT_TRACE_SETUP_FILES）→ nounset 下 source 即崩、静默失败（10-31 变体重建脚本只输出零行、二进制未重建、旧域二进制照跑再污染）——只用 `set -eo pipefail` + trap EXIT 兜底还原
 - **链式命令禁 `;` 串失败步骤**：`重建脚本; 三 sweep` 让重建失败后旧二进制无条件照扫（第二次污染）——依赖步骤一律 `&&`，且探针闸探测脚本用 `sys.exit(1)` 断链（域验证探针 /tmp/probe_domain28.py：我的裁判见注册 ∧ 用户日志零增量 ∧ bot.log 本局 sid tick≤5，任一不满足即退出）
 - **变体构建必须同时 sed `stage`**：`match_config.hpp` 的 stage 是编译期值（bot.cpp:33 `const int stage = cfg::stage`），感知消息无阶段字段。10-31 惨案：重建脚本只 sed 域+旋钮、漏 sed `stage = 2`→`= 1`，4 个新构建全是 stage2 战斗逻辑打 stage1 图（官方图 R=170 vs 基线 200，bot.log `mode=combat_ready ai=requesting` 而非 `mode=collecting ai=disabled_missing_url_and_token`）。修复后 stage1+域28 重建链全绿（probe/control 官方图均 200）。**验尸三件套**：mode 行 + R 值 + 与基线 install 对照；正式赛两阶段切换用 `tools/build_stage.sh 1|2`（README 两阶段切换章节），官方流程=每阶段前确认代码版本+阶段间 10min 调整窗口可改参数
+- **bash 参数替换 `${v//./}` 会删小数点**：剂量循环 `--install-base "install_${dose//./}"` 把 0.05 变成 005——构建落在 install_stage1_flood005，扫描脚本却按 install_stage1_flood05 找 → run_seat 源 setup.bash 失败 → bot 退出码 1 → 22 局 REG-FAIL（构建本身成功、colcon 退出 0，极具迷惑性）。**REG-FAIL 验尸三件套**：install 树 `find` 对比（二进制在 lib/rmtc_bot/bot？）+ bot 退出码 + run_seat 里 source 的 setup.bash 路径是否存在
 
 ## 7. 收尾清单
 
