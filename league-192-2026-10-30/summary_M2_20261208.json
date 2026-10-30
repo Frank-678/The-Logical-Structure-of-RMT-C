@@ -1,0 +1,302 @@
+[
+ {
+  "variant": 0,
+  "ok": true,
+  "log_dir": "/home/frank/cst/build/league/league-192/summary_M2_20261208.runs/case-0-tzpg_1c1",
+  "config_path": "/home/frank/cst/build/league/league-192/summary_M2_20261208.runs/case-0-tzpg_1c1/config_0.json",
+  "config_sha256": "124436a4cac06c74bee600ab52252714db43995ece30163b31580331f52f9420",
+  "session": "practice-b7f67577424c4faa801565f0299ae928",
+  "run_dir": "/home/frank/.rmtc-practice/practice-b7f67577424c4faa801565f0299ae928",
+  "teams": {
+   "C": {
+    "score": 47.5,
+    "R": 70.0,
+    "D": 2200.0,
+    "M": 3,
+    "hp": 10,
+    "invalid": 0
+   },
+   "B": {
+    "score": 42.5,
+    "R": 50.0,
+    "D": 816.0,
+    "M": 3,
+    "hp": 60,
+    "invalid": 0
+   },
+   "A": {
+    "score": 40.0,
+    "R": 40.0,
+    "D": 1945.0,
+    "M": 3,
+    "hp": 100,
+    "invalid": 0
+   },
+   "D": {
+    "score": 35.0,
+    "R": 40.0,
+    "D": 1369.0,
+    "M": 2,
+    "hp": 20,
+    "invalid": 0
+   }
+  },
+  "ai": {
+   "C": {
+    "calls": 29,
+    "success": 0,
+    "fail": 29
+   },
+   "B": {
+    "calls": 20,
+    "success": 0,
+    "fail": 20
+   },
+   "D": {
+    "calls": 29,
+    "success": 0,
+    "fail": 29
+   },
+   "A": {
+    "calls": 20,
+    "success": 0,
+    "fail": 20
+   }
+  },
+  "binaries": {
+   "A": {
+    "install_base": "/home/frank/cst/install",
+    "binary_sha256": "39557aa16d75fb07a2cae950efe549c4ae13d5625cc671a3440a4513ed399052"
+   },
+   "B": {
+    "install_base": "/home/frank/cst-league-old/install-v-old_champion-B",
+    "binary_sha256": "bcebb860ae2a0d62f2bacbe336544acd43ea330b4ba6479ff6a81cbb8239bf1e"
+   }
+  }
+ },
+ {
+  "variant": 1,
+  "ok": true,
+  "log_dir": "/home/frank/cst/build/league/league-192/summary_M2_20261208.runs/case-1-oiwp0061",
+  "config_path": "/home/frank/cst/build/league/league-192/summary_M2_20261208.runs/case-1-oiwp0061/config_1.json",
+  "config_sha256": "9b33b6c38cf841a0c67f03a184e3a742db9578b3d5d54edcf9378ba3084c6f1a",
+  "session": "practice-2cea96fe6af84336bdcc5d5761519961",
+  "run_dir": "/home/frank/.rmtc-practice/practice-2cea96fe6af84336bdcc5d5761519961",
+  "teams": {
+   "B": {
+    "score": 47.5,
+    "R": 70.0,
+    "D": 995.0,
+    "M": 3,
+    "hp": 100,
+    "invalid": 0
+   },
+   "A": {
+    "score": 45.0,
+    "R": 60.0,
+    "D": 1065.0,
+    "M": 3,
+    "hp": 100,
+    "invalid": 0
+   },
+   "D": {
+    "score": 40.0,
+    "R": 40.0,
+    "D": 870.0,
+    "M": 3,
+    "hp": 20,
+    "invalid": 0
+   },
+   "C": {
+    "score": 17.5,
+    "R": 30.0,
+    "D": 0.0,
+    "M": 2,
+    "hp": 20,
+    "invalid": 0
+   }
+  },
+  "ai": {
+   "C": {
+    "calls": 29,
+    "success": 0,
+    "fail": 29
+   },
+   "D": {
+    "calls": 29,
+    "success": 0,
+    "fail": 29
+   },
+   "A": {
+    "calls": 20,
+    "success": 0,
+    "fail": 20
+   },
+   "B": {
+    "calls": 20,
+    "success": 0,
+    "fail": 20
+   }
+  },
+  "binaries": {
+   "A": {
+    "install_base": "/home/frank/cst/install",
+    "binary_sha256": "39557aa16d75fb07a2cae950efe549c4ae13d5625cc671a3440a4513ed399052"
+   },
+   "B": {
+    "install_base": "/home/frank/cst-league-old/install-v-old_champion-B",
+    "binary_sha256": "bcebb860ae2a0d62f2bacbe336544acd43ea330b4ba6479ff6a81cbb8239bf1e"
+   }
+  }
+ },
+ {
+  "variant": 2,
+  "ok": true,
+  "log_dir": "/home/frank/cst/build/league/league-192/summary_M2_20261208.runs/case-2-9uqjd5cg",
+  "config_path": "/home/frank/cst/build/league/league-192/summary_M2_20261208.runs/case-2-9uqjd5cg/config_2.json",
+  "config_sha256": "4c992cb470645da2c5fb20cd8bfc31d94c9bdd03b2c2053a3caaeb78fcfdb0b5",
+  "session": "practice-383c1bce5bbf47bd92463c8b042eef4b",
+  "run_dir": "/home/frank/.rmtc-practice/practice-383c1bce5bbf47bd92463c8b042eef4b",
+  "teams": {
+   "A": {
+    "score": 57.5,
+    "R": 110.0,
+    "D": 860.0,
+    "M": 3,
+    "hp": 40,
+    "invalid": 0
+   },
+   "D": {
+    "score": 42.5,
+    "R": 50.0,
+    "D": 888.0,
+    "M": 3,
+    "hp": 80,
+    "invalid": 0
+   },
+   "B": {
+    "score": 32.5,
+    "R": 30.0,
+    "D": 890.0,
+    "M": 2,
+    "hp": 10,
+    "invalid": 0
+   },
+   "C": {
+    "score": 7.5,
+    "R": 10.0,
+    "D": 0.0,
+    "M": 1,
+    "hp": 100,
+    "invalid": 0
+   }
+  },
+  "ai": {
+   "A": {
+    "calls": 20,
+    "success": 0,
+    "fail": 20
+   },
+   "D": {
+    "calls": 30,
+    "success": 0,
+    "fail": 30
+   },
+   "B": {
+    "calls": 20,
+    "success": 0,
+    "fail": 20
+   },
+   "C": {
+    "calls": 30,
+    "success": 0,
+    "fail": 30
+   }
+  },
+  "binaries": {
+   "A": {
+    "install_base": "/home/frank/cst/install",
+    "binary_sha256": "39557aa16d75fb07a2cae950efe549c4ae13d5625cc671a3440a4513ed399052"
+   },
+   "B": {
+    "install_base": "/home/frank/cst-league-old/install-v-old_champion-B",
+    "binary_sha256": "bcebb860ae2a0d62f2bacbe336544acd43ea330b4ba6479ff6a81cbb8239bf1e"
+   }
+  }
+ },
+ {
+  "variant": 3,
+  "ok": true,
+  "log_dir": "/home/frank/cst/build/league/league-192/summary_M2_20261208.runs/case-3-6yhom3l_",
+  "config_path": "/home/frank/cst/build/league/league-192/summary_M2_20261208.runs/case-3-6yhom3l_/config_3.json",
+  "config_sha256": "04a276d397f2af349cc7bcd6d05cbb082adebeaf9a843d1896da5e08d65ee961",
+  "session": "practice-9cc021639d084c749a3af09e58c892f1",
+  "run_dir": "/home/frank/.rmtc-practice/practice-9cc021639d084c749a3af09e58c892f1",
+  "teams": {
+   "D": {
+    "score": 44.1,
+    "R": 60.0,
+    "D": 470.0,
+    "M": 3,
+    "hp": 100,
+    "invalid": 0
+   },
+   "C": {
+    "score": 40.0,
+    "R": 40.0,
+    "D": 1185.0,
+    "M": 3,
+    "hp": 100,
+    "invalid": 0
+   },
+   "B": {
+    "score": 40.0,
+    "R": 40.0,
+    "D": 895.0,
+    "M": 3,
+    "hp": 60,
+    "invalid": 0
+   },
+   "A": {
+    "score": 40.0,
+    "R": 60.0,
+    "D": 1190.0,
+    "M": 2,
+    "hp": 100,
+    "invalid": 0
+   }
+  },
+  "ai": {
+   "C": {
+    "calls": 29,
+    "success": 0,
+    "fail": 29
+   },
+   "B": {
+    "calls": 20,
+    "success": 0,
+    "fail": 20
+   },
+   "A": {
+    "calls": 20,
+    "success": 0,
+    "fail": 20
+   },
+   "D": {
+    "calls": 29,
+    "success": 0,
+    "fail": 29
+   }
+  },
+  "binaries": {
+   "A": {
+    "install_base": "/home/frank/cst/install",
+    "binary_sha256": "39557aa16d75fb07a2cae950efe549c4ae13d5625cc671a3440a4513ed399052"
+   },
+   "B": {
+    "install_base": "/home/frank/cst-league-old/install-v-old_champion-B",
+    "binary_sha256": "bcebb860ae2a0d62f2bacbe336544acd43ea330b4ba6479ff6a81cbb8239bf1e"
+   }
+  }
+ }
+]
