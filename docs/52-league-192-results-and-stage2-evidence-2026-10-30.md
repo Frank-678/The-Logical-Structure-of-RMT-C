@@ -71,14 +71,14 @@ M1 试点 8 局 47.1875（仅 20261201/02 两图）与本批 12 图 43.96 地图
 
 ## 5. AI 调用告警（练习证据的重大 caveat，如实声明）
 
-- 本批 **3640/3640 次 AI 调用全部失败**（M1–M3 各 960、M4 760），bot 日志每 tick `ai=http_502 http_success=0`；历史抽查 **0/200** 份练习 bot 日志含 AI 成功痕迹——**练习环境的 LLM 精化路径从未实际生效**，全部练习证据（docs/44/46/48 及本批）度量的是规则引擎路径。
+- 本批 **3640/3640 次 AI 调用全部失败**（M1–M3 各 960、M4 760），bot 日志每 tick `ai=http_502 http_success=0`；**联赛批次口径成立，但「历史抽查 0/200」「LLM 精化路径从未实际生效」表述有误——勘误见文末 §8**。全部联赛批次练习证据（docs/44/46/48 及本批）度量的是规则引擎路径。
 - 机制（已逐环实证）：
   1. practice_launcher.cpp 对 stage2 强制 real 模式，并把 match_config.hpp 的 practice_llm_key（**提交态为空串**，按"用后即还原并重建、绝不提交"纪律）以覆盖方式写入环境；
   2. 原版代理 practice.py forward_ai 直连上游，携带 `Authorization: Bearer `（空）；
   3. 上游返回 401 纯文本（"Authentication Fails (auth header format should be Bearer sk-...)"，content-type 空，无重定向——2026-10-30 实测）；
   4. 代理 `response.json()` 抛 ValueError → 映射 502「上游模型调用失败」（practice.py:450；重定向分支 :446）。
 - 上游网络本身可达（2026-10-30 实测直连 401 即证明链路通）。根因是**配置层**（空 key），非网络/接口。
-- 对 stage2 的影响：官方赛 AI 调用为官方端点 + 席位令牌（手册事实：deepseek-flash / max_tokens 512 / Bearer 席位令牌），与练习配置不同；练习证据证明参赛程序全链路行为，"模型调用成功时"的行为未经练习验证，技术报告须如实声明。
+- 对 stage2 的影响：官方赛 AI 调用为官方端点 + 席位令牌（手册事实：deepseek-flash / max_tokens 512 / Bearer 席位令牌），与练习配置不同；「模型调用成功时」的行为在练习档案中已有实据（90 会话 5912 次真实 200，含 EVENT_USE 两局完赛——勘误见文末 §8），技术报告按勘误口径声明。
 - 修复路线（联赛后、诊断/工具类，行为类默认关）：practice_launcher 环境变量优先（setenv 覆盖=0）→ 密钥置于 ~/.rmtc-practice/llm.env（不入库）→ `--check-ai` 单次验证 → 重建席位变体 + 重新冻结钉 → 小批次 AI-real 验证 http_success>0，之后 AI 行为证据才成立。
 
 ## 6. stage2 证据满足性
@@ -103,3 +103,14 @@ M1 试点 8 局 47.1875（仅 20261201/02 两图）与本批 12 图 43.96 地图
 - 冻结复验：`cd ~/cst && python3 -m unittest tests.practice_tools_test` → 16 tests OK（R2 1→1 / R3 空格 / R4 入口注入 / 批次退出码 / Ready 逐次基线）
 - 上游连通性（无 key 探测，不读 key）：`curl -sS -X POST https://api.deepseek.com/chat/completions -H 'Authorization: Bearer ' -d '{...}'` → 401 纯文本
 - 二进制比对：objcopy 逐段抽取 + chk_disp.py 位移分类（1659 处全部正向平移、零指令差异）
+
+## 8. 勘误（2026-10-30 深夜，观赛量化）
+
+§5 的「历史抽查 0/200」「模型调用成功时的行为未经练习验证」**不成立**：抽查只覆盖 bot 日志且多为空 key 时代样本，未核对练习代理侧的 ai.jsonl。全库复核（`/home/frank/.rmtc-practice/`，419 会话、382 份 ai.jsonl，success 与 status 逐条一致）：
+
+- **90 个会话 real 模式 HTTP 200 共 5912 次**（10-28 21:21～10-29 21:51；82 个会话同时含 200/502 记录；四席 A/B/C/D 均有真实成功记录）；
+- 含 EVENT_USE 真实对局 dfcef97（45 分第一，A 席 26/26）与 178b15（55 分第一，A 席 29/29）；
+- 6 个早期会话 200 条 mock 模式记录（非真实调用，不计入）；
+- 其余 26594 条 502 集中在 10-29 22:00 后空 key 联赛批次——**本批 3640/3640 全败口径不变**。
+
+修正结论：练习历史有 5912 次真实统一 AI 调用实据；「练习证据=规则引擎路径」仅适用于 10-29 22:00 后的联赛批次。技术报告（docs/57）已按此修正。
