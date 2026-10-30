@@ -1,5 +1,6 @@
 # Per tick offline diagnostic L07-L12; 18x18 synthetic official-practice stage2.
 session	tick	pos	HPpre	HPpost	Rpost	Dpost	action	reason	enemyRay2_truth	freeAdj_truth	death
+practice-8db2130d06ff4986a13ddf53aaefb993	0						MISSING	missing_first_action_log			0
 practice-8db2130d06ff4986a13ddf53aaefb993	1	1:16	100	100	0	0	move	explore_frontier		4	0
 practice-8db2130d06ff4986a13ddf53aaefb993	2	1:15	100	100	0	0	move	collect_resource		4	0
 practice-8db2130d06ff4986a13ddf53aaefb993	3	1:14	100	100	0	0	move	collect_resource		4	0
