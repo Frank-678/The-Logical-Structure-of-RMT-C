@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/mnt/d/code/The-Logical-RMT-C-log/_verify_run/checker.py", line 80, in <module>
+    for rid, kind, rel, cited, rest in out:
+ValueError: too many values to unpack (expected 5)

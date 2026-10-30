@@ -1,0 +1,786 @@
+[
+ {
+  "id": "GL-01",
+  "text": "第一阶段：每队1–2人独立采集，100 Tick，100 ms/Tick，共10秒，满分40（RMTC目标：stage1 40分）。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/01-source-review.md:76",
+  "category": "goal",
+  "evidence": "每队 1–2 人；第一阶段独立采集 100 Tick，100 ms/Tick，共 10 秒，满分 40"
+ },
+ {
+  "id": "GL-02",
+  "text": "第二阶段：最多四队同场 500 Tick，500 ms/Tick，共250秒，满分60。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/01-source-review.md:77",
+  "category": "goal",
+  "evidence": "第二阶段最多四队同场 500 Tick，500 ms/Tick，共 250 秒，满分 60"
+ },
+ {
+  "id": "GL-03",
+  "text": "stage2 目标 50 分；当前锚点是训练集 41.25，联赛数据将给出原版/自战维度真实名次与分数分布作为 50 分验收的第一手证据。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/38-version-league-spec-2026-10-29.md:50",
+  "category": "goal",
+  "evidence": "stage2 目标 50 的当前锚点：训练集 41.25；联赛数据将给出原版/自战维度的真实名次与分数分布，作为 50 分验收的第一手证据。"
+ },
+ {
+  "id": "GL-04",
+  "text": "必须补齐 stage-2 证据缺口（原版对局 + 自战联赛）；当前唯一 stage2 锚点仍是训练集 41.25，距离 50 目标尚远。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/37-race-batches-real-battles-2026-10-29.md:60",
+  "category": "goal",
+  "evidence": "stage-2 证据缺口（原版对局 + 自战联赛）仍待 C7/U6 版本联赛实施 —— 当前唯一 stage2 锚点仍是训练集 41.25，距离 50 目标尚远"
+ },
+ {
+  "id": "GL-05",
+  "text": "版本联赛目的：补齐 stage-2 证据缺口——与原版的一局 + 自己打自己不同模型（冻结二进制的自战版本联赛；多 profile 自战档案不能代表旧版本或原版 robot_node）。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/38-version-league-spec-2026-10-29.md:3",
+  "category": "goal",
+  "evidence": "目的：补齐 stage-2 证据缺口 —— 与原版的一局 + 自己打自己不同模型……U6 判定：多 profile 自战档案不能代表旧版本或原版 robot_node。"
+ },
+ {
+  "id": "GL-06",
+  "text": "阶段一40分受TSP下界约束不可达（天花板≈37）；阶段二50分需要R≈90+M3+D500——两目标在当前规则与视野4下均不可达（目标是锚点，按不可达口径如实记载）。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/implementation/LESSONS.md:76",
+  "category": "metric",
+  "evidence": "阶段一40分受TSP下界约束不可达（天花板≈37）；阶段二50分需要R≈90+M3+D500……两目标在当前规则与视野4下均不可达"
+ },
+ {
+  "id": "MT-01",
+  "text": "第一阶段计分公式：S1 = 40 × R1 / 200。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/01-source-review.md:108",
+  "category": "metric",
+  "evidence": "第一阶段：S1 = 40 × R1 / 200。"
+ },
+ {
+  "id": "MT-02",
+  "text": "第二阶段计分公式（v1.0）：S2 = 30 × min(R/120, 1) + 15 × min(D/300, 1) + 5 × M。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/01-source-review.md:110",
+  "category": "metric",
+  "evidence": "第二阶段：S2 = 30 × min(R/120, 1) + 15 × min(D/300, 1) + 5 × M。"
+ },
+ {
+  "id": "MT-03",
+  "text": "第二阶段计分公式（现行）：S2 = 30 min(R/120,1) + 15 min(D/500,1) + 5M；未封顶时资源斜率0.25分/价值，有效伤害0.03分/点；普通资源2.5分、高级5分、任务每项5分。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/03-tradeoffs.md:13",
+  "category": "metric",
+  "evidence": "S2=30 min(R/120,1)+15 min(D/500,1)+5M。未封顶时资源斜率0.25分/价值，调整后有效伤害0.03分/点；普通资源直接2.5分、高级5分，任务每项5分。"
+ },
+ {
+  "id": "MT-04",
+  "text": "对抗分 = 15×min(D/500,1)，最高仍15分，替代旧 D/300（RULES-02 §10.2 第18页）。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/11-v1.1-rule-migration.md:13",
+  "category": "metric",
+  "evidence": "对抗分 | 15×min(D/500,1)，最高仍15分；替代旧D/300 | RULES-02 §10.2，第18页"
+ },
+ {
+  "id": "MT-05",
+  "text": "死亡结算：本Tick所有伤害/奖励先入账，再每次死亡扣60，最低0；分裂立即复活也扣。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/11-v1.1-rule-migration.md:15",
+  "category": "metric",
+  "evidence": "本Tick所有伤害/奖励先入账，再每次死亡扣60，最低0；分裂立即复活也扣 | RULES-02 §5.2第13页、§7第14页"
+ },
+ {
+  "id": "MT-06",
+  "text": "击杀奖励：每名死者一份60，致死批次造成正伤害的队伍去重后均分。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/11-v1.1-rule-migration.md:16",
+  "category": "metric",
+  "evidence": "每名死者一份60，致死批次造成正伤害的队伍去重后均分 | §10.2，第18页"
+ },
+ {
+  "id": "MT-07",
+  "text": "有效伤害递推：D_t = max(0, D_(t-1) + 本Tick实际攻击贡献 + 击杀奖励 − 60×本Tick死亡次数)；D可超500并随死亡下降，超额是缓冲不可截断。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/11-v1.1-rule-migration.md:29",
+  "category": "metric",
+  "evidence": "D_t = max(0, D_(t-1) + 本Tick实际攻击贡献 + 击杀奖励 - 60*本Tick死亡次数)"
+ },
+ {
+  "id": "MT-08",
+  "text": "杠杆 heldout 晋升基准 = 冠军封存 heldout objective 0.8298625（arena-postcap-heldout-2026-10-29）。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/34-lowhp-attack-discount-2026-10-29.md:22",
+  "category": "metric",
+  "evidence": "≥ 冠军封存 0.8299…冻结 baseline 行必须逐位复现 0.7710073（确定性钉），否则本次 heldout 作废重跑"
+ },
+ {
+  "id": "MT-09",
+  "text": "冻结 baseline 行必须逐位复现 0.7710073（确定性钉），否则本次 heldout 作废重跑；冻结基线只作可比性校验，不是晋升基准。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/34-lowhp-attack-discount-2026-10-29.md:22",
+  "category": "metric",
+  "evidence": "冻结 baseline 行必须逐位复现 0.7710073（确定性钉），否则本次 heldout 作废重跑"
+ },
+ {
+  "id": "MT-10",
+  "text": "真实对局护栏：若 deaths 显著上升（均值 ≥9 且中位数 ≥8）且平局翻盘 0 次 → 回退 post_cap_combat_weight=0.02。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/30-real-battle-baseline-and-postcap-batch-2026-10-29.md:39",
+  "category": "metric",
+  "evidence": "若 deaths 显著上升（均值 ≥9 且中位数 ≥8）且平局翻盘 0 次 → 回退 0.02"
+ },
+ {
+  "id": "MT-11",
+  "text": "真实批量预注册判据：t30 完成率 ≥0.356；耗尽时A份额回升、拾取数回升；deaths/damage_events 沿用\"均值 ≥9 且中位 ≥8\"防线。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/35-t30-opening-metrics-batch-2026-10-29.md:86",
+  "category": "metric",
+  "evidence": "下轮真实批量预注册判据（同口径）：耗尽时 A 份额均值回升、拾取数回升、t30 完成率 ≥0.356；deaths/damage_events 沿用\"均值 ≥9 且中位 ≥8\"防线。"
+ },
+ {
+  "id": "MT-12",
+  "text": "版本联赛规模：144 场/版本起步 = 12 图 × 4 席位 × 3 对手混合。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/38-version-league-spec-2026-10-29.md:22",
+  "category": "metric",
+  "evidence": "144 场/版本起步 = 12 图 × 4 席位 × 3 对手混合"
+ },
+ {
+  "id": "MT-13",
+  "text": "冠军 search_04 锚点：留出阶段一 32.67/40、阶段二 43.89/60；14 个杠杆家族关闭，冠军在每轴均为经验局部最优。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/implementation/LESSONS.md:156",
+  "category": "metric",
+  "evidence": "冠军search_04不变：留出阶段一32.67/40、阶段二43.89/60"
+ },
+ {
+  "id": "MT-14",
+  "text": "旧冠军 heldout objective 0.8437 须连同源码 SHA、参数与对手版本封存并逐局复现，不能只凭参数名未变就自动延续到新源码。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/review.md:34",
+  "category": "metric",
+  "evidence": "旧冠军的 0.8437 应连同其源码 SHA、参数与对手版本保存，不能只凭参数名未变就自动延续到新源码。"
+ },
+ {
+  "id": "CN-01",
+  "text": "堡垒区域：多数地图 [11,11] 至 [13,13]，特殊地图按当场公告；不能写死坐标，堡垒范围以当场公告为准。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/02-rulebook.md:19",
+  "category": "constraint",
+  "evidence": "堡垒区域 多数[11,11]至[13,13]，特殊地图按当场公告；不能写死坐标"
+ },
+ {
+  "id": "CN-02",
+  "text": "模型调用必须走官方网关；禁止本地模型。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/02-rulebook.md:21",
+  "category": "constraint",
+  "evidence": "模型：官方网关；禁止本地模型"
+ },
+ {
+  "id": "CN-03",
+  "text": "正式运行除官方统一调用外不允许其他 AI 调用，包括本地模型；提交与现场运行版本须一致。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/13-qa-and-fortress-2026-10-25.md:26",
+  "category": "constraint",
+  "evidence": "正式运行除官方统一调用外不允许其他AI调用，包括本地模型；提交与现场运行版本须一致"
+ },
+ {
+  "id": "CN-04",
+  "text": "现场启动哪个版本就提交哪个，不能提交与运行两套代码。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/13-qa-and-fortress-2026-10-25.md:29",
+  "category": "constraint",
+  "evidence": "现场启动哪个版本，就提交哪个，不能提交与运行两套代码"
+ },
+ {
+  "id": "CN-05",
+  "text": "封存后不能随意修改源代码、Prompt 或策略参数。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/01-source-review.md:184",
+  "category": "constraint",
+  "evidence": "封存后不能随意修改源代码、Prompt 或策略参数"
+ },
+ {
+  "id": "CN-06",
+  "text": "人工重启每阶段原则上最多两次，不补时。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/01-source-review.md:185",
+  "category": "constraint",
+  "evidence": "人工重启每阶段原则上最多两次，不补时"
+ },
+ {
+  "id": "CN-07",
+  "text": "2026-10-31 20:00 前提交代码、镜像、技术报告与自有程序联调截图/录屏；2026-11-01 正式比赛。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/01-source-review.md:186",
+  "category": "constraint",
+  "evidence": "2026-10-31 20:00前提交代码、镜像、技术报告与自有程序联调截图/录屏；2026-11-01正式比赛"
+ },
+ {
+  "id": "CN-08",
+  "text": "材料截止仍 2026-10-31 20:00，正式比赛仍 11 月 1 日；删镜像不代表取消前置检录截图/录屏。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/16-v1.2-rule-migration.md:26",
+  "category": "constraint",
+  "evidence": "材料截止仍2026-10-31 20:00（§1第5页、§2.2第7页），正式比赛仍11月1日。删镜像不代表取消前置检录截图/录屏。"
+ },
+ {
+  "id": "CN-09",
+  "text": "现场替补/切换仍按封存规则执行。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/15-map-editor-and-onsite-addendum.md:74",
+  "category": "constraint",
+  "evidence": "现场替补/切换仍按封存规则"
+ },
+ {
+  "id": "CN-10",
+  "text": "令牌不提交仓库、不录入公开截图。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/15-map-editor-and-onsite-addendum.md:76",
+  "category": "constraint",
+  "evidence": "令牌不提交仓库、不录入公开截图"
+ },
+ {
+  "id": "CN-11",
+  "text": "不写死练习目标与示例坐标；正式任务内容不固定，读取本场 missions（每场从对局数据读取）。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/04-architecture.md:22",
+  "category": "constraint",
+  "evidence": "任务规划 | missions+资源/伤害进度→目标候选 | 不写死练习目标；考虑封顶与任务资格"
+ },
+ {
+  "id": "CN-12",
+  "text": "比赛中不存在 JSON/ROS 调参入口；伤害距离/结算常量不可交给优化器搜索；生产配置集中 match_config.hpp（编译期）。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/24-multistyle-arena-tuning-and-gateway-2026-10-28.md:13",
+  "category": "constraint",
+  "evidence": "不存在赛中JSON/ROS调参入口，伤害距离/结算常量不搜索"
+ },
+ {
+  "id": "CN-13",
+  "text": "不得以关键词匹配替代 LLM 事件理解（不得以\"天下无双\"关键词触发固定区域并用无关模型请求冒充事件理解）。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/17-map-uncertainty-2026-10-27.md:18",
+  "category": "constraint",
+  "evidence": "随机事件入口仍是公开event_text，经官方LLM理解位置、触发、生效与失效；本地代码校验并执行。不得以\"天下无双\"关键词触发固定区域并用其他无关模型请求冒充事件理解。"
+ },
+ {
+  "id": "CN-14",
+  "text": "赛前自备网线、有线环境实测；SSH 或网页可达不能替代 ROS/DDS 通信证据（有线联调纳入验收）。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/10-rule-clarifications-2026-10-21.md:67",
+  "category": "constraint",
+  "evidence": "赛前自备网线，用有线环境实测能否运行……SSH或网页可达不能替代ROS/DDS通信证据。"
+ },
+ {
+  "id": "CN-15",
+  "text": "表述纪律：不把\"移动可能改善下一回合站位\"写成\"能躲掉本回合的攻击\"。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/02-rulebook.md:28",
+  "category": "constraint",
+  "evidence": "不要把\"移动可能改善下一回合站位\"写成\"能躲掉本回合的攻击\""
+ },
+ {
+  "id": "CN-16",
+  "text": "封存要求：源代码、Prompt、策略参数一起版本化。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/06-delivery-and-schedule.md:26",
+  "category": "constraint",
+  "evidence": "封存：源代码、Prompt、策略参数一起版本化"
+ },
+ {
+  "id": "CN-17",
+  "text": "不修改原裁判，不让机器人发布或覆盖成绩。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/implementation/SCOREBOARD.md:21",
+  "category": "constraint",
+  "evidence": "不修改原裁判，不让机器人发布或覆盖成绩"
+ },
+ {
+  "id": "CN-18",
+  "text": "练习配置（事件参数与正式标准不同）仅人工练习，不能作为决策输入。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/12-v1.1-package-audit.md:15",
+  "category": "constraint",
+  "evidence": "两阶段JSON配置 | 与旧包相同，事件参数仍与正式标准不同 | 仅人工练习；不能作为决策输入"
+ },
+ {
+  "id": "CN-19",
+  "text": "任务得分须满足本场、本席位真实统一 AI 成功调用资格（真实统一 AI 成功调用资格是计分前提）。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/01-source-review.md:116",
+  "category": "constraint",
+  "evidence": "真实统一 AI 成功调用资格"
+ },
+ {
+  "id": "CN-20",
+  "text": "总分构成：资源30 + 对抗15 + 三任务15 = 60；正式任务内容不固定，读取本场 missions。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/11-v1.1-rule-migration.md:24",
+  "category": "metric",
+  "evidence": "总分仍为资源30＋对抗15＋三任务15＝60；正式任务内容不固定，读取本场missions。"
+ },
+ {
+  "id": "CN-21",
+  "text": "参赛决策输入边界：运行裁判或真实 AI 前读取接入说明；不得把观赛真值、内部 ROS、管理端或练习配置作为参赛决策输入。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/AGENTS.md:8",
+  "category": "constraint",
+  "evidence": "运行裁判或真实 AI 前读取接入说明；不得把观赛真值、内部 ROS、管理端或练习配置作为参赛决策输入"
+ },
+ {
+  "id": "CN-22",
+  "text": "杠杆触发条件只依据本队感知（known-reachable tiles_：value>0、非墙、paths 有解），不读取 config、观赛 map_view 或地图真值；资源总量真值只用于赛后指标。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/36-race-reach-holdoff-2026-10-29.md:52",
+  "category": "constraint",
+  "evidence": "触发条件只依据本队感知……不读取 config、观赛 map_view 或地图真值——符合 U7 的\"参赛程序只能依据本队感知估计\"要求。"
+ },
+ {
+  "id": "CN-23",
+  "text": "参赛程序只能依据本队感知、回执、可用公开公告与合法记忆估计，不能读取 config、观赛 map_view 或别车感知来准确获知全图耗尽；试验时资源总量真值用于赛后指标，策略触发条件另写清楚。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/review.md:227",
+  "category": "constraint",
+  "evidence": "参赛程序只能依据本队感知、回执、可用公开公告与合法记忆估计，不能读取 config、观赛 map_view 或别车感知来准确获知全图耗尽。"
+ },
+ {
+  "id": "CN-24",
+  "text": "不能猜地图或事件参数；不引入地图真值、关键词事件解析或模型直接动作（本地按真实坐标持续行动，模型异步解释、校验后更新）。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/implementation/MATERIALS_CHECK.md:14",
+  "category": "constraint",
+  "evidence": "不能猜地图或事件参数……这次修复调用链和可观察性，不引入地图真值、关键词事件解析或模型直接动作"
+ },
+ {
+  "id": "CN-25",
+  "text": "用户贴入的真实上游密钥不得抄入文档、代码或提交；提示其撤销轮换；测试仅使用 fixture 凭据。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/18-conversation-and-implementation.md:115",
+  "category": "constraint",
+  "evidence": "用户贴入的真实上游密钥没有抄入本文、代码或提交；提示其撤销轮换。测试仅使用fixture凭据"
+ },
+ {
+  "id": "CN-26",
+  "text": "临时 Key 只用于测试，没有写入代码、日志或结果文件（测试后删除临时副本）。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/implementation/REAL_TEST.md:7",
+  "category": "constraint",
+  "evidence": "临时Key只用于测试，没有写入代码、日志或结果文件"
+ },
+ {
+  "id": "CN-27",
+  "text": "凭据未写入仓库或结果，临时副本测试后已删除。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/18-conversation-and-implementation.md:196",
+  "category": "constraint",
+  "evidence": "凭据未写入仓库或结果，临时副本测试后已删除"
+ },
+ {
+  "id": "CN-28",
+  "text": "推送/归档前 API key 扫描必须干净（sk-cbc 扫描通过）；网关核验 ai.jsonl 行数==seat 调用数，A 0 失败。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/37-race-batches-real-battles-2026-10-29.md:53",
+  "category": "process",
+  "evidence": "网关核验：ai.jsonl 行数==seat 调用数，A 0 失败；全部文件 sk-cbc 扫描通过。"
+ },
+ {
+  "id": "CN-29",
+  "text": "归档记录哈希/validated/rejected/partial/去重/token/费用，但不存凭据。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/review.md:245",
+  "category": "constraint",
+  "evidence": "A 独立 event_update 日志随批归档，哈希/validated/rejected/partial/去重/token/费用记录（不存凭据）"
+ },
+ {
+  "id": "CN-30",
+  "text": "通常禁止修改、合并或推送 main；2026-10-28 用户明确新增授权：可直接扩充 main/README.md 的进度矩阵与勾号状态，本次例外仅限该文件；不要自动创建指向 main 的合并操作。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/AGENTS.md:4",
+  "category": "constraint",
+  "evidence": "通常禁止修改、合并或推送 main。2026-10-28 用户明确新增授权：可直接扩充 main/README.md 的进度矩阵……本次例外仅限该文件……不要自动创建指向 main 的合并操作"
+ },
+ {
+  "id": "CN-31",
+  "text": "main 授权边界：只改 README 矩阵与勾号；不合并研究历史，不将两支名称/入口写入 main 或代码 PR。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/23-incoming-analysis-and-planning-2026-10-28.md:11",
+  "category": "constraint",
+  "evidence": "明确授权扩充main README矩阵和勾号……只改README；不合并研究历史，不将两支名称/入口写入main或代码PR"
+ },
+ {
+  "id": "CN-32",
+  "text": "ANALYSIS/COMPARISON 为保密预备分支：不得向其他分支、PR、Issue、标签、公开工作流、发布说明或网站添加这些分支的名称、入口或曾存在的线索；不得把本研究历史合并到正式开发分支；未来公开采用干净历史导出。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/governance/private-preparation.md:3",
+  "category": "constraint",
+  "evidence": "不得向其他分支、PR、Issue、标签、公开工作流、发布说明或网站添加这些分支的名称、入口或曾存在的线索；不得把本研究历史合并到正式开发分支"
+ },
+ {
+  "id": "CN-33",
+  "text": "只在现有研究分支提交，不创建新分支、不动 main 或参赛 PR；旧原件、practice、上游快照及其哈希不改。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/22-latest-branches-and-ahc-review-2026-10-28.md:88",
+  "category": "constraint",
+  "evidence": "旧原件、practice、上游快照及其哈希不改；只在现有研究分支提交，不创建新分支、不动 main 或参赛 PR。"
+ },
+ {
+  "id": "CN-34",
+  "text": "用户最终指定分支：ANALYSIS 归档本比赛，COMPARISON 归档外部比较与代码摘录；禁止操作 main，不创建向 main 的合并操作。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/08-discussion-record.md:23",
+  "category": "constraint",
+  "evidence": "用户最终指定分支：ANALYSIS归档本比赛，COMPARISON归档外部比较与代码摘录；禁止操作main……不创建向main的合并操作"
+ },
+ {
+  "id": "CN-35",
+  "text": "AI 生成或修改的代码，应先提交到非 main 分支，再通过 PR 合并到 main。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/governance/original-collaboration-guidelines.md:5",
+  "category": "process",
+  "evidence": "使用 AI 生成或修改的代码，应先提交到非 \"main\" 分支，再通过 Pull Request（PR）合并到 \"main\"。"
+ },
+ {
+  "id": "CN-36",
+  "text": "方案尚未确定或效果有待验证：无论改动大小都应先提交到非 main 分支，验证后再 PR；内容明确且已验证的补丁可以直接提交到 main。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/governance/original-collaboration-guidelines.md:16",
+  "category": "process",
+  "evidence": "方案尚未确定或效果有待验证：无论改动大小，都应先提交到非 \"main\" 分支，验证后再通过 PR 合并。/ 内容明确且已验证的补丁：可以直接提交到 \"main\"。"
+ },
+ {
+  "id": "PR-01",
+  "text": "2026-10-29 用户补充：分析类文件放本仓库（ANALYSIS），与代码强相关的除外；代码仓库保留构建运行、源码/规则接口与测试用法。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/AGENTS.md:15",
+  "category": "process",
+  "evidence": "2026-10-29用户补充：分析类文件放本仓库，与代码强相关的除外……构建运行、源码/规则接口与测试用法保留代码仓库"
+ },
+ {
+  "id": "PR-02",
+  "text": "文档归属：新分析/实验档案写入本仓库 docs/ 与 checks/code-results/；代码仓库保留构建/运行/源码接口/测试用法与部署所需参数（match_config.hpp、run.sh、run_arena.py、eval_levers.py）；旧来源 SHA 与文件哈希随档案保存；不迁入整段研究分支历史；不删原始材料或改 practice/。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/review.md:90",
+  "category": "process",
+  "evidence": "本轮新分析/实验档案写入本仓库 docs/29-*（2026-10-29 轮）与 checks/code-results/；代码仓库保留构建/运行/源码接口/测试用法与部署所需参数……旧来源 SHA 与文件哈希随档案保存"
+ },
+ {
+  "id": "PR-03",
+  "text": "迁移说明：LESSONS/MATERIALS_CHECK/NAVIGATION/PLANNING/REAL_TEST 等按 2026-10-28 用户要求移入分析仓库 docs/implementation/，进一步编辑在此维护，保留原代码基线 826c4da 出处。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/implementation/README.md:17",
+  "category": "process",
+  "evidence": "迁移说明：本文于2026-10-28按用户要求从代码仓库移入分析仓库；原代码基线826c4da，原有测试结论按当时范围理解。"
+ },
+ {
+  "id": "PR-04",
+  "text": "Review 回复协议：双方只 append 本 review.md，按实际写入时间顺序，不改写、删除、重排历史；每条注明北京时间、身份、回应 ID、接受/异议/待验证、相关提交 SHA，以及证据和下一步。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/review.md:7",
+  "category": "protocol",
+  "evidence": "你的回复也必须直接追加在本 review.md 末尾。双方只 append，按实际写入时间顺序，不改写、删除、重排历史。每条注明北京时间、身份、回应 ID、接受/异议/待验证、相关提交 SHA，以及证据和下一步。"
+ },
+ {
+  "id": "PR-05",
+  "text": "Review 勘误与分卷：旧记录有错时新增勘误，保留原记录；代码条目回代码分支同名 review.md，理论与日志条目回本文件；并发更新先重新读取再追加，保留双方内容，不强推。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/review.md:7",
+  "category": "protocol",
+  "evidence": "旧记录有错时新增勘误，保留原记录。代码条目请回代码分支的同名文件；理论与日志条目回本文件。并发更新先重新读取再追加，保留双方内容，不强推。"
+ },
+ {
+  "id": "PR-06",
+  "text": "远程分支监控：追踪全部分支的新提交，固定 HEAD 快照（ANALYSIS 457d99a…、main bee5397… 等）随表冻结。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/22-latest-branches-and-ahc-review-2026-10-28.md:11",
+  "category": "process",
+  "evidence": "ANALYSIS | 457d99a286338d41fe278781d727c5d37424e135 | 79bf098403accd9f412ab8ba0cd1b44622df9ce9 | 3 | docs/21 新研究，以及 README、INDEX 导航"
+ },
+ {
+  "id": "PR-07",
+  "text": "每小时自动检查状态（如实）：5/5 定时任务已满，未创建成功、未停用现有任务；本文件不代表已启用实时监控；后续若启用按远端实质变更追加，跳过纯 ChatGPT review 提交避免自我触发。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/review.md:62",
+  "category": "process",
+  "evidence": "服务返回 too_many_active_automations，当前 5/5 定时任务已满，没有创建成功，也没有停用现有任务。本文件不代表已启用实时监控。"
+ },
+ {
+  "id": "PR-08",
+  "text": "杠杆晋升总则：全部以\"冠军逐位一致\"为默认（0/false），晋升必须经过 train 评估与 heldout 一次性验证。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/29-review-fixes-and-postcap-lever-2026-10-29.md:11",
+  "category": "protocol",
+  "evidence": "全部以'冠军逐位一致'为默认（0/false），晋升必须经过 train 评估与 heldout 一次性验证"
+ },
+ {
+  "id": "PR-09",
+  "text": "train 协议：全量 24 场景（12 stage-1 + 12 stage-2）；selection_guards：invalid==0、stage1 ≥ baseline_stage1−1；heldout 仅对选中者评估一次。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/36-race-reach-holdoff-2026-10-29.md:22",
+  "category": "protocol",
+  "evidence": "train 全量 24 场景（12 stage-1 + 12 stage-2），协议同前（selection_guards：invalid==0、stage1 ≥ baseline_stage1−1；heldout 仅对选中者评估一次）。"
+ },
+ {
+  "id": "PR-10",
+  "text": "预注册要求：批量对照判据写于批量运行中、结果未读（预注册判据须先于结果确立）。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/35-t30-opening-metrics-batch-2026-10-29.md:19",
+  "category": "protocol",
+  "evidence": "预注册对照判据（写于批量运行中，结果未读）"
+ },
+ {
+  "id": "PR-11",
+  "text": "杠杆 heldout 的晋升基准是冠军封存 heldout；冻结基线只作可比性校验（协议修正后口径）。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/32-lc-coverage-exploration-2026-10-30.md:81",
+  "category": "protocol",
+  "evidence": "杠杆 heldout 的晋升基准是冠军封存 heldout，冻结基线只作可比性校验"
+ },
+ {
+  "id": "PR-12",
+  "text": "heldout 不达标 → 家族关闭，保持默认值，不作第二次 heldout。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/34-lowhp-attack-discount-2026-10-29.md:23",
+  "category": "protocol",
+  "evidence": "不达标 → 家族关闭，保持 1.0，不作第二次 heldout"
+ },
+ {
+  "id": "PR-13",
+  "text": "留出集合纪律：反复使用同一留出结果的集合只能称\"反复使用的验证成绩\"，不能称\"完全未参与选择的最终测试集\"；最终检查用一次未看过的地图族/种子，无需为每个小改动消耗新最终测试。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/review.md:32",
+  "category": "protocol",
+  "evidence": "即使每个候选只跑它一次，只要看完结果决定是否保留参数、是否继续该策略族，这个集合已经参与开发决策，不能继续称作完全未参与选择的最终测试集。"
+ },
+ {
+  "id": "PR-14",
+  "text": "评测方法学：固定对照版本、候选版本和最佳已验证版本；测试种子/对手池/机器/并行数/规则版本都记录；调参集和验收集分开；统计单位按地图配对，不把同图换边结果当完全独立样本。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/05-validation.md:29",
+  "category": "process",
+  "evidence": "固定对照版本、候选版本和最佳已验证版本；测试种子/对手池/机器/并行数/规则版本都记录。调参集和验收集分开。统计单位按地图配对，不把同图换边结果当完全独立样本"
+ },
+ {
+  "id": "PR-15",
+  "text": "没有显著改善时保留旧版。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/05-validation.md:33",
+  "category": "process",
+  "evidence": "没有显著改善时保留旧版"
+ },
+ {
+  "id": "PR-16",
+  "text": "墙钟负载控制：对照评估轮换 A→B/B→A 顺序、重复场景、报告成对差值范围与超预算次数；小于一次拾取的均值差不作结论；机器负载问题先控制再决定细小调参差是否可信。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/review.md:82",
+  "category": "process",
+  "evidence": "后续对照评估将轮换 A→B/B→A 顺序、重复场景并报告成对差值范围与超预算次数。……小于一次拾取的均值差，不宜直接下\"逐位同一/局部最优/家族闭合\"的结论。"
+ },
+ {
+  "id": "PR-17",
+  "text": "被校验器拒绝的配置计为生成/校验失败单独报告，不能当作机器人输赢，也不应静默减少样本量。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/review.md:227",
+  "category": "process",
+  "evidence": "配置被拒绝的一场应计为生成/校验失败并单独报告，不能当作机器人输赢，也不应静默减少样本量。"
+ },
+ {
+  "id": "PR-18",
+  "text": "版本冻结清单：tools/versions.json 冻结 champion/old_champion/candidate 的 commit SHA、params_digest（match_config.hpp sha256）、binary_sha256、独立构建目录；选手参数只在 match_config.hpp（编译期），无运行时参数注入；席位/令牌 constexpr。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/38-version-league-spec-2026-10-29.md:18",
+  "category": "protocol",
+  "evidence": "每个版本一个独立构建目录……二进制 sha256 冻结；同一版本在全部对局中位元不变。选手参数只在 match_config.hpp（编译期），无运行时参数注入"
+ },
+ {
+  "id": "PR-19",
+  "text": "自战第二席位 = 同源码换席位重建（team=\"A\"→\"B\"，\"能写死就写死\"合规）；每版本构建 4 个席位变体（A/B/C/D），构建脚本临时改头文件→build→还原。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/38-version-league-spec-2026-10-29.md:18",
+  "category": "protocol",
+  "evidence": "席位/令牌也是 constexpr（team=\"A\"、ai_token=\"practice-A\"），故自战第二席位 = 同源码换席位重建（team=\"B\"、practice-B；\"能写死就写死\"合规）。每版本构建 4 个席位变体（A/B/C/D）"
+ },
+ {
+  "id": "PR-20",
+  "text": "版本联赛先 24 场试点（2 图 × 4 席位 × 3 混合）验证调度器与双选手同场后再放量（144×3 版本）。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/38-version-league-spec-2026-10-29.md:33",
+  "category": "process",
+  "evidence": "先 24 场试点（2 图 × 4 席位 × 3 混合）验证调度器与双选手同场……后再放量。"
+ },
+ {
+  "id": "PR-21",
+  "text": "联赛每局归档字段：代码 SHA、完整参数（params_digest）、AI 模式、session_id、最终名次、score/R/D/M/hp/invalid；版本级报告按初始地图成组，保留最差样本。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/38-version-league-spec-2026-10-29.md:37",
+  "category": "protocol",
+  "evidence": "每局归档：代码 SHA、完整参数（params_digest）、AI 模式、session_id、最终名次、score/R/D/M/hp/invalid。版本级报告：……按初始地图成组，保留最差样本。"
+ },
+ {
+  "id": "PR-22",
+  "text": "短序列差分验收：向原版 practice 与自建引擎输入相同合法动作序列，核对攻击/死亡/重生/增益时序与分数；差分只作一致性证据，不替代原版对局（共享 rules.hpp 可能共享同一错误）。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/38-version-league-spec-2026-10-29.md:41",
+  "category": "protocol",
+  "evidence": "向原版 practice 与自建引擎输入相同合法动作序列，核对攻击/死亡/重生/增益时序与分数。风险：……差分只作一致性证据，不替代原版对局。"
+ },
+ {
+  "id": "PR-23",
+  "text": "practice 原文件保持只读；测试驱动、临时配置和结果放外部（沿用 18 号文档先例）；原版 practice robot_node 只读。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/38-version-league-spec-2026-10-29.md:41",
+  "category": "constraint",
+  "evidence": "practice 原文件保持只读，测试驱动/临时配置/结果放外部（沿用 18 号文档先例）。"
+ },
+ {
+  "id": "PR-24",
+  "text": "不要把旋转/镜像后的同一张图或四席位计作独立新地图。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/review.md:215",
+  "category": "process",
+  "evidence": "不要把旋转/镜像后的同一张图或四席位计作独立新地图。"
+ },
+ {
+  "id": "PR-25",
+  "text": "batch 驱动器、归档与筛选/验证脚本迁入代码仓 tools/ 并随批提交（可重跑脚本、版本清单与归档检查入库）。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/review.md:261",
+  "category": "process",
+  "evidence": "batch 驱动器、归档与筛选/验证脚本下轮迁入代码仓 tools/ 并随批提交。"
+ },
+ {
+  "id": "PR-26",
+  "text": "log 分支归档：每批全量 10 件套 + batch_summary.json + README 上传 log 分支；中断批次 README 必须注明中断。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/37-race-batches-real-battles-2026-10-29.md:51",
+  "category": "protocol",
+  "evidence": "rrh08 7 局全量 10 件套 + batch_summary.json + README……rrh10 3 局 + batch_summary_reconstructed.json + README 注明中断"
+ },
+ {
+  "id": "PR-27",
+  "text": "归档自洽校验：文件内所有 session 匹配目录、起止 Tick 完整、客户端/网关次数同一场、构建 SHA 和配置哈希对应；归档失败就标\"不配套\"，不要自动拼接；原日志不删除，追加勘误/对应说明。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/review.md:17",
+  "category": "process",
+  "evidence": "建议你在本地归档时检查：文件内所有 session 是否匹配目录、起止 Tick 是否完整、客户端/网关次数是否同一场，构建 SHA 和配置哈希是否对应。归档失败就标\"不配套\"，不要自动拼接。原日志不删除，追加一份勘误/对应说明即可。"
+ },
+ {
+  "id": "PR-28",
+  "text": "bot_A.log 必须当局结束后立即从该局路径拷贝，禁止从共享路径统一拷贝（T1 后固化进 copy_batch_artifacts.sh）。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/review.md:70",
+  "category": "process",
+  "evidence": "bot_A.log 必须当局结束后立即从该局路径拷贝，禁止从共享路径统一拷贝。"
+ },
+ {
+  "id": "PR-29",
+  "text": "run.sh 保存机器人输出到项目 log/bot_时间_进程号.log；不要只上传裁判 run_dir 而漏掉外部启动的 A 端日志；日志只供赛后诊断，不反馈到比赛决策输入。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/implementation/EVENT_USE.md:43",
+  "category": "process",
+  "evidence": "run.sh……保存机器人输出到项目log/bot_时间_进程号.log……不要只上传裁判 run_dir 而漏掉外部启动的 A 端日志。日志只供赛后诊断，不反馈到比赛决策输入"
+ },
+ {
+  "id": "PR-30",
+  "text": "运行完整原版 practice 时，把本场的代码 SHA、参数、AI 模式、session 与最终名次一起归档；改善自己原始分与改善最终名次须分开报，直接读取裁判 rank 并保留平局判定键。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/review.md:58",
+  "category": "protocol",
+  "evidence": "运行完整原版 practice 时，把本场的代码 SHA、参数、AI 模式、session 与最终名次一起归档。……后续评测直接读取裁判 rank，并保留平局判定键。改善自己原始分与改善最终名次须分开报。"
+ },
+ {
+  "id": "EV-01",
+  "text": "证据纪律：不要把读取/解析通过说成运行通过，也不要把全仓扫描说成所有源文件逐行审查。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/AGENTS.md:9",
+  "category": "constraint",
+  "evidence": "不要把读取/解析通过说成运行通过，也不要把全仓扫描说成所有源文件逐行审查"
+ },
+ {
+  "id": "EV-02",
+  "text": "所有机制结论标来源，所有策略假设标\"待测试\"；保留原件哈希、版本和许可说明。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/AGENTS.md:6",
+  "category": "constraint",
+  "evidence": "所有机制结论标来源，所有策略假设标'待测试'。保留原件哈希、版本和许可说明"
+ },
+ {
+  "id": "EV-03",
+  "text": "不得把未完成事项（材料递交/ROS 联调等）写成已完成。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/06-delivery-and-schedule.md:29",
+  "category": "constraint",
+  "evidence": "不得把这些写成已完成"
+ },
+ {
+  "id": "EV-04",
+  "text": "不得假称已获胜率；不能把环境启动失败写成策略战败，也不能把 HTTP 200 写成赛事 AI 资格已达成。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/21-ahc068-to-rmtc-decision-study-2026-10-28.md:75",
+  "category": "constraint",
+  "evidence": "不得假称已获胜率……不能把环境启动失败写成策略战败，也不能把 HTTP 200 写成赛事 AI 资格已达成。"
+ },
+ {
+  "id": "EV-05",
+  "text": "实施清单是任务队列，不是已经实现的功能；每项应关联验证日志和规则来源；不把参考 repo 高分作为完成证明。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/09-implementation-checklist.md:23",
+  "category": "constraint",
+  "evidence": "以上是任务队列，不是已经实现的功能。每项应关联验证日志和规则来源；不把参考repo高分作为完成证明。"
+ },
+ {
+  "id": "EV-06",
+  "text": "用户实机记录不冒充本工具亲测（日志 session/分数不匹配时如实标注，不拼凑因果链）。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/27-late-practice-log-integrity-2026-10-28.md:3",
+  "category": "constraint",
+  "evidence": "用户实机记录不冒充本工具亲测"
+ },
+ {
+  "id": "EV-07",
+  "text": "不把文件清单、静态阅读或模拟测试称为真实比赛通过；原版 practice/ 继续只读。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/implementation/MATERIALS_CHECK.md:3",
+  "category": "constraint",
+  "evidence": "本页解释采用了什么，不把文件清单、静态阅读或模拟测试称为真实比赛通过。原版practice/继续只读。"
+ },
+ {
+  "id": "EV-08",
+  "text": "没有把建议的 144 场说成已运行；未修改 practice/（审查记录如实）。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/review.md:229",
+  "category": "constraint",
+  "evidence": "没有把建议的 144 场说成已运行，也未修改 practice/。"
+ },
+ {
+  "id": "EV-09",
+  "text": "复现同类问题时不冒充原场复盘（尚未取得用户具体地图与同场日志时必须如实说明）。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/25-motion-loops-and-recovery-2026-10-28.md:3",
+  "category": "constraint",
+  "evidence": "本轮尚未取得那张具体地图或同场日志；复现同类问题，不冒充原场复盘。……practice18原件不变。"
+ },
+ {
+  "id": "EV-10",
+  "text": "每版 32 例是 4 席位×4 旋转×2 固定敌方动作，不是 32 独立地图；未伪造无风险保证。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/26-subtitle-counterexamples-and-risk-ordering-2026-10-28.md:7",
+  "category": "constraint",
+  "evidence": "每版32例是4席位×4旋转×2固定敌方动作，不是32独立地图。……未伪造无风险保证。"
+ },
+ {
+  "id": "EV-11",
+  "text": "夹具没有敌车、随机事件、任务或 AI，不得当作真实比赛成绩；未完成完整 colcon/WSL 和原版裁判对标准车验收、无有效胜率时必须如实声明。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/implementation/PLANNING.md:49",
+  "category": "constraint",
+  "evidence": "上述夹具没有敌车、随机事件、任务或AI，不得当作真实比赛成绩。……未完成完整colcon/WSL和原版裁判对标准车验收……无有效胜率。"
+ },
+ {
+  "id": "EV-12",
+  "text": "修复候选全部标\"待测试\"，批量验证前不改集中参数默认值。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/28-first-real-llm-dds-battle-2026-10-29.md:111",
+  "category": "constraint",
+  "evidence": "回放驱动修复候选（全部标\"待测试\"，批量验证前不改集中参数默认值）"
+ },
+ {
+  "id": "EV-13",
+  "text": "原始材料保持原样不修改，保留哈希与许可说明（NOTICE）。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/NOTICE.md:1",
+  "category": "constraint",
+  "evidence": "原始材料未修改、保留哈希（NOTICE 材料/许可说明）"
+ },
+ {
+  "id": "TC-01",
+  "text": "QoS 契约：感知、动作 = RELIABLE VOLATILE depth 1；注册、任务、队伍名录 = RELIABLE TRANSIENT_LOCAL depth 1；事件公告 = RELIABLE TRANSIENT_LOCAL depth 128；发布/订阅 QoS 须匹配正式契约，不能把事件也统一设成深度 1。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/14-tactical-and-message-design.md:76",
+  "category": "technical",
+  "evidence": "感知、动作 | RELIABLE | VOLATILE | 1 …… 事件公告 | RELIABLE | TRANSIENT_LOCAL | 128 ……发布/订阅QoS须匹配正式契约，不能把事件也统一设成深度1。"
+ },
+ {
+  "id": "TC-02",
+  "text": "动作 JSON 每 Tick 由本地生成；LLM 异步生成事件 JSON 可跨 Tick，校验后才更新后续状态；不要求逐 Tick 由 AI 生成动作；模型超时不延长动作窗口。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/implementation/MATERIALS_CHECK.md:11",
+  "category": "technical",
+  "evidence": "不要求逐Tick由AI生成动作；模型超时不延长动作窗口 | 动作JSON每Tick由本地生成；LLM异步生成事件JSON，可以跨Tick，校验后才更新后续状态"
+ },
+ {
+  "id": "TC-03",
+  "text": "动作窗口：正式规则 §3 规定第一阶段动作 Tick 为 0–99、第二阶段 0–499；stage1_ticks=100、stage2_ticks=500 集中在配置中；最终状态不发布动作；改变练习长度时明确修改这一处配置并重新编译，practice/ 不改。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/implementation/PLANNING.md:31",
+  "category": "technical",
+  "evidence": "正式规则§3规定第一阶段动作Tick为0–99、第二阶段0–499。stage1_ticks=100、stage2_ticks=500集中在配置中；最终状态不发布动作。……改变练习长度时明确修改这一处配置并重新编译，practice/不改。"
+ },
+ {
+  "id": "TC-04",
+  "text": "复活选点：使用曼哈顿距离；从初始出生点按\"上、右、下、左\"邻接顺序 FIFO 逐层枚举；静态墙、分裂墙和车辆占据不能阻止候选向更远层展开；A→D 依次占位。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/10-rule-clarifications-2026-10-21.md:18",
+  "category": "technical",
+  "evidence": "使用曼哈顿距离，不使用欧氏距离或避障最短路长度 …… 从初始出生点出发，按\"上、右、下、左\"邻接顺序作FIFO逐层枚举……静态墙、分裂墙和车辆占据不能阻止候选向更远层展开。"
+ },
+ {
+  "id": "TC-05",
+  "text": "复活选点实现解释待与裁判对照，不能写成读到了引擎实现。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/10-rule-clarifications-2026-10-21.md:30",
+  "category": "constraint",
+  "evidence": "该队列细节是我们对群内\"逐层搜索\"的实现解释，待与裁判对照，不能写成读到了引擎实现。"
+ },
+ {
+  "id": "TC-06",
+  "text": "所有配置仍在 match_config.hpp（编译期常量）；本轮有界默认取舍未重新自动搜索到所谓最优值；此前选定的采集/任务权重保持不变。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/implementation/NAVIGATION.md:18",
+  "category": "technical",
+  "evidence": "所有配置仍在match_config.hpp：loop_recovery=true、loop_window_ticks=12……这些是本轮有界默认取舍，未重新自动搜索到所谓最优值。此前选定的采集/任务权重保持不变。"
+ },
+ {
+  "id": "TC-07",
+  "text": "模型名采用明确的 deepseek-flash，不按名称猜测能力或自动更换模型；SDK 的 base_url 和 curl 的完整 POST 地址不是同一个配置值。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/implementation/MATERIALS_CHECK.md:16",
+  "category": "technical",
+  "evidence": "模型名采用明确的deepseek-flash，没有按名称猜测能力或自动更换模型。……模型服务的SDK base_url和curl的完整POST地址也不是同一个配置值。"
+ },
+ {
+  "id": "TC-08",
+  "text": "正式上场前仍需实战验证与按规则封存参数（夹具自建对手池非官方标准车）。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/implementation/PLANNING.md:60",
+  "category": "technical",
+  "evidence": "其中陪练不是官方标准车。正式上场前仍需实战验证与按规则封存参数。"
+ },
+ {
+  "id": "TC-09",
+  "text": "无收益证据时保留实现供赛前试验，不默认投入比赛（参数可能过度防守，必须用对照测分）。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/implementation/PLANNING.md:74",
+  "category": "technical",
+  "evidence": "参数可能使它过度防守，必须用对照测分；没有收益证据时保留实现供赛前试验，不默认投入比赛。"
+ },
+ {
+  "id": "TC-10",
+  "text": "用户已明确授权\"跑大量局，不同地图不同对手，轮番检测看回放找问题\"（批量实验授权范围）。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/28-first-real-llm-dds-battle-2026-10-29.md:107",
+  "category": "process",
+  "evidence": "用户已明确授权\"跑大量局，不同地图不同对手，轮番检测看回放找问题\""
+ },
+ {
+  "id": "TC-11",
+  "text": "联调要求：Ubuntu22.04/ROS2 Humble DDS 双向联调（尚未完成时如实标注，不得写成已完成）。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/06-delivery-and-schedule.md:23",
+  "category": "technical",
+  "evidence": "联调 Ubuntu22.04/ROS2 Humble DDS双向"
+ },
+ {
+  "id": "TC-12",
+  "text": "每局每席位 34–46 条公开事件记录少于配置 128 条历史容量即可，事件使用证据链应计数：唯一公告事件数→解释正确数→最晚可用时刻前送达数→可兑现机会数→改变行为数→实际收益；多调用、多改动作都不是优化目标，净得分/名次与费用才是。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/review.md:171",
+  "category": "protocol",
+  "evidence": "建议将计数改为：唯一公告事件数 → 关键字段解释正确数 → 最晚可用时刻前送达数 → 有可兑现机会数 → 改变行为数 → 实际收益。……多调用、多改动作都不是优化目标；净得分/名次与费用才是。"
+ },
+ {
+  "id": "TC-13",
+  "text": "阶段晋级（rrh10 续跑）前提：内存回升至安全边际且用户确认后，用 --only 3..6 逐局干净续跑，不重打已完成局。",
+  "source": "D:/code/The-Logical-Structure-of-RMT-C/docs/37-race-batches-real-battles-2026-10-29.md:21",
+  "category": "process",
+  "evidence": "驱动支持 --only <vid>，可逐局干净续跑（vid 配置由 seed 确定性生成，不重打已完成局）。……续跑须待内存回升且用户确认。"
+ }
+]
