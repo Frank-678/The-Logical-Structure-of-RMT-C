@@ -781,3 +781,9 @@ match_config.hpp 临时写死 key+proxy → build.sh → check_ai.sh → **reque
 - Fix 1（E_BLOCKED 瞬时堵格记忆 receipt_block_ticks）代码已提交并推送 acc91b6（strategy/campaign-sprint-1031）：参数默认 0=关、比赛行为不变；离线竞技场 A/B（block0/8/12/16 heldout 对照）被收尾指令打断、无结果，未晋升——恢复后先补评估再定晋升。
 - 密钥与代理已还原为空（match_config 工作树与 HEAD 双扫描干净，提交信息含「密钥扫描通过」，未推 main/master）。
 - 待办更新：恢复迭代后 (1) arena fix1_block_ab 对照补跑与晋升裁决；(2) 正式尺寸 20×20 stage1 / 24×24 stage2 冒烟（docs/64 结论四）；(3) R3 剩余 20 局续跑。10-31 20:00 材料用户侧三项不变。
+## 2026-10-31 16:29 +0800（Asia/Shanghai）· Claude Code（Frank 侧）· WSL 目录清理 + 模型历程总档（docs/65）
+
+- 用户指令「清理掉；相关与代码强相关的放到 doc/ script/，别全都堆在 cst/」→ 大清理：~/cst 删 178 个变体构建/安装目录（build_camp_*/install_camp_*/build-v-*/install-v-*/build_stage*/install_stage*，均可重建；R3 联赛续跑需先按 r3_driver.sh 重建 27 变体）、bin_bots（无引用）、空 batch_logs；~/ 删 4 个非 git 仓库拷贝、10 个 .out 日志、含 key 的临时 batch_practice.py（canonical 在 cst/tools/）；9 个散落脚本移入 cst/scripts/；批次记录（batch_logs/batch_practice_20261029/30/batch_summary_4-7）归档 cst/log/archive_home_20261031/；~/log（doc 仓 log 分支克隆）删除前验证 HEAD=origin/log。保留 install/（晋升 header）、build/（竞技场活动构建）、practice/practice1/practice2（已追踪）。cst 6.0G→1.5G；移入文件密钥复扫 0 命中；未触碰 ctf/d2l/ros2_ws/fgpa/cherry/vimtutor。
+- review.md 修复（code 仓）：上次 WSL 追加用 'w' 重写导致 21:54 块 69 行换行归一化——按仅追加协议还原 HEAD 字节后 python 'ab' 重放 16:04 条目并追加本条目，净 diff 仅 +14 行（16:04 重放 7 行 + 本条目 7 行）、零删除；两仓同文。
+- docs/65「模型变化历程总览」新增（官方基线深析→战役三连→逐轴调参→联赛同池→d28 全败→官方图冲刺→三件套晋升→终版裁决→R3 联赛→Fix 1，含参数晋升/否决总表）。
+- 推送：code 仓 strategy/campaign-sprint-1031（review.md 修正）；doc 仓 ANALYSIS（docs/65 + review.md）。均未推 main/master。
